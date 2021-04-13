@@ -98,6 +98,7 @@
       "header": 1,
       "entries": [
         "Your magic comes from the planes outside the material one, granting you powerful conjuration magic. You learn additional spells when you reach certain levels in this class, as shown on the Extraplanar Summoner Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+        "Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a {@filter conjuration spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=C|level=1;2;3;4;5}.",
         {
           "type": "table",
           "caption": "Extraplanar Summoner Spells",
@@ -230,7 +231,7 @@
       ]
     },
     {
-      "name": "Imporved Synergist",
+      "name": "Improved Synergist",
       "source": "EPSorc",
       "className": "Sorcerer",
       "classSource": "PHB",
@@ -311,7 +312,7 @@
       "className": "Sorcerer",
       "classSource": "PHB",
       "subclassSource": "EPSorc",
-      "subclassShortName": "Extraplanar Sorcerer",
+      "subclassShortName": "Extraplanar Summoner",
       "page": 2,
       "level": 14,
       "header": 2,
