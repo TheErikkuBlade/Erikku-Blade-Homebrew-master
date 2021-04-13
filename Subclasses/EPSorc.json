@@ -1,0 +1,1259 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "EPSorc",
+        "abbreviation": "EPS",
+        "full": "Extraplanar Summoner Sorcerous Origin",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "color": "4de0bd",
+        "url": "https://docs.google.com/document/d/1unioQLlLV1EKddes0vL06nmZ-pn3GQWa1TQvtDmvGJY/edit?usp=sharing",
+        "targetSchema": "1.2"
+      }
+    ],
+    "dateAdded": 1618291453,
+    "dateLastModified": 1618291453
+  },
+  "subclass": [
+    {
+      "name": "Extraplanar Summoner",
+      "source": "EPSorc",
+      "page": 1,
+      "shortName": "Extraplanar Summoner",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSpells": [
+        "find familiar",
+        "Unseen Servant",
+        "Find Steed",
+        {
+          "name": "Summon Beast",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Fey",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Shadowspawn",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Aberration",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Greater Demon",
+          "source": "TCE"
+        }
+      ],
+      "subclassFeatures": [
+        "Extraplanar Summoner|Sorcerer|PHB|Extraplanar Summoner|EPSorc|1",
+        "Summoner Savant|Sorcerer|PHB|Extraplanar Summoner|EPSorc|6",
+        "Improved Synergist|Sorcerer|PHB|Extraplanar Summoner|EPSorc|6",
+        "Combative Ally|Sorcerer|PHB|Extraplanar Summoner|EPSorc|14",
+        "Extraplanar Master|Sorcerer|PHB|Extraplanar Summoner|EPSorc|18"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Extraplanar Summoner",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Extraplanar Summoner feature}",
+        "Born with a connection to planar magic, sorcerers of this origin are capable of summoning creatures of varying origins. Aberrations, celestials, constructs, fey, fiends, monstrosities, and even undead creatures can be conjured by these odd spellcasters. Your innate magic comes from the other planes, such as the feywild, shadowfell, the outer planes such as the abyss, nine hells, or even mount celestia.",
+        "Extraplanar summoners are extremely handy to have due to the powerful allies they can conjure, however they are tied directly to you, so keeping yourself alive is just as important as keeping your ally healthy.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Summoner Magic|Sorcerer|PHB|Extraplanar Summoner|EPSorc|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Extraplanar Ally|Sorcerer|PHB|Extraplanar Summoner|EPSorc|1"
+        }
+      ]
+    },
+    {
+      "name": "Summoner Magic",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Your magic comes from the planes outside the material one, granting you powerful conjuration magic. You learn additional spells when you reach certain levels in this class, as shown on the Extraplanar Summoner Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+        {
+          "type": "table",
+          "caption": "Extraplanar Summoner Spells",
+          "colLabels": [
+            "Sorcerer Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Find Familiar|PHB}, {@spell Unseen Servant|PHB}"
+            ],
+            [
+              "3rd",
+              "{@spell Find Steed|PHB}, {@spell Summon Beast|TCE}"
+            ],
+            [
+              "5th",
+              "{@spell Summon Fey|TCE}, {@spell Summon Shadowspawn|TCE}"
+            ],
+            [
+              "7th",
+              "{@spell Summon Aberration|TCE}, {@spell Summon Greater Demon|XGE}"
+            ],
+            [
+              "9th",
+              "{@spell Conjure Elemental|PHB}, {@spell Summon Celestial|TCE}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extraplanar Ally",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "{@i 1st-level Extraplanar Summoner feature}",
+        "As an action, you bind another creature’s soul from another plane to your whim and place it within a body you magically conjure. Choose one of the following creature types: aberration, celestial, construct, elemental, fey, fiend, monstrosity, or undead. Depending on the creature type you chose, use the corresponding Extraplanar Ally stat block. The creature obeys your commands and is friendly to you and your allies. It shares your initiative but moves and takes actions either right before or after your turn.",
+        "In addition to summoning the creature, you gain a magical benefit depending on the creature type you chose. You gain one of the following benefits until the Extraplanar Ally is destroyed:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Aberration",
+              "entries": [
+                "You gain the ability to speak telepathically to creatures you can see within 60 ft of you. In addition, you can reach into the minds of other creatures and cripple them. You can cast the {@spell Vicious Mockery} cantrip as if it were a sorcerer spell for you."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Celestial",
+              "entries": [
+                "You gain resistance to radiant damage and can spend your bonus action to heal a creature within 30 ft of you a number of hit points equal to your proficiency bonus."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Construct",
+              "entries": [
+                "You gain resistance to non-magical bludgeoning, piercing, and slashing damage and as a bonus action you can change the damage type of your next spell to force damage until the end of your next turn. You concentrate on this effect as if you were concentrating on a spell."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Elemental",
+              "entries": [
+                "Choose fire, water, earth, or air. In the Extraplanar Ally (Elemental) statblock you use the features corresponding to the chosen type. You gain resistance to poison damage and have advantage on saving throws against being poisoned."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fey",
+              "entries": [
+                "You gain resistance to psychic damage and you have advantage on saving throws against being charmed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fiend",
+              "entries": [
+                "You gain resistance to fire damage you can see normally in darkness, both magical and nonmagical, to a distance of 60 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Monstrosity",
+              "entries": [
+                "You gain a natural weapon in the form of claws or fangs. These natural weapons use your spellcasting ability modifier instead of strength or dexterity for its attack and damage rolls and deal 1d6 slashing or piercing damage (your choice). In addition your armor class increases by half your proficiency bonus (rounded up)."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Undead",
+              "entries": [
+                "You gain resistance to necrotic damage and whenever you deal damage with a spell you can add an additional amount of necrotic damage to the spell equal to your proficiency bonus."
+              ]
+            }
+          ]
+        },
+        "Your Extraplanar Ally is destroyed after a number of hours equal to twice your proficiency bonus, when it is reduced to 0 hit points, or if it is successfully banished via the Banishment spell, or other similar effect. When it is destroyed, its soul returns to its home plane. It retains no memories from when it was traveling with you while on its home plane and when it is summoned again it regains the lost memories. After your Extraplanar Ally is destroyed, you cannot summon it again until you finish a long rest.",
+        "You cannot have more than one Extraplanar Ally at any given time. You can dismiss your Extraplanar Ally as an action, or freely during a short or long rest. Once you dismiss your Extraplanar Ally, you cannot summon a new one until you have finished a long rest."
+      ]
+    },
+    {
+      "name": "Summoner Savant",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Extraplanar Summoner feature}",
+        "When you cast a conjuration spell of 1st level or higher, you can choose to ignore the material cost of the spell. When you do so, you must use an arcane focus but it does not get consumed by the spell.",
+        "You use this feature a number of times equal to your proficiency bonus and regain expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Imporved Synergist",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Extraplanar Summoner feature}",
+        "Your Extraplanar Ally adds your proficiency bonus to its damage rolls for its weapon attacks. Your Extraplanar’s attacks are considered magical for the purposes of overcoming non-magical resistances. In addition, the benefit you gain from your Extraplanar Ally feature gets improved based on the creature type, the following changes (or additions) are made to said benefit:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Aberration",
+              "entries": [
+                "You add an additional amount of psychic damage to {@spell Vicious Mockery|PHB} equal to your proficiency bonus and your telepathy’s range increases to 120 ft."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Celestial",
+              "entries": [
+                "When you heal a creature using the benefit you gain from your Extraplanar Ally feature, you can spend sorcery points up to your proficiency bonus to add 1d4 healing per sorcery point spent."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Construct",
+              "entries": [
+                "You have advantage on saving throws against being paralyzed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Elemental",
+              "entries": [
+                "You have immunity to poison damage instead of resistance."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fey",
+              "entries": [
+                "You have advantage on saving throws against being frightened."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fiend",
+              "entries": [
+                "You can see normally in darkness, magical or nonmagical, to a range of 120 ft instead of 60ft."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Monstrosity",
+              "entries": [
+                "Your speed increases by 15 ft and you gain an amount of temporary hit points equal to twice your proficiency bonus when you gain this feature, finish a long rest, or summon your Extraplanar Ally as a monstrosity."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Undead",
+              "entries": [
+                "When you hit a creature with a spell, you can spend 2 sorcery points to make that creature unable to gain the benefits of healing until the start of your next turn."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combative Ally",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Sorcerer",
+      "page": 2,
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Extraplanar Summoner feature}",
+        "Your Extraplanar Ally gets multiattack, allowing it to make up to two attacks instead of one when it takes the attack action.",
+        "In addition, as a bonus action on your turn you can spend a sorcery point to give a number of temporary hit points equal to your proficiency bonus to your Extraplanar Ally if it is within 60 ft of you."
+      ]
+    },
+    {
+      "name": "Extraplanar Master",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 2,
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "{@i 18th-level Extraplanar Summoner feature}",
+        "You can summon an Extraplanar Ally two times instead of once before you have to finish a long rest if it is destroyed or dismissed, but you can still only have one summoned Extraplanar Ally at any given time.",
+        "In addition when you cast a spell of 1st level or higher, your Extraplanar Ally receives an amount of healing equal to the spell's level plus your proficiency bonus. This healing bypasses its Constructed Body feature.",
+        "Your Extraplanar Ally, and creatures you summon using a Conjuration spell of 1st level or higher gain an amount of temporary hit points when they are summoned equal to your sorcerer level."
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Extraplanar Ally (Base)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "construct",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 13,
+      "int": 9,
+      "wis": 11,
+      "cha": 17,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Aberration)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "aberration",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 17,
+      "dex": 9,
+      "con": 13,
+      "int": 19,
+      "wis": 11,
+      "cha": 15,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "resist": [],
+      "languages": [
+        "Deep Speech",
+        "understands the languages you speak",
+        "telepathy 60 ft."
+      ],
+      "spellcasting": [
+        {
+          "name": "Psionic Spellcasting",
+          "headerEntries": [
+            "The Extraplanar Ally uses intelligence for its Psionic spellcasting (spell save DC equals 8 + PB + its intelligence modifier, and its spell attack is PB + its intelligence modifier.) and it has the following psionic spells:"
+          ],
+          "will": [
+            "{@spell mage hand}",
+            "{@spell mind sliver|TCE}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell charm person}",
+              "{@spell magnify gravity|EGW}",
+              "{@spell Tasha's mind whip|TCE}"
+            ]
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Tentacle",
+          "entries": [
+            "{@atk mw} {@hit PB + 3} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage and the target is {@condition grappled} (escape DC equals 8 + PB + Strength Modifier."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Psychic Backlash",
+          "entries": [
+            "If the Extraplanar Ally is attacked by a creature within 15 ft of it, it can deal a number of psychic damage equal to your proficiency bonus."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Tentacles"
+      ],
+      "languageTags": [
+        "DS",
+        "TP"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Celestial)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "celestial",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 13,
+      "int": 9,
+      "wis": 11,
+      "cha": 17,
+      "passive": 10,
+      "resist": [
+        "radiant"
+      ],
+      "languages": [
+        "Celestial",
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Healing Touch (PB/Day)",
+          "entries": [
+            "The Extraplanar Ally touches another creature. The target magically regains 7 ({@dice 1d8 + 3}) hit points."
+          ]
+        },
+        {
+          "name": "Radiant Longsword",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant damage, or 9 ({@damage 1d10 + 4}) radiant damage if used with both hands."
+          ]
+        }
+      ],
+      "languageTags": [
+        "CE"
+      ],
+      "damageTags": [
+        "R"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Construct)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "construct",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 17,
+      "int": 9,
+      "wis": 11,
+      "cha": 13,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Elemental)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "elemental",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": {
+          "number": 30,
+          "condition": "(Earth)"
+        },
+        "swim": {
+          "number": 30,
+          "condition": "(Water)"
+        },
+        "fly": {
+          "number": 30,
+          "condition": "(hover) (Air)"
+        },
+        "canHover": true
+      },
+      "str": 19,
+      "dex": 11,
+      "con": 17,
+      "int": 9,
+      "wis": 15,
+      "cha": 13,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "Primordial",
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Flaming Body (Fire)",
+          "entries": [
+            "The Extraplanar Ally's slam attack deals fire damage instead of bludgeoning. The Extraplanar Ally is immune to fire damage."
+          ]
+        },
+        {
+          "name": "Amorphous Form (Air, Fire, and Water Only)",
+          "entries": [
+            "The Extraplanar Ally can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Freeze (Water)",
+          "entries": [
+            "If the extraplanar ally (elemental) takes cold damage, it partially freezes; its speed is reduced by 20 feet until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Invisible in Water (Water)",
+          "entries": [
+            "The water weird is {@condition invisible} while fully immersed in water."
+          ]
+        },
+        {
+          "name": "Hardened Body (Earth)",
+          "entries": [
+            "The extraplanar ally reduces damage it takes from bludgeoning, piercing, and slashing damage by an amount equal to your proficiency bonus."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Amorphous"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "P"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Fey)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "fey",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 19,
+      "con": 13,
+      "int": 11,
+      "wis": 17,
+      "cha": 15,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        "psychic"
+      ],
+      "conditionImmune": [],
+      "languages": [
+        "Sylvan",
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The extraplanar ally has advantage on saving throws against being {@condition charmed}, and magic can't put the extraplanar ally (fey) to sleep."
+          ]
+        },
+        {
+          "name": "Invisibility",
+          "entries": [
+            "The extraplanar ally can use a bonus action to become {@condition invisible}. This invisibility ends if it attacks or if a spell is cast originating from it."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The extraplanar ally has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Thorny Shortsword",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Off-Hand Thorny Shortsword",
+          "entries": [
+            "The Extraplanar Ally can engage in two-weapon fighting using its off-hand Thorny Shortsword, but it does not add its ability modifier to the damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "S"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Fiend)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "fiend",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 13,
+      "int": 9,
+      "wis": 11,
+      "cha": 17,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [],
+      "languages": [
+        "Abyssal or Infernal; understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Devil's Sight",
+          "entries": [
+            "Magical darkness doesn't impede the extraplanar ally's darkvision."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The extraplanar ally has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, plus 3 ({@damage 1d6}) fire damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Devil's Sight",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "AB",
+        "I"
+      ],
+      "damageTags": [
+        "F",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Monstrosity)",
+      "source": "EPSorc",
+      "size": "L",
+      "type": "monstrosity",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 17,
+      "int": 9,
+      "wis": 13,
+      "cha": 11,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "conditionImmune": [],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits):",
+            "{@b Winged} - it gains a flying speed of 40 ft.",
+            "{@b Aquatic} - it gains a swimming speed of 40 ft. and can breathe in both air and water.",
+            "{@b Spiked} - creatures that make melee weapon attacks against it while within 5ft of it takes piercing damage equal to PB.",
+            "{@b Siege Monster} - it always scores a critical hit on objects.",
+            "{@b Tough Body} - it has an additional number of maximum hit points equal to two times your PB.",
+            "{@b Durable Body} - it gains a bonus to its AC equal to its constitution modifier.",
+            "{@b Tail Attack} - it gains a tail attack, which it can use as a bonus action to make an additional attack when it takes the attack action."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Natural Weapon",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "Tail (See Variable Trait)",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Tail (See Variable Trait)",
+          "entries": [
+            "After the extraplanar ally takes the attack action, it can immediately use its bonus action to make a tail attack."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Undead)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "undead",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + 5 times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 17,
+      "int": 9,
+      "wis": 11,
+      "cha": 13,
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 10,
+      "resist": [
+        "necrotic"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits):",
+            "{@b Undead Fortitude} - it gains the undead fortitude trait, see the {@creature Zombie|MM} statblock from the Monster Manual for details.",
+            "{@b Regeneration} - it gains the regeneration trait, see the {@creature Vampire|MM} from the Monster Manual for details. If it takes radiant damage or damage from holy water, this trait doesn't function at the start of the extraplanar ally's next turn. This healing bypasses its Constructed Body trait.",
+            "{@b Spectral Form} - it gains a flying speed of 30 ft and can hover. In addition it gains the incorporeal movement trait. See the {@creature Ghost|MM} statblock from the Monster Manual for details.",
+            "{@b Shadowy Form} - it gains the amorphous trait (see {@creature Shadow|MM} from the Monster Manual for details.) and can hide as a bonus action while in dim light or darkness.",
+            "{@b Undead Resistance} - it gains resistance to fire, cold, and lightning damage; and it also gains resistance to non-magical bludgeoning, piercing, and slashing damage.",
+            "{@b Chilling Touch} - when it uses its Life Drain attack, that target cannot gain the benefits of healing until the start of the extraplanar ally's next turn.",
+            "{@b Absorb Life} - when it uses its Life Drain attack, it regains hit points equal to the amount of damage it dealt to the creature. This healing bypasses its Constructed Body trait."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Life Drain",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) necrotic damage."
+          ]
+        }
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "damageTags": [
+        "N"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    }
+  ]
+}
