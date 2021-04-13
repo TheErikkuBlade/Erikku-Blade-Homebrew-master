@@ -1,0 +1,1180 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AdditionalFey",
+				"abbreviation": "AF",
+				"full": "Additional Fey",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1602104385,
+		"dateLastModified": 1602104385
+	},
+	"monster": [
+		{
+			"name": "Fey Champion",
+			"source": "AdditionalFey",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"wood elf"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item elven chain}",
+						"{@item shield, +1}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "27d8 + 135",
+				"average": 256
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 17,
+			"dex": 22,
+			"con": 20,
+			"int": 13,
+			"wis": 17,
+			"cha": 12,
+			"save": {
+				"con": "+11",
+				"wis": "+9",
+				"cha": "+7",
+				"dex": "+12"
+			},
+			"skill": {
+				"perception": "+15",
+				"arcana": "+7",
+				"acrobatics": "+12",
+				"nature": "+7",
+				"stealth": "+12",
+				"survival": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 25,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Sylvan",
+				"Elvish"
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Fey Champion's innate spellcasting ability is Wisdom (spell save {@dc 17}, spell attack +9). They can innately cast the following spells, requiring no material components:"
+					],
+					"constant": [
+						"{@spell aura of life|PHB}",
+						"{@spell aura of vitality|PHB}"
+					],
+					"will": [
+						"{@spell animal friendship|PHB}",
+						"{@spell charm person|PHB}",
+						"{@spell druidcraft|PHB}",
+						"{@spell hunter's mark|PHB}",
+						"{@spell speak with animals|PHB}",
+						"{@spell speak with plants|PHB}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell animal messenger|PHB}",
+							"{@spell charm monster|XGE}",
+							"{@spell conjure animals|PHB}",
+							"{@spell conjure woodland beings|PHB}",
+							"{@spell flame arrows|XGE}",
+							"{@spell lightning arrow|PHB}",
+							"{@spell Melf's acid arrow|PHB}",
+							"{@spell staggering smite|PHB}",
+							"{@spell summon fey spirit|UA2020SpellsAndMagicTattoos}"
+						],
+						"1e": [
+							"{@spell animal shapes|PHB}",
+							"{@spell conjure elemental|PHB}",
+							"{@spell conjure fey|PHB}",
+							"{@spell influence of the feywild|AdditionalFey}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"The champion rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the champion can regain 20 hit points."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The fey champion has advantage on saving throws against being {@condition charmed}, and magic can't put the fey champion to sleep."
+					]
+				},
+				{
+					"name": "Chameleon Skin",
+					"entries": [
+						"The fey champion has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The fey champion has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The fey champion ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The champion makes three attacks with its shortsword or its shortbow."
+					]
+				},
+				{
+					"name": "Shortsword of the Feywild",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 7}) slashing damage, plus 10 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Shortbow of the Feywild",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 6}) piercing damage, plus 10 ({@damage 2d6}) psychic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The Fey Champion adds a +6 to its AC against a single melee attack."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Fey Champions are mighty warriors who honed their fighting skills in the feywild. To elves and other fey who fight to protect themselves or even their homes, champions fight for the Feywild as a whole."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/6zRlgUJ.png",
+			"soundClip": "https://cdn.discordapp.com/attachments/451126814077616140/708859086342455296/Fey_Champion.mp3",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Faenix",
+			"source": "AdditionalFey",
+			"page": 1,
+			"size": "H",
+			"type": "fey",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d12 + 50",
+				"average": 115
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 120
+			},
+			"str": 11,
+			"dex": 24,
+			"con": 20,
+			"int": 8,
+			"wis": 19,
+			"cha": 16,
+			"save": {
+				"wis": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+10",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				},
+				{
+					"resist": [
+						"cold"
+					]
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Fiery Death and Rebirth",
+					"entries": [
+						"When the faenix dies, it explodes. Each creature within 60-feet of it must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't worn or carried.",
+						"The explosion destroys the faenix's body and leaves behind an egg-shaped seed that weighs 5 pounds. The seed is burningly cold, dealing 21 ({@damage 6d6}) fire damage to any creature that touches it, though no more than once per round. The seed is immune to all damage, and after {@dice 2d6} days, it hatches a new faenix."
+					]
+				},
+				{
+					"name": "Fire Form",
+					"entries": [
+						"The faenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the faenix or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d8}) fire damage. In addition, the faenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d8}) fire damage. With a touch, the faenix can also ignite flammable objects that aren't worn or carried (no action required)."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The faenix doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The faenix sheds bright light in a 60-foot radius and dim light for an additional 30 feet."
+					]
+				},
+				{
+					"name": "Feywild Flames",
+					"entries": [
+						"The faenix ignores any damage resistances or immunity to fire damage."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The faenix has advantage on saving throws against being {@condition charmed}, and magic can't put the faenix to sleep."
+					]
+				},
+				{
+					"name": "Cold Flames",
+					"entries": [
+						"The faenix can replace its fire damage with cold damage if it so chooses."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The faenix makes two attacks: one with its beak and one with its fiery talons."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Fiery Talons",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain"
+			],
+			"fluff": {
+				"entries": [
+					"The Faenix is an Elemental birthed from the Feywild, a response to the Elementals during the Planar War. The Faenix was a fierce weapon from the Feywild as its fire burned coldly. It is said that its fire could harm any creature, including those who were supposed to be naturally resistant to fire. Though it is indeed a powerful recreation of the Elemental Phoenix, it is not a perfect replica."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/yal5bM4.png",
+			"soundClip": "https://cdn.discordapp.com/attachments/451126814077616140/708869782358851694/Faenix.mp3",
+			"traitTags": [
+				"Fey Ancestry",
+				"Flyby",
+				"Illumination"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Siren",
+			"isNpc": true,
+			"source": "AdditionalFey",
+			"page": "1",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 40",
+				"average": 85
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"str": 15,
+			"dex": 20,
+			"con": 18,
+			"int": 13,
+			"wis": 14,
+			"cha": 20,
+			"skill": {
+				"medicine": "+5",
+				"nature": "+7",
+				"stealth": "+8",
+				"survival": "+5",
+				"athletics": "+5",
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Siren's innate spellcasting ability is Charisma (spell save {@dc 16}). She can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell animal friendship}",
+							"{@spell charm person}",
+							"{@spell enthrall}",
+							"{@spell fog cloud}",
+							"{@spell greater invisibility}",
+							"{@spell polymorph} (self only)",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Siren can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Siren has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage, plus 19 ({@damage 4d6 + 5}) psychic damage while the target is {@condition charmed}."
+					]
+				},
+				{
+					"name": "Stupefying Touch",
+					"entries": [
+						"Siren touches one creature she can see within 5 feet of her. The creature must succeed on a {@dc 16} Intelligence saving throw or take 25 ({@damage 6d6 + 4}) psychic damage and be {@condition stunned} until the start of Siren's next turn."
+					]
+				},
+				{
+					"name": "Luring Song",
+					"entries": [
+						"The siren sings a magical melody. Every humanoid and giant within 300 feet of the siren that can hear the song must succeed on a {@dc 16} Wisdom saving throw or be {@condition charmed} until the song ends. The siren must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the siren is {@condition incapacitated}.",
+						"While {@condition charmed} by the siren, a target is {@condition incapacitated} and ignores the songs of other siren. If the {@condition charmed} target is more than 5 feet away from the siren, the target must move on its turn toward the siren by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the siren, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.",
+						"A target that successfully saves is immune to this siren's song for the next 24 hours."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"swamp",
+				"underwater"
+			],
+			"fluff": {
+				"entries": [
+					"Originally, sirens were what are now known as the harpies. As time went on, the depiction of the sirens evolved into the fey we now know them as. ",
+					"Sirens are fey that are spiteful toward mankind. Their beauty and lustful singing can enchant the hearts of even the strongest men and lure them to the Siren, similarly as the harpies do. When their prey are lured in to their lair, they devour those who are foolish and weak enough to fall for their enchantments. Few return with their lives to tell the tale, and fewer return claiming they had slain the creature."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/PnzrMbf.png",
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated",
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible"
+			]
+		},
+		{
+			"name": "Winter Walker",
+			"source": "AdditionalFey",
+			"page": "1",
+			"size": "H",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"Natrual Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "12d12 + 48"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 13,
+			"con": 18,
+			"int": 3,
+			"wis": 9,
+			"cha": 17,
+			"save": {
+				"con": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+2",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"acid",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Understands Sylvan but does not speak it"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Freezing Aura",
+					"entries": [
+						"Any creature that starts its turn within 30 feet of the Winter Walker must succeed on a {@dc 15} Constitution saving throw or take 7 ({@damage 2d6}) cold damage and grant the Winter Walker advantage on attack rolls against it until the start of the creature's next turn. The affected creatures also suffers disadvantage on attack rolls and their movement speed is reduced by 10 ft. Creatures with resistance to cold damage have advantage on the saving throw."
+					]
+				},
+				{
+					"name": "Limited Invisibility",
+					"entries": [
+						"While the winter walker is in a blizzard, it is {@condition invisible}. It can still be partially visible but only by creatures with a 15 passive perception or higher, canceling the effects of it's limited invisibility. It appears as a translucent ghost while within this limited invisibility."
+					]
+				},
+				{
+					"name": "Aversion of Fire",
+					"entries": [
+						"If the winter walker takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The nightwalker uses Frostbitten Touch twice, or it uses Frostbitten Touch and Chilling Doom, if available."
+					]
+				},
+				{
+					"name": "Frostbitten Touch",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}17 ({@damage 3d8 + 5}) cold damage. The target must succeed on a {@dc 15} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest."
+					]
+				},
+				{
+					"name": "Chilling Doom {@recharge}",
+					"entries": [
+						"The winter walker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or take 18 ({@damage 3d12}) cold damage and become {@condition frightened} until the end of the winter walker's next turn. While {@condition frightened} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the winter walker's Chilling Doom for the next 24 hours."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge 5}",
+					"entries": [
+						"The winter walker exhales an icy blast in a 30-foot cone. Each creature in that area must make a {@dc 15} Constitution saving throw, taking 45 ({@damage 10d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"feywild",
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"entries": [
+					"Unknown to most travelers, there is a monster that can only be found during the winter times, where the Feywild and the material plane converges the most.",
+					"The Unseelie Court created a creature bound by a curse that infects other creatures with this same curse. The creature walks aimlessly until the death of winter. If it comes across any travelers, it thoughtlessly attacks. This creature's main drive is to protect the crossroads between the Feywild and the material plane, however it is void of any form of sanity or consciousness. It has no real thoughts, only about the fight and how it will kill its current or next prey.",
+					"When winter comes to an end, the creature fades away. Supposedly, there is a section of the Feywild that is in an endless winter, which is where these Winter Walkers go to wander until the next winter comes.",
+					"As a fail safe, they gave the creature an unnatural weakness to fire in case these monsters decided to turn against them."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/dA0Xs1I.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S"
+			],
+			"damageTags": [
+				"C"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Archfey",
+			"source": "AdditionalFey",
+			"size": "L",
+			"type": "fey",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"Natural Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d10 + 100",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 20,
+			"dex": 24,
+			"con": 20,
+			"int": 19,
+			"wis": 22,
+			"cha": 25,
+			"save": {
+				"con": "+10",
+				"wis": "+11",
+				"cha": "+12"
+			},
+			"skill": {
+				"arcana": "+9",
+				"deception": "+12",
+				"history": "+9",
+				"perception": "+11"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						{
+							"special": "and damage from spells"
+						}
+					]
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from  non-magical damage"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed"
+			],
+			"languages": [
+				"Common",
+				"Sylvan",
+				"and three others"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Archfey is an 18th level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 20}, +12 to hit with spell attacks). The Archfey has the following spells prepared, from the Druid and Warlock spell lists. The Archfey can cast these spells without requiring material components."
+					],
+					"will": [
+						"{@spell conjure fey}",
+						"{@spell locate animals or plants}",
+						"{@spell plant growth}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell eldritch blast}",
+								"{@spell guidance}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell cure wounds}",
+								"{@spell faerie fire}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell augury}",
+								"{@spell enhance ability}",
+								"{@spell flaming sphere}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell call lightning}",
+								"{@spell conjure animals}",
+								"{@spell counterspell}",
+								"{@spell wind wall}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell confusion}",
+								"{@spell conjure minor elementals}",
+								"{@spell conjure woodland beings}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell cone of cold}",
+								"{@spell conjure elemental}",
+								"{@spell greater restoration}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell druid grove|XGE}",
+								"{@spell heal}",
+								"{@spell transport via plants}",
+								"{@spell wind walk}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}",
+								"{@spell power word pain|XGE}",
+								"{@spell regenerate}",
+								"{@spell whirlwind|XGE}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell control weather}",
+								"{@spell demiplane}",
+								"{@spell earthquake}",
+								"{@spell power word stun}"
+							],
+							"slots": 0
+						},
+						"9": {
+							"spells": [
+								"{@spell gate}",
+								"{@spell imprisonment}",
+								"{@spell shapechange}",
+								"{@spell true resurrection}"
+							],
+							"slots": 0
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Otherworldly Spell Versatility {@recharge 5}",
+					"entries": [
+						"If the Archfey so chooses, they can use a bonus action on their turn to exchange one spell they have prepared with another one from the Druid and Warlock spell lists."
+					]
+				},
+				{
+					"name": "Tree Stride",
+					"entries": [
+						"Once on their turn, the archfey can use 10 feet of movement to step magically into one living tree within reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+					]
+				},
+				{
+					"name": "Speak with Beasts and Plants",
+					"entries": [
+						"The archfey can communicate with beasts and plants as if they shared a language."
+					]
+				},
+				{
+					"name": "Superior Invisibility",
+					"entries": [
+						"As a bonus action, the archfey can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the archfey wears or carries is {@condition invisible} with it."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the archfey fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The Archfey casts a cantrip."
+					]
+				},
+				{
+					"name": "Conjure Fey (costs 2 Actions)",
+					"entries": [
+						"As the Archfey, he can summon other Sylvan creatures to fight alongside him in combat or to aid in any myriad of tasks. The creatures he can summon include Blink Dogs, Satyrs, Green and Sea Hags, Faerie Dragons, Pixies, Sprites and Dryads. These summons have the same Charisma and Dexterity as the Archfey, while all other stats remain the same."
+					]
+				},
+				{
+					"name": "Reversal (costs 3 Actions)",
+					"entries": [
+						"Until the Archfey’s next turn, all incoming attacks, spells, and magical effects have the chance to backfire and cause damage to the creature who initially targeted the Archfey. Roll a {@dice d100}: anything below a 50 backfires upon said creature and above 50 the attack carries through as normal. A backfired attack or effect makes the source of said attack or effect the centered target of it. If a saving throw is required, they must make it as if they were the target of the effect."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"grassland",
+				"swamp",
+				"underwater"
+			],
+			"fluff": {
+				"entries": [
+					"“You dare set foot in my court, desecrating this place we Fair Folk find sacred no matter what walk of life we choose. You will wish that your toes had never stepped here in the first place.” – Archfey Nuada the Silver-Handed",
+					"It is known that the fey are strange, miraculous beings, but their power is dwarfed by that of the Archfey. In the eyes of sylvan beings, none compare in their mastery of the arcane and of trickery. They keep grudges for what seems like eternity, and will not let up on the chase for something even if it means watching from a distance their prey weaken and diminish. Always with a other-worldly grace to them, they look similar to elves but have wings that take the form of either ones belonging to insects like dragonflys or birds. Some even have wings resembling those of dragons and demons.",
+					"For all of their power, they seldom travel out of the world of Faerie, and due to this they enlist Warlocks to serve them in whatever way they wish. Some seek ever-growing knowledge while others wish to spread mischief and chaos wherever they go. They grant great power: power that makes  their servants fear if they should ever fail their patron or even dare to go against their will."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "http://bagelscampaigns.wdfiles.com/local--files/archfey/pfrost-squeen.jpeg"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/criticalrole/images/a/ad/Artagan-by-David-Rodrigues.jpg/revision/latest?cb=20161213041735"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://lh3.googleusercontent.com/proxy/GLPRHMV-2GqqCfzV9gaj4TVLTyydRGwBU94DBeW6ORrg6HJzuVTmfZwG2P6PS3Cpb7F6kKUWt4cURsoPKhJQXFuWNcymo1zThsDCO2smgw=w1200-h630-p-k-no-nu"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/MZ3RjPf.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"spellcastingTags": [
+				"CD",
+				"CL"
+			]
+		},
+		{
+			"name": "Swarm of Death Butterflies",
+			"source": "AdditionalFey",
+			"page": 338,
+			"size": "L",
+			"type": {
+				"type": "beast",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8",
+				"average": 36
+			},
+			"speed": {
+				"walk": 5,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 10,
+			"int": 1,
+			"wis": 12,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"languages": [
+				"Bitch do I speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+					]
+				},
+				{
+					"name": "Poisonous Bites",
+					"entries": [
+						"A creature that is hit by the swarm of butterflies must make a dc 13 constitution saving throw or be {@condition poisoned} for 1 hour. If a creature spends their action doing nothing, at the end of their turn they can repeat their save, ending the condition on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Swarm of Insects",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "inset",
+										"name": "The Nature of Swarms",
+										"entries": [
+											"The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/zFslE6I.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/swarm-of-insects.mp3?v=1.113.0"
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		}
+	]
+}

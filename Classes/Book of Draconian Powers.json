@@ -1,0 +1,870 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DrP",
+        "abbreviation": "DrP",
+        "full": "Book of Draconian Powers",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "3.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "optionalfeature": [
+    {
+      "source": "DrP",
+      "name": "All Knowing Eyes",
+      "entries": [
+        "You learn the identify spell and can cast it without requiring components or spending a spell slot. Charisma is your spellcasting ability for this spell. Instead of having a range of touch, you can identify an object so long as you can see it and is within 30 ft. If you have the spellcasting or pact magic feature, you can cast this spell using one of those spell slots, but you use the original components and range to do so."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Dragonsong",
+      "entries": [
+        "You gain proficiency in two musical instruments of your choice. ",
+        "As a bonus action you can evoke the power of your Dragonsong for 1 minute. While active, your Dragonsong gives a +2 bonus to your AC and Dexterity Saving throws. You cannot use your Dragonsong again until you finish a long rest."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Sight of the Land and Seas",
+      "entries": [
+        "You gain a tremorsense of 30 feet."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Minor Draconian Senses",
+      "entries": [
+        "You gain 60 ft of darkvision. If you already had darkvision, its range increases by 30 ft."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Eyes of the Magi Drakes",
+      "entries": [
+        "You learn the detect magic spell and can cast it once without requiring components, regaining the usage of it after a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Sense Treasure",
+      "entries": [
+        "You can detect whether or not gold or magical items are within 30ft of you, but not how much or where specifically. This sense does not properly function if the treasure is worth less than 50 gp in value, or if it is protected by divination magic or if it is wrapped in a thin sheet of lead."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Graceful Fall",
+      "entries": [
+        "You can magically summon forth gales of wind powerful enough to stop your fall. You learn the feather fall spell and can cast it without spending a spell slot or requiring components once. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconic Heritage",
+      "entries": [
+        "Regardless of your race, you can take any racial feat that requires a dragonborn, half dragon, or other similar races."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Abstract Origins",
+      "entries": [
+        "Your ancestry was more prominent with dragon-kind than you initially believed, while you do not gain the natural resistances of both worlds, you have multiple dragon-kind in your history. Choose one additional Draconic Origin. You do not gain any additional proficiencies or resistances, but you can now take feats or Draconian Powers with prerequisites requiring that Draconic Origin."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconic Sigils",
+      "entries": [
+        "You’ve learned how to use special sigils to protect yourself and your belongings. You can carve these sigils into any object big enough to fit them. In order for a sigil to be active, a creature must attune to it as they would a magic item, but this does not count as an attuned magic item nor does it count against your attunement slots. You have three sigils, a creature can only be attuned to one sigil at a time, any attempt to attune to a different sigil ends the attunement on the previous one.",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Sigil of Storage",
+              "entries": [
+                "This sigil can be stored on any stone or container. Simply tap an item onto the object with the sigil, and it vanishes into an extradimensional space. This space can store up to 100 lbs worth of items. If more than 100 lbs is in use, the object shatters and all the items stored within it drop within 5 ft of the destroyed object. If creatures are occupying that space, they take 2d10 bludgeoning damage. You cannot have an object with an extradimensional storage, such as a bag of holding or similar item inside of an object with the sigil of storage."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Sigil of Protection",
+              "entries": [
+                "This sigil can go on any tiny object that can be worn or carried. This object provides a +1 to AC or saving throws (you choose upon attunement). If the attuned creature takes damage, this benefit is subsided until the start of their next turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Sigil of Warning",
+              "entries": [
+                "If something in your possession is taken without your knowledge, you get an alarm from your head warning you that something is wrong. You do not know what is immediately taken, only that something is missing. In addition, while you are asleep you get a mental ping if a creature comes within 10 ft of you."
+              ]
+            }
+          ]
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Knowledge of the Dragon Kin",
+      "entries": [
+        "You have an astute memory and can recall lore quicker than a scholar. You have advantage on Intelligence ability checks used to recall history, lore, or information on magical creatures."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Fiendish Legacy",
+      "entries": [
+        "Your draconic blood comes from a dragon from either the Abyss or the Nine Hells. You have resistance to damage from fiends and you do not suffer the negative effects of being in the Abyss or the Nine Hells. In addition, regardless of your race you can take any of the racial feats that has a prerequisite for tiefling, or any race with origins from the Abyss or Nine Hells."
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Acidic Shield",
+      "entries": [
+        "Your resistance to acid damage becomes improved when traversing through non-magical acid. If you are partially or fully submerged in non-magical acid, you can traverse through it as if you were swimming through water. If you are fully submerged, you take 4d10 acid damage for every minute you spend submerged. If you are partially submerged, you take 2d10 acid damage for every minute you spend submerged."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Black or Copper Draconic Origins",
+            "entrySummary": "Black or Copper Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Gift of the Sea Dragon",
+      "entries": [
+        "You can breathe underwater as you do air. In addition, you gain a swimming speed equal to your walking speed. If you already had a swimming speed, it increases by 30 ft."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Gold, Green, Bronze, White, or Black Draconic Origins",
+            "entrySummary": "Gold, Green, Bronze, White, or Black Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Magma Walk",
+      "entries": [
+        "Your resistance to fire damage becomes improved when traversing through non-magical lava. If you are partially or fully submerged in non-magical lava, you can traverse through it as if you were swimming through water. If you are fully submerged, you take 4d10 fire damage for every minute you spend submerged. If you are partially submerged, you take 2d10 fire damage for every minute you spend submerged."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          },
+          "otherSummary": {
+            "entry": "Gold, Brass, or Red Draconic Origins",
+            "entrySummary": "Gold, Brass, or Red Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Tundra Walker",
+      "entries": [
+        "You’ve become naturally adept to the frozen climates. You ignore difficult terrain accustomed to frozen wastelands or extremely cold environments, along with any detrimental effects that follows.",
+        "In addition, you’ve learned how to use these frozen environments to your advantage. You learn the Armor of Agathys spell and while in one of the aforementioned environments, you can cast it at its lowest level at will, without spending a spell slot or requiring material components. Otherwise, you can cast it once without spending a spell slot and cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast this spell using one of those spell slots, but you use the original components to do so."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "White or Silver Draconic Origins ",
+            "entrySummary": "White or Silver Draconic Origins "
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "You're a Wizard, Dragon",
+      "entries": [
+        "A magical spell book appears into your hands. As a bonus action, you can send this spellbook into an extradimensional space and vice versa. You learn one cantrip from the Wizard spell list. You also learn two first level spells from the Wizard spell list and can cast each of them without requiring material components once, regaining the ability to do so after a long rest. The spells are written into your spellbook, and you can use your spellbook as an arcane focus. Intelligence is your spellcasting ability for these spells. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so.",
+        "When you gain a level in any class, you can replace one of the spells in your spellbook with another spell from the Wizard’s spell list."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Gold Draconic Origins",
+            "entrySummary": "Gold Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconian Breath Weapon",
+      "entries": [
+        "Depending on the Draconian Origin you picked you gain a breath weapon that does 4d6 damage. The number of damage dice increases by 2 at 5th level, and then again at 10th, once more at 15th, and one last time at 20th level. You have a number of uses of this Draconian Power equal to half your Proficiency Bonus (rounded down, minimum of 1) and regain all uses of it after a long rest. (Look at the Dragonborn Ancestry to determine the damage type and range). At 5th level the breath weapon increases to a range of a 30 foot cone or line depending on the type of dragon, 60 feet at 11th level, and 90 feet at 17th. The save DC for this power is 8 + Proficiency Bonus + your Constitution modifier."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconian Familiar",
+      "entries": [
+        "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon with this feature. The Pseudodragon has the “Familiar” feature when summoned in this way."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Deadly Veroicity",
+      "entries": [
+        "If you move 20 ft towards a creature and make a melee weapon attack against that creature, you add an additional 1d6 damage of the weapon’s type and they make a strength saving throw DC = 8 + your proficiency bonus + your strength or dexterity modifier. On a failed save, they are knocked prone."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconian Shapechanger",
+      "entries": [
+        "You learn the disguise self and alter self spells, and can cast each of them without requiring components once per short or long rest without spending a spell slot. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconic Wings",
+      "entries": [
+        "You grow a pair of wings that allows you to fly. While you are wearing medium or light armor, or wearing no armor, you gain a flying speed equal to your walking speed."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Moderate Draconian Senses",
+      "entries": [
+        "You gain 10 ft of  blindsight and 120 ft of darkvision if you don’t have it already. If you already had darkvision, its range increases by 60 ft."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Mystical Insight",
+      "entries": [
+        "As an action you can make a Wisdom (Insight) check opposed against an opposing creature’s Charisma (Deception) check. On a success, you can determine whether the creature is evil, good, or neutral and their creature type."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Greater Draconian Familiar",
+      "entries": [
+        "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon or a Faerie Dragon with this feature. The Pseudodragon or Faerie Dragon has the “Familiar” feature when summoned in this way."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Dragon's Fury",
+      "entries": [
+        "You have a special action that you can use to unleash a powerful barrage of attacks. You make four melee weapon attacks, but you do not add your Strength or Dexterity modifier to the damage rolls of the last two attacks. If you use an ability modifier for damage other than Strength or Dexterity, the same restriction applies. When you use this feature, you lose the ability to do so, but you roll a d6 at the start of each of your turns. On a 5-6 you regain the usage of this feature. You also regain the usage of this feature when you roll initiative."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Hyper Draconian Senses",
+      "entries": [
+        "You gain 30 ft of  blindsight and 120 ft of darkvision if you don’t have it already. Magical darkness no longer impedes your darkvision. If you already had darkvision, its range increases by 60 ft. If you already had blindsight, its range increases by 20 ft."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Improved Flight",
+      "entries": [
+        "Your ability to fly has greatly improved since you started, and now you can rival the speed of most dragons. Your flying speed increases by 30 ft."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 14,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          },
+          "otherSummary": {
+            "entry": "Draconic Wings",
+            "entrySummary": "Draconic Wings"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconic Artifact",
+      "entries": [
+        "A magical artifact with draconic origins appears in your hand. Work with your DM on the specifics of the magical item, but the specific guidelines of the item goes as follows:",
+        {
+          "type": "list",
+          "items": [
+            "The item requires attunement, but does not count against your total attunement slots. Only you can attune to this item.",
+            "If the item is a weapon, it is a magical weapon with a +3 magic bonus to its attack and damage rolls.",
+            "It has one minor beneficial artifact property, one major beneficial artifact property, and one minor detrimental artifact property. You can roll these on their respective tables, or the DM can choose the properties of the item.",
+            "If it is an arcane focus, it grants a +2 to spell attack bonus and a +2 to spell save dc.",
+            "The item is riddled with draconic scales related to the Draconic Origins of its weidler."
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 16,
+            "class": {
+              "name": "Dragon Warrior, Dragon Shaman"
+            }
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Shared Powers",
+      "entries": [
+        "Your manifested dragon shares the Draconian Powers that you possess that do not have the “Summoner Archetype” prerequisite."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Aura of Friendship",
+      "entries": [
+        "When your manifested dragon is within 10 feet of you, it has a bonus to all saving throws equal to your charisma modifier, to a minimum of 1."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Dragon Rider",
+      "entries": [
+        "When you manifest your dragon, it comes equipped with an exoctic saddle. This saddle has holsters for up to two weapons and a large quiver that can hold up to 40 arrows. While you are mounted on a dragon, you have the following benefits:",
+        {
+          "type": "list",
+          "list": [
+            "You have advantage on melee attack rolls against any unmounted creature that is smaller than your dragon.",
+            "You can force an attack targeted at your dragon to target you instead.",
+            "If your dragon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Trained Body",
+      "entries": [
+        "You’ve trained your manifested dragon to endure the trials of combat. Your manifested dragon has resistance to slashing, piercing, and bludgeoning damage from non-magical attacks."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Manifest Draconian Magen",
+      "entries": [
+        "As a 1 hour ritual you can summon a dragon-like humanoid to be at your service. Use the Demos Magen statblock with the following changes:",
+        {
+          "type": "list",
+          "items": [
+            "Its appearance changes to be more akin to a half dragon or a dragonborn.",
+            "It can speak, but only in Draconic.",
+            "It has a telepathic link with you, granting it telepathy but only to you out to a range of 100 ft."
+          ]
+        },
+        "Once you have manifested this magen, it remains summoned for 8 hours and you cannot summon it again until you have finished a long rest. If it is reduced to 0 hit points, it dies. You can only have one Draconian Magen summoned at any given time."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 14,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Persistent Allies",
+      "entries": [
+        "Whenever your manifested dragon is within 30 feet of you they regain 5 hit points at the start of their turn as long as they have at least 1 hit point. In addition if they fail a saving throw while within 30 ft of you, they can spend their reaction to reroll that saving throw."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Legendary Summons",
+      "entries": [
+        "When you manifest your dragon, it gains 3 legendary resistances that it can use. See “Legendary Resistance” from an Adult Dragon for reference. These legendary resistances do not recharge per dawn, and you can only give a manifested dragon these legendary resistances once per long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 20,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Invocation of Shadows",
+      "entries": [
+        "As an action, you can assume a shadowy form by spending 2 invoke energy that grants you the powers of a shadow dragon for 1 minute. While in this shadowy form, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "While in dim light or darkness, you have resistance to damage that isn't force, psychic, or radiant.",
+            "You have advantage on (Dexterity) Stealth checks while in dim light or darkness.",
+            "You gain resistance to necrotic damage, and if you have a breath weapon or the Dragonfire Invocation (from a racial ability, feat, spell, or class feature) it can deal necrotic damage instead of its normal damage."
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": "",
+          "otherSummary": {
+            "entry": "Invoker Archetype",
+            "entrySummary": "Invoker Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Invocation of Recovery",
+      "entries": [
+        "As an action you can spend invoke energy up to your proficiency bonus to touch a creature and heal them for 1d8 hit points per invoke energy spent. Alternatively, as an action you can spend 2 invoke energy to cure a poison or disease afflicting a creature you touch."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Invoker Archetype",
+            "entrySummary": "Invoker Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Invocation of Spell Recovery",
+      "entries": [
+        "During a short rest, you can spend hit dice to restore spent 1st level spell slots. Once you do so, you cannot do so again until you finish a long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Invoker Archetype",
+            "entrySummary": "Invoker Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Invocation of Greater Spell Recovery",
+      "entries": [
+        "During a short rest, you can spend hit dice to restore spent 2nd level spell slots. Once you do so, you cannot do so again until you finish a long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Invoker Archetype, Invocation of Spell Recovery",
+            "entrySummary": "Invoker Archetype, Invocation of Spell Recovery"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Legendary Invocation",
+      "entries": [
+        "When you spend invoke energy to use one of your invocations, you gain a legendary resistance. See “Legendary Resistance” from an Adult Dragon for reference. You can only gain up to 3 legendary resistances per long rest, and you can only gain a legendary resistance once per round."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 20,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Invoker Archetype",
+            "entrySummary": "Invoker Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Rune of Old Magicks",
+      "entries": [
+        "Magical runes appear on your body with spells stored inside of them. You learn one cantrip from the sorcerer spell list and any two 1st level spells from the sorcerer spell list. When you cast either of these spells, you cannot cast that spell using this rune again until you finish a long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Runic Scribe",
+            "entrySummary": "Runic Scribe"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Rune of Spell Disruption",
+      "entries": [
+        "A magical rune appears on your hand which contains the power to disrupt spells. You learn the counterspell and dispel magic spells. When you cast either of these spells, you cannot cast that spell using this rune again until you finish a long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 8,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Runic Scribe",
+            "entrySummary": "Runic Scribe"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Rune of Greater Magicks",
+      "entries": [
+        "You learn two additional spells from the sorcerer spell list. These spells follow the same rules as the ones from the Rune of Old Magicks, but can be of 1st to 3rd level spells."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Runic Scribe, Rune of Old Magicks",
+            "entrySummary": "Runic Scribe, Rune of Old Magicks"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Legendary Runes",
+      "entries": [
+        "Your runic power fills you with old magic that you can use to further protect yourself from modern magic. Whenever you invoke the latent power of your runes, you gain a legendary resistance. See “Legendary Resistance” from an Adult Dragon for reference. You can only gain up to 3 legendary resistances per long rest, and you can only gain a legendary resistance once per round."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 20,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Runic Scribe",
+            "entrySummary": "Runic Scribe"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Coming of Age",
+      "entries": [
+        "Your size increases by 1 stage when you use your Draconian Shape. In addition, when you transform using your Draconian Shape you gain temporary hit points equal to your constitution modifier plus your proficiency bonus."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Dragon Shaman",
+            "entrySummary": "Dragon Shaman"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Aberrant Dragon",
+      "entries": [
+        "Whenever you would deal damage that would correspond with the damage you resist from your Draconic Origins, you can instead deal psychic damage. This choice can be made before or after you roll the damage, but before you know the result. In addition, you gain resistance to psychic damage and as a bonus action you can establish a telepathic link to one creature you can see within 30 feet of you. This telepathic link allows you to communicate freely telepathically for up to twice the amount you could normally speak in the span of 6 seconds. ",
+        "You are given two Warlock Spell Slots, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites). You also gain the Eldritch Blast and one additional cantrip from the Warlock Spellcasting List. You also gain 4 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 6th level Warlock.",
+        "As you gain Dragon Shaman levels, or if you choose this Draconian Power at a later level, you can replace the spells you know with other spells from the same spellcasting list. In addition, you learn 1 warlock spell for each dragon shaman level above 6th. You gain additional Warlock Spell Slot at 11th level, and another one at 17th level. You also gain an additional Eldritch Invocation at these given levels.",
+        "Your appearance also changes. Your body might have a coating of viscous slime, tough hide, scales, perhaps you have an invisible barrier or any other weird aberrant things your sick mind can come up with. As a result, this gives you an increase to your armor class equal to half your Intelligence modifier. (Rounded down to a minimum of 1)"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Shaman"
+            }
+          },
+          "otherSummary": {
+            "entry": "Dragon Shaman",
+            "entrySummary": "Dragon Shaman"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    }
+  ]
+}

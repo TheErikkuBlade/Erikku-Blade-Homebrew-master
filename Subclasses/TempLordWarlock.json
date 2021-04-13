@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "TempLordWarlock",
+        "abbreviation": "TLW",
+        "full": "Temporal Lord Patron",
+        "url": "",
+        "authors": [
+          "Erikku Blade"
+        ]
+      }
+    ],
+    "dateAdded": 1589600092,
+    "dateLastModified": 1589600092,
+    "unlisted": true
+  },
+  "subclass": [
+    {
+      "class": "Warlock",
+      "name": "Temporal Lord",
+      "source": "TempLordWarlock",
+      "subclassSpells": [
+        "Shield",
+        "Tenser's Floating Disk",
+        "Gift of Alacrity",
+        "Magnify Gravity",
+        "Nystul's Magic Aura",
+        "Blur",
+        "Fortune's Favor",
+        "Immovable Object",
+        "Wristpocket",
+        "Haste",
+        " Slow",
+        "Blink",
+        "Pulse Wave",
+        "Mordenkainen's Private Sanctum",
+        "Leomund's Secret Chest",
+        "Gravity Sinkhole",
+        "Passwall",
+        "Teleportation Circle",
+        "Temporal Shunt",
+        "Gravity Fissure",
+        "Tether Essence",
+        "Dark Star",
+        "Reality Break",
+        "Ravenous Void",
+        "Time Ravage",
+        "Time Stop"
+      ],
+      "subclassFeatures": [
+        [
+          {
+            "name": "Temporal Curse",
+            "entries": [
+              "Beginning at 1st level as a bonus action you choose one creature that you can see within 120ft of you. That creature becomes paralyzed until the end of your next turn. Additionally once they are freed from this effect they receive a -2 to AC and disadvantage on all Dexterity Saving Throws and attacks made against them have advantage. Attacks they make have disadvantage. These effects last for 1 minute. Once the curse wears off time speeds up for the target, adding a +2 to their AC and all attacks they make have advantage and attacks made against them have disadvantage. They also have advantage on all their dexterity saving throws. These effects last for 1 minute. While under any of the above effects you have the “Temporal Fluctuation” condition. If the creature is immune to being paralyzed they make a Wisdom Saving throw equal to your spell save DC, on a success the Temporal Curse has no effect and the usage is wasted. On a failed save they are paralyzed regardless of their immunities.",
+              "You can use this curse a number of times equal to your charisma modifier but can only use it on 1 target at a time. You regain all uses of this curse after a short or long rest.",
+              {
+                "type": "entries",
+                "name": "Expanded Spell List",
+                "entries": [
+                  "The Temporal Lord patron lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                  {
+                    "type": "table",
+                    "caption": "Temporal Lord Expanded Spells",
+                    "colLabels": [
+                      "Spell Level",
+                      "Spells"
+                    ],
+                    "colStyles": [
+                      "col-3 text-center",
+                      "col-9"
+                    ],
+                    "rows": [
+                      [
+                        "1st",
+                        "{@spell shield}, {@spell tenser's floating disk}, {@spell Gift of Alacrity|egw}, {@spell magnify gravity|egw}"
+                      ],
+                      [
+                        "2nd",
+                        "{@spell blur}, {@spell nystul's magic aura}, {@spell fortune's favor|egw}, {@spell immovable object|egw}, {@spell wristpocket|egw}"
+                      ],
+                      [
+                        "3rd",
+                        "{@spell slow}, {@spell haste}, {@spell blink}, {@spell pulse wave|egw}"
+                      ],
+                      [
+                        "4th",
+                        "{@spell mordenkainen's private sanctum}, {@spell leomund's secret chest}, {@spell gravity sinkhole|egw}"
+                      ],
+                      [
+                        "5th",
+                        "{@spell passwall}, {@spell teleportation circle}, {@spell temporal shunt|egw}"
+                      ],
+                      [
+                        "6th",
+                        "{@spell gravity fissure|egw}"
+                      ],
+                      [
+                        "7th",
+                        "{@spell tether essence|egw}"
+                      ],
+                      [
+                        "8th",
+                        "{@spell dark star|egw}, {@spell reality break|egw}"
+                      ],
+                      [
+                        "9th",
+                        "{@spell ravenous void|egw}, {@spell time ravage|egw}, {@spell time stop}"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Fate Redirection",
+                "entries": [
+                  "Beginning at 6th level as a reaction you can take advantage of the fluctuating ether surrounding a creature. When a creature who has the Temporal Fluctuation condition, or a condition with a similar effect, would hit you with any attack roll or magical effect, this includes saving throws, you can make a Charisma Saving Throw DC equal to 10 + half the Character’s Level or CR. On a successful save you take no damage and the attack either misses or is canceled out. On a failed save you take half the damage you would normally take. If the attack involved a saving throw you automatically fail the saving throw and suffer the effects as per normal."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Temporal Step",
+                "entries": [
+                  "Beginning at 10th level as bonus action you can cast the Etherealness spell on yourself without having to spend material components by spending a warlock spell slot. By spending two spell slots you can cast it normally and once you have a 7th level Mystic Arcanum you can cast Etherealness with that 7th level Mystic Arcanum. Once you reach 18th level you can cast Etherealness at will once per short rest or long rest. While under the effects of Etherealness you can cast your Eldritch Blast and target creatures as per normal but the damage will begin to stack instead of being dealt immediately. Your attacks are at advantage unless the creature can see into the Ethereal Plane. Once you exit your Etherealness effects the damage that was stacked up is dealt immediately to the target’s HP."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Time Lord",
+                "entries": [
+                  "Beginning at 14th level time is irrelevant to you, by some freak accident or by chance alone you have found yourself into a place of paradoxical existence. The place you have stumbled into is your Realm of Paradox. Whenever you take a short or long rest you can choose to enter this realm and rest. It takes about 10 minutes of concentration and meditation to enter this realm but as you do your body phases out of the material plane and into your Realm of Paradox. This realm grants you newfound abilities as you are absorbing the Paradoxical Energy around you. When you rest here you gain temporary hit points equal to your warlock level. You also gain a new resource known as “Temporal Points”. You have a number of these equal to your warlock level + your Charisma Modifier. These points can be used for your “Time Manipulation” options below. These abilities are used as free actions unless stated otherwise. You can only use 1 Time Manipulation per round. When you leave the realm you return to the moment in which you originally left the material plane. Once you have gained the benefits from your Paradox Realm you cannot do so again until next dawn. You also never age as time no longer affects you. You also can move freely whenever someone casts Time Stop and other effects that manipulate time, magical or not, do not affect you.",
+                  "Reverse - 1 Point : If an attack hits you, or if you make an attack roll, saving throw, ability check, or use your action, you can reverse time to the exact point you did so, you regain any hit points you’ve lost within that time frame and any other expended usages of other resources or materials is also returned. However the same happens to everyone else. Anything that an opposing creature was attempting to do must be redone as if nothing changed for them, however they re-roll anything they have done prior to the reverse. You however, can change your actions, make a different choice that could potentially alter the course of events. Only you remember the previous events that transpired. Other creatures get an odd feeling or feel like something is missing.",
+                  "See Future - 1 Point : Ask your DM and your Players what their turns during the next round are going to be, or if their turns are upcoming what they are going to do. Everyone rolls their actions as per normal and the DM describes the events that play out within the next round of combat. Afterwards You revert everything as it was from your current turn. You ultimately decide what to do with that information, but if you do not warn your allies, they must play those actions and use the same rolls as before.",
+                  "Sense History - 2 Points : You spend an hour meditating in one area. Declare to the GM how far back into the past you wish to see. For that hour you see everything that happened within that allocated time either sped up or slowed down to meet that hour. Alternatively you can choose to meditate for the full duration of the past, but must succeed on a concentration check every hour as if you were casting a spell. If you choose to see the past while it’s being sped up, you must pass a DC 20 perception check to fully perceive it. On a failed check you only receive bits and pieces like an idea of what’s going on but you won’t get any dialogue. If you take damage while meditating you are instantly interrupted, or if a creature uses an action they can end your concentration.",
+                  "Pause - 4 Points : You can cast Time Stop using a warlock spell slot. (This ability cannot be used again until you regain the benefits of your Paradox Realm)",
+                  "Temporal Shatter - 8 Points : Whenever you hit a creature with a weapon or spell attack you can add 10d6 “Temporal Damage” to the attack. This damage cannot be reduced by any means, nor can anything be immune or resistant to it. A creature suffering this damage also suffers disadvantage on all saving throws and a -5 to their AC for 1 minute. These effects do not stack.",
+                  "Temporal Blessing - 10 Points : You can concentrate on 3 additional spells at the same time for the next hour. Additionally, you can spend an action to use the Foresight Spell at will, but can only target yourself, for the next hour."
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "shortName": "Temporal Lord"
+    }
+  ]
+}

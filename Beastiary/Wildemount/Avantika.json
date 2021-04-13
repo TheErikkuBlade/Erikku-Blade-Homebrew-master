@@ -1,0 +1,225 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Wildmount-FrozenSick",
+				"abbreviation": "WFS",
+				"full": "Wildmount - Frozen Sick",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1612301581,
+		"dateLastModified": 1612301581
+	},
+	"monster": [
+		{
+			"name": "Avantika",
+			"isNamedCreature": true,
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 42",
+				"average": 105
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 16,
+			"int": 12,
+			"wis": 10,
+			"cha": 22,
+			"save": {
+				"wis": "+5",
+				"cha": "+11"
+			},
+			"skill": {
+				"arcana": "+6",
+				"perception": "+5",
+				"athletics": "+7",
+				"deception": "+11",
+				"stealth": "+10",
+				"sleight of hand": "+10",
+				"religion": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The warlock's innate spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arms of Hadar}",
+							"{@spell counterspell}",
+							"{@spell hunger of Hadar}",
+							"{@spell lightning bolt}",
+							"{@spell shield}",
+							"{@spell wrathful smite}"
+						]
+					},
+					"will": [
+						"{@spell eldritch blast} (three rays)",
+						"{@spell invisibility}",
+						"{@spell lightning lure|SCAG}",
+						"{@spell minor illusion}",
+						"{@spell sapping sting|EGW}",
+						"{@spell thaumaturgy}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Limited Amphibiousness",
+					"entries": [
+						"The warlock can breathe air and water, but it needs to be surfaced at least once every 4 hours to avoid suffocating."
+					]
+				},
+				{
+					"name": "Shark Telepathy",
+					"entries": [
+						"The warlock can magically command any shark within 120 feet of it, using a limited telepathy."
+					]
+				},
+				{
+					"name": "Maddening Hexblade's Curse (1/rest)",
+					"entries": [
+						"As a bonus action, Avantika chooses one creature she can see within 30 feet. The target is cursed for 1 minute. The curse ends early if the target dies, she dies, or if she is {@condition incapacitated}. Until the curse ends, she deals an extra 11 points of psychic damage to the target and her weapon attacks scores a critical on a 19-20. If the cursed target dies, Avantika regains 20 hit points."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede Avantika's darkvision."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Avantika has advantage on saving throws against being {@condition charmed}, and magic can't put Avantika to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warlock makes two attacks."
+					]
+				},
+				{
+					"name": "+1 Rapier",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Eldritch Blast (Cantrip)",
+					"entries": [
+						"{@atk rs} {@hit 11} to hit, range 120 ft., one creature. {@h} ({@damage 1d10 + 6}) force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Avantika adds a +2 to her AC."
+					]
+				},
+				{
+					"name": "Armor of Hexes",
+					"entries": [
+						"If a cursed target hits Avantika with an attack, she can roll a {@dice d6}. On a 4 or higher, the attack misses, regardless of the roll."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The slumbering leviathan Uk'otoa preys on the fears and ambitions of humanoids that brave the depths of the Lucidian Ocean. Countless communities of sahuagin inhabit uncharted pockets of water along the Menagerie Coast, and the most ambitious among them often hear the call of the leviathan in their dreams, urging them to take his power and use it to achieve their bloodsoaked dreams."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://art.ngfiles.com/images/1005000/1005721_othalam_critical-role-avantika-sfw.jpg?f1566839802"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/EvrvEqo.png",
+			"traitTags": [
+				"Devil's Sight",
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"invisible"
+			]
+		}
+	]
+}

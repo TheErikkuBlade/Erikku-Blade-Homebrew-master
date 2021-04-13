@@ -1,0 +1,320 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Wildmount-FrozenSick",
+				"abbreviation": "WFS",
+				"full": "Wildmount - Frozen Sick",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1612301620,
+		"dateLastModified": 1612301620
+	},
+	"monster": [
+		{
+			"name": "Naamah, The Pleasant Queen",
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 112",
+				"average": 240
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 120,
+				"canHover": false
+			},
+			"str": 24,
+			"dex": 20,
+			"con": 24,
+			"int": 19,
+			"wis": 22,
+			"cha": 25,
+			"skill": {
+				"deception": "+17",
+				"insight": "+16",
+				"perception": "+16",
+				"persuasion": "+17",
+				"stealth": "+15"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 26,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Common",
+				"Infernal",
+				"telepathy 60 ft."
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Telepathic Bond",
+					"entries": [
+						"The fiend ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Exploitation of the Debtors",
+					"entries": [
+						"As a bonus action, the angel targets a creature {@condition charmed} by it that it can see within 30 feet of it. The angel deals 11 ({@damage 2d10}) necrotic damage to the target, and the angel gains temporary hit points equal to the damage dealt."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"Naamah doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Fallen Angelic Weapons",
+					"entries": [
+						"Naamaah's weapon attacks are magical. When she Naamaah hits with any weapon, the weapon deals an extra {@damage 5d8} necrotic damage."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"Naamaah knows if she hears a lie."
+					]
+				},
+				{
+					"name": "Dive Attack",
+					"entries": [
+						"If Naamaah is flying and dives at least 30 feet. straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 6 ({@damage 2d6}) damage to the target."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Naamaah fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Lustful Desires (Mythic Trait; Recharges after a Short or Long Rest)",
+					"entries": [
+						"If Naamah is reduced to 0 hit points, she regains 160 hit points and springs back to her feet with a burst of necrotic energy. Each creature of Naamah's choice within 30 feet of her must succeed on a {@dc 20} Charisma saving throw, or the creature takes 24 ({@damage 6d8}) necrotic damage and is {@condition charmed} until the end of Naamah's turn.",
+						"Afterwards, for the next hour her walking speed increases by 10 feet and her fly speed increases by 30 feet and her Fallen Angelic Weapons increases by {@dice 1d8}."
+					]
+				},
+				{
+					"name": "Aura of Lust",
+					"entries": [
+						"Each creature within 30 feet of the succubus at the start of each of their turns makes a {@dc 20} Wisdom saving throw. On a failed save, they are {@condition charmed} and take {@damage 2d6} psychic damage. On a success, they are not {@condition charmed} and takes no damage. A {@condition charmed} creature makes attacks at the succubus at disadvantage."
+					]
+				},
+				{
+					"name": "Special Equipment; Spear of Lustful Desires",
+					"entries": [
+						"This magical spear brings out the most inner lustful thoughts and desires of a creature on hit. A creature hit with this magic weapon can only suffer non-lethal damage. In addition, they must pass a {@dc 17} Wisdom Saving throw or become {@condition charmed} by its wielder. A creature {@condition charmed} in this way is {@condition incapacitated} lusting over its wielder. A {@condition charmed} creature repeats its saving throw at the end of each of its turns, ending the effect on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Charm",
+					"entries": [
+						"One humanoid the fiend can see within 30 feet of it must succeed on a {@dc 20} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fiend's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours.",
+						"The fiend can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
+					]
+				},
+				{
+					"name": "Draining Kiss",
+					"entries": [
+						"The fiend kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 20} Constitution saving throw against this magic, taking 63 ({@damage 10d10 + 8}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage, plus 25 ({@damage 5d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Spear of Lustful Desires",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 10}) piercing damage, plus 25 ({@damage 5d8}) necrotic damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/succubus-incubus.mp3?v=1.106.13"
+			},
+			"traitTags": [
+				"Shapechanger",
+				"Flyby",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"CE",
+				"C",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"Y",
+				"S",
+				"N",
+				"P",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"tokenUrl": "https://i.imgur.com/FWns0d6.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "http://www.artofmtg.com/wp-content/uploads/2016/03/Avacyn-the-Purifier-MtG-Art.jpg"
+						}
+					}
+				]
+			},
+			"isNamedCreature": true,
+			"shortName": "Naamaah",
+			"legendary": [
+				{
+					"name": "Lustful Binding",
+					"entries": [
+						"Naamah chooses one humanoid that she can see within 30 feet. She uses her Charm on the target, even if the target had passed its save against it (a creature who has succeeded once before must make the save again, becoming {@condition charmed} as normal on a failure, after the 3rd save it becomes immune to this legendary action)."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Naamah magically teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see."
+					]
+				},
+				{
+					"name": "Searing Burst (Costs 2 Actions)",
+					"entries": [
+						"Namaah emits magical, divine energy. Each creature of her choice in a 10-foot radius must make a {@dc 20} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage plus 14 ({@damage 4d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Naamah's spellcasting ability is Charisma (spell save {@dc 20}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell calm emotions}",
+						"{@spell charm person}",
+						"{@spell enemies abound|XGE}",
+						"{@spell enthrall}",
+						"{@spell incite greed|AI}",
+						"{@spell Otto's irresistible dance}",
+						"{@spell suggestion}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm monster|XGE}",
+							"{@spell dominate person}",
+							"{@spell geas}",
+							"{@spell mass suggestion}",
+							"{@spell modify memory}"
+						],
+						"1e": [
+							"{@spell dominate monster}",
+							"{@spell feeblemind}",
+							"{@spell power word kill}",
+							"{@spell psychic scream|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"radiant"
+			],
+			"mythic": [
+				{
+					"name": "Lustful Chain",
+					"entries": [
+						"Naamah binds a creature to her lustful desires. She chooses a creature she can see within 60 feet of her. Until the end of her next turn, that creature is {@condition charmed}."
+					]
+				},
+				{
+					"name": "Unbound Desires (Costs 3 Actions)",
+					"entries": [
+						"Naamah suppresses any spells, magical effects, or magic items within 30 feet of her granting creatures immunity to being {@condition charmed} for the next minute."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If Naamah's mythic trait is active, she can use the options below as legendary actions for 1 hour after using Hearts of the Kraken."
+			]
+		}
+	]
+}

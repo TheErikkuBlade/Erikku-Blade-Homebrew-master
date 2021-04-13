@@ -1,0 +1,435 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DragonAgeMonsters",
+				"abbreviation": "DAM",
+				"full": "Dragon Age Monsters",
+				"url": "https://drive.google.com/file/d/0B24pe2OjsjKxcUtobHBaeEl3VjA/view",
+				"authors": [
+					"Emmet Byrne"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1606852233,
+		"dateLastModified": 1606852233
+	},
+	"monster": [
+		{
+			"name": "Genlock",
+			"source": "DragonAgeMonsters",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"darkspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"poison"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons that aren't silvered"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"vulnerable": [
+				"radiant",
+				{
+					"special": "damage from silvered weapons"
+				}
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the genlock can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The genlock has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The genlock has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the genlock has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The genlock makes two attacks with its battleaxe or its handaxe."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage in melee, or 6 ({@damage 1d6 + 3}) slashing damage at range."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Most numerous of the darkspawn by far, genlocks are tough and stocky fighters with a penchant for wickedly hooked axes. Unlike the majority of their brethren, they are swift to take up the more complicated weapons of their enemies, employing siege engines in battle and using clever traps to defend any terrain they control. ",
+					"Ferelden’s Circle of Magi believes that their propensity to mine the Deep Roads for lyrium has given genlocks a resistance to magic, for they’ve been known to shrug off spells in battle with little effect. Genlocks tend to be slightly shorter than dwarves with pale white or yellowish skin. They are invariably bald, with deep set eyes and sunken cheeks. Their voices are low and harsh, punctuated by occasional grunts."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/783410796377538570/unknown.png?width=491&height=627"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/t0MUo0f.png",
+			"traitTags": [
+				"Aggressive",
+				"Keen Senses",
+				"Magic Resistance",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Hurlock",
+			"source": "DragonAgeMonsters",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"darkspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item half plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 8,
+			"skill": {
+				"intimidation": "+3"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"poison"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical weapons that aren't silvered"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"vulnerable": [
+				"radiant",
+				{
+					"special": "damage from silvered weapons"
+				}
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The genlock has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the genlock has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the hurlock can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hurlock that isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The genlock makes two attacks with its greatsword."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The shock vanguard of the darkspawn, hurlocks are burly soldiers far stronger than the average human. The hurlock are so arrogant they even look down on other darkspawn, convinced that they are truly the chosen race. They are deadly fighters who wield massive two handed blades in battle, and scar or tattoo themselves regularly to denote their kills. They typically have to wear patchwork armor, as few full sets that can fit one of them exist. Their skin tone ranges from pale white to dark brown. If they are not bald, which is common, then their hair is always black."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/783416204290162709/unknown.png?width=462&height=627"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/QXHs3v2.png",
+			"traitTags": [
+				"Keen Senses",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Genlock Runt",
+			"source": "DragonAgeMonsters",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"darkspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant",
+				{
+					"special": "damage from silvered weapons"
+				}
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the genlock can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The genlock has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The genlock has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the genlock has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The genlock makes two attacks with its battleaxe or its handaxe."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage in melee, or 5 ({@damage 1d6 + 2}) slashing damage at range."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Most numerous of the darkspawn by far, genlocks are tough and stocky fighters with a penchant for wickedly hooked axes. Unlike the majority of their brethren, they are swift to take up the more complicated weapons of their enemies, employing siege engines in battle and using clever traps to defend any terrain they control. ",
+					"Ferelden’s Circle of Magi believes that their propensity to mine the Deep Roads for lyrium has given genlocks a resistance to magic, for they’ve been known to shrug off spells in battle with little effect. Genlocks tend to be slightly shorter than dwarves with pale white or yellowish skin. They are invariably bald, with deep set eyes and sunken cheeks. Their voices are low and harsh, punctuated by occasional grunts."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/783410796377538570/unknown.png?width=491&height=627"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/t0MUo0f.png",
+			"traitTags": [
+				"Aggressive",
+				"Keen Senses",
+				"Magic Resistance",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		}
+	]
+}

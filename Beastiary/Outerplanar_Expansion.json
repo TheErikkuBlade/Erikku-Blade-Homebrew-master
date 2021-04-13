@@ -1,0 +1,496 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "OuterplanarExpansion",
+				"abbreviation": "OE",
+				"full": "Outerplanar Expansion",
+				"url": "",
+				"authors": [],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1618008357,
+		"dateLastModified": 1618008357
+	},
+	"monster": [
+		{
+			"name": "Astral Stalker",
+			"source": "OuterplanarExpansion",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 80",
+				"average": 152
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 23,
+			"dex": 19,
+			"con": 21,
+			"int": 12,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"dex": "+8",
+				"con": "+9",
+				"int": "+5",
+				"cha": "+8"
+			},
+			"skill": {
+				"athletics": "+10",
+				"stealth": "+12",
+				"perception": "+10",
+				"investigation": "+9",
+				"survival": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the astral stalker is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the astral stalker instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The astral stalker deals an extra 20 ({@damage 6d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Swift Hunter",
+					"entries": [
+						"The astral stalker can take the Dash or Hide action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Elusive Prey",
+					"entries": [
+						"Creatures have disadvantge on ability checks made to track the stalker."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The astral stalker makes two claw attacks. The astral stalker can replace one of its attacks with its claw with a throat dart."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Throat Dart",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/150 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw 24 ({@damage 7d6}) poison damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The creature looks like a muscular humanoid with thick black-green skin. Its demonic visage is reminiscent of a skeletal human with a prominent jaw. Its hands end in large, wickedly sharp claws.",
+					"Astral stalkers roam the multiverse looking for the ultimate quarry. They live for the thrill of the hunt, and they measure their personal worth and status in their community by the number and power of the creatures that they have successfully hunted.",
+					"These able hunters prefer to stalk intelligent foes, and the pleasure they gain from hunting these creatures for sport makes them evil by the standards of any race. However, astral stalkers adhere to a short list of tenets that they refer to as the Rules of the Hunt: Once its quarry has knowingly eluded an astral stalker, it will never again hunt that creature; if hired to hunt a creature, the stalker will not hunt its employer for at least one year; and no astral stalker will ever hunt another astral stalker.",
+					"Astral stalkers find that their prey provides better sport if it knows it is being hunted, so they often warn their quarry in some roundabout fashion before beginning the hunt.",
+					"An astral stalker typically stands 6 feet tall and weighs 275 pounds."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/iToVcia.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/mxtaeQU.png",
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Glaistig",
+			"source": "OuterplanarExpansion",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 9",
+				"average": 49
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 12,
+			"int": 13,
+			"wis": 14,
+			"cha": 19,
+			"save": {
+				"dex": "+6",
+				"con": "+4"
+			},
+			"skill": {
+				"deception": "+7",
+				"athletics": "+4",
+				"insight": "+5",
+				"performance": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"cold",
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The glaistig's innate spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell fog cloud}",
+						"{@spell suggestion}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell hypnotic pattern}",
+							"{@spell water breathing}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The glaistig can breathe air and water."
+					]
+				},
+				{
+					"name": "Water Symbiosis",
+					"entries": [
+						"Each glaistig is mystically bound to a body of water or a waterway as small as a pond or as large as a lake or river. A glaistig cannot move more than 600 feet away from its body of water and still breathe normally. If a glaistig strays farther away, it must hold its breath or immediately start to suffocate. If the glaistig is summoned by a spell, or conjured by a spell such as {@spell Conjure Fey}, it can breath normally for the duration of the spell, after which it immediately begins to suffocate if it is not returned to its home plane. Once a glaistig has moved beyond the boundary of its connection, it cannot breathe normally until it has immersed itself in its body of water."
+					]
+				},
+				{
+					"name": "Blood Drain",
+					"entries": [
+						"If the glaistig is grappling a creature, whenever it deals damage to the {@condition grappled} target using its bite; it regains hit points equal to the damage dealt and that creature's maximum hit points is reduced by the same amount. If a creature's maximum hit points are reduced to zero by this feature, it dies. A creature's hit point maximum reduced by this feature is restored to normal when it finishes a long rest."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Glaistig makes two bite attacks."
+					]
+				},
+				{
+					"name": "Beguiling Song",
+					"entries": [
+						"A glaistig can attempt to beguile creatures with its song. A glaistig sings, targeting a single creature it can see within 100 ft. Of the body of water to which it is linked (see Water Symbiosis, above). A creature is immune to the Beguiling Song if it is {@condition deafened}, {@condition unconscious}, or cannot hear the song. The targeted creature must make a {@dc 15} Wisdom saving throw or be {@condition charmed} by the Glaistig. A creature {@condition charmed} in this way spends their turn taking the most direct path to the Glaistig and spends its action worshiping the Glaistig's beauty. An affected creature repeats its save at the end of each of its turn, ending the effect on a success. A creature who succeeds on the glaistig's beguiling song is immune to its effects for the next 24 hours."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Glaistig Mindbender",
+					"entries": [
+						"Naturally inclined toward magic and enchantments of all kinds, many glaistigs become sorcerers that specialize in mind-bending magic. They use these abilities to enhance their chances of luring prey to their watery homes. The following spells are added to the Glaistig's At Will innate spellcasting: {@spell charm person}, {@spell disguise self}, {@spell mage armor}, and {@spell hold person}. This variant of glaistig loses its multiattack."
+					],
+					"type": "variant"
+				}
+			],
+			"fluff": {
+				"entries": [
+					"{@i A staggeringly beautiful maiden stands waist-deep in the water, swaying back and forth as she sings a haunting song.}",
+					"Beautiful and enchanting, glaistigs are fey that lurk in and around pools, lakes, and streams. They have an insatiable craving for the blood of mortals, beguiling victims to come close to their lair in order to drain them. They are commonly mistaken for vampires because of their bloodsucking technique, but they are not undead.",
+					"Glaistigs resemble incredibly attractive female humans or half-elves, but instead of normal legs, they have goat legs with long, white fur. Most have snow-white hair and eyes that shimmer like water. When they smile, glaistigs try not to show their teeth, which are sharpened to cruel-looking fangs and revealed only when they are about to strike. Glaistigs wear long, fine robes and dresses that drape along the ground, which are used to hide their legs. Glaistigs loathe showing their legs to anyone, and will only reveal them to lash out in anger. If someone catches sight of a glaistig’s goat legs, it will become very angered and attack the offender.",
+					"Despite their single-minded lust for blood, glaistigs are unpredictable and capricious. If they have recently fed (say, within a month) then they are just as likely to help someone as they are to attack. More than a few people have been attacked by a glaistig, even if it has talked and been friendly to them in the past. Glaistigs also enjoy dancing, and some lure their victims to caper and dance for many hours before attacking them.",
+					"Glaistigs are solitary by nature and do not even like other fey all that much. While they gain no sustenance from the blood of sylvan creatures, glaistigs have been known to attack fey that come too close into their territory. Perhaps because of their similar nature, glaistigs in particular do not like dryads, and it is extremely rare to find the two beings in the same territory. ",
+					"An average glaistig is about 5 feet 2 in height and weighs about 90 pounds."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/ojgMRUS.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/LRaIKpC.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"deafened",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Fate Weaver",
+			"source": "OuterplanarExpansion",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any humanoid"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"condition": "(14 with Mage Armor)"
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 12",
+				"average": 66
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 12,
+			"con": 13,
+			"int": 14,
+			"wis": 16,
+			"cha": 18,
+			"skill": {
+				"arcana": "+6",
+				"history": "+6",
+				"insight": "+7",
+				"religion": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"plus two other languages"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The fate weaver is a 9th level spellcaster (spell save {@dc 16}, +8 to hit with spell attacks) and has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell guidance}",
+								"{@spell prestidigitation}",
+								"{@spell sacred flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell mage armor}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell calm emotions}",
+								"{@spell detect thoughts}",
+								"{@spell see invisibility}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell mass healing word}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell death ward}",
+								"{@spell divination}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell mass cure wounds}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Boon of Healing",
+					"entries": [
+						"The fate weaver regains 4 hit points whenever it heals a creature using a spell slot of 1st level or higher."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Boon of Fate (4/Day)",
+					"entries": [
+						"The fate weaver can choose a creature within 15 ft of it. For one hour, that creature can roll an additional {@dice d20} whenever it makes an ability check, attack roll, or saving throw and choose the result they take. Once they do so, they lose the ability to do so unless they are given another Boon of Fate."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/40 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage in melee, or 3 ({@damage 1d4 + 1}) piercing damage at range."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fate Weaving (5/Day)",
+					"entries": [
+						"As a reaction, the Fate Weaver can add a {@dice d6} from to any ability check, attack roll, or saving throw from a creature it can see within 30 ft of it. Alternatively, they can subtract a {@dice d6} from any attack roll it can see within 30 ft of it."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Fate weavers are not just like any other wizard who can draw power from the weave, or a cleric who receives their power from a divine entity. Fate weavers are more akin to sorcerers in that their magic stems directly from the weave itself, but on an even greater scale. Fate weavers are often the children of the weave and their magic is as raw as it comes. Mystra, the goddess of magic, alongside The Raven Queen, the goddess of death and fate, are like 'god mothers' to these children of the weave.",
+					"Despite their direct connection to the weave, many fate weavers have trouble learning magic outside of healing, divination, and abjuration magic. Not impossible, but difficult - especially with evocation magic outside of healing. Some of the most deadly spells are outside the reach of most fate weavers, but they do gain access to the most powerful spell any mortal can cast if they make it to that point.",
+					"Fate weavers toy with the designs of most gods, including that of Mystra and The Raven Queen. Often, they relish the challenge of such a thing. Playing with fate, testing their luck against the worst odds imagineable."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/iyem7Jn.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/nh8x4cn.png",
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		}
+	]
+}

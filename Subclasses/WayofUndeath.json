@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WayofUndeath",
+        "abbreviation": "WoTUd",
+        "full": "Way of the Undeath",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1589604055,
+    "dateLastModified": 1589604055
+  },
+  "subclass": [
+    {
+      "class": "Monk",
+      "name": "Undeath",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Way of the Undeath",
+            "entries": [
+              "Some monks dedicated themselves to learning the aspects of using ki for necromantic means. They believe that life flows throughout the world, as does the weave, and by bending both they restore the lives lost by battle. Most monks have deemed this craft as forbidden magic, but those who follow it believe that this is the true way of immortality, and that it should be studied to its fullest.",
+              {
+                "type": "entries",
+                "name": "Life Draining Fist",
+                "entries": [
+                  "Beginning at 3rd level when you gain this subclass, you learn how to imbue your strikes with necrotic energy, allowing you to steal the life force out of another creature. When you hit with an unarmed strike against a creature, you can expend 1 ki point to add an additional amount of necrotic damage to the damage roll equal to your martial arts die. When you do so, you restore an amount of hit points equal to half the necrotic damage dealt by this effect. You can only restore hit points in this way once per round.",
+                  "You may expend more ki points to increase the damage dice by 1 per point spent in this way."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Deadly Strike",
+                "entries": [
+                  "Also at 3rd level, when you hit a creature with an unarmed strike or a Monk Weapon, you can spend 2 ki points to impose a deadly strike. The creature makes a Constitution saving throw against your Ki Save DC. On a failed save, the creature takes 2d6 necrotic damage. You may only do damage in this way once per round. The damage dice for this feature increases by 1 every three levels after you gain this feature."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Call Upon the Grave",
+                "entries": [
+                  "Starting at 6th level, you can expend 3 ki points to cast the Speak with Dead Spell without requiring material components using Wisdom as your Spellcasting Ability. When you do so. You can ask twice the amount of questions you could normally with the spell. You can only use this feature once per short or long rest."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Life Transfer",
+                "entries": [
+                  "Also at 6th level, you can expend 3 ki points to cast the Life Transference Spell using Wisdom as your Spellcasting Ability. You can do so a number of times equal to your Wisdom Modifier and regain the ability to do so after a long rest."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Rise from the Grave",
+                "entries": [
+                  "Beginning at 11th level, when you kill a creature with an unarmed strike or a monk weapon, you can do one of the following :",
+                  "The creature rises as a zombie or skeleton of your choosing. The creature obeys your commands and does its best to complete them. It follows your initiative and commanding them requires a bonus action. It cannot speak as normal, but it can understand you no matter the language you speak. The creature can read, but very slowly (about 5 minutes for 1 sentence.) The creature dies after one hour of rising.",
+                  "You can restore an amount of ki points equal to half the creature’s CR. (If it does not have one, you gain an amount equal to half its level.) Once you do so you cannot do so again until you finish a short or long rest.",
+                  "You can have the creature rise as a Spectre. The spectre obeys your commands and does its best to complete them. It follows your initiative and commanding them requires a bonus action. The spectre remains indefinitely, or until it is dropped to 0 hit points. When it falls to 0 hit points, it is destroyed."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Necromantic Ki",
+                "entries": [
+                  "Also at 11th level, you can spend ki points to cast any one of the spells listed below without requiring material components : ",
+                  {
+                    "type": "list",
+                    "items": [
+                      "3 ki points. Animate Dead",
+                      "3 ki points. Feign Death",
+                      "3 ki points. Vampiric Touch",
+                      "4 ki points. Blight",
+                      "5 ki points. Ennervation"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Master of Death",
+                "entries": [
+                  "Starting at 17th level, you can spend 5 ki points to cast the Raise Dead Spell without requiring material components. When you do so, the creature is paralyzed for 1 minute after reviving. In addition, you also gain the following spells to your Necromantic Ki feature.",
+                  {
+                    "type": "list",
+                    "items": [
+                      "6 ki points. Create Undead",
+                      "7 ki points. Finger of Death",
+                      "8 ki points. Abi-Dalzim's Horrid Wilting"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "source": "WayOfUndeath",
+      "shortName": "Undeath"
+    }
+  ]
+}

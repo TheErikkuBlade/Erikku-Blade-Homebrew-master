@@ -1,0 +1,415 @@
+{
+	"w": 5,
+	"h": 4,
+	"ctc": false,
+	"fs": false,
+	"lk": false,
+	"ps": [
+		{
+			"x": 0,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "XGE",
+				"u": "brewing%20potions%20of%20healing%3b%20potion%20of%20healing%20creation_xge"
+			}
+		},
+		{
+			"x": 0,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "falling_xge"
+			}
+		},
+		{
+			"x": 1,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20name%20generator_screen"
+			}
+		},
+		{
+			"x": 3,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3b%20religious%20service_xge"
+			}
+		},
+		{
+			"x": 4,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "XGE",
+				"u": "buying%20a%20magic%20item%3b%20magic%20item%20price_xge"
+			}
+		},
+		{
+			"x": 4,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "XGE",
+				"u": "resources%3b%20spell%20scroll%20costs_xge"
+			}
+		},
+		{
+			"x": 4,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3b%20crafting%20an%20item_xge"
+			}
+		},
+		{
+			"x": 1,
+			"y": 0,
+			"w": 2,
+			"h": 2,
+			"t": 8,
+			"s": {
+				"state": {
+					"time": 48895355456381,
+					"browseTime": null,
+					"isBrowseMode": false,
+					"hoursPerDay": 24,
+					"minutesPerHour": 60,
+					"secondsPerMinute": 60,
+					"hoursPerLongRest": 8,
+					"minutesPerShortRest": 60,
+					"secondsPerRound": 6,
+					"offsetYears": 0,
+					"offsetMonthStartDay": 0,
+					"days": {
+						"78815592-5e93-43a2-8eab-50ffbccdb704": {
+							"name": "Monday",
+							"isDeleted": false,
+							"id": "78815592-5e93-43a2-8eab-50ffbccdb704",
+							"pos": 0
+						},
+						"d3c326c3-209f-4e98-b76b-f3801b4c1b8f": {
+							"name": "Tuesday",
+							"isDeleted": false,
+							"id": "d3c326c3-209f-4e98-b76b-f3801b4c1b8f",
+							"pos": 1
+						},
+						"6e281fb0-e9a7-4fe2-b39b-bcbc52f42880": {
+							"name": "Wednesday",
+							"isDeleted": false,
+							"id": "6e281fb0-e9a7-4fe2-b39b-bcbc52f42880",
+							"pos": 2
+						},
+						"94787891-ef37-4076-8b18-ab8cf8672025": {
+							"name": "Thursday",
+							"isDeleted": false,
+							"id": "94787891-ef37-4076-8b18-ab8cf8672025",
+							"pos": 3
+						},
+						"7de30ac0-65c1-4547-b5bb-cab7951d2e81": {
+							"name": "Friday",
+							"isDeleted": false,
+							"id": "7de30ac0-65c1-4547-b5bb-cab7951d2e81",
+							"pos": 4
+						}
+					},
+					"months": {
+						"b353ad03-9f07-43f7-8daa-4edc9c2fe1f7": {
+							"name": "Fae'ur",
+							"days": 30,
+							"isDeleted": false,
+							"id": "b353ad03-9f07-43f7-8daa-4edc9c2fe1f7",
+							"pos": 0
+						},
+						"e214fefd-c18a-4832-a352-746c8ac9ab51": {
+							"name": "Dwindar",
+							"days": 30,
+							"isDeleted": false,
+							"id": "e214fefd-c18a-4832-a352-746c8ac9ab51",
+							"pos": 1
+						},
+						"50bdcc62-8036-45ab-8596-6ae929a2bfda": {
+							"name": "Sprindel",
+							"days": 30,
+							"isDeleted": false,
+							"id": "50bdcc62-8036-45ab-8596-6ae929a2bfda",
+							"pos": 2
+						},
+						"5091184a-c688-4e3f-9317-2b82ab12a8da": {
+							"name": "Fu'ul",
+							"days": 30,
+							"isDeleted": false,
+							"id": "5091184a-c688-4e3f-9317-2b82ab12a8da",
+							"pos": 3
+						},
+						"05bf3db9-1884-4ebe-bc55-4daedd3bf998": {
+							"name": "Baro'v",
+							"days": 30,
+							"isDeleted": false,
+							"id": "05bf3db9-1884-4ebe-bc55-4daedd3bf998",
+							"pos": 4
+						},
+						"c5f9e9c3-bb33-4a74-bc4b-c38d4b66f5de": {
+							"name": "Juu'ne",
+							"days": 30,
+							"isDeleted": false,
+							"id": "c5f9e9c3-bb33-4a74-bc4b-c38d4b66f5de",
+							"pos": 5
+						},
+						"e23eaa4f-e00a-4a75-9ba2-28b3b6098769": {
+							"name": "Juu'l",
+							"days": 30,
+							"isDeleted": false,
+							"id": "e23eaa4f-e00a-4a75-9ba2-28b3b6098769",
+							"pos": 6
+						},
+						"2c755593-225a-4485-b511-96680a4c3a5c": {
+							"name": "Augus",
+							"days": 30,
+							"isDeleted": false,
+							"id": "2c755593-225a-4485-b511-96680a4c3a5c",
+							"pos": 7
+						},
+						"554ed58d-03bf-4d42-b5fd-847916ecd316": {
+							"name": "Nein'der",
+							"days": 30,
+							"isDeleted": false,
+							"id": "554ed58d-03bf-4d42-b5fd-847916ecd316",
+							"pos": 8
+						},
+						"661e3d09-704a-45b0-b8ff-6c6971c2e461": {
+							"name": "Ventor",
+							"days": 30,
+							"isDeleted": false,
+							"id": "661e3d09-704a-45b0-b8ff-6c6971c2e461",
+							"pos": 9
+						},
+						"f17a9091-4de3-4d66-a57e-403a994ac8f3": {
+							"name": "Wentar",
+							"days": 30,
+							"isDeleted": false,
+							"id": "f17a9091-4de3-4d66-a57e-403a994ac8f3",
+							"pos": 10
+						},
+						"95b3d316-6098-4385-b147-5328317bfb44": {
+							"name": "Frostil",
+							"days": 30,
+							"isDeleted": false,
+							"id": "95b3d316-6098-4385-b147-5328317bfb44",
+							"pos": 11
+						}
+					},
+					"events": {},
+					"encounters": {},
+					"seasons": {
+						"1ef1567c-cb4d-48cb-81b3-171b4a1ea79e": {
+							"name": "Spring",
+							"startDay": 0,
+							"endDay": 89,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "1ef1567c-cb4d-48cb-81b3-171b4a1ea79e"
+						},
+						"e40f68b0-cfca-4782-a290-1df74ae780c7": {
+							"name": "Summer",
+							"startDay": 90,
+							"endDay": 179,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "e40f68b0-cfca-4782-a290-1df74ae780c7"
+						},
+						"3354b76f-9423-4805-beec-a28f81e5c8f3": {
+							"name": "Autumn",
+							"startDay": 180,
+							"endDay": 269,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "3354b76f-9423-4805-beec-a28f81e5c8f3"
+						},
+						"4f06c5a3-98ea-4c58-aa74-7c42de6ede81": {
+							"name": "Winter",
+							"startDay": 270,
+							"endDay": 359,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "4f06c5a3-98ea-4c58-aa74-7c42de6ede81"
+						}
+					},
+					"years": {},
+					"eras": {},
+					"moons": {
+						"d879ab40-5793-4835-8907-b6d7bcec1264": {
+							"name": "Xadia",
+							"color": "#ffffff",
+							"phaseOffset": 0,
+							"period": 24,
+							"isDeleted": false,
+							"id": "d879ab40-5793-4835-8907-b6d7bcec1264"
+						}
+					},
+					"tab": 0,
+					"isPaused": true,
+					"isAutoPaused": false,
+					"hasCalendarLabelsColumns": true,
+					"hasCalendarLabelsRows": false,
+					"unitsWindSpeed": "mph",
+					"isClockSectionHidden": false,
+					"isCalendarSectionHidden": false,
+					"isMechanicsSectionHidden": false,
+					"isOffsetsSectionHidden": false,
+					"isDaysSectionHidden": false,
+					"isMonthsSectionHidden": false,
+					"isSeasonsSectionHidden": false,
+					"isYearsSectionHidden": false,
+					"isErasSectionHidden": false,
+					"isMoonsSectionHidden": false
+				},
+				"compClockState": {
+					"state": {},
+					"compWeatherState": {
+						"state": {
+							"temperature": "cold",
+							"precipitation": "foggy",
+							"windDirection": 11,
+							"windSpeed": "breeze-strong"
+						}
+					}
+				},
+				"compCalendarState": {
+					"state": {}
+				},
+				"compSettingsState": {
+					"state": {}
+				}
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "becoming%20lost%3b%20wilderness%20navigation_dmg"
+			}
+		},
+		{
+			"x": 3,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "XGE",
+				"u": "resolution%3b%20wages_xge"
+			}
+		},
+		{
+			"x": 3,
+			"y": 0,
+			"w": 1,
+			"h": 1,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 1,
+				"h": "Expenses"
+			}
+		},
+		{
+			"x": 3,
+			"y": 1,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "PHB",
+				"u": "adventuring%20gear%3b%20container%20capacity_phb"
+			}
+		},
+		{
+			"x": 1,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3b%20research_xge"
+			}
+		},
+		{
+			"x": 2,
+			"y": 2,
+			"w": 1,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3b%20training_xge"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3b%20selling%20a%20magic%20item_xge"
+			}
+		},
+		{
+			"x": 4,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "GoS",
+				"u": "encounters%20at%20sea_gos"
+			}
+		}
+	],
+	"ex": []
+}

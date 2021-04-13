@@ -1,0 +1,129 @@
+{
+	"name": "Ancestral Ally",
+	"size": "M",
+	"type": "undead",
+	"source": "DS",
+	"alignment": [
+		"U"
+	],
+	"ac": [
+		{
+			"ac": 16,
+			"from": [
+				"Draconian Body"
+			]
+		}
+	],
+	"hp": {
+		"formula": "2d6 + 6",
+		"average": 13
+	},
+	"speed": {
+		"walk": 30,
+		"fly": {
+			"number": 40,
+			"condition": "(hover)"
+		},
+		"canHover": true
+	},
+	"str": 17,
+	"dex": 8,
+	"con": 16,
+	"int": 20,
+	"wis": 14,
+	"cha": 15,
+	"passive": 14,
+	"shortName": true,
+	"skill": {
+		"perception": "+4",
+		"stealth": "+1",
+		"history": "+9",
+		"arcana": "+9"
+	},
+	"senses": [
+		"darkvision 60 ft."
+	],
+	"senseTags": [
+		"D"
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage."
+			]
+		},
+		{
+			"name": "Claw",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+			]
+		},
+		{
+			"name": "Tail",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+			]
+		},
+		{
+			"name": "Breath Weapon {@recharge 5}",
+			"entries": [
+				"The ancestral has a magical breath weapon that does damage based on its summoner's draconian origin. ",
+				"The ancestral ally breath weapon's damage is based on the resistance the dragon shaman gained from their Draconic Origins.",
+				"The ancestral ally exhales a breath weapon in a 15 ft cone. Each creature in the cone makes {@dc 15} dexterity saving throw or takes {@damage 2d6} damage on a failed save, or half as much on a success."
+			]
+		}
+	],
+	"damageTags": [
+		"P",
+		"B",
+		"O"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"resist": [
+		{
+			"special": "shares any resistances it its summoner had"
+		}
+	],
+	"trait": [
+		{
+			"name": "Unusual Nature",
+			"entries": [
+				"The ancestral ally doesn't require air, food, drink, or sleep."
+			]
+		},
+		{
+			"name": "Incorporeal Movement",
+			"entries": [
+				"The ancestral ally can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+			]
+		},
+		{
+			"name": "Limited Flight",
+			"entries": [
+				"The ancestral ally cannot fully fly, instead it can ascend up to 40 ft into the air, but slowly descends downward and by the end of its turn remains hovering 1 foot off the ground. It can indefinitely hover 1 foot off the ground and can move horizontally through the air normally, but if it has 0 speed while more than 5 ft off the ground, it slowly descends downward at a rate of 60 ft per round."
+			]
+		}
+	],
+	"languages": [
+		"Common",
+		"Draconic",
+		"and four other languages"
+	],
+	"languageTags": [
+		"C",
+		"DR"
+	],
+	"traitTags": [
+		"Incorporeal Movement"
+	],
+	"save": {
+		"dex": "+1",
+		"con": "+5",
+		"wis": "+4",
+		"cha": "+4"
+	},
+	"cr": "1"
+}

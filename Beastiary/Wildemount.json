@@ -1,0 +1,1535 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Wildmount-FrozenSick",
+				"abbreviation": "WFS",
+				"full": "Wildmount - Frozen Sick",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1599491869,
+		"dateLastModified": 1599491869
+	},
+	"monster": [
+		{
+			"name": "Carric Galanodel",
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item mithral plate armor|dmg} +3"
+					]
+				}
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d8 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 22,
+			"dex": 20,
+			"con": 18,
+			"int": 16,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"con": "+8",
+				"wis": "+5"
+			},
+			"skill": {
+				"perception": "+5",
+				"history": "+11",
+				"arcana": "+7",
+				"athletics": "+10",
+				"investigation": "+11",
+				"religion": "+7",
+				"nature": "+7",
+				"stealth": "+9",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Carric is a 10th level spellcaster. His spellcasting ability is Charisma (spell save DC: 15, + 7 to hit with spell attacks.). He has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell compelled duel}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell aid}",
+								"{@spell branding smite}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell aura of vitality}",
+								"{@spell beacon of hope}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell aura of life}",
+								"{@spell aura of purity}",
+								"{@spell staggering smite}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell banishing smite}",
+								"{@spell circle of power}",
+								"{@spell destructive wave}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The knight has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The knight has advantage on saving throws against being {@condition charmed}, and magic can't put the knight to sleep."
+					]
+				},
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the knight can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the knight that isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"When the knight hits a creature with a weapon attack, they can spend one of their spell slots to deal {@damage 2d8} radiant damage plus {@damage 1d8} radiant damage for each slot level above 1st. This extra damage deals an additional {@damage 1d8} damage against fiends and undead."
+					]
+				},
+				{
+					"name": "Aura of Protection",
+					"entries": [
+						"While the knight is conscious, each creature within 20 ft of the knight adds a +3 bonus to their saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two melee attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}25 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 100/400 ft., one target. {@h}12 ({@damage 2d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Carric is one of the high expositors of the Cobalt Soul from Port Damali. His daughter had joined the Cobalt Soul in order to follow his legacy, but after a horrible accident the two haven't spoken in a long time. After hearing about his daughter's death, he traveled to Uthodurn to mourn her loss. It is here that he met the party of adventurers: Song, Belenas, and Malin."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/VJRARHE.png",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Naamah, The Pleasant Queen",
+			"shortName": "Naamaah",
+			"isNamedCreature": true,
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 112",
+				"average": 240
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 120,
+				"canHover": false
+			},
+			"str": 24,
+			"dex": 20,
+			"con": 24,
+			"int": 19,
+			"wis": 22,
+			"cha": 25,
+			"skill": {
+				"deception": "+17",
+				"insight": "+16",
+				"perception": "+16",
+				"persuasion": "+17",
+				"stealth": "+15"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 26,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"radiant"
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Common",
+				"Infernal",
+				"telepathy 60 ft."
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Naamah's spellcasting ability is Charisma (spell save {@dc 20}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell calm emotions}",
+						"{@spell charm person}",
+						"{@spell enemies abound|XGE}",
+						"{@spell enthrall}",
+						"{@spell incite greed|AI}",
+						"{@spell Otto's irresistible dance}",
+						"{@spell suggestion}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm monster|XGE}",
+							"{@spell dominate person}",
+							"{@spell geas}",
+							"{@spell mass suggestion}",
+							"{@spell modify memory}"
+						],
+						"1e": [
+							"{@spell dominate monster}",
+							"{@spell feeblemind}",
+							"{@spell power word kill}",
+							"{@spell psychic scream|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Telepathic Bond",
+					"entries": [
+						"The fiend ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Exploitation of the Debtors",
+					"entries": [
+						"As a bonus action, the angel targets a creature {@condition charmed} by it that it can see within 30 feet of it. The angel deals 11 ({@damage 2d10}) necrotic damage to the target, and the angel gains temporary hit points equal to the damage dealt."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"Naamah doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Fallen Angelic Weapons",
+					"entries": [
+						"Naamaah's weapon attacks are magical. When she Naamaah hits with any weapon, the weapon deals an extra {@damage 5d8} necrotic damage."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"Naamaah knows if she hears a lie."
+					]
+				},
+				{
+					"name": "Dive Attack",
+					"entries": [
+						"If Naamaah is flying and dives at least 30 feet. straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 6 ({@damage 2d6}) damage to the target."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Naamaah fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Lustful Desires (Mythic Trait; Recharges after a Short or Long Rest)",
+					"entries": [
+						"If Naamah is reduced to 0 hit points, she regains 160 hit points and springs back to her feet with a burst of necrotic energy. Each creature of Naamah's choice within 30 feet of her must succeed on a {@dc 20} Charisma saving throw, or the creature takes 24 ({@damage 6d8}) necrotic damage and is {@condition charmed} until the end of Naamah's turn.",
+						"Afterwards, for the next hour her walking speed increases by 10 feet and her fly speed increases by 30 feet and her Fallen Angelic Weapons increases by {@dice 1d8}."
+					]
+				},
+				{
+					"name": "Aura of Lust",
+					"entries": [
+						"Each creature within 30 feet of the succubus at the start of each of their turns makes a {@dc 20} Wisdom saving throw. On a failed save, they are {@condition charmed} and take {@damage 2d6} psychic damage. On a success, they are not {@condition charmed} and takes no damage. A {@condition charmed} creature makes attacks at the succubus at disadvantage."
+					]
+				},
+				{
+					"name": "Special Equipment; Spear of Lustful Desires",
+					"entries": [
+						"This magical spear brings out the most inner lustful thoughts and desires of a creature on hit. A creature hit with this magic weapon can only suffer non-lethal damage. In addition, they must pass a {@dc 17} Wisdom Saving throw or become {@condition charmed} by its wielder. A creature {@condition charmed} in this way is {@condition incapacitated} lusting over its wielder. A {@condition charmed} creature repeats its saving throw at the end of each of its turns, ending the effect on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Charm",
+					"entries": [
+						"One humanoid the fiend can see within 30 feet of it must succeed on a {@dc 20} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fiend's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours.",
+						"The fiend can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
+					]
+				},
+				{
+					"name": "Draining Kiss",
+					"entries": [
+						"The fiend kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 20} Constitution saving throw against this magic, taking 63 ({@damage 10d10 + 8}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage, plus 25 ({@damage 5d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Spear of Lustful Desires",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 10}) piercing damage, plus 25 ({@damage 5d8}) necrotic damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Lustful Binding",
+					"entries": [
+						"Naamah chooses one humanoid that she can see within 30 feet. She uses her Charm on the target, even if the target had passed its save against it (a creature who has succeeded once before must make the save again, becoming {@condition charmed} as normal on a failure, after the 3rd save it becomes immune to this legendary action)."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Naamah magically teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see."
+					]
+				},
+				{
+					"name": "Searing Burst (Costs 2 Actions)",
+					"entries": [
+						"Namaah emits magical, divine energy. Each creature of her choice in a 10-foot radius must make a {@dc 20} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage plus 14 ({@damage 4d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If Naamah's mythic trait is active, she can use the options below as legendary actions for 1 hour after using Lustful Desires."
+			],
+			"mythic": [
+				{
+					"name": "Lustful Chain",
+					"entries": [
+						"Naamah binds a creature to her lustful desires. She chooses a creature she can see within 60 feet of her. Until the end of her next turn, that creature is {@condition charmed}."
+					]
+				},
+				{
+					"name": "Unbound Desires (Costs 3 Actions)",
+					"entries": [
+						"Naamah suppresses any spells, magical effects, or magic items within 30 feet of her granting creatures immunity to being {@condition charmed} for the next minute."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "http://www.artofmtg.com/wp-content/uploads/2016/03/Avacyn-the-Purifier-MtG-Art.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/FWns0d6.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/succubus-incubus.mp3?v=1.106.13"
+			},
+			"traitTags": [
+				"Flyby",
+				"Legendary Resistances",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"CE",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"F",
+				"N",
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			]
+		},
+		{
+			"name": "Vanea",
+			"isNpc": true,
+			"source": "Wildmount-FrozenSick",
+			"level": 4,
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"eladrin"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 31
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 20,
+			"con": 14,
+			"int": 16,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"int": "+5"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"deception": "+3",
+				"perception": "+4",
+				"stealth": "+9",
+				"intimidation": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold"
+			],
+			"languages": [
+				"Thieves' cant",
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The eladrin's innate spellcasting ability is Intelligence (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell fog cloud}",
+							"{@spell gust of wind}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The assassin deals an extra 14 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Vanea has advantage on saving throws against being {@condition charmed}, and magic can't put Vanea to sleep."
+					]
+				},
+				{
+					"name": "Fey Step {@recharge 4}",
+					"entries": [
+						"As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus an additional {@damage 1d6} cold damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage plus an additional {@damage 1d6} cold damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Age: 220",
+					"Quite quick on her feet, and usually to herself to anyone but a special someone. Can be quite the prankster when you get to know her.",
+					"\"I am incredibly slow to trust. Those who seem the fairest often have the most to hide. The best way to get me to do something is to tell me I can't do it.\"",
+					"\"Freedom. Chains are meant to be broken, as are those who would forge them.\" (Chaotic)",
+					"\"Someone I loved died because of a mistake I made. That will never happen again.\"",
+					"\"There's no room for caution in a life lived to the fullest.\""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/095488ed-f01d-4fe3-b642-3024e163728a/dbtaglr-4cb82697-3a8e-41a3-b842-9a8128f52d67.png/v1/fill/w_800,h_1035,strp/commission___ladyaceline_by_paolapieretti_dbtaglr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDM1IiwicGF0aCI6IlwvZlwvMDk1NDg4ZWQtZjAxZC00ZmUzLWI2NDItMzAyNGUxNjM3MjhhXC9kYnRhZ2xyLTRjYjgyNjk3LTNhOGUtNDFhMy1iODQyLTlhODEyOGY1MmQ2Ny5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.k722xe8LafWSJf5oIzucCDUP12F1PtZczNo-WQqF5CQ"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/e6AsTA8.png",
+			"altArt": [
+				{
+					"name": "Vistana Assassin",
+					"source": "CoS"
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S",
+				"TC"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Avantika",
+			"isNamedCreature": true,
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 42",
+				"average": 105
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 16,
+			"int": 12,
+			"wis": 10,
+			"cha": 22,
+			"save": {
+				"wis": "+5",
+				"cha": "+11"
+			},
+			"skill": {
+				"arcana": "+6",
+				"perception": "+5",
+				"athletics": "+7",
+				"deception": "+11",
+				"stealth": "+10",
+				"sleight of hand": "+10",
+				"religion": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The warlock's innate spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell arms of Hadar}",
+							"{@spell counterspell}",
+							"{@spell hunger of Hadar}",
+							"{@spell lightning bolt}",
+							"{@spell shield}",
+							"{@spell wrathful smite}"
+						]
+					},
+					"will": [
+						"{@spell eldritch blast} (three rays)",
+						"{@spell invisibility}",
+						"{@spell lightning lure|SCAG}",
+						"{@spell minor illusion}",
+						"{@spell sapping sting|EGW}",
+						"{@spell thaumaturgy}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Limited Amphibiousness",
+					"entries": [
+						"The warlock can breathe air and water, but it needs to be surfaced at least once every 4 hours to avoid suffocating."
+					]
+				},
+				{
+					"name": "Shark Telepathy",
+					"entries": [
+						"The warlock can magically command any shark within 120 feet of it, using a limited telepathy."
+					]
+				},
+				{
+					"name": "Maddening Hexblade's Curse (1/rest)",
+					"entries": [
+						"As a bonus action, Avantika chooses one creature she can see within 30 feet. The target is cursed for 1 minute. The curse ends early if the target dies, she dies, or if she is {@condition incapacitated}. Until the curse ends, she deals an extra 11 points of psychic damage to the target and her weapon attacks scores a critical on a 19-20. If the cursed target dies, Avantika regains 20 hit points."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede Avantika's darkvision."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Avantika has advantage on saving throws against being {@condition charmed}, and magic can't put Avantika to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warlock makes two attacks."
+					]
+				},
+				{
+					"name": "+1 Rapier",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Eldritch Blast (Cantrip)",
+					"entries": [
+						"{@atk rs} {@hit 11} to hit, range 120 ft., one creature. {@h} ({@damage 1d10 + 6}) force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Avantika adds a +2 to her AC."
+					]
+				},
+				{
+					"name": "Armor of Hexes",
+					"entries": [
+						"If a cursed target hits Avantika with an attack, she can roll a {@dice d6}. On a 4 or higher, the attack misses, regardless of the roll."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The slumbering leviathan Uk'otoa preys on the fears and ambitions of humanoids that brave the depths of the Lucidian Ocean. Countless communities of sahuagin inhabit uncharted pockets of water along the Menagerie Coast, and the most ambitious among them often hear the call of the leviathan in their dreams, urging them to take his power and use it to achieve their bloodsoaked dreams."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://art.ngfiles.com/images/1005000/1005721_othalam_critical-role-avantika-sfw.jpg?f1566839802"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/EvrvEqo.png",
+			"traitTags": [
+				"Devil's Sight",
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"invisible"
+			]
+		},
+		{
+			"name": "Wyatt Maranoss, the Plank King",
+			"shortName": "Wyatt Maranoss",
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goliath"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item studded leather armor +2|dmg}"
+					]
+				}
+			],
+			"hp": {
+				"average": 133,
+				"formula": "14d8 + 70"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 22,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"con": "+10",
+				"wis": "+6"
+			},
+			"skill": {
+				"athletics": "+11",
+				"intimidation": "+7",
+				"perception": "+6",
+				"insight": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Giant",
+				"Undercommon"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Flourish",
+					"entries": [
+						"The captain adds its Charisma modifier to the damage roll for its longsword attacks (included in the attack)."
+					]
+				},
+				{
+					"name": "Sea Legs",
+					"entries": [
+						"The captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"The pirate captain has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the pirate captain can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The captain makes two attacks: one with its hand crossbow and one with its longsword."
+					]
+				},
+				{
+					"name": "Longsword +2",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow +2",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 6}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shape Up, Ye Dog (2/Day)",
+					"entries": [
+						"Whenever a friendly creature within 30 feet of the captain that can hear it misses with an attack, the captain can yell perilous threats to allow that creature to reroll the attack roll."
+					]
+				},
+				{
+					"name": "Stone's Endurance",
+					"entries": [
+						"When he takes damage, The Plank King can roll a {@dice d12} and reduce the damage by an amount equal to the roll plus his constitution modifier."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Pirate Captain",
+				"source": "GoS",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Pirate captains spend their lives at sea, earning and keeping command through blood and daring. A captain's impressive sword work and biting words inspire both confidence and fear in a ship's crew. Sigurd \"Snake Eyes\" is the pirate captain who leads a gang of smugglers in The Sinister Secret of Saltmarsh."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/GoS/Pirate Captain.png?v=1.110.4",
+			"traitTags": [
+				"Aggressive"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GI",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Boearth",
+			"shortName": true,
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 13,
+			"int": 11,
+			"wis": 10,
+			"cha": 13,
+			"skill": {
+				"athletics": "+5",
+				"intimidation": "+3"
+			},
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Undercommon"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Cargo Hauler",
+					"entries": [
+						"The bosun has advantage on Strength checks."
+					]
+				},
+				{
+					"name": "Sea Legs",
+					"entries": [
+						"The bosun has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Light Hammer",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"The bosun (or boatswain) is tasked with organizing the cargo and crew aboard a ship. Bosuns are capable fighters whose experience with hauling cargo and delivering beatings make them tough opponents."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/8OVLztA.png",
+			"languageTags": [
+				"C",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Dillyu",
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"sea elf"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 13,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"athletics": "+2",
+				"perception": "+2",
+				"intimidation": "+2"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Aquan"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The bandit has advantage on saving throws against being {@condition charmed}, and magic can't put the drow bandit to sleep."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dillyu can breathe air and water."
+					]
+				},
+				{
+					"name": "Friend of the Sea",
+					"entries": [
+						"Using gestures and sounds, Dillyu can communicate simple ideas with any beast that has an innate swimming speed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d8}) slashing damage in melee, or 3 ({@damage 1d6}) piercing damage at range, or 4 ({@damage 1d8}) piercing damage if used with both hands."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/ZQY7fl4.png",
+			"traitTags": [
+				"Amphibious",
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AQ",
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Kijori",
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 11,
+			"con": 14,
+			"int": 12,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"athletics": "+4",
+				"intimidation": "+3",
+				"perception": "+5",
+				"survival": "+5",
+				"investigation": "+3"
+			},
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Undercommon"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Sea Legs",
+					"entries": [
+						"The first mate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The first mate makes two attacks with its longsword."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands. If the target is a creature, the first mate can choose to deal no damage with the attack to disarm the target. The target must succeed on a {@dc 14} Strength saving throw or drop one item it is holding on the ground."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Pirate First Mate",
+				"source": "GoS",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"These no-nonsense sailors are the trusted allies of a pirate ship's captain. Ex-soldiers and trained mercenaries often find employment as mates aboard pirate ships. In The Sinister Secret of Saltmarsh, Bloody Bjorn serves as the first mate aboard Sea Ghost."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/GoS/Pirate First Mate.png?v=1.110.4",
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"U"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Heidi Axebeard",
+			"source": "Wildmount-FrozenSick",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 16,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"arcana": "+5",
+				"perception": "+3",
+				"athletics": "+2",
+				"intimidation": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The deck wizard is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell disguise self}",
+								"{@spell fog cloud}",
+								"{@spell mage armor}",
+								"{@spell witch bolt}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell gust of wind}",
+								"{@spell Melf's acid arrow}",
+								"{@spell misty step}"
+							]
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Sea Legs",
+					"entries": [
+						"The deck wizard has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"These salt-encrusted practitioners of magic are at once learned and superstitious. The crews of pirate ships generally give their deck wizards a wide berth, as they magically step from place to place and unleash their briny magic against attackers."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/WiL2N0d.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}

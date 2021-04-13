@@ -1,0 +1,336 @@
+{
+	"w": 8,
+	"h": 6,
+	"ctc": false,
+	"fs": false,
+	"lk": false,
+	"ps": [
+		{
+			"x": 0,
+			"y": 2,
+			"w": 2,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "XGE",
+				"u": "crafting%20magic%20items%3b%20magic%20item%20crafting%20time%20and%20cost_xge"
+			}
+		},
+		{
+			"x": 2,
+			"y": 2,
+			"w": 2,
+			"h": 4,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3a%20selling%20a%20magic%20item_xge"
+			}
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 2,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "DMG",
+				"u": "the%20calendar%20of%20harptos_dmg"
+			}
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 2,
+			"h": 2,
+			"t": 8,
+			"s": {
+				"state": {
+					"time": 282070001,
+					"browseTime": null,
+					"isBrowseMode": false,
+					"hoursPerDay": 24,
+					"minutesPerHour": 60,
+					"secondsPerMinute": 60,
+					"hoursPerLongRest": 8,
+					"minutesPerShortRest": 60,
+					"secondsPerRound": 6,
+					"offsetYears": 1489,
+					"offsetMonthStartDay": 0,
+					"days": {
+						"378f3d09-9aa6-4c9b-a9c9-653195bc82d4": {
+							"name": "",
+							"isDeleted": false,
+							"id": "378f3d09-9aa6-4c9b-a9c9-653195bc82d4",
+							"pos": 0
+						}
+					},
+					"months": {
+						"7575d8c5-accf-41a6-847c-ac86cc4b9edd": {
+							"name": "Hammer",
+							"days": 30,
+							"isDeleted": false,
+							"id": "7575d8c5-accf-41a6-847c-ac86cc4b9edd",
+							"pos": 0
+						},
+						"52653d71-5174-4d71-9252-ef31faed83f7": {
+							"name": "Alturiakh",
+							"days": 30,
+							"isDeleted": false,
+							"id": "52653d71-5174-4d71-9252-ef31faed83f7",
+							"pos": 1
+						},
+						"36aa7cbd-e5f4-4876-8a67-e113b77412d5": {
+							"name": "Ches",
+							"days": 30,
+							"isDeleted": false,
+							"id": "36aa7cbd-e5f4-4876-8a67-e113b77412d5",
+							"pos": 2
+						},
+						"08451fe8-d301-4bfb-80c9-5e9cf9888850": {
+							"name": "Tarsak",
+							"days": 30,
+							"isDeleted": false,
+							"id": "08451fe8-d301-4bfb-80c9-5e9cf9888850",
+							"pos": 3
+						},
+						"0982c253-573e-4554-b8c9-2118c0b7fec9": {
+							"name": "Mirtul",
+							"days": 30,
+							"isDeleted": false,
+							"id": "0982c253-573e-4554-b8c9-2118c0b7fec9",
+							"pos": 4
+						},
+						"23817727-b546-4fb6-92bc-dbb6d18d2815": {
+							"name": "Kythorn",
+							"days": 30,
+							"isDeleted": false,
+							"id": "23817727-b546-4fb6-92bc-dbb6d18d2815",
+							"pos": 5
+						},
+						"cd6cc0b1-a841-4c27-ba20-728d2520f72e": {
+							"name": "Flamerule",
+							"days": 30,
+							"isDeleted": false,
+							"id": "cd6cc0b1-a841-4c27-ba20-728d2520f72e",
+							"pos": 6
+						},
+						"3ea225e2-7c4d-4487-9e94-5b9090299add": {
+							"name": "Eleasias",
+							"days": 30,
+							"isDeleted": false,
+							"id": "3ea225e2-7c4d-4487-9e94-5b9090299add",
+							"pos": 7
+						},
+						"a2054461-5dc4-4752-bea9-504c901d48a2": {
+							"name": "Eleint",
+							"days": 30,
+							"isDeleted": false,
+							"id": "a2054461-5dc4-4752-bea9-504c901d48a2",
+							"pos": 8
+						},
+						"a30422cc-5da4-4aa9-a23d-3479e1e04723": {
+							"name": "Marpenoth",
+							"days": 30,
+							"isDeleted": false,
+							"id": "a30422cc-5da4-4aa9-a23d-3479e1e04723",
+							"pos": 9
+						},
+						"f9943ee0-89fb-4273-93b2-d920c110f8a8": {
+							"name": "Uktar",
+							"days": 30,
+							"isDeleted": false,
+							"id": "f9943ee0-89fb-4273-93b2-d920c110f8a8",
+							"pos": 10
+						},
+						"57f4d8dc-97db-4bef-9657-1352ad59815a": {
+							"name": "Nightal",
+							"days": 30,
+							"isDeleted": false,
+							"id": "57f4d8dc-97db-4bef-9657-1352ad59815a",
+							"pos": 11
+						}
+					},
+					"events": {},
+					"encounters": {},
+					"seasons": {
+						"e94c43c4-f28a-4b18-b0f7-aea469a0bd30": {
+							"name": "Winter",
+							"startDay": 0,
+							"endDay": 364,
+							"sunriseHour": 6,
+							"sunsetHour": 22,
+							"isDeleted": false,
+							"id": "e94c43c4-f28a-4b18-b0f7-aea469a0bd30"
+						}
+					},
+					"years": {},
+					"eras": {
+						"181de1e5-c5fa-47aa-b110-e8050f0617b4": {
+							"name": "Dale Reckoning",
+							"abbreviation": "DR",
+							"startYear": 0,
+							"endYear": 0,
+							"isDeleted": false,
+							"id": "181de1e5-c5fa-47aa-b110-e8050f0617b4"
+						}
+					},
+					"moons": {
+						"3bebb61e-b20f-4957-8d1a-5644926314be": {
+							"name": "Selune",
+							"color": "#ffffff",
+							"phaseOffset": 0,
+							"period": 24,
+							"isDeleted": false,
+							"id": "3bebb61e-b20f-4957-8d1a-5644926314be"
+						}
+					},
+					"tab": 0,
+					"isPaused": true,
+					"isAutoPaused": false,
+					"hasCalendarLabelsColumns": true,
+					"hasCalendarLabelsRows": false,
+					"unitsWindSpeed": "mph",
+					"isClockSectionHidden": false,
+					"isCalendarSectionHidden": false,
+					"isMechanicsSectionHidden": false,
+					"isOffsetsSectionHidden": false,
+					"isDaysSectionHidden": false,
+					"isMonthsSectionHidden": false,
+					"isSeasonsSectionHidden": false,
+					"isYearsSectionHidden": false,
+					"isErasSectionHidden": false,
+					"isMoonsSectionHidden": false
+				},
+				"compClockState": {
+					"state": {},
+					"compWeatherState": {
+						"state": {
+							"temperature": "cold",
+							"precipitation": "sunny",
+							"windDirection": 0,
+							"windSpeed": "storm"
+						}
+					}
+				},
+				"compCalendarState": {
+					"state": {}
+				},
+				"compSettingsState": {
+					"state": {}
+				}
+			}
+		},
+		{
+			"x": 4,
+			"y": 0,
+			"w": 2,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "trapshazards.html",
+				"s": "IDRotF",
+				"u": "blizzard_idrotf"
+			}
+		},
+		{
+			"x": 4,
+			"y": 2,
+			"w": 2,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "trapshazards.html",
+				"s": "DMG",
+				"u": "extreme%20cold_dmg"
+			}
+		},
+		{
+			"x": 0,
+			"y": 4,
+			"w": 2,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3a%20training_xge"
+			}
+		},
+		{
+			"x": 4,
+			"y": 3,
+			"w": 2,
+			"h": 3,
+			"t": 1,
+			"c": {
+				"p": "trapshazards.html",
+				"s": "IDRotF",
+				"u": "avalanche_idrotf"
+			}
+		},
+		{
+			"x": 6,
+			"y": 0,
+			"w": 2,
+			"h": 6,
+			"t": 13,
+			"c": {
+				"a": "IDRotF",
+				"c": 12
+			}
+		}
+	],
+	"ex": [
+		{
+			"x": 7,
+			"y": 0,
+			"w": 1,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20name%20generator_screen"
+			}
+		},
+		{
+			"x": 6,
+			"y": 2,
+			"w": 2,
+			"h": 2,
+			"t": 4,
+			"c": {
+				"b": "bookref-quick",
+				"c": 2,
+				"h": "Conditions"
+			}
+		},
+		{
+			"x": 4,
+			"y": 3,
+			"w": 2,
+			"h": 2,
+			"t": 13,
+			"c": {
+				"a": "IDRotF",
+				"c": 0
+			}
+		},
+		{
+			"x": 0,
+			"y": 3,
+			"w": 2,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "trapshazards.html",
+				"s": "DMG",
+				"u": "extreme%20cold_dmg"
+			}
+		}
+	]
+}

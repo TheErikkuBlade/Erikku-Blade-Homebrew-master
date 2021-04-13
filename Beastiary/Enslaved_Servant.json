@@ -1,0 +1,87 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheAdventuresofIchult",
+				"abbreviation": "TAoI",
+				"full": "The Adventures of Ichult",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1602213285,
+		"dateLastModified": 1602213285
+	},
+	"monster": [
+		{
+			"name": "Enslaved Servant",
+			"source": "TheAdventuresofIchult",
+			"page": 229,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 10",
+				"average": 32
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 8,
+			"wis": 8,
+			"cha": 8,
+			"passive": 9,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"paralyzed"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech"
+			],
+			"languageTags": [
+				"C",
+				"DS"
+			]
+		}
+	]
+}

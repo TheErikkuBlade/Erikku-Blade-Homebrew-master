@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "sources": [
+      {
+        "json": "IoF:K",
+        "abbreviation": "IoF:K",
+        "full": "Instrument of the Forst - Kotone",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "url": "https://docs.google.com/document/d/1eBRraYcsffaYMc2R7DafmTcDrFJZ75pnFvL2-xCVHTw/edit?usp=sharing",
+        "version": "1.0",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1590749501,
+    "dateLastModified": 1590749501
+  },
+  "item": [
+    {
+      "name": "Instrument of the Forst - Kotone",
+      "source": "IoF:K",
+      "page": 1,
+      "rarity": "artifact",
+      "reqAttune": true,
+      "sentient": true,
+      "weight": 3,
+      "dmg1": "1d10",
+      "dmgType": "T",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "Through the forest there are many melodies to be heard, from the soft winds to the falling petals the forest’s true beauty is through the senses of the beholder. This harp was forged by the goddess of nature for the protector of her nature. Her chosen champion. To which it was named after the first to wield such a powerful artifact, Kotone.",
+        {
+          "type": "entries",
+          "name": "Voice of the Forest",
+          "entries": [
+            "Whispers can be heard from this artifact. You can cast the spell Commune with Nature using the instrument as the focus for the spell. Once you do so, you cannot do so again until the next dawn.",
+            "The weapon communicates telepathically with its wielder and can speak, read, and understand  Elvish, Primordial, and Sylvan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Protector's Soul",
+          "entries": [
+            "A creature attuned to this item gains the power to protect their allies. As a reaction when a creature takes damage within 60 ft of you, you can choose to reduce that damage to 0. When you do so, you receive a token of burden. The next time you would take damage while you have a token of burden, you take twice the amount of damage you would have normally taken and the token of burden is lost."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Musical Weapon",
+          "entries": [
+            "The music played by Kotone can be focused into magical attacks. As an action, make a ranged spell attack against a creature within 60 ft of you using your spell attack modifier. On hit, you deal 1d10 plus your charisma modifier thunder damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Flexible Instrument",
+          "entries": [
+            "Kotone can take the shape of any musical instrument of your choice, to change its form requires a bonus action."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The instrument grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You are always under the effects of the Speak with Animals and Speak with Plants. You can also speak, read, and write Aquan, Sylvan, and Teran.",
+                "Using the instrument as the material needed for the spell, you can ritual cast Augury. You play a melody as part of the casting of the spell, to which a perfectly tuned song shows sign of weal, a poor tuned song as a sign of woe, an uninspired tune as both weal and woe, and a silent melody as neither weal or woe.",
+                "Your spell attack and save dc both increases by 1.",
+                "Song of Healing. As a bonus action, you can call the spirits of the forest to your beckon call to aid your allies. You conjure an amount of spirits equal to your level plus your charisma modifier. They remain for 1 minute, or until you dismiss them as an action. Using a spirit uses a bonus action, and you can use a spirit the turn you conjure them. Each of these spirits hovers around you. You can send one to an ally within 60 ft of you to restore 3d10 + your charisma modifier hit points to them and you can remove any one condition affecting that creature. Once a spirit is used, it is lost until the next time you conjure the spirits with your Healing Song. Once you use your healing song, you cannot do so again until you finish a long rest."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Awakened",
+          "entries": [
+            "When the instrument reaches an awakened state, it gains the following properties:",
+            {
+              "type": "list",
+              "items": [
+                "Instrument of War. You can use a bonus action to transform this instrument into any weapon you have wielded for a duration longer than seven days of which you are proficient with. If the weapon was not magical, it gains a magic bonus of +2.",
+                "The Musical Weapon damage increases by 1d10 and your spell attack and save dc increases by 1.",
+                "While holding the instrument (or weapon), you can use an action to cast one of the following spells from it using your spellcasting ability without requiring material components: faerie fire, mass cure wounds (6th level), lesser restoration, or greater restoration. Once a spell has been cast, that spell can't be cast from the instrument (or weapon) again until the next dawn.",
+                "Song of War. You can bolster your allies with the songs of battle. As bonus action you can give a number of allies up to your charisma modifier temporary hit points equal to your level. While they have these temporary hit points, they are immune to being charmed or frightened and have advantage on attack rolls and saving throws."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Exalted",
+          "entries": [
+            "When the instrument reaches an exalted state, it gains the following properties:",
+            {
+              "type": "list",
+              "items": [
+                "The Musical Weapon damage increases by 1d10 and your spell attack and save dc increases by 1.",
+                "While holding the instrument (or weapon), you can use an action to cast one of the following spells from it using your spellcasting ability without requiring material components: pass without trace, call lightning (6th level), daylight, or storm of vengeance. Once a spell has been cast, that spell can't be cast from the instrument (or weapon) again until the next dawn.",
+                "Song of Restoration. As a bonus action you can begin a song of continuous healing. For the next minute, you and each friendly creature within 30 ft of you restores 1d6 plus your charisma modifier hit points at the start of each of their turns. Once you use this song, you cannot use it again until you finish a long rest.",
+                "Song of Retribution. As a bonus action you can begin a song that leaves a path of destruction for any who dare to harm the wilderness. For the next minute, you and each friendly creature within 30 ft of you receives a bonus to their damage rolls equal to your proficiency bonus. Once you use this song, you cannot use it again until you finish a long rest."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Artifact Properties",
+          "entries": [
+            "While attuned to Kotone in its dormant state, the wierlder gains two {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains a {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        }
+      ]
+    }
+  ]
+}

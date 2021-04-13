@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "AstralWarrior",
+        "abbreviation": "F:AW",
+        "full": "Astral Warrior",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "url": "https://docs.google.com/document/d/1rfjMKWLvfhb6nmj8B9EAnHG09z1_EIQJme-6ShYoOVc/edit?usp=sharing",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1591991173,
+    "dateLastModified": 1591991173
+  },
+  "subclass": [
+    {
+      "class": "Fighter",
+      "name": "Astral Warrior",
+      "subclassFeatures": [
+        [
+          {
+            "name": "Astral Warrior",
+            "entries": [
+              "Bending their body, mind, and spirit; the Astral Warrior harnesses the forces from their astral self and separates their physical form from the world. The Astral Warrior conjures the energies from their soul and can step into the many planes on occasion, but only for a limited time.",
+              {
+                "type": "entries",
+                "name": "Astral Force",
+                "entries": [
+                  "Starting at 3rd level, whenever you hit with a weapon that you're proficient with and deal damage, the weapon's damage increases by an amount based on your level in this class, as shown on the Astral Bonus Damage table. The bonus damage is force damage and can only be used during your turn.",
+                  {
+                    "type": "table",
+                    "caption": "Astral Force",
+                    "colLabels": [
+                      "Fighter Level",
+                      "Damage Increase"
+                    ],
+                    "rows": [
+                      [
+                        "3rd",
+                        "1d4"
+                      ],
+                      [
+                        "10th",
+                        "1d6"
+                      ],
+                      [
+                        "16th",
+                        "1d8"
+                      ],
+                      [
+                        "20th",
+                        "1d10"
+                      ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Astral Body",
+                "entries": [
+                  "Also at 3rd level, as a bonus action you can switch places with your astral self, thrusting your body into the astral plane and in your place is a spiritual visage of yourself. When you summon your Astral Self on the Astral Plane, your body disappears until your Astral Self takes damage. While your astral self is summoned, you apply the following effects: ",
+                  "Once your Astral Self takes damage, it is thrusted back into the Astral Plane, leaving your physical body in its space. You can also return your body as a bonus action, which sends your astral self back to the astral plane. You have a number of uses of this feature equal to your Wisdom Modifier and you regain all expended uses after a long rest.",
+                  {
+                    "type": "list",
+                    "items": [
+                      "Your physical body is incapacitated and invisible while on the Astral Plane and your senses are transferred to your Astral Self.",
+                      "Your Astral Self cannot be exhausted, grappled, incapacitated, petrified, poisoned, restrained, or unconscious.",
+                      "Your Astral Self uses your current game statistics, hit points, abilities, and has resistance to all damage. When your physical body returns, any changes are carried over.",
+                      "Your astral self retains your equipment, but all damage dealt by spells and weapons is force.",
+                      "Your Astral Self can walk through creatures and objects as if they were difficult terrain, but if it ends its turn on a space occupied by a creature, it takes 2d10 force damage and appears in the nearest unoccupied space adjacent to that creature, determined by the GM."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Astral Strength",
+                "entries": [
+                  "At 7th level, when you make an attack roll using a weapon you are proficient with, you can use wisdom for the attack and damage rolls instead. When you do so, the weapon is considered magical for the purposes of overcoming resistances against non-magical attacks. Attacks made by your Astral Self are treated as magical, regardless if you use Wisdom or not.",
+                  "Your connection to your soul also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Astral Step",
+                "entries": [
+                  "Also at 7th level, you can briefly step between planes, allowing yourself to move near instantaneously. As a bonus action you can teleport to an unoccupied space within 30 ft of you, at the cost of 15ft of your movement regardless of the distance. You have a number of uses of this feature equal to your Wisdom modifier (minimum of 1) and you regain all expended uses after a short or long rest."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Astral Juggernaut",
+                "entries": [
+                  "At 10th level, you strengthen your soul to protect yourself against magical effects from affecting your mind. You have advantage on saving throws against being charmed or frightened by spells and other magical effects."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Planar Step",
+                "entries": [
+                  "At 15th level, using the Astral Plane to guide you, you allow yourself to step into the many planes of existence. As an action you can innately cast the {@spell Plane Shift} spell without requiring material components, but only targeting yourself.",
+                  "You remain on that plane for up to a number of hours equal to your Wisdom modifier +1 (minimum of 1) and return immediately after the duration ends, or you can return early as an action.",
+                  "Once you have cast the spell in this way, you cannot do so again until you finish a long rest."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Astral Mastery",
+                "entries": [
+                  "At 18th level, you’ve attained a connection to your soul greater than any other warrior, allowing yourself to call upon its power at a whim. When you roll initiative without any uses of your Astral Body, you regain 1 use. ",
+                  "In addition, You can spend a hit die to regain one use of your Planar Step, but once you do so you cannot do so again until you finish a long rest.",
+                  "You can also cast the {@spell astral projection} spell, without needing material components. When you do so, you can't take any other creatures with you. You can do so a number of times up to your Wisdom Modifier (minimum of 1) and regain all uses when you finish a long rest."
+                ]
+              }
+            ]
+          }
+        ]
+      ],
+      "source": "AstralWarrior",
+      "shortName": "Astral Warrior"
+    }
+  ]
+}

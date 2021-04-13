@@ -1,0 +1,488 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WayofDevoted",
+        "abbreviation": "WoTDe",
+        "full": "Way of the Devoted",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1589613177,
+    "dateLastModified": 1589613177
+  },
+  "subclass": [
+    {
+      "name": "Way of the Devoted",
+      "subclassTableGroups": [
+        {
+          "subclasses": [
+            {
+              "name": "Way of the Devoted",
+              "source": "WayofDevoted"
+            }
+          ],
+          "colLabels": [
+            "{@filter Cantrips Known|spells|level=0|class=Cleric}"
+          ],
+          "rows": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "title": "Spell Slots per Spell Level",
+          "subclasses": [
+            {
+              "name": "Way of the Devoted",
+              "source": "WayofDevoted"
+            }
+          ],
+          "colLabels": [
+            "{@filter 1st|spells|level=1|class=Cleric}",
+            "{@filter 2nd|spells|level=2|class=Cleric}",
+            "{@filter 3rd|spells|level=3|class=Cleric}",
+            "{@filter 4th|spells|level=4|class=Cleric}"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ]
+          ]
+        }
+      ],
+      "subclassFeatures": [
+        "Way of the Devoted|Monk||Devoted|WayofDevoted|3",
+        "Devoted Spellcasting|Monk||Devoted|WayofDevoted|3",
+        "Monastic Domain|Monk||Devoted|WayofDevoted|3",
+        "Divine Enlightenment|Monk||Devoted|WayofDevoted|6",
+        "Divine Restoration|Monk||Devoted|WayofDevoted|11",
+        "Awakened Divinity|Monk||Devoted|WayofDevoted|17"
+      ],
+      "source": "WayofDevoted",
+      "shortName": "Devoted",
+      "className": "Monk",
+      "classSource": "PHB"
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Way of the Devoted",
+      "source": "WayofDevoted",
+      "page": 80,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Devoted",
+      "subclassSource": "WayofDevoted",
+      "level": 3,
+      "entries": [
+        "Some monastic icons are gods, their monasteries doubling as a church for other followers. Much like clerics, these monks can call upon powers from their deity by using ki. Devoted Monks typically follow under the Order or Life domains, but you can flavor your monk however you wish."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Devoted Spellcasting",
+      "source": "WayofDevoted",
+      "page": 80,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Devoted",
+      "subclassSource": "WayofDevoted",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you reach 3rd level, you can call upon the divine magic of your deity and gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and chapter 11 for the {@filter cleric spell list|spells|class=cleric}.",
+        {
+          "type": "entries",
+          "name": "Cantrips",
+          "entries": [
+            "You learn two cantrips of your choice from the {@filter cleric spell list|spells|class=cleric}. You learn an additional cleric cantrip of your choice at 10th level."
+          ]
+        },
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Preparing and Casting Spells",
+              "entries": [
+                "The Way of the Devoted Spellcasting table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                "For example, if you know the 1st-level spell shield of faith and have a 1st-level and a 2nd-level spell slot available, you can cast shield of faith using either slot.",
+                "You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your proficiency bonus (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                "For example, if you are a 7th-level monk, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include 6 spells of 1st and 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Spellcasting Ability",
+              "entries": [
+                "Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.",
+                {
+                  "type": "abilityDc",
+                  "name": "Spell",
+                  "attributes": [
+                    "wis"
+                  ]
+                },
+                {
+                  "type": "abilityAttackMod",
+                  "name": "Spell",
+                  "attributes": [
+                    "wis"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ritual Casting",
+              "entries": [
+                "You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Spellcasting Focus",
+              "entries": [
+                "You can use a holy symbol (found in {@book chapter 5|PHB|5}) as a spellcasting focus for your cleric spells."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Monastic Domain",
+      "source": "WayofDevoted",
+      "page": 80,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Devoted",
+      "subclassSource": "WayofDevoted",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Also at 3rd level, you can choose one of the following domains: Arcana, Death, Forge, Grave, Knowledge, Life, Light, Nature, Order, Tempest, Trickery, War.",
+        "You gain the Channel Divinity feature, see pages 56 and 57 of the Player’s Handbook for reference, however you do not gain any additional uses of your channel divinity. In addition, you gain the Channel Divinity option and the Domain Spells, however you do not gain those spells until you have the appropriate spell slots provided by the domain you chose.",
+        "Depending on the domain you chose, as an action you can spend 1 ki point to do one of the following :",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "name": "Arcana",
+              "entries": [
+                "For the next hour, you can make Intelligence (Arcana) ability checks at advantage. You can also see magical auras around you for the same duration, as if you were under the effects of a Detect Magic spell, but you cannot discern the school of magic, nor gain the other effects of the spell."
+              ]
+            },
+            {
+              "name": "Death",
+              "entries": [
+                "For the next minute, when you or an ally within 30 ft of you makes a death saving throw, they do so at advantage."
+              ]
+            },
+            {
+              "name": "Forge",
+              "entries": [
+                "You can touch a non-magical set of armor or weapon. If it’s a weapon, it becomes magical for the purposes of overcoming non-magical resistances for 1 hour. If it’s a set of armor, it grants the wearer a +1 bonus to its armor class for 1 hour. Regardless of the item, after the duration ends that item cannot gain this benefit again until after you finish a long rest."
+              ]
+            },
+            {
+              "name": "Grave",
+              "entries": [
+                "You touch a willing creature, until the end of your next turn that creature has resistance to all damage dealt by undead creatures."
+              ]
+            },
+            {
+              "name": "Knowledge",
+              "entries": [
+                "You can ask your deity any one question. Roll a d20, on an 11-20 you get a truthful response from your deity, though the vagueness of the answer may vary depending on the result. On a 1-10, you do not get a response. If you have done a religious service to your god, at the DM’s discretion you can make this roll at advantage. ",
+                "Regardless of the result, once you attempt to have a question answered, you cannot do so again until you finish a long rest. If you get an answer back, you cannot ask another question for 7 days."
+              ]
+            },
+            {
+              "name": "Life",
+              "entries": [
+                "You touch a willing creature, that creature regains hit points equal to twice your Monk level. Once you use this ability, you cannot do so again until you complete a short or long rest."
+              ]
+            },
+            {
+              "name": "Light",
+              "entries": [
+                "As part of this same action, you can cast the {@spell light} cantrip. When you do so, its luminance increases immensely. It shines an additional 30ft of bright and dim light. This light can also illuminate through magical darkness, but only in the radius of the bright light. The illuminated magical darkness remains that way until you move away from that area, after which it becomes magical darkness until the source of the darkness is dispelled."
+              ]
+            },
+            {
+              "name": "Nature",
+              "entries": [
+                "You can animate nearby plants around you, causing them to converge or grow rapidly. If there are no plants available, they are magically created. Choose a Plant creature of CR 1 or lower, that creature appears within 5ft of you. That creature is friendly to you and your companions and obeys your commands. It rolls its own initiative and acts on its own, or you can command it (no action required). The creature remains for 1 hour or until it is dropped to 0 hit points, after which it wilts away."
+              ]
+            },
+            {
+              "name": "Order",
+              "entries": [
+                "You can empower your voice to be more authoritarian and powerful. You choose a number of creatures within 30 feet of you up to your Wisdom Modifier. For the next minute, those creatures have advantage on saving throws against being charmed or frightened. In addition, you have advantage on Charisma (Persuasion) and Charisma (Intimidation) checks for the same duration."
+              ]
+            },
+            {
+              "name": "Tempest",
+              "entries": [
+                "You touch a non-magical weapon, for the next minute that weapon is imbued with the powers of a storm. As a result, it becomes magical for the purposes of overcoming non-magical resistances and deals an amount of lightning or thunder damage equal to your Wisdom modifier."
+              ]
+            },
+            {
+              "name": "Trickery",
+              "entries": [
+                "You harness the ability to be deceiving and devious. For the next hour, you have advantage on Charisma (Deception), Dexterity (Stealth), and Dexterity (Sleight of Hand) ability checks."
+              ]
+            },
+            {
+              "name": "War",
+              "entries": [
+                "As part of this same action, you take the attack action, which includes your extra attack feature. As part of this attack action, you make one extra weapon attack."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Divine Enlightenment",
+      "source": "WayofDevoted",
+      "page": 80,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Devoted",
+      "subclassSource": "WayofDevoted",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Starting at 6th level you can convert ki points into spell slots, and vice versa. Ki is an innate magic, however there are limits to the level of spells you can recover with this method.",
+        "As a bonus action, you can spend 1 ki point to regain a 1st-level spell slot. At 7th level and onward, you can spend 2 ki points to regain a 2nd-level spell slot.",
+        "Alternatively, you can use your bonus action to convert a spell slot into a number of ki points equal to the spell slot’s level.",
+        "You can use Divine Enlightenment a number of times equal to your Wisdom Modifier, regaining all expended uses after a long rest."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Divine Restoration",
+      "source": "WayofDevoted",
+      "page": 80,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Devoted",
+      "subclassSource": "WayofDevoted",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "Starting at 11th level, you can use your ki to regain your divine abilities. As an action on your turn, you can spend 3 ki points to regain one use of your Channel Divinity. Once you have done so, you cannot do so again until you finish a long rest."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Awakened Divinity",
+      "source": "WayofDevoted",
+      "page": 80,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Devoted",
+      "subclassSource": "WayofDevoted",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "Starting at 17th level, your devotion to your deity has been recognized and you have become an embodiment of that deity. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "Your creature type becomes both your original creature type and celestial.",
+            "You learn how to speak, read, and write celestial if you do not already know said language.",
+            "At the start of each of your turns, you regain an amount of hit points equal to your Wisdom modifier, so long as you have at least 1 hit point.",
+            "You grow angelic wings, granting you a flying speed of 60 feet and you can hover.",
+            "Your weapon attacks deal an additional 2d10 radiant damage."
+          ]
+        }
+      ]
+    }
+  ]
+}

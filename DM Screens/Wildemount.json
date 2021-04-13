@@ -1,0 +1,451 @@
+{
+	"w": 5,
+	"h": 4,
+	"ctc": false,
+	"fs": true,
+	"lk": false,
+	"ps": [
+		{
+			"x": 2,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 2,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 3,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 3,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 4,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 4,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 0
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"w": 2,
+			"h": 2,
+			"t": 8,
+			"s": {
+				"state": {
+					"time": 1836000140,
+					"browseTime": null,
+					"isBrowseMode": false,
+					"hoursPerDay": 24,
+					"minutesPerHour": 60,
+					"secondsPerMinute": 60,
+					"hoursPerLongRest": 8,
+					"minutesPerShortRest": 60,
+					"secondsPerRound": 6,
+					"offsetYears": 839,
+					"offsetMonthStartDay": 0,
+					"days": {
+						"0e9db371-48d4-4da7-8d8b-d0ff1cc43798": {
+							"name": "Miresen",
+							"isDeleted": false,
+							"id": "0e9db371-48d4-4da7-8d8b-d0ff1cc43798",
+							"pos": 0
+						},
+						"a6bc5197-b9b2-4835-a778-b85641219660": {
+							"name": "Grissen",
+							"isDeleted": false,
+							"id": "a6bc5197-b9b2-4835-a778-b85641219660",
+							"pos": 1
+						},
+						"552af48d-5b58-43e3-a10b-092c56762874": {
+							"name": "Whelsen",
+							"isDeleted": false,
+							"id": "552af48d-5b58-43e3-a10b-092c56762874",
+							"pos": 2
+						},
+						"0a13e8b2-ccdc-445b-8ddb-27425eb1d353": {
+							"name": "Conthsen",
+							"isDeleted": false,
+							"id": "0a13e8b2-ccdc-445b-8ddb-27425eb1d353",
+							"pos": 3
+						},
+						"33a0e47d-6bcb-4eb0-8ff3-6b68c196d9f1": {
+							"name": "Folsen",
+							"isDeleted": false,
+							"id": "33a0e47d-6bcb-4eb0-8ff3-6b68c196d9f1",
+							"pos": 4
+						},
+						"1e958cb1-f4d0-4677-a42b-222de59e1d36": {
+							"name": "Yulisen",
+							"isDeleted": false,
+							"id": "1e958cb1-f4d0-4677-a42b-222de59e1d36",
+							"pos": 5
+						},
+						"b138d6a3-43d8-46e3-a708-6353bc15d6d7": {
+							"name": "Da'leysen",
+							"isDeleted": false,
+							"id": "b138d6a3-43d8-46e3-a708-6353bc15d6d7",
+							"pos": 6
+						}
+					},
+					"months": {
+						"5f31b5bb-2e02-476c-b40b-fc230af0d291": {
+							"name": "Horisal",
+							"days": 29,
+							"isDeleted": false,
+							"id": "5f31b5bb-2e02-476c-b40b-fc230af0d291",
+							"pos": 0
+						},
+						"ba52ffab-2bcf-4bfe-bfd0-9a82056c5fa1": {
+							"name": "Misuthar",
+							"days": 30,
+							"isDeleted": false,
+							"id": "ba52ffab-2bcf-4bfe-bfd0-9a82056c5fa1",
+							"pos": 1
+						},
+						"a7d2367e-464b-498e-8a1f-885edc7e5ad8": {
+							"name": "Dualahei",
+							"days": 30,
+							"isDeleted": false,
+							"id": "a7d2367e-464b-498e-8a1f-885edc7e5ad8",
+							"pos": 2
+						},
+						"c702e248-809b-44e7-96a4-a0de59b2beb4": {
+							"name": "Thunsheer",
+							"days": 31,
+							"isDeleted": false,
+							"id": "c702e248-809b-44e7-96a4-a0de59b2beb4",
+							"pos": 3
+						},
+						"271398d9-e9e4-464c-9767-5942b8bf12d3": {
+							"name": "Unndilar",
+							"days": 28,
+							"isDeleted": false,
+							"id": "271398d9-e9e4-464c-9767-5942b8bf12d3",
+							"pos": 4
+						},
+						"b275836c-c1a6-4216-9d0a-334c69625703": {
+							"name": "Brussendar",
+							"days": 31,
+							"isDeleted": false,
+							"id": "b275836c-c1a6-4216-9d0a-334c69625703",
+							"pos": 5
+						},
+						"3550aa04-0ecd-46c4-9045-d64367cafecf": {
+							"name": "Sydenstar",
+							"days": 32,
+							"isDeleted": false,
+							"id": "3550aa04-0ecd-46c4-9045-d64367cafecf",
+							"pos": 6
+						},
+						"36e00786-5e9e-424e-9c05-e1563c27800b": {
+							"name": "Fessuran",
+							"days": 29,
+							"isDeleted": false,
+							"id": "36e00786-5e9e-424e-9c05-e1563c27800b",
+							"pos": 7
+						},
+						"675b7c21-01ee-47a9-8946-481dc0355c7c": {
+							"name": "Quen'pillar",
+							"days": 27,
+							"isDeleted": false,
+							"id": "675b7c21-01ee-47a9-8946-481dc0355c7c",
+							"pos": 8
+						},
+						"c8546a73-0631-4210-a95b-90cbf5363130": {
+							"name": "Cuersaar",
+							"days": 29,
+							"isDeleted": false,
+							"id": "c8546a73-0631-4210-a95b-90cbf5363130",
+							"pos": 9
+						},
+						"4286d824-bc56-4167-86c6-9e7953b18713": {
+							"name": "Duscar",
+							"days": 32,
+							"isDeleted": false,
+							"id": "4286d824-bc56-4167-86c6-9e7953b18713",
+							"pos": 10
+						}
+					},
+					"events": {},
+					"encounters": {},
+					"seasons": {
+						"7005faaa-827a-4592-9e7d-728c0a7553df": {
+							"name": "Spring",
+							"startDay": 0,
+							"endDay": 89,
+							"sunriseHour": 6,
+							"sunsetHour": 20,
+							"isDeleted": false,
+							"id": "7005faaa-827a-4592-9e7d-728c0a7553df"
+						},
+						"88839d63-c1c1-4389-8954-aa3e4ead84cb": {
+							"name": "Summer",
+							"startDay": 90,
+							"endDay": 179,
+							"sunriseHour": 7,
+							"sunsetHour": 21,
+							"isDeleted": false,
+							"id": "88839d63-c1c1-4389-8954-aa3e4ead84cb"
+						},
+						"2e1532ff-26eb-4ebd-aab6-5266194fd37f": {
+							"name": "Autumn",
+							"startDay": 180,
+							"endDay": 269,
+							"sunriseHour": 6,
+							"sunsetHour": 20,
+							"isDeleted": false,
+							"id": "2e1532ff-26eb-4ebd-aab6-5266194fd37f"
+						},
+						"a962b212-ee85-42b7-aa0f-40681ab2ef5e": {
+							"name": "Winter",
+							"startDay": 270,
+							"endDay": 359,
+							"sunriseHour": 5,
+							"sunsetHour": 19,
+							"isDeleted": false,
+							"id": "a962b212-ee85-42b7-aa0f-40681ab2ef5e"
+						}
+					},
+					"years": {},
+					"eras": {},
+					"moons": {
+						"31e23754-c597-44fe-b923-db7e3843a184": {
+							"name": "Catha",
+							"color": "#ffffff",
+							"phaseOffset": 0,
+							"period": 24,
+							"isDeleted": false,
+							"id": "31e23754-c597-44fe-b923-db7e3843a184"
+						},
+						"166ae746-b64e-4455-9eb5-de34aee91c4d": {
+							"name": "Ruidus",
+							"color": "#ffffff",
+							"phaseOffset": 2,
+							"period": 22,
+							"isDeleted": false,
+							"id": "166ae746-b64e-4455-9eb5-de34aee91c4d"
+						}
+					},
+					"tab": 0,
+					"isPaused": true,
+					"isAutoPaused": false,
+					"hasCalendarLabelsColumns": true,
+					"hasCalendarLabelsRows": false,
+					"unitsWindSpeed": "mph",
+					"isClockSectionHidden": false,
+					"isCalendarSectionHidden": false,
+					"isMechanicsSectionHidden": false,
+					"isOffsetsSectionHidden": false,
+					"isDaysSectionHidden": false,
+					"isMonthsSectionHidden": false,
+					"isSeasonsSectionHidden": false,
+					"isYearsSectionHidden": false,
+					"isErasSectionHidden": false,
+					"isMoonsSectionHidden": false
+				},
+				"compClockState": {
+					"state": {},
+					"compWeatherState": {
+						"state": {
+							"temperature": "mild",
+							"precipitation": "rain-light",
+							"windDirection": -19,
+							"windSpeed": "calm"
+						}
+					}
+				},
+				"compCalendarState": {
+					"state": {}
+				},
+				"compSettingsState": {
+					"state": {}
+				}
+			}
+		},
+		{
+			"x": 3,
+			"y": 0,
+			"w": 2,
+			"h": 2,
+			"t": 14,
+			"c": {
+				"b": "TCE",
+				"c": 2
+			},
+			"a": [
+				{
+					"t": 14,
+					"c": {
+						"b": "TCE",
+						"c": 2
+					}
+				},
+				{
+					"t": 14,
+					"c": {
+						"b": "TCE",
+						"c": 3
+					}
+				},
+				{
+					"t": 14,
+					"c": {
+						"b": "TCE",
+						"c": 1
+					}
+				},
+				{
+					"t": 14,
+					"c": {
+						"b": "TCE",
+						"c": 4
+					}
+				}
+			],
+			"b": 0
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"w": 1,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3a%20crime_xge"
+			},
+			"a": [
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20work_xge"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20religious%20service_xge"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20crime_xge"
+					}
+				}
+			],
+			"b": 2
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 2,
+			"h": 2,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "downtime%20activity%3a%20buying%20a%20magic%20item_xge"
+			},
+			"a": [
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20buying%20a%20magic%20item_xge"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20crafting%20an%20item_xge"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20scribing%20a%20spell%20scroll_xge"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20pit%20fighting_xge"
+					}
+				},
+				{
+					"t": 1,
+					"c": {
+						"p": "variantrules.html",
+						"s": "XGE",
+						"u": "downtime%20activity%3a%20research_xge"
+					}
+				}
+			],
+			"b": 0
+		}
+	],
+	"ex": [
+		{
+			"x": 0,
+			"y": 3,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "variantrules.html",
+				"s": "XGE",
+				"u": "falling_xge"
+			}
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"w": 1,
+			"h": 1,
+			"t": 1,
+			"c": {
+				"p": "tables.html",
+				"s": "Screen",
+				"u": "dm%20screen%3b%20name%20generator_screen"
+			}
+		}
+	]
+}

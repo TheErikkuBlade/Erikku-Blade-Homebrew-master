@@ -1,0 +1,4025 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AcademyofVulnaris",
+				"abbreviation": "AoV",
+				"full": "Academy of Vulnaris",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1598164823,
+		"dateLastModified": 1598164823
+	},
+	"monster": [
+		{
+			"name": "Student Mage (Wizard)",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				10,
+				{
+					"ac": 13,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 24,
+				"formula": "7d8 - 7"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 10,
+			"con": 9,
+			"int": 15,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+4",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+4",
+				"history": "+4"
+			},
+			"passive": 11,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 4} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell magic weapon}",
+								"{@spell misty step}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Many up and coming spellcasters from Magic High usually come to the Academy of Vulnaris to learn how to properly cast magic higher than cantrip level These students are some of the most brilliant minds the land, but they are still novices to the craft. Often these spellcasters are wizards, but in the Academy of Vulnaris there is a plethora of different kinds of spellcasting."
+								]
+							}
+						]
+					}
+				]
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Student Mage (Sorcerer)",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"15 with mage armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d6 + 10",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 15,
+			"con": 14,
+			"int": 10,
+			"wis": 9,
+			"cha": 15,
+			"save": {
+				"con": "+4",
+				"cha": "+4"
+			},
+			"skill": {
+				"arcana": "+2",
+				"medicine": "+1"
+			},
+			"passive": 9,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell poison spray}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chromatic orb}",
+								"{@spell expeditious retreat}",
+								"{@spell mage armor}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell scorching ray}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Sorcery Points",
+					"entries": [
+						"The mage has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. It can spend its sorcery points on the following options:",
+						"Heightened Spell: When it casts a spell that forces a creature to a saving throw to resist the spell's effects, the mage can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.",
+						"Subtle Spell: When the mage casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Familiar",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					],
+					"type": "variant"
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Many up and coming spellcasters from Magic High usually come to the Academy of Vulnaris to learn how to properly cast magic higher than cantrip level These students are some of the most brilliant minds the land, but they are still novices to the craft. Often these spellcasters are wizards, but in the Academy of Vulnaris there is a plethora of different kinds of spellcasting."
+								]
+							}
+						]
+					}
+				]
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			]
+		},
+		{
+			"name": "Pseudodragon (Academy Trained)",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "T",
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d4 + 2"
+			},
+			"speed": {
+				"walk": 15,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common and Draconic"
+			],
+			"cr": "1/2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The pseudodragon has learned the very basics of spellcasting. Its spellcasting ability is Charisma (spell save {@dc 12}, +4 to hit with spell attacks). It can innately cast the following spells without requiring material components:"
+					],
+					"will": [
+						"{@spell Control Flames|XGE}",
+						"{@spell Fire Bolt}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell Burning Hands}",
+							"{@spell Feather Fall}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The pseudodragon has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing, or smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The pseudodragon has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}7 ({@damage 2d4 + 2}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or become {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target falls {@condition unconscious} for the same duration, or until it takes damage or another creature uses an action to shake it awake."
+					]
+				},
+				{
+					"name": "Fire Breath",
+					"entries": [
+						"The dragon exhales fire in a 10-foot cone. Each creature in that area must make a {@dc 11} Dexterity saving throw, taking 16 ({@damage 4d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Pseudodragon Familiar",
+					"entries": [
+						"Some pseudodragons are willing to serve spellcasters as a familiar. Such pseudodragons have the following trait.",
+						{
+							"name": "Familiar",
+							"type": "entries",
+							"entries": [
+								"The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"desert",
+				"forest",
+				"hill",
+				"mountain",
+				"urban"
+			],
+			"fluff": {
+				"name": "Pseudodragon",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The elusive pseudodragon dwells in the quiet places of the world, making its home in the hollows of trees and small caves. With its red-brown scales, horns, and a maw filled with sharp teeth, a pseudodragon resembles a tiny red dragon but its disposition is playful.",
+									{
+										"name": "Quiet and Defensive",
+										"type": "entries",
+										"entries": [
+											"Pseudodragons have little interest in other creatures, and they avoid them whenever possible. If it is attacked, a pseudodragon fights back using the poisonous stinger at the tip of its tail, one jab of which can put a creature into a catatonic state that can last for hours."
+										]
+									},
+									{
+										"name": "Draconic Familiars",
+										"type": "entries",
+										"entries": [
+											"Mages often seek out pseudodragons, whose agreeable disposition, telepathic ability, and resistance to magic make them superior familiars. Pseudodragons are selective when it comes to choosing companions, but they can sometimes be won over with gifts of food or treasure. When a pseudodragon finds an agreeable companion, it bonds with that person as long as it is treated fairly.",
+											"A pseudodragon puts up with no ill treatment, and it abandons a manipulative or abusive companion without warning."
+										]
+									},
+									{
+										"name": "Language of Emotion",
+										"type": "entries",
+										"entries": [
+											"Pseudodragons can't speak, but they communicate using a limited form of telepathy that allows them to share basic ideas such as hunger, curiosity, or affection. When it bonds with a companion, a pseudodragon can communicate what it sees and hears even over long distances.",
+											"A pseudodragon often vocalizes animal noises. A rasping purr indicates pleasure, while a hiss means unpleasant surprise. A bird-like chirping represents desire, and a growl always means anger or discontent.",
+											"Variant: Pseudodragon Familiar",
+											"Some pseudodragons are willing to serve spellcasters as a familiar. Such pseudodragons have the following trait."
+										]
+									},
+									{
+										"name": "Familiar",
+										"type": "entries",
+										"entries": [
+											"The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Pseudodragon.jpg"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"dragonCastingColor": "R",
+			"tokenUrl": "https://noads.5e.tools/img/MM/Pseudodragon.png?v=1.105.1",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/393/pseudodragon.mp3",
+			"traitTags": [
+				"Keen Senses",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Mage Professor",
+			"source": "AcademyofVulnaris",
+			"page": 347,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 13,
+			"int": 20,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+8",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+11",
+				"history": "+11",
+				"perception": "+4",
+				"religion": "+8",
+				"investigation": "+8",
+				"insight": "+4",
+				"nature": "+8"
+			},
+			"passive": 14,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell misty step}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}",
+								"{@spell fly}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell greater invisibility}",
+								"{@spell ice storm}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Mage",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference."
+								]
+							}
+						]
+					}
+				]
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Archmage Emit",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"drow"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"Robe of the Archmagi"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 18",
+				"average": 162
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 24,
+			"wis": 18,
+			"cha": 16,
+			"save": {
+				"int": "+11",
+				"wis": "+8"
+			},
+			"skill": {
+				"arcana": "+15",
+				"history": "+15",
+				"perception": "+8",
+				"investigation": "+11",
+				"nature": "+11",
+				"religion": "+11",
+				"stealth": "+7",
+				"sleight of hand": "+7",
+				"insight": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"languages": [
+				"celestial",
+				"common",
+				"draconic",
+				"elvish",
+				"sylvan",
+				"uncercommon"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The archmage can cast {@spell gift of alacrity|egw} and {@spell fortune's favor|egw} at will and has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*The archmage casts these spells on itself before combat."
+					],
+					"will": [
+						"{@spell fortune's favor|egw}",
+						"{@spell gift of alacrity|egw}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell sapping sting|egw}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell haste}",
+								"{@spell pulse wave|egw}",
+								"{@spell slow}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell feymutation|AdditionalFey}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell scrying}",
+								"{@spell temporal shunt|EGW}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell globe of invulnerability}",
+								"{@spell true seeing}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell teleport}",
+								"{@spell tether essence|EGW}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell mind blank}*",
+								"{@spell reality break|EGW}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell time ravage|EGW}",
+								"{@spell time stop}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The archmage has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Emit is a powerful mage that has practiced time manipulation. He appears to be on the verge of a breakthrough, but has made little progress past that.",
+					"Little is known of his past, he doesn't share much with anyone. They say he likes you if he even tells you his name."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/qkdANBX.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/qkdANBX.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Claire Stravras",
+			"source": "AcademyofVulnaris",
+			"page": 320,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aasimar"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 14",
+				"average": 70
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 14,
+			"int": 16,
+			"wis": 14,
+			"cha": 18,
+			"skill": {
+				"athletics": "+3",
+				"deception": "+6",
+				"perception": "+6",
+				"sleight of hand": "+7",
+				"stealth": "+9",
+				"arcana": "+7",
+				"history": "+5",
+				"investigation": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"necrotic",
+				"radiant"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Thieves' cant"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The assassin's spellcasting ability is Constitution ({@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell fire bolt}"
+					],
+					"daily": {
+						"1": [
+							"{@spell chromatic orb}"
+						]
+					},
+					"ability": "con",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Unstable Mark",
+					"entries": [
+						"When the assassin casts an innate spell, each creature within 10 feet of the assassin must make a {@dc 12} Constitution saving throw, taking 4 ({@damage 1d8}) force damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"The claire stravras deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the claire stravras that isn't {@condition incapacitated} and the claire stravras doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the claire stravras is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the claire stravras instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the claire stravras has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the claire stravras scores against a surprised creature is a critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+					]
+				},
+				{
+					"name": "Fire Bolt (Cantrip)",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 120 ft., one target. {@h}11 ({@damage 2d10}) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried."
+					]
+				},
+				{
+					"name": "Chromatic Orb (1/Day)",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 90 ft., one creature. {@h}18 ({@dice 4d8}) damage of a type chosen by the assassin: acid, cold, fire, lightning, poison, or thunder."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Claire Stravras, daughter of Eririus Stravras the headmaster of The Academy of Vulnaris. She was stolen by a group of assassins known as The Wayfinders. She was trained to kill them, but she also learned how to cast spells via her unstable dragonmark.",
+									{
+										"type": "inset",
+										"name": "Aberrant Dragonmark Innate Spells",
+										"entries": [
+											"The power granted by an aberrant dragonmark is unpredictable. When running a Tarkanan assassin, you can roll on the Aberrant Dragonmark Innate Spells table to determine the spells gained from that NPC's aberrant mark, replacing the spells in the stat block's Innate Spellcasting trait.",
+											{
+												"type": "table",
+												"colLabels": [
+													"d6",
+													"At Will",
+													"1/Day"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-5",
+													"col-5"
+												],
+												"rows": [
+													[
+														"1",
+														"{@spell Fire bolt} ({@dice 2d10})",
+														"{@spell Burning hands} ({@dice 3d6})"
+													],
+													[
+														"2",
+														"{@spell Shocking grasp} ({@dice 2d8})",
+														"{@spell Chromatic orb} ({@dice 4d8})"
+													],
+													[
+														"3",
+														"{@spell Poison spray} ({@dice 2d12})",
+														"{@spell Ray of sickness} ({@dice 3d8})"
+													],
+													[
+														"4",
+														"{@spell Friends}",
+														"{@spell Charm person} (two creatures)"
+													],
+													[
+														"5",
+														"{@spell Minor illusion}",
+														"{@spell Thunderwave} ({@dice 2d8})"
+													],
+													[
+														"6",
+														"{@spell Dancing lights}",
+														"{@spell Sleep} ({@dice 7d8})"
+													]
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/712498924060934144/a48323486a581f9472c3aca864b30eef.jpg?width=553&height=761"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/O4jYk0Z.png",
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"TC"
+			],
+			"damageTags": [
+				"F",
+				"I",
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			]
+		},
+		{
+			"name": "Terris Wayfinder",
+			"isNamedCreature": true,
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"drow"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item mithral plate armor} +1"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d8 + 45",
+				"average": 165
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 22,
+			"con": 16,
+			"int": 15,
+			"wis": 20,
+			"cha": 18,
+			"save": {
+				"dex": "+10",
+				"int": "+6"
+			},
+			"skill": {
+				"acrobatics": "+14",
+				"deception": "+8",
+				"perception": "+9",
+				"stealth": "+14",
+				"religion": "+6",
+				"arcana": "+6",
+				"athletics": "+6",
+				"investigation": "+10",
+				"sleight of hand": "+14"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"blindsight 10 ft."
+			],
+			"passive": 19,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' cant",
+				"Undercommon"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The drow's innate spellcasting ability is Charisma (spell save {@dc 16}). He can innately cast the following spells, requiring no material components:",
+						"At will: {@spell dancing lights}, {@spell detect magic}, {@spell counterspell}",
+						"1/day each: {@spell clairvoyance}, {@spell darkness}, {@spell detect thoughts}, {@spell dispel magic}, {@spell faerie fire}, {@spell levitate} (self only), {@spell suggestion}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The drow is a 12th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 17}, +9 to hit with spell attacks). He has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Guidance}",
+								"{@spell Message}",
+								"{@spell Poison Spray}",
+								"{@spell Resistance}",
+								"{@spell Thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Bane}",
+								"{@spell Cure Wounds}",
+								"{@spell Inflict Wounds}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Blindness/Deafness}",
+								"{@spell Silence}",
+								"{@spell Spiritual Weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Bestow Curse}",
+								"{@spell Dispel Magic}",
+								"{@spell Magic Circle}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Banishment}",
+								"{@spell Divination}",
+								"{@spell Freedom of Movement}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Contagion}",
+								"{@spell Dispel Evil and Good}",
+								"{@spell Insect Plague}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell Harm}",
+								"{@spell True Seeing}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The assassin deals an extra 14 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes three shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword + 1",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 7}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 28 ({@damage 8d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Light Crossbow +1",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d8 + 7}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 28 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Sneak",
+					"entries": [
+						"Terris uses half of his movement and takes the hide action. This movement does not provoke opportunity attacks."
+					]
+				},
+				{
+					"name": "Evasive Shot",
+					"entries": [
+						"Terris uses half of his movement and makes one attack with his crossbow. This movement does not provoke opportunity attacks."
+					]
+				},
+				{
+					"name": "Evasive Movement",
+					"entries": [
+						"Terris uses his full movement. This movement does not provoke opportunity attacks."
+					]
+				},
+				{
+					"name": "Cast a spell (Costs 2 Actions)",
+					"entries": [
+						"Terris casts a 3rd level or lower spell."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them. Terris Wayfinder is a powerful assassin, and leader of the crime syndicate The Wayfinders. He has a grudge against the Academy after kicking him out for following Lolth."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/yvosji3.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/yvosji3.png",
+			"altArt": [
+				{
+					"name": "Vistana Assassin",
+					"source": "CoS"
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"TC",
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"CC",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Malissa Dragonflame",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"Human"
+				]
+			},
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"Draconian Scales"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 6",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 17,
+			"int": 16,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"cha": "+6",
+				"int": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5",
+				"investigation": "+5",
+				"persuasion": "+6",
+				"insight": "+5",
+				"perception": "+5"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Primordial"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Malissa's spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The spellcaster has following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Fire Bolt}",
+								"{@spell Prestidigitation}",
+								"{@spell Thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Absorb Elements|XGE}",
+								"{@spell Burning Hands}",
+								"{@spell Faerie Fire}",
+								"{@spell Hellish Rebuke}",
+								"{@spell Searing Smite}"
+							],
+							"slots": 2
+						}
+					},
+					"will": [
+						"{@spell Detect Magic}",
+						"{@spell Identify}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Destructive Magic",
+					"entries": [
+						"When Malissa casts a spell that deals damage, it gains a bonus to the damage roll equal to her spellcasting ability modifier."
+					]
+				},
+				{
+					"name": "Red Draconian Origins",
+					"entries": [
+						"Whenever Malissa casts a spell of 1st level or higher that deals fire damage, each creature that suffers the effects of the spell must make a Constitution Saving Throw. On a failed save, the creature will be wreathed in flames that will deal fire damage equal to her spellcasting ability modifier at the start of each of their turns for 1 minute. They can repeat their saving throws at the end of each of their turns, ending the effect on a success. A creature can spend their action putting out the flames, ending the effect early."
+					]
+				},
+				{
+					"name": "All Knowing Eyes",
+					"entries": [
+						"Malissa can cast {@spell Identify} at will without expending a spell slot or requiring a material component, you also do not need to touch the item to identify it."
+					]
+				},
+				{
+					"name": "Eyes of the Magi Drakes",
+					"entries": [
+						"Malissa can cast {@spell detect magic} at will without material, somatic, or verbal components or spending a spell slot."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Malissa Dragonflame was born into a poor family. When she was a young girl, her mother and father were forced to join the military and had to send her away to a foster home. This foster home was attacked and destroyed. ",
+					"She was found by a red dragon, who took her in and raised her for a time. When she was old enough to take care of herself, the dragon left. She went off to find Eririus Stravras, who promised her training in the arcane and place to call home."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/712557798336102410/1b6b5ed64234aaa1fe33bd01f2b7272e.png"
+						}
+					}
+				]
+			},
+			"dragonCastingColor": "R",
+			"tokenUrl": "https://i.imgur.com/YPYEkmZ.png",
+			"altArt": [
+				{
+					"name": "Spellcaster (Healer)",
+					"source": "ESK"
+				}
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"P"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Lyssandra",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AcademyofVulnaris",
+			"page": 63,
+			"level": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aasimar"
+				]
+			},
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item mithral plate armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 6",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 15,
+			"wis": 18,
+			"cha": 16,
+			"save": {
+				"wis": "+6",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+4",
+				"investigation": "+4",
+				"religion": "+6",
+				"history": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"necrotic",
+				"radiant"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Healer)",
+					"headerEntries": [
+						"Lyssandra's spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The spellcaster has following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Guidance}",
+								"{@spell Sacred Flame}",
+								"{@spell Spare the Dying}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Bless}",
+								"{@spell Cure Wounds}",
+								"{@spell Guiding Bolt}",
+								"{@spell Healing Word}",
+								"{@spell Shield of Faith}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Lyssandra's spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The Lyssandra can innately cast the following spells:"
+					],
+					"will": [
+						"{@spell Light}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell Aid}",
+							"{@spell Branding Smite}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Lyssandra has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"Lyssandra knows if she hears a lie."
+					]
+				},
+				{
+					"name": "War Priest 4/long rest",
+					"entries": [
+						"When Lyssandra uses the Attack action, she can make one weapon attack as a bonus action. "
+					]
+				},
+				{
+					"name": "Channel Divnity 1/rest",
+					"entries": [
+						"Turn Undead: As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear her within 30 feet of her must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+						"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+						"Guided Strike: When Lyssandra makes an attack roll, she can use her Channel Divinity to gain a +10 bonus to the roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Lyssandra was born with further celestial origins than your typical Aasimar. She has a divine presence that gives her immense magical power."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/713102598911164426/e0f03202ea786db9bc421970a7d51ea9.jpg?width=454&height=761"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/UEYGU0X.png",
+			"altArt": [
+				{
+					"name": "Spellcaster (Healer)",
+					"source": "ESK"
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CC",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Annabeth Loreli",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AcademyofVulnaris",
+			"page": 63,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 4",
+				"average": 20
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 9,
+			"con": 14,
+			"int": 16,
+			"wis": 18,
+			"cha": 16,
+			"save": {
+				"wis": "+6",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"investigation": "+5",
+				"history": "+5",
+				"religion": "+7"
+			},
+			"passive": 14,
+			"languages": [
+				"Celestial",
+				"Common"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Healer)",
+					"headerEntries": [
+						"The spellcaster's spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The spellcaster has following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell Spare the Dying}",
+								"{@spell Word of Radiance|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Bless}",
+								"{@spell Cure Wounds}",
+								"{@spell Healing Word}",
+								"{@spell Inflict Wounds}",
+								"{@spell Sanctuary}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Disciple of Life",
+					"entries": [
+						"Also starting at 1st level, your healing spells are more effective. Whenever Annabeth uses a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+					]
+				},
+				{
+					"name": "Channel Divinity 1/rest",
+					"entries": [
+						"Turn Undead: As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear her within 30 feet of her must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+						"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+						"Preserve Life: As an action, Annabeth presents her holy symbol and evoke healing energy that can restore a number of hit points equal to 5. She chooses any creatures within 30 feet of her, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Annabeth was born into the Loreli family. The Loreli family has always been faithful followers to Sune, the Goddess of Love and Beauty. She has a passion for looking her absolute best all the time, and she hopes to find magic that can help with that."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/713167093536915516/9240b0c57355e9f9fd10e42c700719f0.jpg?width=372&height=677"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TKjsbiE.png",
+			"altArt": [
+				{
+					"name": "Spellcaster (Healer)",
+					"source": "ESK"
+				}
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CC"
+			]
+		},
+		{
+			"name": "Eririus Stravras",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aasimar"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item robe of the archmagi}",
+						"{@spell otherworldly form|UA2020SpellsAndMagicTattoos}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 48",
+				"average": 240
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 14,
+			"int": 24,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"int": "+14",
+				"wis": "+11",
+				"con": "+9",
+				"dex": "+12",
+				"cha": "+6",
+				"str": "+3"
+			},
+			"skill": {
+				"arcana": "+19",
+				"history": "+19",
+				"perception": "+10",
+				"investigation": "+19",
+				"medicine": "+10",
+				"religion": "+13",
+				"nature": "+13",
+				"persuasion": "+17"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 10 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"abyssal",
+				"celestial",
+				"common",
+				"draconic",
+				"elvish",
+				"infernal"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Eririus is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 25}, {@hit 17} to hit with spell attacks). Eririus can cast {@spell healing word} and {@spell misty step} at will and has the following wizard spells prepared:"
+					],
+					"constant": [
+						"{@spell aura of vitality}",
+						"{@spell holy aura}",
+						"{@spell otherworldly form|UA2020SpellsAndMagicTattoos}"
+					],
+					"will": [
+						"{@spell healing word}",
+						"{@spell misty step}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}",
+								"{@spell spare the dying}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell aid}",
+								"{@spell detect thoughts}",
+								"{@spell mirror image}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell haste}",
+								"{@spell mass healing word}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}",
+								"{@spell greater invisibility}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell scrying}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell mind blank}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell true resurrection}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The archmage has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Eririus has a {@item staff of the magi}, {@item ring of protection}, and a {@item robe of the archmagi} attuned to. He also has a +3 rapier disguised as a ring that he wears. He can use a bonus action to speak its command word and have it transform into the sword."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If Eririus is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Eririus regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Angelic Weapons",
+					"entries": [
+						"Eririus Stravras's weapon attacks are magical. When Eririus Stravras hits with any weapon, the weapon deals an extra {@damage 4d8} radiant damage."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"Eririus Stravras knows if he hears a lie."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"As a bonus action, Eririus Stravras can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Arcane Recovery",
+					"entries": [
+						"When Eririus finishes a short rest, he can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half his CR (rounded up), and none of the slots can be 6th level or higher."
+					]
+				},
+				{
+					"name": "Healing Light",
+					"entries": [
+						"Whenever Eririus uses a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to his charisma modifier + half the spell's level (rounded down to a minimum of 1)."
+					]
+				},
+				{
+					"name": "Empowered Healing 5/day",
+					"entries": [
+						"When Eririus casts a spell of 1st level or higher that would heal a target, instead of rolling he can restore the maximum possible hit points from the spell."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Eririus Stravras fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Rapier +3",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, plus 23 ({@damage 4d8}) radiant damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Strategic Advantage",
+					"entries": [
+						"The next ability check, attack roll, or saving throw Eririus makes is at advantage."
+					]
+				},
+				{
+					"name": "Strategic Command",
+					"entries": [
+						"Eririus can command one ally that can hear him to use half of their movement and they can either make one weapon attack or cast a spell with a casting time of 1 action."
+					]
+				},
+				{
+					"name": "Cast a spell (Costs 2 Actions)",
+					"entries": [
+						"Eririus casts a spell of 6th level or lower."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Eririus Stravras is a powerful archmage that is the current headmaster of the Academy of Vulnaris. He is often quite busy with his duty as the headmaster, but still manages to find time for his own craft.",
+									"Eririus has taken in several students under his wing, and hopes to one day watch all of them flourish as their own archmages. This is mainly due to his daughter being stolen from him by The Wayfinders many years ago. He's tried all kinds of divination magic, but to this day he still hasn't found her."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/713507959069605999/Eririus_Stravras.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/u8aOrvD.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"R"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Elemental Carbuncle",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "T",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the elemental's Constitution modifier + your spellcasting ability modifier + five times the spell's level"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 40,
+					"condition": "(air only hover)"
+				},
+				"burrow": {
+					"number": 40,
+					"condition": "(earth only)"
+				},
+				"swim": {
+					"number": 40,
+					"condition": "(water only)"
+				},
+				"canHover": true
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 17,
+			"int": 4,
+			"wis": 10,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"lightning",
+				{
+					"resist": [
+						"acid"
+					],
+					"note": "(water only)"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "(earth only)"
+				},
+				{
+					"resist": [
+						"thunder"
+					],
+					"note": "(air only)"
+				}
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"fire"
+					],
+					"note": "(fire only)"
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"Primordial",
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Amorphous Form (Air, Fire, and Water Only)",
+					"entries": [
+						"The elemental can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The elemental makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} +4 + the spell's level to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4} + the spell's level bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only)."
+					]
+				},
+				{
+					"name": "Gust (air only)",
+					"entries": [
+						"{@atk rw} {@hit 3} + the spell's level to hit, range 30/30 ft., one target. {@h}7 ({@damage 1d10 + 3}) + the spell's level thunder damage."
+					]
+				},
+				{
+					"name": "Flare Shot (fire only)",
+					"entries": [
+						"{@atk rw} {@hit 3} + the spell's level to hit, range 30/30 ft., one target. {@h}7 ({@damage 1d10 + 3}) + the spell's level fire damage."
+					]
+				},
+				{
+					"name": "Rock Throw (earth only)",
+					"entries": [
+						"{@atk rw} {@hit 3} + the spell's level to hit, range 30/30 ft., one target. {@h}7 ({@damage 1d10 + 3}) + the spell's level bludgeoning damage."
+					]
+				},
+				{
+					"name": "Ice Shard (water only)",
+					"entries": [
+						"{@atk rw} {@hit 3} + the spell's level to hit, range 30/30 ft., one target. {@h}7 ({@damage 1d10 + 3}) + the spell's level cold damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/WydvSGL.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/1iPLU7N.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/XdMt4rl.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/a4JVAve.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/1iPLU7N.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Astral Carbuncle",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "T",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the elemental's Constitution modifier + your spellcasting ability modifier + five times the spell's level"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 17,
+			"int": 4,
+			"wis": 10,
+			"cha": 16,
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				},
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"force",
+						"lightning"
+					]
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"Primordial",
+				"understands the languages you speak"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The astral carbuncle can innately cast {@spell plane shift} twice per day, without requiring material components. Charisma is its spellcasting ability."
+					],
+					"daily": {
+						"2e": [
+							"{@spell plane shift}"
+						]
+					},
+					"ability": "cha",
+					"hidden": [
+						"daily"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The astral carbuncle can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the astral carbuncle is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The astral carbuncle has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The astral carbuncle's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"As a bonus action, the astral carbuncle can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The elemental makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} +4 + the spell's level to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4} + the spell's level force damage."
+					]
+				},
+				{
+					"name": "Pulse Beam",
+					"entries": [
+						"{@atk rw} {@hit 3} + the spell's level to hit, range 60/60 ft., one target. {@h}7 ({@damage 1d10 + 3}) + the spell's level force damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/LtoYPgN.jpg"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/z75QBzZ.png",
+			"traitTags": [
+				"Incorporeal Movement",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Lesser Student Mage (Wizard)",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 12,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 17,
+				"formula": "5d8 - 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 8,
+			"con": 9,
+			"int": 15,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+4",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+4",
+				"history": "+4"
+			},
+			"passive": 11,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 4} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 2} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}1 ({@damage 1d4  -1}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Many up and coming spellcasters from Magic High usually come to the Academy of Vulnaris to learn how to properly cast magic higher than cantrip level These students are some of the most brilliant minds the land, but they are still novices to the craft. Often these spellcasters are wizards, but in the Academy of Vulnaris there is a plethora of different kinds of spellcasting."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/AoV/Student Mage (Wizard).png?v=1.105.2",
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Lesser Student Mage (Sorcerer)",
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"15 with mage armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d6 + 8",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 11,
+			"con": 14,
+			"int": 10,
+			"wis": 9,
+			"cha": 15,
+			"save": {
+				"con": "+4",
+				"cha": "+4"
+			},
+			"skill": {
+				"arcana": "+2",
+				"medicine": "+1"
+			},
+			"passive": 9,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kobold is a 2nd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell poison spray}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chromatic orb}",
+								"{@spell expeditious retreat}",
+								"{@spell mage armor}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Familiar",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					],
+					"type": "variant"
+				}
+			],
+			"environment": [
+				"forest",
+				"hill",
+				"mountain",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Many up and coming spellcasters from Magic High usually come to the Academy of Vulnaris to learn how to properly cast magic higher than cantrip level These students are some of the most brilliant minds the land, but they are still novices to the craft. Often these spellcasters are wizards, but in the Academy of Vulnaris there is a plethora of different kinds of spellcasting."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/AoV/Student Mage (Sorcerer).png?v=1.105.2",
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			]
+		},
+		{
+			"name": "Emil Stravras",
+			"isNpc": true,
+			"source": "AcademyofVulnaris",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aasimar"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with mage armor",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 6",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 16,
+			"int": 18,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+4",
+				"investigation": "+4",
+				"religion": "+4"
+			},
+			"passive": 13,
+			"languages": [
+				"Celestial",
+				"Common",
+				"Elvish"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Healer)",
+					"headerEntries": [
+						"The spellcaster's spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The spellcaster has following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell guidance}",
+								"{@spell mage hand}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell cure wounds}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Arcana 1/rest",
+					"entries": [
+						"As a bonus action, Emil can speak a prayer to control the flow of magic around him. The next spell he casts gains a +2 bonus to any attack roll you make for it or to its saving throw DC, as appropriate."
+					]
+				},
+				{
+					"name": "Arcane Recovery",
+					"entries": [
+						"When Emil finishes a short rest, he can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half his CR (rounded up), and none of the slots can be 6th level or higher."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/40 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage in melee, or 4 ({@damage 1d4 + 2}) piercing damage at range."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Emil grew up studying from the academy, he may be young but he has a lot of promise. His father is the famously known Eririus Stravras, the headmaster of the academy.",
+					"He doesn't really talk very much, he seems to be very shy and reserved. He apparently likes to read books."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/451126814077616140/713614582026993674/a21ec515c3ba2bdf7e239f4e67ad7aa0.jpg?width=283&height=565"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/AzTOPu2.png",
+			"altArt": [
+				{
+					"name": "Spellcaster (Healer)",
+					"source": "ESK"
+				}
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"E"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Professor Desmond",
+			"source": "AcademyofVulnaris",
+			"page": "1",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"Elven Chain"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 42",
+				"average": 105
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 16,
+			"int": 20,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"int": "+9",
+				"wis": "+6",
+				"con": "+7"
+			},
+			"skill": {
+				"arcana": "+13",
+				"history": "+13",
+				"perception": "+6",
+				"religion": "+9",
+				"investigation": "+13",
+				"insight": "+6",
+				"nature": "+9",
+				"persuasion": "+12",
+				"stealth": "+10"
+			},
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Giant"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 16th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The mage has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell prestidigitation}",
+								"{@spell thunderclap|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell misty step}",
+								"{@spell scorching ray}",
+								"{@spell skywrite|XGE}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blink}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell dimension door}",
+								"{@spell greater invisibility}",
+								"{@spell hallucinatory terrain}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell far step|XGE}",
+								"{@spell hold monster}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell mental prison|XGE}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell etherealness}",
+								"{@spell teleport}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell power word stun}"
+							],
+							"slots": 1
+						}
+					},
+					"will": [
+						"{@spell illusory script}",
+						"{@spell locate object}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Alcoholic",
+					"entries": [
+						"Desmond has advantage on saving throws against being intoxicated."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 4}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Desmond spends most of his time either in bars or on the streets. He likes to take walks or nap when he doesn't have students to look after. He's a bit of a slob, but at least he dresses nice. He is at least very well read when it comes to magic and he is a particularly good detective."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/wzdmuh3.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/NEI1qkX.png",
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"GI"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Karen",
+			"isNpc": true,
+			"source": "AcademyofVulnaris",
+			"page": 206,
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 157,
+				"formula": "21d8 + 63"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 16,
+			"int": 16,
+			"wis": 17,
+			"cha": 20,
+			"skill": {
+				"deception": "+9",
+				"insight": "+7",
+				"perception": "+7",
+				"stealth": "+8",
+				"history": "+7",
+				"arcana": "+11",
+				"nature": "+11",
+				"religion": "+11"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Celestial",
+				"Infernal"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Karen is a 14th level sorcerer. Her spellcasting ability is Charisma and has a {@dc 17} spell save and a +9 to hit with spell attacks. She has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell dancing lights}",
+								"{@spell lightning lure|SCAG}",
+								"{@spell mending}",
+								"{@spell poison spray}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell disguise self}",
+								"{@spell ray of sickness}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell crown of madness}",
+								"{@spell earthbind|XGE}",
+								"{@spell enlarge/reduce}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell hypnotic pattern}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell dominate beast}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell dominate person}",
+								"{@spell hold monster}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell eyebite}",
+								"{@spell true seeing}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Petrifying Gaze",
+					"entries": [
+						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 15} Constitution saving throw if the medusa isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, a creature that fails the save begins to turn to stone and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  {@spell greater restoration} spell or other magic.",
+						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
+						"If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The medusa makes either three melee attacks—one with its snake hair, one to constrict, and one with its shortsword—or two ranged attacks with its longbow."
+					]
+				},
+				{
+					"name": "Snake Hair",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 17 ({@damage 5d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 9 ({@damage 2d6}) poison damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, and the medusa can't constrict another target."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Karen used to be an evil Medusa that tried to kill Eririus Stravras. Though her efforts had failed, it would ultimately be for the best as Eririus would actually take her in and show her a new path. She now teaches new sorcerers how to cast magic."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/79UE0cz.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/bjUl8i6.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"petrified",
+				"restrained"
+			]
+		},
+		{
+			"name": "Professor Watanabe",
+			"shortName": "Watanabe",
+			"source": "AcademyofVulnaris",
+			"page": "1",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d8 + 26",
+				"average": 84
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 14,
+			"int": 16,
+			"wis": 20,
+			"cha": 15,
+			"save": {
+				"dex": "+7",
+				"str": "+6",
+				"wis": "+8"
+			},
+			"skill": {
+				"history": "+9",
+				"perception": "+11",
+				"religion": "+9",
+				"investigation": "+6",
+				"insight": "+11",
+				"nature": "+6",
+				"athletics": "+6",
+				"acrobatics": "+10",
+				"stealth": "+7",
+				"survival": "+8",
+				"medicine": "+11",
+				"arcana": "+6"
+			},
+			"passive": 21,
+			"languages": [
+				"Common",
+				"Celestial",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The mage has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell sacred flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell augury}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell create food and water}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell control water}",
+								"{@spell death ward}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell greater restoration}",
+								"{@spell mass cure wounds}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Professor Watanabe is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+					]
+				},
+				{
+					"name": "Ki-Empowered Strikes",
+					"entries": [
+						"Professor Watanabe's Unarmed Strikes are considered magical."
+					]
+				},
+				{
+					"name": "Slow Fall",
+					"entries": [
+						"Professor Watanabe takes 40 less damage from falling."
+					]
+				},
+				{
+					"name": "Ki (8/8)",
+					"entries": [
+						"Professor Watanabe can spend 1 ki point to do one of the following:",
+						"Stunning Strike.",
+						"Flurry of Blows.",
+						"Patient Defense.",
+						"Step of the Wind."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Katana",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missiles",
+					"entries": [
+						"Professor Watanabe reduces a ranged attack by {@dice 1d10 + 8}. If she reduces the damage to 0, she makes throws the attack back at the target."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Professor Watanabe is a strong woman who likes to go out drinking occasionally. She gets the job done quickly and efficiently, though she can be a bit crude or harsh. She doesn't hold back when it comes to criticism and she expects perfection. Though she has a kind heart deep down."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/ycR2kec.png",
+			"languageTags": [
+				"C",
+				"CE",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Professor Misaki",
+			"shortName": "Watanabe",
+			"source": "AcademyofVulnaris",
+			"page": "1",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 56",
+				"average": 119
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 18,
+			"int": 16,
+			"wis": 22,
+			"cha": 17,
+			"save": {
+				"dex": "+10",
+				"str": "+8",
+				"wis": "+11",
+				"con": "+9",
+				"int": "+8",
+				"cha": "+8"
+			},
+			"skill": {
+				"history": "+13",
+				"perception": "+16",
+				"religion": "+13",
+				"investigation": "+8",
+				"insight": "+16",
+				"nature": "+8",
+				"athletics": "+8",
+				"acrobatics": "+15",
+				"stealth": "+10",
+				"survival": "+11",
+				"medicine": "+16",
+				"arcana": "+8",
+				"animal handling": "+11",
+				"persuasion": "+8"
+			},
+			"passive": 26,
+			"languages": [
+				"Common",
+				"Celestial",
+				"Elvish",
+				"Dwarvish"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 19}, {@hit 10} to hit with spell attacks). The mage has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell sacred flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell augury}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell create food and water}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell control water}",
+								"{@spell death ward}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell greater restoration}",
+								"{@spell mass cure wounds}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Master Misaki is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+					]
+				},
+				{
+					"name": "Ki-Empowered Strikes",
+					"entries": [
+						"Master Misaki's Unarmed Strikes are considered magical."
+					]
+				},
+				{
+					"name": "Slow Fall",
+					"entries": [
+						"Master Misaki takes 55 less damage from falling."
+					]
+				},
+				{
+					"name": "Ki (13/13)",
+					"entries": [
+						"Master Misaki can spend 1 ki point to do one of the following:",
+						"Stunning Strike.",
+						"Flurry of Blows.",
+						"Patient Defense.",
+						"Step of the Wind."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Katana",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missiles",
+					"entries": [
+						"Professor Watanabe reduces a ranged attack by {@dice 1d10 + 13}. If she reduces the damage to 0, she makes throws the attack back at the target."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Master Misaki is a very well-verse Monk who has trained for nearly her entire life. She is a very kind spirited woman who cares for her students as if they were her own children. She can often be seen meditating in the Garden of Hope."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/ggT4tBy.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/ggT4tBy.png",
+			"languageTags": [
+				"C",
+				"CE",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Amon Wayfinder",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "AcademyofVulnaris",
+			"page": 316,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item Robe of the Archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 90",
+				"average": 234
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 21,
+			"con": 20,
+			"int": 25,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"dex": "+11",
+				"int": "+13"
+			},
+			"skill": {
+				"perception": "+13",
+				"stealth": "+17",
+				"arcana": "+19",
+				"history": "+19",
+				"religion": "+19",
+				"investigation": "+19"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 23,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"force"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Deep Speech",
+				"Elvish",
+				"Infernal",
+				"Primordial",
+				"Sylvan",
+				"Thieves' cant"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The assassin can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the assassin can take the Hide action as a bonus action."
+					]
+				},
+				{
+					"name": "Otherworldly Perception",
+					"entries": [
+						"Amon Wayfinder can sense the presence of any creature within 30 feet of him that is {@condition invisible} or on the Ethereal Plane. He can pinpoint such a creature that is moving."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Amon Wayfinder can't be affected or detected by spells of 5th level or lower unless he wishes to be. he has advantage on saving throws against all other spells and magical effects. If Amon takes radiant or force damage, this ability is suppressed until the end of his next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Amon uses his Otherworldly Touch if available. He makes two Shadow Blade attacks."
+					]
+				},
+				{
+					"name": "Shadow Blade",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 14 ({@damage 4d6}) necrotic damage. Unless the target is immune to necrotic damage, the target's Strength score is reduced by {@dice 1d4} each time it is hit by this attack. The target dies if its Strength is reduced to 0. The reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a shadow (see the Monster Manual) rises from the corpse {@dice 1d4} hours later."
+					]
+				},
+				{
+					"name": "Otherworldly Touch  {@recharge 5}",
+					"entries": [
+						"Amon touches a creature and severs their connection to the weave, temporarily blocking them from casting magic until the end of their next turn. The target then makes a Constitution saving throw {@dc 21} taking {@damage 3d10} force damage on a failed save, or half as much on a success. If this attack reduces a creature to 0 hit points, the effects are permanent on a failed Wisdom save {@dc 21}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Magical Disruption",
+					"entries": [
+						"When a creature casts a spell of 1st level or higher, Amon makes an Intelligence ability check. The DC equals 10 + the spell's level, on a success he disrupts the spell and the effects of the spell are canceled. The caster then takes {@damage 3d10} force damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/xxPfX9K.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/9sRegdS.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DS",
+				"E",
+				"I",
+				"P",
+				"S",
+				"TC"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}

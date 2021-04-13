@@ -1,0 +1,896 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GreaterUndead",
+				"abbreviation": "GUD",
+				"full": "Greater Undead",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1589083718,
+		"dateLastModified": 1589083718
+	},
+	"monster": [
+		{
+			"name": "Empowered Husk Zombie",
+			"source": "GreaterUndead",
+			"page": 1,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "10d8 + 50",
+				"average": 95
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 20,
+			"int": 3,
+			"wis": 6,
+			"cha": 5,
+			"save": {
+				"con": "+8",
+				"wis": "+1"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Curse of the Husk",
+					"entries": [
+						"A humanoid slain by a melee attack from the zombie revives as a husk zombie on its next turn."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Berserk",
+					"entries": [
+						"Whenever the husk zombie starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the husk zombie goes berserk. On each of its turns while berserk, the husk zombie attacks the nearest creature it can see. If no creature is near enough to move to and attack, the husk zombie attacks an object, with preference for an object smaller than itself. Once the husk zombie goes berserk, it continues to do so until it is destroyed or regains all its hit points."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The husk zombie has advantage on an attack roll against a creature if at least one of the husk zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the husk zombie moves at least 15 feet straight toward a target and then hits it with its claws on the same turn, the target takes an extra 7 ({@damage 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Undead Blessing",
+					"entries": [
+						"The AC of the husk zombie includes its Constitution bonus."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the empowered husk zombie is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the empowered husk zombie instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Freedom of Movement",
+					"entries": [
+						"The empowered husk zombie ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				},
+				{
+					"name": "Improved Initiative",
+					"entries": [
+						"The empowered husk zombie adds its proficiency bonus to its initiative checks."
+					]
+				},
+				{
+					"name": "Turning Defiance",
+					"entries": [
+						"The empowered husk zombie and any husk zombies within 30 feet of it have advantage on saving throws against effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The zombie makes two claw attacks. For each of these attacks that reduces a creature to 0 hit points, the zombie can make an additional claw attack."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d6 + 5}) slashing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Husk Zombie Bursters",
+					"entries": [
+						"Some husk zombies become bloated with disease and bile, their frenzied state pushing them to rush other living creatures, explode, and spread their horrid infection. A husk zombie burster has the following additional action option:",
+						{
+							"type": "entries",
+							"name": "Burst",
+							"entries": [
+								"The zombie explodes and is destroyed. Each creature within 5 feet of it must make a {@dc 14} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one. A humanoid creature killed by this damage rises as a husk zombie after 1 minute."
+							]
+						}
+					],
+					"type": "variant"
+				},
+				{
+					"name": "Negative Energy Husk Zombies",
+					"entries": [
+						"Some husk zombies become infused with dark energies and magic. This energy continues the grow as they continue to exist, so much so that they exude this negative energy. A Negative Energy Husk Zombie has the following additional ability:",
+						{
+							"type": "entries",
+							"name": "Negative Energy Aura",
+							"entries": [
+								"Creatures within 30 feet of the Empowered Husk Zombie can't regain hit points, and any creature that starts its turn within 30 feet of the Empowered Husk Zombie takes 10 ({@damage 3d6}) necrotic damage."
+							]
+						}
+					],
+					"type": "variant"
+				}
+			],
+			"fluff": {
+				"name": "Husk Zombie",
+				"source": "EGW",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"The wastes of Eastern Wynandir retain many curses and corruptions from the time of the Calamity, the worst of which pervert the sanctity of death. One such curse manifests as a terrible roving fog that draws the corpses of the fallen to rise as husk zombies—resilient undead of frightening speed and bloodlust. As well, some of the more heinous fiends that walk these scarred lands feed on the life force of the living, leaving these terrible undead in their wake."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/EGW/Husk Zombie.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/sVMkn10.png",
+			"traitTags": [
+				"Charge",
+				"Pack Tactics",
+				"Turn Resistance",
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"I",
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"uniqueId": "3d07f27f968c7b8ced7e297ef33dd7c3"
+		},
+		{
+			"name": "Arch-Lich",
+			"source": "GreaterUndead",
+			"page": 1,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 207,
+				"formula": "18d8 + 126"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 24,
+			"int": 20,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"con": "+15",
+				"int": "+13",
+				"wis": "+10"
+			},
+			"skill": {
+				"arcana": "+21",
+				"history": "+13",
+				"insight": "+10",
+				"perception": "+10"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"cold",
+				"lightning",
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Common plus up to five other languages"
+			],
+			"cr": {
+				"cr": "25",
+				"lair": "22"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The lich has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell magic missile}",
+								"{@spell magnify gravity|EGW}",
+								"{@spell shield}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell fortune's favor|EGW}",
+								"{@spell immovable object|EGW}",
+								"{@spell invisibility}",
+								"{@spell Melf's acid arrow}",
+								"{@spell mirror image}",
+								"{@spell wristpocket|EGW}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell dimension door}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cloudkill}",
+								"{@spell scrying}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell globe of invulnerability}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell plane shift}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell dominate monster}",
+								"{@spell power word stun}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell power word kill}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Lich has innate spellcasting. Its spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The lich can innately cast the following spells:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell antilife shell|PHB}",
+							"{@spell blight|PHB}",
+							"{@spell circle of death|PHB}",
+							"{@spell disintegrate|PHB}",
+							"{@spell finger of death|PHB}",
+							"{@spell gravity fissure|EGW}",
+							"{@spell gravity sinkhole|EGW}",
+							"{@spell harm|PHB}",
+							"{@spell negative energy flood|XGE}",
+							"{@spell pulse wave|EGW}",
+							"{@spell scrying|PHB}",
+							"{@spell soul cage|XGE}",
+							"{@spell teleport|PHB}",
+							"{@spell temporal shunt|EGW}"
+						],
+						"1e": [
+							"{@spell antimagic field|PHB}",
+							"{@spell dark star|EGW}",
+							"{@spell foresight|PHB}",
+							"{@spell invulnerability|XGE}",
+							"{@spell ravenous void|EGW}",
+							"{@spell reality break|EGW}",
+							"{@spell tether essence|EGW}"
+						]
+					},
+					"constant": [
+						"{@spell shadow of moil|XGE}",
+						"{@spell Tenser's transformation|XGE}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the lich fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If it has a phylactery, a destroyed lich gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+					]
+				},
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"The lich has advantage on saving throws against any effect that turns undead."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the lich is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"The lich can't be affected or detected by spells of 3rd level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Paralyzing Touch",
+					"entries": [
+						"{@atk ms} {@hit 13} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) cold damage. The target must succeed on a {@dc 19} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The lich casts a cantrip."
+					]
+				},
+				{
+					"name": "Paralyzing Touch (Costs 2 Actions)",
+					"entries": [
+						"The lich uses its Paralyzing Touch."
+					]
+				},
+				{
+					"name": "Frightening Gaze (Costs 2 Actions)",
+					"entries": [
+						"The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a {@dc 19} Wisdom saving throw against this magic or become {@condition frightened} for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours."
+					]
+				},
+				{
+					"name": "Disrupt Life (Costs 3 Actions)",
+					"entries": [
+						"Each non-undead creature within 20 feet of the lich must make a {@dc 19} Constitution saving throw against this magic, taking 24 ({@damage 7d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Lich",
+				"source": "MM"
+			},
+			"fluff": {
+				"name": "Lich",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Liches are the remains of great wizards who embrace undeath as a means of preserving themselves. They further their own power at any cost, having no interest in the affairs of the living except where those affairs interfere with their own. Scheming and insane, they hunger for long-forgotten knowledge and the most terrible secrets. Because the shadow of death doesn't hang over them, they can conceive plans that take years, decades, or centuries to come to fruition.",
+									"A lich is a gaunt and skeletal humanoid with withered flesh stretched tight across its bones. Its eyes succumbed to decay long ago, but points of light burn in its empty sockets. It is often garbed in the moldering remains of fine clothing and jewelry worn and dulled by the passage of time.",
+									{
+										"name": "Secrets of Undeath",
+										"type": "entries",
+										"entries": [
+											"No wizard takes up the path to lichdom on a whim, and the process of becoming a lich is a well-guarded secret. Wizards that seek lichdom must make bargains with fiends, evil gods, or other foul entities. Many turn to Orcus, Demon Prince of Undeath, whose power has created countless liches. However, those that control the power of lichdom always demand fealty and service for their knowledge.",
+											"A lich is created by an arcane ritual that traps the wizard's soul within a phylactery. Doing so binds the soul to the mortal world, preventing it from traveling to the Outer Planes after death. A phylactery is traditionally an amulet in the shape of a small box, but it can take the form of any item possessing an interior space into which arcane sigils of naming, binding, immortality, and dark magic are scribed in silver.",
+											"With its phylactery prepared, the future lich drinks a potion of transformation-a vile concoction of poison mixed with the blood of a sentient creature whose soul is sacrificed to the phylactery. The wizard falls dead, then rises as a lich as its soul is drawn into the phylactery, where it forever remains."
+										]
+									},
+									{
+										"name": "Soul Sacrifices",
+										"type": "entries",
+										"entries": [
+											"A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the imprisonment spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a dispel magic cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.",
+											"A lich that fails or forgets to maintain its body with sacrificed souls begins to physically fall apart, and might eventually become a demilich."
+										]
+									},
+									{
+										"name": "Death and Restoration",
+										"type": "entries",
+										"entries": [
+											"When a lich's body is broken by accident or assault, the will and mind of the lich drains from it, leaving only a lifeless corpse behind. Within days, a new body reforms next to the lich's phylactery, coalescing out of glowing smoke that issues from the device. Because the destruction of its phylactery means the possibility of eternal death, a lich usually keeps its phylactery in a hidden, well-guarded location.",
+											"Destroying a lich's phylactery is no easy task and often requires a special ritual, item, or weapon. Every phylactery is unique, and discovering the key to its destruction can be a quest in and of itself."
+										]
+									},
+									{
+										"name": "Lonely Existence",
+										"type": "entries",
+										"entries": [
+											"From time to time, a lich might be stirred from its single-minded pursuit of power to take an interest in the world around it, most often when some great event reminds it of the life it once led. It otherwise lives in isolation, engaging only with those creatures whose service helps secure its lair.",
+											"Few liches call themselves by their former names, instead adopting monikers such as the Black Hand or the Forgotten King."
+										]
+									},
+									{
+										"name": "Magic Collectors",
+										"type": "entries",
+										"entries": [
+											"Liches collect spells and magic items. In addition to its spell repertoire, a lich has ready access to potions, scrolls, libraries of spellbooks, one or more wands, and perhaps a staff or two. It has no qualms about putting these treasures to use whenever its lair comes under attack."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A lich doesn't require air, food, drink, or sleep."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "A Lich's Lair",
+										"entries": [
+											"A lich often haunts the abode it favored in life, such as a lonely tower, a haunted ruin, or an academy of black magic. Alternatively, some liches construct secret tombs filled with powerful guardians and traps. Everything about a lich's lair reflects its keen mind and wicked cunning, including the magic and mundane traps that secure it. Undead, constructs, and bound demons lurk in shadowy recesses, emerging to destroy those who dare to disturb the lich's work.",
+											"A lich encountered in its lair has a challenge rating of 22 (41,000 XP)."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), the lich can take a lair action to cause one of the following magical effects; the lich can't use the same effect two rounds in a row:",
+									{
+										"type": "list",
+										"items": [
+											"The lich rolls a {@dice d8} and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens.",
+											"The lich targets one creature it can see within 30 feet of it. A crackling cord of negative energy tethers the lich to the target. Whenever the lich takes damage, the target must make a {@dc 18} Constitution saving throw. On a failed save, the lich takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in the lich's lair.",
+											"The lich calls forth the spirits of creatures that died in its lair. These apparitions materialize and attack one creature that the lich can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@dice 15d6}) necrotic damage on a failed save, or half as much damage on a success. The apparitions then disappear."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Lich.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Lich.png?v=1.103.12",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/310/lich.mp3",
+			"traitTags": [
+				"Legendary Resistances",
+				"Rejuvenation",
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"C",
+				"N"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"stunned"
+			],
+			"uniqueId": "f59337cf4dd861d54f839d038314be85"
+		},
+		{
+			"name": "Death Champion",
+			"source": "GreaterUndead",
+			"page": 1,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "26d12 + 182",
+				"average": 351
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 25,
+			"dex": 15,
+			"con": 24,
+			"int": 12,
+			"wis": 16,
+			"cha": 22,
+			"save": {
+				"dex": "+9",
+				"wis": "+10",
+				"cha": "+11"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				{
+					"immune": [
+						"necrotic",
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "24",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The death knight is a 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell command}",
+								"{@spell compelled duel}",
+								"{@spell searing smite}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}",
+								"{@spell magic weapon}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell elemental weapon}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell staggering smite}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell destructive wave} (necrotic)"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The death knight has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Marshal Undead",
+					"entries": [
+						"Unless the death knight is {@condition incapacitated}, it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead."
+					]
+				},
+				{
+					"name": "Master of the Grave",
+					"entries": [
+						"While within 30 feet of the death champion, any undead ally of the death champion makes saving throws with advantage, and that ally regains {@dice 1d6} hit points whenever it starts its turn there."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the death champion is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The death knight makes three longsword attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage, or 11 ({@damage 1d10 + 6}) slashing damage if used with two hands, plus 28 ({@damage 5d8 + 6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Hellfire Orb (1/Day)",
+					"entries": [
+						"The death knight hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 20} Dexterity saving throw. The sphere spreads around corners. A creature takes 59 ({@damage 17d6}) fire damage and 59 ({@damage 17d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The death knight adds 7 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Death Knight",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"When a paladin that falls from grace dies without seeking atonement, dark powers can transform the once-mortal knight into a hateful undead creature. A death knight is a skeletal warrior clad in fearsome plate armor. Beneath its helmet, one can see the knight's skull with malevolent pinpoints of light burning in its eye sockets.",
+									{
+										"name": "Eldritch Power",
+										"type": "entries",
+										"entries": [
+											"The death knight retains the ability to cast divine spells. However, no death knight can use its magic to heal. A death knight also attracts and commands lesser undead, although death knights that serve powerful fiends might have fiendish followers instead. Death knights often use warhorse skeletons and nightmares as mounts."
+										]
+									},
+									{
+										"name": "Immortal Until Redeemed",
+										"type": "entries",
+										"entries": [
+											"A death knight can arise anew even after it has been destroyed. Only when it atones for a life of wickedness or finds redemption can it finally escape its undead purgatory and truly perish."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A death knight doesn't require air, food, drink, or sleep."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Lord Soth",
+										"entries": [
+											"Lord Soth began his fall from grace with an act of heroism, saving an elf named Isolde from an ogre. Soth and Isolde fell in love, but Soth was already married. He had a servant dispose of his wife and was charged with murder, but fled with Isolde. When his castle fell under siege, he prayed for guidance and was told that he must atone for his misdeeds by completing a quest, but growing fears about Isolde's fidelity caused him to abandon his quest. Because his mission was not accomplished, a great cataclysm swept the land. When Isolde gave birth to a son, Soth refused to believe that the child was his and slew them both. All were incinerated in a fire that swept through the castle, yet Soth would find no rest in death, becoming a death knight."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Death Knight.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/MM/Death Knight.png?v=1.103.12",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/117/death-knight.mp3",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
+			"damageTags": [
+				"F",
+				"N",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"paralyzed",
+				"prone"
+			],
+			"uniqueId": "bdf85194343f328da53d3b430a7b5799"
+		}
+	]
+}

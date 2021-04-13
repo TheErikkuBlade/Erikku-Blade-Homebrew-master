@@ -1,0 +1,509 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AdditionalFey",
+				"abbreviation": "AF",
+				"full": "Additional Fey",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1589146820,
+		"dateLastModified": 1589146820
+	},
+	"spell": [
+		{
+			"name": "Influence of the Feywild",
+			"source": "AdditionalFey",
+			"page": 2,
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "petrified wood or plant from the feywild"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to influence a creature to become friendly toward you and your companions by using the ancient magics of the Feywild. You target one creature that you can see within range of the spell, if they are unwilling that target makes a wisdom saving throw. On a failed save, the creature is {@condition charmed} by you. While {@condition charmed} by you, they become very friendly toward you and follow your commands to the best of their ability. A creature {@condition charmed} in this way will not do anything that may seem harmful to them, outside of fighting another creature. In addition, at the start of each of their turns they regain {@dice 1d6} hit points as long as they have at least 1 hit point.",
+				"The spell ends if you or any of your allies do anything harmful to that creature, if they fall to 0 hit points, or if they are {@condition incapacitated}. The spell also ends early if you attempt to cast the spell on another creature."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the healing increases by {@dice 1d6} for every two slot levels above 5th and the duration lasts for 24 hours."
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "fateweaver"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fey Wanderer (UA)",
+							"source": "UA2020SubclassesPt3"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Archfey",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"uniqueId": "f5cc41ac486b308ede4d418e73638810"
+		},
+		{
+			"name": "Faenatics",
+			"source": "AdditionalFey",
+			"page": 2,
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "sight"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You implant illusory sounds or images to a creature you can see.",
+				"Choose a creature that you can see within range, that target makes a wisdom saving throw. On a failed save, You can apply one or more of the following effects to that creature up to a number equal to the spell level:",
+				"Paranoia. The target becomes paranoid as they believe someone is following them. They see glimpses of a rogue-like figure, but never see their face and any attempt to get close to the figure fails. The creature is {@condition frightened} until the spell ends.",
+				"Whispers. The target is bombarded with lots of whispering. They cannot understand what the whispers are saying, but all other noises are completely masked by these whispers. The target is {@condition deafened} until the spell ends.",
+				"Tumbling Foolery. The target's sense of balance becomes skewered and they become dizzy. Until the spell ends, they have disadvantage on dexterity ability checks and saving throws and their speed is cut in half. In addition, when they fail a dexterity ability check, they roll a {@dice d20}. On a 1, they fall {@condition prone}. A {@condition prone} creature with this effect uses their full movement to stand up.",
+				"Unusual Perception. Until the spell ends, the target can see into the ethereal plane. However, in addition to the creatures on the ethereal plane, they also see weird fey-like creatures doing crazy stunts. The target has disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks, as their vision is mostly blocked by these ethereal visions.",
+				"Love at First Sight. Until the spell ends, the target becomes {@condition charmed} by the next creature it sees. While {@condition charmed}, they become extremely infatuated with that creature regardless of their original preferences. They will do anything that creature asks of them to the best of their ability in an attempt to impress them. Once the spell ends, the creature knows it was {@condition charmed}, but not by whom.",
+				"Mild Insanity. The target begins to lose perception of reality. Whenever they look at a creature, something is different about them. Whether their skin color is a bright, dark, or colorful, their ears are longer or shorter than they should be, or perhaps one eye is lopsided when it shouldn't be, etc. The target then becomes confused and believes that they've always been like that. Until the spell ends, they have disadvantage on Charisma checks.",
+				"Tipsy. Until the spell ends, the target becomes intoxicated. If the creature is immune to poison, this has no effect.",
+				"The spell ends early if they can succeed on an Intelligence (Investigation) check against your spell save DC, however the target is not initially aware of the spells effects until after they end. A different creature can spend their action to try and convince the target that they are under the effects of a spell, which requires a successful Charisma (Persuasion) check against your spell save DC."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the amount of creatures you can target increases by one for every two slot levels above 1st."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened",
+				"deafened",
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "fateweaver"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fey Wanderer (UA)",
+							"source": "UA2020SubclassesPt3"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Archfey",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"uniqueId": "a92d8ee3c217f940cd6c193690f0944a"
+		},
+		{
+			"name": "Feymutation",
+			"source": "AdditionalFey",
+			"page": 2,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "blood, saliva, or a strand of hair from a fey creature"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You reshape certain features of a humanoid creature, allowing them to adopt the properties of a fey creature.",
+				"You touch a willing creature, for the duration that creature has darkvision out to a range of 60 feet and their creature type is changed to fey. In addition, for the duration they gain the Fey Ancestry trait and can speak, read, and write Sylvan.",
+				"Casting the spell on the same target for a year makes the spell permanent."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the amount of creatures you can target increases by one for every slot level above 4th and the duration lasts for 24 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "fateweaver"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fey Wanderer (UA)",
+							"source": "UA2020SubclassesPt3"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Archfey",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"uniqueId": "90f5b261a515840166af36003a48e580"
+		},
+		{
+			"name": "Misfortune's Gift",
+			"source": "AdditionalFey",
+			"page": 2,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "sight"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "A jewel or gem worth 100 gp, which the spell consumes",
+					"consumed": true,
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"entries": [
+				"You point your finger and give the gift of vigor, but vigor comes with an unfortunate price.",
+				"Choose a creature that you can see within range, that target makes a wisdom saving throw. On a failed save, they are subjected to a series of unfortunate events throughout the day. The spell lasts a number of hours equal to the spell's level plus one. Until the spell ends, that creature has disadvantage on attack rolls, ability checks, and saving throws.",
+				"Until the spell ends each time they miss an attack roll, fail an ability check or saving throw, they receive {@dice 2d6} temporary hit points. These temporary hit points are lost when the spell ends.",
+				"Each hour after the spell was cast, the target rolls a {@dice d20}. On an 11-20, the spell ends early. On a 1-10, the spell persists. The spell can also be ended early via a {@spell remove curse}, {@spell greater restoration}, or similar magic."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the amount of temporary hit points increases by {@dice 1d6} for every slot level above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "fateweaver"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fey Wanderer (UA)",
+							"source": "UA2020SubclassesPt3"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Archfey",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"uniqueId": "c3f5fe982986b9209ded74f8b5558dae"
+		}
+	]
+}

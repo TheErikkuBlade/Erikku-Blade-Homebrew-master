@@ -1,0 +1,1446 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DrownedStudiesMonsters",
+				"abbreviation": "DSM",
+				"full": "Drowned Studies Monsters",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1602104303,
+		"dateLastModified": 1602104303
+	},
+	"monster": [
+		{
+			"name": "Ozris",
+			"isNpc": true,
+			"source": "DrownedStudiesMonsters",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item robe of the archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"average": 99,
+				"formula": "18d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 20,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+9",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+13",
+				"history": "+13",
+				"investigation": "+9",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"languages": [
+				"common",
+				"elvish",
+				"sylvan",
+				"dwarvish",
+				"draconic",
+				"giant"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The archmage can cast {@spell shield} and {@spell invisibility} at will and has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*The archmage casts these spells on itself before combat."
+					],
+					"will": [
+						"{@spell shield}",
+						"{@spell invisibility}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell sapping sting|egw}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell Gift of Alacrity|egw}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell fortune's favor|egw}",
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell pulse wave|egw}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell gravity sinkhole|egw}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell temporal shunt|egw}",
+								"{@spell scrying}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell gravity fissure|egw}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell teleport}",
+								"{@spell Tether Essence|EGW}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell mind blank}*",
+								"{@spell Reality Break|EGW}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell Time Ravage|EGW}",
+								"{@spell time stop}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The archmage has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Familiars",
+					"entries": [
+						"Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.",
+									"An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/568925230341423135/709592784465821716/Ozris.png",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/25/archmage.mp3",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Littash",
+			"isNpc": true,
+			"source": "DrownedStudiesMonsters",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 20,
+			"con": 14,
+			"int": 13,
+			"wis": 15,
+			"cha": 10,
+			"save": {
+				"dex": "+8",
+				"int": "+4"
+			},
+			"skill": {
+				"acrobatics": "+8",
+				"deception": "+3",
+				"stealth": "+11",
+				"perception": "+8",
+				"investigation": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Thieves' cant",
+				"common",
+				"elvish"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Littash's spellcasting ability is Wisdom (spell save {@dc 11}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell Light}"
+					],
+					"rest": {
+						"1e": [
+							"{@spell Invisibility}",
+							"{@spell Sleep}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The assassin deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The assassin has advantage on saving throws against being {@condition charmed}, and magic can't put the assassin to sleep."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"The assassin can take a bonus action on each of their turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Incisive Sense",
+					"entries": [
+						"Littash has advantage on Intelligence (Investigation) and Wisdom (Insight) checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The assassin makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 5}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 5}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Assassin",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/568925230341423135/709608806631342111/Littash.png",
+			"altArt": [
+				{
+					"name": "Vistana Assassin",
+					"source": "CoS"
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TC"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Orc Juggernaut (possessed by Dybbuk)",
+			"isNpc": true,
+			"source": "DrownedStudiesMonsters",
+			"page": 1,
+			"size": "L",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"orc"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d10 + 68",
+				"average": 161
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 18,
+			"int": 16,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"wis": "+5",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+8",
+				"intimidation": "+5",
+				"stealth": "+7",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "while raging"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Orc",
+				"telepathy 120 ft"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the orc juggernaut can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Berserk",
+					"entries": [
+						"Whenever the orc juggernaut starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the orc juggernaut goes berserk. On each of its turns while berserk, the orc juggernaut attacks the nearest creature it can see. If no creature is near enough to move to and attack, the orc juggernaut attacks an object, with preference for an object smaller than itself. Once the orc juggernaut goes berserk, it continues to do so until it is destroyed or regains all its hit points."
+					]
+				},
+				{
+					"name": "Rage",
+					"entries": [
+						"As a bonus action, the orc juggernaut can enter a relentless rage that lasts until the orc juggernaut is killed. While raging, the orc has resistance to bludgeoning, piercing, and slashing damage."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the orc juggernaut hits with it. (included in attack)"
+					]
+				},
+				{
+					"name": "Enraged Strikes (Only while raging)",
+					"entries": [
+						"The orc juggernaut can make weapon attacks at advantage, but attacks against the orc juggernaut are also at advantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orc juggernaut makes three attacks with his oversized greataxe or with his oversized longbow."
+					]
+				},
+				{
+					"name": "Oversized Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d12 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Oversized Longbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}11 ({@damage 3d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute of Ziraj. If a {@condition frightened} enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://noads.5e.tools/img/bestiary/WDH/Ziraj the Hunter.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://noads.5e.tools/img/WDH/Ziraj the Hunter.png?v=1.105.0",
+			"traitTags": [
+				"Aggressive",
+				"Brute"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"O",
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"prone"
+			]
+		},
+		{
+			"name": "Adam Hiroshi (Revenant)",
+			"shortName": "Adam",
+			"source": "DrownedStudiesMonsters",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d8 + 64"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 18,
+			"int": 12,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"str": "+8",
+				"con": "+7",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+8",
+				"history": "+4",
+				"insight": "+6",
+				"perception": "+6",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Giant"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Adam's spellcasting ability is Charisma (spell save {@dc 15}, +7 to hit). Adam can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell hellish rebuke}",
+							"{@spell inflict wounds}",
+							"{@spell searing smite}"
+						],
+						"1e": [
+							"{@spell crown of madness}",
+							"{@spell darkness}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The revenant regains 10 hit points at the start of its turn. If the revenant takes fire or radiant damage, this trait doesn't function at the start of the revenant's next turn. The revenant's body is destroyed only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"When the revenant's body is destroyed, its soul lingers. After 24 hours, the soul inhabits and animates another humanoid corpse on the same plane of existence and regains all its hit points. While the soul is bodiless, a {@spell wish} spell can be used to force the soul to go to the afterlife and not return."
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The revenant is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Vengeful Tracker",
+					"entries": [
+						"The revenant knows the distance to and direction of any creature against which it seeks revenge, even if the creature and the revenant are on different planes of existence. If the creature being tracked by the revenant dies, the revenant knows."
+					]
+				},
+				{
+					"name": "Channel Divinity (1/rest)",
+					"entries": [
+						"Adam can use one of the following Channel Divinity options, once used he cannot use another one again until his finishes a short or long rest:",
+						"Oathbreaker Channel Divinity: Control Undead",
+						"As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.",
+						"Oathbreaker Channel Divinity: Dreadful Aspect",
+						"As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is {@condition frightened} of the paladin for 1 minute. If a creature {@condition frightened} by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The revenant makes two melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 5}) bludgeoning damage. If the target is a creature against which the revenant has sworn vengeance, the target takes an extra 14 ({@damage 4d6}) bludgeoning damage. Instead of dealing damage, the revenant can grapple the target (escape {@dc 15}) provided the target is Large or smaller."
+					]
+				},
+				{
+					"name": "Vengeful Glare",
+					"entries": [
+						"The revenant targets one creature it can see within 30 feet of it and against which it has sworn vengeance. The target must make a {@dc 15} Wisdom saving throw. On a failure, the target is {@condition paralyzed} until the revenant deals damage to it, or until the end of the revenant's next turn. When the paralysis ends, the target is {@condition frightened} of the revenant for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the revenant, ending the {@condition frightened} condition on itself on a success."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Revenants with Spells and Weapons",
+					"entries": [
+						"Revenants that were spellcasters before they died might retain some or all of their spellcasting capabilities. Similarly, revenants that wore armor and wielded weapons in life might continue to do so."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"forest",
+				"hill",
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Adam Hiroshi, a human blacksmith who at a young age could forge any kind of weapon, armor, or shield. Adam was named after his father’s favorite material to work with, Adamantine. His father, Joseph, was a renowned blacksmith and his craft was unrivaled by any dwarf or elf. Due to his reputation, wealth and influence, Joseph gave Adam the best workshop gold could buy. Adam spent many of his early years in life honing his skills, so that one day he could craft a weapon that would impress even his own father. Joseph was a harsh mentor for Adam, always telling his son what was wrong with his work rather than what he liked about it. Despite this harsh criticism, Adam kept forging hoping that one day he would get a different result. One day, Joseph stopped coming into Adam’s workshop. Adam was surprised, he usually came in to watch him work every day, no matter how young, old, sick, or busy he was. He never traveled, not without his son; not since his wife, Adam’s mother, was killed on an expedition when he was six. ",
+					"Adam's father had attempted to reforge an artifact, the Hammer of Creation. In his many years of trying, he eventually lost the will to live and perished as years were shaved off his life after every failed attempt.",
+					"Adam was left heartbroken at the loss of his father, and though he was left to finish the hammer, he never did. He cursed the hammer for taking his father, and left it to forge his own desires. He worked day and night, crafting the most powerful weapon in the world. A mighty sword that could vanquish any foe, one that would grant the user unbelievable strength. With the aid of Moradin, through constant prayer, he had finally done it. Three years after his father’s death he had finally made the weapon. Why Moradin helped is unknown. Could it have been his respect to his father, and repayment for the grief his death brought? Could it have been the reward for ambition? Who knows, not even Adam does. He presented the weapon to an adventurer who had heard about the weapon and offered a large amount of coin, claiming 10,000 platinum. Sought with greed, and still in his younger naive years, he presented the weapon to the adventurer, only to have it stolen out of his hands and struck by his own blade. Leaving him wounded to near death, even with a non-lethal strike. Why his life was spared was also unknown, but the adventurer left him, smiling evilly as he massacred his hometown, and proceeded to go from town-to-town reeking havoc everywhere he went."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/IvF59U0.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/9CyUufT.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/revenant.mp3?v=1.110.1"
+			},
+			"traitTags": [
+				"Regeneration",
+				"Rejuvenation",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			]
+		},
+		{
+			"name": "The Sword of the King",
+			"source": "DrownedStudiesMonsters",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item +2 plate armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d10 + 85",
+				"average": 178
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 20,
+			"int": 15,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"wis": "+8",
+				"cha": "+9",
+				"dex": "+7"
+			},
+			"skill": {
+				"athletics": "+11",
+				"religion": "+7",
+				"intimidation": "+9",
+				"perception": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The knight is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 8} to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell compelled duel}",
+								"{@spell searing smite}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell magic weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell elemental weapon}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell staggering smite}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell destructive wave} (radiant)"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The knight has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a short or long rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"The knight can fill his sword with divine energy. Whenever he hits with a weapon attack, he can spend a spell slot to deal an extra {@damage 2d8} radiant damage. He can spend additional spell slots to increase the extra damage by {@dice 1d8} per slot level above 1st, to a maximum of {@dice 5d8}. Undead and Fiends take an additional {@dice 1d8}."
+					]
+				},
+				{
+					"name": "Channel Divinity: Guided Strike (Recharges after a short or long rest)",
+					"entries": [
+						"If the knight were to miss an attack, he can add a +10 to his roll."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the the sword of the king fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Mobile Striker",
+					"entries": [
+						"As long as the knight makes at least one melee weapon attack, they do not provoke opportunity attacks when they move."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes four greatsword attacks."
+					]
+				},
+				{
+					"name": "+2 Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 8}) slashing damage plus 17 ({@damage 3d8 + 4}) radiant damage."
+					]
+				},
+				{
+					"name": "Divine Sword {@recharge 5}",
+					"entries": [
+						"The knight's sword is filled with a divine magical power that decimates everything in a 5ft wide 100 ft long line. Each creature in range must make a {@dc 17} Dexterity saving throw.  A creature takes 31 ({@damage 9d6}) slashing damage and 31 ({@damage 9d6}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Retributive Strike",
+					"entries": [
+						"The knight can retaliate at an immense speed. Whenever they are hit with an attack, they can make a single melee weapon attack against a creature within 5 ft of them. "
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/568925230341423135/763211711024857098/10f65831175ac1a0cc58a0a53eec4e7e.png?width=504&height=630"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/gAebAFO.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"paralyzed",
+				"prone"
+			]
+		},
+		{
+			"name": "The Shield of the King",
+			"source": "DrownedStudiesMonsters",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 24,
+					"from": [
+						"{@item +2 plate armor}",
+						"{@item +2 shield}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d12 + 132",
+				"average": 275
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 22,
+			"int": 15,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"wis": "+8",
+				"cha": "+9",
+				"str": "+10",
+				"con": "+11"
+			},
+			"skill": {
+				"athletics": "+10",
+				"religion": "+7",
+				"intimidation": "+9",
+				"perception": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The knight has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a short or long rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"The knight can fill his sword with divine energy. Whenever he hits with a weapon attack, he can spend a spell slot to deal an extra {@damage 2d8} radiant damage. He can spend additional spell slots to increase the extra damage by {@dice 1d8} per slot level above 1st, to a maximum of {@dice 5d8}. Undead and Fiends take an additional {@dice 1d8}."
+					]
+				},
+				{
+					"name": "Channel Divinity: Retribution of the Violent (Recharges after a short or long rest)",
+					"entries": [
+						"If a creature other than the knight takes damage within 30 ft of them, the attacker takes an amount of radiant damage equal to the amount of damage they dealt."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the the sword of the king fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the shield of the king is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Aura of Protection",
+					"entries": [
+						"Each creature the knight chooses within 30 ft of them adds a +4 to their saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two longsword attacks and one shield bash attack."
+					]
+				},
+				{
+					"name": "+1 Longsword",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage plus 13 ({@damage 2d8 + 4}) radiant damage."
+					]
+				},
+				{
+					"name": "Divine Shield (3/day)",
+					"entries": [
+						"The knight's shield contains divine energy powerful enough to withstand the most devastating of attacks. You can release a protective barrier that veils over each creature within 30 ft of the knight that the knight chooses. Each of them gains {@dice 18d6} temporary hit points. While they have these temporary hit points, they have resistance to all damage and have advantage on all saving throws."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Protective Shield",
+					"entries": [
+						"The knight can protect their allies very effectively. When a creature takes damage while within 30 ft of the knight, the knight can spend its reaction to take the damage instead and when they do so, they have resistance to that damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/568925230341423135/763211711024857098/10f65831175ac1a0cc58a0a53eec4e7e.png?width=504&height=630"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/gAebAFO.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"paralyzed",
+				"prone"
+			]
+		},
+		{
+			"name": "The King",
+			"source": "DrownedStudiesMonsters",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item +3 plate armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d10 + 132",
+				"average": 253
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 24,
+			"dex": 20,
+			"con": 22,
+			"int": 15,
+			"wis": 16,
+			"cha": 20,
+			"save": {
+				"wis": "+9",
+				"cha": "+11",
+				"dex": "+11",
+				"con": "+12"
+			},
+			"skill": {
+				"athletics": "+13",
+				"religion": "+8",
+				"intimidation": "+11",
+				"perception": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The knight is a 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). It has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell compelled duel}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell enhance ability}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell death ward}",
+								"{@spell staggering smite}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell circle of power}",
+								"{@spell greater restoration}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The knight has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a short or long rest)",
+					"entries": [
+						"For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"The knight can fill his sword with divine energy. Whenever he hits with a weapon attack, he can spend a spell slot to deal an extra {@damage 2d8} radiant damage. He can spend additional spell slots to increase the extra damage by {@dice 1d8} per slot level above 1st, to a maximum of {@dice 5d8}. Undead and Fiends take an additional {@dice 1d8}."
+					]
+				},
+				{
+					"name": "Channel Divinity: Harness Divine Power (Recharges after a short or long rest)",
+					"entries": [
+						"The king can spend a bonus action to regain a single spell slot for 1st, 2nd, and 3rd levels."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the king fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The king regains 20 hit points at the start of its turn if it has at least 1 hit point. If the king takes radiant damage, this trait doesn't function at the start of the king's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The king makes four greatsword attacks."
+					]
+				},
+				{
+					"name": "+3 Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d6 + 9}) slashing damage plus 20 ({@damage 3d8 + 7}) radiant damage."
+					]
+				},
+				{
+					"name": "Divine Burst (2/Day)",
+					"entries": [
+						"The king releases a burst of divine energy at a point he can see within 120 ft. Each creature in a 20 ft radius centered on that point must make a {@dc 19} Dexterity saving throw or take {@damage 20d6} radiant damage. Fiends and Undead have disadvantage on this saving throw."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Retributive Strike",
+					"entries": [
+						"The king can retaliate at an immense speed. Whenever they are hit with an attack, they can make a single melee weapon attack against a creature within 5 ft of them. "
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/568925230341423135/763211711024857098/10f65831175ac1a0cc58a0a53eec4e7e.png?width=504&height=630"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/gAebAFO.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"paralyzed",
+				"prone"
+			]
+		}
+	]
+}

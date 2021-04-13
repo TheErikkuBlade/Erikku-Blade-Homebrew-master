@@ -1,0 +1,1413 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "MT",
+        "abbreviation": "MT",
+        "full": "Magitechnician",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "CrimtaneCreeper",
+          "Erikku Blade"
+        ],
+        "version": "2.5",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "class": [
+    {
+      "name": "Magitechnician",
+      "source": "MT",
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "int",
+        "con"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Magitech Research",
+            "Magitech Energy"
+          ],
+          "rows": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              4,
+              12
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              4,
+              16
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              5,
+              20
+            ],
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              24
+            ],
+            [
+              6,
+              26
+            ],
+            [
+              6,
+              28
+            ],
+            [
+              7,
+              30
+            ],
+            [
+              7,
+              32
+            ],
+            [
+              7,
+              34
+            ],
+            [
+              8,
+              36
+            ],
+            [
+              8,
+              38
+            ],
+            [
+              8,
+              40
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "light",
+          "medium"
+        ],
+        "weapons": [
+          "simple"
+        ],
+        "tools": [
+          "tinker's tools"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "Investigation",
+                "Arcana",
+                "History",
+                "Nature",
+                "Perception",
+                "Insight",
+                "Medicine"
+              ],
+              "count": 3
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) 1 simple weapon and leather armor or (b) 1 medium armor",
+          "(a) explorer's pack or (b) scholar's pack",
+          "(a) simple ranged weapon or (b) 1 simple melee weapon",
+          "(a) tinker's tools, crowbar, set of magitech tools worth 50 gp"
+        ],
+        "goldAlternative": "8d4x10"
+      },
+      "multiclassing": {
+        "requirements": {
+          "int": 13
+        },
+        "proficienciesGained": {
+          "tools": [
+            "tinker's tools"
+          ]
+        }
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Magitech Energy",
+            "entries": [
+              "Starting at 1st level, magitechnicians are people who have discovered the border between technology and magic and tore it down. By calling upon magic from the weave, they store that as raw energy that can be used to fuel their magitech devices.",
+              "At 1st level, a magitechnician can have a number of magitech energy stored at a time equal to twice their level, regaining all expended energy after a long rest.",
+              "A magitechnician stores this energy within themselves, as a spellcaster would with their spell slots, but most do not fully understand the fundamentals of spellcasting. As such, they channel that magical energy within themselves into their devices, using their bodies as a conduit for this power. Most prestigious magitechnicians find ways to store this magical energy into batteries to use for future use when they run out of energy within themselves. This raw magic is also chaotic on its own, and not as delicately drawn from the weave as most spellcasters achieve. Hence why most magitechnicians do not attempt to use spells, as it would likely result in wild magic."
+            ]
+          },
+          {
+            "name": "Magitech Energy Options",
+            "entries": [
+              "A magitechnician can expend magitech energy in the following ways starting at 1st level:",
+              {
+                "type": "options",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Magical Surge",
+                    "entries": [
+                      "You can expend 2 magitech energy to unleash a burst of magical energy. Roll a d6, on an even number you gain an amount of temporary hit points equal to the result. On an odd number, you deal damage to each creature within 5 ft of yourself, including you, an amount of force damage equal to the result."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Magical Tools",
+                    "entries": [
+                      "You can expend 1 magitech energy to empower your tools with raw magic to temporarily improve their quality. When you make an ability check using any tool, roll a d6 and add the number rolled to your result. You must choose to do so before the result is determined."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tinker's Tools Improvement",
+            "entries": [
+              "Starting at 1st level you become very proficient with your tinkers tools, adding a +1 to your Tinkers Tools. You gain this benefit again at 5th, 9th, 13th and 17th levels."
+            ]
+          },
+          {
+            "name": "Magitech Specialization Feature",
+            "entries": [
+              "At 1st level, you gain a feature from your chosen Magitech Specialization"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Magitech Gear",
+            "entries": [
+              "Starting at 2nd level your expertise in inventing has allowed you to create your very own set of Magitech Gear. Magitech Gear is essentially both your armor, and your workstation. The armor itself has a lot of compartments that store your various items and tools.You can don and doff the armor as a bonus action. While doffed, your armor can transform into a workstation that you can use to craft your various different magitech devices, although a lab would still be nicer to have.",
+              "The armor is crafted using various lightweight materials, and has defense systems to help you avoid immediate danger. While wearing the armor, your AC becomes 11 + your Intelligence modifier to simulate the complexity of its self defense systems. In addition, you can spend magitech energy to enhance the armor’s defences temporarily. As a bonus action on your turn, you can spend magitech energy to do one of  the following:",
+              {
+                "type": "list",
+                "items": [
+                  "You can spend 2 magitech energy to generate an arcane barrier. Your armor class increases by 2 and you take half damage from the magic missile spell. This bonus lasts until the start of your next turn.",
+                  "You can spend 1 magitech energy to increase the effectiveness of your weapons. You add a +1 bonus to your next attack and damage roll made using a magitech device.",
+                  "You can spend 1 or 2 magitech energy to increase your armor’s defenses temporarily. The next time you take damage, you reduce that damage by 1d6 per magitech energy spent in this way. This effect lasts until the start of your next turn."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Magitech Weapons",
+            "entries": [
+              "Starting at 2nd Level your creativeness and knowledge of mechanics allows you to create unique magitech weapons. You can create up to two magitech weapons when you gain this feature, creating more will require a gold cost determined by the DM. When you craft a magitech weapon, you use the following guidelines:",
+              {
+                "type": "list",
+                "items": [
+                  "Choose any non-magical martial or simple melee weapon, you use the statistics for that weapon when determining its damage dice and damage type. You can also choose a firearm found in the DMG if your DM uses them.",
+                  "You use your Intelligence modifier for the attack and damage rolls of the weapon.",
+                  "The appearance of the weapon is ultimately up to you, but often should resemble the base weapon you chose to use for its statistics with some added modification, like tubes extending into your magitech gear or pulsating arcane energy in the blade for example."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Magitech Energy Weapon Options",
+            "entries": [
+              "You can also spend magitech energy to do one of the following:",
+              {
+                "type": "list",
+                "items": [
+                  "You can spend 1 magitech energy to increase your weapon’s damage output. When you hit a creature with a weapon attack using a magitech weapon, you can add an additional 1d10 force damage.",
+                  "As a bonus action you can spend 2 magitech energy to improve the efficiency of your magitech weapons. You gain advantage on your next attack roll using a magitech weapon."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Research",
+            "entries": [
+              "As a Magitechnician you are capable of doing many things. From crafting complex constructs to making mundane gadgets. Your limit is your imagination, however you must also do the necessary research to accomplish what you wish. ",
+              "Beginning at 3rd level, you start with 3 Magitech Research options. You gain additional Magitech Research options when you gain levels in this class as shown in the Magitechnician Table. Some Magitech Research options will have prerequisites that must be met before taking them."
+            ]
+          },
+          {
+            "name": "Magitech Specialization Feature",
+            "entries": [
+              "At 3rd level, you gain a feature from your chosen Magitech Specialization"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Weapon Improvement",
+            "entries": [
+              "At 5th level your weapon deals 1d6 extra damage of the weapon’s type. Additionally, you can change the weapon’s damage to be slashing, bludgeoning, piercing, or force damage. At 10th level the extra damage die becomes a d8 and at 15th level it becomes a d10. ",
+              "Also at 5th level your magitech weapons become magical for the purposes of overcoming magical resistance. At 10th level they receive a +1 bonus to attack and damage rolls. At 15th level, this bonus becomes +2."
+            ]
+          },
+          {
+            "name": "Additional Magitech Energy Weapon Options",
+            "entries": [
+              "In addition, you gain the following options to use magitech energy using your magitech weapons:",
+              {
+                "type": "list",
+                "items": [
+                  "When you make an attack roll using a magitech weapon, you can spend 5 magitech to cause the attack to automatically hit, however when you do so you do the minimal possible damage with your weapon. If it is a ranged weapon, it must be within the normal range of the weapon.",
+                  "As a bonus action on your turn, you can spend 5 magitech energy to make a rapid attack using a magitech weapon. You make one attack using a magitech weapon as part of this bonus action."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Gear Improvement",
+            "entries": [
+              "Upon reaching 6th Level, you have improved your armor with your constant tinkering. Your magitech gear’s armor class becomes 12 + Intelligence Modifier and wearing the improved armor stimulates your body, granting you a slight boost to your movement speed. Your movement speed increases by 10 ft.",
+              "At 11th level the armor class becomes 13 + Intelligence Modifier and at 16th level it becomes 14 + Intelligence Modifier."
+            ]
+          },
+          {
+            "name": "Additional Magitech Energy Gear Options",
+            "entries": [
+              "You also gain the following options to use your Magitech Energy while wearing your magitech gear:",
+              {
+                "type": "list",
+                "list": [
+                  "When you make a Strength or Dexterity saving throw, you can spend 5 magitech energy to roll a d6 and add it to the result.",
+                  "Whenever you make an ability check to grapple a creature or try to avoid being grappled, you can spend 5 magitech energy to roll a d6 and add it to the result."
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Invention Improvement",
+            "entries": [
+              "At 7th level, your magitech invention becomes significantly more complex and versatile. As an action, you can magically transform your invention into any set of tools on the artisans tools list. In addition, the range of complexity your invention can be capable of increases. Work with the DM on how you want to approach these improvements.",
+              "Regardless of the changes, the invention’s armor class increases by your proficiency bonus and gains an amount of temporary hit points at the start of your turns equal to your Intelligence modifier.",
+              "An example of the complex tasks the invention can do can be using a temporal fluctuation to turn back time for a specific creature, allowing them to re-roll an ability check using magitech energy or allow you to teleport from one space to another nearby space using magitech energy.",
+              "You receive another improvement at 13th and 19th levels."
+            ]
+          },
+          {
+            "name": "Magitech Specialization Feature",
+            "entries": [
+              "At 7th level, you gain a feature from your chosen Magitech Specialization"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Tinker's Tools Improvement",
+            "entries": [
+              "See 1st level Tinker's Tools Improvement Feature"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Weapon Improvement",
+            "entries": [
+              "See 5th level Magitech Weapon Improvement Feature"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Gear Improvement",
+            "entries": [
+              "See 6th level Magitech Gear Improvement Feature"
+            ]
+          },
+          {
+            "name": "Magitech Specialization Feature",
+            "entries": [
+              "At 11th level, you gain a feature from your chosen Magitech Specialization"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Invention Improvement",
+            "entries": [
+              "See 7th level Magitech Invention Improvement"
+            ]
+          },
+          {
+            "name": "Tinker's Tool Improvement",
+            "entries": [
+              "See 1st level Tinker's Tool Improvement Feature"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Specialization Feature",
+            "entries": [
+              "At 14th level, you gain a feature from your chosen Magitech Specialization"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Magitech Weapon Improvement",
+            "entries": [
+              "See 5th level Magitech Weapon Improvement"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          },
+          {
+            "name": "Magitech Gear Improvement",
+            "entries": [
+              "See 6th level Magitech Gear Improvement"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Tinker's Tool Improvement",
+            "entries": [
+              "See 1st level Tinker's Tool Improvement"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Specialization Feature",
+            "entries": [
+              "At 18th level, you gain a feature from your chosen Magitech Specialization"
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Magitech Invention Improvement",
+            "entries": [
+              "See 7th level Magitech Invention Improvement Feature"
+            ]
+          },
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Magitech Rejuvenation",
+            "entries": [
+              "At 20th level, your magitech energy becomes more efficient and more reliable for everyday use. When you roll initiative while you have 0 magitech energy, you regain 10 magitech energy."
+            ]
+          },
+          {
+            "name": "Magitech Mastery",
+            "entries": [
+              "Also at 20th level, you have honed your skills as a Magitechnician and have placed contingency properties to your devices. Whenever you fail an ability check using your tinkers tools or miss an attack roll with a magitech weapon, you can spend 10 magitech energy to automatically succeed the roll instead. You can do this a number of times equal to your intelligence modifier, regaining expended uses after a long rest."
+            ]
+          }
+        ]
+      ],
+      "subclassTitle": "Magitech Specializations",
+      "subclasses": [
+        {
+          "name": "Combat Specialization",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Combat Specialization",
+                "entries": [
+                  "A combat specialist has focused entirely on the combat implications of magitech, solely creating magitech for combat purposes. It allows you to further improve your magitech weapons beyond their intended purposes and your gear can gain augmentations beyond what was initially imaginable. While every specialist has the capabilities for combat, none will be as prominent as this one."
+                ]
+              },
+              {
+                "name": "Battle Mechanics",
+                "entries": [
+                  "Starting at 1st level, your mind has been geared more towards combat and defending yourself using your own wit. You gain proficiency with martial weapons, heavy armor, and shields. In addition, you gain proficiency in one of the following skills: acrobatics, athletics, insight, or stealth.",
+                  "In addition, whenever you make an ability check using one of the listed skills, you can spend 2 magitech energy to gain advantage on that check."
+                ]
+              },
+              {
+                "name": "Fighting Style",
+                "entries": [
+                  "Also at 1st level, pick one fighting style from the Fighter “Fighting Styles”."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Physical Augmentation",
+                "entries": [
+                  "Starting at 3rd level you can begin to make “Augmentors” which allows you to temporarily grant you bonuses to your physical capabilities. Whenever you make an ability check using strength or dexterity, as a bonus action you can use one of these Augmentors to add an amount to the roll equal to your Intelligence modifier.",
+                  "When you finish a long rest, you create a number of these Augmentors equal to your intelligence modifier. Unused Augmentors lose their magic by the beginning of your next long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Energizing Shield",
+                "entries": [
+                  "Starting at 7th level you can spend an action to emit a veil of magitech energy around you. Spend up to half your hit dice to gain temporary hit points equal to what you roll. While you have these temporary hit points, you have resistance to all damage except force and psychic. Once your energizing shield is reduced to 0 you cannot use it again until you finish a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Versatile Weaponry",
+                "entries": [
+                  "At 11th level, your magitech weapons become more versatile and ready to use in a pinch. Once per round, you can draw a stow away magitech weapons as a free action rather than a free item interaction and you can draw and stow away two weapons at the same time. ",
+                  "In addition, you can combine a ranged magitech weapon with a melee magitech weapon to make a hybrid weapon. When you do so, it becomes a two-handed weapon and you can use either ranged or melee however the range on the weapon is halved when made as a hybrid weapon."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Battle Scanner",
+                "entries": [
+                  "At 14th level you have learned how to create a headgear device that can detect combat capabilities of some creatures. As a bonus action you can spend 5 magitech energy to determine if the creature has any weaknesses, resistances, or immunities to certain damage types and its creature type, after reading the creature at least once, you gain a +2 bonus to attack rolls and saving throws against that creature’s attacks, spells, and magical effects, and they have a -2 penalty to hit you. These properties only apply once, and end when you finish a long rest.",
+                  "Also, as a bonus action by spending  5 magitech energy, you can learn 1 random property that you have not already learned or known about that creature. Example being if it has regeneration, spellcasting, etc."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Battle Mastery",
+                "entries": [
+                  "At 18th level you have become a master of combat with your technology. It costs half as much gold to repair any damaged weapons or craft new ones. You can also make an additional weapon attack during your Attack Action.",
+                  "In addition, pick an additional fighting style from the Fighter “Fighting Styles”."
+                ]
+              }
+            ]
+          ],
+          "source": "MT",
+          "shortName": "Combat"
+        },
+        {
+          "name": "Mage Specialization",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Mage Specialization",
+                "entries": [
+                  "Being a Mage Specialist, you have focused on becoming a spellcaster through technological means rather than unnatural means - much like the wizard who takes the studious direction when it comes to learning magic."
+                ]
+              },
+              {
+                "name": "Magitech Focus",
+                "entries": [
+                  "Starting at 1st level you pick one of the following classes: Wizard, Sorcerer, Artificer. You gain the Spellcasting Feature from that class following their spell slots and regaining expended spell slots after a long rest, however the way you prepare spells and cantrips is different. Regardless of the class you always start with 2 cantrips and can prepare an amount of spells equal to your Magitechnician level + your Intelligence Modifier. Your spellcasting ability is always Intelligence regardless of the class you chose. You gain an additional cantrip at 5th, 11th, and 17th levels. ",
+                  "Your spell casting relies solely on a “Magitech Focus”, a device that can emulate the means of spellcasting of the class you chose. If the spell requires verbal or somatic components, faint whispers can be heard from the device that emulate the words spoken and small electrical sparks will emulate the motions required for the spell. ",
+                  "In order to cast a spell that requires a consumed material component, you can either have the material on hand or spend Magitech Energy equal to 2 per 10gp worth of the consumed item. If the required material component is worth less than 10 gp, it costs just 1 Magitech Energy. If your Magitech Focus is ever destroyed it costs 50 gp to craft a new one."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Technomage Apprentice",
+                "entries": [
+                  "Starting at 3rd level, you begin to learn the various different kinds of magic, how they work, and how to incorporate them into your various devices. You can create a new device similar to your Magitech Focus, a “Techno Focus”, the difference here is that it is dedicated to casting 1 spell in your possession. ",
+                  "You can spend some time during a short or long rest repreparing that spell into this device. While the spell is prepared in this device, you do not have to have the spell prepared in order to cast it. The spell’s level must be equal to half your proficiency bonus (rounded up) in order to prepare it into your Techno Focus. magitech energy is required to cast spells from your Techno Focus, costing an amount of magitech energy equal to 2 x the spell’s level. ",
+                  "Spells cast using your Techno Focus can only be cast using their original spell level, and cannot be cast at a higher level. You can only have 1 spell prepared in your Techno Focus and you can only have 1 Techno Focus in your possession at a time. If your Techno Focus is ever destroyed, it costs 200 gp to craft a new one."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Empowered Magitech",
+                "entries": [
+                  "Starting at 7th level whenever you roll damage for a magitechnician spell, you add your Intelligence Modifier to the damage. Also, whenever you roll a 1 on a damage die you can reroll it but must use the new result even if it is a 1. "
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Magic Overload",
+                "entries": [
+                  "Starting at 11th level, you can cast 2 spells at the same time, either combining their effects or separately casting both. Doing so however has a 50% chance to damage your Magitech Focus which will require a DC 20 Tinkers Tools check to repair. ",
+                  "When your Magitech Focus becomes damaged, you cannot cast spells higher than 2nd level and each time you cast a spell, and the turn it was damaged, you take 2d10 force damage.",
+                  "Once you use a Magic Overload, you cannot do so again until you finish a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Advanced Technomage",
+                "entries": [
+                  "Starting at 14th level you can now create two additional Techno Focuses to prepare spells into. Also, you can craft one additional Techno Focus that you can configure to be used by one ally of your choosing. When they use this specialized Techno Focus, instead of Magitech Energy they can spend hit points equal to 2 x the spell’s level. "
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Technomagic Mastery",
+                "entries": [
+                  "Starting 18th level, you have mastered the art of crafting magical devices. Crafting magical items costs half as much time and gold. In addition, you gain an additional attunement slot that you can use to attune to magical items, but you can only attune to a magic item you have crafted.",
+                  "When you craft magic items, for flavor you generally want to incorporate them into some kind of device, having gears and electronics incorporated into them."
+                ]
+              }
+            ]
+          ],
+          "source": "MT",
+          "shortName": "Mage"
+        },
+        {
+          "name": "Inventor Specialization",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Inventor Specialization",
+                "entries": [
+                  "Whether you chose to never stop tinkering, or you wanted to really push how far you can go with magitech, the Inventor is by far the most experimental type of Magitechnician. You delve into things that shouldn’t ever work, your inventions go haywire at times which can either make or break a situation. You rely on your wit and dumb luck, sometimes that causes a breakthrough, but sometimes this may explode in your face. “Go big or go home” as you might say."
+                ]
+              },
+              {
+                "name": "Mind of Creativity",
+                "entries": [
+                  "As your methods rely mostly on creating something new out of a theory, you have a masterfully creative mind. While not particularly good at one specific thing, you have managed to obtain a masterful mind when it comes to recalling knowledge. ",
+                  "Starting at 1st level, you can add half your proficiency bonus to Intelligence checks that do not already add your proficiency bonus to the roll. In addition you gain expertise in any 2 skills or tools that you are proficient with. "
+                ]
+              },
+              {
+                "name": "Tools of the Inventor",
+                "entries": [
+                  "Also at 1st level, you gain proficiency with two tools of your choice."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Additional Magitech Research",
+                "entries": [
+                  "As an Inventor, your level of study is unmatched by other Magitechnicians. While you do not master one particular field of study, you have the uncanny ability to learn multiple fields at once.",
+                  "At 3rd level, you gain 2 additional Magitech Research options. You also gain an additional Magitech Research Option at 9th and 15th levels."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Chaotic Theory",
+                "entries": [
+                  "Your creative mind leads you to ask questions no one else would think about. You ask the “What if?” kind of questions. As such, you’ve been able to adjust various things with your magitech.",
+                  "Starting at 7th level, you gain the ability to alter the properties of your magitech devices. When you impose a saving throw using a Magitechnician spell or a Magitech Device, you can change the saving throw from one ability score to another. You can do so a number of times equal to your Intelligence Modifier.",
+                  "In addition, when you deal acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage using a Magitechnician spell or Magitech Device, you can substitute that damage type with one other type from that list (you can change only one damage type per casting of a spell or use of a Magitech Device). You replace one energy type for another by altering the spell's formula as you cast it or by substituting materials or energy outputs to the device.",
+                  "While the Chaotic Theory feature offers increased versatility, at the table its effects can be difficult to spot by the other players. Take a moment to describe how you alter your spells magitech devices. Think of a signature change your character is particularly proud of. Be inventive, and make the game more fun for everyone by playing up the sudden, unexpected tricks your character can employ. For example, a fireball transformed to require a Strength save might become a sphere of burning rock that shatters and slams into its target. A charm person that requires a Constitution save might take the form of a vaporous narcotic that alters the target's mood."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Dedicated Ally",
+                "entries": [
+                  "As an Inventor you value what you have created, but it all goes back to your first ever creation. Your Magitech Invention. You’ve had it since the beginning of your travels, and it has stuck by your side since then. Perhaps it’s time to repay the favor.",
+                  "Starting at 11th level you can give sentience to your Magitech Invention, allowing it to move around on its own. It can also speak, read, and write the languages of its creator. Use the Tiny Servant stat block for the purposes of its statistics, but use the invention’s hit points and AC instead of the Tiny Servant’s.",
+                  "The construct can read at a slow place by scanning the words, at a rate of 100 words a minute. It can also write at the same pace, but with perfect script.",
+                  "The construct follows your commands and acts after your turn has passed. You can command it as a bonus action on your turn to have it act early, but it loses its turn if you do so. Otherwise, commanding it is a free action, but it completes the action on its turn to the best of its ability. ",
+                  "Whenever you gain the ability score improvement feature, the construct gains it as well, and follows the same rules accordingly. It also gains any previous ability score improvements you’ve received as well. The abilities the construct increases do not have to be the same as yours.",
+                  "On its turn, the construct can perform the help action as a bonus action and can do so at a range of 10 ft.",
+                  "For the purposes of its own actions, the construct gains the effects that the invention was capable of, if there is no specified action or time mentioned as per using the effects it uses an action unless it specifically mentions no action is required."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Experimental Procedure",
+                "entries": [
+                  "You’ve always tinkered with things, but now you want to see how far you can really push it.",
+                  "Starting at 14th level you can add “Experimental Features” to your magitech devices. A couple of examples will be provided, but work with the DM on creating your own features. A magitech device can only have 1 Experimental Feature at a time, any attempts to add another will automatically fail or cause irreparable damage to the device. An Experimental Feature has a success procedure and a failure procedure. When attempting to use an Experimental Feature roll an Intelligence Saving Throw against your Magitech Save DC. On a success the feature activates as normal. On a failure, you use the failure procedure instead. Multiple usages of the Experimental Feature causes the Save DC to be increased by 2 for each successful use and resets when you complete a long rest.",
+                  "Some Examples are provided on the page below.",
+                  {
+                    "type": "options",
+                    "entries": [
+                      {
+                        "type": "entries",
+                        "name": "Energetic Discharge",
+                        "entries": [
+                          "Success Procedure: A wave of energy is dispersed, causing nearby creatures to be blown back. Creatures within 10 ft of the Magitech Device, or within 10ft of the target of a spell attack or magical effect originating from a Magitech Device, make a Strength Saving throw against your Magitech Save DC or be pushed back 20 ft. Regardless of the save, each creature affected takes 4d10 force damage.",
+                          "Failure Procedure: The magitech device overheats and explodes, causing shrapnell to blow outward. Each creature within 60 ft of the Magitech Device must make a Dexterity Saving Throw against your Magitech Save DC or take 2d10 piercing damage and 2d10 fire damage on a failure, or half as much on a successful save. A creature holding the device has disadvantage on the save."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Energy Drain",
+                        "entries": [
+                          "Success Procedure: The Magitech Device absorbs energy from a creature affected by it. Whenever you hit with a Magitechnician Spell or Magitech Device, or a creature fails a saving throw imposed by a Magitechnician Spell or Magitech Device that deals damage, you regain Magitech Energy equal to half the damage dealt.",
+                          "Failure Procedure: The Magitech Device drains Magitech Energy equal to twice the damage dealt. If you do not have enough magitech energy to drain, you cannot obtain Magitech Energy by any means until you complete a long rest."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Improved Restoration",
+                        "entries": [
+                          "Success Procedure: When the Magitech Device or Magitechnician gives a creature(s) healing, that creature(s) can also remove one of the following conditions: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}.",
+                          "Failure Procedure: The creature(s) being healed by the Magitech Device or Magitechnician spell has to make a Constitution Saving throw against your Magitech Save DC or is {@condition poisoned} for 1 hour."
+                        ]
+                      }
+                    ]
+                  },
+                  "As mentioned previously, you are more than welcome to create your own Experimental Features, so long as you make a Success and Failure Procedure for it, and the effect is moderately balanced out for a “high risk, high reward” mentality. Again, approval by the DM is most important."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Inventor's Prowess",
+                "entries": [
+                  "As you have made it this far, whether by sheer luck or big brain moments, you have mastered the art of invention to its highest degree.",
+                  "Starting at 18th level, when you use your Experimental Procedure if you fail the saving throw, you can choose to succeed instead. Once you have done so, you cannot do so again until you have completed a short or long rest.",
+                  "Also, it now costs half as much gp to craft and repair your Magitech Devices."
+                ]
+              }
+            ]
+          ],
+          "source": "MT",
+          "shortName": "Inventor"
+        }
+      ],
+      "fluff": [
+        {
+          "entries": [
+            "A Magictechnician is one who creates and tinkers with Magictech, powerful technology fused with and uses magic as a sort of power source. By creating a Magictechnician you need to make a relatively smart individual, one who's trained in the art of precision, and one who doesn’t fall asleep in class unless it’s way behind their level of comprehension. When creating a Magitechnician think about where their knowledge comes from, were they a natural born prodigy? Were they tutored by a prestigious teacher? Did they go to college or were they self taught? Think about all the role play aspects that the class could have and really think outside the box about the various magitech you could create and use within your arsenal."
+          ],
+          "name": "Magitechnician",
+          "type": "section"
+        }
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "source": "MT",
+      "name": "Gadget Crafting",
+      "entries": [
+        "By undertaking this Magitech Research you can begin making more complex gadgets and gizmos. When making a Gadget consider what task you want it to complete. Examples include a Flash Grenade that is intended to blind creatures. So the idea is to give it a range of how far you can throw it, making it involve a saving throw, etc. Here are some examples of Gadgets, but work with your DM to craft your Gadgets. You have a number of known Gadgets equal to your Intelligence Modifier.",
+        {
+          "type": "list",
+          "items": [
+            "Grappling Hook! (50 GP) : This device contains a 50ft long hook and rope that shoots outward, connecting to any wooden or rough surface climbing gear would. (This is a bonus action in combat) Then you can either launch yourself forward with the Grappling Hook, or you can aim it at a creature and attempt to grapple them. They make an opposing athletics or acrobatics check against your Magitech Save DC. You can then spend an action to retract the Grappling Hook to knock the enemy prone and reduce their movement to zero until the start of your next turn. No save required if the target was already grappled on a previous turn.",
+            "Smoke Bomb! (50 GP) : A small ball filled to the brim with smoke, as a bonus action you throw it down you can do one of two things : set it to explode at a specific time OR have it explode on impact. Upon explosion a large amount of gas expands outward in a 20ft radius sphere. You have advantage on stealth checks to leave the sphere and creatures inside the sphere have disadvantage on perception checks.",
+            "Flash Grenade! (50 GP) : FLASH! Throw a grenade that explodes mid air as a bonus action, you create a flash of light outward for a 20ft radius sphere. Any creature within the radius of the flash grenade must pass a Constitution Saving Throw against your Magitech Save DC. On a failed save the target is blinded for 1d4 rounds."
+          ]
+        },
+        "There are various different kinds of gadgets you can make, but most of these gadgets should be mundane in usage and don’t have any real magical properties to them, other than making the gadgets possible to function in general."
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Alchemical Research",
+      "entries": [
+        "You’ve begun to delve into chemistry and making special elixirs. By undergoing this research you’ve uncovered various different methods to creating potions of varying effects. ",
+        "You gain proficiency in Alchemist Supplies and can use them for crafting elixirs of varying effects. In addition you add your Improved Tinkers Tools bonus to ability checks made with your Alchemist Supplies. You can work with your DM on the nature of your elixirs and their effects, or the following options are added to the Alchemical Crafting option for your Alchemist Supplies, along with cost for the materials to make said elixirs.",
+        {
+          "type": "list",
+          "items": [
+            "Healing Elixir. (30 gp) You can craft a Potion of Healing, however it heals 2d4 plus your intelligence modifier instead.",
+            "Adrenaline Elixir. (30 gp) A creature who drinks this elixir gains an amount of temporary hit points equal to 2d6 plus your intelligence modifier and receives an extra action which they can use to make an ability check, attack (makes only one weapon attack), dash, or use an object. These benefits last for 1 minute or until they lose the temporary hit points, after which the drinker gains a level of exhaustion.",
+            "Bottled Fury Elixir. (50 gp) Several chemicals combined to fire signals to the drinker’s brain to stimulate a relentless rage. Using this rage, the drinker can draw out a far more primal-like strength. While enraged, they have resistance to slashing, piercing, and bludgeoning damage. In addition, they have advantage on strength ability checks and strength saving throws. They also add a d4 of damage to their weapon attacks. This rage lasts for 1 minute or until the drinker is incapacitated, after which the drinker gains a level of exhaustion.",
+            "Magical Rejuvenating Elixir. (100 gp) You’ve discovered that the combination of certain chemicals can restore the use of weak magic used by spellcasters, but it may have odd effects on non-spellcasters. If the drinker is a spellcaster, they regain one 1st level spell slot. Alternatively, it restores 1 warlock spell slot. If the user is not a spell caster, roll a d4 and randomly determine the effect based on the result. "
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Magic Effects",
+          "colLabels": [
+            "Roll",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1",
+              "The drinker becomes intoxicated for 1 hour. "
+            ],
+            [
+              "2",
+              "The drinker gains a level of exhaustion, but can see into the ethereal plane for 1 hour. "
+            ],
+            [
+              "3",
+              "The user becomes invigorated and gains 2d4 temporary hit points."
+            ],
+            [
+              "4",
+              "The user gains an inspiration die, to which they can use as a Luck point."
+            ]
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Minor Vehicle Construction",
+      "entries": [
+        "By undertaking this Magitech Research you can make small land vehicles to help you and your group travel to places more quickly. Certain vehicles can make traveling in certain areas much less of a hassle. These vehicles can be used to possibly ignore difficult terrain and may come equipped with a set of navigation tools. Though you may have to supply some magitech energy to power them and they may not last long. Crafting one will generally cost around 100gp - 500gp.",
+        "These vehicles can take the appearance of whatever you wish so long that it is of medium or large size. (A medium sized vehicle can be something like a hoverboard, or a scooter even.) 5 Magitech Energy can power these vehicles for 1 hour, after which they need to be recharged by either spending 5 additional Magitech Energy or using a Magitech Energy Pack to keep it charged until the Energy Pack runs out of Energy.",
+        "The vehicles will have a stat block, but only the Strength, Dexterity, and Constitution Scores will be used. Work with the DM on how your specific vehicles may be statted. Its armor class will equal its Strength Score, its Speed will equal 5 x its Dexterity Score, and its hit points will be 10 x its Constitution Score. Some Example stat blocks will be at the bottom of this document. Regardless, its mental ability scores should all equal 1 and they are immune to all conditions."
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Basic Runic Studies",
+      "entries": [
+        "By learning the various different kinds of magic, you have stumbled across a peculiar type of magic used by giants. You can incorporate this runic magic to your Magitech Gear and Weapons. Each Rune costs 50 gp to craft. (You can also apply the Runes to other Magitech Devices, but make sure to OK with your DM first.) Activating a Rune costs 10 Magitech Energy and lasts for 1 hour. Once a rune is used they lose their magical properties and regain them at the end of a long rest.",
+        {
+          "type": "list",
+          "items": [
+            "Rune of Strength: While you have the Rune Active, your Strength Score increases by 2 and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. In addition you have advantage on Strength Checks.",
+            "Rune of Enlargement: While you have the Rune Active, your Constitution Score increases by 2 and you are put under the effects of the Enlarge effect of the Enlarge/Reduce Spell.",
+            "Rune of the Raven Eyes: While you have the Rune Active, your Wisdom Score Increases by 2 and you have advantage on Wisdom (Perception) and Wisdom (Insight) checks. "
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Basic Construction",
+      "entries": [
+        "Creating constructs has been a favored pastime for all kinds of inventors, from the mountain driven dwarves to the forest homed gnomes, tiny constructs have always held a special place in a tinkerer’s heart. Now you too can join in on the fun. By imbuing magic into a tiny humanoid looking statue made of wood, clay, or even metal; you can create a tiny construct that can move around and do mundane tasks. ",
+        "As a 10 minute ritual, you can cast the Tiny Servant spell using Intelligence as your spellcasting ability at will. The duration lasts until the creature falls to 0 hit points, at which point the spell ends. Otherwise, the spell lasts until dispelled.",
+        "Rather than casting a spell, you can flavor this as tinkering around with an object until it resembles more of a humanoid like object, adding gears and tiny components that would allow it to move around and open doors, pick locks, etc."
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Magitech Attachments",
+      "entries": [
+        "You took a look at your weapon and thought “You know… why not add more?”",
+        "You have a number of known Magitech Attachments equal to your Intelligence Modifier. You can craft Magitech Attachments at a base cost of 50 gp. Work with your DM on how your attachments function and the usages of them. Do they add a modifier to hit? To damage? Do they make weapons fly back into your hand? It’s up to you, but at the end of the day it’s up to you and the DM to determine that. Here are some example attachments to get you started:",
+        {
+          "type": "list",
+          "items": [
+            "Scope (50 GP): You gain advantage to hit a creature within base range of a shot with a ranged weapon this attachment is on and you gain a normal roll with the disadvantage range of a ranged weapon with this attachment on.\n",
+            "Serrated Blade (50 GP): A melee weapon with this attachment gains an additional 1d6 Slashing damage.",
+            "Energy Amplifier (75 GP): A magitech ranged weapon that is energy based adds an additional damage die of the type of damage it deals, but at the cost of 5 Magitech Energy.",
+            "Detachable Battery (100 GP): A magitech Energy Pack that you can attach directly to your weapons or devices. This battery can contain up to 5 x Your Intelligence Modifier in Magitech Energy and regains all expended Magitech Energy at the end of a long rest. Detaching and Attaching the battery onto a Magitech Device costs a Bonus Action in combat."
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Chemical Construction",
+      "entries": [
+        "You’ve studied the art of technology and magic, but what if you added chemistry into the mix? Now you’re asking for a good time. Through your genius and research you’ve discovered a way to create a sentient ooze. ",
+        "As a 1 hour ritual you can artificially create an ooze of a CR up to half your Magitechnician level (rounded down). The ooze has an Intelligence Score of 10 unless it was already higher than 10. It follows your initiative and acts on its own. You can mentally command it however by spending a bonus action. You can only have 1 ooze at a time when you use this feature."
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Ionic Research",
+      "entries": [
+        "You’ve learned how to create energy based weapons through the means science and magic. You can replace the damage type of your Magitech Weapons with radiant damage. In addition, your Magitech Weapons deals an additional amount of radiant damage on hit equal to your intelligence modifier."
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Aberrant Technology",
+      "entries": [
+        "You have been contacted by, or discovered, an eldritch aberration from the Far Realm and have been given information about their strange anatomy and the science behind it. Being the inventor you are, you have made it your goal to incorporate this information into your technology. ",
+        "You are given a single Warlock Spell Slot, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites) and create a Magitech Device that incorporates those invocations. You also gain the Eldritch Blast cantrip and 2 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 3rd level Warlock. You cast these spells through odd Magitech Devices that are thematically designed to fit the spell. Eldritch Blast can be cast through your ranged Magitech Weapon."
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Botanist Researcher",
+      "entries": [
+        "You’ve decided to delve into researching nature and have discovered that many herbs can be used in ways you’ve never even imagined. Never underestimate the power of nature. You gain proficiency in Nature, if you already have proficiency you add double your proficiency bonus instead. You also gain proficiency in an Herbalism Kit and you add your Improved Tinkers Tools bonus to ability checks made with your Herbalism Kit.",
+        "Additionally, when you make potions using your Herbalism Kit, you gain the following options using similar materials used to make Potions of Healing, costing the same amount:",
+        {
+          "type": "list",
+          "items": [
+            "Potion of Fertility: This greenish liquid allows soil to become instantly fertile, and capable of growing plant life even in arid or otherwise uninhabitable environments. ",
+            "{@item Potion of Growth|DMG} (look at DMG p187)",
+            "{@item Philter of Love|DMG} (look at DMG p184)"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Nanotechnology",
+      "entries": [
+        "Your research in robotics has led to this very moment, you have learned how to create very tiny, microscopic sized robots that basically act as a literal tiny army. It costs roughly 200 GP worth of Magitech materials in order to create an efficient batch of nanotech. This nanotechnology can perform mundane tasks as well as be used to further enhance other works of Magitech.",
+        "Your nanites, as they will be called for simplicity’s sake, have some basic commands that you can give them. Upon doing so they will be given a task based on that command. To use a command takes a bonus action. You can add more commands to the Nanites in time, but their basic commands go as such: ",
+        {
+          "type": "list",
+          "items": [
+            "Assist : provides the help action.",
+            "Repair : Heals a construct for 1d6 + Your Intelligence Modifier. ",
+            "Enhance : Your nanites enter inside of your weapons and gear enhancing them. You can now add a 1d6 to any attack roll, saving throw, or ability check. This can be used 3 times until the command ends. (This command can be used for yourself or any ally with the correct magitech gear, i.e if they only have a weapon they only get the bonus for attack rolls.)"
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6
+          },
+          "feature": [
+            "Basic Construction"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Magical Alchemy",
+      "entries": [
+        "Your research has begun to bare fruit, and as such you’re capable of creating more powerful elixirs by combining magic into your Alchemy. To do so, you must have a form of spellcasting, the ability to cast spells, or an ally who has access to either of those options. You can create potions and infuse spells into those potions, work with your DM on how those spells are incorporated. Assume the following rules for imbuing a spell into a potion:",
+        {
+          "type": "list",
+          "items": [
+            "In order to infuse the spell, you must cast it at a level of which you can cast, targeting the potion. The magic is then stored into the potion for later use.",
+            "In order for the potion to hold the spell, it requires the use of certain chemicals that have magical properties. It costs 25 gp worth per level of the spell of these magical chemicals to create each potion. Cantrips cost 10 gp worth. ",
+            "Assume the drinker of the potion is the target for the spell.",
+            "The process is equivalent to 10 minutes plus the casting time of the spell unless the potion is otherwise prepared in advance. ",
+            "Spells that include a saving throw will use the Magitechnician’s Magitech Save DC for the purposes of the spell.",
+            "Spells that include a spell attack use the Magitechnician’s Spell Attack modifier, if they do not have one they use the Magitechnician’s Intelligence modifier.",
+            "Spells that have an area of effect, such as a sphere with a radius of 20 ft, uses half the range of the spell effect.",
+            "Potions that are thrown are destroyed and releases the spell wildly, the closest creature becomes the target of the spell, but if there is no creature within 30 ft of the point the potion was thrown the spell is wasted. ",
+            "You can only imbue spells of 5th level or lower into potions, as higher magic requires a vastly more advanced process that you’re still struggling to understand.",
+            "Spells that require material components must be present and incorporated in some way into the potion. No matter the material required, the magic will make it not harmful for consumption.",
+            "In addition, you can create more potent elixirs from your Alchemical Research. The following changes can be made to the following elixirs for an extra cost of 50 gp."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Magic Effects",
+          "colLabels": [
+            "Elixir",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Healing Elixir",
+              "The elixir restores an additional 2d4 healing."
+            ],
+            [
+              "Adrenaline Elixir",
+              "The elixir gives an additional 2d6 temporary hit points and grants advantage to ability checks and saving throws."
+            ],
+            [
+              "Bottled Fury Elixir",
+              "The elixir lasts for an additional minute and grants advantage on melee attack rolls, but melee attacks made against the drinker have advantage."
+            ],
+            [
+              "Magical Rejuvenating Elixir",
+              "The elixir can restore a 2nd level spell slot, or two 1st level spell slots of the drinker’s choice. Alternatively, it restores two warlock spell slots instead of one."
+            ]
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Alchemical Research"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Magical Gadgets",
+      "entries": [
+        "You have furthered your research into your Gadget Crafting and incorporated magic into the mix. You can craft gadgets that can magically cause a creature to become poisoned, paralyzed, slowed, etc. You can recreate your already existing gadgets to become magical gadgets. Some examples of magical gadgets are :",
+        {
+          "type": "list",
+          "items": [
+            "Shock Grenade : (150 GP) As a bonus action you can throw a small object that explodes mid air, releasing a large discharge of electricity. Each creature within 20 ft of the Shock Grenade makes a Dexterity saving throw against your Magitech Save DC, taking 2d10 lightning damage and is paralyzed on a failed save, or half as much on a success and is not paralyzed.",
+            "Noxious Spray : (100 GP) As an action you can pull out a spray canister that contains a noxious gas. You spray out a 15 ft cone of this gas, each creature within range makes a Constitution saving throw against your Magitech Save DC or is poisoned for the next minute. While poisoned in this way, instead of being able to see clearly or hear, it hallucinates and is considered blinded and deafened. A creature can repeat its save at the end of each of its turns, ending the effect on a success.",
+            "Charming Bowtie : (100 GP) As an action you can tighten a special bowtie to give off a very stunning appearance to those around you. Each creature that can see you makes a Charisma saving throw against your Magitech Save DC, or be charmed by you for the next hour. If the creature takes damage by you or your companions, this effect ends. If they pass the saving throw, they do not know you were attempting to charm them. While charmed in this way, they see you as a close friend and are more willing to share sensitive information with you."
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Gadget Crafting"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Advanced Vehicle Construction",
+      "entries": [
+        "As you delve more into your research into constructing vehicles, you can now make much larger vehicles, allowing more than one person to enter a vehicle. You can craft a huge Vehicle which can carry up to two people at a time. A larger Vehicle can potentially move slower, but have a higher hit point pool. Some examples of Huge Vehicle stat blocks will be shown at the bottom of this document alongside the smaller ones.",
+        "In addition, your Advanced Vehicles come equipped with mounted weapons. The mounted weapons use the statistics of a Laser Rifle found in Chapter 9 of the dmg.",
+        "These Huge Vehicles can also be made as Water Vehicles, meaning that they can be driven on water as if it was traveling on land."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Minor Vehicle Construction"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Advanced Runic Studies",
+      "entries": [
+        "When you gain this feature you gain the following Runes that each cost 100 GP :",
+        {
+          "type": "list",
+          "items": [
+            "Rune of the Allfather: While you have the Rune Active, your Intelligence Score increases by 2 and you gain advantage on all Intelligence checks for 1 minute. In addition you can ask the DM any one question within that minute, to which the DM responds with a truthful, but possibly vague answer. Once you do so, the Rune’s magic ends early, depending on the answer.",
+            "Rune of the Valkyries: While you have the Rune Active, your Dexterity Score increases by 2 and you gain a flying speed of 60 ft. for the next minute. ",
+            "Rune of the Trickster: While you have the Rune Active, your Charisma Score increases by 2 and you gain a special action that you can use to charm a creature within 60 ft of you. The creature must make a Charisma saving throw against your Magitech Save DC. On a failed save, the creature is charmed by you for 1 hour and persists even when the Rune loses its magic. While charmed in this way, the creature is oblivious to your attempts to deceive them, no ability check required. The charm ends early if you or one of your allies damages them."
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Basic Runic Studies"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Elemental Magitech",
+      "entries": [
+        "You took a look at your weapon and thought “You know… it’s not good enough, let’s set it on fire.”",
+        "You have an Elemental Attachment that you can use to spend 5 Magitech Energy to grant your weapon with a specific elemental damage for the next minute. Until the effect ends, you deal an additional 1d10 damage using acid, cold, fire, lightning, or poison for the damage type using your Magitech Weapons."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Magitech Attachments"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Potent Magical Alchemy",
+      "entries": [
+        "You’ve discovered more potent combinations of chemicals which opens the door to more powerful elixirs. The following items are added to your Alchemical Crafting, the cost of which vary on the rarity of the items. Refer to the Magic Item Crafting Time and Cost table found on page 128 of Xanathar’s Guide to Everything for the cost and time needed of these items if they are not already provided. The highest rarity of potion you can create is rare. The cost and time needed for these items are cut in half. If the potion or elixir involves a saving throw, the dc is instead equal to your Magitech Save DC.",
+        "The following requires only 1 work day to make :",
+        {
+          "type": "list",
+          "items": [
+            "{@item Black Sap|EGW}; EGW p152",
+            "{@item Muroosa Balm|EGW}; EGW p70",
+            "{@item Olisuba Leaf|EGW}; EGW p70",
+            "{@item Soothsalts|EGW}; EGW p152",
+            "{@item Theki Root|EGW}; EGW p70",
+            "{@item Willowshade Oil|EGW}; EGW p70",
+            "The following are magic items, refer to the chart mentioned above in XGE :",
+            "{@item Elixir of Health|DMG}; DMG p168",
+            "{@item Keoghtom's Ointment|DMG}; DMG p179",
+            "{@item Oil of Etherealness|DMG}; DMG p183",
+            "{@item Oil of Slipperiness|DMG}; DMG p184",
+            "{@item Potion of Climbing|DMG}; DMG p187",
+            "{@item Potion of Diminution|DMG}; DMG p187",
+            "{@item Potion of Giant Strength|DMG}; DMG p187",
+            "{@item Potion of Invulnerability|DMG}; DMG p188",
+            "{@item Potion of Maximum Power|EGW}; EGW p268",
+            "{@item Potion of Mind Control|TftYP}; Tales from the Yawning Portal p229",
+            "{@item Potion of Mind Reading|DMG}; DMG p188",
+            "{@item Potion of Poison|DMG}; DMG p188",
+            "{@item Potion of Resistance|DMG}; DMG p188",
+            "{@item Potion of Watchful Rest|WDMM}; Waterdeep: Dungeon of the Mad Mage p62",
+            "{@item Potion of Water Breathing|DMG}; DMG p188"
+          ]
+        },
+        "In addition, the following changes can be made to the following elixirs for an additional cost of 100 gp:",
+        {
+          "type": "table",
+          "caption": "Magic Effects",
+          "colLabels": [
+            "Elixir",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Healing Elixir",
+              "The elixir restores an additional 2d4 healing and can cure one disease afflicting the drinker."
+            ],
+            [
+              "Adrenaline Elixir",
+              "The elixir gives an additional 2d6 temporary hit points and grants an additional 10 ft to the drinkers movement speed."
+            ],
+            [
+              "Bottled Fury Elixir",
+              "The elixir lasts for an additional minute and grants resistance to acid, cold, fire, lightning, and poison damage until the rage has ended. "
+            ],
+            [
+              "Magical Rejuvenating Elixir",
+              "The elixir can restore a 3rd level spell slot, two 2nd level spell slots and one 1st level spell slot, or three 1st level spell slots of the drinker’s choice."
+            ]
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Magical Alchemy"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Advanced Construction",
+      "entries": [
+        "One construct was not enough for you, you must have more. They must be bigger, stronger, faster, and better. So you have studied this far to create your army of constructs.",
+        "You can spend a 1 hour ritual casting the spell Animate Objects at will using Intelligence as your spellcasting ability. The duration lasts until dispelled or until the objects are each dropped to 0 hit points. ",
+        "Rather than casting a spell, you can flavor this as tinkering around with the objects until it resembles more like humanoid like objects, adding gears and tiny components that would allow them to move around and open doors, fight, pick locks, etc."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Basic Construction"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Advanced Nanotechnology",
+      "entries": [
+        "You have learned how to make improvements to your nanotechnology and they have now become more efficient. ",
+        "When your nanites use the “Assist” Command you can add a 1d6 on top of the roll.",
+        " Any command (except for Assist) that requires a die roll, such as Enhance and Repair, increase that die to a d10 if it was not already a d10. ",
+        "You can now make 2 commands during the same bonus action but cannot do so again until you complete a short or long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Nanotechnology"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Mystical Research",
+      "entries": [
+        "You have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including the one you chose from this subclass. You learn those spells and add them to your spellcasting list. A spell you choose must be of a level you can cast or a cantrip. The chosen spells count as Magitechnician spells for you and do not count against your prepared spells. Each time you level up, you can exchange the 1 of the 2 spells you chose for a different one."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Mage Specialization"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Masterwork Vehicle Construction",
+      "entries": [
+        "Your research has led you to this moment, you have now mastered the art of craft with vehicles. You can now create significantly larger vehicles, going to Gargantuan and larger sizes. These Vehicles can carry up to nine different medium sized creatures at a given time. These are the vehicles that can look more like modern cars, but you can flavour them however you wish.",
+        "You can also now create a flying vehicle, flying vehicles have a flying speed equal to its regular speed, but must have a speed higher than 50 ft and be of large size or smaller in order to fly."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Advanced Vehicle Construction"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Legendary Alchemy",
+      "entries": [
+        "You’ve mastered the art of Alchemy, as such you can create far more potent mixtures than any other. You can now imbue up to 9th level spells into potions rather than 5th level, doing so takes an additional amount of time equal to 1 work week per level above 5th.",
+        "You gain the following potions added to your list of craftable potions, in addition you can now craft potions up to Legendary rarity. :",
+        {
+          "type": "list",
+          "items": [
+            "{@item Potion of Speed|DMG}; DMG p188",
+            "{@item Potion of Flying|DMG}; DMG p187",
+            "{@item Potion of Longevity|DMG}; DMG p188",
+            "{@item Potion of Vitality|DMG}; DMG p188",
+            "{@item Oil of Sharpness|DMG}; DMG p184"
+          ]
+        },
+        "The following changes are made to the following elixirs for an additional cost of 1000 gp.",
+        {
+          "type": "table",
+          "caption": "Magic Effects",
+          "colLabels": [
+            "Elixir",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Healing Elixir",
+              "The elixir restores an additional 20 points of healing."
+            ],
+            [
+              "Adrenaline Elixir",
+              "The elixir gives an additional 20 temporary hit points and grants the benefits of the Freedom of Movement spell."
+            ],
+            [
+              "Bottled Fury Elixir",
+              "The elixir lasts for an additional minute and the drinker can no longer be frightened or charmed while enraged."
+            ],
+            [
+              "Magical Rejuvenating Elixir",
+              "The elixir can restore a 6th level spell slot, or a number of spell slots whose total levels equal 6 of the drinker’s choice. Alternatively, it restores three warlock spell slots instead of two."
+            ]
+          ]
+        },
+        "In addition, by spending a large amount of time messing with chemicals your body has become acclimated to them. You have immunity to disease and poison. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 15,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Potent Alchemy"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Grandiose Vehicle Construction",
+      "entries": [
+        "You have been peaked by interstellar travel. You know that there is more out there than what was previously thought to be and you wish to experience it first hand. Your research up until now, was thought to be completed, but now you have stumbled across a new grand design",
+        "Your vehicles can now be created large enough to sustain at least 2 months of stellar travel, and any size category of vehicle can have a flying speed. This feature requires both Masterwork Vehicle Construction and this option and does not replace and inherit the previous ones. Your Vehicles can now carry a maximum of 20 different kinds of creatures."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 15,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Masterwork Vehicle Construction",
+            "Aberrant Technology"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Ancient Runic Studies",
+      "entries": [
+        "You have stumbled across the most powerful and ancient of runic magic. When you gain this feature you gain the following Runes that each cost 500 GP :",
+        {
+          "type": "list",
+          "items": [
+            "Rune of the Aesir: When the Rune is Active, you gain a truesight of 60 ft for 1 hour.",
+            "Rune of the Giants: When the Rune is Active, you gain the ability to tell whenever someone is telling a lie.",
+            "Rune of the Yggdrasil: When the Rune is Active you can cast one of the following spells: Etherealness, Astral Projection, or Teleport. Once one of the spells ends, the Rune loses its magic."
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 15,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Advanced Runic Studies"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    },
+    {
+      "source": "MT",
+      "name": "Golem Crafting",
+      "entries": [
+        "Your studies of creating constructs have led you to the intricate process of crafting various different kinds of constructs, including those that would initially require special magic items to craft. Instead now, your expertise in technology is enough to substitute.",
+        "You can craft a magical golem identical to ones through a similar process as if you had access to each variation of the Manual of Golems, but do not require the actual item itself in order to begin your Golem Crafting. Having the manual on hand will reduce the amount of time and resources needed by half. The Golem created by this effect follows your proficiency bonus instead. Once you have magically created a Golem in this way, you cannot do so again until you finish a long rest.",
+        "In addition, you can as a one hour ritual magically create any 1 construct that doesn’t list “Golem” in its name. This construct rolls its own initiative, and uses your proficiency bonus instead. Once you have magically created a construct in this way, you cannot do so again until you finish a long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 15,
+            "class": {
+              "name": "Magitechnician"
+            }
+          },
+          "feature": [
+            "Advanced Construction"
+          ]
+        }
+      ],
+      "featureType": "Magitech Research"
+    }
+  ]
+}

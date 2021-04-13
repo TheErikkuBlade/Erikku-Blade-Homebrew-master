@@ -1,0 +1,3553 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GodsoftheDawnofWar",
+				"abbreviation": "GDW",
+				"full": "Gods of the Dawn of War",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1600646010,
+		"dateLastModified": 1600646010
+	},
+	"monster": [
+		{
+			"name": "Cronus, The Imprisoned",
+			"shortName": "Cronus",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"level": 56,
+			"size": "G",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"elder titan"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 42,
+					"from": [
+						"44 with the Blades of Chaos"
+					]
+				}
+			],
+			"hp": {
+				"formula": "61d100 + 1220",
+				"average": 7320
+			},
+			"speed": {
+				"walk": 120,
+				"fly": {
+					"number": 600,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 69,
+			"dex": 35,
+			"con": 50,
+			"int": 24,
+			"wis": 34,
+			"cha": 32,
+			"save": {
+				"int": "+20",
+				"wis": "+25",
+				"con": "+33",
+				"cha": "+24",
+				"dex": "+25",
+				"str": "+42"
+			},
+			"skill": {
+				"acrobatics": "+38",
+				"athletics": "+55",
+				"survival": "+38",
+				"intimidation": "+37",
+				"religion": "+20",
+				"history": "+20"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 22,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "all damage"
+						}
+					],
+					"note": "while raging"
+				}
+			],
+			"conditionImmune": [
+				{
+					"special": "all conditions"
+				}
+			],
+			"languages": [
+				"all",
+				"telepathy (no range limit)"
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (8/Day)",
+					"entries": [
+						"If Cronus fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Cronus' weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Cronus has at least 1 hit point, he regains 200 hit points at the start of his turn."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 30 and below. A greater god's attacks and effects targeting creatures of CR 41-50 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Epic Magic Immunity",
+					"entries": [
+						"Cronus can't be affected or detected by spells of 10th level or lower unless he wishes to be. He has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If Cronus is subjected to an effect that allows him to make a saving throw to only take half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
+					"name": "Divine Rage",
+					"entries": [
+						"Cronus goes is always in a relentless rage. He has resistance to all damage while raging and adds a +10 to attack and damage rolls using strength. (Included in attack)"
+					]
+				},
+				{
+					"name": "Blades of Chaos",
+					"entries": [
+						"Cronus has two powerful weapons that can kill even the mightiest of deities.",
+						"Each Blade of Chaos is a +5 Artifact Colossal Scimitar.",
+						"The blades deal an additional {@damage 8d10} fire damage. This damage cannot be reduced and ignores damage resistance and immunity.",
+						"When wielding both blades, you have a +2 bonus to your AC, attack, and damage rolls.",
+						"The Blades of Chaos have a reach of 20 ft, as you have chains that are wrapped around your arms to the blades."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Cronus uses his Divine Presence and then makes six attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Cronus must make a {@dc 32} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against The Traveling Merchant and in addition, they cannot gain advantage on attack rolls, ability checks, or saving throws against Cronus. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Blades of Chaos",
+					"entries": [
+						"{@atk mw} {@hit 54} to hit, reach 20 ft., one target. {@h}68 ({@damage 6d8 + 41}) slashing/piercing damage, plus 73 ({@damage 8d10}) fire damage."
+					]
+				},
+				{
+					"name": "Colossal Adamantine Glaive",
+					"entries": [
+						"{@atk mw} {@hit 52} to hit, reach 5 ft., one target. {@h}66 ({@damage 6d8 + 39}) slashing damage"
+					]
+				},
+				{
+					"name": "Alter Reality {@recharge 6}",
+					"entries": [
+						"The deity can duplicate any spell of 12th level or lower as an action. The duplicated spell has no material or XP components, and the DC of its saving throw (if one is allowed) is 32. The deity also can duplicate a spell with any metamagic feat (so long as the metamagic feat is available to characters of 20th level or lower). The deity can render a magical or supernatural effect permanent. The deity can undo any magical or supernatural effect. The deity can create temporary, nonmagical objects. This works like the Create Object ability, except that the items last one day per rank. The deity also can create permanent nonmagical objects as if using the Create Object ability. The deity can create temporary magic items or creatures. The deity can reshape a landscape, creating any type of terrain the deity can imagine.",
+						"There are also other effects that can take place by the DM's discretion."
+					]
+				}
+			],
+			"legendaryActions": 8,
+			"legendary": [
+				{
+					"name": "Overwhelming Attack",
+					"entries": [
+						"Cronus can move up to half his movement, then he makes two Blades of Chaos attacks."
+					]
+				},
+				{
+					"name": "Regenerate",
+					"entries": [
+						"Cronus regenerates 250 hit points."
+					]
+				},
+				{
+					"name": "Unrelenting Fury (Costs 2 Actions)",
+					"entries": [
+						"Cronus makes two Blades of Chaos attacks, then the attack target(s) makes a {@dc 50} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/gXn3pOY.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/gXn3pOY.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Lolth",
+			"shortName": "Lolth",
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"natural armor"
+					],
+					"condition": "25 while in Domain",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "40d20 + 400",
+				"average": 820
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 24,
+			"dex": 23,
+			"con": 30,
+			"int": 26,
+			"wis": 26,
+			"cha": 30,
+			"save": {
+				"dex": "+14",
+				"int": "+16",
+				"wis": "+16",
+				"str": "+15",
+				"con": "+18",
+				"cha": "+18"
+			},
+			"skill": {
+				"deception": "+18",
+				"perception": "+16",
+				"stealth": "+14"
+			},
+			"senses": [
+				"darkvision 240 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 26,
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"force",
+						"lightning",
+						"necrotic",
+						"psychic",
+						"radiant",
+						"thunder"
+					],
+					"note": "while in Domain"
+				}
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Elvish",
+				"telepathy 120 ft."
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Lolth's spellcasting ability is Charisma (spell save {@dc 26}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self} (can become a Medium female Drow when changing her appearance)",
+						"{@spell detect magic}",
+						"{@spell poison spray} ({@damage 4d12} damage)",
+						"{@spell web}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell confusion}",
+							"{@spell dispel magic}",
+							"{@spell dominate person}",
+							"{@spell fly}",
+							"{@spell teleport}"
+						],
+						"1e": [
+							"{@spell divine word}",
+							"{@spell maddening darkness|XGE}",
+							"{@spell psychic scream|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Divine Spellcasting",
+					"headerEntries": [
+						"Lolth knows all spells available to clerics, druids, and paladins and can cast each three times per day at 9th level. Lolth can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Lolth drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Abyss, and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Lolth fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless she wishes to be affected, Lolth is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Lolth's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Noxious Webs",
+					"entries": [
+						"A creature that starts its turn in a space flled with or {@condition restrained} by webbing created by Lolth (either by her Web attack or her spell) takes 7 ({@damage 2d6}) acid damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Lolth has at least 1 hit point, she regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Lolth can climb difcult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, Lolth knows the exact location of any creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"Lolth ignores movement restrictions caused by webbing."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Divine Being",
+					"entries": [
+						"Lolth can't be surprised and can't be changed into another form against her will."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Lolth doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Lolth uses her Divine Presence and Web, she then makes four attacks: one with her bite, one with her whip, and two with her Impaling Forelegs."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) piercing damage, and if the target is a creature, it must succeed on a {@dc 22} Constitution saving throw. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to poison damage. Otherwise, a creature takes 22 ({@damage 4d10}) poison damage and is {@condition poisoned} for 1 minute on a failed save. While {@condition poisoned}, a creature takes 22 ({@damage 4d10}) poison damage at the end of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Pain Whip",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 30 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 14 ({@damage 4d6}) necrotic damage and the target has disadvantage to attack rolls and saving throw rolls until the end of Lolth's next turn. In addition, the target must succeed on a {@dc 25} Strength saving throw or be pulled up to 25 feet toward Lolth."
+					]
+				},
+				{
+					"name": "Impaling Foreleg",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}17 ({@damage 3d6 + 7}) piercing damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 17}). While {@condition grappled}, the target is {@condition restrained}, takes 7 ({@damage 2d6}) necrotic damage at the start of each of Lolth's turns, and Lolth can't use one of her Impaling Legs on another target."
+					]
+				},
+				{
+					"name": "Web",
+					"entries": [
+						"{@atk rw} {@hit 15} to hit, range 60/120 ft., one Huge or smaller creature. {@h}The creature is {@condition restrained} by webbing. As an action, the {@condition restrained} creature can make a {@dc 22} Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 15, 20 hit points, resistance to bludgeoning damage, and immunity to acid, poison, and psychic damage."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Lolth must make a {@dc 25} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Lolth and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Lolth. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Insidious Poison",
+					"entries": [
+						"Lolth chooses one creature within 30 feet that she has {@condition poisoned}. The target must make a {@dc 25} Wisdom saving throw. On a failed save, the creature uses its reaction to make a melee weapon attack against a creature of Lolth's choice that Lolth can see."
+					]
+				},
+				{
+					"name": "Web",
+					"entries": [
+						"Lolth uses Web."
+					]
+				},
+				{
+					"name": "Web Crawl",
+					"entries": [
+						"While on webbed surfaces, Lolth moves up to half her speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Whip (Costs 2 Actions)",
+					"entries": [
+						"Lolth makes an Pain Whip attack."
+					]
+				},
+				{
+					"name": "Impale (Costs 2 Actions)",
+					"entries": [
+						"Lolth uses her Impaling Foreleg attack."
+					]
+				},
+				{
+					"name": "Summon Handmaiden (Costs 3 Actions)",
+					"entries": [
+						"Lolth magically summons a yochlol. The yochlol appears in an unoccupied space within 60 feet of Lolth and acts as Lolth's ally. The yochlol remain until Lolth dies or until she dismisses it as an action."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/LAH9p2c.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/bqshOXT.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration",
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"E",
+				"TP"
+			],
+			"damageTags": [
+				"A",
+				"I",
+				"N",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"poisoned",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Mystra, Goddess of Magic",
+			"shortName": "Mystra",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goddess"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 35,
+					"from": [
+						"Divine Presence"
+					]
+				}
+			],
+			"hp": {
+				"formula": "40d100 + 400",
+				"average": 4400
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": {
+					"number": 120,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 28,
+			"dex": 32,
+			"con": 30,
+			"int": 45,
+			"wis": 30,
+			"cha": 35,
+			"save": {
+				"int": "+26",
+				"wis": "+19",
+				"con": "+19",
+				"cha": "+21",
+				"str": "+18",
+				"dex": "+20"
+			},
+			"skill": {
+				"perception": "+28",
+				"arcana": "+35",
+				"performance": "+30",
+				"history": "+35"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 38,
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"force",
+						"lightning",
+						"necrotic",
+						"psychic",
+						"radiant",
+						"thunder"
+					],
+					"note": "while in Domain"
+				},
+				{
+					"resist": [
+						{
+							"special": "damage from spells"
+						}
+					]
+				}
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Giant",
+				"Primordial",
+				"Sylvan",
+				"telepathy 120 ft."
+			],
+			"cr": "30",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Mystra's spellcasting ability is Intelligence (spell save {@dc 34}). She can innately cast the following spells, requiring no material components:"
+					],
+					"constant": [
+						"{@spell comprehend languages}",
+						"{@spell foresight}",
+						"{@spell mind blank}"
+					],
+					"will": [
+						"{@spell alter self} (can become a Medium female Human when changing her appearance)",
+						"{@spell clairvoyance}",
+						"{@spell counterspell}",
+						"{@spell detect magic}",
+						"{@spell dispel magic}",
+						"{@spell divine word}",
+						"{@spell fireball}",
+						"{@spell gate}",
+						"{@spell guidance}",
+						"{@spell lightning bolt}",
+						"{@spell seeming}",
+						"{@spell sending}",
+						"{@spell teleport}",
+						"{@spell toll the dead|xge} ({@damage 4d12} damage)",
+						"{@spell wristpocket|EGW}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell antimagic field}",
+							"{@spell crown of stars|XGE}",
+							"{@spell dark star|EGW}",
+							"{@spell imprisonment}",
+							"{@spell power word heal}",
+							"{@spell power word kill}",
+							"{@spell power word pain|XGE}",
+							"{@spell power word stun}",
+							"{@spell reality break|EGW}",
+							"{@spell temporal shunt|EGW}",
+							"{@spell tether essence|EGW}",
+							"{@spell true polymorph}",
+							"{@spell wish}"
+						],
+						"1e": [
+							"{@spell invulnerability|XGE}",
+							"{@spell prismatic wall}",
+							"{@spell ravenous void|EGW}",
+							"{@spell time ravage|EGW}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Divine Spellcasting",
+					"headerEntries": [
+						"Mystra knows all spells available to clerics, druids, paladins, and wizards and can cast each three times per day at 9th level. Mystra can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Mystra drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the , and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Mystra fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Mystra's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Mystra has at least 1 hit point, she regains 50 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Sense Magic",
+					"entries": [
+						"Mystra senses magic within 120 feet of her at will. This trait otherwise works like the detect magic spell but isn't itself magical."
+					]
+				},
+				{
+					"name": "Gift of the Weave",
+					"entries": [
+						"Mystra does not need to concentrate on spells she casts, in addition spells that she casts are immune to the effects of {@spell counterspell} and {@spell dispel magic} and other similar effects. Unless she wishes to be affected, Mystra is immune to spells of 8th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If Mystra is subjected to an effect that allows her to make a saving throw to only take half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+					]
+				},
+				{
+					"name": "Divine Being",
+					"entries": [
+						"Mystra can't be surprised and can't be changed into another form against her will."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Mystra doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Mystra uses her Divine Presence and Alter Reality if its available, she then makes four attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Mystra must make a {@dc 29} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Mystra and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Mystra. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Alter Reality {@recharge 5}",
+					"entries": [
+						"The deity can duplicate any spell of 9th level or lower as a standard action. The duplicated spell has no material or XP component, and the DC of its saving throw (if one is allowed) is 32. The deity also can duplicate a spell with any metamagic feat (so long as the metamagic feat is available to characters of 20th level or lower). The deity can render a magical or supernatural effect permanent. The deity can create temporary, nonmagical objects. This works like the Create Object ability (including the required rest period), except that the items last one day per rank. The deity also can create permanent nonmagical objects as if using the Create Object ability except that all rest requirements are doubled and there is no reduction in rest time for being on an Outer Plane or in the deity’s own realm. The deity can create temporary magic items or creatures. The deity can reshape a landscape, creating any type of terrain the deity can imagine. "
+					]
+				},
+				{
+					"name": "Momento Mori, 10th level Epic Spell (1/day)",
+					"entries": [
+						"Mystra wills the target dead without a word or gesture. The  thought snuffs out the life force of a living creature of 160 or fewer hit points, killing them instantly. The subject is entitled to a Constitution saving throw ({@dc 32}) to have a chance of surviving the attack. If the save is successful, the target instead takes {@dice 10d10 + 30} points of damage."
+					]
+				},
+				{
+					"name": "Divine Aegis, 11th level Epic Spell (1/day)",
+					"entries": [
+						"Mystra creates a powerful warrior to fight for her, empowering it with her divine magic. She creates an adult level 20 oath of  paladin of any race she chooses. The creature's ability scores are all 20, and uses the highest possible result when determining its hit point maximum. She chooses what spells the Paladin prepares and the Oath the Paladin makes. The Paladin has +3 Plate Armor, a +3 Shield, and a +3 Magic Weapon of Mystra's choice. When the Paladin falls to 0 hit points, they are destroyed."
+					]
+				},
+				{
+					"name": "Divine Grace, 12th level Epic Spell (1/day)",
+					"entries": [
+						"Mystra regains all uses of her spellcasting and other magical effects, other than this spell."
+					]
+				},
+				{
+					"name": "Aegis of Midnight",
+					"entries": [
+						"{@atk mw} {@hit 20} to hit, reach 5 ft., one target. {@h}22 ({@damage 2d10 + 11}) piercing damage, or 24 ({@damage 2d12 + 11}) piercing damage if used with both hands, plus 43 ({@damage 10d6}) force damage."
+					]
+				},
+				{
+					"name": "Divine Blast",
+					"entries": [
+						"{@atk rw} {@hit 24} to hit, range 150/600 ft., one target. {@h}53 ({@damage 10d8 + 17}) force damage."
+					]
+				}
+			],
+			"legendaryActions": 6,
+			"legendary": [
+				{
+					"name": "Restoration from the Weave",
+					"entries": [
+						"Mystra regains 50 hit points and regains one use of her 3/day spells of 9th level or lower."
+					]
+				},
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"Mystra casts one of her at will spells."
+					]
+				},
+				{
+					"name": "Greater Restoration from the Weave (Costs 2 Actions)",
+					"entries": [
+						"Mystra regains 100 hit points and 2 uses of her 3/day or 1/day spells of 9th level or lower."
+					]
+				},
+				{
+					"name": "Cast Greater Spell (Costs 2 Actions)",
+					"entries": [
+						"Mystra casts one of her spells of 9th level or lower."
+					]
+				},
+				{
+					"name": "Deadly Thought (Costs 2 Actions)",
+					"entries": [
+						"Mystra uses her Momento Mori."
+					]
+				},
+				{
+					"name": "Summon Aegis (Costs 3 Actions)",
+					"entries": [
+						"Mystra uses her Divine Aegis."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Mystra teleports up to 120 ft to an unoccupied space she can see, or 120 ft in a direction of her choice. Her teleportation teleports her to the nearest unoccupied space if she were to teleport into an occupied space."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Mystra is the goddess of magic, and with that the goddess of possibilities. She is venerated by mages and by those who use magic or magical objects in their daily lives. She also receives the prayers of those who find magic wondrous or encounter magic they fear. Mystra is the goddess of the essential force that makes all spellcasting possible. She provides and tends the Weave, the conduit through which mortal spellcasters and magical crafters can safely access the raw force of magic.",
+					"The faith of Mystra is pervasive in Faerûn, which is to be expected for a land as touched by magic as it is. Her worshipers include those who use magic or work closely with it, such as alchemists and sages. The blue-clad priests of Mystran temples count wizards and sorcerers among their numbers, as well as the occasional bard. The goal of Mystra's faithful is simple: that magic be preserved and promulgated throughout the Realms. It isn't unusual for her followers to keep an eye out for those who demonstrate high potential for using magic and help arrange for such persons to find tutelage with a suitable mentor.",
+					"Mystra (pronounced MISS-trah), the Mother of all Magic, formerly known as Midnight, was once a greater goddess who guided the magic that enveloped Toril and its surrounding space. Though now with her resurrection and faith having been lost in the weave and magic as a whole, her power is far less than it had been. Mystra tends to the Weave constantly, making possible all the miracles and mysteries wrought by magic and users of magic. She is believed to be the embodiment of the Weave and of magic itself, though this is now known to be false in the wake of the Spellplague. When the weave collapsed with her death, magic still existed, but in a different form as before. Adaptation was forced on society, and magic users still found ways to use their power, though it had taken far more work and could cause chaos since the wild forms of magic were more prevalent.",
+					"With her resurrection and the re-establishment of the weave, magic is now easier to control and use, but time and distrust makes it less of worth-while pursuit than it had been before, and many users still prefer the more wild uses that were established during the time of the spellplague."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/f3/f1/96/f3f1964a6013d4372feed2d0905d3927.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/jHaemrk.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"D",
+				"DR",
+				"E",
+				"GI",
+				"P",
+				"S",
+				"TP"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Melora, Goddess of the Wilderness and the Sea",
+			"shortName": "Melora",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"goddess"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 32,
+					"from": [
+						"Divine Presence"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d20 + 450",
+				"average": 1450
+			},
+			"speed": {
+				"walk": 80,
+				"fly": {
+					"number": 120,
+					"condition": "(hover)"
+				},
+				"canHover": true,
+				"swim": 80
+			},
+			"str": 32,
+			"dex": 30,
+			"con": 29,
+			"int": 26,
+			"wis": 36,
+			"cha": 30,
+			"save": {
+				"int": "+15",
+				"wis": "+20",
+				"con": "+16",
+				"cha": "+17",
+				"dex": "+17",
+				"str": "+18"
+			},
+			"skill": {
+				"athletics": "+25",
+				"animal handling": "+27",
+				"nature": "+27",
+				"perception": "+27",
+				"survival": "+27"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 37,
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"force",
+						"lightning",
+						"necrotic",
+						"psychic",
+						"radiant",
+						"thunder"
+					],
+					"note": "while in Domain"
+				},
+				{
+					"resist": [
+						{
+							"special": "damage from spells"
+						}
+					]
+				}
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"celestial",
+				"common",
+				"elvish",
+				"primordial",
+				"sylvan",
+				"telepathy 120 ft."
+			],
+			"cr": "21",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Melora’s spellcasting ability is Wisdom (spell save {@dc 28}, +21 to hit with attack spells). Melora can innately cast the following spells, requiring no components:"
+					],
+					"constant": [
+						"{@spell comprehend languages}",
+						"{@spell mind blank}",
+						"{@spell water walk}"
+					],
+					"will": [
+						"{@spell alter self} (can become a Medium female Human when changing her appearance)",
+						"{@spell clairvoyance}",
+						"{@spell commune with nature}",
+						"{@spell control water}",
+						"{@spell control weather}",
+						"{@spell control winds|XGE}",
+						"{@spell detect magic}",
+						"{@spell dispel magic}",
+						"{@spell dominate monster}",
+						"{@spell gate}",
+						"{@spell guidance}",
+						"{@spell lightning bolt}",
+						"{@spell locate animals or plants}",
+						"{@spell locate creature}",
+						"{@spell meld into stone}",
+						"{@spell move earth}",
+						"{@spell plant growth}",
+						"{@spell seeming}",
+						"{@spell sending}",
+						"{@spell spike growth}",
+						"{@spell stone shape}",
+						"{@spell teleport}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell cloudkill}",
+							"{@spell conjure elemental}",
+							"{@spell earthquake}",
+							"{@spell greater invisibility}",
+							"{@spell heroes' feast}",
+							"{@spell imprisonment}",
+							"{@spell insect plague}",
+							"{@spell power word heal}",
+							"{@spell power word stun}",
+							"{@spell storm of vengeance}",
+							"{@spell summon bestial spirit|UA2020SpellsAndMagicTattoos}",
+							"{@spell summon elemental spirit|UA2020SpellsAndMagicTattoos}",
+							"{@spell summon fey spirit|UA2020SpellsAndMagicTattoos}",
+							"{@spell true polymorph}",
+							"{@spell tsunami}",
+							"{@spell wall of ice}",
+							"{@spell wall of stone}",
+							"{@spell wall of thorns}",
+							"{@spell wall of water|XGE}",
+							"{@spell wish}"
+						],
+						"1e": [
+							"{@spell invulnerability|XGE}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Divine Spellcasting",
+					"headerEntries": [
+						"Melora knows all spells available to clerics, druids, and paladins and can cast each three times per day at 9th level. Melora can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Melora drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the , and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Melora fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Melora's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Melora has at least 1 hit point, she regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Nature’s Sovereign",
+					"entries": [
+						"Melora is never hindered by non-magical difficult terrain. Any beast hostile to Melora that she can see must make a {@dc 35} Wisdom save or be {@condition charmed} by Melora as in the {@spell dominate beast} spell"
+					]
+				},
+				{
+					"name": "Shape of the Wild",
+					"entries": [
+						"Melora can assume the shape of any beast, plant, or fey at will. She can do this as an action, a bonus action, or a legendary action. She reverts to her true form when she drops to 0 hit points and any equipment she is wearing or carrying is absorbed or borne by her new form (Melora’s choice).",
+						"Melora retains her hit points, statistics and traits, and gains the traits, statistics (if higher than hers), and actions, including legendary actions, of her new form. She also retains all of her skill and saving throw proficiencies, in addition to gaining those of the new form, gaining the higher of the two if they share proficiencies. She can cast any of her spells regardless of what form she is in."
+					]
+				},
+				{
+					"name": "Spear of the Wilds",
+					"entries": [
+						"Melora’s spear, Custos, is +4 spear of aberration slaying. The spear deals extra 36 ({@damage 8d8}) piercing damage versus aberrations and instantly returns to her hand when called (free action). In addition, the artifact has 10 charges, and any of its properties that require a saving throw have a save DC of 32. While holding the spear, Melora can use a bonus action to cast {@spell flesh to stone} (no concentration) on any creature she hits with the spear, or she can use an action and spend 1 or more charges to cast the following spells from it: ",
+						"{@spell banishment} (1 charge), {@spell lightning bolt} (9th level, 2 charges) {@spell tsunami} ( 2 charges), {@spell storm of vengeance} (2 charges). The spear regains {@dice 1d6 + 4} charges at dawn."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Melora can't be affected or detected by spells of 6th level or lower unless she wishes to be. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If Melora is subjected to an effect that allows her to make a saving throw to only take half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage she it fails."
+					]
+				},
+				{
+					"name": "Divine Being",
+					"entries": [
+						"Melora can't be surprised and can't be changed into another form against her will."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Melora doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Melora uses her Divine Presence and Call of the Wild if its available, she then makes three attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Melora must make a {@dc 25} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Melora and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Melora. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Call of the Wild (1/day)",
+					"entries": [
+						"Melora summons any number of beast, plant, or fey creatures native to her surroundings with a total HP of 1000."
+					]
+				}
+			],
+			"legendaryActions": 4,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Melora makes a cestus attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Melora moves up to half her speed."
+					]
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"Melora casts a spell."
+					]
+				},
+				{
+					"name": "Regenerate",
+					"entries": [
+						"Melora regenerates 40 hit points."
+					]
+				},
+				{
+					"name": "Transformation (Costs 2 Actions)",
+					"entries": [
+						"Melora uses her Shape of the Wild ability."
+					]
+				},
+				{
+					"name": "Earthen Mistress (Costs 4 Actions)",
+					"entries": [
+						"Melora becomes part of her surroundings, dissolving her physical form and taking control of plants and terrain within a 120 ft radius of her previous location. She can control the plants and terrain as she wishes for 1 hour. During this transformation she can use any of her spells, and she cannot take damage. ",
+						"Her abilities while transformed vary by the type of environment as determined by the DM. If the entire area controlled by Melora is effectively destroyed she is ejected from the terrain and takes 55 ({@damage 10d10}) force damage. She can also be expelled by a wish spell taking the same damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Melora is the god of the wilderness and the sea. She is both the wild beast and the peaceful forest, the raging whirlpool and the quiet desert. Rangers, hunters, and Elves revere her, and sailors make offerings to her before beginning their voyages. Her strictures are these:",
+					"Protect the wild places of the world from destruction and overuse. Oppose the rampant spread of cities and empires.",
+					"Hunt aberrant monsters and other abominations of nature.",
+					"Do not fear or condemn the savagery of nature. Live in harmony with the wild.",
+					"Melora is sometimes worshiped outside of the Dawn War Pantheon as Gaia the Earth-Mother."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://angeljace.files.wordpress.com/2011/12/naya_battlemage_by_steveargyle.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/WwygkeI.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Avandra, Goddess of Change and Luck",
+			"shortName": "Avandra",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"goddess"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 31,
+					"from": [
+						"Divine Presence"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d20 + 500",
+				"average": 1500
+			},
+			"speed": {
+				"walk": 80,
+				"fly": {
+					"number": 120,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 30,
+			"dex": 30,
+			"con": 30,
+			"int": 27,
+			"wis": 36,
+			"cha": 32,
+			"save": {
+				"int": "+16",
+				"wis": "+21",
+				"con": "+18",
+				"cha": "+19",
+				"dex": "+18",
+				"str": "+18"
+			},
+			"skill": {
+				"history": "+24",
+				"insight": "+29",
+				"perception": "+29",
+				"stealth": "+26",
+				"persuasion": "+27"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 39,
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"force",
+						"lightning",
+						"necrotic",
+						"psychic",
+						"radiant",
+						"thunder"
+					],
+					"note": "while in Domain"
+				},
+				{
+					"resist": [
+						{
+							"special": "damage from spells"
+						}
+					]
+				}
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"charmed",
+						"exhaustion",
+						"frightened",
+						"poisoned"
+					]
+				},
+				{
+					"conditionImmune": [
+						"incapacitated",
+						"restrained",
+						"stunned"
+					],
+					"note": "by a spell or magical effect"
+				}
+			],
+			"languages": [
+				"celestial",
+				"common",
+				"elvish",
+				"sylvan",
+				"telepathy 120 ft."
+			],
+			"cr": "25",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Avandra’s spellcasting ability is Wisdom (spell save {@dc 29}, +21 to hit with attack spells). Avandra can innately cast the following spells, requiring no components:"
+					],
+					"constant": [
+						"{@spell comprehend languages}",
+						"{@spell mind blank}"
+					],
+					"will": [
+						"{@spell alter self} (can become a Medium female Human when changing her appearance)",
+						"{@spell bane}",
+						"{@spell chain lightning}",
+						"{@spell clairvoyance}",
+						"{@spell conjure animals} (9th level)",
+						"{@spell detect magic}",
+						"{@spell dispel magic}",
+						"{@spell dominate monster}",
+						"{@spell gate}",
+						"{@spell guidance}",
+						"{@spell heroes' feast}",
+						"{@spell levitate}",
+						"{@spell mirror image}",
+						"{@spell seeming}",
+						"{@spell sending}",
+						"{@spell teleport}",
+						"{@spell wall of force}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dominate monster}",
+							"{@spell greater invisibility}",
+							"{@spell greater restoration}",
+							"{@spell imprisonment}",
+							"{@spell power word stun}",
+							"{@spell true polymorph}",
+							"{@spell true resurrection}",
+							"{@spell wish}"
+						],
+						"1e": [
+							"{@spell control weather}",
+							"{@spell foresight}",
+							"{@spell invulnerability|XGE}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Divine Spellcasting",
+					"headerEntries": [
+						"Avandra knows all spells available to clerics, druids, and paladins and can cast each three times per day at 9th level. Avandra can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Avandra drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the , and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Avandra fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Avandra's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Avandra has at least 1 hit point, she regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Goddess of Luck",
+					"entries": [
+						"Avandra has advantage on all of her attack rolls and saving throws, and targets have disadvantage on saving throws against her spells and attacks. Avandra rolls a critical hit on a roll of 18-20 and she rolls the damage dice three times instead of twice."
+					]
+				},
+				{
+					"name": "Mistress of Fortune",
+					"entries": [
+						"Avandra has 10 luck points she can use at any time (lucky feat, PHB p. 167). She regains these points at dawn."
+					]
+				},
+				{
+					"name": "Staff of Fortune",
+					"entries": [
+						"The staff is a +5 artifact (included in the attack) that has 10 charges, and any of its properties that require a saving throw have a save DC of 28. While holding the staff Avandra can use an action to cast dominate person, or greater invisibility, or she can spend 1 or more charges to cast the following spells from it:",
+						"{@spell mass heal} (2 charges) {@spell power word heal} (2 charges), {@spell storm of vengeance} (2 charges), {@spell time stop} (3 charges). The staff regains {@dice 1d6 + 4} charges at dawn. ",
+						"While Avandra is holding the staff she gains an extra 5 luck points to her current pool of luck points that she regains every dawn."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Avandra can't be affected or detected by spells of 6th level or lower unless she wishes to be. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If Avandra is subjected to an effect that allows her to make a saving throw to only take half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Divine Being",
+					"entries": [
+						"Avandra can't be surprised and can't be changed into another form against her will."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Avandra doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Avandra uses her Divine Presence, she then makes three attacks."
+					]
+				},
+				{
+					"name": "Staff of Fortune",
+					"entries": [
+						"{@atk mw} {@hit 23} to hit, reach 5 ft., one target. {@h}23 ({@damage 3d8 + 15}) bludgeoning damage, plus 54 ({@damage 8d10}) thunder damage."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Avandra must make a {@dc 27} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Avandra and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Avandra. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Perfect Mimic",
+					"entries": [
+						"Avandra creates 4 perfect illusions of herself in unoccupied spaces she can see that last for 1 hour. She may use a bonus action to exert precise control over the illusions, otherwise they imitate her movements perfectly. She can cast spells as though she were in the illusions place."
+					]
+				},
+				{
+					"name": "Familiar Summons",
+					"entries": [
+						"Avandra summons Aire, her large celestial owl companion and steed. Aire appears in an unoccupied space of Avandra’s choice within 120 feet of her. Aire remains until it’s hit points drop to 0, or Avandra chooses to dismiss it."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Timestop {@recharge}",
+					"entries": [
+						"When Avandra is hit with an attack, prior to being hit she can use her reaction to cast {@spell time stop} with her Staff of Fortune, if it has sufficient charges to cast the spell."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Avandra makes a staff of fortune attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Avandra can move up to half her speed."
+					]
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"Avandra casts a spell."
+					]
+				},
+				{
+					"name": "Regenerate",
+					"entries": [
+						"Avandra regenerates 50 hit points."
+					]
+				},
+				{
+					"name": "Unlucky (Costs 2 Actions)",
+					"entries": [
+						"Avandra curses one creature she can see. The creature must make a {@dc 29} Wisdom saving throw, suffering one of the following random effects on a failure (roll{@dice 1d10}): ",
+						"1) {@condition blinded}, 2) {@condition charmed}, 3) {@condition deafened}, 4) {@condition frightened}, 5) {@condition invisible}, 6) {@condition paralyzed}, 7) {@condition petrified}, 8) {@condition poisoned}, 9) {@condition stunned}, 10) {@condition unconscious}. ",
+						"This effect last until the end of creature’s next turn."
+					]
+				},
+				{
+					"name": "Rewrite (Costs 4 Actions)",
+					"entries": [
+						"Avandra forces one creature she can see to reroll one roll (attack, save, damage, etc.) with disadvantage or advantage, Avandra’s choice. The new roll replaces the previous roll, reshaping reality to accommodate the change."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The Church of Avandra represents one of the most open, tolerant, and accepting of all the different faiths. One of the core tenets of the faith demands open-mindedness and the willingness to learn new things.",
+					"Overall, Avandra’s faith has little in the way of formal ritual, liturgy, or hierarchy. Followers of Avandra are amongst the most individualistic of any faith, and the same holds true for her clergy.",
+					"In general, people call upon Avandra either for aid or to give thanks as they live moment to moment. Worship of Avandra seldom centers on a temple, incense, or other trappings of religion. As a result, her overall church remains relatively small, disorganized, and thus lacks the power or influence of larger churches. Instead of congregations, worship of Avandra involves individuals or small groups, usually as they travel or explore.",
+					"Spheres of Influence: Change, luck, travelers, trade, adventurers, wanderers, seekers, the lost",
+					"Avatar: According to legend, the Goddess of Change vastly prefers exploring and traveling the Middle World or the Feywild to living in her domain in the Astral Sea. As long as she does not directly intervene in mortal affairs (at least not in a major way), she avoids breaking the Covenant or angering other gods.",
+					"Avandra’s avatar is frequently female, often half-elf or elven in appearance. She typically wears rugged traveling clothes and carries a well-worn walking staff. It is also believed she sometimes travels as a large owl when she wishes to fly.",
+					"Signs & Portents: The appearance of landmark, milestone, or clue leading to civilization to the lost is frequently hailed as a sign from Avandra. Likewise, the unexpected appearance of a source of water, food, or shelter in the midst of the wilderness signals Avandra’s blessings. Avandra reveals her displeasure in dark storm clouds and angry winds.",
+					"Tenets of the Faith: Luck favors the bold. Take your fate into your own hands, and Avandra smiles upon you. Avandra calls upon her priests and worshippers to practice self-reliance as much as possible, and to teach this same attribute to others. If you wait for someone else to do what needs to be done or meet your needs, you are likely to wait for a long time. At times, opportunity demands risk and boldness, and followers of Avandra must be prepared to act.",
+					"Strike back against those who would rob you of your freedom and urge others to fight for their own liberty. Avandra’s faith promotes freedom as one of the most important parts of life. Without freedom, all things lose importance and value. Clerics of Avandra must, when necessary, fight to protect their freedoms.",
+					"Travel whenever and wherever possible. In Avandra’s faith, travel represents one of the best ways to learn and gain experience. As a cleric travels, he gains an appreciation for his own customs, as well as those of other cultures. Travel broadens the mind, challenges the body, and promotes learning.",
+					"Aid the lost or forlorn. A cleric of Avandra is duty-bound to assist those in need when possible. Most often, this applies to individuals lost, either physically or spiritually. The cleric of Avandra is expected to share his fortune to the benefit of others.",
+					"Change is inevitable, but it takes the work of the faithful to ensure that change is for the better. Avandra’s faith holds high regard for the concept of tolerance towards and acceptance of other creatures and their beliefs. Her worshippers are taught to avoid being close-minded, intolerant, or prejudiced of something merely because it is different. There are a number of reasons for the importance of this tenet, not the least of which is the inevitability of change. As the saying goes, change is the only constant. Followers of Avandra must accept this fact and use their faith and goodwill to create change for the better. Her worshippers must remain open to change, and always look for opportunities in change.",
+					"Avoid violent conflict when possible. Although it would be a mistake to label Avandra as a pacifistic deity, her faith promotes peaceful interactions whenever and wherever possible. The goddess certainly allows for self-defense and protecting the innocent or helpless, but her faith teaches the value of compromise and negotiation when possible. That being said, her clerics are expected to fight for freedom, and to encourage others to do likewise. At times, negotiation and compromise are out of the question, and action is called for.",
+					"Waste nothing. Also central to Avandra’s teachings is the concept of not wasting anything. If you hunt and kill, do not kill more than you can eat. If you must cut down trees for firewood, cut down only what is absolutely necessary. Waste is considered a sin in Avandra’s eyes.",
+					"Holy Symbol: Three-fold wave of forest green",
+					"Place of Worship: Roadside shrines, impromptu outdoor chapels. There are relatively few permanent temples dedicated to Avandra; her clergy do not see any great need for large buildings or impressive structures. To the followers of the Goddess of Change, the best place to worship is when the need arises, regardless of where you are at the moment. Worship services dedicated to Avandra are usually brief, simple, and yet elegant.",
+					"Canon: The Wayfarer’s Journal. Avandra’s “bible” represents one of the most unorthodox, yet easy-to-read, holy texts of almost any religion. The Wayfarer’s Journal reads much like a travelogue, with bits and pieces of trivia mingled with common sense and wisdom for the wanderer. The book is poorly organized, and exists in countless different variations, and no one version is considered better than the others.",
+					"Cleric’s Alignment: Although good or lawful good are preferred alignments, unaligned is also permissible.",
+					"Duties of the Priesthood: A cleric of Avandra is bound by his beliefs to assist those who have become lost whenever possible, including providing shelter, food, and water. Clerics of Avandra are often called upon to scout trails, explore wilderness regions, and rescue the lost or helpless. Her priests are also called on to encourage tolerance and the pursuit of new experiences, both of which require an open-minded approach to life.",
+					"With freedom an important element of Avandra’s faith, her clerics are called upon to do what they can to promote liberty for others. Often, direct confrontation or violence is the wrong answer, but her clerics are encouraged to find other ways to fight for freedom – both their and that of others. This is not to imply that her priests are required to incite revolts and set free criminals; at times, direction action is impractical or unwarranted. Clerics of Avandra must do what they can for individuals, but they do not seek to become rabble-rousers or leaders of some rebellion.",
+					"In the case of criminals, they have already made choices to abandon their liberties and freedoms, and as such do not deserve Avandra’s aid. Her concerns are reserved for those without choice or opportunity.",
+					"Limitations & Sacrifices: Do not waste resources, do not inflict wanton or meaningless destruction, do not kill unless necessary.",
+					"Once per month, clerics of Avandra undergo two days of ritual fasting so that they may better appreciate the plight of the lost and the hungry.",
+					"Although clerics of Avandra are not terribly interested or concerned with material possessions, they are encouraged to donate what they can to aid others in need. Too many possessions – even in coin or gems – is a burden to be avoided. Material possessions can easily become distractions or, in the worst case, another form of imprisonment. When an individual focuses too much on possessions, he becomes enslaved to greed and other base emotions."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdnb.artstation.com/p/assets/images/images/016/762/247/large/pfenix-artwork-avandra.jpg?"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/kK0CitP.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"T"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Pelor, God of the Sun and Healing",
+			"shortName": "Pelor",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"god"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 32,
+					"from": [
+						"Robes of Pelor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "84d20 + 840",
+				"average": 2520
+			},
+			"speed": {
+				"walk": 80,
+				"fly": {
+					"number": 120,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 33,
+			"dex": 26,
+			"con": 30,
+			"int": 32,
+			"wis": 40,
+			"cha": 37,
+			"save": {
+				"int": "+19",
+				"wis": "+23",
+				"con": "+18",
+				"cha": "+21",
+				"dex": "+16",
+				"str": "+19"
+			},
+			"skill": {
+				"history": "+27",
+				"perception": "+31",
+				"arcana": "+27",
+				"insight": "+31",
+				"nature": "+27",
+				"religion": "+27",
+				"persuasion": "+29",
+				"survival": "+31"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 41,
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"acid",
+						"force",
+						"lightning",
+						"necrotic",
+						"psychic",
+						"thunder"
+					],
+					"note": "while in Domain"
+				},
+				{
+					"resist": [
+						{
+							"special": "damage from spells"
+						}
+					]
+				}
+			],
+			"immune": [
+				"fire",
+				"poison",
+				"radiant",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"charmed",
+						"exhaustion",
+						"frightened",
+						"poisoned"
+					]
+				},
+				{
+					"conditionImmune": [
+						"incapacitated",
+						"restrained",
+						"stunned"
+					],
+					"note": "by a spell or magical effect"
+				}
+			],
+			"languages": [
+				"celestial",
+				"common",
+				"elvish",
+				"sylvan",
+				"telepathy 120 ft."
+			],
+			"cr": "27",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Pelor’s spellcasting ability is Wisdom (spell save {@dc 31}, +21 to hit with attack spells). Pelor can innately cast the following spells, requiring no components:"
+					],
+					"constant": [
+						"{@spell comprehend languages}",
+						"{@spell mind blank}"
+					],
+					"will": [
+						"{@spell alter self} (can become a Medium female Human when changing her appearance)"
+					],
+					"daily": {
+						"3e": [
+							"{@spell wish}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Divine Magic",
+					"headerEntries": [
+						"Pelor knows all spells available to clerics, druids, and paladins and can cast each three times per day at 9th level. Pelor can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting. In addition, Pelor adds his wisdom modifier and epic bonus (+19) to any damage he deals with a spell."
+					],
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Pelor drops to 0 hit points or dies, his body is destroyed but his essence travels back to her domain in the , and he is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Pelor fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Pelor's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If Pelor has at least 1 hit point, he regains 50 hit points at the start of his turn."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"When Pelor hits a creature with a melee weapon attack it deals 36 ({@damage 8d8}) radiant damage in addition to the weapon damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Solar Corona",
+					"entries": [
+						"Pelor projects an aura extending out in a 200 foot radius from him. All enemies in the aura take 50 radiant damage if they start their turn in the aura and have disadvantage on saving throws against any spell that deals fire or radiant damage. The first time an ally enters the aura it gains 50 temporary hit points. The ability to receive temporary hit points recharges when the ally takes a short rest.",
+						"The area of the aura is considered bright light and will overcome magical darkness that is cast at 8th level or lower. In addition, an area of dim light extends an additional 200 feet beyond the aura."
+					]
+				},
+				{
+					"name": "Robes of Pelor",
+					"entries": [
+						"The robes are a +6 artifact (include in AC) that provides the wearer with immunity to necrotic damage. In addition, while Pelor is wearing the robe his ability to heal (amount of hit points healed) is doubled."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Pelor can't be affected or detected by spells of 7th level or lower unless he wishes to be. He has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If Pelor is subjected to an effect that allows him to make a saving throw to only take half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
+					"name": "Speed of Light {@recharge 5}",
+					"entries": [
+						"Pelor can move five times his fly speed and move through occupied spaces. If he wishes, when he first passes through an occupied space the creature or object must make a {@dc 31} Constitution saving throw, taking 66 ({@damage 12d10}) radiant damage on a failure and half as much on a success."
+					]
+				},
+				{
+					"name": "Divine Being",
+					"entries": [
+						"Pelor can't be surprised and can't be changed into another form against his will."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Pelor doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Pelor uses his Divine Presence and then makes three morningstar attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Pelor must make a {@dc 29} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Pelor and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Pelor. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Morningstar",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d6 + 11}) bludgeoning damage, plus 47 ({@damage 8d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Turn / Destroy Undead",
+					"entries": [
+						"Pelor, as a bonus action, utters a word of power and all undead that can see or hear him within 200 feet of him must make a {@dc 31} Wisdom saving throw or be turned for 5 minutes as in the cleric channel divinity ability: Turn Undead.",
+						"If an undead of CR 15 or below fails its saving throw it is instantly destroyed."
+					]
+				},
+				{
+					"name": "Super Nova {@recharge}",
+					"entries": [
+						"Pelor release a burst of brilliant fire in a 200 foot radius emanating from him. Each creature of Pelor’s choice within the burst area must make a {@dc 31} Constitution saving throw taking 168 ({@dice 16d20}) fire and 168 ({@damage 16d20}) radiant damage and being pushed 60 feet on a failure, or half as much damage and distance on a success."
+					]
+				},
+				{
+					"name": "Lay on Hands",
+					"entries": [
+						"Pelor has a pool of healing power that replenishes when he takes a short rest. With that pool, he can restore a total number of 1000 hit points. As an action, he can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in his pool."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Solar Flare",
+					"entries": [
+						"When Pelor is missed by an attack he can use his reaction to make the following attack on the creature that targeted him. The creature must make a {@dc 31} Dexterity saving throw or take 66 ({@damage 12d10}) radiant damage and be {@condition blinded} for {@dice 1d4} rounds."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Flare",
+					"entries": [
+						"Pelor makes a solar flare attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Pelor can move up to half his speed."
+					]
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"Avandra casts a spell."
+					]
+				},
+				{
+					"name": "Turn/Destroy Undead",
+					"entries": [
+						"Pelor use his turn/destroy undead ability."
+					]
+				},
+				{
+					"name": "Lay on Hands",
+					"entries": [
+						"Pelor uses one legendary action for every 50 hit points he heals with Lay on hands."
+					]
+				},
+				{
+					"name": "Empowered Smite (Costs 4 Actions)",
+					"entries": [
+						"The next time Pelor hits with a melee weapon attack his divine smite is increased to 210 ({@damage 20d20}) radiant damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Pelor rules over sun and summer, his vigil encircling the ages as the keeper of time. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and most common folk, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, the Dawn Father is often the patron of paladins and rangers who follow a similar creed. He is also known for his defeat of the Chained Oblivion and is revered by those who hunt aberrations.",
+					"Pelor is often found within the Fortress of the Sun, a shining, golden citadel that brings vibrant life to the limitless orchards of the Blessed Fields of Elysium.",
+					"Depictions. Tapestries of old match early texts describing Pelor as a paternal figure in silver and gold armor, his head a beacon of light and fire so bright that his face can barely be seen. Many statues in holy places use the head as a brazier, lit with each dawn and extinguished at dusk.",
+					"Holy Day. Pelor's holy day is called Highsummer, and takes place on the fifteenth day of the seventh month. While other parts of Exandria feast, the Dwendalian Empire uses this day as an opportunity to enlist more soldiers in its army. The military holds great feasts and hands out toy soldiers and other propaganda, encouraging people to enlist and help fight against the evil that threatens the king.",
+					"Commandments of Pelor",
+					"Be ever vigilant for evil. People are quick to forget the lessons of the past.",
+					"Help relieve the suffering of the innocent.",
+					"Deliver the light of Pelor where darkness dwells, with kindness, compassion, and mercy."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://www.cuded.com/wp-content/uploads/2013/04/Seraphim.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/t60Vrbz.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "The Raven Queen",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"size": "L",
+			"type": "celestial",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 32,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "62d20 + 682",
+				"average": 1922
+			},
+			"speed": {
+				"walk": 80,
+				"fly": 200,
+				"canHover": false
+			},
+			"str": 26,
+			"dex": 28,
+			"con": 32,
+			"int": 30,
+			"wis": 34,
+			"cha": 28,
+			"save": {
+				"dex": "+18",
+				"wis": "+21",
+				"cha": "+18",
+				"con": "+20",
+				"int": "+19",
+				"str": "+17"
+			},
+			"skill": {
+				"arcana": "+28",
+				"perception": "+30",
+				"religion": "+28",
+				"acrobatics": "+27",
+				"history": "+28"
+			},
+			"senses": [
+				"darkvision 240 ft.",
+				"truesight 240 ft."
+			],
+			"passive": 40,
+			"resist": [
+				"acid",
+				"fire",
+				"force",
+				"lightning",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Undercommon",
+				"Abyssal",
+				"Celestial"
+			],
+			"cr": "30",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Raven Queen can innately cast the following spell, her spellcasting ability is Wisdom (spell save {@dc 29}):"
+					],
+					"constant": [
+						"{@spell armor of agathys} (9th level)"
+					],
+					"will": [
+						"{@spell blight|PHB}",
+						"{@spell cone of cold} (9th level)",
+						"{@spell dark star|EGW}",
+						"{@spell darkvision|PHB}",
+						"{@spell divine word|PHB}",
+						"{@spell harm|PHB}",
+						"{@spell ice storm}",
+						"{@spell raise dead}",
+						"{@spell remove curse|PHB}",
+						"{@spell vampiric touch}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dark star|EGW}",
+							"{@spell power word kill}",
+							"{@spell reincarnate}",
+							"{@spell temporal shunt|EGW}",
+							"{@spell time ravage|EGW}",
+							"{@spell wall of ice}",
+							"{@spell wish}"
+						],
+						"1e": [
+							"{@spell foresight}",
+							"{@spell time stop}",
+							"{@spell true resurrection}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Divine Spellcasting",
+					"headerEntries": [
+						"The Raven Queen knows all spells available to clerics, druids, and paladins and can cast each three times per day at 9th level. The Raven Queen can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When The Raven Queen drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Shadowfell, and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If The Raven Queen fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless she wishes to be affected, The Raven Queen is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Raven Queen's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The Raven Queen regains 50 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Bane of Undeath",
+					"entries": [
+						"Undead creatures or creatures that participate in the foul act of undeath have disadvantage on saving throws, attack rolls and ability checks within 1000 ft. of the Raven Queen."
+					]
+				},
+				{
+					"name": "Chains of Fate",
+					"entries": [
+						"As a bonus action the Raven Queen marks a creature and that creature is unable to use magical teleportation or other forms of teleportation while within 1000 ft. of the Raven Queen. In addition, the Raven Queen has advantage to all her attack rolls and spell attack rolls against that creature. The Raven Queen can only have one creature marked in this manner at a time."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If The Raven Queen is subjected to an effect that allows it to make a saving throw to only take half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"The Raven Queen knows if she hears a lie."
+					]
+				},
+				{
+					"name": "Chilling Aura",
+					"entries": [
+						"At the start of each of the Raven Queen’s turns, each creature within 60 feet of her takes 33 ({@damage 6d10}) cold damage. In addition, creatures that hit the Raven queen with a melee attack within 10 feet of hear takes 33 ({@damage 6d10}) cold damage."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Master of Fate",
+					"entries": [
+						"Roll a {@dice d20} 4 times, The Raven Queen may replace up to 4 rolls (hers, an allies, or an enemies) with the pre-rolled numbers (no action). Once all of the rolls have been used, the Raven Queen must take a short rest before we can use this trait again.",
+						"In addition, when the Raven Queen makes a saving throw, attack roll, or ability check and she rolls below 10, ignore the roll and instead consider the roll a 10."
+					]
+				},
+				{
+					"name": "Spell Recall (1/day)",
+					"entries": [
+						"The Raven Queen casts a spell that she already expended its daily usage amount."
+					]
+				},
+				{
+					"name": "Will of Death",
+					"entries": [
+						"Creatures killed by the Raven Queen cannot be resurrected, unless a true resurrection is used."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Raven Queen can use her Divine Presence. She then makes four scythe attacks or two feather dart attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of The Raven Queen must make a {@dc 26} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against The Raven Queen and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against The Raven Queen. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Scythe",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}31 ({@damage 4d10 + 9}) slashing damage, plus 53 ({@damage 8d10}) necrotic/cold damage plus one level of {@condition exhaustion}. This effect stacks with multiple hits."
+					]
+				},
+				{
+					"name": "Feather Darts",
+					"entries": [
+						"{@atk rw} {@hit 18} to hit, range 500/500 ft., one target. {@h}27 ({@damage 4d8 + 9}) piercing damage, plus 45 ({@damage 8d8 + 9}) necrotic/cold damage, and the creature must succeed a {@dc 29} Constitution saving throw or be {@condition poisoned}."
+					]
+				},
+				{
+					"name": "Necrotic Burst {@recharge 5}",
+					"entries": [
+						"The Raven Queen creates a wave of necrotic energy. Each creature of the Raven Queen’s choice within 200 feet of her must make a {@dc 29} Constitution saving throw or take 210 ({@damage 20d20}) Necrotic damage on a failed save, or half as much damage on a successful save."
+					]
+				},
+				{
+					"name": "Death Sentence {@recharge}",
+					"entries": [
+						"The Raven Queen chooses one creature that she can see. The creature must make a {@dc 29} Constitution saving throw or be knocked {@condition unconscious}. The creature must make another saving throw at the end of its next turn or die. If the creature succeeds on the initial saving throw, it suffers 2 levels of {@condition exhaustion}. If the creature succeeds on the second saving throw it remains {@condition unconscious}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Twist of Fate",
+					"entries": [
+						"When the Raven Queen is the target of a ranged attack, the attacker has disadvantage on the attack roll."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Quick Casting",
+					"entries": [
+						"The Raven Queen casts an at-will spell."
+					]
+				},
+				{
+					"name": "Icy Embrace",
+					"entries": [
+						"The Raven Queen entombs one creature she can see within 240 feet of her in a casket of ice. The creature must make a {@dc 29} Constitution saving throw or take 44 ({@damage 8d10}) cold damage and be {@condition restrained}. The target takes an additional 44 ({@damage 8d10}) cold damage at the start of each of its turns.",
+						"The target can escape by attempting a {@dc 29} Strength saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Teleport (Costs 2 Actions)",
+					"entries": [
+						"The Raven Queen magically teleports, along with any equipment she is carrying, up to 240 feet to an unoccupied space she can see."
+					]
+				},
+				{
+					"name": "Necrotic Burst (Costs 3 Actions)",
+					"entries": [
+						"The Raven Queen uses Necrotic Burst if it is available."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Arch-wraith",
+				"source": "BoBH"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.inprnt.com/thumbs/83/d2/83d2c6ff5d1d515460669d8132a67a6b.jpg?response-cache-control=max-age=2628000"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/bNsiDmR.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"CE",
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				null,
+				"C"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"restrained",
+				"unconscious"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			]
+		},
+		{
+			"name": "Tabitha",
+			"shortName": "Tabitha",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"size": "H",
+			"type": "fiend",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d20 + 600",
+				"average": 1600
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120
+			},
+			"str": 34,
+			"dex": 24,
+			"con": 34,
+			"int": 26,
+			"wis": 26,
+			"cha": 28,
+			"save": {
+				"str": "+20",
+				"dex": "+15",
+				"wis": "+16",
+				"cha": "+17",
+				"con": "+20",
+				"int": "+16"
+			},
+			"skill": {
+				"arcana": "+16",
+				"perception": "+24",
+				"religion": "+16",
+				"stealth": "+15",
+				"athletics": "+28"
+			},
+			"senses": [
+				"darkvision 240 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 34,
+			"immune": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Infernal"
+			],
+			"cr": "25",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Tabitha can innately cast the following spell, her spellcasting ability is Charisma (spell save {@dc 25}):"
+					],
+					"daily": {
+						"3e": [
+							"{@spell acid stream|UA2020SpellsAndMagicTattoos} (9th level)",
+							"{@spell call lightning} (9th level)",
+							"{@spell cloudkill} (9th level)",
+							"{@spell cone of cold} (9th level)",
+							"{@spell divine word} (9th level)",
+							"{@spell fire storm} (9th level)",
+							"{@spell prismatic spray} (9th level)"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Tabitha drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Nine Hells, and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Tabitha fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless she wishes to be affected, Tabitha is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Tabitha's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Tabitha regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Divine Spellcasting",
+					"entries": [
+						"Tabitha knows all spells available to cleric, paladins, sorcerers, and warlocks and can cast each three times per day at 9th level. Tabitha can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					]
+				},
+				{
+					"name": "Draconic Awakening (Mythic trait, recharges after a short or long rest)",
+					"entries": [
+						"If Tabitha is reduced to 0 hit points, she doesn't die or fall {@condition unconscious}. Instead, she regains 1000 hit points. In addition, Tabitha is veiled by auras of acid, cold, fire, lightning, and poison elements. Whenever she would be hit by a melee attack within 10 ft of her, the creature takes {@damage 4d12} damage of the listed types of Tabitha's choosing. When she does so - she loses that damage type for her aura, regaining it at the start of her next turn. She also cuts any incoming damage in half while at least one of the auras are active."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Tabitha can use her Frightful Presence. She then makes five attacks."
+					]
+				},
+				{
+					"name": "Greatsword of Dragons",
+					"entries": [
+						"{@atk mw} {@hit 23} to hit, reach 15 ft., one target. {@h}26 ({@damage 4d6 + 12}) slashing damage, or 16 ({@damage 4d8 + 12}) damage if used with both hands, plus 44 ({@damage 5d12 + 12}) choice of acid, cold, fire, lightning, or poison damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 20} to hit, reach 15 ft., one target. {@h} ({@damage 4d6 + 12}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 20} to hit, reach 25 ft., one target. {@h} ({@damage 4d8 + 12}) piercing damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a {@dc 24} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Claw Swipe",
+					"entries": [
+						"Tabitha makes 2 attacks with her Claws."
+					]
+				},
+				{
+					"name": "Acid Breath (Costs 2 Actions)",
+					"entries": [
+						"Tabitha breathes acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a {@dc 28} Dexterity saving throw, taking 54 ({@damage 12d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Lightning Breath (Costs 2 Actions)",
+					"entries": [
+						"Tabitha breathes lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a {@dc 28} Dexterity saving throw, taking 71 ({@damage 13d10}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Poison Breath (Costs 2 Actions)",
+					"entries": [
+						"Tabitha breathes poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 28} Constitution saving throw, taking 63 ({@damage 18d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Fire Breath (Costs 2 Actions)",
+					"entries": [
+						"Tabitha breathes fire in a 90-foot cone. Each creature in that area must make a {@dc 28} Dexterity saving throw, taking 73 ({@damage 21d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Cold Breath (Costs 2 Actions)",
+					"entries": [
+						"Tabitha breathes an icy blast in a 90-foot cone. Each creature in that area must make a {@dc 28} Dexterity saving throw, taking 58 ({@damage 13d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If Tabitha's mythic trait is active, she can use the options below as legendary actions for 1 hour after using Draconic Awakening."
+			],
+			"mythic": [
+				{
+					"name": "Draconic Pressure",
+					"entries": [
+						"Each creature within 120 ft of Tabitha makes a {@dc 25} constitution saving throw, taking ({@damage 10d10}) acid, cold, fire, lightning, or poison damage of her choosing and suffers disadvantage on attack rolls and saving throws on a failure, or half as much on a success and doesn't suffer disadvantage."
+					]
+				},
+				{
+					"name": "Mythic Breath (Costs 3 Actions)",
+					"entries": [
+						"Tabitha breathes a powerful blast combined with the might of all chromatic dragons in a 90 ft cone. Each creature in that area must make a {@dc 28} Constitution saving throw, taking ({@damage 20d12}) damage. This damage is not strictly considered acid, cold, fire, lightning, or poison for the purposes of resistances, immunity, or other special defenses. It is however considered each of these types for vulnerabilities."
+					]
+				}
+			],
+			"environment": [
+				"nine hells"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/JshfOJn.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/wcgggiK.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			]
+		},
+		{
+			"name": "The Traveling Merchant",
+			"shortName": "Merchant",
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"page": 0,
+			"level": 60,
+			"size": "M",
+			"type": "celestial",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 46,
+					"from": [
+						"Temporal Shift"
+					]
+				}
+			],
+			"hp": {
+				"formula": "234d20 + 2340",
+				"average": 7020
+			},
+			"speed": {
+				"walk": 300,
+				"fly": {
+					"number": 1200,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 34,
+			"dex": 42,
+			"con": 30,
+			"int": 42,
+			"wis": 40,
+			"cha": 50,
+			"save": {
+				"int": "+30",
+				"wis": "+29",
+				"con": "+24",
+				"cha": "+34",
+				"dex": "+30",
+				"str": "+26"
+			},
+			"skill": {
+				"history": "+44",
+				"insight": "+43",
+				"arcana": "+44",
+				"acrobatics": "+30",
+				"animal handling": "+29",
+				"athletics": "+26",
+				"deception": "+34",
+				"intimidation": "+34",
+				"investigation": "+30",
+				"medicine": "+29",
+				"nature": "+30",
+				"performance": "+34",
+				"persuasion": "+34",
+				"religion": "+30",
+				"stealth": "+30",
+				"sleight of hand": "+30",
+				"survival": "+29",
+				"perception": "+43"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 53,
+			"resist": [
+				{
+					"special": "all damage"
+				}
+			],
+			"conditionImmune": [
+				{
+					"special": "all conditions"
+				}
+			],
+			"languages": [
+				"all",
+				"telepathy (no range limit)"
+			],
+			"cr": "30",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Traveling Merchant’s spellcasting ability is Charisma (spell save {@dc 42}, +34 to hit with attack spells). The Traveling Merchant can innately cast the following spells, requiring no components:"
+					],
+					"constant": [
+						"{@spell comprehend languages}",
+						"{@spell foresight}",
+						"{@spell mind blank}",
+						"{@spell nondetection}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Temporal Spellcasting",
+					"headerEntries": [
+						"The Traveling Merchant knows all spells available to clerics, sorcerers, warlocks, and wizards and can cast each five times per day at 9th level."
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When The Traveling Merchant drops to 0 hit points or dies, his body is destroyed but his essence travels back to his realm of paradox, and he is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (10/Day)",
+					"entries": [
+						"If The Traveling Merchant fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Traveling Merchant's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"If The Traveling Merchant has at least 1 hit point, he regains 100 hit points at the start of his turn."
+					]
+				},
+				{
+					"name": "Luck of the Timelord",
+					"entries": [
+						"The Traveling Merchant has advantage on all of his attack rolls and saving throws, and targets have disadvantage on saving throws against his spells and attacks. The Traveling Merchant rolls a critical hit on a roll of 18-20 and he rolls the damage dice three times instead of twice."
+					]
+				},
+				{
+					"name": "Timely Fortune",
+					"entries": [
+						"The Traveling Merchant has 20 luck points he can use at any time (lucky feat, PHB p. 167). He regains these points at dawn."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 30 and below. A greater god's attacks and effects targeting creatures of CR 31-40 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Epic Magic Immunity",
+					"entries": [
+						"The Traveling Merchant can't be affected or detected by spells of 12th level or lower unless he wishes to be. He has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If The Traveling Merchant is subjected to an effect that allows him to make a saving throw to only take half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
+					"name": "Beyond Reality",
+					"entries": [
+						"The Traveling Merchant exists beyond the bounds of the multiverse, allowing him to cast magic normally through his own source of power rather than the bounding restrictions of any god or goddess of magic."
+					]
+				},
+				{
+					"name": "Reality Breaker",
+					"entries": [
+						"The Traveling Merchant has a dagger that can rip through the fabric of reality.",
+						"Reality Breaker is a +5 artifact dagger with a range of 600/1200 and when thrown immediately flies back into its wielder's hand.",
+						"As an action, The Traveling Merchant can make an attack action as normal, but with one or multiple attacks he rips open rifts into other planes. Each of these rifts operate as per the Gate spell, and can lead to any plane including the domains of Gods.",
+						"Each time a creature is hit with this dagger, a piece of their soul is damaged as well. A creature hit with this dagger cannot gain the benefits of any healing until they finish a long rest. In addition, a creature reduced to 0 hit points is instantly killed and their soul is destroyed. They cannot be resurrected by any means short of a {@spell wish} spell, and only if The Traveling Merchant allows it.",
+						"A deity or similar being slain by this dagger is destroyed permanently."
+					]
+				},
+				{
+					"name": "Temporal Shift",
+					"entries": [
+						"The Traveling Merchant adds his Charisma modifier to his AC."
+					]
+				},
+				{
+					"name": "Divine Being",
+					"entries": [
+						"The Traveling Merchant can't be surprised and can't be changed into another form against his will."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The Traveling Merchant doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Traveling Merchant uses his Divine Presence and Temporal Shatter if its available, he then makes five attacks."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of The Traveling Merchant must make a {@dc 42} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against The Traveling Merchant and in addition, they cannot gain advantage on attack rolls, ability checks, or saving throws against The Traveling Merchant. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Reality Breaker",
+					"entries": [
+						"{@atk mw,rw} {@hit 39} to hit, reach 5 ft. or range 600/1200 ft., one target. {@h}22 ({@damage 4d4 + 12}) piercing damage in melee, or 22 ({@damage 4d4 + 12}) piercing damage at range, plus 34 ({@damage 4d10 + 12}) force damage."
+					]
+				},
+				{
+					"name": "Temporal Shatter {@recharge 5}",
+					"entries": [
+						"The Traveling Merchant reaches into the mind of one creature he can see and wanders through their memories. He then alters the events that took place, or even removes them entirely. The target must make a Wisdom saving throw {@dc 42} or take {@damage 24d12} force damage and completely forgets that memory for 24 hours, or permanently. (The Traveling Merchant's choice.) On a success, the target only takes half damage and retains the memory, though it appears fuzzy for 24 hours.",
+						"For each memory lost in this way, the creature's level (or CR) is reduced by 1. If their level (or CR) is reduced to 0, they die."
+					]
+				},
+				{
+					"name": "Perfect Mimic",
+					"entries": [
+						"The Traveling Merchant creates any number of perfect illusions of himself in unoccupied spaces he can see that last for 1 hour. He may use a bonus action to exert precise control over the illusions, otherwise they imitate his movements perfectly. He can cast spells or attack as though he were in the illusions place. These illusions appear in the minds of each creature and even fools truesight."
+					]
+				},
+				{
+					"name": "Alter Reality {@recharge 5}",
+					"entries": [
+						"The deity can duplicate any spell of 12th level or lower as an action. The duplicated spell has no material or XP components, and the DC of its saving throw (if one is allowed) is 42. The deity also can duplicate a spell with any metamagic feat (so long as the metamagic feat is available to characters of 20th level or lower). The deity can render a magical or supernatural effect permanent. The deity can undo any magical or supernatural effect. The deity can create temporary, nonmagical objects. This works like the Create Object ability, except that the items last one day per rank. The deity also can create permanent nonmagical objects as if using the Create Object ability. The deity can create temporary magic items or creatures. The deity can reshape a landscape, creating any type of terrain the deity can imagine.",
+						"There are also other effects that can take place by the DM's discretion."
+					]
+				},
+				{
+					"name": "Replicate Divinity {@recharge}",
+					"entries": [
+						"The Traveling Merchant can replicate any God or other Divine being's abilities. Their effects and action cost apply as normal, any ability that requires a saving throw has a save DC of 42."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Timestop {@recharge}",
+					"entries": [
+						"When The Traveling Merchant is hit with an attack, prior to being hit he can use his reaction to cast {@spell time stop}."
+					]
+				}
+			],
+			"legendaryActions": 10,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The Traveling Merchant makes a Reality Breaker attack."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The Traveling Merchant can teleport to an unoccupied space within half his fly speed."
+					]
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"The Traveling Merchant casts a spell."
+					]
+				},
+				{
+					"name": "Regenerate",
+					"entries": [
+						"The Traveling Merchant regenerates 150 hit points."
+					]
+				},
+				{
+					"name": "Temporal Curse (Costs 2 Actions)",
+					"entries": [
+						"The Traveling Merchant curses one creature he can see. The creature must make a {@dc 42} Wisdom saving throw, or be shackled by the chains of time.",
+						"The creature is {@condition incapacitated}, their movement speed is 0, and they automatically fail saving throws. Attack rolls have advantage and each attack that hits is considered a critical hit.",
+						"This effect ends at the end of the creature's next turns. After which, for the next minute the creature's speed is cut in half and they can only make one weapon attack per turn. They also can only take an action or bonus action, not both and lose their reactions."
+					]
+				},
+				{
+					"name": "Rewrite (Costs 4 Actions)",
+					"entries": [
+						"The Traveling Merchant forces one creature he can see to reroll one roll (attack, save, damage, etc.) with disadvantage or advantage, The Traveling Merchant’s choice. The new roll replaces the previous roll, reshaping reality to accommodate the change."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"\"Time is irrelevant to those who are not bound by it, and yet you mortals yearn for it. I envy those who can run out of time.\"",
+					"An endless wanderer throughout space and time, a creature not bound by the laws of mortals or gods. He is supposedly the being that represents time, or perhaps even the concept of it.",
+					"His travels allow him to gain an assortment of items from throughout the multiverse and throughout all of time, if it has existed he can get his palms on it. While he could learn whatever he wants at any given time, he prefers to take his time learning about adventurers, learning through mere conversation instead.",
+					"He rewards adventurers with interesting tales with magical items, though the items in question are random."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/sFT2Rny.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/xSZjylB.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"restrained",
+				"stunned"
+			],
+			"conditionInflicted": [
+				"poisoned",
+				"restrained",
+				"grappled"
+			]
+		},
+		{
+			"name": "Zehir, God of Darkness and Snakes",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "GodsoftheDawnofWar",
+			"size": "G",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "34d20 + 442",
+				"average": 1082
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120,
+				"climb": 60,
+				"swim": 60
+			},
+			"str": 34,
+			"dex": 32,
+			"con": 36,
+			"int": 31,
+			"wis": 26,
+			"cha": 30,
+			"save": {
+				"str": "+19",
+				"dex": "+18",
+				"wis": "+15",
+				"cha": "+16",
+				"con": "+20",
+				"int": "+17"
+			},
+			"skill": {
+				"arcana": "+17",
+				"perception": "+22",
+				"religion": "+17",
+				"stealth": "+25",
+				"deception": "+24"
+			},
+			"senses": [
+				"darkvision 240 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 32,
+			"resist": [
+				"force",
+				"necrotic",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"immune": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Infernal",
+				"Celestial"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Zehir can innately cast the following spell, his spellcasting ability is Charisma (spell save {@dc 25}):"
+					],
+					"constant": [
+						"{@spell shadow of moil|XGE}"
+					],
+					"will": [
+						"{@spell bestow curse|PHB}",
+						"{@spell blight|PHB}",
+						"{@spell conjure animals|PHB}",
+						"{@spell conjure celestial|PHB}",
+						"{@spell contagion|PHB}",
+						"{@spell control weather|PHB}",
+						"{@spell dark star|EGW}",
+						"{@spell darkvision|PHB}",
+						"{@spell divine word|PHB}",
+						"{@spell harm|PHB}",
+						"{@spell maddening darkness|XGE}",
+						"{@spell remove curse|PHB}",
+						"{@spell storm of vengeance|PHB}",
+						"{@spell true polymorph|PHB}",
+						"{@spell true resurrection|PHB}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"When Zehir drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Towers of Night, and she is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"If Zehir fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless she wishes to be affected, Zehir is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Zehir's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Zehir regains 30 hit points at the start of her turn."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"As a bonus action, Zehir can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"Zehir doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Avoidance",
+					"entries": [
+						"Zehir is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"The Zehir knows if it hears a lie."
+					]
+				},
+				{
+					"name": "Fear Aura",
+					"entries": [
+						"Any creature hostile to the Zehir that starts its turn within 20 feet of the Zehir must make a {@dc 25} Wisdom saving throw, unless the Zehir is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the Zehir's Fear Aura for the next 24 hours."
+					]
+				},
+				{
+					"name": "Divine Might",
+					"entries": [
+						"A greater god's attacks and effects ignore the resistances and immunities of creatures CR 25 and below. A greater god's attacks and effects targeting creatures of CR 26-35 ignore resistances and treat immunities as resistance (condition immunities provide advantage in lieu of immunity)"
+					]
+				},
+				{
+					"name": "Divine Spellcasting",
+					"entries": [
+						"Zehir knows all spells available to clerics, sorcerers, and warlocks and can cast each three times per day at 9th level. Zehir can cast additional spells as indicated for greater gods and as noted bellow in innate spellcasting."
+					]
+				},
+				{
+					"name": "Shroud of the Serpents (Mythic Trait, recharges after a short or long rest)",
+					"entries": [
+						"When Zehir falls to 0 hit points, he doesn't fall {@condition unconscious} or die, he instead regains 800 hit points and summons {@dice 4d8 + 4} Couatls. He then envelops the current plane into magical darkness. This magical darkness cannot be dispelled by any means short of a wish spell cast by a deity or Divine Intervention. While within this darkness, creatures other than Zehir and his couatls cannot receive the benefits of healing.",
+						"If Zehir uses this trait in his domain, he can be killed permanently."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Zehir can use his Divine Presence. He then makes three attacks: two with his bite and one with his tail."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}38 ({@damage 4d12 + 12}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 25 ft., one target. {@h}22 ({@damage 4d8 + 12}) piercing damage."
+					]
+				},
+				{
+					"name": "Divine Presence",
+					"entries": [
+						"Each creature within 120 ft of Zehir must make a {@dc 22} Wisdom saving throw. On a failed save, they have disadvantage on attack rolls, ability checks, and saving throws made against Zehir and in addition they cannot gain advantage on attack rolls, ability checks, or saving throws against Zehir. These effects end when they stay out of range of this effect for more than 10 minutes. On a successful save, they are immune to this effect for the next hour. If they fail the saving throw by 10 or more, attack rolls that are less than a 20 on the {@dice d20} automatically miss, dealing no damage. Saving throws and ability checks that are less than a 20 on the {@dice d20} automatically fail. A creature can repeat their save at the end of each of their turns."
+					]
+				}
+			],
+			"legendaryActions": 5,
+			"legendary": [
+				{
+					"name": "Divine Regeneration",
+					"entries": [
+						"Zehir regains 50 hit points."
+					]
+				},
+				{
+					"name": "Serpentine's Ferocity",
+					"entries": [
+						"Zehir makes one bite attack and one tail attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Zehir moves up to half its movement without provoking attacks of opportunity."
+					]
+				},
+				{
+					"name": "Eternal Darkness (Costs 3 Actions)",
+					"entries": [
+						"Zehir casts maddening darkness, centered on itself. This darkness covers the entirety of Zehir's domain if he is in it."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If Zehir's mythic trait is active, for the next hour he can use the following as Legendary Actions:"
+			],
+			"mythic": [
+				{
+					"name": "Absorb Couatl",
+					"entries": [
+						"Zehir can kill one of his couatls to regain hit points equal to the current hit points the target couatl was at currently."
+					]
+				},
+				{
+					"name": "Swarming Attack (Costs 2 Actions)",
+					"entries": [
+						"Zehir makes one bite attack, then each of his couatls makes a bite attack."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Arch-wraith",
+				"source": "BoBH"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/nuf3n8o.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/nuf3n8o.png",
+			"traitTags": [
+				"Flyby",
+				"Legendary Resistances",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			]
+		}
+	]
+}

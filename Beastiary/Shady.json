@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "dateAdded": 1600819969,
+    "dateLastModified": 1600819969
+  },
+  "monster": [
+    {
+      "name": "Shady",
+      "source": "TheAdventuresofIchult",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item robe of the archmagi}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 14",
+        "average": 77
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 21,
+      "dex": 16,
+      "con": 12,
+      "int": 18,
+      "wis": 12,
+      "cha": 20,
+      "save": {
+        "int": "+8",
+        "wis": "+5"
+      },
+      "skill": {
+        "arcana": "+8",
+        "history": "+8",
+        "persuasion": "+9",
+        "perception": "+9",
+        "insight": "+9",
+        "deception": "+9"
+      },
+      "passive": 19,
+      "cr": "10",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The mage is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The mage has the following wizard spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell fire bolt}",
+                "{@spell light}",
+                "{@spell mage hand}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell mage armor}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell arcane lock}",
+                "{@spell misty step}",
+                "{@spell suggestion}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell counterspell}",
+                "{@spell dispel magic}",
+                "{@spell fireball}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell greater invisibility}",
+                "{@spell Mordenkainen's private sanctum}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell cone of cold}",
+                "{@spell teleportation circle}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell disintegrate}",
+                "{@spell guards and wards}"
+              ],
+              "slots": 1
+            }
+          },
+          "daily": {
+            "3e": [
+              "{@spell wish}"
+            ]
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Wonderous Magical Rapier",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage, plus 9 ({@damage 2d8}) force damage."
+          ]
+        },
+        {
+          "name": "Wonderous Magical Revolver (reload after 6 shots)",
+          "entries": [
+            "{@atk rw} {@hit 10} to hit, range 40/120 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage, plus 9 ({@damage 2d8}) force damage."
+          ]
+        }
+      ],
+      "variant": [
+        {
+          "type": "variant",
+          "name": "Familiars",
+          "entries": [
+            "Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+          ]
+        }
+      ],
+      "damageTags": [
+        "P",
+        "O"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "RW",
+        "MW",
+        "THW"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Elvish"
+      ],
+      "languageTags": [
+        "CE",
+        "C",
+        "DR",
+        "E"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "tokenUrl": "https://i.imgur.com/jH6oSVs.png",
+      "trait": [
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Shady is attuned to a Belt of Fire Giant Strength, a gray Robe of the Archmagi, and a Ring of Invisibility."
+          ]
+        }
+      ],
+      "fluff": {
+        "type": "entries",
+        "entries": [
+          "Shady is a merchant who sells all kinds of magical items. Some may be cursed, some aren't, you never know what you could buy from this guy. He always seems to have just what you need though, it's almost scary.",
+          "When you purchase a magical item from Shady's shop, there is a 10% chance the item will be cursed. Roll a d10, on a 1 the item becomes cursed. The likelyhood of the item being cursed increases by an additional 10% for each rarity tier above common. In order for an item to be cursed, it must also require attunement and every cursed item dissallows a creature attuned with it from willingly ending their attunement and they have a strong desire to keep the item on their person at all times.",
+          "If the item is cursed, roll a d8 or choose one of the following curses:",
+          {
+            "type": "inset",
+            "name": "Magical Curses",
+            "entries": [
+              {
+                "type": "table",
+                "colLabels": [
+                  "d8",
+                  "Curse"
+                ],
+                "colStyles": [
+                  "col-2 text-center",
+                  "col-5"
+                ],
+                "rows": [
+                  [
+                    1,
+                    "The first time you touch a gem or piece of jewelry while attuned to this item, the value of the gem or jewelry is reduced by half."
+                  ],
+                  [
+                    2,
+                    "While attuned to this item, your movement speed is reduced by 5 ft."
+                  ],
+                  [
+                    3,
+                    "While attuned to this item, you begin to feel less emotion toward most things. Your alignment becomes neutral."
+                  ],
+                  [
+                    4,
+                    "While attuned to the item, you emit a sour stench noticeable from up to 10 feet away."
+                  ],
+                  [
+                    5,
+                    "While attuned to this item, taking a short rest requires twice the amount of time for you."
+                  ],
+                  [
+                    6,
+                    "While you are attuned to the item, your flaw is amplified in a way determined by the DM."
+                  ],
+                  [
+                    7,
+                    "While you are attuned to the item, you cannot taste nor can you get intoxicated. You are also immune to being poisoned."
+                  ],
+                  [
+                    8,
+                    "While you are attuned to the item, you have a permanent reduction to your AC. Your AC is reduced by 1 until your attunement ends."
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
