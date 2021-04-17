@@ -1,0 +1,165 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "CollegeOfHeroes",
+        "abbreviation": "CoH",
+        "full": "College of Heroes",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "1.0.0",
+        "url": "https://docs.google.com/document/d/10dL_Ail3o-YkrxYIBifQLhJLzi7jSa8pMZ48s8-Tnz0/edit?usp=sharing",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1588106289,
+    "dateLastModified": 1588106289
+  },
+  "subclass": [
+    {
+      "name": "College of Heroes",
+      "subclassFeatures": [
+        "College of Heroes|Bard|PHB|Heroes|CollegeOfHeroes|3",
+        "Heroic Inspiration|Bard|PHB|Heroes|CollegeOfHeroes|3",
+        "Tales of the Heroes|Bard|PHB|Heroes|CollegeOfHeroes|3",
+        "Heroic Influence|Bard|PHB|Heroes|CollegeOfHeroes|6",
+        "Heroic Admiration|Bard|PHB|Heroes|CollegeOfHeroes|6",
+        "Legends of The Heroes|Bard|PHB|Heroes|CollegeOfHeroes|6"
+      ],
+      "source": "CollegeOfHeroes",
+      "shortName": "Heroes",
+      "className": "Bard",
+      "classSource": "PHB"
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "College Of Heroes",
+      "source": "Bard",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Heroes",
+      "subclassSource": "CollegeOfHeroes",
+      "level": 3,
+      "entries": [
+        "Tales of heroes, strong and proud. There are many legends among the world to tell, tales of men challenging the trials of gods and conquering them. Tragedies told of heroes who slay monsters, but live long enough become the monsters themselves. Your readings of these powerful warriors, gods among men, inspires you to live up to their greatness and allows you to borrow an idea or two from them."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Heroic Inspiration",
+      "source": "CollegeOfHeroes",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Heroes",
+      "subclassSource": "CollegeOfHeroes",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i 3rd-level Heroes Feature}",
+        "When you grant a creature a bardic inspiration, they can roll it and gain an amount of temporary hit points equal to what they rolled. The bardic inspiration die is not spent when rolled in this way. They can repeat this process again when they use the bardic inspiration for an ability check, attack roll, or saving throw and only if they succeed."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Tales of the Heroes",
+      "source": "CollegeOfHeroes",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Heroes",
+      "subclassSource": "CollegeOfHeroes",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i 3rd-level Heroes Feature}",
+        "You’ve read up on old folk lore of legendary heroes of old, granting you keen knowledge of older history. You gain proficiency in Intelligence (History) and add double your proficiency bonus in ability checks using that skill.",
+        "In addition, using these old tales you can incorporate their skills into your own own fighting style. Choose two of the following Heroic Tales, you learn an additional tale from the same list at 6th and 14th levels:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Tale of Tragedy",
+              "entries": [
+                "Not every story has a happy ending, especially for heroes. While they may save the day in the end, they might not necessarily come out the victor. Using the power of this sorrowful tale, as an action you can reach into the mind of another creature who can understand at least one language that you can see within 30 ft. They do not need to hear you, as you implant the tale into their mind. They must make a Wisdom saving throw against your spell save DC or take 2d6 psychic damage and are incapacitated until the end of their next turn, as they sulk in the sorrowful tale. On a successful save, they take no damage and are not incapacitated, unaffected by the tragic story. This damage increases by 1d6 when you reach 6th (3d6) and 14th levels (4d6)."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Tale of Victory",
+              "entries": [
+                "Every hero has his times of triumph and victory. Whether it is due to raw power or sheer dedication they always find a way to win. If you fail an ability check, attack roll, or saving throw, you can spend a bardic inspiration die to reroll that check and choose which result to take. Whichever result you take, you then roll the bardic inspiration die and add that number to the result."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Tale of Intuition",
+              "entries": [
+                "There comes a time where heroics are not all about slaying monsters. Sometimes, using the power of deduction and reasoning you can still save lives. As a bonus action, you can draw inspiration from the brightest heroes, and gain advantage on any one Intelligence, Wisdom, or Charisma ability check. This benefit lasts until after the check is made and when the result is confirmed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Tale of Intuition",
+              "entries": [
+                "Every true hero has a powerful strength of will that allows them to keep fighting, even when all hope seems lost. When you or a creature you can see within 30 ft of you would be reduced to 0 hit points but not outright killed, as a reaction you can spend one use of your bardic inspiration. Roll the bardic inspiration die, instead of being reduced to 0 hit points, they are instead reduced to the amount rolled."
+              ]
+            }
+          ]
+        },
+        "You can use your Heroic Tales a number of times equal to your proficiency bonus, regaining all expended uses when you finish a short or long rest."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Heroic Influence",
+      "source": "CollegeOfHeroes",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Heroes",
+      "subclassSource": "CollegeOfHeroes",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Heroes Feature}",
+        "Through your newfound experience as an adventurer, you become a beacon of inspiration for your allies. You give them the courage and vigilance to continue fighting no matter what adversary you may face. Whenever you use your Countercharm feature, you can instead grant those creatures immunity to being charmed or frightened by spending a use of your bardic inspiration, also they are treated as if they passed the saving throw for the effect if there was one. Creatures that were already charmed or frightened end the effect and treat it as if they successfully passed the saving throw for the effect if there was one.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses after a long rest."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Heroic Admiration",
+      "source": "CollegeOfHeroes",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Heroes",
+      "subclassSource": "CollegeOfHeroes",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Heroes Feature}",
+        "You’ve gained a certain charismatic quality that allows you to sway your way in a conversation, whether it be your boldness, pride, or confidence. Using your knowledge on speeches given by the greatest heroes, whenever you make a Charisma (Persuasion) or a Charisma (Performance) ability check, you can spend a bardic inspiration die and roll it, adding a bonus to the check equal to 1 + half what you rolled (rounded down) with a minimum bonus of 2."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Legends of The Heores",
+      "source": "CollegeOfHeroes",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Heroes",
+      "subclassSource": "CollegeOfHeroes",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Heroes Feature}",
+        "Legends may be forgotten, but heroes never die. At least, that is what the tales say, for the deeds that were done can never be undone. You stand among these same legends, with power and glory in your hands. When you use one of your Heroic Tales, you gain an amount of temporary hit points equal to your proficiency bonus plus your Charisma modifier.",
+        "In addition, whenever you would use a Heroic Tale, you regain one bardic inspiration that you can only use for your College of Heroes features, such as a Heroic Tale. Unspent bardic inspiration gained from this feature is lost after you finish a short or long rest."
+      ]
+    }
+  ]
+}
