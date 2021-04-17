@@ -28,7 +28,7 @@
         "Tales of the Heroes|Bard|PHB|Heroes|CollegeOfHeroes|3",
         "Heroic Influence|Bard|PHB|Heroes|CollegeOfHeroes|6",
         "Heroic Admiration|Bard|PHB|Heroes|CollegeOfHeroes|6",
-        "Legends of The Heroes|Bard|PHB|Heroes|CollegeOfHeroes|6"
+        "Legends of The Heroes|Bard|PHB|Heroes|CollegeOfHeroes|14"
       ],
       "source": "CollegeOfHeroes",
       "shortName": "Heroes",
@@ -39,7 +39,7 @@
   "subclassFeature": [
     {
       "name": "College Of Heroes",
-      "source": "Bard",
+      "source": "CollegeOfHeroes",
       "className": "Bard",
       "classSource": "PHB",
       "subclassShortName": "Heroes",
