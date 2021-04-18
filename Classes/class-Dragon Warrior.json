@@ -1144,7 +1144,7 @@
               "entries": [
                 "Instead of being scribed on your person, you can scribe this rune onto a weapon of your choosing. That weapon becomes enhanced by the rune’s ancient magic, allowing it to take a more draconic-like appearance riddled with scales. ",
                 "The weapon becomes magical for the purposes of overcoming non-magical resistances if it wasn’t magical already. In addition to the weapon’s normal damage, it also gains a bonus 1d6 damage corresponding to the damage type you resist from your Draconic Origins. This bonus damage increases to 1d8 at level 5, 1d10 at level 11, and 1d12 at level 17. You can only have one weapon inscribed with this rune’s magic at a time.",
-                "As an action, you can invoke a more latent power of the rune, granting you a boon of untapped strength. While the boon is invoked, you have advantage on all weapon attacks made with a weapon etched with this rune. This boon lasts for 1 hour, after which you cannot invoke the power of this rune again until you finish a long rest."
+                "As an action, you can invoke a more latent power of the rune, granting you a boon of untapped strength. While the boon is invoked, every round you have advantage on your first weapon attack made with a weapon etched with this rune. This boon lasts for 1 hour, after which you cannot invoke the power of this rune again until you finish a long rest."
               ]
             }
           ]
@@ -1179,7 +1179,7 @@
               "name": "Rune of Blustering Winds",
               "entries": [
                 "A magic tattoo appears on your back, resembling runes in the shape of dragon-like wings. Whenever you take the dash action, you do not provoke opportunity attacks and you ignore the effects of difficult terrain. As a reaction, whenever a ranged weapon attack would hit you, you can impose disadvantage on that attack, potentially causing it to miss as you summon forth a powerful gale from the palm of your hands.",
-                "As an action, you can invoke a more latent power of the rune, granting you a boon of immense speed enough to lift you off your feet. While the rune is invoked, you have a flying speed of 30 ft and you can hover. If you do not have a flying speed, whether it be natural or provided by magic, you cannot ascend any higher than 30 ft or you start falling. If you already have a flying speed, it is increased by 30 ft. This boon lasts for 1 hour, after which you cannot invoke the power of this rune again until you finish a long rest."
+                "As an action, you can invoke a more latent power of the rune, granting you a boon of immense speed enough to lift you off your feet. While the rune is invoked, you have a flying speed of 30 ft and you can hover. If you do not have a flying speed, whether it be natural or provided by magic, you cannot ascend any higher than 30 ft or you start falling. If you already have a flying speed, it is increased by 30 ft. This boon lasts for 1 minute, after which you cannot invoke the power of this rune again until you finish a long rest."
               ]
             },
             {
@@ -1187,7 +1187,7 @@
               "name": "Rune of Foresight",
               "entries": [
                 "A rune appears over your forehead, representing a third eye, as a bonus action you can take a defensive stance on your turn so long as you have not moved more than half of your movement speed. While in this defensive stance, you reduce any incoming damage by half as you pivot away from the full force of it. This has no effect on spells or magical effects that fully envelops your space, nor does it reduce psychic damage.",
-                "As an action, you can invoke a more latent power of the rune, granting you a boon of true foresight. While the rune is invoked, you have advantage on Wisdom (Insight) checks and as a reaction if you were to be hit by a weapon attack, you can instead choose to avoid the attack entirely. This boon lasts for 1 hour, after which you cannot invoke the power of this rune again until you finish a long rest."
+                "As an action, you can invoke a more latent power of the rune, granting you a boon of true foresight. While the rune is invoked, you have advantage on Wisdom (Insight) checks and as a reaction if you were to be hit by a weapon attack that is not a critical hit, you can avoid the attack entirely. This boon lasts for 1 minute, after which you cannot invoke the power of this rune again until you finish a long rest."
               ]
             }
           ]

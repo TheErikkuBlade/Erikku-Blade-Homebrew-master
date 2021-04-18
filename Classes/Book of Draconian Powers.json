@@ -22,7 +22,7 @@
       "source": "DrP",
       "name": "All Knowing Eyes",
       "entries": [
-        "You learn the identify spell and can cast it without requiring components or spending a spell slot. Charisma is your spellcasting ability for this spell. Instead of having a range of touch, you can identify an object so long as you can see it and is within 30 ft. If you have the spellcasting or pact magic feature, you can cast this spell using one of those spell slots, but you use the original components and range to do so."
+        "You learn the identify spell and can cast it once without requiring components or spending a spell slot. Charisma is your spellcasting ability for this spell. Instead of having a range of touch, you can identify an object so long as you can see it and is within 30 ft. Once you cast this spell, you cannot cast it again until you finish a short or long rest. If you have the spellcasting or pact magic feature, you can cast this spell using one of those spell slots, but you use the original components and range to do so."
       ],
       "featureType": "Draconian Powers"
     },
@@ -220,6 +220,125 @@
     },
     {
       "source": "DrP",
+      "name": "Draconic Sparks",
+      "entries": [
+        "Lighting coils around your body, making every moment feel electrifying. As a bonus action you summon your Draconic Sparks for 1 minute. While active, your movement speed increases by an amount of feet equal to 5 times your proficiency bonus. In addition, if you take the dash action creatures you move within 5 feet of for the first time on your turn take an amount of lighting damage equal to your proficiency bonus.",
+        "Once you’ve used your Draconic Sparks feature, you cannot use it again until you have finished a short or long rest."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Blue and Bronze Draconic Origins",
+            "entrySummary": "Blue and Bronze Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Kinetic Feedback",
+      "entries": [
+        "You magically store energy obtained whenever you are struck by your foes, eventually you release it outward in a powerful blast. Each time you take damage, you store a charge of Kinetic Energy. You can have a maximum number of Kinetic Energy points equal to your proficiency bonus. As an action, you can spend all of your Kinetic Energy points to release outward a powerful shockwave. Every creature within 5ft of you makes a Strength saving throw (dc equals 8 + your proficiency bonus + your constitution modifier.) or takes a number of d10 lighting damage equal to the number of Kinetic Energy points spent and is pushed back a number of feet equal to 10 times the amount of Kinetic Energy points spent. On a successful save, they take half damage and are not pushed.",
+        "Once you’ve used your Kinetic Feedback feature, you cannot use it again until you have finished a short or long rest."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Bronze Draconic Origins",
+            "entrySummary": "Bronze Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Toxic Breath",
+      "entries": [
+        "Your Draconian Breath Weapon becomes a Constitution saving throw instead and poisons creatures who fail their save. The poisoned creatures are poisoned for 1 minute and repeat their saving throws at the end of each of their turns, ending the poison on a success."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Green Draconic Origins",
+            "entrySummary": "Green Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Cloud Nine",
+      "entries": [
+        "You can magically sit on clouds. Also, as an action you can magically produce a special cloud that you and your allies can ride on for 10 minutes. Up to two medium sized creatures can fit on this cloud. The cloud has a flying speed of 30 ft and can hover, but it cannot ascend any higher than 30 ft off the ground or it loses form. Moving the cloud is a bonus action on your turn.",
+        "You can magically produce this cloud a number of times equal to your proficiency bonus, and cannot do so again until you finish a long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Silver Draconic Origins",
+            "entrySummary": "Silver Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Metallic Endurance",
+      "entries": [
+        "Your metallic scales makes you a tougher foe to fight in martial combat. If you are hit by a weapon attack, as a reaction you can reduce the amount of damage you take by 1d10 plus your proficiency bonus.",
+        "After you’ve used your Metallic Endurance twice, you cannot use it again until you’ve finished a short or long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "any Metallic Draconic Origins",
+            "entrySummary": "any Metallic Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Chromatic Influence",
+      "entries": [
+        "Whenever you make a Charisma ability check or saving throw, you can choose to make the roll at advantage.",
+        "Once you’ve used your Chromatic Influence twice, you cannot use it again until you’ve finished a short or long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "any Chromatic Draconic Origins",
+            "entrySummary": "any Chromatic Draconic Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
       "name": "You're a Wizard, Dragon",
       "entries": [
         "A magical spell book appears into your hands. As a bonus action, you can send this spellbook into an extradimensional space and vice versa. You learn one cantrip from the Wizard spell list. You also learn two first level spells from the Wizard spell list and can cast each of them without requiring material components once, regaining the ability to do so after a long rest. The spells are written into your spellbook, and you can use your spellbook as an arcane focus. Intelligence is your spellcasting ability for these spells. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so.",
@@ -239,7 +358,7 @@
       "source": "DrP",
       "name": "Draconian Breath Weapon",
       "entries": [
-        "Depending on the Draconian Origin you picked you gain a breath weapon that does 4d6 damage. The number of damage dice increases by 2 at 5th level, and then again at 10th, once more at 15th, and one last time at 20th level. You have a number of uses of this Draconian Power equal to half your Proficiency Bonus (rounded down, minimum of 1) and regain all uses of it after a long rest. (Look at the Dragonborn Ancestry to determine the damage type and range). At 5th level the breath weapon increases to a range of a 30 foot cone or line depending on the type of dragon, 60 feet at 11th level, and 90 feet at 17th. The save DC for this power is 8 + Proficiency Bonus + your Constitution modifier."
+        "You gain a magical breath weapon that allows you to exhale elemental energies out to a range of 30 ft. If you chose a chromatic Draconic Origin, it becomes a cone. If you picked a metallic Draconic Origin, it becomes a line. The breath weapon takes an action to use and its damage corresponds to the damage you resist from the Draconic Origin you chose. Each creature within range of your breath weapon must make a Dexterity saving throw (dc equals 8 + proficiency bonus + constitution modifier) or they take 4d6 points of damage on a failed save, or half as much on a success. At level 9 its damage increases by 2d6 and its range increases by 10 ft. It increases again using the same amounts at 12th, 15th, and 18th levels. You have a number of uses of your Draconian Breath Weapon equal to your proficiency bonus and regain all expended uses after a long rest."
       ],
       "prerequisite": [
         {
@@ -861,6 +980,67 @@
           "otherSummary": {
             "entry": "Dragon Shaman",
             "entrySummary": "Dragon Shaman"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Powerful Form",
+      "entries": [
+        "While in your Draconic Shape, you have advantage on Strength ability checks and Strength saving throws. In addition, you add an amount of damage to your natural weapons equal to half your proficiency bonus (rounded down)."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Shaman",
+            "entrySummary": "Shaman"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Legendary Shape",
+      "entries": [
+        "When you use your Draconic Shape, you gain 30 temporary hit points. In addition, you gain 3 Legendary Resistances when you change into your Draconic Shape. See “Legendary Resistance” from an Adult Dragon for reference. You only gain these Legendary Resistance once per long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 20,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Shaman",
+            "entrySummary": "Shaman"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Draconic Tail",
+      "entries": [
+        "Both in your humanoid shape and your Draconic Shape you have a powerful tail. This tail counts as a natural weapon and does 1d8 bludgeoning damage. It uses Strength for its attack and damage rolls. In your Draconic Shape you have advantage on your athletics check if the creature is your size or smaller.",
+        "If you’ve taken the attack action, as a bonus action you can immediately make one tail attack, provided you have not already used your tail as part of your attack action. Instead of dealing damage, using this bonus action you can take the shove action using your tail. See page 195 of the Player’s Handbook for information on the Shove Action."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Shaman",
+            "entrySummary": "Shaman"
           }
         }
       ],
