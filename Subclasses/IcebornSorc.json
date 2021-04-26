@@ -196,9 +196,9 @@
       "header": 2,
       "entries": [
         "{@i 18th-level Iceborn Summoner feature}",
-        "Your mastery over cryomancy permanently changes your very being as you become one with your ancestry. You have immunity to cold damage and learn the Investiture of Ice spell. If you already knew the Investiture of Ice spell, you can choose another spell from the sorcerer spell list to learn instead. This spell does not count against your total number of sorcerer spells and you can cast it once at its lowest level without expending a spell slot.",
-        "Casting Investiture of Ice in this way does not require concentration and lasts up to an hour rather than its normal duration of 10 minutes.",
-        "Whenever you cast Investiture of Ice using a spell slot, its range becomes touch instead of self and you can target other creatures with the spell. Casting the spell at higher levels allows you to target one additional creature per spell slot level above 6th."
+        "Your mastery over cryomancy permanently changes your very being as you become one with your ancestry. You have immunity to cold damage and learn the Investiture of Ice spell. If you already knew the {@spell Investiture of Ice|XGE} spell, you can choose another spell from the sorcerer spell list to learn instead. This spell does not count against your total number of sorcerer spells and you can cast it once at its lowest level without expending a spell slot.",
+        "Casting {@spell Investiture of Ice|XGE} in this way does not require concentration and lasts up to an hour rather than its normal duration of 10 minutes.",
+        "Whenever you cast {@spell Investiture of Ice|XGE} using a spell slot, its range becomes touch instead of self and you can target other creatures with the spell. Casting the spell at higher levels allows you to target one additional creature per spell slot level above 6th."
       ]
     }
   ]
