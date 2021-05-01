@@ -1,0 +1,559 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DarkMagicCompendium",
+        "abbreviation": "DMC",
+        "full": "Dark Magic Compendium",
+        "url": "",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ]
+      }
+    ],
+    "dateAdded": 1619896463,
+    "dateLastModified": 1619896463
+  },
+  "spell": [
+    {
+      "name": "Dark Halberd",
+      "source": "DarkMagicCompendium",
+      "level": 0,
+      "school": "V",
+      "subschools": [
+        "Dark Magic"
+      ],
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You launch a shadowy glaive at a creature you can see within range. Make a ranged spell attack against the creature, on a hit they take {@damage 1d10} necrotic damage and it can't regain hit points until the start of your next turn.",
+        "The spell creates more than one glaive when you reach higher levels: two glaives at 5th level, three glaives at 11th level, and four glaives at 17th level. You can direct the glaives at the same target or at different ones. Make a separate attack roll for each glaive."
+      ],
+      "damageInflict": [
+        "necrotic"
+      ],
+      "miscTags": [
+        "SGT"
+      ],
+      "areaTags": [
+        "MT"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cloak of Darkness",
+      "source": "DarkMagicCompendium",
+      "level": 1,
+      "school": "A",
+      "subschools": [
+        "Dark Magic"
+      ],
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "entries": [
+        "A shadowy cloak appears on your person and your veins turn black and purple until the spell ends. Your base AC becomes 13 + your Spellcasting Ability Modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, your base armor class increases by 1 for ever two slot levels above 1st."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MAC"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dark Siphon",
+      "source": "DarkMagicCompendium",
+      "level": 2,
+      "school": "N",
+      "subschools": [
+        "Dark Magic"
+      ],
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You rend a creature's vitality with a shadowy tendril and add it to your own. You force a creature within range that you can see to make a constitution saving throw, on a failed save they take {@damage 3d8} necrotic damage and you gain temporary hit points equal to the damage dealt. In addition, their hit point maximum is reduced by an amount equal to the damage they took. This reduction lasts for one hour. A {@spell remove curse} can end the effect early. On a success, they take half damage and their hit point maximum is not reduced."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a 3rd level or higher spell slot, the damage increases by {@damage 1d8} necrotic damage for each slot level above 2nd."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "",
+            "source": "PHB"
+          }
+        ]
+      }
+    }
+  ],
+  "monster": [
+    {
+      "name": "Dark Mage",
+      "source": "DarkMagicCompendium",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "NX",
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        },
+        {
+          "ac": 18,
+          "condition": "with {@spell cloak of darkness|DarkMagicCompendium}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "formula": "11d8 + 22",
+        "average": 71
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 17,
+      "con": 15,
+      "int": 21,
+      "wis": 14,
+      "cha": 16,
+      "save": {
+        "int": "+9",
+        "wis": "+6",
+        "cha": "+7"
+      },
+      "skill": {
+        "arcana": "+9",
+        "history": "+9",
+        "deception": "+7",
+        "insight": "+6"
+      },
+      "senses": [
+        "truesight 10 ft.",
+        "darkvision 120 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from non-magical attacks"
+        }
+      ],
+      "immune": [
+        "necrotic"
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Thieves' cant",
+        "Undercommon"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The mage is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The mage has the following spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell dark halberd|DarkMagicCompendium}",
+                "{@spell fire bolt}",
+                "{@spell mage hand}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell cloak of darkness|DarkMagicCompendium}",
+                "{@spell detect magic}",
+                "{@spell magic missile}",
+                "{@spell shield}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell dark siphon|DarkMagicCompendium}",
+                "{@spell misty step}",
+                "{@spell shadow blade|XGE}",
+                "{@spell suggestion}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell counterspell}",
+                "{@spell fly}",
+                "{@spell hunger of Hadar}",
+                "{@spell pulse wave|EGW}",
+                "{@spell summon shadowspawn|TCE}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell blight}",
+                "{@spell gravity sinkhole|EGW}",
+                "{@spell greater invisibility}",
+                "{@spell summon greater demon|XGE}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell cone of cold}",
+                "{@spell temporal shunt|EGW}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell circle of death}",
+                "{@spell gravity fissure|EGW}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "variant": [
+        {
+          "type": "variant",
+          "name": "Familiars",
+          "entries": [
+            "Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Dark magic, a powerful yet corrupting magic. As wielders of this magic get stronger, their ties to their humanity grow thin. Dark Magic is the origins of all things, only deities could wield this power without consequence, but now it is in the hands of mortals."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/xfLoURs.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/bLaIIqV.png",
+      "soundClip": {
+        "type": "external",
+        "url": "https://noads.5e.tools/audio/bestiary/mage.mp3?v=1.127.3"
+      },
+      "senseTags": [
+        "SD",
+        "U"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "TC",
+        "U"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "hasFluff": true
+    },
+    {
+      "name": "Dark Magic Assassin",
+      "source": "DarkMagicCompendium",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "NX",
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 78,
+        "formula": "12d8 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 20,
+      "con": 14,
+      "int": 15,
+      "wis": 13,
+      "cha": 12,
+      "save": {
+        "dex": "+8",
+        "int": "+5",
+        "wis": "+4",
+        "cha": "+4"
+      },
+      "skill": {
+        "acrobatics": "+8",
+        "deception": "+4",
+        "perception": "+4",
+        "stealth": "+11",
+        "arcana": "+5"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 14,
+      "resist": [
+        "necrotic",
+        "poison"
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Thieves' cant"
+      ],
+      "cr": "8",
+      "spellcasting": [
+        {
+          "name": "Dark Magic Spellcasting",
+          "headerEntries": [
+            "The assassin has innate spellcasting. Intelligence is its spellcasting ability (spell save {@dc 13}, +5 to hit) and has the following spells prepared:"
+          ],
+          "spells": {
+            "2": {
+              "spells": [
+                "{@spell dark siphon|DarkMagicCompendium}",
+                "{@spell false life}",
+                "{@spell shield}"
+              ],
+              "slots": 4,
+              "lower": 1
+            }
+          },
+          "will": [
+            "{@spell dark halberd|DarkMagicCompendium}",
+            "{@spell frost fingers|IDRotF}",
+            "{@spell toll the dead|XGE}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell pulse wave|EGW}"
+            ]
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Assassinate",
+          "entries": [
+            "During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries": [
+            "If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "The assassin deals an extra 14 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The assassin makes three shadow blade attacks."
+          ]
+        },
+        {
+          "name": "Shadow Blade",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, range 20/60 ft., one target. {@h}14 ({@damage 2d8 + 5}) psychic damage."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Assassin",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://noads.5e.tools/img/MM/Assassin.png?v=1.127.3",
+      "soundClip": {
+        "type": "external",
+        "url": "https://noads.5e.tools/audio/bestiary/assassin.mp3?v=1.127.3"
+      },
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "TC"
+      ],
+      "damageTags": [
+        "Y"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true
+    }
+  ]
+}
