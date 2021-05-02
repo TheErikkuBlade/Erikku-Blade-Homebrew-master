@@ -1,0 +1,180 @@
+{
+	"siteVersion": "1.127.3",
+	"_meta": {
+		"sources": [
+			{
+				"json": "LegendsOfEikosenshi",
+				"abbreviation": "LoE",
+				"full": "Legends Of Eikosenshi",
+				"url": "",
+				"authors": [
+					"Erikku Blade"
+				],
+				"convertedBy": [
+					"Erikku Blade"
+				]
+			}
+		],
+		"dateAdded": 1619900950,
+		"dateLastModified": 1619900950
+	},
+	"monster": [
+		{
+			"name": "Matthew",
+			"source": "LegendsOfEikosenshi",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +2 padded armor|dmg}"
+					]
+				}
+			],
+			"hp": {
+				"average": 123,
+				"formula": "19d8 + 38"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+8",
+				"int": "+4"
+			},
+			"skill": {
+				"acrobatics": "+8",
+				"athletics": "+8",
+				"perception": "+8",
+				"sleight of hand": "+12",
+				"stealth": "+12"
+			},
+			"passive": 18,
+			"languages": [
+				"Common",
+				"Thieves' cant"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The thief deals an extra 14 ({@dice 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't {@condition incapacitated} and the thief doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The thief makes three attacks with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 80/320 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Master thieves are known for perpetrating daring heists. They tend to develop a reputation and a cult of personality. A master thief might \"retire\" from hands-on work to run a thieves' guild, spearhead some covert enterprise, or enjoy a quiet life of luxury."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/9c/02/47/9c024761098c8f3a0b30657cfaecd55c.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/XnGjebO.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/master-thief.mp3?v=1.127.3"
+			},
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TC"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasFluff": true
+		}
+	]
+}

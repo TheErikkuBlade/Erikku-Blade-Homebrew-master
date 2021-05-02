@@ -554,6 +554,216 @@
         "MW"
       ],
       "hasFluff": true
+    },
+    {
+      "name": "Dark Magic Shadow",
+      "source": "DarkMagicCompendium",
+      "size": "M",
+      "type": "undead",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "formula": "4d8 + 12",
+        "average": 30
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 6,
+      "dex": 16,
+      "con": 17,
+      "int": 8,
+      "wis": 12,
+      "cha": 14,
+      "skill": {
+        "stealth": "+7",
+        "perception": "+3",
+        "arcana": "+3"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "necrotic",
+        "poison"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Amorphous",
+          "entries": [
+            "The shadow can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Shadow Stealth",
+          "entries": [
+            "While in dim light or darkness, the shadow can take the Hide action as a bonus action. Its stealth bonus is also improved to +6."
+          ]
+        },
+        {
+          "name": "Sunlight Weakness",
+          "entries": [
+            "While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws."
+          ]
+        },
+        {
+          "name": "Aggressive",
+          "entries": [
+            "As a bonus action, the dark magic shadow can move up to its speed toward a hostile creature that it can see."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The dark magic shadows make two attacks: one with its Strength Drain and one with its Shadow Claw."
+          ]
+        },
+        {
+          "name": "Strength Drain",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}12 ({@damage 3d6 + 3}) necrotic damage, and the target's Strength score is reduced by {@dice 1d4} if they fail a {@dc 12} Strength Saving throw. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+            "If a non-evil humanoid dies from this attack, a new shadow rises from the corpse {@dice 1d4} hours later."
+          ]
+        },
+        {
+          "name": "Shadow Claw",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d6 + 3}) necrotic damage."
+          ]
+        }
+      ],
+      "environment": [
+        "underdark",
+        "urban"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://noads.5e.tools/audio/bestiary/shadow.mp3?v=1.127.3"
+      },
+      "traitTags": [
+        "Aggressive",
+        "Amorphous"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "damageTags": [
+        "N"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "tokenUrl": "https://i.imgur.com/7VYKKXb.png",
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Shadows are undead that resemble dark exaggerations of humanoid shadows.",
+                  {
+                    "name": "Dark Disposition",
+                    "type": "entries",
+                    "entries": [
+                      "From the darkness, the shadow reaches out to feed on living creatures' vitality. They can consume any living creature, but they are especially drawn to creatures untainted by evil. A creature that lives a life of goodness and piety consigns its basest impulses and strongest temptations to the darkness where the shadows hunger. As a shadow drains its victim's strength and physical form, the victim's shadow darkens and begins to move of its own volition. In death, the creature's shadow breaks free, becoming a new undead shadow hungry for more life to consume.",
+                      "If a creature from which a shadow has been created somehow returns to life, its undead shadow senses the return. The shadow might seek its \"parent\" to vex or slay. Whether the shadow pursues its living counterpart, the creature that birthed the shadow no longer casts one until the monster is destroyed."
+                    ]
+                  },
+                  {
+                    "name": "Undead Nature",
+                    "type": "entries",
+                    "entries": [
+                      "A shadow doesn't require air, food, drink, or sleep"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/7VYKKXb.png"
+            }
+          }
+        ]
+      },
+      "languages": [
+        "Abyssal"
+      ],
+      "languageTags": [
+        "AB"
+      ],
+      "spellcasting": [
+        {
+          "name": "Innate Dark Magic",
+          "headerEntries": [
+            "The Shadow has innate dark magic. Charisma is its spellcasting ability (Spell Save DC: 12, + 4 to hit.) and has the following at will spells:"
+          ],
+          "will": [
+            "{@spell cloak of darkness|DarkMagicCompendium}",
+            "{@spell dark halberd|DarkMagicCompendium}",
+            "{@spell dark siphon|DarkMagicCompendium}"
+          ],
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "save": {
+        "wis": "+3",
+        "cha": "+4"
+      },
+      "actionTags": [
+        "Multiattack"
+      ]
     }
   ]
 }
