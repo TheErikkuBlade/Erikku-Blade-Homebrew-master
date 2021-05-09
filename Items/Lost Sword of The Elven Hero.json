@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "sources": [
+      {
+        "json": "LSoTFH",
+        "abbreviation": "LSoTFH",
+        "full": "Lost Sword of The Forgotten Hero",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "url": "https://docs.google.com/document/d/18iVdS5mWYyT4bU5Te3bI4wyT6C1QeDb7UzCOFYOS0t8/edit?usp=sharing",
+        "version": "1.0",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1590749501,
+    "dateLastModified": 1590749501
+  },
+  "item": [
+    {
+      "name": "Lost Sword of The Forgotten Hero",
+      "source": "LSoTFH",
+      "page": 1,
+      "baseItem": "longsword",
+      "type": "M",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "weight": 1,
+      "weaponCategory": "martial",
+      "property": [
+        "F",
+        "V",
+        "L"
+      ],
+      "dmg1": "1d8",
+      "dmg2": "1d10",
+      "dmgType": "S",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "This elven-made longsword appears lighter than it should be. You can feel something powerful from the blade but it appears to be faint. A subtle hum can be felt from the blade from time to time, mayhaps more power lies within it, a dormant hidden power.",
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The longsword grants grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You can speak, read, and write Elvish and Sylvan.",
+                "You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.",
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "{@b Blade of Light.} You can use an action to cause the blade to glow with radiant energy. For a number of hours equal to your proficiency bonus, the blade emits a bright light out to a range of 30 ft and dim light out to an additional 30 ft. While emitting this light, its damage becomes radiant instead of slashing and it deals an additional 1d8 radiant damage on hit (1d10 if you were wielding it with two hands). Once you’ve used this benefit, you can’t use it again until the next dawn.",
+                "{@b Guiding Hero.} While holding this blade if you fail an ability check, attack roll, or saving throw, you can use your reaction to reroll the d20 taking the new result potentially causing a success. Once you’ve used this benefit you cannot use it again until the next dawn.",
+                "{@b Dormant Hero.} While holding this blade you have advantage on saving throws made against being charmed or frightened."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Awakened",
+          "entries": [
+            "The longsword grants grants the following benefits in its awakened state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +2.",
+                "{@b Awakened Critical.} Whenever you score a critical hit using this weapon, you deal an additional 1d8 slashing damage (1d10 if you were wielding it with two hands).",
+                "{@b Awakened Hero.} While holding this blade you are immune to being frightened and have resistance to radiant and necrotic damage.",
+                "You can use your Guiding Hand and Blade of Light benefits twice per dawn instead of once."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Exalted",
+          "entries": [
+            "The longsword grants the following benefits in its exalted state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +3.",
+                "{@b Exalted Hero.} While attuned to this weapon, you are immune to being charmed and frightened and cannot be aged magically. In addition, you have advantage on saving throws made against harmful effects.",
+                "{@b Boon of Heroic Deeds.} Choose one of the Epic Boons found in pg 232 of the Dungeon Master’s Guide. You gain the benefits of that boon while attuned to this weapon.",
+                "You can use your Guiding Hand and Blade of Light benefits three times per dawn instead of twice."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Artifact Properties",
+          "entries": [
+            "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        }
+      ]
+    }
+  ]
+}
