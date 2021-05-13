@@ -1,0 +1,229 @@
+{
+	"siteVersion": "1.127.5",
+	"_meta": {
+		"sources": [
+			{
+				"json": "GrayWardensExpansion",
+				"abbreviation": "GWE",
+				"full": "Gray Warden's Expansion",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1620766579,
+		"dateLastModified": 1620766579
+	},
+	"monster": [
+		{
+			"name": "Undying Gray Warden",
+			"size": "M",
+			"type": "undead",
+			"source": "GrayWardensExpansion",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"Plate Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 66",
+				"average": 165
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 24,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 15,
+			"cha": 17,
+			"passive": 16,
+			"cr": "10",
+			"save": {
+				"cha": "+7",
+				"con": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+6",
+				"intimidation": "+7",
+				"religion": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common and any two other languages,"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"resist": [
+				{
+					"resist": [
+						"cold",
+						"fire",
+						"lightning",
+						"necrotic"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The undying gray warden has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The undying gray warden has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the undying gray warden hits with it."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the undying gray warden's darkvision."
+					]
+				},
+				{
+					"name": "Fiendish Blessing",
+					"entries": [
+						"The AC of the undying gray warden includes its Charisma bonus."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the undying gray warden fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a short or long rest)",
+					"entries": [
+						"As a bonus action, the undying gray warden can regain 20 hit points."
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The undying gray warden is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the undying gray warden to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the undying gray warden drops to 1 hit point instead."
+					]
+				}
+			],
+			"traitTags": [
+				"Brute",
+				"Devil's Sight",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity",
+				"Undead Fortitude"
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 100/400 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"legendary": [
+				{
+					"name": "Reckless Charge",
+					"entries": [
+						"The warden can move up to its speed toward a hostile creature."
+					]
+				},
+				{
+					"name": "Twin Bladed Barrage",
+					"entries": [
+						"The warden makes two longsword attacks."
+					]
+				},
+				{
+					"name": "Unyielding Spirit (Costs 2 Actions)",
+					"entries": [
+						"The warden restores 20 hit points."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The warden adds a +4 bonus to its AC for the triggering attack."
+					]
+				}
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"tokenUrl": "https://i.imgur.com/FF9JNFm.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/8gxm1TR.png"
+						}
+					}
+				]
+			}
+		}
+	]
+}
