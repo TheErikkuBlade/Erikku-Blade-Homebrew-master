@@ -123,7 +123,7 @@
     {
       "name": "The Blade of The Neverending Storm, Ragnarok",
       "source": "AoTLH",
-      "page": 1,
+      "page": null,
       "baseItem": "katana",
       "type": "M",
       "rarity": "artifact",
@@ -145,7 +145,7 @@
       "weapon": true,
       "entries": [
         "Legends tell of a blade as old as the world itself, some say as old as time. Before creation comes ruin, and ruin is what created this weapon. Forged by a mortal with the power of the Gods of Old in the eye of a never-ending storm, let no evil touch this blade; lest you bring ruin and the end of all things. This weapon has been an heirloom in the Blade Family for countless generations, its name given by its original owner, Ragnarok. The Blade family is a long line of heroes that focuses on compassion and love to all walks of life. Striking down the unredeemable ones, hoping they are reborn better. Lending a hand to those in need, to those who seek redemption, and to those that cannot protect themselves.",
-        "A powerful hum can be heard from the weapon. A creature that meditates infront of the blade will hear the ambience of a thunderstorm, and may even see visions of a powerful hero that now lies dormant within the blade. The blade itself radiates electricity with the might of a dragon.",
+        "A powerful hum can be heard from the weapon. A creature that meditates in front of the blade will hear the ambience of a thunderstorm, and may even see visions of a powerful hero that now lies dormant within the blade. The blade itself radiates electricity with the might of a dragon.",
         {
           "type": "entries",
           "name": "Spirit of Ragnarok",
@@ -188,7 +188,7 @@
                 "The weapon's bonus to attack and damage rolls increases to +2, and the extra lightning damage dealt by the weapon increases to 2d8.",
                 "The lightning absorption property can be used twice before the next dawn.",
                 "This weapon counts as a {@item Staff of Thunder and Lightning|DMG}, gaining its properties.",
-                "While holding the katana, you can use an action to cast one of the following spells from it (save DC 17, +9 to hit): {@spell lightning bolt} (6th level), {@spell chain lightning}, {@spell storm sphere}, or {@spell call lightning} (6th level). You can use your own spellcasting ability if you have one when casting these spells. Once a spell has been cast using the katana, that spell can't be cast from the katana again until the next dawn."
+                "While holding the katana, you can use an action to cast one of the following spells from it (save DC 17, +9 to hit): {@spell lightning bolt} (6th level), {@spell chain lightning}, {@spell storm sphere|XGE}, or {@spell call lightning} (6th level). You can use your own spellcasting ability if you have one when casting these spells. Once a spell has been cast using the katana, that spell can't be cast from the katana again until the next dawn."
               ]
             }
           ]
@@ -203,8 +203,8 @@
               "items": [
                 "The weapon's bonus to attack and damage rolls increases to +3.",
                 "The lightning absorption property can be used three times before the next dawn.",
-                "The saving throw DC for the weapon's special actions and spells cast from the weapon increases to 17 and the spell attack becomes + 9.",
-                "While holding the katana, you can use an action to cast one of the following spells from it (save DC 17): control weather, storm of vengeance. Once you have cast either of these spells, they cannot be cast again until the next dawn."
+                "The saving throw DC for the weapon's special properties and spells cast from the weapon increases to 19 and the spell attack becomes + 11.",
+                "While holding the katana, you can use an action to cast {@spell control weather} from it. You can use your own spellcasting ability if you have one when casting these spells."
               ]
             }
           ]
@@ -217,6 +217,379 @@
           ]
         }
       ]
-    }
+    },
+    {
+      "name": "The Bow of Judgement, Yumiko",
+      "source": "AoTLH",
+      "page": null,
+      "baseItem": "longbow|PHB",
+      "type": "R",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "sentient": true,
+      "weight": 1,
+      "weaponCategory": "martial",
+      "property": [
+        "A",
+        "2H",
+        "H"
+      ],
+      "range": "150/600",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "Forged by the old god of death, this powerful bow swiftly takes the lives of anyone in its sights, so long as its wielder wishes it so. This deadly bow was entrusted to a tiefling who understood the weight of such power and the responsibilities that come with it. And so, the tiefling Yumiko, who swore to only kill those deserving, took this legendary bow and used it to smite all evil that was unfortunate enough to fall under their keen eye.",
+        {
+          "type": "entries",
+          "name": "Necrotic Ammunition",
+          "entries": [
+            "By pulling back the bowstring of this weapon you can make your own ammunition without the need of having any in your possession. When you do so however, the bow does 1d6 necrotic damage instead of 1d8 of piercing. You do not add your dexterity bonus to the damage roll of attacks made with this ammunition.",
+            "If you do use normal ammunition for the bow, you deal an additional 1d6 necrotic damage on hit."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sight of Judgement",
+          "entries": [
+            "As an action you can shift your focus onto the soul of a creature you can see within 60 feet of you. Make a Wisdom (Insight) check contested against their Charisma (Deception) check. On a success, you learn that creature’s alignment and creature type. On a failure, you learn nothing.",
+            "You can use this special sense a number of times equal to your proficiency bonus regaining the ability to use it again at the next dawn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The longbow grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "{@b Death Shot.} When you hit a creature with this magic weapon you can deal a lethal blow. The creature makes a DC 15 Constitution saving throw, on a failed save the creature takes 4d8 necrotic damage and has disadvantage on ability checks, attack rolls, and saving throws until the end of its next turn. On a success it takes half as much damage and does not suffer disadvantage on attack rolls, ability checks, and saving throws. Once you’ve used Death Shot, you cannot do so again until the next dawn.",
+                "{@b Homing Shot.} When you would miss with an attack roll using this weapon, you can choose to reroll the attack with a -5 penalty to the damage roll if you hit.",
+                "{@b Death Shot.} While holding this longbow you can cast hex from it without requiring components or spending a spell slot. When you do so, its range becomes the normal range of the longbow instead. Once you’ve cast this spell using the longbow, you cannot cast it again until the next dawn."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Awakened",
+          "entries": [
+            "When the longbow reaches an awakened state, it gains the following properties:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +2. Both the extra necrotic damage and the damage dealt by your Necrotic Ammunition increases by 1d6.",
+                "You can use Death Shot and Mark of Death twice per dawn instead of once. ",
+                "The longbow counts as a {@item longbow of certain death|EGW}, gaining its properties in addition to its own.",
+                "{@b Soul Shattering Shot.} When you hit a creature with this weapon, you can turn all of the damage from this attack into force damage and the creature makes a DC 17 Charisma saving throw. On a failed save they take 8d8 force damage and are stunned until the end of your next turn. If they cannot be stunned, they are instead incapactiated and their movement speed is reduced to 0 until the end of your next turn. On a success, they take half damage and are not stunned or incapactiated. Once you’ve used Soul Shattering Shot you cannot use it again until the next dawn."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Exalted",
+          "entries": [
+            "When the longbow reaches an exalted state, it gains the following properties:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +3. Both the extra necrotic damage and the damage dealt by your Necrotic Ammunition increases by 1d6.",
+                "{@b Slaying Shot.} When you score a critical hit using this weapon and their remaining hit points after the attack is 100 or fewer, that creature must make a DC 19 Charisma saving throw. On a failed save, the creature dies. On a success, the creature instead takes 10d10 necrotic damage and is incapacitated until the end of your next turn. You can use this slaying shot three times and you regain all uses at dawn.",
+                "You can use Homing Shot and Mark of Death three times per dawn instead of twice.",
+                "While holding the longbow, you can use an action to cast one of the following spells from it without requiring components (save DC 19): {@spell Time Ravage|EGW}, {@spell Abi-Dalzim's Horrid Wilting}. Once a spell has been cast using the longbow, that spell can't be cast from the longbow again until the next dawn. ",
+                "The save DC for Death Shot, Soul Shattering Shot, and the DC for spells cast using this weapon becomes 19 instead of 17."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Artifact Properties",
+          "entries": [
+            "While attuned to Yumiko in its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains a {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        }
+      ],
+      "ammoType": "arrow|phb"
+    },
+    {
+      "name": "Hammer of the Allfather, Iryoku",
+      "source": "AoTLH",
+      "page": null,
+      "baseItem": "warhammer|PHB",
+      "type": "M",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "sentient": true,
+      "weight": 1,
+      "weaponCategory": "martial",
+      "property": [
+        "V",
+        "L"
+      ],
+      "dmg1": "1d8",
+      "dmg2": "1d10",
+      "dmgType": "B",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "When the world shakes, it can be one of two things. An earthquake, or this mighty hammer has been swung. This hammer’s weight is incalculable to those unworthy of its might but weightless to its true wielders. The original wielder of this mighty warhammer, Iryoku, was chosen by the allfather himself to wield this mighty earth-shaking weapon to defend the dwarven kingdom to his last dying breath.",
+        {
+          "type": "entries",
+          "name": "Dwarvn Endurance",
+          "entries": [
+            "This warhammer counts as a {@item Belt of Dwarvenkind|DMG}, gaining its properties in addition to its own except the Constitution score increase maximum is 22 instead of 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Might of The Dwarvish Lords",
+          "entries": [
+            "Only a creature attuned to this warhammer can gain the benefit of its light property. Otherwise it counts as a heavy weapon. Being worthy of this hammer grants you a might stronger than the sturdiest steel walls. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The warhammer grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "{@b Flames of the Forge.} When you hit a creature with this weapon, you deal an extra 1d8 fire damage.",
+                "{@b Powerful Strikes.} Each time you hit a creature with this weapon they must make a DC 15 strength saving throw or be pushed back 5 feet. Each blow lets out a thunderous boom that can be heard from 100 feet away.",
+                "{@b Quaking Strike.} When you hit a creature with this weapon, you can force them to make a DC 15 Constitution saving throw or be stunned until the end of your next turn. Once you’ve used this property you cannot do so again until the next dawn. Regardless of the save, the target takes an extra 2d6 bludgeoning damage."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Awakened",
+          "entries": [
+            "When the warhammer reaches an awakened state, it gains the following properties:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +2. The extra fire damage you deal with Flames of the Forge becomes 2d8 instead of 1d8.",
+                "You can use Quaking Strike twice per dawn instead of once.",
+                "The warhammer counts as a {@item Dwarven Thrower|DMG}, gaining its properties in addition to its own.",
+                "{@b Earth Shattering Smash.} You use all of your might to strike down at the ground, causing the earth beneath you to crack and rise up. You cast the {@spell Bones of the Earth|XGE} and {@spell Erupting Earth|XGE} spells using this warhammer, the DC for the spells are 17. Once you’ve cast either of these spells using this warhammer, you cannot cast that spell again until the next dawn.",
+                "The save DC for Powerful Strikes, Quaking Strike, and the spells cast from this warhammer becomes 17 instead of 15."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Exalted",
+          "entries": [
+            "When the warhammer reaches an exalted state, it gains the following properties:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +3.",
+                "{@b Might of The Allfather.} Your Strength and Constitution scores increase by 2. While wielding this warhammer, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.",
+                "You can use Quaking Strike three times per dawn instead of twice.",
+                "While holding the warhammer, you can use an action to cast one of the following spells from it without requiring components (save DC 19): {@spell Earthquake}, {@spell Move Earth}. Once a spell has been cast using the warhammer, that spell can't be cast from the warhammer again until the next dawn. ",
+                "The save DC for Powerful Strikes, Quaking Strike, and the spells cast from this warhammer becomes 19 instead of 17."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Artifact Properties",
+          "entries": [
+            "While attuned to Iryoku in its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains a {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        }
+      ]
+    },
+    [
+      {
+        "name": "Lost Sword of The Forgotten Hero",
+        "source": "AoTLH",
+        "page": 1,
+        "baseItem": "longsword|PHB",
+        "type": "M",
+        "rarity": "artifact",
+        "reqAttune": true,
+        "weight": 1,
+        "weaponCategory": "martial",
+        "property": [
+          "F",
+          "V",
+          "L"
+        ],
+        "dmg1": "1d8",
+        "dmg2": "1d10",
+        "dmgType": "S",
+        "bonusWeapon": "+1",
+        "weapon": true,
+        "entries": [
+          "This elven-made longsword appears lighter than it should be. You can feel something powerful from the blade but it appears to be faint. A subtle hum can be felt from the blade from time to time, mayhaps more power lies within it, a dormant hidden power.",
+          {
+            "type": "entries",
+            "name": "Dormant",
+            "entries": [
+              "The longsword grants grants the following benefits in its dormant state:",
+              {
+                "type": "list",
+                "items": [
+                  "You can speak, read, and write Elvish and Sylvan.",
+                  "You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.",
+                  "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                  "{@b Blade of Light.} You can use an action to cause the blade to glow with radiant energy. For a number of hours equal to your proficiency bonus, the blade emits a bright light out to a range of 30 ft and dim light out to an additional 30 ft. While emitting this light, its damage becomes radiant instead of slashing and it deals an additional 1d8 radiant damage on hit (1d10 if you were wielding it with two hands). Once you’ve used this benefit, you can’t use it again until the next dawn.",
+                  "{@b Guiding Hero.} While holding this blade if you fail an ability check, attack roll, or saving throw, you can use your reaction to reroll the d20 taking the new result potentially causing a success. Once you’ve used this benefit you cannot use it again until the next dawn.",
+                  "{@b Dormant Hero.} While holding this blade you have advantage on saving throws made against being charmed or frightened."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "The longsword grants grants the following benefits in its awakened state:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "{@b Awakened Critical.} Whenever you score a critical hit using this weapon, you deal an additional 1d8 slashing damage (1d10 if you were wielding it with two hands).",
+                  "{@b Awakened Hero.} While holding this blade you are immune to being frightened and have resistance to radiant and necrotic damage.",
+                  "You can use your Guiding Hand and Blade of Light benefits twice per dawn instead of once."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "The longsword grants the following benefits in its exalted state:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3.",
+                  "{@b Exalted Hero.} While attuned to this weapon, you are immune to being charmed and frightened and cannot be aged magically. In addition, you have advantage on saving throws made against harmful effects.",
+                  "{@b Boon of Heroic Deeds.} Choose one of the Epic Boons found in pg 232 of the Dungeon Master’s Guide. You gain the benefits of that boon while attuned to this weapon.",
+                  "You can use your Guiding Hand and Blade of Light benefits three times per dawn instead of twice."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Artifact Properties",
+            "entries": [
+              "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "The Sword of Legend, Excalibur",
+        "source": "AoTLH",
+        "page": 1,
+        "baseItem": "longsword|PHB",
+        "type": "M",
+        "rarity": "artifact",
+        "reqAttune": true,
+        "weight": 1,
+        "weaponCategory": "martial",
+        "property": [
+          "V",
+          "L"
+        ],
+        "dmg1": "1d8",
+        "dmg2": "1d10",
+        "dmgType": "S",
+        "bonusWeapon": "+1",
+        "weapon": true,
+        "entries": [
+          "There is an inscription written on the blade of this weapon. The inscription is written in Celestial. {@i “He who shall wield the hilt of this legendary blade; shall possess the courage and strength of the greatest hero known to mankind. The sealer of darkness and king of men, Excalibur.”}",
+          "Also known as the sword of evil’s bane, the darkness sealing blade, arms of the true king, and many other names. This sword is forged by the holiest of steel and righteous gold mined from Mount Celestia. Its power reverberates in its wielder’s hand, and has the strength to harm even the mightiest of foes. Only they who should ever be worthy can release the blade from its prison. Even the gods cannot break the seal on this artifact. ",
+          "This longsword belonged to the legendary hero Adam Alexandr. “Excalibur” was the name he donned after choosing to become a hero instead of a ruler. The weapon chooses who can attune to it and who can't. It desires a wielder who embodies bravery, compassion, and heroism.",
+          {
+            "type": "entries",
+            "name": "Attunement",
+            "entries": [
+              "The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. Your alignment becomes lawful good, and you gain the following traits:",
+              {
+                "type": "list",
+                "items": [
+                  "{@b Angelic Language.} You can speak, read, and write Celestial.",
+                  "{@b Celestial Resistance.} You have resistance to necrotic and radiant damage.",
+                  "{@b Holy Light} The sword sheds 5ft of dim light. Whenever you hit with a weapon attack using this sword, the sword deals an additional 1d10 amount of radiant damage. This damage becomes 2d10 against an evil aligned creature. The sword’s holy glow becomes brighter the closer you are to an evil aligned creature. When you are within 10 ft of a creature with an evil alignment, the sword sheds 5 ft of bright light and dim light for an additional 5 ft. The sword tells its wielder telepathically who or what the evil creature is when it detects it. A magic item or spell that blocks divination magic blocks this ability."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Dormant",
+            "entries": [
+              "The longsword grants grants the following benefits in its dormant state:",
+              {
+                "type": "list",
+                "items": [
+                  "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                  "{@b Evil's Bane} As an action, you can subdue evil’s might using this legendary sword. Choose any number of evil aligned creatures you can see within 10 feet of you, those creatures have disadvantage on attack rolls and saving throws while within 10 feet of you for the next minute. Once you use this property, you cannot use it again until the next dawn.",
+                  "{@b Divine Protection.} As an action, you can cast the {@spell protection from evil and good} spell once using this sword without spending a spell slot or requiring material components. Once you do so, you cannot do so again until the next dawn. Charisma is your spellcasting ability for this spell.",
+                  "{@b Divine Might.} You can use your charisma modifier for the attack and damage rolls of this weapon instead of strength."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Awakened",
+            "entries": [
+              "The longsword grants grants the following benefits in its awakened state:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +2.",
+                  "You can use Evil’s Bane and Divine Protection twice per dawn instead of once. ",
+                  "{@b Angelic Wings.} You sprout a beautiful pair of feathered wings that grant you a flying speed of 90 feet and the ability to hover. If you already have a different kind of wings, these new wings replace the old ones, which fall off.",
+                  "While holding the longsword, you can use an action to cast {@spell Tasha's Otherworldly Guise|TCE} (You can only choose the upper planes option). Once the spell has been cast using the longsword, it can't be cast from the longsword again until the next dawn. Charisma is your spellcasting ability for this spell."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Exalted",
+            "entries": [
+              "The longsword grants the following benefits in its exalted state:",
+              {
+                "type": "list",
+                "items": [
+                  "The weapon's bonus to attack and damage rolls increases to +3. The damage dealt by this longsword ignores any resistance and immunities when dealing damage to an evil aligned creature.",
+                  "{@b Eyes of the Divine.} Your eyes become luminous pools of silver. You gain truesight out to a range of 60 feet.",
+                  "You can use Evil’s Bane and Divine Protection three times per dawn instead of twice.",
+                  "While holding the longsword, you can use an action to cast one of the following spells from it (save DC 20): {@spell Holy Aura}, {@spell Imprisonment}. Once a spell has been cast using the longsword, that spell can't be cast from the longsword again until the next dawn. You can cast {@spell imprisonment} with its original casting time instead. An evil creature automatically fails the saving throw for imprisonment, but only if you cast it using its full casting time instead of an action. For the purposes of the imprisonment, the creature is sealed within the sword and cannot be released by any means short of a properly worded {@spell wish}., even so there is a 30 percent chance the wish can fail."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Artifact Properties",
+            "entries": [
+              "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+            ]
+          }
+        ]
+      }
+    ]
   ]
 }
