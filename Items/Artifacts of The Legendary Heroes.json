@@ -411,185 +411,181 @@
         }
       ]
     },
-    [
-      {
-        "name": "Lost Sword of The Forgotten Hero",
-        "source": "AoTLH",
-        "page": 1,
-        "baseItem": "longsword|PHB",
-        "type": "M",
-        "rarity": "artifact",
-        "reqAttune": true,
-        "weight": 1,
-        "weaponCategory": "martial",
-        "property": [
-          "F",
-          "V",
-          "L"
-        ],
-        "dmg1": "1d8",
-        "dmg2": "1d10",
-        "dmgType": "S",
-        "bonusWeapon": "+1",
-        "weapon": true,
-        "entries": [
-          "This elven-made longsword appears lighter than it should be. You can feel something powerful from the blade but it appears to be faint. A subtle hum can be felt from the blade from time to time, mayhaps more power lies within it, a dormant hidden power.",
-          {
-            "type": "entries",
-            "name": "Dormant",
-            "entries": [
-              "The longsword grants grants the following benefits in its dormant state:",
-              {
-                "type": "list",
-                "items": [
-                  "You can speak, read, and write Elvish and Sylvan.",
-                  "You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.",
-                  "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                  "{@b Blade of Light.} You can use an action to cause the blade to glow with radiant energy. For a number of hours equal to your proficiency bonus, the blade emits a bright light out to a range of 30 ft and dim light out to an additional 30 ft. While emitting this light, its damage becomes radiant instead of slashing and it deals an additional 1d8 radiant damage on hit (1d10 if you were wielding it with two hands). Once you’ve used this benefit, you can’t use it again until the next dawn.",
-                  "{@b Guiding Hero.} While holding this blade if you fail an ability check, attack roll, or saving throw, you can use your reaction to reroll the d20 taking the new result potentially causing a success. Once you’ve used this benefit you cannot use it again until the next dawn.",
-                  "{@b Dormant Hero.} While holding this blade you have advantage on saving throws made against being charmed or frightened."
-                ]
-              }
-            ]
-          },
-          {
-            "type": "entries",
-            "name": "Awakened",
-            "entries": [
-              "The longsword grants grants the following benefits in its awakened state:",
-              {
-                "type": "list",
-                "items": [
-                  "The weapon's bonus to attack and damage rolls increases to +2.",
-                  "{@b Awakened Critical.} Whenever you score a critical hit using this weapon, you deal an additional 1d8 slashing damage (1d10 if you were wielding it with two hands).",
-                  "{@b Awakened Hero.} While holding this blade you are immune to being frightened and have resistance to radiant and necrotic damage.",
-                  "You can use your Guiding Hand and Blade of Light benefits twice per dawn instead of once."
-                ]
-              }
-            ]
-          },
-          {
-            "type": "entries",
-            "name": "Exalted",
-            "entries": [
-              "The longsword grants the following benefits in its exalted state:",
-              {
-                "type": "list",
-                "items": [
-                  "The weapon's bonus to attack and damage rolls increases to +3.",
-                  "{@b Exalted Hero.} While attuned to this weapon, you are immune to being charmed and frightened and cannot be aged magically. In addition, you have advantage on saving throws made against harmful effects.",
-                  "{@b Boon of Heroic Deeds.} Choose one of the Epic Boons found in pg 232 of the Dungeon Master’s Guide. You gain the benefits of that boon while attuned to this weapon.",
-                  "You can use your Guiding Hand and Blade of Light benefits three times per dawn instead of twice."
-                ]
-              }
-            ]
-          },
-          {
-            "type": "inset",
-            "name": "Artifact Properties",
-            "entries": [
-              "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
-            ]
-          }
-        ]
-      }
-    ],
-    [
-      {
-        "name": "The Sword of Legend, Excalibur",
-        "source": "AoTLH",
-        "page": 1,
-        "baseItem": "longsword|PHB",
-        "type": "M",
-        "rarity": "artifact",
-        "reqAttune": true,
-        "weight": 1,
-        "weaponCategory": "martial",
-        "property": [
-          "V",
-          "L"
-        ],
-        "dmg1": "1d8",
-        "dmg2": "1d10",
-        "dmgType": "S",
-        "bonusWeapon": "+1",
-        "weapon": true,
-        "entries": [
-          "There is an inscription written on the blade of this weapon. The inscription is written in Celestial. {@i “He who shall wield the hilt of this legendary blade; shall possess the courage and strength of the greatest hero known to mankind. The sealer of darkness and king of men, Excalibur.”}",
-          "Also known as the sword of evil’s bane, the darkness sealing blade, arms of the true king, and many other names. This sword is forged by the holiest of steel and righteous gold mined from Mount Celestia. Its power reverberates in its wielder’s hand, and has the strength to harm even the mightiest of foes. Only they who should ever be worthy can release the blade from its prison. Even the gods cannot break the seal on this artifact. ",
-          "This longsword belonged to the legendary hero Adam Alexandr. “Excalibur” was the name he donned after choosing to become a hero instead of a ruler. The weapon chooses who can attune to it and who can't. It desires a wielder who embodies bravery, compassion, and heroism.",
-          {
-            "type": "entries",
-            "name": "Attunement",
-            "entries": [
-              "The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. Your alignment becomes lawful good, and you gain the following traits:",
-              {
-                "type": "list",
-                "items": [
-                  "{@b Angelic Language.} You can speak, read, and write Celestial.",
-                  "{@b Celestial Resistance.} You have resistance to necrotic and radiant damage.",
-                  "{@b Holy Light} The sword sheds 5ft of dim light. Whenever you hit with a weapon attack using this sword, the sword deals an additional 1d10 amount of radiant damage. This damage becomes 2d10 against an evil aligned creature. The sword’s holy glow becomes brighter the closer you are to an evil aligned creature. When you are within 10 ft of a creature with an evil alignment, the sword sheds 5 ft of bright light and dim light for an additional 5 ft. The sword tells its wielder telepathically who or what the evil creature is when it detects it. A magic item or spell that blocks divination magic blocks this ability."
-                ]
-              }
-            ]
-          },
-          {
-            "type": "entries",
-            "name": "Dormant",
-            "entries": [
-              "The longsword grants grants the following benefits in its dormant state:",
-              {
-                "type": "list",
-                "items": [
-                  "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-                  "{@b Evil's Bane} As an action, you can subdue evil’s might using this legendary sword. Choose any number of evil aligned creatures you can see within 10 feet of you, those creatures have disadvantage on attack rolls and saving throws while within 10 feet of you for the next minute. Once you use this property, you cannot use it again until the next dawn.",
-                  "{@b Divine Protection.} As an action, you can cast the {@spell protection from evil and good} spell once using this sword without spending a spell slot or requiring material components. Once you do so, you cannot do so again until the next dawn. Charisma is your spellcasting ability for this spell.",
-                  "{@b Divine Might.} You can use your charisma modifier for the attack and damage rolls of this weapon instead of strength."
-                ]
-              }
-            ]
-          },
-          {
-            "type": "entries",
-            "name": "Awakened",
-            "entries": [
-              "The longsword grants grants the following benefits in its awakened state:",
-              {
-                "type": "list",
-                "items": [
-                  "The weapon's bonus to attack and damage rolls increases to +2.",
-                  "You can use Evil’s Bane and Divine Protection twice per dawn instead of once. ",
-                  "{@b Angelic Wings.} You sprout a beautiful pair of feathered wings that grant you a flying speed of 90 feet and the ability to hover. If you already have a different kind of wings, these new wings replace the old ones, which fall off.",
-                  "While holding the longsword, you can use an action to cast {@spell Tasha's Otherworldly Guise|TCE} (You can only choose the upper planes option). Once the spell has been cast using the longsword, it can't be cast from the longsword again until the next dawn. Charisma is your spellcasting ability for this spell."
-                ]
-              }
-            ]
-          },
-          {
-            "type": "entries",
-            "name": "Exalted",
-            "entries": [
-              "The longsword grants the following benefits in its exalted state:",
-              {
-                "type": "list",
-                "items": [
-                  "The weapon's bonus to attack and damage rolls increases to +3. The damage dealt by this longsword ignores any resistance and immunities when dealing damage to an evil aligned creature.",
-                  "{@b Eyes of the Divine.} Your eyes become luminous pools of silver. You gain truesight out to a range of 60 feet.",
-                  "You can use Evil’s Bane and Divine Protection three times per dawn instead of twice.",
-                  "While holding the longsword, you can use an action to cast one of the following spells from it (save DC 20): {@spell Holy Aura}, {@spell Imprisonment}. Once a spell has been cast using the longsword, that spell can't be cast from the longsword again until the next dawn. You can cast {@spell imprisonment} with its original casting time instead. An evil creature automatically fails the saving throw for imprisonment, but only if you cast it using its full casting time instead of an action. For the purposes of the imprisonment, the creature is sealed within the sword and cannot be released by any means short of a properly worded {@spell wish}., even so there is a 30 percent chance the wish can fail."
-                ]
-              }
-            ]
-          },
-          {
-            "type": "inset",
-            "name": "Artifact Properties",
-            "entries": [
-              "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
-            ]
-          }
-        ]
-      }
-    ]
+    {
+      "name": "Lost Sword of The Forgotten Hero",
+      "source": "AoTLH",
+      "page": null,
+      "baseItem": "longsword",
+      "type": "M",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "weight": 1,
+      "weaponCategory": "martial",
+      "property": [
+        "F",
+        "V",
+        "L"
+      ],
+      "dmg1": "1d8",
+      "dmg2": "1d10",
+      "dmgType": "S",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "This elven-made longsword appears lighter than it should be. You can feel something powerful from the blade but it appears to be faint. A subtle hum can be felt from the blade from time to time, mayhaps more power lies within it, a dormant hidden power.",
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The longsword grants grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You can speak, read, and write Elvish and Sylvan.",
+                "You have darkvision out to a range of 60 feet. If you already have darkvision, being attuned to the rapier increases the range of your darkvision by 60 feet.",
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "{@b Blade of Light.} You can use an action to cause the blade to glow with radiant energy. For a number of hours equal to your proficiency bonus, the blade emits a bright light out to a range of 30 ft and dim light out to an additional 30 ft. While emitting this light, its damage becomes radiant instead of slashing and it deals an additional 1d8 radiant damage on hit (1d10 if you were wielding it with two hands). Once you’ve used this benefit, you can’t use it again until the next dawn.",
+                "{@b Guiding Hero.} While holding this blade if you fail an ability check, attack roll, or saving throw, you can use your reaction to reroll the d20 taking the new result potentially causing a success. Once you’ve used this benefit you cannot use it again until the next dawn.",
+                "{@b Dormant Hero.} While holding this blade you have advantage on saving throws made against being charmed or frightened."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Awakened",
+          "entries": [
+            "The longsword grants grants the following benefits in its awakened state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +2.",
+                "{@b Awakened Critical.} Whenever you score a critical hit using this weapon, you deal an additional 1d8 slashing damage (1d10 if you were wielding it with two hands).",
+                "{@b Awakened Hero.} While holding this blade you are immune to being frightened and have resistance to radiant and necrotic damage.",
+                "You can use your Guiding Hand and Blade of Light benefits twice per dawn instead of once."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Exalted",
+          "entries": [
+            "The longsword grants the following benefits in its exalted state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +3.",
+                "{@b Exalted Hero.} While attuned to this weapon, you are immune to being charmed and frightened and cannot be aged magically. In addition, you have advantage on saving throws made against harmful effects.",
+                "{@b Boon of Heroic Deeds.} Choose one of the Epic Boons found in pg 232 of the Dungeon Master’s Guide. You gain the benefits of that boon while attuned to this weapon.",
+                "You can use your Guiding Hand and Blade of Light benefits three times per dawn instead of twice."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Artifact Properties",
+          "entries": [
+            "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Sword of Legend, Excalibur",
+      "source": "AoTLH",
+      "page": null,
+      "baseItem": "longsword",
+      "type": "M",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "weight": 1,
+      "weaponCategory": "martial",
+      "property": [
+        "V",
+        "L"
+      ],
+      "dmg1": "1d8",
+      "dmg2": "1d10",
+      "dmgType": "S",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "There is an inscription written on the blade of this weapon. The inscription is written in Celestial: {@i \"He who shall wield the hilt of this legendary blade; shall possess the courage and strength of the greatest hero known to mankind. The sealer of darkness and king of men, Excalibur.\"}",
+        "Also known as the sword of evil’s bane, the darkness sealing blade, arms of the true king, and many other names. This sword is forged by the holiest of steel and righteous gold mined from Mount Celestia. Its power reverberates in its wielder’s hand, and has the strength to harm even the mightiest of foes. Only they who should ever be worthy can release the blade from its prison. Even the gods cannot break the seal on this artifact. ",
+        "This longsword belonged to the legendary hero Adam Alexandr. “Excalibur” was the name he donned after choosing to become a hero instead of a ruler. The weapon chooses who can attune to it and who can't. It desires a wielder who embodies bravery, compassion, and heroism.",
+        {
+          "type": "entries",
+          "name": "Attunement",
+          "entries": [
+            "The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. Your alignment becomes lawful good, and you gain the following traits:",
+            {
+              "type": "list",
+              "items": [
+                "{@b Angelic Language.} You can speak, read, and write Celestial.",
+                "{@b Celestial Resistance.} You have resistance to necrotic and radiant damage.",
+                "{@b Holy Light.} The sword sheds 5ft of dim light. Whenever you hit with a weapon attack using this sword, the sword deals an additional 1d10 amount of radiant damage. This damage becomes 2d10 against an evil aligned creature. The sword’s holy glow becomes brighter the closer you are to an evil aligned creature. When you are within 10 ft of a creature with an evil alignment, the sword sheds 5 ft of bright light and dim light for an additional 5 ft. The sword tells its wielder telepathically who or what the evil creature is when it detects it. A magic item or spell that blocks divination magic blocks this ability."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The longsword grants grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "{@b Evil's Bane.} As an action, you can subdue evil’s might using this legendary sword. Choose any number of evil aligned creatures you can see within 10 feet of you, those creatures have disadvantage on attack rolls and saving throws while within 10 feet of you for the next minute. Once you use this property, you cannot use it again until the next dawn.",
+                "{@b Divine Protection.} As an action, you can cast the {@spell protection from evil and good} spell once using this sword without spending a spell slot or requiring material components. Once you do so, you cannot do so again until the next dawn. Charisma is your spellcasting ability for this spell.",
+                "{@b Divine Might.} You can use your charisma modifier for the attack and damage rolls of this weapon instead of strength."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Awakened",
+          "entries": [
+            "The longsword grants grants the following benefits in its awakened state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +2.",
+                "You can use Evil’s Bane and Divine Protection twice per dawn instead of once. ",
+                "{@b Angelic Wings.} You sprout a beautiful pair of feathered wings that grant you a flying speed of 90 feet and the ability to hover. If you already have a different kind of wings, these new wings replace the old ones, which fall off.",
+                "While holding the longsword, you can use an action to cast {@spell Tasha's Otherworldly Guise|TCE} (You can only choose the upper planes option). Once the spell has been cast using the longsword, it can't be cast from the longsword again until the next dawn. Charisma is your spellcasting ability for this spell."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Exalted",
+          "entries": [
+            "The longsword grants the following benefits in its exalted state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +3. The damage dealt by this longsword ignores any resistance and immunities when dealing damage to an evil aligned creature.",
+                "{@b Eyes of the Divine.} Your eyes become luminous pools of silver. You gain truesight out to a range of 60 feet.",
+                "You can use Evil’s Bane and Divine Protection three times per dawn instead of twice.",
+                "While holding the longsword, you can use an action to cast one of the following spells from it (save DC 20): {@spell Holy Aura}, {@spell Imprisonment}. Once a spell has been cast using the longsword, that spell can't be cast from the longsword again until the next dawn. You can cast {@spell imprisonment} with its original casting time instead. An evil creature automatically fails the saving throw for imprisonment, but only if you cast it using its full casting time instead of an action. For the purposes of the imprisonment, the creature is sealed within the sword and cannot be released by any means short of a properly worded {@spell wish}., even so there is a 30 percent chance the wish can fail."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Artifact Properties",
+          "entries": [
+            "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        }
+      ]
+    }
   ]
 }
