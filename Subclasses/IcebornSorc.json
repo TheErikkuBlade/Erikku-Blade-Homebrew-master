@@ -63,6 +63,44 @@
         "{@i 1st-level Iceborn feature}",
         "Born from wastes made of ice and snow, your ancestors come from the faraway tundras. From the deep Abyss to the 5th layer of the Nine Hells, Stygia, your heritage can range from primordial beings of ice to even the most fiendish creatures. Your powers can also be gifts from these same otherworldly beings. Gods and Goddesses of Winter, such as Auril, are also prime candidates for the origin of these powers. Consult the Iceborn Origins table, or work with your DM on where your ice magic stems from.",
         {
+          "type": "table",
+          "caption": "Iceborn Origins",
+          "colLabels": [
+            "{@dice d6}",
+            "Origin"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              1,
+              "You were born in a frozen wasteland, void of any other life except the ones who birthed you and other creatures that could withstand the frozen climate. Frost naturally builds up on your body even in extremely hot environments."
+            ],
+            [
+              2,
+              "You were granted a boon of magic from the god/goddess of winter, giving you control over the very foundation of cryomancy. This boon grants you similar traits to that of an aasimar, including glowing eyes or even an icey halo."
+            ],
+            [
+              3,
+              "One of or both of your parents were devils from the 5th level of hell, Stygia, giving you a natural connection to the magic found in the frigid climate, causing your skin to be naturally paler than what’s common from your race."
+            ],
+            [
+              4,
+              "A White or Silver dragon is a long distant ancestor of yours, giving you various magical traits. Your teeth and fingernails are naturally sharper than what’s common for your race, but not enough to grant any physical improvement. You may even have lingering draconic scales."
+            ],
+            [
+              5,
+              "An ice elemental gifted a relative of yours a magical boon. Snow slowly emits off your body and instantly melts when it hits the ground."
+            ],
+            [
+              6,
+              "You were birthed or branded by a Demon from the Abyss. You have a magical brand on your body that is cold to the touch. Your skin surrounding the mark is frostbitten, but not pain can be felt from it."
+            ]
+          ]
+        },
+        {
           "type": "refSubclassFeature",
           "subclassFeature": "Frozen Ancestry|Sorcerer|PHB|Iceborn|IcebornSorc|1"
         },
