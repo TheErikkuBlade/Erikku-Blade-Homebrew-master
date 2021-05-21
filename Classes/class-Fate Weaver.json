@@ -794,6 +794,67 @@
             "Boon of Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|14",
             "Balance of the Weave|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|18"
           ]
+        },
+        {
+          "name": "Aspect of The Euryale",
+          "shortName": "The Euryale",
+          "source": "FateWeaverJan2021",
+          "page": 16,
+          "subclassSpells": [
+            "Bane",
+            {
+              "name": "Chaos Bolt",
+              "source": "XGE"
+            },
+            "Alter Self",
+            "Spider Climb",
+            "Bestow Curse",
+            "Fear",
+            "Evard's Black Tentacles",
+            "Phantasmal Killer",
+            "Antilife Shell",
+            "Contagion"
+          ],
+          "subclassFeatures": [
+            "Aspect of The Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1",
+            "Gaze of the Cursed One|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
+            "Fear Your Many Fates|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
+            "Eyes of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|10",
+            "Boon of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|14",
+            "Euryale’s Disciple|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|18"
+          ]
+        },
+        {
+          "name": "Aspect of The Vizier",
+          "shortName": "The Vizier",
+          "source": "FateWeaverJan2021",
+          "page": 16,
+          "subclassSpells": [
+            {
+              "name": "Gift of Alacrity",
+              "source": "EGW"
+            },
+            "Identify",
+            "Augury",
+            {
+              "name": "Fortune's Favor",
+              "source": "EGW"
+            },
+            "Clairvoyance",
+            "Tounges",
+            "Arcane Eye",
+            "Divination",
+            "Commune",
+            "Legend Lore"
+          ],
+          "subclassFeatures": [
+            "Aspect of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1",
+            "Shield of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
+            "Vizier's Divination|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
+            "Visions of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|10",
+            "Boon of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|14",
+            "Vizier of the Weave|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|18"
+          ]
         }
       ],
       "fluff": [
@@ -2346,7 +2407,7 @@
       "level": 1,
       "header": 1,
       "entries": [
-        "Starting at 1st level, as an action you can begin to emit a bright aura of light for 1 hour. Your aura sheds a bright light for 30 ft. and dim light for an additional 30 ft. In addition, each friendly creature within the bright light of the aura adds a +1 bonus to their AC and saving throws. In addition, you can use your Fate Weaving feature to instead add radiant damage to an attack or spell that deals damage equal to what you roll on the faste die.",
+        "Starting at 1st level, as an action you can begin to emit a bright aura of light for 1 hour. Your aura sheds a bright light for 30 ft. and dim light for an additional 30 ft. In addition, each friendly creature within the bright light of the aura adds a +1 bonus to their AC and saving throws. In addition, you can use your Fate Weaving feature to instead add radiant damage to an attack or spell that deals damage equal to what you roll on the fate die.",
         "When your Shining Energy ends you cannot use the benefits of it again until you finish a long rest. You can still emit an aura of light as described above freely, but only out to half the normal range."
       ]
     },
@@ -2961,6 +3022,469 @@
         "In addition, whenever you change a roll from advantage or disadvantage to a normal roll, you can roll a fate die and regain a number of hit points equal to the number rolled. Rolling a fate die in this way does not expend a use of it."
       ],
       "page": 15,
+      "header": 2
+    },
+    {
+      "name": "Aspect of The Euryale",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "Fate is a tricky thing, sometimes it is not always in your favor, sometimes fate has other plans for you. Fate weavers of this aspect are often cursed with their magical power as opposed to being chosen by the gods of fate or magic. There are moments where their magic goes out of their control and potentially harms themselves or their allies. However, while there is definitely a risk there is also a lot of reward that can come from this aspect of fate. ",
+        "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+        {
+          "type": "table",
+          "caption": "Aspect Spells",
+          "colLabels": [
+            "Fate Weaver Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell bane}, {@spell chaos bolt|XGE}"
+            ],
+            [
+              "3rd",
+              "{@spell alter self}, {@spell spider climb}"
+            ],
+            [
+              "5th",
+              "{@spell bestow curse}, {@spell fear}"
+            ],
+            [
+              "7th",
+              "{@spell evard's black tentacles}, {@spell phantasmal killer}"
+            ],
+            [
+              "9th",
+              "{@spell antilife shell}, {@spell contagion}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Curse of The Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Fateful Chaos|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Cursed Origins|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1"
+        }
+      ],
+      "page": 16
+    },
+    {
+      "name": "Curse of The Euryale",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Euryale Feature}",
+        "As a result of your curse your magic becomes wildly unpredictable, even to you. Whenever you cast a spell of 1st level or higher, roll a {@dice d20}. On a 1 or 20, your magic acts in an unexpected way. The spell’s effect applies as normal, but roll a die equal to your fate die. A random effect is applied depending on the result. Consult the following chart to determine the outcome:",
+        {
+          "type": "table",
+          "caption": "Curse of Euryale Outcomes",
+          "colLabels": [
+            "Fate Die",
+            "Outcome"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              1,
+              "The wild magic surges around you with a destructive force as you cast the spell. You and creatures within 30 ft of you take force damage equal to fate weaver level plus your proficiency bonus."
+            ],
+            [
+              2,
+              "For the next day, your skin tone changes color every 30 minutes, cycling through the colors of the rainbow. A {@spell remove curse} spell can end this effect early."
+            ],
+            [
+              3,
+              "You gain the voice of an eldritch horror. For the next hour, you can only speak in deep speech. A {@spell remove curse} spell can end this effect early."
+            ],
+            [
+              4,
+              "Your hair stands up as if a lightning bolt is about to strike you. At the start of your next turn, a lightning bolt strikes, you and each creature within 5 feet of you make a dexterity saving throw against your spell save dc or take lightning damage equal to two of your fate dice."
+            ],
+            [
+              5,
+              "Your magic becomes so potent it shocks the creature into a daze. Creatures affected by your spell become stunned until the end of your next turn. If the spell required a saving throw and they passed the save, they are not stunned."
+            ],
+            [
+              6,
+              "You exude a potent sleeping gas that goes out to a radius of 20 ft centered on you. Each creature within the radius, including you, that has 50 hit points or fewer fall {@condition unconscious} for 10 minutes. Creatures that cannot be put to sleep by magic, such as elves, are unaffected. A creature that is immune to being {@condition charmed} is also unaffected. A creature can use its action to wake an {@condition unconscious} creature from this effect. If a creature was not put to sleep, it instead has disadvantage on ability checks, attack rolls, and saving throws for the next minute, or until a creature uses its action to shake the target, ending the effect."
+            ],
+            [
+              7,
+              "A wave of healing energy washes over creatures within 10 feet of you. They regain an amount of hit points equal to one of your fate die plus your proficiency bonus. This healing does not affect undead or constructs."
+            ],
+            [
+              8,
+              "Your body begins to lock up and freeze in place. After you have fully cast your spell, you are {@condition paralyzed} until the end of your next turn."
+            ],
+            [
+              9,
+              "A spiritual elk appears in an unoccupied space within 10 feet of you. It uses the statistics of a {@creature Unicorn|MM} and fights alongside you for the next minute."
+            ],
+            [
+              10,
+              "Radiant energy builds up around you and explodes outward. You and every creature within 60 feet of you make a constitution saving throw against your spell save dc or take radiant damage equal to five times your level and are {@condition blinded} on a failed save, or half as much on a success and are not {@condition blinded}."
+            ],
+            [
+              11,
+              "You begin to see visions of alternative timelines and events. You regain all of your expended fate dice and one expended use of your Boon of Fate feature."
+            ],
+            [
+              12,
+              "Magic overflows in your body. You recover all your expended spell slots."
+            ]
+          ]
+        }
+      ],
+      "header": 1,
+      "page": 16
+    },
+    {
+      "name": "Fateful Chaos",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Euryale Feature}",
+        "You have dominion over the laws of chaos which allows you to control your own fate. As an action you gain a single point of luck as per the lucky feat. Once you use this feature you cannot use this feature again until you finish a long rest.",
+        "Any time before you regain the use of this feature, the DM can have you roll on the Curse of Euryale Outcomes table immediately after you cast a fate weaver spell of 1st level or higher. You then regain the use of this feature."
+      ],
+      "header": 1,
+      "page": 16
+    },
+    {
+      "name": "Cursed Origins",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Euryale Feature}",
+        "Your magical powers are a result of an ever-growing curse that you received at some point in your life. The curse cannot be removed via the remove curse spell and cannot be undone by any means short of a {@spell wish} spell, so long as you are willing to allow the change. If you are unwilling to have the curse lifted, the curse remains. Choose one of or roll on the Cursed Origins table to determine the nature of this curse. Alternatively you can work with your DM on incorporating the curse through your powers.",
+        {
+          "type": "table",
+          "caption": "Cursed Origins Table",
+          "colLabels": [
+            "{@dice d6}",
+            "Cursed Origin"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              1,
+              "You or your parents were offered eternal beauty by the god of snakes. Instead, you were cursed to have fangless snakes for hair."
+            ],
+            [
+              2,
+              "You were branded with a painful mark by a powerful archdemon or archdevil. The skin around your branded mark is scorched black."
+            ],
+            [
+              3,
+              "You were fated to die at birth. Your parents made a deal with a god to ensure your birth, but they were unaware of the consequences."
+            ],
+            [
+              4,
+              "Your body is riddled with various arcane tattoos. The magic exuding from the tattoos is very unstable."
+            ],
+            [
+              5,
+              "You were born a bastard child of a god. At birth you were sent back to the material plane cursed to live as a mortal."
+            ],
+            [
+              6,
+              "You perished at the twilight inbetween the beginning and the end of the year. The gods took pity on you and resurrected you. Your skin is pale white and your eyes are as black as night."
+            ]
+          ]
+        }
+      ],
+      "header": 1,
+      "page": 16
+    },
+    {
+      "name": "Gaze of the Cursed One",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level Euryale Feature}",
+        "Your gaze is empowered by your chaotic magic and your potent curse. As an action you can spend a fate die to shift your gaze to a creature you can see within 60 feet of you. You invoke a powerful curse to that target that lasts for 1 minute. The curse ends early if the target dies, you die, or you are incapacitated. A remove curse can also end the effect early. Until the curse ends, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus. You gain this bonus up to twice per round.",
+            "While you are within 60 feet of the cursed target, you can use a bonus action on each of your turns to make a ranged spell attack against it. If it hits, the target takes damage equal to your fate die and is poisoned until the end of their next turn.",
+            "While you are within 30 feet of the cursed target, as an action you can use a powerful magical force to lock them in place. The target must make a Constitution saving throw against your spell save DC. On a failed save they are incapacitated and their movement is reduced to 0 until the start of your next turn."
+          ]
+        },
+        "Once you have used this feature, you cannot use it again until you finish a long rest or you can spend a use of your Divination Dice to regain the use of this ability."
+      ],
+      "page": 16,
+      "header": 2
+    },
+    {
+      "name": "Fear Your Many Fates",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level Euryale Feature}",
+        "A creature that is frightened by you, whether by normal or magical means, has disadvantage on saving throws against your spells and other magical effects.",
+        "As a reaction, you can spend a fate die and roll it to increase the number of rounds you can concentrate on a spell that frightens a creature by an amount equal to the number rolled."
+      ],
+      "page": 16,
+      "header": 2
+    },
+    {
+      "name": "Eyes of Euryale",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 10,
+      "entries": [
+        "{@i 10th-level Euryale Feature}",
+        "Your eyes have been enchanted by the power of your curse, permanently altering its properties. You are immune to being blinded and you gain darkvision out to a range of 60 feet. If you already had darkvision, it’s range is increased by 60 feet. You can see normally in darkness, both magical and nonmagical, to a distance of 60 feet.",
+        "In addition, when you use your Gaze of the Curse One you can target two creatures instead of one."
+      ],
+      "page": 16,
+      "header": 2
+    },
+    {
+      "name": "Boon of Euryale",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 14,
+      "entries": [
+        "{@i 14th-level Euryale Feature}",
+        "You are immune to being petrified. In addition, as an action you can magically turn a creature cursed by your Gaze of the Cursed One feature. You cast the Flesh to Stone spell without expending a spell slot even if you do not know the spell. ",
+        "Once a creature is turned to stone from this boon, you cannot cast the spell again until you finish a long rest or you can expend a use of your Spell Weaving feature to regain the ability to cast the spell."
+      ],
+      "page": 16,
+      "header": 2
+    },
+    {
+      "name": "Euryale’s Disciple",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Euryale",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 18,
+      "entries": [
+        "{@i 18th-level Euryale Feature}",
+        "When a creature cursed by your Gaze if the Cursed One feature dies, you regain an expended fate die and you can spend your reaction to move the curse to another target within range.",
+        "In addition, when a creature is turned to stone by your Boon of Euryale feature, you gain a number of temporary hit points equal to the largest hit die of that creature plus your Fate Weaver level.",
+        "You can use both of these features a total number of times equal to your Charisma modifier, regaining the ability to use them when you finish a long rest."
+      ],
+      "page": 16,
+      "header": 2
+    },
+    {
+      "name": "Aspect of The Vizier",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "Fate weavers by nature have the ability to see into the weave of fate, but few have mastered the art as well as the aspects of the vizier. The future is theirs to see and weave to their whim. Many viziers are often summoned by kings and queens to learn of their fateful demise in hopes to avoid it. Most viziers, however, serve the world as fortune tellers for trade. They offer advice to those misguided, give hope to those who seek love, and give confidence to those who doubt themselves.",
+        "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+        {
+          "type": "table",
+          "caption": "Aspect Spells",
+          "colLabels": [
+            "Fate Weaver Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell gift of alacrity|EGW}, {@spell identify}"
+            ],
+            [
+              "3rd",
+              "{@spell augury}, {@spell fortune's favor|EGW}"
+            ],
+            [
+              "5th",
+              "{@spell clairvoyance}, {@spell tongues}"
+            ],
+            [
+              "7th",
+              "{@spell divination}, {@spell locate creature}"
+            ],
+            [
+              "9th",
+              "{@spell commune}, {@spell legend lore}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Eyes of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Gaze of the Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1"
+        }
+      ],
+      "page": 17
+    },
+    {
+      "name": "Eyes of The Vizier",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Vizier Feature}",
+        "You know the {@spell guidance} cantrip and it does not count against your total number of fate weaver cantrips. If you so choose, you can cast the spell with a range of 60 feet.",
+        "Each time you cast {@spell guidance} on a creature, other than yourself, you gain a +1 bonus to ability checks to a maximum bonus equal to your proficiency bonus. You lose this bonus whenever you begin a short or long rest or if you cast {@spell guidance} on yourself.",
+        "Once you lose the bonus, you cannot gain it again until you finish a long rest."
+      ],
+      "header": 1,
+      "page": 17
+    },
+    {
+      "name": "Gaze of the Vizier",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Vizier Feature}",
+        "You can pry into the aspects of other creatures. As an action you can make a Wisdom (Insight) check against an opposing Charisma (Deception) check. On a successful save, you learn the creature’s type, its current hit points, and its armor class. If any of the aforementioned aspects change, you do not learn the change.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses at the end of a long rest."
+      ],
+      "header": 1,
+      "page": 16
+    },
+    {
+      "name": "Vizier's Divination",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level Vizier Feature}",
+        "After a roll is made for an ability check, attack roll, or saving throw from a creature within 30 feet of you, you can use your reaction to replace the roll with one of your divination dice after the roll is made. After you do so, you lose the divination die.",
+        "You can use this feature once, regaining the ability to do so after a short or long rest."
+      ],
+      "page": 17,
+      "header": 2
+    },
+    {
+      "name": "Shield of the Vizier",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level Vizier Feature}",
+        "Whenever you cast a divination spell using a spell slot of 1st level or higher, you gain a number of temporary hit points equal to your proficiency bonus plus the level of the spell."
+      ],
+      "page": 17,
+      "header": 2
+    },
+    {
+      "name": "Visions of The Vizier",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 10,
+      "entries": [
+        "{@i 10th-level Vizier Feature}",
+        "During a short rest you can reroll one of your unspent divination dice. If you don’t have any divination dice remaining, you can roll a new one. Once you do so, you cannot do so again until you finish a long rest."
+      ],
+      "page": 17,
+      "header": 2
+    },
+    {
+      "name": "Boon of The Vizier",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 14,
+      "entries": [
+        "{@i 14th-level Vizier Feature}",
+        "You can use Vizier’s Divination twice per short or long rest instead of once. In addition, creatures have disadvantage on saving throws against your divination spells and the duration of divination spells are doubled if they have one.",
+        "You can cast the Find the Path spell once without expending a spell slot regardless if you have the spell prepared or not. Once you do so you cannot do so again until you finish a long rest."
+      ],
+      "page": 17,
+      "header": 2
+    },
+    {
+      "name": "Vizier of the Weave",
+      "source": "FateWeaverJan2021",
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021",
+      "subclassShortName": "The Vizier",
+      "subclassSource": "FateWeaverJan2021",
+      "level": 18,
+      "entries": [
+        "{@i 18th-level Vizier Feature}",
+        "Whenever you cast a divination spell, such as Divination or Commune, that has a cumulative percent chance to give you either no answer, no reading, or a random reading, and your roll would determine one of those outcomes; you can choose to ignore that roll and gain the most honest and truthful reading anyways.",
+        "Once you do so you cannot do so again until you finish a long rest, and when you do so you have a guaranteed chance for that effect happening on your next casting of that spell, regardless if you have finished a long rest or not.",
+        "In addition, once as an action you can cast the Foresight spell regardless if you have the spell prepared or not. Doing so still spends the spell slot. When you cast the spell in this way, it only lasts for 1 minute instead of its normal duration. Once you do so you cannot do so again until you finish a long rest."
+      ],
+      "page": 17,
       "header": 2
     }
   ],
