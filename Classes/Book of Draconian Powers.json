@@ -22,7 +22,7 @@
       "source": "DrP",
       "name": "All Knowing Eyes",
       "entries": [
-        "You learn the identify spell and can cast it once without requiring components or spending a spell slot. Charisma is your spellcasting ability for this spell. Instead of having a range of touch, you can identify an object so long as you can see it and is within 30 ft. Once you cast this spell, you cannot cast it again until you finish a short or long rest. If you have the spellcasting or pact magic feature, you can cast this spell using one of those spell slots, but you use the original components and range to do so."
+        "You learn the {@spell identify} spell and can cast it once without requiring components or spending a spell slot. Charisma is your spellcasting ability for this spell. Instead of having a range of touch, you can identify an object so long as you can see it and is within 30 ft. Once you cast this spell, you cannot cast it again until you finish a short or long rest. If you have the spellcasting or pact magic feature, you can cast this spell using one of those spell slots, but you use the original components and range to do so."
       ],
       "featureType": "Draconian Powers"
     },
@@ -55,7 +55,7 @@
       "source": "DrP",
       "name": "Eyes of the Magi Drakes",
       "entries": [
-        "You learn the detect magic spell and can cast it once without requiring components, regaining the usage of it after a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
+        "You learn the {@spell detect magic} spell and can cast it once without requiring components, regaining the usage of it after a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
       ],
       "featureType": "Draconian Powers"
     },
@@ -71,7 +71,7 @@
       "source": "DrP",
       "name": "Graceful Fall",
       "entries": [
-        "You can magically summon forth gales of wind powerful enough to stop your fall. You learn the feather fall spell and can cast it without spending a spell slot or requiring components once. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
+        "You can magically summon forth gales of wind powerful enough to stop your fall. You learn the {@spell feather fall} spell and can cast it without spending a spell slot or requiring components once. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
       ],
       "featureType": "Draconian Powers"
     },
@@ -190,7 +190,7 @@
           "level": {
             "level": 8,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           },
           "otherSummary": {
@@ -358,14 +358,14 @@
       "source": "DrP",
       "name": "Draconian Breath Weapon",
       "entries": [
-        "You gain a magical breath weapon that allows you to exhale elemental energies out to a range of 30 ft. If you chose a chromatic Draconic Origin, it becomes a cone. If you picked a metallic Draconic Origin, it becomes a line. The breath weapon takes an action to use and its damage corresponds to the damage you resist from the Draconic Origin you chose. Each creature within range of your breath weapon must make a Dexterity saving throw (dc equals 8 + proficiency bonus + constitution modifier) or they take 4d6 points of damage on a failed save, or half as much on a success. At level 9 its damage increases by 2d6 and its range increases by 10 ft. It increases again using the same amounts at 12th, 15th, and 18th levels. You have a number of uses of your Draconian Breath Weapon equal to your proficiency bonus and regain all expended uses after a long rest."
+        "You gain a magical breath weapon that allows you to exhale elemental energies out to a range of 30 ft. If you chose a chromatic Draconic Origin, it becomes a cone. If you chose a metallic or a gem Draconic Origin, it becomes a line. The breath weapon takes an action to use and its damage corresponds to the damage you resist from the Draconic Origin you chose. Each creature within range of your breath weapon must make a Dexterity saving throw (dc equals 8 + proficiency bonus + constitution modifier) or they take 4d6 points of damage on a failed save, or half as much on a success. At level 9 its damage increases by 2d6 and its range increases by 10 ft. It increases again using the same amounts at 12th, 15th, and 18th levels. You have a number of uses of your Draconian Breath Weapon equal to your proficiency bonus and regain all expended uses after a long rest."
       ],
       "prerequisite": [
         {
           "level": {
             "level": 6,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -376,14 +376,14 @@
       "source": "DrP",
       "name": "Draconian Familiar",
       "entries": [
-        "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon with this feature. The Pseudodragon has the “Familiar” feature when summoned in this way."
+        "You can conjure a tiny dragon to keep you company. You can ritual cast the {@spell Find Familiar} spell without requiring material components, but you can only summon a Pseudodragon with this feature. The Pseudodragon has the “Familiar” feature when summoned in this way."
       ],
       "prerequisite": [
         {
           "level": {
             "level": 6,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -401,7 +401,7 @@
           "level": {
             "level": 8,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -412,14 +412,14 @@
       "source": "DrP",
       "name": "Draconian Shapechanger",
       "entries": [
-        "You learn the disguise self and alter self spells, and can cast each of them without requiring components once per short or long rest without spending a spell slot. "
+        "You learn the {@spell disguise self} and {@spell alter self} spells, and can cast each of them without requiring components once per short or long rest without spending a spell slot. "
       ],
       "prerequisite": [
         {
           "level": {
             "level": 8,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -437,7 +437,7 @@
           "level": {
             "level": 8,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -455,7 +455,7 @@
           "level": {
             "level": 8,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -473,7 +473,7 @@
           "level": {
             "level": 8,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -484,14 +484,14 @@
       "source": "DrP",
       "name": "Greater Draconian Familiar",
       "entries": [
-        "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon or a Faerie Dragon with this feature. The Pseudodragon or Faerie Dragon has the “Familiar” feature when summoned in this way."
+        "You can conjure a tiny dragon to keep you company. You can ritual cast the {@spell Find Familiar} spell without requiring material components, but you can only summon a Pseudodragon or a Faerie Dragon with this feature. The Pseudodragon or Faerie Dragon has the “Familiar” feature when summoned in this way."
       ],
       "prerequisite": [
         {
           "level": {
             "level": 12,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -509,7 +509,7 @@
           "level": {
             "level": 12,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -527,7 +527,7 @@
           "level": {
             "level": 12,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -545,7 +545,7 @@
           "level": {
             "level": 14,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           },
           "otherSummary": {
@@ -577,7 +577,7 @@
           "level": {
             "level": 16,
             "class": {
-              "name": "Dragon Warrior, Dragon Shaman"
+              "name": "Dragon Warrior"
             }
           }
         }
@@ -882,7 +882,7 @@
       "source": "DrP",
       "name": "Rune of Spell Disruption",
       "entries": [
-        "A magical rune appears on your hand which contains the power to disrupt spells. You learn the counterspell and dispel magic spells. When you cast either of these spells, you cannot cast that spell using this rune again until you finish a long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
+        "A magical rune appears on your hand which contains the power to disrupt spells. You learn the {@spell counterspell} and {@spell dispel magic} spells. When you cast either of these spells, you cannot cast that spell using this rune again until you finish a long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
       ],
       "prerequisite": [
         {
@@ -946,47 +946,6 @@
     },
     {
       "source": "DrP",
-      "name": "Coming of Age",
-      "entries": [
-        "Your size increases by 1 stage when you use your Draconian Shape. In addition, when you transform using your Draconian Shape you gain temporary hit points equal to your constitution modifier plus your proficiency bonus."
-      ],
-      "prerequisite": [
-        {
-          "otherSummary": {
-            "entry": "Dragon Shaman",
-            "entrySummary": "Dragon Shaman"
-          }
-        }
-      ],
-      "featureType": "Draconian Powers"
-    },
-    {
-      "source": "DrP",
-      "name": "Aberrant Dragon",
-      "entries": [
-        "Whenever you would deal damage that would correspond with the damage you resist from your Draconic Origins, you can instead deal psychic damage. This choice can be made before or after you roll the damage, but before you know the result. In addition, you gain resistance to psychic damage and as a bonus action you can establish a telepathic link to one creature you can see within 30 feet of you. This telepathic link allows you to communicate freely telepathically for up to twice the amount you could normally speak in the span of 6 seconds. ",
-        "You are given two Warlock Spell Slots, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites). You also gain the Eldritch Blast and one additional cantrip from the Warlock Spellcasting List. You also gain 4 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 6th level Warlock.",
-        "As you gain Dragon Shaman levels, or if you choose this Draconian Power at a later level, you can replace the spells you know with other spells from the same spellcasting list. In addition, you learn 1 warlock spell for each dragon shaman level above 6th. You gain additional Warlock Spell Slot at 11th level, and another one at 17th level. You also gain an additional Eldritch Invocation at these given levels.",
-        "Your appearance also changes. Your body might have a coating of viscous slime, tough hide, scales, perhaps you have an invisible barrier or any other weird aberrant things your sick mind can come up with. As a result, this gives you an increase to your armor class equal to half your Intelligence modifier. (Rounded down to a minimum of 1)"
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 6,
-            "class": {
-              "name": "Dragon Shaman"
-            }
-          },
-          "otherSummary": {
-            "entry": "Dragon Shaman",
-            "entrySummary": "Dragon Shaman"
-          }
-        }
-      ],
-      "featureType": "Draconian Powers"
-    },
-    {
-      "source": "DrP",
       "name": "Powerful Form",
       "entries": [
         "While in your Draconic Shape, you have advantage on Strength ability checks and Strength saving throws. In addition, you add an amount of damage to your natural weapons equal to half your proficiency bonus (rounded down)."
@@ -1041,6 +1000,164 @@
           "otherSummary": {
             "entry": "Shaman",
             "entrySummary": "Shaman"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Limited Telepathy",
+      "entries": [
+        "You have a magical telepathic power that can be summoned at any time. You know the {@spell message} cantrip and can cast it without using components. Charisma is your spellcasting ability for this cantrip."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "any Gem Draconic Origin",
+            "entrySummary": "any Gem Draconic Origin"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Limited Psionics",
+      "entries": [
+        "You have a small pool of psionic power which you can call upon at any time. You know the {@spell Mind Sliver|TCE} cantrip. In addition you know the {@spell Dissonant Whispers} spell and can cast it without spending a spell slot or requiring components once. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "any Gem Draconic Origin",
+            "entrySummary": "any Gem Draconic Origin"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Improved Psionics",
+      "entries": [
+        "Your psionic powers have grown as you’ve slowly honed them. You learn the {@spell Tasha's Mind Whip|TCE} and {@spell Intellect Fortress|TCE} spells and can cast them without spending a spell slot or requiring components once. When you cast either spell in this manner, you cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for these spells and if you have the spellcasting or pact magic feature you can cast either of them using those appropriate spell slots, but doing so would require the necessary components."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "any Gem Draconic Origin, Limited Psionics",
+            "entrySummary": "any Gem Draconic Origin, Limited Psionics"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Improved Telepathy",
+      "entries": [
+        "Your telepathic powers have improved, allowing you to reach your mind out further than you were able to previously. You learn the {@spell Sending} and {@spell Rary's Telepathic Bond} spells and can cast them without spending a spell slot or requiring components once. When you cast either spell in this manner, you cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for these spells and if you have the spellcasting or pact magic feature you can cast either of them using those appropriate spell slots, but doing so would require the necessary components."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "any Gem Draconic Origin, Limited Telepathy",
+            "entrySummary": "any Gem Draconic Origin, Limited Telepathy"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Gem Growth",
+      "entries": [
+        "As an action you can produce gems out of your body to form a weapon in moments of desperation. When you do so, you form a weapon with the statistics of a {@item dagger} and its properties. Instead of dealing piercing damage, it deals the damage associated with the damage you resist from your Draconic Origin. After you hit with the weapon a number of times equal to your proficiency bonus, the weapon is destroyed as the gems are imperfect and brittle. You can use this power a number of times equal to your proficiency bonus, regaining the ability to do so after a long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "any Gem Draconic Origin",
+            "entrySummary": "any Gem Draconic Origin"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Leap to the Skies",
+      "entries": [
+        "Using the magical power dwelling within you, you can empower your leaps even further! You learn the {@spell Jump} spell and can cast it without spending a spell slot or requiring components once. The spell does not affect the distance you can jump using your lunging attack. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Skydancer Archetype",
+            "entrySummary": "Skydancer Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Dancing Whirlwind",
+      "entries": [
+        "When you use your Lunging Attack while your Dance of Dragons is active, you can forgo your advantage along with any additional attacks you make as part of your attack action to instead make a single weapon attack that targets each creature within 5 feet of the space you land as part of your lunging attack. You use that attack roll to determine if it hits each creature. If it hits at least one of those creatures, you roll the damage as if you had hit one creature, half the total, and deal that damage to each creature that was hit."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Skydancer Archetype",
+            "entrySummary": "Skydancer Archetype"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Dancing Whirlwind",
+      "entries": [
+        "When you use a Skydancing Art, you gain a legendary resistance. See “Legendary Resistance” from an Adult Dragon for reference. You can only gain up to 3 legendary resistances per long rest, and you can only gain a legendary resistance once per round."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 20,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Skydancer Archetype",
+            "entrySummary": "Skydancer Archetype"
           }
         }
       ],
