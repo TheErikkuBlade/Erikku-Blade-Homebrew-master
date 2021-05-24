@@ -1590,7 +1590,7 @@
         "You can harness the potent energies within you and bring it outward. As a bonus action you can begin your Dance of Dragons which lasts for 1 minute. While your Dance of Dragons is active and you are not wearing medium or heavy armor, or wielding a shield, you gain the following benefits:",
         {
           "type": "list",
-          "entries": [
+          "items": [
             "When you are about to be hit by an attack or fail a dexterity saving throw, as a reaction you expend a Skydancer Die to give yourself a bonus to your AC or save equal to what you roll, potentially turning that attack into a miss or turning the failure into a success.",
             "When you make an attack roll using your Lunging Attack, the attack has advantage.",
             "Once per round, the damage that you deal when using a Skydancer Art or a Lunging Attack gains a bonus equal to your Charisma modifier.",
