@@ -225,7 +225,7 @@
       "level": 1,
       "header": 1,
       "entries": [
-        "{@i 1st-level Iceborn Summoner feature}",
+        "{@i 1st-level Iceborn feature}",
         "Given your origins, you become accustomed to the creatures of your ancestry. Choose one of the following languages: Abyssal, Infernal, or Primordial. You learn to speak, read, and write the language you chose.",
         "In addition, you have an innate ice magic that flows within you. You learn the {@spell Frostbite|XGE} cantrip and it does not count against your total number of known cantrips. If you already have this cantrip, choose one from: {@spell gust|XGE}, {@spell mending}, {@spell prestidigitation}, {@spell ray of frost}, or {@spell shape water|XGE}. You learn that cantrip instead."
       ]
@@ -241,7 +241,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "{@i 6th-level Iceborn Summoner feature}",
+        "{@i 6th-level Iceborn feature}",
         "Your heritage gives you an innate ability to push through the harsh environments of frozen wastes which allows you to make traversing these areas easier for you and your allies. You have resistance to cold damage and ignore the effects of extreme cold.",
         "In addition, you ignore difficult terrain created by ice or snow and are not impeded by harsh environments in tundras or similar wastes. By spending 10 minutes you can magically provide this benefit to a number of allies of your choice equal to twice your proficiency bonus. This benefit lasts until the next time you finish a long rest. Creatures who gain this benefit do not gain your resistance to cold damage, but they do have advantage on saving throws made to resist the effects of extreme cold."
       ]
@@ -257,7 +257,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "{@i 6th-level Iceborn Summoner feature}",
+        "{@i 6th-level Iceborn feature}",
         "Whenever you start casting a spell of 1st level or higher that deals cold damage, icy winds blow out from you. This icy wind causes creatures of your choice that you can see within 20 feet of you to take cold damage equal to your proficiency bonus."
       ]
     },
@@ -272,7 +272,7 @@
       "level": 14,
       "header": 2,
       "entries": [
-        "{@i 14th-level Iceborn Summoner feature}",
+        "{@i 14th-level Iceborn feature}",
         "When a creature fails a saving throw against one of your 1st level or higher spells that deals cold damage, you can mark that creature with a chilling brand. While marked with this brand, ice and frost slowly creeps into their body, granting them vulnerability to all damage until the end of your next turn. This renders any resistance or immunities they had useless until the effect fades. Once they next take damage after being marked, the frozen brand melts away, ending the effect. A creature is immune to the effects of this mark if they have resistance or immunity to cold damage.",
         "You can only mark one creature at a time using this feature, and you can only mark creatures with this special brand a number of times equal to your proficiency bonus, regaining all spent uses after a long rest."
       ]
@@ -288,7 +288,7 @@
       "level": 18,
       "header": 2,
       "entries": [
-        "{@i 18th-level Iceborn Summoner feature}",
+        "{@i 18th-level Iceborn feature}",
         "Your mastery over cryomancy permanently changes your very being as you become one with your ancestry. You have immunity to cold damage and learn the Investiture of Ice spell. If you already knew the {@spell Investiture of Ice|XGE} spell, you can choose another spell from the sorcerer spell list to learn instead. This spell does not count against your total number of sorcerer spells and you can cast it once at its lowest level without expending a spell slot.",
         "Casting {@spell Investiture of Ice|XGE} in this way does not require concentration and lasts up to an hour rather than its normal duration of 10 minutes.",
         "Whenever you cast {@spell Investiture of Ice|XGE} using a spell slot, its range becomes touch instead of self and you can target other creatures with the spell. Casting the spell at higher levels allows you to target one additional creature per spell slot level above 6th."
