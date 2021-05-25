@@ -1,0 +1,485 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "wintdom",
+        "abbreviation": "WDC",
+        "full": "Winter Domain Cleric",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "1.0.0",
+        "url": "https://docs.google.com/document/d/1vUtl5PDCE9V-Y7DnJqwEqcrnN5gFmwM1xQkewjHXuJE/edit?usp=sharing",
+        "targetSchema": "1.0.1"
+      },
+      {
+        "json": "IcebornSorc",
+        "abbreviation": "IbS",
+        "full": "Iceborn Sorcerous Origin",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "color": "97b1f3",
+        "url": "https://docs.google.com/document/d/1XiHbxUeEWoL3dpbdsyUlSQkOzIgNunVwdcMyBh4WBtk/edit?usp=sharing",
+        "targetSchema": "1.2"
+      }
+    ],
+    "dateAdded": 1621925870,
+    "dateLastModified": 1621925870
+  },
+  "subclass": [
+    {
+      "name": "Winter Domain",
+      "shortName": "Winter",
+      "source": "wintdom",
+      "subclassSpells": [
+        {
+          "name": "Armor of Agathys",
+          "source": "PHB"
+        },
+        {
+          "name": "Ice Knife",
+          "source": "XGE"
+        },
+        {
+          "name": "Hold Person",
+          "source": "PHB"
+        },
+        {
+          "name": "Snilloc’s Snowball Swarm",
+          "source": "XGE"
+        },
+        {
+          "name": "Sleet Storm",
+          "source": "PHB"
+        },
+        {
+          "name": "Spirit Shroud",
+          "source": "TCE"
+        },
+        {
+          "name": "Fire Shield",
+          "source": "PHB"
+        },
+        {
+          "name": "Ice Storm",
+          "source": "PHB"
+        },
+        {
+          "name": "Cone of Cold",
+          "source": "PHB"
+        },
+        {
+          "name": "Hold Monster",
+          "source": "PHB"
+        }
+      ],
+      "subclassFeatures": [
+        "Winter Domain|Cleric||Winter|wintdom|1",
+        "Channel Divinity: Winter’s Woe|Cleric||Winter|wintdom|2",
+        "Winter’s Wayfinder|Cleric||Winter|wintdom|6",
+        "Potent Spellcasting|Cleric||Winter|wintdom|8",
+        "Arctic Aegis|Cleric||Winter|wintdom|17"
+      ],
+      "className": "Cleric",
+      "classSource": "PHB"
+    },
+    {
+      "name": "Iceborn",
+      "source": "IcebornSorc",
+      "page": 1,
+      "shortName": "Iceborn",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSpells": [
+        "armor of agathys",
+        {
+          "name": "frost fingers",
+          "source": "IDRotF"
+        },
+        "Gentle Repose",
+        "Feign Death",
+        "Hunger of Hadar",
+        "Otiluke's Resilient Sphere",
+        "Antilife Shell"
+      ],
+      "subclassFeatures": [
+        "Iceborn|Sorcerer|PHB|Iceborn|IcebornSorc|1",
+        "Iceborn Guide|Sorcerer|PHB|Iceborn|IcebornSorc|6",
+        "Frigid Winds|Sorcerer|PHB|Iceborn|IcebornSorc|6",
+        "Frostbiting Mark|Sorcerer|PHB|Iceborn|IcebornSorc|14",
+        "Frozen Soul|Sorcerer|PHB|Iceborn|IcebornSorc|18"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Winter Domain",
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 1,
+      "entries": [
+        "Winter is a constant fear for many, as its cruelty and harsh conditions are often fatal. Worshipers of gods of the winter domain, such as Auril or Uller, offer prayers in exchange for mercy from the frigid winters. Clerics and priests of this domain often have the power to not only withstand these harsh environments but also offer guidance to those not as gifted through the harsh terrain.",
+        {
+          "type": "table",
+          "caption": "Winter Domain Spells",
+          "colLabels": [
+            "Cleric Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Armor of Agathys}, {@spell Ice Knife|XGE}"
+            ],
+            [
+              "3rd",
+              "{@spell Hold Person}, {@spell Snilloc's Snowball Swarm|XGE}"
+            ],
+            [
+              "5th",
+              "{@spell Sleet Storm}, *{@spell Spirit Shroud|TCE}"
+            ],
+            [
+              "7th",
+              "**{@spell Fire Shield}, {@spell Ice Storm}"
+            ],
+            [
+              "9th",
+              "{@spell Cone of Cold}, {@spell Hold Monster}"
+            ]
+          ]
+        },
+        "*You can only choose cold damage when you cast this spell.",
+        "**You can only choose the chill shield option when you cast this spell.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bonus Proficiencies|Cleric||Winter|wintdom|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Acolyte of Winter|Cleric||Winter|wintdom|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Frost Forge|Cleric||Winter|wintdom|1"
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Bonus Proficiencies",
+      "entries": [
+        "{@i 1st-level Winter feature}",
+        "You gain proficiency in two of the following skills: athletics, intimidation, nature, or survival."
+      ],
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 1,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Acolyte of Winter",
+      "entries": [
+        "{@i 1st-level Winter feature}",
+        "You learn one cantrip of your choice of the following list: {@spell frostbite|XGE}, {@spell shape water|XGE}, or {@spell ray of frost}. The chosen cantrip counts as a cleric spell for you and does not count against your total number of cantrips known."
+      ],
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 1,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Frost Forge",
+      "entries": [
+        "{@i 1st-level Winter feature}",
+        "You create a magical bond between you and a weapon of your choosing. By performing a 1-hour ritual you can turn a nonmagical weapon into a magical weapon, become proficient with that weapon if you weren’t already, you can use the weapon as an arcane focus, and it instead deals cold damage instead of its original damage type on hit. This magical bond lasts until you use this feature again, or you die. Alternatively, instead of bonding to an existing weapon, you can create a magical one-handed melee weapon with the finesse property that deals 1d6 of cold damage on hit. This weapon takes the form of a shortsword or scimitar made of ice. You bond with this weapon instead and when you use this feature again, or if you die, the weapon melts away.",
+        "When you reach 8th level, if the weapon you’re bonding with is a nonmagical weapon, or if it was created by this feature, it gains a magic bonus of +1 to attack and damage rolls. At 17th level, this bonus becomes +2."
+      ],
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 1,
+      "header": 1
+    },
+    {
+      "name": "Channel Divinity: Winter’s Woe",
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 2,
+      "header": 2,
+      "entries": [
+        "{@i 2nd-level Winter feature}",
+        "You summon a small portion of your god’s power to freeze creatures in their tracks. Choose one creature within 60 feet of you. That creature, and each creature within 5 feet of it must pass a Constitution saving throw against your spell save DC. On a failed save, they take cold damage equal to your proficiency bonus plus twice your cleric level and their movement speed is reduced to 0 until the end of your next turn. On a success, they take half damage and their speed is not reduced."
+      ]
+    },
+    {
+      "name": "Winter’s Wayfinder",
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Winter feature}",
+        "Your prayers to the gods of winter have been answered and you’ve been given a permanent blessing. You have resistance to cold damage and do not suffer the adverse effects of extreme cold. You ignore difficult terrain created by ice or snow and are not impeded by harsh environments in tundras or similar wastes.",
+        "In addition, you have advantage on Wisdom (Survival) and Intelligence (Nature) checks made related to tundras and similar cold environments."
+      ]
+    },
+    {
+      "name": "Potent Spellcasting",
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 8,
+      "header": 2,
+      "entries": [
+        "{@i 8th-level Winter feature}",
+        "You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+      ]
+    },
+    {
+      "name": "Arctic Aegis",
+      "source": "wintdom",
+      "page": null,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Winter",
+      "subclassSource": "wintdom",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "{@i 17th-level Winter feature}",
+        "You’ve become a sentinel of the cruel winter. You are immune to cold damage.",
+        "Creatures within 10 feet of you have advantage on saving throws made against effects that deal cold damage, such as a dragon’s breath weapon or the cone of cold spell."
+      ]
+    },
+    {
+      "name": "Iceborn",
+      "source": "IcebornSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "IcebornSorc",
+      "subclassShortName": "Iceborn",
+      "page": 1,
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Iceborn feature}",
+        "Born from wastes made of ice and snow, your ancestors come from the faraway tundras. From the deep Abyss to the 5th layer of the Nine Hells, Stygia, your heritage can range from primordial beings of ice to even the most fiendish creatures. Your powers can also be gifts from these same otherworldly beings. Gods and Goddesses of Winter, such as Auril, are also prime candidates for the origin of these powers. Consult the Iceborn Origins table, or work with your DM on where your ice magic stems from.",
+        {
+          "type": "table",
+          "caption": "Iceborn Origins",
+          "colLabels": [
+            "{@dice d6}",
+            "Origin"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              1,
+              "You were born in a frozen wasteland, void of any other life except the ones who birthed you and other creatures that could withstand the frozen climate. Frost naturally builds up on your body even in extremely hot environments."
+            ],
+            [
+              2,
+              "You were granted a boon of magic from the god/goddess of winter, giving you control over the very foundation of cryomancy. This boon grants you similar traits to that of an aasimar, including glowing eyes or even an icey halo."
+            ],
+            [
+              3,
+              "One of or both of your parents were devils from the 5th level of hell, Stygia, giving you a natural connection to the magic found in the frigid climate, causing your skin to be naturally paler than what’s common from your race."
+            ],
+            [
+              4,
+              "A White or Silver dragon is a long distant ancestor of yours, giving you various magical traits. Your teeth and fingernails are naturally sharper than what’s common for your race, but not enough to grant any physical improvement. You may even have lingering draconic scales."
+            ],
+            [
+              5,
+              "An ice elemental gifted a relative of yours a magical boon. Snow slowly emits off your body and instantly melts when it hits the ground."
+            ],
+            [
+              6,
+              "You were birthed or branded by a Demon from the Abyss. You have a magical brand on your body that is cold to the touch. Your skin surrounding the mark is frostbitten, but no pain can be felt from it."
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Frozen Ancestry|Sorcerer|PHB|Iceborn|IcebornSorc|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Cryomancy Magic|Sorcerer|PHB|Iceborn|IcebornSorc|1"
+        }
+      ]
+    },
+    {
+      "name": "Cryomancy Magic",
+      "source": "IcebornSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "IcebornSorc",
+      "subclassShortName": "Iceborn",
+      "page": 1,
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Your magic comes from the frozen wastes, giving you the ability to always keep a cool head and give your enemies the cold shoulder. You learn additional spells when you reach certain levels in this class, as shown on the Cryomancy Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+        "Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a {@filter conjuration or transmutation spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=C,T|level=1;2;3;4;5} and if it deals damage, you must choose a spell that deals either cold, bludgeoning, piercing, slashing, or necrotic damage.",
+        {
+          "type": "table",
+          "caption": "Cryomancy Spells",
+          "colLabels": [
+            "Sorcerer Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Armor of Agathys|PHB}, {@spell Frost Fingers|IDRotF}"
+            ],
+            [
+              "3rd",
+              "{@spell Gentle Repose|PHB}, {@spell Snilloc's Snowball Swarm|XGE}"
+            ],
+            [
+              "5th",
+              "{@spell Feign Death|PHB}, {@spell Hunger of Hadar|PHB}"
+            ],
+            [
+              "7th",
+              "{@spell Ice Storm|PHB}, {@spell Otiluke's Resilient Sphere|PHB}"
+            ],
+            [
+              "9th",
+              "{@spell Antilife Shell|PHB}, {@spell Cone of Cold|PHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frozen Ancestry",
+      "source": "IcebornSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "IcebornSorc",
+      "subclassShortName": "Iceborn",
+      "page": 1,
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "{@i 1st-level Iceborn feature}",
+        "Given your origins, you become accustomed to the creatures of your ancestry. Choose one of the following languages: Abyssal, Infernal, or Primordial. You learn to speak, read, and write the language you chose.",
+        "In addition, you have an innate ice magic that flows within you. You learn the {@spell Frostbite|XGE} cantrip and it does not count against your total number of known cantrips. If you already have this cantrip, choose one from: {@spell gust|XGE}, {@spell mending}, {@spell prestidigitation}, {@spell ray of frost}, or {@spell shape water|XGE}. You learn that cantrip instead."
+      ]
+    },
+    {
+      "name": "Iceborn Guide",
+      "source": "IcebornSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "IcebornSorc",
+      "subclassShortName": "Iceborn",
+      "page": 1,
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Iceborn feature}",
+        "Your heritage gives you an innate ability to push through the harsh environments of frozen wastes which allows you to make traversing these areas easier for you and your allies. You have resistance to cold damage and ignore the effects of extreme cold.",
+        "In addition, you ignore difficult terrain created by ice or snow and are not impeded by harsh environments in tundras or similar wastes. By spending 10 minutes you can magically provide this benefit to a number of allies of your choice equal to twice your proficiency bonus. This benefit lasts until the next time you finish a long rest. Creatures who gain this benefit do not gain your resistance to cold damage, but they do have advantage on saving throws made to resist the effects of extreme cold."
+      ]
+    },
+    {
+      "name": "Frigid Winds",
+      "source": "IcebornSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "IcebornSorc",
+      "subclassShortName": "Iceborn",
+      "page": 1,
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Iceborn feature}",
+        "Whenever you start casting a spell of 1st level or higher that deals cold damage, icy winds blow out from you. This icy wind causes creatures of your choice that you can see within 20 feet of you to take cold damage equal to your proficiency bonus."
+      ]
+    },
+    {
+      "name": "Frostbiting Mark",
+      "source": "IcebornSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "IcebornSorc",
+      "subclassShortName": "Iceborn",
+      "page": 2,
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Iceborn feature}",
+        "When a creature fails a saving throw against one of your 1st level or higher spells that deals cold damage, you can mark that creature with a chilling brand. While marked with this brand, ice and frost slowly creeps into their body, granting them vulnerability to all damage until the end of your next turn. This renders any resistance or immunities they had useless until the effect fades. Once they next take damage after being marked, the frozen brand melts away, ending the effect. A creature is immune to the effects of this mark if they have resistance or immunity to cold damage.",
+        "You can only mark one creature at a time using this feature, and you can only mark creatures with this special brand a number of times equal to your proficiency bonus, regaining all spent uses after a long rest."
+      ]
+    },
+    {
+      "name": "Frozen Soul",
+      "source": "IcebornSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "IcebornSorc",
+      "subclassShortName": "Iceborn",
+      "page": 2,
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "{@i 18th-level Iceborn feature}",
+        "Your mastery over cryomancy permanently changes your very being as you become one with your ancestry. You have immunity to cold damage and learn the Investiture of Ice spell. If you already knew the {@spell Investiture of Ice|XGE} spell, you can choose another spell from the sorcerer spell list to learn instead. This spell does not count against your total number of sorcerer spells and you can cast it once at its lowest level without expending a spell slot.",
+        "Casting {@spell Investiture of Ice|XGE} in this way does not require concentration and lasts up to an hour rather than its normal duration of 10 minutes.",
+        "Whenever you cast {@spell Investiture of Ice|XGE} using a spell slot, its range becomes touch instead of self and you can target other creatures with the spell. Casting the spell at higher levels allows you to target one additional creature per spell slot level above 6th."
+      ]
+    }
+  ]
+}
