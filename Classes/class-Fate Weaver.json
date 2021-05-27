@@ -437,7 +437,7 @@
           "(a) a {@item component pouch|phb} or (b) an {@item arcane focus}",
           "(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
           "Two {@item dagger|phb|daggers}",
-          "a {@item Divination Deck|FW}"
+          "a {@item Divination Focus|FW}"
         ],
         "defaultData": [
           {
@@ -476,9 +476,9 @@
             ]
           },
           {
-            "_": [
+            "undefined": [
               {
-                "item": "dagger|phb",
+                "item": "Divination Foucs|FW",
                 "count": 1
               }
             ]
@@ -1306,7 +1306,7 @@
           "name": "Spellcasting Focus",
           "type": "entries",
           "entries": [
-            "You can use a Divination Deck (found above) as a spellcasting focus for your Fate Weaver spells."
+            "You can use a {@item Divination Focus|FW} (found above) as a spellcasting focus for your Fate Weaver spells."
           ]
         }
       ],
@@ -1960,7 +1960,7 @@
       "subclassSource": "FateWeaverJan2021",
       "level": 1,
       "entries": [
-        "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 plus your proficiency bonus."
+        "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 1 plus your proficiency bonus."
       ],
       "page": 9,
       "header": 1
