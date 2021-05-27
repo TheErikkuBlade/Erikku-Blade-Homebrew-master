@@ -12,7 +12,7 @@
           "Erikku Blade"
         ],
         "url": "https://docs.google.com/document/d/14vUyGeWLmqMC4nIAS02hcria6P3ZJ4B_6f6-KoI1WY4/edit?usp=sharing",
-        "version": "2.2.0",
+        "version": "3.0.0",
         "color": "F363FF"
       }
     ],
@@ -508,21 +508,18 @@
         },
         "Fateful Divination|Fate Weaver|FateWeaverJan2021|7",
         "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|8",
-        "Boon of Healing|Fate Weaver|FateWeaverJan2021|9",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|FateWeaverJan2021|10",
           "gainSubclassFeature": true
         },
-        "Fateful Prediction|Fate Weaver|FateWeaverJan2021|11",
+        "Prediction of Fate|Fate Weaver|FateWeaverJan2021|11",
         "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|12",
-        "Visions of Fate|Fate Weaver|FateWeaverJan2021|13",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|FateWeaverJan2021|14",
           "gainSubclassFeature": true
         },
         "Magic of the Weave|Fate Weaver|FateWeaverJan2021|15",
         "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|16",
-        "Boon of the Soul|Fate Weaver|FateWeaverJan2021|17",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|FateWeaverJan2021|18",
           "gainSubclassFeature": true
@@ -1442,17 +1439,6 @@
       "page": 4
     },
     {
-      "name": "Boon of Healing",
-      "source": "FateWeaverJan2021",
-      "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "level": 9,
-      "entries": [
-        "Starting at 9th level, when you would heal a creature using a 1st level or higher spell slot you regain a number of hit points equal to your Charisma Modifier. You can only gain this benefit once per round."
-      ],
-      "page": 4
-    },
-    {
       "name": "Aspect of Fate Feature",
       "source": "FateWeaverJan2021",
       "className": "Fate Weaver",
@@ -1464,7 +1450,7 @@
       "page": ""
     },
     {
-      "name": "Fateful Prediction",
+      "name": "Prediction of Fate",
       "source": "FateWeaverJan2021",
       "className": "Fate Weaver",
       "classSource": "FateWeaverJan2021",
@@ -1485,17 +1471,6 @@
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
       ],
       "page": 6
-    },
-    {
-      "name": "Visions of Fate",
-      "source": "FateWeaverJan2021",
-      "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "level": 13,
-      "entries": [
-        "Starting at 13th level, you have an uncanny ability to see incoming powerful attacks and warn your allies ahead of time. When a creature would score a critical hit on you or an ally within 30 ft of you, by spending a fate die you can use your reaction to turn that hit into a normal hit. Any effects triggered by a critical hit are canceled. You have a number of uses of this feature equal to your Charisma modifier. (minimum of once)"
-      ],
-      "page": 5
     },
     {
       "name": "Aspect of Fate Feature",
@@ -1530,17 +1505,6 @@
       "entries": [
         "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-      ],
-      "page": 6
-    },
-    {
-      "name": "Boon of the Soul",
-      "source": "FateWeaverJan2021",
-      "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "level": 17,
-      "entries": [
-        "Beginning at 17th level, you have become one with your mind and soul. You can spend 4 fate dice to cast the {@spell Astral Projection} spell without material components, but only targeting yourself. Once you do so you cannot cast the spell in this way again until you complete a long rest. In addition, your silvery cord is indestructible and cannot be cut, even by creatures who would normally be able to unless they are of a CR greater than your Fate Weaver level."
       ],
       "page": 6
     },
@@ -1996,7 +1960,7 @@
       "subclassSource": "FateWeaverJan2021",
       "level": 1,
       "entries": [
-        "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your charisma modifier + half the spell's level (rounded down to a minimum of 1)."
+        "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 plus your proficiency bonus."
       ],
       "page": 9,
       "header": 1
@@ -2024,7 +1988,9 @@
       "subclassSource": "FateWeaverJan2021",
       "level": 10,
       "entries": [
-        "Starting at 10th level, while it is night and the moon is out you can perform a 10 minute ritual to ritual cast the spells Goodberry and Create or Destroy Water but can only create water. Once you have done so you cannot do so again until you complete a long rest."
+        "Starting at 10th level, while it is night and the moon is out you can perform a 10 minute ritual to ritual cast the spells Goodberry and Create or Destroy Water but can only create water. Once you have done so you cannot do so again until you complete a long rest.",
+        "In addition, when you are outside and the moon is out, when you cast a spell that would restore hit points, the spell restores an additional amount of hit points equal to half your fate weaver level (rounded down).",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses after a long rest."
       ],
       "page": 9,
       "header": 2
@@ -3586,13 +3552,16 @@
   ],
   "item": [
     {
-      "name": "Divination Deck",
+      "name": "Divination Focus",
       "source": "FW",
       "rarity": "common",
+      "type": "T",
+      "value": 50,
       "weight": 0.05,
       "entries": [
-        "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 11 or lower automatically fails, and the card you draw is blank. A roll of 12 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
-        "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
+        "A fate weaver has the powers of divination and most use a special tool that allows them to see into the near future, recent past, or present time. Every fate weaver is proficient with a divination focus, but other spellcasters can use a Divination Focus if they are proficient with one.",
+        "A divination focus can take many different forms ranging from a blank deck of cards that can fit writing or pictures, a sphere with a die inside that provides a written response, a tarokka deck, or even a small candle stick that when used its smoke forms words or an image.",
+        "Regardless of the form the focus takes, you start a 10 minute ritual and ask a single question. You then make a Spellcasting ability check and add your proficiency bonus using the divination focus. In order to receive an accurate reading, you must make a DC 12 check, or a DC determined by the DM depending on the nature of your question. More specific questions usually incur a higher DC. If your check is successful, you receive a vague response up to 50 words in length. Alternatively, you can receive a visual representation and interpret the meaning of the message yourself. You can use a Divination Focus a number of times per day equal to your proficiency bonus, regaining expended uses daily at dawn."
       ]
     }
   ]
