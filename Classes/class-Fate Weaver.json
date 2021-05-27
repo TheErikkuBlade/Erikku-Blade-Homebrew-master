@@ -1456,7 +1456,7 @@
       "classSource": "FateWeaverJan2021",
       "level": 11,
       "entries": [
-        "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a bonus action on your turn by spending 2 fate dice you can choose one creature within 60 ft of you. That creature has disadvantage on attack rolls against you, and you have advantage on saving throws imposed by that creature. In addition you have advantage on attack rolls against that creature. Each of these effects ends at the end of your next turn. Once you use this feature you cannot do so again until you finish a long rest."
+        "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a reaction, you can expend one of your divination dice to force a creature you can see within 60 feet of you, or yourself, to reroll an ability check, attack roll, or saving throw. The creature must use the new result, even if they have a feature that allows them to reroll."
       ],
       "page": 5
     },
