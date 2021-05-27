@@ -550,7 +550,10 @@
               "name": "Pyrotechnics",
               "source": "XGE"
             },
-            "Enemies Abound",
+            {
+              "name": "Enemies Abound",
+              "source": "XGE"
+            },
             "Hypnotic Pattern",
             "Freedom of Movement",
             "Polymorph",
@@ -1375,10 +1378,10 @@
       "classSource": "FateWeaverJan2021",
       "level": 3,
       "entries": [
-        "Some were born with magic, some were born to have magic, some were born to master magic, the Fate Weaver was born with all of these traits.",
-        "Starting at 3rd level, you gain the uncanny ability to manipulate the spell slots that you possess. As a bonus action on your turn, by expending a spell slot of 2nd level or higher you can convert that spell slot into a number of lower level spell slots equal to the spell slot’s level. You can distribute the spell slots as you wish. For example, if you are a 5th level Fate Weaver and you expend a 3rd level spell slot, you can either make three 1st level spell slots or you can make one 2nd level and one 1st level spell slot. You cannot create more spell slots than the maximum amount you can normally possess. ",
-        "Alternatively you can convert two spell slots of 8th level or lower into a higher level spell. For example, you can take two 1st level spell slots to make one 2nd level, or one 2nd level and one 1st level to make one 3rd level spell slot. You cannot create a spell slot level higher than what you have access to.",
-        "You have a number of uses of this feature equal to your Charisma modifier, regaining all expended uses after a long rest."
+        "Some were born with magic, some were born to have magic, some were born to master magic, the Fate Weaver was born with all of these traits. Starting at 3rd level, you gain the uncanny ability to manipulate the spell slots that you possess. As a bonus action, by expending a spell slot of 2nd level or higher you can convert that spell slot into a number of lower level spell slots equal to the spell slot’s level. You can distribute the spell slots as you wish.",
+        "Alternatively you can convert two spell slots of 8th level or lower into a higher level spell. For example, you can take two 1st level spell slots to make one 2nd level, or one 2nd level and one 1st level to make one 3rd level spell slot. You cannot create a spell slot level higher than your highest level spell slot.",
+        "You cannot create more spell slots than the maximum amount you can normally possess.",
+        "You have a number of uses of this feature equal to your proficiency bonus, regaining all expended uses after a long rest."
       ],
       "page": 2
     },
@@ -1601,7 +1604,7 @@
           "rows": [
             [
               "1st",
-              "{@spell expeditious retreat}, {@spell Tasha's Hideous Laugher}"
+              "{@spell expeditious retreat}, {@spell Tasha's Hideous Laughter}"
             ],
             [
               "3rd",
@@ -1609,7 +1612,7 @@
             ],
             [
               "5th",
-              "{@spell enemies abound}, {@spell hypnotic pattern}"
+              "{@spell enemies abound|XGE}, {@spell hypnotic pattern}"
             ],
             [
               "7th",
@@ -3206,13 +3209,13 @@
       "level": 6,
       "entries": [
         "{@i 6th-level Euryale Feature}",
-        "Your gaze is empowered by your chaotic magic and your potent curse. As an action you can spend a fate die to shift your gaze to a creature you can see within 60 feet of you. You invoke a powerful curse to that target that lasts for 1 minute. The curse ends early if the target dies, you die, or you are incapacitated. A remove curse can also end the effect early. Until the curse ends, you gain the following benefits:",
+        "Your gaze is empowered by your chaotic magic and your potent curse. As an action you can spend a fate die to shift your gaze to a creature you can see within 60 feet of you. You invoke a powerful curse to that target that lasts for 1 minute. The curse ends early if the target dies, you die, or you are {@condition incapacitated}. A {@spell remove curse} can also end the effect early. Until the curse ends, you gain the following benefits:",
         {
           "type": "list",
           "items": [
             "You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus. You gain this bonus up to twice per round.",
-            "While you are within 60 feet of the cursed target, you can use a bonus action on each of your turns to make a ranged spell attack against it. If it hits, the target takes damage equal to your fate die and is poisoned until the end of their next turn.",
-            "While you are within 30 feet of the cursed target, as an action you can use a powerful magical force to lock them in place. The target must make a Constitution saving throw against your spell save DC. On a failed save they are incapacitated and their movement is reduced to 0 until the start of your next turn."
+            "While you are within 60 feet of the cursed target, you can use a bonus action on each of your turns to make a ranged spell attack against it. If it hits, the target takes damage equal to your fate die and is {@condition poisoned} until the end of their next turn.",
+            "While you are within 30 feet of the cursed target, as an action you can use a powerful magical force to lock them in place. The target must make a Constitution saving throw against your spell save DC. On a failed save they are {@condition incapacitated} and their movement is reduced to 0 until the start of your next turn."
           ]
         },
         "Once you have used this feature, you cannot use it again until you finish a long rest or you can spend a use of your Divination Dice to regain the use of this ability."
@@ -3230,7 +3233,7 @@
       "level": 6,
       "entries": [
         "{@i 6th-level Euryale Feature}",
-        "A creature that is frightened by you, whether by normal or magical means, has disadvantage on saving throws against your spells and other magical effects.",
+        "A creature that is {@condition frightened} by you, whether by normal or magical means, has disadvantage on saving throws against your spells and other magical effects.",
         "As a reaction, you can spend a fate die and roll it to increase the number of rounds you can concentrate on a spell that frightens a creature by an amount equal to the number rolled."
       ],
       "page": 16,
@@ -3246,7 +3249,7 @@
       "level": 10,
       "entries": [
         "{@i 10th-level Euryale Feature}",
-        "Your eyes have been enchanted by the power of your curse, permanently altering its properties. You are immune to being blinded and you gain darkvision out to a range of 60 feet. If you already had darkvision, it’s range is increased by 60 feet. You can see normally in darkness, both magical and nonmagical, to a distance of 60 feet.",
+        "Your eyes have been enchanted by the power of your curse, permanently altering its properties. You are immune to being {@condition blinded} and you gain darkvision out to a range of 60 feet. If you already had darkvision, it’s range is increased by 60 feet. You can see normally in darkness, both magical and nonmagical, to a distance of 60 feet.",
         "In addition, when you use your Gaze of the Curse One you can target two creatures instead of one."
       ],
       "page": 16,
@@ -3262,7 +3265,7 @@
       "level": 14,
       "entries": [
         "{@i 14th-level Euryale Feature}",
-        "You are immune to being petrified. In addition, as an action you can magically turn a creature cursed by your Gaze of the Cursed One feature. You cast the Flesh to Stone spell without expending a spell slot even if you do not know the spell. ",
+        "You are immune to being petrified. In addition, as an action you can magically turn a creature cursed by your Gaze of the Cursed One feature. You cast the {@spell Flesh to Stone} spell without expending a spell slot even if you do not know the spell. ",
         "Once a creature is turned to stone from this boon, you cannot cast the spell again until you finish a long rest or you can expend a use of your Spell Weaving feature to regain the ability to cast the spell."
       ],
       "page": 16,
