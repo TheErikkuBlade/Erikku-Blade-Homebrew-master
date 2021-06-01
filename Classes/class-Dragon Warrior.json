@@ -2160,7 +2160,7 @@
       "name": "Dragonsong",
       "entries": [
         "You gain proficiency in two musical instruments of your choice. ",
-        "As a bonus action you can evoke the power of your Dragonsong for 1 minute. While active, your Dragonsong gives a +2 bonus to your AC and Dexterity Saving throws. You cannot use your Dragonsong again until you finish a long rest."
+        "As a bonus action you can evoke the power of your Dragonsong for 1 minute so long as you are not wearing medium or heavy armor. While active, your Dragonsong gives a +1 bonus to your AC and Dexterity Saving throws. You cannot use your Dragonsong again until you finish a long rest."
       ],
       "featureType": "Draconian Powers"
     },
