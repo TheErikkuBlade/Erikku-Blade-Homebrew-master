@@ -3296,7 +3296,7 @@
       "source": "DrP",
       "name": "Mystic Arts",
       "entries": [
-        "You’ve honed your training with just your physical body, enhancing your ability to fight without a weapon. Your unarmed strikes are treated as natural weapons and have the finesse property. In addition, your unarmed strikes deal 1d6 damage instead of its normal amount.",
+        "You’ve honed your training with just your physical body, enhancing your ability to fight without a weapon. If you aren't wielding any weapons or a shield when you make the attack roll, your unarmed strikes are treated as natural weapons and have the finesse and light properties. In addition, your unarmed strikes deal 1d6 plus your strength or dexterity modifier bludgeoning, piercing, or slashing damage instead of its normal amount.",
         "As a bonus action you can enter either an offensive or defensive stance, when you do so apply one of the following effects depending on your stance: ",
         {
           "type": "options",
@@ -3317,7 +3317,7 @@
             }
           ]
         },
-        "You retain these effects only when you are in the appropriate stance and you can exit or switch your stances as a bonus action on subsequent turns."
+        "You retain these effects only when you are in the appropriate stance and you can exit or switch your stances as a bonus action on subsequent turns. You exit your stance early if you begin wielding a weapon or a shield."
       ],
       "prerequisite": [
         {
@@ -3333,7 +3333,7 @@
       "source": "DrP",
       "name": "Mystical Ancestors",
       "entries": [
-        "You learn the {@spell Spirit Shroud} spell and can cast it once without requiring components, regaining the usage of it after a short or long rest. When you cast the spell using this feature, it deals the damage you resist from your Draconic Origin instead of its original damage options and the dead spirits are instead spirits of the dragons of your ancestry. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components and you follow the spell’s normal guidelines."
+        "You learn the {@spell Spirit Shroud|TCE} spell and can cast it once without requiring components, regaining the usage of it after a short or long rest. When you cast the spell using this feature, it deals the damage you resist from your Draconic Origin instead of its original damage options and the dead spirits are instead spirits of the dragons of your ancestry. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components and you follow the spell’s normal guidelines."
       ],
       "prerequisite": [
         {
@@ -3360,7 +3360,7 @@
       "prerequisite": [
         {
           "level": {
-            "level": 8,
+            "level": 20,
             "class": {
               "name": "Dragon Warrior"
             }
