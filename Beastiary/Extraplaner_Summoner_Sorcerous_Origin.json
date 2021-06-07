@@ -1,27 +1,30 @@
 {
-	"siteVersion": "1.126.0",
+	"siteVersion": "1.130.3",
 	"_meta": {
 		"sources": [
 			{
-				"json": "ExtraplanerSummonerSorcerousOrigin",
+				"json": "EPSorc",
 				"abbreviation": "EPS",
-				"full": "Extraplaner Summoner Sorcerous Origin",
-				"url": "",
+				"full": "Extraplanar Summoner Sorcerous Origin",
 				"authors": [
 					"Erikku Blade"
 				],
 				"convertedBy": [
 					"Erikku Blade"
-				]
+				],
+				"version": "1.0",
+				"color": "4de0bd",
+				"url": "https://docs.google.com/document/d/1unioQLlLV1EKddes0vL06nmZ-pn3GQWa1TQvtDmvGJY/edit?usp=sharing",
+				"targetSchema": "1.2"
 			}
 		],
-		"dateAdded": 1618214290,
-		"dateLastModified": 1618214290
+		"dateAdded": 1623049622,
+		"dateLastModified": 1623049622
 	},
 	"monster": [
 		{
 			"name": "Extraplanar Ally (Base)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "M",
 			"type": "construct",
 			"alignment": null,
@@ -31,7 +34,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -84,7 +87,7 @@
 		},
 		{
 			"name": "Extraplanar Ally (Aberration)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "M",
 			"type": "aberration",
 			"alignment": null,
@@ -94,7 +97,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -128,8 +131,7 @@
 					"daily": {
 						"1e": [
 							"{@spell charm person}",
-							"{@spell magnify gravity|EGW}",
-							"{@spell Tasha's mind whip|TCE}"
+							"{@spell magnify gravity|EGW}"
 						]
 					},
 					"ability": "int",
@@ -162,6 +164,19 @@
 					"entries": [
 						"Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
 					]
+				},
+				{
+					"name": "Variable Trait",
+					"entries": [
+						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+						"{@b Improved Psionic Spellcasting} - The Extraplanar Ally adds {@spell eldritch blast} and {@spell vicious mockery} to its at will cantrips and the following spells to its 1/day spells for it's Psionic Spellcasting trait, it can use either its own spellcasting ability or yours for these spells: {@spell shield} and {@spell command}",
+						"{@b Eldritch Horror} - The Extraplanar Ally has a horrific appearance that strikes fear into creatures from the mere sight of it. Each creature other than you that starts its turn within 60 feet of the Extraplanar Ally makes a Wisdom saving throw against your spell save DC. On a failed save, the creature is {@condition frightened} of the Extraplanar Ally. If it succeeds, it is immune to its Eldritch Horror trait for 24 hours. A {@condition frightened} creature repeats its saves at the end of each of its turns.",
+						"{@b Mind Blast} - The Extraplanar Ally can magically emit psychic energy in a 60-foot cone. Each creature in that area must succeed on an intelligence saving throw against your spell save DC or take a number of {@damage d6} psychic damage equal to your proficiency bonus and is {@condition stunned} on a failed save, or half as much and is not {@condition stunned} on a success. Once it uses this feature, it must recharge before it can be used again. Roll a {@dice d6} at the start of each of your turns. On a 6, the ability is recharged.",
+						"{@b Mental Fortitude} - The Extraplanar Ally has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can't put it to sleep",
+						"{@b Sense Magic} - The Extraplanar Ally senses magic within 30 feet of it at will. This trait otherwise works like the {@spell detect magic} spell but isn't itself magical.",
+						"{@b Sticky Crawly Appendages} - The Extraplanar Ally is always under the effects of the {@spell spider climb} spell and has advantage on ability checks made to grapple creatures.",
+						"{@b Tentacle Burst} - The Extraplanar Ally can cast the {@spell Arms of Hadar} a number of times per day equal to your proficiency bonus."
+					]
 				}
 			],
 			"action": [
@@ -191,19 +206,23 @@
 				"TP"
 			],
 			"damageTags": [
-				"B"
+				"B",
+				"Y"
 			],
 			"miscTags": [
+				"AOE",
 				"MW",
 				"RCH"
 			],
 			"conditionInflict": [
-				"grappled"
+				"frightened",
+				"grappled",
+				"stunned"
 			]
 		},
 		{
 			"name": "Extraplanar Ally (Celestial)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "M",
 			"type": "celestial",
 			"alignment": null,
@@ -213,7 +232,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30,
@@ -263,6 +282,12 @@
 					"entries": [
 						"Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
 					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The extraplanar ally has advantage on saving throws against spells and other magical effects."
+					]
 				}
 			],
 			"action": [
@@ -279,6 +304,9 @@
 					]
 				}
 			],
+			"traitTags": [
+				"Magic Resistance"
+			],
 			"languageTags": [
 				"CE"
 			],
@@ -292,7 +320,7 @@
 		},
 		{
 			"name": "Extraplanar Ally (Construct)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "M",
 			"type": "construct",
 			"alignment": null,
@@ -302,7 +330,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -317,16 +345,6 @@
 				"darkvision 60 ft."
 			],
 			"passive": 10,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
 			"immune": [
 				"poison"
 			],
@@ -366,6 +384,19 @@
 					"entries": [
 						"Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
 					]
+				},
+				{
+					"name": "Variable Trait",
+					"entries": [
+						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+						"{@b Balance Corrector} The Extraplanar Ally ignores difficult terrain.",
+						"{@b Constructed Resilience} - The Extraplanar Ally is immune to disease and has resistance to bludgeoning, piercing, and slashing damage from non-magical attacks.",
+						"{@b Constructed Sword} The Extraplanar Ally has a specialized weapon specifically made for it. It has a sword that deals {@damage 1d10} slashing damage plus its strength or dexterity modifier. These weapons are counted as magical.",
+						"{@b Fireproof} - The Extraplanar Ally is immune to fire damage.",
+						"{@b Spell-Storing Component} - The Extraplanar Ally can store spells for you to use at a later time. You can store spells whose total levels equal your proficiency bonus by casting the spell while within 10 feet of your Extraplanar Ally. The spells remain stored even if the Extraplanar Ally is returned to its home plane, but you cannot cast them unless you are within 10 feet of your Extraplanar Ally.",
+						"{@b Spell Disrupting Forcefield} - The Extraplanar Ally emits a magical field of arcane energy that wards it from spells. The Extraplanar Ally takes half damage from spells and has advantage on saving throws against spells.",
+						"{@b Improved Motor Components} - The Extraplanar Ally's speed is increased by 10 feet."
+					]
 				}
 			],
 			"action": [
@@ -380,7 +411,8 @@
 				"D"
 			],
 			"damageTags": [
-				"B"
+				"B",
+				"S"
 			],
 			"miscTags": [
 				"MW",
@@ -389,7 +421,7 @@
 		},
 		{
 			"name": "Extraplanar Ally (Elemental)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "M",
 			"type": "elemental",
 			"alignment": null,
@@ -399,7 +431,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30,
@@ -521,7 +553,7 @@
 		},
 		{
 			"name": "Extraplanar Ally (Fey)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "M",
 			"type": "fey",
 			"alignment": null,
@@ -531,7 +563,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -584,13 +616,20 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The extraplanar ally has advantage on saving throws against being {@condition charmed}, and magic can't put the extraplanar ally (fey) to sleep."
+						"The extraplanar ally has advantage on saving throws against being {@condition charmed}, and magic can't put the extraplanar ally to sleep."
 					]
 				},
 				{
-					"name": "Invisibility",
+					"name": "Variable Trait",
 					"entries": [
-						"The extraplanar ally can use a bonus action to become {@condition invisible}. This invisibility ends if it attacks or if a spell is cast originating from it."
+						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+						"{@b Invisibility} - The extraplanar ally can use a bonus action to become {@condition invisible}. This invisibility ends if it attacks or if a spell is cast originating from it.",
+						"{@b Faerie Wings} - The extraplanar ally grows a set of fairy wings. It gains a flying speed equal to its walking speed. If it ends its turn while it is flying, it safely descends 60 feet and continues to fall at a rate of 60 feet per round.",
+						"{@b Fey Magic} - The Extraplanar Ally knows the {@spell druidcraft} cantrip and can cast it at will. In addition, it can cast the {@spell faerie fire} spell a number of times equal to your PB per day.",
+						"{@b Sneaky Trickster} - The Extraplanar Ally knows the {@spell minor illusion} cantrip and can cast it at will. In addition, it can cast the {@spell pass without trace} spell a number of times equal to your PB per day.",
+						"{@b Fey Antics} - The Extraplanar Ally knows the {@spell vicious mockery} cantrip and can cast it at will. In addition, it can cast the {@spell faenatics|AdditionalFey} a number of times equal to your PB per day.",
+						"{@b Speak with Beasts and Plants} - The Extraplanar Ally can communicate with beasts and plants as if they shared a language. You also gain this benefit while within 10 feet of the Extraplanar Ally.",
+						"{@b Mimicry} - The Extraplanar Ally can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check against your spell save DC."
 					]
 				},
 				{
@@ -635,7 +674,7 @@
 		},
 		{
 			"name": "Extraplanar Ally (Fiend)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "M",
 			"type": "fiend",
 			"alignment": null,
@@ -645,7 +684,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -692,9 +731,16 @@
 					]
 				},
 				{
-					"name": "Devil's Sight",
+					"name": "Variable Trait",
 					"entries": [
-						"Magical darkness doesn't impede the extraplanar ally's darkvision."
+						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+						"{@b Devil's Sight} - Magical darkness doesn't impede the extraplanar ally's darkvision.",
+						"{@b Death Throes} - When the Extraplanar ally is reduced to 0 hit points, before it is destroyed it explodes and releases outward a firey eruption out to a range of 30 feet. Each creature within range makes a Dexterity saving throw against your spell save DC and takes a number of {@damage d6} fire damage equal to your proficiency bonus on a failed save, or half as much on a succes.",
+						"{@b Freezing Stygia} - The extra damage from the Extraplanar Ally's Claws deals cold damage instead of fire.",
+						"{@b Winged Fiend} - The extraplanar ally gains a flying speed equal to 10 times your proficiency bonus.",
+						"{@b Flame Thrower} - The extraplanar ally gains special ranged attack. It makes a ranged spell attack with a range of 60 feet using your spell attack modifier. On a hit, the target takes {@damage 2d6} fire damage.",
+						"{@b Yugoloth Teleportation} - Immediately after the Extraplanar Ally hits with an attack, it can teleport up to 30 feet to an unoccupied space it can see.",
+						"{@b Fiendish Charm} - The Extraplanar Ally can cast the {@spell charm person} spell a number of times a day equal to your proficiency bonus. If the target is successfully {@condition charmed} by the spell, the creature is {@condition charmed} by your Extraplanar Ally and you until the spell ends."
 					]
 				},
 				{
@@ -713,7 +759,6 @@
 				}
 			],
 			"traitTags": [
-				"Devil's Sight",
 				"Magic Resistance"
 			],
 			"senseTags": [
@@ -729,11 +774,14 @@
 			],
 			"miscTags": [
 				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
 			]
 		},
 		{
 			"name": "Extraplanar Ally (Monstrosity)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"source": "EPSorc",
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": null,
@@ -743,7 +791,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 40
@@ -792,7 +840,7 @@
 				{
 					"name": "Variable Trait",
 					"entries": [
-						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits):",
+						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
 						"{@b Winged} - it gains a flying speed of 40 ft.",
 						"{@b Aquatic} - it gains a swimming speed of 40 ft. and can breathe in both air and water.",
 						"{@b Spiked} - creatures that make melee weapon attacks against it while within 5ft of it takes piercing damage equal to PB.",
@@ -838,7 +886,8 @@
 		},
 		{
 			"name": "Extraplanar Ally (Undead)",
-			"source": "ExtraplanerSummonerSorcerousOrigin",
+			"isNamedCreature": true,
+			"source": "EPSorc",
 			"size": "M",
 			"type": "undead",
 			"alignment": null,
@@ -848,7 +897,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + 5 times your sorcerer level"
+				"special": "5 + PB times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -905,9 +954,9 @@
 				{
 					"name": "Variable Trait",
 					"entries": [
-						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits):",
+						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
 						"{@b Undead Fortitude} - it gains the undead fortitude trait, see the {@creature Zombie|MM} statblock from the Monster Manual for details.",
-						"{@b Regeneration} - it gains the regeneration trait, see the {@creature Vampire|MM} from the Monster Manual for details. If it takes radiant damage or damage from holy water, this trait doesn't function at the start of the extraplanar ally's next turn. This healing bypasses its Constructed Body trait.",
+						"{@b Regeneration} - it regains a number of hit points at the start of its turns equal to your proficiency bonus. If it takes radiant damage or damage from holy water, this trait doesn't function at the start of the extraplanar ally's next turn. This healing bypasses its Constructed Body trait.",
 						"{@b Spectral Form} - it gains a flying speed of 30 ft and can hover. In addition it gains the incorporeal movement trait. See the {@creature Ghost|MM} statblock from the Monster Manual for details.",
 						"{@b Shadowy Form} - it gains the amorphous trait (see {@creature Shadow|MM} from the Monster Manual for details.) and can hide as a bonus action while in dim light or darkness.",
 						"{@b Undead Resistance} - it gains resistance to fire, cold, and lightning damage; and it also gains resistance to non-magical bludgeoning, piercing, and slashing damage.",

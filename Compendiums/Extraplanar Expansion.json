@@ -1,0 +1,3453 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "AdditionalFey",
+        "abbreviation": "AF",
+        "full": "Additional Fey",
+        "url": "",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": []
+      },
+      {
+        "json": "OuterplanarExpansion",
+        "abbreviation": "OE",
+        "full": "Outerplanar Expansion",
+        "url": "",
+        "authors": [],
+        "convertedBy": [
+          "Erikku Blade"
+        ]
+      },
+      {
+        "json": "EPSorc",
+        "abbreviation": "EPS",
+        "full": "Extraplanar Summoner Sorcerous Origin",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "color": "4de0bd",
+        "url": "https://docs.google.com/document/d/1unioQLlLV1EKddes0vL06nmZ-pn3GQWa1TQvtDmvGJY/edit?usp=sharing",
+        "targetSchema": "1.2"
+      }
+    ],
+    "dateAdded": 1602104385,
+    "dateLastModified": 1602104385
+  },
+  "monster": [
+    {
+      "name": "Fey Champion",
+      "source": "AdditionalFey",
+      "page": 1,
+      "size": "M",
+      "type": {
+        "type": "fey",
+        "tags": [
+          "wood elf"
+        ]
+      },
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "{@item elven chain}",
+            "{@item shield, +1}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "27d8 + 135",
+        "average": 256
+      },
+      "speed": {
+        "walk": 35
+      },
+      "str": 17,
+      "dex": 22,
+      "con": 20,
+      "int": 13,
+      "wis": 17,
+      "cha": 12,
+      "save": {
+        "con": "+11",
+        "wis": "+9",
+        "cha": "+7",
+        "dex": "+12"
+      },
+      "skill": {
+        "perception": "+15",
+        "arcana": "+7",
+        "acrobatics": "+12",
+        "nature": "+7",
+        "stealth": "+12",
+        "survival": "+9"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 25,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from non-magical attacks"
+        }
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "languages": [
+        "Sylvan",
+        "Elvish"
+      ],
+      "cr": "20",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "The Fey Champion's innate spellcasting ability is Wisdom (spell save {@dc 17}, spell attack +9). They can innately cast the following spells, requiring no material components:"
+          ],
+          "constant": [
+            "{@spell aura of life|PHB}",
+            "{@spell aura of vitality|PHB}"
+          ],
+          "will": [
+            "{@spell animal friendship|PHB}",
+            "{@spell charm person|PHB}",
+            "{@spell druidcraft|PHB}",
+            "{@spell hunter's mark|PHB}",
+            "{@spell speak with animals|PHB}",
+            "{@spell speak with plants|PHB}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell animal messenger|PHB}",
+              "{@spell charm monster|XGE}",
+              "{@spell conjure animals|PHB}",
+              "{@spell conjure woodland beings|PHB}",
+              "{@spell flame arrows|XGE}",
+              "{@spell lightning arrow|PHB}",
+              "{@spell Melf's acid arrow|PHB}",
+              "{@spell staggering smite|PHB}",
+              "{@spell summon fey spirit|UA2020SpellsAndMagicTattoos}"
+            ],
+            "1e": [
+              "{@spell animal shapes|PHB}",
+              "{@spell conjure elemental|PHB}",
+              "{@spell conjure fey|PHB}",
+              "{@spell influence of the feywild|AdditionalFey}"
+            ]
+          },
+          "ability": "wis",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Indomitable (2/Day)",
+          "entries": [
+            "The champion rerolls a failed saving throw."
+          ]
+        },
+        {
+          "name": "Second Wind (Recharges after a Short or Long Rest)",
+          "entries": [
+            "As a bonus action, the champion can regain 20 hit points."
+          ]
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The fey champion has advantage on saving throws against being {@condition charmed}, and magic can't put the fey champion to sleep."
+          ]
+        },
+        {
+          "name": "Chameleon Skin",
+          "entries": [
+            "The fey champion has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+          ]
+        },
+        {
+          "name": "Sure-Footed",
+          "entries": [
+            "The fey champion has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+          ]
+        },
+        {
+          "name": "Freedom of Movement",
+          "entries": [
+            "The fey champion ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The champion makes three attacks with its shortsword or its shortbow."
+          ]
+        },
+        {
+          "name": "Shortsword of the Feywild",
+          "entries": [
+            "{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 7}) slashing damage, plus 10 ({@damage 2d6}) psychic damage."
+          ]
+        },
+        {
+          "name": "Shortbow of the Feywild",
+          "entries": [
+            "{@atk rw} {@hit 9} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 6}) piercing damage, plus 10 ({@damage 2d6}) psychic damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Parry",
+          "entries": [
+            "The Fey Champion adds a +6 to its AC against a single melee attack."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "swamp"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "entries": [
+                      "Fey Champions are mighty warriors who honed their fighting skills in the feywild. To elves and other fey who fight to protect themselves or even their homes, champions fight for the Feywild as a whole."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/6zRlgUJ.png",
+      "soundClip": "https://cdn.discordapp.com/attachments/451126814077616140/708859086342455296/Fey_Champion.mp3",
+      "traitTags": [
+        "Fey Ancestry"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "E",
+        "S"
+      ],
+      "damageTags": [
+        "P",
+        "S",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
+    {
+      "name": "Faenix",
+      "source": "AdditionalFey",
+      "page": 1,
+      "size": "H",
+      "type": "fey",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d12 + 50",
+        "average": 115
+      },
+      "speed": {
+        "walk": 20,
+        "fly": 120
+      },
+      "str": 11,
+      "dex": 24,
+      "con": 20,
+      "int": 8,
+      "wis": 19,
+      "cha": 16,
+      "save": {
+        "wis": "+7",
+        "cha": "+6"
+      },
+      "skill": {
+        "perception": "+10",
+        "stealth": "+10"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 20,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        },
+        {
+          "resist": [
+            "cold"
+          ]
+        }
+      ],
+      "immune": [
+        "fire",
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Fiery Death and Rebirth",
+          "entries": [
+            "When the faenix dies, it explodes. Each creature within 60-feet of it must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't worn or carried.",
+            "The explosion destroys the faenix's body and leaves behind an egg-shaped seed that weighs 5 pounds. The seed is burningly cold, dealing 21 ({@damage 6d6}) fire damage to any creature that touches it, though no more than once per round. The seed is immune to all damage, and after {@dice 2d6} days, it hatches a new faenix."
+          ]
+        },
+        {
+          "name": "Fire Form",
+          "entries": [
+            "The faenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the faenix or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d8}) fire damage. In addition, the faenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d8}) fire damage. With a touch, the faenix can also ignite flammable objects that aren't worn or carried (no action required)."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "entries": [
+            "The faenix doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+          ]
+        },
+        {
+          "name": "Illumination",
+          "entries": [
+            "The faenix sheds bright light in a 60-foot radius and dim light for an additional 30 feet."
+          ]
+        },
+        {
+          "name": "Feywild Flames",
+          "entries": [
+            "The faenix ignores any damage resistances or immunity to fire damage."
+          ]
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The faenix has advantage on saving throws against being {@condition charmed}, and magic can't put the faenix to sleep."
+          ]
+        },
+        {
+          "name": "Cold Flames",
+          "entries": [
+            "The faenix can replace its fire damage with cold damage if it so chooses."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The faenix makes two attacks: one with its beak and one with its fiery talons."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+          ]
+        },
+        {
+          "name": "Fiery Talons",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) fire damage."
+          ]
+        }
+      ],
+      "environment": [
+        "desert",
+        "mountain"
+      ],
+      "fluff": {
+        "entries": [
+          "The Faenix is an Elemental birthed from the Feywild, a response to the Elementals during the Planar War. The Faenix was a fierce weapon from the Feywild as its fire burned coldly. It is said that its fire could harm any creature, including those who were supposed to be naturally resistant to fire. Though it is indeed a powerful recreation of the Elemental Phoenix, it is not a perfect replica."
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/yal5bM4.png",
+      "soundClip": "https://cdn.discordapp.com/attachments/451126814077616140/708869782358851694/Faenix.mp3",
+      "traitTags": [
+        "Fey Ancestry",
+        "Flyby",
+        "Illumination"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "F"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Siren",
+      "isNpc": true,
+      "source": "AdditionalFey",
+      "page": "1",
+      "size": "M",
+      "type": "fey",
+      "alignment": [
+        "C",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d8 + 40",
+        "average": 85
+      },
+      "speed": {
+        "walk": 30,
+        "swim": 50
+      },
+      "str": 15,
+      "dex": 20,
+      "con": 18,
+      "int": 13,
+      "wis": 14,
+      "cha": 20,
+      "skill": {
+        "medicine": "+5",
+        "nature": "+7",
+        "stealth": "+8",
+        "survival": "+5",
+        "athletics": "+5",
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "languages": [
+        "Common",
+        "Elvish",
+        "Sylvan"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "Siren's innate spellcasting ability is Charisma (spell save {@dc 16}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell animal friendship}",
+              "{@spell charm person}",
+              "{@spell enthrall}",
+              "{@spell fog cloud}",
+              "{@spell greater invisibility}",
+              "{@spell polymorph} (self only)",
+              "{@spell suggestion}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "Siren can breathe air and water."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Siren has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage, plus 19 ({@damage 4d6 + 5}) psychic damage while the target is {@condition charmed}."
+          ]
+        },
+        {
+          "name": "Stupefying Touch",
+          "entries": [
+            "Siren touches one creature she can see within 5 feet of her. The creature must succeed on a {@dc 16} Intelligence saving throw or take 25 ({@damage 6d6 + 4}) psychic damage and be {@condition stunned} until the start of Siren's next turn."
+          ]
+        },
+        {
+          "name": "Luring Song",
+          "entries": [
+            "The siren sings a magical melody. Every humanoid and giant within 300 feet of the siren that can hear the song must succeed on a {@dc 16} Wisdom saving throw or be {@condition charmed} until the song ends. The siren must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the siren is {@condition incapacitated}.",
+            "While {@condition charmed} by the siren, a target is {@condition incapacitated} and ignores the songs of other siren. If the {@condition charmed} target is more than 5 feet away from the siren, the target must move on its turn toward the siren by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the siren, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.",
+            "A target that successfully saves is immune to this siren's song for the next 24 hours."
+          ]
+        }
+      ],
+      "environment": [
+        "feywild",
+        "forest",
+        "swamp",
+        "underwater"
+      ],
+      "fluff": {
+        "entries": [
+          "Originally, sirens were what are now known as the harpies. As time went on, the depiction of the sirens evolved into the fey we now know them as. ",
+          "Sirens are fey that are spiteful toward mankind. Their beauty and lustful singing can enchant the hearts of even the strongest men and lure them to the Siren, similarly as the harpies do. When their prey are lured in to their lair, they devour those who are foolish and weak enough to fall for their enchantments. Few return with their lives to tell the tale, and fewer return claiming they had slain the creature."
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/PnzrMbf.png",
+      "traitTags": [
+        "Amphibious",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "S"
+      ],
+      "damageTags": [
+        "P",
+        "S",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "incapacitated",
+        "stunned"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "invisible"
+      ]
+    },
+    {
+      "name": "Winter Walker",
+      "source": "AdditionalFey",
+      "page": "1",
+      "size": "H",
+      "type": "fey",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "Natrual Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 126,
+        "formula": "12d12 + 48"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 20,
+      "dex": 13,
+      "con": 18,
+      "int": 3,
+      "wis": 9,
+      "cha": 17,
+      "save": {
+        "con": "+7",
+        "cha": "+6"
+      },
+      "skill": {
+        "perception": "+2",
+        "stealth": "+7"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        "acid",
+        "lightning",
+        "thunder",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "immune": [
+        "cold",
+        "necrotic",
+        "poison"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained"
+      ],
+      "languages": [
+        "Understands Sylvan but does not speak it"
+      ],
+      "cr": "6",
+      "trait": [
+        {
+          "name": "Freezing Aura",
+          "entries": [
+            "Any creature that starts its turn within 30 feet of the Winter Walker must succeed on a {@dc 15} Constitution saving throw or take 7 ({@damage 2d6}) cold damage and grant the Winter Walker advantage on attack rolls against it until the start of the creature's next turn. The affected creatures also suffers disadvantage on attack rolls and their movement speed is reduced by 10 ft. Creatures with resistance to cold damage have advantage on the saving throw."
+          ]
+        },
+        {
+          "name": "Limited Invisibility",
+          "entries": [
+            "While the winter walker is in a blizzard, it is {@condition invisible}. It can still be partially visible but only by creatures with a 15 passive perception or higher, canceling the effects of it's limited invisibility. It appears as a translucent ghost while within this limited invisibility."
+          ]
+        },
+        {
+          "name": "Aversion of Fire",
+          "entries": [
+            "If the winter walker takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The nightwalker uses Frostbitten Touch twice, or it uses Frostbitten Touch and Chilling Doom, if available."
+          ]
+        },
+        {
+          "name": "Frostbitten Touch",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}17 ({@damage 3d8 + 5}) cold damage. The target must succeed on a {@dc 15} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest."
+          ]
+        },
+        {
+          "name": "Chilling Doom {@recharge}",
+          "entries": [
+            "The winter walker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or take 18 ({@damage 3d12}) cold damage and become {@condition frightened} until the end of the winter walker's next turn. While {@condition frightened} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the winter walker's Chilling Doom for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Cold Breath {@recharge 5}",
+          "entries": [
+            "The winter walker exhales an icy blast in a 30-foot cone. Each creature in that area must make a {@dc 15} Constitution saving throw, taking 45 ({@damage 10d8}) cold damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "feywild",
+        "hill",
+        "mountain"
+      ],
+      "fluff": {
+        "entries": [
+          "Unknown to most travelers, there is a monster that can only be found during the winter times, where the Feywild and the material plane converges the most.",
+          "The Unseelie Court created a creature bound by a curse that infects other creatures with this same curse. The creature walks aimlessly until the death of winter. If it comes across any travelers, it thoughtlessly attacks. This creature's main drive is to protect the crossroads between the Feywild and the material plane, however it is void of any form of sanity or consciousness. It has no real thoughts, only about the fight and how it will kill its current or next prey.",
+          "When winter comes to an end, the creature fades away. Supposedly, there is a section of the Feywild that is in an endless winter, which is where these Winter Walkers go to wander until the next winter comes.",
+          "As a fail safe, they gave the creature an unnatural weakness to fire in case these monsters decided to turn against them."
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/dA0Xs1I.png",
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "S"
+      ],
+      "damageTags": [
+        "C"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "frightened",
+        "paralyzed"
+      ]
+    },
+    {
+      "name": "Archfey",
+      "source": "AdditionalFey",
+      "size": "L",
+      "type": "fey",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "Natural Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "20d10 + 100",
+        "average": 210
+      },
+      "speed": {
+        "walk": 40,
+        "fly": {
+          "number": 60,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 20,
+      "dex": 24,
+      "con": 20,
+      "int": 19,
+      "wis": 22,
+      "cha": 25,
+      "save": {
+        "con": "+10",
+        "wis": "+11",
+        "cha": "+12"
+      },
+      "skill": {
+        "arcana": "+9",
+        "deception": "+12",
+        "history": "+9",
+        "perception": "+11"
+      },
+      "senses": [
+        "darkvision 120 ft.",
+        "truesight 120 ft."
+      ],
+      "passive": 21,
+      "resist": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        {
+          "resist": [
+            {
+              "special": "and damage from spells"
+            }
+          ]
+        }
+      ],
+      "immune": [
+        "poison",
+        "psychic",
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from  non-magical damage"
+        }
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed"
+      ],
+      "languages": [
+        "Common",
+        "Sylvan",
+        "and three others"
+      ],
+      "cr": "16",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The Archfey is an 18th level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 20}, +12 to hit with spell attacks). The Archfey has the following spells prepared, from the Druid and Warlock spell lists. The Archfey can cast these spells without requiring material components."
+          ],
+          "will": [
+            "{@spell conjure fey}",
+            "{@spell locate animals or plants}",
+            "{@spell plant growth}"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell druidcraft}",
+                "{@spell eldritch blast}",
+                "{@spell guidance}",
+                "{@spell shillelagh}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell absorb elements|XGE}",
+                "{@spell cure wounds}",
+                "{@spell faerie fire}",
+                "{@spell healing word}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell augury}",
+                "{@spell enhance ability}",
+                "{@spell flaming sphere}",
+                "{@spell lesser restoration}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell call lightning}",
+                "{@spell conjure animals}",
+                "{@spell counterspell}",
+                "{@spell wind wall}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell banishment}",
+                "{@spell confusion}",
+                "{@spell conjure minor elementals}",
+                "{@spell conjure woodland beings}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell commune with nature}",
+                "{@spell cone of cold}",
+                "{@spell conjure elemental}",
+                "{@spell greater restoration}"
+              ],
+              "slots": 3
+            },
+            "6": {
+              "spells": [
+                "{@spell druid grove|XGE}",
+                "{@spell heal}",
+                "{@spell transport via plants}",
+                "{@spell wind walk}"
+              ],
+              "slots": 1
+            },
+            "7": {
+              "spells": [
+                "{@spell fire storm}",
+                "{@spell power word pain|XGE}",
+                "{@spell regenerate}",
+                "{@spell whirlwind|XGE}"
+              ],
+              "slots": 1
+            },
+            "8": {
+              "spells": [
+                "{@spell control weather}",
+                "{@spell demiplane}",
+                "{@spell earthquake}",
+                "{@spell power word stun}"
+              ],
+              "slots": 0
+            },
+            "9": {
+              "spells": [
+                "{@spell gate}",
+                "{@spell imprisonment}",
+                "{@spell shapechange}",
+                "{@spell true resurrection}"
+              ],
+              "slots": 0
+            }
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Otherworldly Spell Versatility {@recharge 5}",
+          "entries": [
+            "If the Archfey so chooses, they can use a bonus action on their turn to exchange one spell they have prepared with another one from the Druid and Warlock spell lists."
+          ]
+        },
+        {
+          "name": "Tree Stride",
+          "entries": [
+            "Once on their turn, the archfey can use 10 feet of movement to step magically into one living tree within reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+          ]
+        },
+        {
+          "name": "Speak with Beasts and Plants",
+          "entries": [
+            "The archfey can communicate with beasts and plants as if they shared a language."
+          ]
+        },
+        {
+          "name": "Superior Invisibility",
+          "entries": [
+            "As a bonus action, the archfey can magically turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the archfey wears or carries is {@condition invisible} with it."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If the archfey fails a saving throw, it can choose to succeed instead."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Cantrip",
+          "entries": [
+            "The Archfey casts a cantrip."
+          ]
+        },
+        {
+          "name": "Conjure Fey (costs 2 Actions)",
+          "entries": [
+            "As the Archfey, he can summon other Sylvan creatures to fight alongside him in combat or to aid in any myriad of tasks. The creatures he can summon include Blink Dogs, Satyrs, Green and Sea Hags, Faerie Dragons, Pixies, Sprites and Dryads. These summons have the same Charisma and Dexterity as the Archfey, while all other stats remain the same."
+          ]
+        },
+        {
+          "name": "Reversal (costs 3 Actions)",
+          "entries": [
+            "Until the Archfey’s next turn, all incoming attacks, spells, and magical effects have the chance to backfire and cause damage to the creature who initially targeted the Archfey. Roll a {@dice d100}: anything below a 50 backfires upon said creature and above 50 the attack carries through as normal. A backfired attack or effect makes the source of said attack or effect the centered target of it. If a saving throw is required, they must make it as if they were the target of the effect."
+          ]
+        }
+      ],
+      "environment": [
+        "feywild",
+        "forest",
+        "grassland",
+        "swamp",
+        "underwater"
+      ],
+      "fluff": {
+        "entries": [
+          "“You dare set foot in my court, desecrating this place we Fair Folk find sacred no matter what walk of life we choose. You will wish that your toes had never stepped here in the first place.” – Archfey Nuada the Silver-Handed",
+          "It is known that the fey are strange, miraculous beings, but their power is dwarfed by that of the Archfey. In the eyes of sylvan beings, none compare in their mastery of the arcane and of trickery. They keep grudges for what seems like eternity, and will not let up on the chase for something even if it means watching from a distance their prey weaken and diminish. Always with a other-worldly grace to them, they look similar to elves but have wings that take the form of either ones belonging to insects like dragonflys or birds. Some even have wings resembling those of dragons and demons.",
+          "For all of their power, they seldom travel out of the world of Faerie, and due to this they enlist Warlocks to serve them in whatever way they wish. Some seek ever-growing knowledge while others wish to spread mischief and chaos wherever they go. They grant great power: power that makes  their servants fear if they should ever fail their patron or even dare to go against their will."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "http://bagelscampaigns.wdfiles.com/local--files/archfey/pfrost-squeen.jpeg"
+            }
+          },
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://static.wikia.nocookie.net/criticalrole/images/a/ad/Artagan-by-David-Rodrigues.jpg/revision/latest?cb=20161213041735"
+            }
+          },
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://lh3.googleusercontent.com/proxy/GLPRHMV-2GqqCfzV9gaj4TVLTyydRGwBU94DBeW6ORrg6HJzuVTmfZwG2P6PS3Cpb7F6kKUWt4cURsoPKhJQXFuWNcymo1zThsDCO2smgw=w1200-h630-p-k-no-nu"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/MZ3RjPf.png",
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "senseTags": [
+        "SD",
+        "U"
+      ],
+      "languageTags": [
+        "C",
+        "S"
+      ],
+      "spellcastingTags": [
+        "CD",
+        "CL"
+      ]
+    },
+    {
+      "name": "Swarm of Death Butterflies",
+      "source": "AdditionalFey",
+      "page": 338,
+      "size": "L",
+      "type": {
+        "type": "beast",
+        "swarmSize": "T"
+      },
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d8",
+        "average": 36
+      },
+      "speed": {
+        "walk": 5,
+        "fly": {
+          "number": 40,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 3,
+      "dex": 15,
+      "con": 10,
+      "int": 1,
+      "wis": 12,
+      "cha": 8,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "languages": [
+        "Bitch do I speak"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Swarm",
+          "entries": [
+            "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+          ]
+        },
+        {
+          "name": "Poisonous Bites",
+          "entries": [
+            "A creature that is hit by the swarm of butterflies must make a dc 13 constitution saving throw or be {@condition poisoned} for 1 hour. If a creature spends their action doing nothing, at the end of their turn they can repeat their save, ending the condition on a success."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bites",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+          ]
+        }
+      ],
+      "environment": [
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "swamp",
+        "underdark",
+        "urban"
+      ],
+      "fluff": {
+        "name": "Swarm of Insects",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "inset",
+                    "name": "The Nature of Swarms",
+                    "entries": [
+                      "The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/zFslE6I.png",
+      "soundClip": {
+        "type": "external",
+        "url": "https://noads.5e.tools/audio/bestiary/swarm-of-insects.mp3?v=1.113.0"
+      },
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "poisoned"
+      ]
+    },
+    {
+      "name": "Astral Stalker",
+      "source": "OuterplanarExpansion",
+      "size": "M",
+      "type": "monstrosity",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 80",
+        "average": 152
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 23,
+      "dex": 19,
+      "con": 21,
+      "int": 12,
+      "wis": 14,
+      "cha": 18,
+      "save": {
+        "dex": "+8",
+        "con": "+9",
+        "int": "+5",
+        "cha": "+8"
+      },
+      "skill": {
+        "athletics": "+10",
+        "stealth": "+12",
+        "perception": "+10",
+        "investigation": "+9",
+        "survival": "+10"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 20,
+      "languages": [
+        "Common",
+        "Infernal"
+      ],
+      "cr": "12",
+      "trait": [
+        {
+          "name": "Evasion",
+          "entries": [
+            "If the astral stalker is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the astral stalker instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "The astral stalker deals an extra 20 ({@damage 6d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Swift Hunter",
+          "entries": [
+            "The astral stalker can take the Dash or Hide action as a bonus action on each of its turns."
+          ]
+        },
+        {
+          "name": "Elusive Prey",
+          "entries": [
+            "Creatures have disadvantge on ability checks made to track the stalker."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The astral stalker makes two claw attacks. The astral stalker can replace one of its attacks with its claw with a throat dart."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+          ]
+        },
+        {
+          "name": "Throat Dart",
+          "entries": [
+            "{@atk rw} {@hit 8} to hit, range 150/150 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw 24 ({@damage 7d6}) poison damage."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "The creature looks like a muscular humanoid with thick black-green skin. Its demonic visage is reminiscent of a skeletal human with a prominent jaw. Its hands end in large, wickedly sharp claws.",
+          "Astral stalkers roam the multiverse looking for the ultimate quarry. They live for the thrill of the hunt, and they measure their personal worth and status in their community by the number and power of the creatures that they have successfully hunted.",
+          "These able hunters prefer to stalk intelligent foes, and the pleasure they gain from hunting these creatures for sport makes them evil by the standards of any race. However, astral stalkers adhere to a short list of tenets that they refer to as the Rules of the Hunt: Once its quarry has knowingly eluded an astral stalker, it will never again hunt that creature; if hired to hunt a creature, the stalker will not hunt its employer for at least one year; and no astral stalker will ever hunt another astral stalker.",
+          "Astral stalkers find that their prey provides better sport if it knows it is being hunted, so they often warn their quarry in some roundabout fashion before beginning the hunt.",
+          "An astral stalker typically stands 6 feet tall and weighs 275 pounds."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/iToVcia.png"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/mxtaeQU.png",
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "I"
+      ],
+      "damageTags": [
+        "I",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Glaistig",
+      "source": "OuterplanarExpansion",
+      "size": "M",
+      "type": "fey",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "9d8 + 9",
+        "average": 49
+      },
+      "speed": {
+        "walk": 30,
+        "swim": 50
+      },
+      "str": 12,
+      "dex": 16,
+      "con": 12,
+      "int": 13,
+      "wis": 14,
+      "cha": 19,
+      "save": {
+        "dex": "+6",
+        "con": "+4"
+      },
+      "skill": {
+        "deception": "+7",
+        "athletics": "+4",
+        "insight": "+5",
+        "performance": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        "cold",
+        "fire"
+      ],
+      "languages": [
+        "Common",
+        "Elvish",
+        "Sylvan"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "The glaistig's innate spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells:"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell fog cloud}",
+            "{@spell suggestion}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell hypnotic pattern}",
+              "{@spell water breathing}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "The glaistig can breathe air and water."
+          ]
+        },
+        {
+          "name": "Water Symbiosis",
+          "entries": [
+            "Each glaistig is mystically bound to a body of water or a waterway as small as a pond or as large as a lake or river. A glaistig cannot move more than 600 feet away from its body of water and still breathe normally. If a glaistig strays farther away, it must hold its breath or immediately start to suffocate. If the glaistig is summoned by a spell, or conjured by a spell such as {@spell Conjure Fey}, it can breath normally for the duration of the spell, after which it immediately begins to suffocate if it is not returned to its home plane. Once a glaistig has moved beyond the boundary of its connection, it cannot breathe normally until it has immersed itself in its body of water."
+          ]
+        },
+        {
+          "name": "Blood Drain",
+          "entries": [
+            "If the glaistig is grappling a creature, whenever it deals damage to the {@condition grappled} target using its bite; it regains hit points equal to the damage dealt and that creature's maximum hit points is reduced by the same amount. If a creature's maximum hit points are reduced to zero by this feature, it dies. A creature's hit point maximum reduced by this feature is restored to normal when it finishes a long rest."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Glaistig makes two bite attacks."
+          ]
+        },
+        {
+          "name": "Beguiling Song",
+          "entries": [
+            "A glaistig can attempt to beguile creatures with its song. A glaistig sings, targeting a single creature it can see within 100 ft. Of the body of water to which it is linked (see Water Symbiosis, above). A creature is immune to the Beguiling Song if it is {@condition deafened}, {@condition unconscious}, or cannot hear the song. The targeted creature must make a {@dc 15} Wisdom saving throw or be {@condition charmed} by the Glaistig. A creature {@condition charmed} in this way spends their turn taking the most direct path to the Glaistig and spends its action worshiping the Glaistig's beauty. An affected creature repeats its save at the end of each of its turn, ending the effect on a success. A creature who succeeds on the glaistig's beguiling song is immune to its effects for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "variant": [
+        {
+          "name": "Glaistig Mindbender",
+          "entries": [
+            "Naturally inclined toward magic and enchantments of all kinds, many glaistigs become sorcerers that specialize in mind-bending magic. They use these abilities to enhance their chances of luring prey to their watery homes. The following spells are added to the Glaistig's At Will innate spellcasting: {@spell charm person}, {@spell disguise self}, {@spell mage armor}, and {@spell hold person}. This variant of glaistig loses its multiattack."
+          ],
+          "type": "variant"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "{@i A staggeringly beautiful maiden stands waist-deep in the water, swaying back and forth as she sings a haunting song.}",
+          "Beautiful and enchanting, glaistigs are fey that lurk in and around pools, lakes, and streams. They have an insatiable craving for the blood of mortals, beguiling victims to come close to their lair in order to drain them. They are commonly mistaken for vampires because of their bloodsucking technique, but they are not undead.",
+          "Glaistigs resemble incredibly attractive female humans or half-elves, but instead of normal legs, they have goat legs with long, white fur. Most have snow-white hair and eyes that shimmer like water. When they smile, glaistigs try not to show their teeth, which are sharpened to cruel-looking fangs and revealed only when they are about to strike. Glaistigs wear long, fine robes and dresses that drape along the ground, which are used to hide their legs. Glaistigs loathe showing their legs to anyone, and will only reveal them to lash out in anger. If someone catches sight of a glaistig’s goat legs, it will become very angered and attack the offender.",
+          "Despite their single-minded lust for blood, glaistigs are unpredictable and capricious. If they have recently fed (say, within a month) then they are just as likely to help someone as they are to attack. More than a few people have been attacked by a glaistig, even if it has talked and been friendly to them in the past. Glaistigs also enjoy dancing, and some lure their victims to caper and dance for many hours before attacking them.",
+          "Glaistigs are solitary by nature and do not even like other fey all that much. While they gain no sustenance from the blood of sylvan creatures, glaistigs have been known to attack fey that come too close into their territory. Perhaps because of their similar nature, glaistigs in particular do not like dryads, and it is extremely rare to find the two beings in the same territory. ",
+          "An average glaistig is about 5 feet 2 in height and weighs about 90 pounds."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/ojgMRUS.png"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/LRaIKpC.png",
+      "traitTags": [
+        "Amphibious"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "S"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "deafened",
+        "unconscious"
+      ]
+    },
+    {
+      "name": "Fate Weaver",
+      "source": "OuterplanarExpansion",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any humanoid"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "condition": "(14 with Mage Armor)"
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 12",
+        "average": 66
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 12,
+      "con": 13,
+      "int": 14,
+      "wis": 16,
+      "cha": 18,
+      "skill": {
+        "arcana": "+6",
+        "history": "+6",
+        "insight": "+7",
+        "religion": "+6"
+      },
+      "passive": 13,
+      "languages": [
+        "Common",
+        "plus two other languages"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The fate weaver is a 9th level spellcaster (spell save {@dc 16}, +8 to hit with spell attacks) and has the following spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell druidcraft}",
+                "{@spell guidance}",
+                "{@spell prestidigitation}",
+                "{@spell sacred flame}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell guiding bolt}",
+                "{@spell healing word}",
+                "{@spell mage armor}",
+                "{@spell shield}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell calm emotions}",
+                "{@spell detect thoughts}",
+                "{@spell see invisibility}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell counterspell}",
+                "{@spell dispel magic}",
+                "{@spell mass healing word}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell death ward}",
+                "{@spell divination}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell mass cure wounds}"
+              ],
+              "slots": 1
+            }
+          },
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Boon of Healing",
+          "entries": [
+            "The fate weaver regains 4 hit points whenever it heals a creature using a spell slot of 1st level or higher."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Boon of Fate (4/Day)",
+          "entries": [
+            "The fate weaver can choose a creature within 15 ft of it. For one hour, that creature can roll an additional {@dice d20} whenever it makes an ability check, attack roll, or saving throw and choose the result they take. Once they do so, they lose the ability to do so unless they are given another Boon of Fate."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/40 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage in melee, or 3 ({@damage 1d4 + 1}) piercing damage at range."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Fate Weaving (5/Day)",
+          "entries": [
+            "As a reaction, the Fate Weaver can add a {@dice d6} from to any ability check, attack roll, or saving throw from a creature it can see within 30 ft of it. Alternatively, they can subtract a {@dice d6} from any attack roll it can see within 30 ft of it."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Fate weavers are not just like any other wizard who can draw power from the weave, or a cleric who receives their power from a divine entity. Fate weavers are more akin to sorcerers in that their magic stems directly from the weave itself, but on an even greater scale. Fate weavers are often the children of the weave and their magic is as raw as it comes. Mystra, the goddess of magic, alongside The Raven Queen, the goddess of death and fate, are like 'god mothers' to these children of the weave.",
+          "Despite their direct connection to the weave, many fate weavers have trouble learning magic outside of healing, divination, and abjuration magic. Not impossible, but difficult - especially with evocation magic outside of healing. Some of the most deadly spells are outside the reach of most fate weavers, but they do gain access to the most powerful spell any mortal can cast if they make it to that point.",
+          "Fate weavers toy with the designs of most gods, including that of Mystra and The Raven Queen. Often, they relish the challenge of such a thing. Playing with fate, testing their luck against the worst odds imagineable."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/iyem7Jn.png"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/nh8x4cn.png",
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Base)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "construct",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 13,
+      "int": 9,
+      "wis": 11,
+      "cha": 17,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Aberration)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "aberration",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 17,
+      "dex": 9,
+      "con": 13,
+      "int": 19,
+      "wis": 11,
+      "cha": 15,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "resist": [],
+      "languages": [
+        "Deep Speech",
+        "understands the languages you speak",
+        "telepathy 60 ft."
+      ],
+      "spellcasting": [
+        {
+          "name": "Psionic Spellcasting",
+          "headerEntries": [
+            "The Extraplanar Ally uses intelligence for its Psionic spellcasting (spell save DC equals 8 + PB + its intelligence modifier, and its spell attack is PB + its intelligence modifier.) and it has the following psionic spells:"
+          ],
+          "will": [
+            "{@spell mage hand}",
+            "{@spell mind sliver|TCE}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell charm person}",
+              "{@spell magnify gravity|EGW}"
+            ]
+          },
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+            "{@b Improved Psionic Spellcasting} - The Extraplanar Ally adds {@spell eldritch blast} and {@spell vicious mockery} to its at will cantrips and the following spells to its 1/day spells for it's Psionic Spellcasting trait, it can use either its own spellcasting ability or yours for these spells: {@spell shield} and {@spell command}",
+            "{@b Eldritch Horror} - The Extraplanar Ally has a horrific appearance that strikes fear into creatures from the mere sight of it. Each creature other than you that starts its turn within 60 feet of the Extraplanar Ally makes a Wisdom saving throw against your spell save DC. On a failed save, the creature is {@condition frightened} of the Extraplanar Ally. If it succeeds, it is immune to its Eldritch Horror trait for 24 hours. A {@condition frightened} creature repeats its saves at the end of each of its turns.",
+            "{@b Mind Blast} - The Extraplanar Ally can magically emit psychic energy in a 60-foot cone. Each creature in that area must succeed on an intelligence saving throw against your spell save DC or take a number of {@damage d6} psychic damage equal to your proficiency bonus and is {@condition stunned} on a failed save, or half as much and is not {@condition stunned} on a success. Once it uses this feature, it must recharge before it can be used again. Roll a {@dice d6} at the start of each of your turns. On a 6, the ability is recharged.",
+            "{@b Mental Fortitude} - The Extraplanar Ally has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can't put it to sleep",
+            "{@b Sense Magic} - The Extraplanar Ally senses magic within 30 feet of it at will. This trait otherwise works like the {@spell detect magic} spell but isn't itself magical.",
+            "{@b Sticky Crawly Appendages} - The Extraplanar Ally is always under the effects of the {@spell spider climb} spell and has advantage on ability checks made to grapple creatures.",
+            "{@b Tentacle Burst} - The Extraplanar Ally can cast the {@spell Arms of Hadar} a number of times per day equal to your proficiency bonus."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Tentacle",
+          "entries": [
+            "{@atk mw} {@hit PB + 3} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage and the target is {@condition grappled} (escape DC equals 8 + PB + Strength Modifier."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Psychic Backlash",
+          "entries": [
+            "If the Extraplanar Ally is attacked by a creature within 15 ft of it, it can deal a number of psychic damage equal to your proficiency bonus."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Tentacles"
+      ],
+      "languageTags": [
+        "DS",
+        "TP"
+      ],
+      "damageTags": [
+        "B",
+        "Y"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "frightened",
+        "grappled",
+        "stunned"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Celestial)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "celestial",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 13,
+      "int": 9,
+      "wis": 11,
+      "cha": 17,
+      "passive": 10,
+      "resist": [
+        "radiant"
+      ],
+      "languages": [
+        "Celestial",
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The extraplanar ally has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Healing Touch (PB/Day)",
+          "entries": [
+            "The Extraplanar Ally touches another creature. The target magically regains 7 ({@dice 1d8 + 3}) hit points."
+          ]
+        },
+        {
+          "name": "Radiant Longsword",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant damage, or 9 ({@damage 1d10 + 4}) radiant damage if used with both hands."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "languageTags": [
+        "CE"
+      ],
+      "damageTags": [
+        "R"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Construct)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "construct",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 17,
+      "int": 9,
+      "wis": 11,
+      "cha": 13,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+            "{@b Balance Corrector} The Extraplanar Ally ignores difficult terrain.",
+            "{@b Constructed Resilience} - The Extraplanar Ally is immune to disease and has resistance to bludgeoning, piercing, and slashing damage from non-magical attacks.",
+            "{@b Constructed Sword} The Extraplanar Ally has a specialized weapon specifically made for it. It has a sword that deals {@damage 1d10} slashing damage plus its strength or dexterity modifier. These weapons are counted as magical.",
+            "{@b Fireproof} - The Extraplanar Ally is immune to fire damage.",
+            "{@b Spell-Storing Component} - The Extraplanar Ally can store spells for you to use at a later time. You can store spells whose total levels equal your proficiency bonus by casting the spell while within 10 feet of your Extraplanar Ally. The spells remain stored even if the Extraplanar Ally is returned to its home plane, but you cannot cast them unless you are within 10 feet of your Extraplanar Ally.",
+            "{@b Spell Disrupting Forcefield} - The Extraplanar Ally emits a magical field of arcane energy that wards it from spells. The Extraplanar Ally takes half damage from spells and has advantage on saving throws against spells.",
+            "{@b Improved Motor Components} - The Extraplanar Ally's speed is increased by 10 feet."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "B",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Elemental)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "elemental",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": {
+          "number": 30,
+          "condition": "(Earth)"
+        },
+        "swim": {
+          "number": 30,
+          "condition": "(Water)"
+        },
+        "fly": {
+          "number": 30,
+          "condition": "(hover) (Air)"
+        },
+        "canHover": true
+      },
+      "str": 19,
+      "dex": 11,
+      "con": 17,
+      "int": 9,
+      "wis": 15,
+      "cha": 13,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "Primordial",
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Flaming Body (Fire)",
+          "entries": [
+            "The Extraplanar Ally's slam attack deals fire damage instead of bludgeoning. The Extraplanar Ally is immune to fire damage."
+          ]
+        },
+        {
+          "name": "Amorphous Form (Air, Fire, and Water Only)",
+          "entries": [
+            "The Extraplanar Ally can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Freeze (Water)",
+          "entries": [
+            "If the extraplanar ally (elemental) takes cold damage, it partially freezes; its speed is reduced by 20 feet until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Invisible in Water (Water)",
+          "entries": [
+            "The water weird is {@condition invisible} while fully immersed in water."
+          ]
+        },
+        {
+          "name": "Hardened Body (Earth)",
+          "entries": [
+            "The extraplanar ally reduces damage it takes from bludgeoning, piercing, and slashing damage by an amount equal to your proficiency bonus."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Amorphous"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "P"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Fey)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "fey",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 19,
+      "con": 13,
+      "int": 11,
+      "wis": 17,
+      "cha": 15,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        "psychic"
+      ],
+      "conditionImmune": [],
+      "languages": [
+        "Sylvan",
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The extraplanar ally has advantage on saving throws against being {@condition charmed}, and magic can't put the extraplanar ally to sleep."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+            "{@b Invisibility} - The extraplanar ally can use a bonus action to become {@condition invisible}. This invisibility ends if it attacks or if a spell is cast originating from it.",
+            "{@b Faerie Wings} - The extraplanar ally grows a set of fairy wings. It gains a flying speed equal to its walking speed. If it ends its turn while it is flying, it safely descends 60 feet and continues to fall at a rate of 60 feet per round.",
+            "{@b Fey Magic} - The Extraplanar Ally knows the {@spell druidcraft} cantrip and can cast it at will. In addition, it can cast the {@spell faerie fire} spell a number of times equal to your PB per day.",
+            "{@b Sneaky Trickster} - The Extraplanar Ally knows the {@spell minor illusion} cantrip and can cast it at will. In addition, it can cast the {@spell pass without trace} spell a number of times equal to your PB per day.",
+            "{@b Fey Antics} - The Extraplanar Ally knows the {@spell vicious mockery} cantrip and can cast it at will. In addition, it can cast the {@spell faenatics|AdditionalFey} a number of times equal to your PB per day.",
+            "{@b Speak with Beasts and Plants} - The Extraplanar Ally can communicate with beasts and plants as if they shared a language. You also gain this benefit while within 10 feet of the Extraplanar Ally.",
+            "{@b Mimicry} - The Extraplanar Ally can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check against your spell save DC."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The extraplanar ally has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Thorny Shortsword",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Off-Hand Thorny Shortsword",
+          "entries": [
+            "The Extraplanar Ally can engage in two-weapon fighting using its off-hand Thorny Shortsword, but it does not add its ability modifier to the damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "S"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Fiend)",
+      "source": "EPSorc",
+      "size": "M",
+      "type": "fiend",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 13,
+      "int": 9,
+      "wis": 11,
+      "cha": 17,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune": [],
+      "languages": [
+        "Abyssal or Infernal; understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+            "{@b Devil's Sight} - Magical darkness doesn't impede the extraplanar ally's darkvision.",
+            "{@b Death Throes} - When the Extraplanar ally is reduced to 0 hit points, before it is destroyed it explodes and releases outward a firey eruption out to a range of 30 feet. Each creature within range makes a Dexterity saving throw against your spell save DC and takes a number of {@damage d6} fire damage equal to your proficiency bonus on a failed save, or half as much on a succes.",
+            "{@b Freezing Stygia} - The extra damage from the Extraplanar Ally's Claws deals cold damage instead of fire.",
+            "{@b Winged Fiend} - The extraplanar ally gains a flying speed equal to 10 times your proficiency bonus.",
+            "{@b Flame Thrower} - The extraplanar ally gains special ranged attack. It makes a ranged spell attack with a range of 60 feet using your spell attack modifier. On a hit, the target takes {@damage 2d6} fire damage.",
+            "{@b Yugoloth Teleportation} - Immediately after the Extraplanar Ally hits with an attack, it can teleport up to 30 feet to an unoccupied space it can see.",
+            "{@b Fiendish Charm} - The Extraplanar Ally can cast the {@spell charm person} spell a number of times a day equal to your proficiency bonus. If the target is successfully {@condition charmed} by the spell, the creature is {@condition charmed} by your Extraplanar Ally and you until the spell ends."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The extraplanar ally has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, plus 3 ({@damage 1d6}) fire damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "AB",
+        "I"
+      ],
+      "damageTags": [
+        "F",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "charmed"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Monstrosity)",
+      "source": "EPSorc",
+      "size": "L",
+      "type": "monstrosity",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 17,
+      "int": 9,
+      "wis": 13,
+      "cha": 11,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "conditionImmune": [],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+            "{@b Winged} - it gains a flying speed of 40 ft.",
+            "{@b Aquatic} - it gains a swimming speed of 40 ft. and can breathe in both air and water.",
+            "{@b Spiked} - creatures that make melee weapon attacks against it while within 5ft of it takes piercing damage equal to PB.",
+            "{@b Siege Monster} - it always scores a critical hit on objects.",
+            "{@b Tough Body} - it has an additional number of maximum hit points equal to two times your PB.",
+            "{@b Durable Body} - it gains a bonus to its AC equal to its constitution modifier.",
+            "{@b Tail Attack} - it gains a tail attack, which it can use as a bonus action to make an additional attack when it takes the attack action."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Natural Weapon",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "Tail (See Variable Trait)",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Tail (See Variable Trait)",
+          "entries": [
+            "After the extraplanar ally takes the attack action, it can immediately use its bonus action to make a tail attack."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Extraplanar Ally (Undead)",
+      "isNamedCreature": true,
+      "source": "EPSorc",
+      "size": "M",
+      "type": "undead",
+      "alignment": null,
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "5 + PB times your sorcerer level"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 17,
+      "int": 9,
+      "wis": 11,
+      "cha": 13,
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 10,
+      "resist": [
+        "necrotic"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Constructed Body",
+          "entries": [
+            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
+            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
+            "The Extraplanar Ally uses your proficiency bonus in place of its own."
+          ]
+        },
+        {
+          "name": "Specialized Expertise",
+          "entries": [
+            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
+          ]
+        },
+        {
+          "name": "Specialized Attributes",
+          "entries": [
+            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
+          ]
+        },
+        {
+          "name": "Spellbound",
+          "entries": [
+            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
+          ]
+        },
+        {
+          "name": "Variable Trait",
+          "entries": [
+            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+            "{@b Undead Fortitude} - it gains the undead fortitude trait, see the {@creature Zombie|MM} statblock from the Monster Manual for details.",
+            "{@b Regeneration} - it regains a number of hit points at the start of its turns equal to your proficiency bonus. If it takes radiant damage or damage from holy water, this trait doesn't function at the start of the extraplanar ally's next turn. This healing bypasses its Constructed Body trait.",
+            "{@b Spectral Form} - it gains a flying speed of 30 ft and can hover. In addition it gains the incorporeal movement trait. See the {@creature Ghost|MM} statblock from the Monster Manual for details.",
+            "{@b Shadowy Form} - it gains the amorphous trait (see {@creature Shadow|MM} from the Monster Manual for details.) and can hide as a bonus action while in dim light or darkness.",
+            "{@b Undead Resistance} - it gains resistance to fire, cold, and lightning damage; and it also gains resistance to non-magical bludgeoning, piercing, and slashing damage.",
+            "{@b Chilling Touch} - when it uses its Life Drain attack, that target cannot gain the benefits of healing until the start of the extraplanar ally's next turn.",
+            "{@b Absorb Life} - when it uses its Life Drain attack, it regains hit points equal to the amount of damage it dealt to the creature. This healing bypasses its Constructed Body trait."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Life Drain",
+          "entries": [
+            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) necrotic damage."
+          ]
+        }
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "damageTags": [
+        "N"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    }
+  ],
+  "spell": [
+    {
+      "name": "Influence of the Feywild",
+      "source": "AdditionalFey",
+      "page": 2,
+      "level": 5,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "petrified wood or plant from the feywild"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You attempt to influence a creature to become friendly toward you and your companions by using the ancient magics of the Feywild. You target one creature that you can see within range of the spell, if they are unwilling that target makes a wisdom saving throw. On a failed save, the creature is {@condition charmed} by you. While {@condition charmed} by you, they become very friendly toward you and follow your commands to the best of their ability. A creature {@condition charmed} in this way will not do anything that may seem harmful to them, outside of fighting another creature. In addition, at the start of each of their turns they regain {@dice 1d6} hit points as long as they have at least 1 hit point.",
+        "The spell ends if you or any of your allies do anything harmful to that creature, if they fall to 0 hit points, or if they are {@condition incapacitated}. The spell also ends early if you attempt to cast the spell on another creature."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, the healing increases by {@dice 1d6} for every two slot levels above 5th and the duration lasts for 24 hours."
+          ]
+        }
+      ],
+      "conditionInflict": [
+        "charmed"
+      ],
+      "savingThrow": [
+        "wisdom"
+      ],
+      "miscTags": [
+        "HL",
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "fateweaver"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Cleric",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Nature",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Ancients",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Ranger",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Fey Wanderer (UA)",
+              "source": "UA2020SubclassesPt3"
+            }
+          },
+          {
+            "class": {
+              "name": "Warlock",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Archfey",
+              "source": "PHB"
+            }
+          }
+        ]
+      },
+      "uniqueId": "f5cc41ac486b308ede4d418e73638810"
+    },
+    {
+      "name": "Faenatics",
+      "source": "AdditionalFey",
+      "page": 2,
+      "level": 1,
+      "school": "I",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "sight"
+        }
+      },
+      "components": {
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You implant illusory sounds or images to a creature you can see.",
+        "Choose a creature that you can see within range, that target makes a wisdom saving throw. On a failed save, You can apply one or more of the following effects to that creature up to a number equal to the spell level:",
+        "Paranoia. The target becomes paranoid as they believe someone is following them. They see glimpses of a rogue-like figure, but never see their face and any attempt to get close to the figure fails. The creature is {@condition frightened} until the spell ends.",
+        "Whispers. The target is bombarded with lots of whispering. They cannot understand what the whispers are saying, but all other noises are completely masked by these whispers. The target is {@condition deafened} until the spell ends.",
+        "Tumbling Foolery. The target's sense of balance becomes skewered and they become dizzy. Until the spell ends, they have disadvantage on dexterity ability checks and saving throws and their speed is cut in half. In addition, when they fail a dexterity ability check, they roll a {@dice d20}. On a 1, they fall {@condition prone}. A {@condition prone} creature with this effect uses their full movement to stand up.",
+        "Unusual Perception. Until the spell ends, the target can see into the ethereal plane. However, in addition to the creatures on the ethereal plane, they also see weird fey-like creatures doing crazy stunts. The target has disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks, as their vision is mostly blocked by these ethereal visions.",
+        "Love at First Sight. Until the spell ends, the target becomes {@condition charmed} by the next creature it sees. While {@condition charmed}, they become extremely infatuated with that creature regardless of their original preferences. They will do anything that creature asks of them to the best of their ability in an attempt to impress them. Once the spell ends, the creature knows it was {@condition charmed}, but not by whom.",
+        "Mild Insanity. The target begins to lose perception of reality. Whenever they look at a creature, something is different about them. Whether their skin color is a bright, dark, or colorful, their ears are longer or shorter than they should be, or perhaps one eye is lopsided when it shouldn't be, etc. The target then becomes confused and believes that they've always been like that. Until the spell ends, they have disadvantage on Charisma checks.",
+        "Tipsy. Until the spell ends, the target becomes intoxicated. If the creature is immune to poison, this has no effect.",
+        "The spell ends early if they can succeed on an Intelligence (Investigation) check against your spell save DC, however the target is not initially aware of the spells effects until after they end. A different creature can spend their action to try and convince the target that they are under the effects of a spell, which requires a successful Charisma (Persuasion) check against your spell save DC."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the amount of creatures you can target increases by one for every two slot levels above 1st."
+          ]
+        }
+      ],
+      "conditionInflict": [
+        "frightened",
+        "deafened",
+        "charmed"
+      ],
+      "savingThrow": [
+        "wisdom"
+      ],
+      "miscTags": [
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "fateweaver"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Cleric",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Nature",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Ancients",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Ranger",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Fey Wanderer (UA)",
+              "source": "UA2020SubclassesPt3"
+            }
+          },
+          {
+            "class": {
+              "name": "Warlock",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Archfey",
+              "source": "PHB"
+            }
+          }
+        ]
+      },
+      "uniqueId": "a92d8ee3c217f940cd6c193690f0944a"
+    },
+    {
+      "name": "Feymutation",
+      "source": "AdditionalFey",
+      "page": 2,
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "blood, saliva, or a strand of hair from a fey creature"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "entries": [
+        "You reshape certain features of a humanoid creature, allowing them to adopt the properties of a fey creature.",
+        "You touch a willing creature, for the duration that creature has darkvision out to a range of 60 feet and their creature type is changed to fey. In addition, for the duration they gain the Fey Ancestry trait and can speak, read, and write Sylvan.",
+        "Casting the spell on the same target for a year makes the spell permanent."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the amount of creatures you can target increases by one for every slot level above 4th and the duration lasts for 24 hours."
+          ]
+        }
+      ],
+      "miscTags": [
+        "PRM"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "fateweaver"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Cleric",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Nature",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Ancients",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Ranger",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Fey Wanderer (UA)",
+              "source": "UA2020SubclassesPt3"
+            }
+          },
+          {
+            "class": {
+              "name": "Warlock",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Archfey",
+              "source": "PHB"
+            }
+          }
+        ]
+      },
+      "uniqueId": "90f5b261a515840166af36003a48e580"
+    },
+    {
+      "name": "Misfortune's Gift",
+      "source": "AdditionalFey",
+      "page": 2,
+      "level": 2,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "sight"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "A jewel or gem worth 100 gp, which the spell consumes",
+          "consumed": true,
+          "cost": 10000
+        }
+      },
+      "duration": [
+        {
+          "type": "special"
+        }
+      ],
+      "entries": [
+        "You point your finger and give the gift of vigor, but vigor comes with an unfortunate price.",
+        "Choose a creature that you can see within range, that target makes a wisdom saving throw. On a failed save, they are subjected to a series of unfortunate events throughout the day. The spell lasts a number of hours equal to the spell's level plus one. Until the spell ends, that creature has disadvantage on attack rolls, ability checks, and saving throws.",
+        "Until the spell ends each time they miss an attack roll, fail an ability check or saving throw, they receive {@dice 2d6} temporary hit points. These temporary hit points are lost when the spell ends.",
+        "Each hour after the spell was cast, the target rolls a {@dice d20}. On an 11-20, the spell ends early. On a 1-10, the spell persists. The spell can also be ended early via a {@spell remove curse}, {@spell greater restoration}, or similar magic."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the amount of temporary hit points increases by {@dice 1d6} for every slot level above 2nd."
+          ]
+        }
+      ],
+      "savingThrow": [
+        "wisdom"
+      ],
+      "miscTags": [
+        "HL",
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "fateweaver"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Cleric",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Nature",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Ancients",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Ranger",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Fey Wanderer (UA)",
+              "source": "UA2020SubclassesPt3"
+            }
+          },
+          {
+            "class": {
+              "name": "Warlock",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Archfey",
+              "source": "PHB"
+            }
+          }
+        ]
+      },
+      "uniqueId": "c3f5fe982986b9209ded74f8b5558dae"
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Extraplanar Summoner",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 1,
+      "entries": [
+        "{@i 1st-level Extraplanar Summoner feature}",
+        "Born with a connection to planar magic, sorcerers of this origin are capable of summoning creatures of varying origins. Aberrations, celestials, constructs, fey, fiends, monstrosities, and even undead creatures can be conjured by these odd spellcasters. Your innate magic comes from the other planes, such as the feywild, shadowfell, the outer planes such as the abyss, nine hells, or even mount celestia.",
+        "Extraplanar summoners are extremely handy to have due to the powerful allies they can conjure, however they are tied directly to you, so keeping yourself alive is just as important as keeping your ally healthy.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Summoner Magic|Sorcerer|PHB|Extraplanar Summoner|EPSorc|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Extraplanar Ally|Sorcerer|PHB|Extraplanar Summoner|EPSorc|1"
+        }
+      ]
+    },
+    {
+      "name": "Summoner Magic",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Your magic comes from the planes outside the material one, granting you powerful conjuration magic. You learn additional spells when you reach certain levels in this class, as shown on the Extraplanar Summoner Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+        "Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a {@filter conjuration spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=C|level=1;2;3;4;5}.",
+        {
+          "type": "table",
+          "caption": "Extraplanar Summoner Spells",
+          "colLabels": [
+            "Sorcerer Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Find Familiar|PHB}, {@spell Unseen Servant|PHB}"
+            ],
+            [
+              "3rd",
+              "{@spell Find Steed|PHB}, {@spell Summon Beast|TCE}"
+            ],
+            [
+              "5th",
+              "{@spell Summon Fey|TCE}, {@spell Summon Shadowspawn|TCE}"
+            ],
+            [
+              "7th",
+              "{@spell Summon Aberration|TCE}, {@spell Summon Greater Demon|XGE}"
+            ],
+            [
+              "9th",
+              "{@spell Conjure Elemental|PHB}, {@spell Summon Celestial|TCE}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extraplanar Ally",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "{@i 1st-level Extraplanar Summoner feature}",
+        "As an action, you bind another creature’s soul from another plane to your whim and place it within a body you magically conjure. Choose one of the following creature types: aberration, celestial, construct, elemental, fey, fiend, monstrosity, or undead. Depending on the creature type you chose, use the corresponding Extraplanar Ally stat block. The creature obeys your commands and is friendly to you and your allies. It shares your initiative but moves and takes actions either right before or after your turn. If you are reduced to 0 hit points and are knocked unconscious, your connection to the planar ally ends and it returns to the plane from once it came. You can use an action and spend a spell slot of any level to summon it again, but it returns with the hit points and conditions it had prior to returning to its plane.",
+        "In addition to summoning the creature, you gain a magical benefit depending on the creature type you chose. You gain one of the following benefits until the Extraplanar Ally is destroyed or returns to its home plane:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Aberration",
+              "entries": [
+                "You gain the ability to speak telepathically to creatures you can see within 60 ft of you. In addition, you can reach into the minds of other creatures and cripple them. You can cast the {@spell Vicious Mockery} cantrip as if it were a sorcerer spell for you."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Celestial",
+              "entries": [
+                "You gain resistance to radiant damage and can spend your bonus action to heal a creature within 30 ft of you a number of hit points equal to your proficiency bonus."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Construct",
+              "entries": [
+                "You gain resistance to non-magical bludgeoning, piercing, and slashing damage and as a bonus action you can change the damage type of your next spell to force damage until the end of your next turn. You concentrate on this effect as if you were concentrating on a spell."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Elemental",
+              "entries": [
+                "Choose fire, water, earth, or air. In the Extraplanar Ally (Elemental) statblock you use the features corresponding to the chosen type. You gain resistance to poison damage and have advantage on saving throws against being poisoned."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fey",
+              "entries": [
+                "You gain resistance to psychic damage and you have advantage on saving throws against being charmed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fiend",
+              "entries": [
+                "You gain resistance to fire damage you can see normally in darkness, both magical and nonmagical, to a distance of 60 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Monstrosity",
+              "entries": [
+                "You gain a natural weapon in the form of claws or fangs. These natural weapons use your spellcasting ability modifier instead of strength or dexterity for its attack and damage rolls and deal 1d6 slashing or piercing damage (your choice). In addition your armor class increases by half your proficiency bonus (rounded up)."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Undead",
+              "entries": [
+                "You gain resistance to necrotic damage and whenever you deal damage with a spell you can add an additional amount of necrotic damage to the spell equal to your proficiency bonus."
+              ]
+            }
+          ]
+        },
+        "Your Extraplanar Ally is destroyed after a number of hours equal to twice your proficiency bonus, when it is reduced to 0 hit points, or if it is successfully banished via the Banishment spell, or other similar effect. When it is destroyed, its soul returns to its home plane. It retains no memories from when it was traveling with you while on its home plane and when it is summoned again it regains the lost memories. After your Extraplanar Ally is destroyed, you cannot summon it again until you finish a long rest.",
+        "You cannot have more than one Extraplanar Ally at any given time. You can dismiss your Extraplanar Ally as an action, or freely during a short or long rest. Once you dismiss your Extraplanar Ally, you cannot summon a new one until you have finished a long rest."
+      ]
+    },
+    {
+      "name": "Summoner Savant",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Extraplanar Summoner feature}",
+        "When you cast a conjuration spell of 1st level or higher, you can choose to ignore the material cost of the spell. When you do so, you must use an arcane focus but it does not get consumed by the spell.",
+        "You use this feature a number of times equal to your proficiency bonus and regain expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Improved Synergist",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 1,
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Extraplanar Summoner feature}",
+        "Your Extraplanar Ally adds your proficiency bonus to its damage rolls for its weapon attacks. Your Extraplanar’s attacks are considered magical for the purposes of overcoming non-magical resistances. In addition, the benefit you gain from your Extraplanar Ally feature gets improved based on the creature type, the following changes (or additions) are made to said benefit:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Aberration",
+              "entries": [
+                "You add an additional amount of psychic damage to {@spell Vicious Mockery|PHB} equal to your proficiency bonus and your telepathy’s range increases to 120 ft."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Celestial",
+              "entries": [
+                "When you heal a creature using the benefit you gain from your Extraplanar Ally feature, you can spend sorcery points up to your proficiency bonus to add 1d4 healing per sorcery point spent."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Construct",
+              "entries": [
+                "You have advantage on saving throws against being paralyzed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Elemental",
+              "entries": [
+                "You have immunity to poison damage instead of resistance."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fey",
+              "entries": [
+                "You have advantage on saving throws against being frightened."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fiend",
+              "entries": [
+                "You can see normally in darkness, magical or nonmagical, to a range of 120 ft instead of 60ft."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Monstrosity",
+              "entries": [
+                "Your speed increases by 15 ft and you gain an amount of temporary hit points equal to twice your proficiency bonus when you gain this feature, finish a long rest, or summon your Extraplanar Ally as a monstrosity."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Undead",
+              "entries": [
+                "When you hit a creature with a spell, you can spend 2 sorcery points to make that creature unable to gain the benefits of healing until the start of your next turn."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combative Ally",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 2,
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Extraplanar Summoner feature}",
+        "Your Extraplanar Ally gets multiattack, allowing it to make up to two attacks instead of one when it takes the attack action.",
+        "In addition, as a bonus action on your turn you can spend a sorcery point to give a number of temporary hit points equal to your proficiency bonus to your Extraplanar Ally if it is within 60 ft of you."
+      ]
+    },
+    {
+      "name": "Extraplanar Master",
+      "source": "EPSorc",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "EPSorc",
+      "subclassShortName": "Extraplanar Summoner",
+      "page": 2,
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "{@i 18th-level Extraplanar Summoner feature}",
+        "You can summon an Extraplanar Ally two times instead of once before you have to finish a long rest if it is destroyed or dismissed, but you can still only have one summoned Extraplanar Ally at any given time.",
+        "In addition when you cast a spell of 1st level or higher, your Extraplanar Ally receives an amount of healing equal to the spell's level plus your proficiency bonus. This healing bypasses its Constructed Body feature.",
+        "Your Extraplanar Ally, and creatures you summon using a Conjuration spell of 1st level or higher gain an amount of temporary hit points when they are summoned equal to your sorcerer level."
+      ]
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Extraplanar Summoner",
+      "source": "EPSorc",
+      "page": 1,
+      "shortName": "Extraplanar Summoner",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSpells": [
+        "find familiar",
+        "Unseen Servant",
+        "Find Steed",
+        {
+          "name": "Summon Beast",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Fey",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Shadowspawn",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Aberration",
+          "source": "TCE"
+        },
+        {
+          "name": "Summon Greater Demon",
+          "source": "TCE"
+        }
+      ],
+      "subclassFeatures": [
+        "Extraplanar Summoner|Sorcerer|PHB|Extraplanar Summoner|EPSorc|1",
+        "Summoner Savant|Sorcerer|PHB|Extraplanar Summoner|EPSorc|6",
+        "Improved Synergist|Sorcerer|PHB|Extraplanar Summoner|EPSorc|6",
+        "Combative Ally|Sorcerer|PHB|Extraplanar Summoner|EPSorc|14",
+        "Extraplanar Master|Sorcerer|PHB|Extraplanar Summoner|EPSorc|18"
+      ]
+    }
+  ]
+}
