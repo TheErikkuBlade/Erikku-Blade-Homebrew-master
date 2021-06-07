@@ -33,7 +33,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30
@@ -96,7 +96,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30
@@ -231,7 +231,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30
@@ -318,8 +318,8 @@
         "CE"
       ],
       "damageTags": [
-        "S",
-        "R"
+        "R",
+        "S"
       ],
       "miscTags": [
         "MW"
@@ -337,7 +337,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30
@@ -438,7 +438,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30,
@@ -570,7 +570,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30
@@ -691,7 +691,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30
@@ -706,6 +706,9 @@
         "darkvision 60 ft."
       ],
       "passive": 10,
+      "resist": [
+        "fire"
+      ],
       "conditionImmune": [],
       "languages": [
         "Abyssal or Infernal; understands the languages you speak"
@@ -743,7 +746,7 @@
             "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
             "{@b Devil's Sight} - Magical darkness doesn't impede the extraplanar ally's darkvision.",
             "{@b Death Throes} - When the Extraplanar ally is reduced to 0 hit points, before it is destroyed it explodes and releases outward a firey eruption out to a range of 30 feet. Each creature within range makes a Dexterity saving throw against your spell save DC and takes a number of {@damage d6} fire damage equal to your proficiency bonus on a failed save, or half as much on a succes.",
-            "{@b Freezing Stygia} - The extra damage from the Extraplanar Ally's Claws deals cold damage instead of fire.",
+            "{@b Freezing Stygia} - The extra damage from the Extraplanar Ally's Claws deals cold damage instead of fire and it gains resistance to cold damage.",
             "{@b Winged Fiend} - The extraplanar ally gains a flying speed equal to 10 times your proficiency bonus.",
             "{@b Flame Thrower} - The extraplanar ally gains special ranged attack. It makes a ranged spell attack with a range of 60 feet using your spell attack modifier. On a hit, the target takes {@damage 2d6} fire damage.",
             "{@b Yugoloth Teleportation} - Immediately after the Extraplanar Ally hits with an attack, it can teleport up to 30 feet to an unoccupied space it can see.",
@@ -798,7 +801,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 40
@@ -904,7 +907,7 @@
         }
       ],
       "hp": {
-        "special": "5 + PB times your sorcerer level"
+        "special": "PB + 5 times your sorcerer level"
       },
       "speed": {
         "walk": 30

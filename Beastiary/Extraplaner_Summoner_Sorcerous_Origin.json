@@ -18,8 +18,8 @@
 				"targetSchema": "1.2"
 			}
 		],
-		"dateAdded": 1623049622,
-		"dateLastModified": 1623049622
+		"dateAdded": 1623066643,
+		"dateLastModified": 1623066643
 	},
 	"monster": [
 		{
@@ -34,7 +34,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -97,7 +97,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -232,15 +232,10 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
-				"walk": 30,
-				"fly": {
-					"number": 30,
-					"condition": "(hover)"
-				},
-				"canHover": true
+				"walk": 30
 			},
 			"str": 19,
 			"dex": 15,
@@ -288,6 +283,19 @@
 					"entries": [
 						"The extraplanar ally has advantage on saving throws against spells and other magical effects."
 					]
+				},
+				{
+					"name": "Variable Trait",
+					"entries": [
+						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
+						"{@b Celestial Weapons} - The Extraplanar Ally's longsword is magical and it deals an extra {@damage 1d6} radiant damage on hit.",
+						"{@b Angelic Willpower} - The Extraplanar Ally has advantage on saving throws against being {@condition charmed} or {@condition frightened}.",
+						"{@b Divine Sense} - The Extraplanar Ally can cast the spell {@spell detect evil and good} a number of times per day equal to your proficiency bonus.",
+						"{@b Divine Spellcasting} - The Extraplanar Ally knows the {@spell guidance} and {@spell sacred flame} cantrips and can cast them at will. In addition, it can cast {@spell bless} and {@spell sanctuary} each once per day.",
+						"{@b Angel Wings} - The Extraplanar Ally has a flying speed equal it its walking speed and can hover.",
+						"{@b Divine Awareness} - The Extraplanar Ally has advantage on ability checks made to determine a lie.",
+						"{@b Angelic Size} - Your Extraplanar Ally becomes large and its longsword deals {@dice 1d6} additional slashing damage on hit."
+					]
 				}
 			],
 			"action": [
@@ -298,9 +306,9 @@
 					]
 				},
 				{
-					"name": "Radiant Longsword",
+					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit PB + 4} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant damage, or 9 ({@damage 1d10 + 4}) radiant damage if used with both hands."
+						"{@atk mw} {@hit PB + 4} to hit, one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with both hands."
 					]
 				}
 			],
@@ -311,11 +319,11 @@
 				"CE"
 			],
 			"damageTags": [
-				"R"
+				"R",
+				"S"
 			],
 			"miscTags": [
-				"MW",
-				"RCH"
+				"MW"
 			]
 		},
 		{
@@ -330,7 +338,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -431,7 +439,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30,
@@ -563,7 +571,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -684,7 +692,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
@@ -699,6 +707,9 @@
 				"darkvision 60 ft."
 			],
 			"passive": 10,
+			"resist": [
+				"fire"
+			],
 			"conditionImmune": [],
 			"languages": [
 				"Abyssal or Infernal; understands the languages you speak"
@@ -736,7 +747,7 @@
 						"Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
 						"{@b Devil's Sight} - Magical darkness doesn't impede the extraplanar ally's darkvision.",
 						"{@b Death Throes} - When the Extraplanar ally is reduced to 0 hit points, before it is destroyed it explodes and releases outward a firey eruption out to a range of 30 feet. Each creature within range makes a Dexterity saving throw against your spell save DC and takes a number of {@damage d6} fire damage equal to your proficiency bonus on a failed save, or half as much on a succes.",
-						"{@b Freezing Stygia} - The extra damage from the Extraplanar Ally's Claws deals cold damage instead of fire.",
+						"{@b Freezing Stygia} - The extra damage from the Extraplanar Ally's Claws deals cold damage instead of fire and it gains resistance to cold damage.",
 						"{@b Winged Fiend} - The extraplanar ally gains a flying speed equal to 10 times your proficiency bonus.",
 						"{@b Flame Thrower} - The extraplanar ally gains special ranged attack. It makes a ranged spell attack with a range of 60 feet using your spell attack modifier. On a hit, the target takes {@damage 2d6} fire damage.",
 						"{@b Yugoloth Teleportation} - Immediately after the Extraplanar Ally hits with an attack, it can teleport up to 30 feet to an unoccupied space it can see.",
@@ -791,7 +802,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 40
@@ -897,7 +908,7 @@
 				}
 			],
 			"hp": {
-				"special": "5 + PB times your sorcerer level"
+				"special": "PB + 5 times your sorcerer level"
 			},
 			"speed": {
 				"walk": 30
