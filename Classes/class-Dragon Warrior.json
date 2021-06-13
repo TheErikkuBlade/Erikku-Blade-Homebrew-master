@@ -238,329 +238,6 @@
         }
       ],
       "subclassTitle": "Draconian Archetype",
-      "subclasses": [
-        {
-          "name": "Summoner",
-          "source": "DW",
-          "subclassFeatures": [
-            "Summoner|Dragon Warrior|DW|Summoner|DW|3",
-            "Greater Manifestation|Dragon Warrior|DW|Summoner|DW|7",
-            "Shared Mind of the Drakes|Dragon Warrior|DW|Summoner|DW|10",
-            "Superior Manifestation|Dragon Warrior|DW|Summoner|DW|14",
-            "Mournful Sacrifice|Dragon Warrior|DW|Summoner|DW|18",
-            "Supreme Manifestation|Dragon Warrior|DW|Summoner|DW|20"
-          ],
-          "shortName": "Summoner",
-          "page": ""
-        },
-        {
-          "name": "Invoker",
-          "source": "DW",
-          "spellcastingAbility": "cha",
-          "casterProgression": "1/3",
-          "subclassTableGroups": [
-            {
-              "subclasses": [
-                {
-                  "name": "Invoker",
-                  "source": "DW"
-                }
-              ],
-              "colLabels": [
-                "{@filter Cantrips Known|spells|level=0|subclass=Dragon Warrior: Invoker}",
-                "{@filter Spells Known|spells|subclass=Dragon Warrior: Invoker}"
-              ],
-              "rows": [
-                [
-                  0,
-                  0
-                ],
-                [
-                  0,
-                  0
-                ],
-                [
-                  2,
-                  3
-                ],
-                [
-                  2,
-                  4
-                ],
-                [
-                  2,
-                  4
-                ],
-                [
-                  2,
-                  4
-                ],
-                [
-                  2,
-                  5
-                ],
-                [
-                  2,
-                  6
-                ],
-                [
-                  2,
-                  6
-                ],
-                [
-                  3,
-                  7
-                ],
-                [
-                  3,
-                  8
-                ],
-                [
-                  3,
-                  8
-                ],
-                [
-                  3,
-                  9
-                ],
-                [
-                  3,
-                  10
-                ],
-                [
-                  3,
-                  10
-                ],
-                [
-                  3,
-                  11
-                ],
-                [
-                  3,
-                  11
-                ],
-                [
-                  3,
-                  11
-                ],
-                [
-                  3,
-                  12
-                ],
-                [
-                  3,
-                  13
-                ]
-              ]
-            },
-            {
-              "title": "Spell Slots per Spell Level",
-              "subclasses": [
-                {
-                  "name": "Invoker",
-                  "source": "DW"
-                }
-              ],
-              "colLabels": [
-                "{@filter 1st|spells|level=1|subclass=Dragon Warrior: Invoker}",
-                "{@filter 2nd|spells|level=2|subclass=Dragon Warrior: Invoker}",
-                "{@filter 3rd|spells|level=3|subclass=Dragon Warrior: Invoker}",
-                "{@filter 4th|spells|level=4|subclass=Dragon Warrior: Invoker}"
-              ],
-              "rows": [
-                [
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                [
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                [
-                  2,
-                  0,
-                  0,
-                  0
-                ],
-                [
-                  3,
-                  0,
-                  0,
-                  0
-                ],
-                [
-                  3,
-                  0,
-                  0,
-                  0
-                ],
-                [
-                  3,
-                  0,
-                  0,
-                  0
-                ],
-                [
-                  4,
-                  2,
-                  0,
-                  0
-                ],
-                [
-                  4,
-                  2,
-                  0,
-                  0
-                ],
-                [
-                  4,
-                  2,
-                  0,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  0,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  0,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  0,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  2,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  2,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  2,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  3,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  3,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  3,
-                  0
-                ],
-                [
-                  4,
-                  3,
-                  3,
-                  1
-                ],
-                [
-                  4,
-                  3,
-                  3,
-                  1
-                ]
-              ]
-            }
-          ],
-          "subclassFeatures": [
-            "Invoker|Dragon Warrior|DW|Invoker|DW|3",
-            "Additional Invocations|Dragon Warrior|DW|Invoker|DW|7",
-            "Invocation Replenishment|Dragon Warrior|DW|Invoker|DW|10",
-            "Adept Invocations|Dragon Warrior|DW|Invoker|DW|14",
-            "Invoke Arcane|Dragon Warrior|DW|Invoker|DW|18",
-            "Invocation Mastery|Dragon Warrior|DW|Invoker|DW|20"
-          ],
-          "shortName": "Invoker",
-          "page": ""
-        },
-        {
-          "name": "Runic Scribe",
-          "source": "DW",
-          "subclassFeatures": [
-            "Runic Scribe|Dragon Warrior|DW|Runic Scribe|DW|3",
-            "Advanced Runic Power|Dragon Warrior|DW|Runic Scribe|DW|7",
-            "Runic Warrior|Dragon Warrior|DW|Runic Scribe|DW|10",
-            "Runic Replenishment|Dragon Warrior|DW|Runic Scribe|DW|14",
-            "Additional Runes|Dragon Warrior|DW|Runic Scribe|DW|18",
-            "Runic Mastery|Dragon Warrior|DW|Runic Scribe|DW|20"
-          ],
-          "shortName": "Runic Scribe",
-          "page": ""
-        },
-        {
-          "name": "Shaman",
-          "source": "DW",
-          "subclassFeatures": [
-            "Shaman|Dragon Warrior|DW|Shaman|DW|3",
-            "Terraforming Form|Dragon Warrior|DW|Shaman|DW|7",
-            "Improved Draconic Form|Dragon Warrior|DW|Shaman|DW|10",
-            "Improved Terraforming|Dragon Warrior|DW|Shaman|DW|14",
-            "Draconic Spells|Dragon Warrior|DW|Shaman|DW|18",
-            "Draconic Mastery|Dragon Warrior|DW|Shaman|DW|20"
-          ],
-          "shortName": "Shaman",
-          "page": ""
-        },
-        {
-          "name": "Skydancer",
-          "source": "DW",
-          "subclassFeatures": [
-            "Skydancer|Dragon Warrior|DW|Skydancer|DW|3",
-            "Skydancer Expertise|Dragon Warrior|DW|Skydancer|DW|7",
-            "Dance of Dragons|Dragon Warrior|DW|Skydancer|DW|7",
-            "Sky Striker|Dragon Warrior|DW|Skydancer|DW|10",
-            "Skydancer Alacrity|Dragon Warrior|DW|Skydancer|DW|14",
-            "Dancing Fury|Dragon Warrior|DW|Skydancer|DW|18",
-            "Master of the Skies|Dragon Warrior|DW|Skydancer|DW|20"
-          ],
-          "shortName": "Skydancer",
-          "page": ""
-        },
-        {
-          "name": "Mystic",
-          "source": "DW",
-          "subclassFeatures": [
-            "Mystic|Dragon Warrior|DW|Mystic|DW|3",
-            "Additional Draconic Power|Dragon Warrior|DW|Mystic|DW|7",
-            "Draconic Style Improvement|Dragon Warrior|DW|Mystic|DW|7",
-            "Mystical Guidance|Dragon Warrior|DW|Mystic|DW|10",
-            "Draconic Style Advancement|Dragon Warrior|DW|Mystic|DW|14",
-            "Mystical Strikes|Dragon Warrior|DW|Mystic|DW|18",
-            "Draconic Style Mastery|Dragon Warrior|DW|Mystic|DW|20"
-          ],
-          "shortName": "Mystic",
-          "page": ""
-        }
-      ],
       "fluff": [
         {
           "entries": [
@@ -3373,6 +3050,363 @@
         }
       ],
       "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Divine Magic",
+      "entries": [
+        "Metallic Dragons harness the divine powers of Bahamut, having origins from these dragons offers you the same blessing of divine magic. You learn the {@spell guidance} cantrip and can cast it at will. In addition you learn {@spell cure wounds} and one 1st level spell from the cleric or paladin spell lists. You can cast either spell without using material components, even costly ones. When you cast either of these spells, you cannot cast that spell until you finish a short long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "any Metallic Draconic Origin",
+            "entrySummary": "any Metallic Draconic Origin"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Summoner",
+      "source": "DW",
+      "subclassFeatures": [
+        "Summoner|Dragon Warrior|DW|Summoner|DW|3",
+        "Greater Manifestation|Dragon Warrior|DW|Summoner|DW|7",
+        "Shared Mind of the Drakes|Dragon Warrior|DW|Summoner|DW|10",
+        "Superior Manifestation|Dragon Warrior|DW|Summoner|DW|14",
+        "Mournful Sacrifice|Dragon Warrior|DW|Summoner|DW|18",
+        "Supreme Manifestation|Dragon Warrior|DW|Summoner|DW|20"
+      ],
+      "shortName": "Summoner",
+      "className": "Dragon Warrior",
+      "classSource": "DW",
+      "page": ""
+    },
+    {
+      "name": "Invoker",
+      "source": "DW",
+      "spellcastingAbility": "cha",
+      "casterProgression": "1/3",
+      "subclassTableGroups": [
+        {
+          "subclasses": [
+            {
+              "name": "Invoker",
+              "source": "DW"
+            }
+          ],
+          "colLabels": [
+            "{@filter Cantrips Known|spells|level=0|subclass=Dragon Warrior: Invoker}",
+            "{@filter Spells Known|spells|subclass=Dragon Warrior: Invoker}"
+          ],
+          "rows": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              12
+            ],
+            [
+              3,
+              13
+            ]
+          ]
+        },
+        {
+          "title": "Spell Slots per Spell Level",
+          "subclasses": [
+            {
+              "name": "Invoker",
+              "source": "DW"
+            }
+          ],
+          "colLabels": [
+            "{@filter 1st|spells|level=1|subclass=Dragon Warrior: Invoker}",
+            "{@filter 2nd|spells|level=2|subclass=Dragon Warrior: Invoker}",
+            "{@filter 3rd|spells|level=3|subclass=Dragon Warrior: Invoker}",
+            "{@filter 4th|spells|level=4|subclass=Dragon Warrior: Invoker}"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ]
+          ]
+        }
+      ],
+      "subclassFeatures": [
+        "Invoker|Dragon Warrior|DW|Invoker|DW|3",
+        "Additional Invocations|Dragon Warrior|DW|Invoker|DW|7",
+        "Invocation Replenishment|Dragon Warrior|DW|Invoker|DW|10",
+        "Adept Invocations|Dragon Warrior|DW|Invoker|DW|14",
+        "Invoke Arcane|Dragon Warrior|DW|Invoker|DW|18",
+        "Invocation Mastery|Dragon Warrior|DW|Invoker|DW|20"
+      ],
+      "shortName": "Invoker",
+      "className": "Dragon Warrior",
+      "classSource": "DW",
+      "page": ""
+    },
+    {
+      "name": "Runic Scribe",
+      "source": "DW",
+      "subclassFeatures": [
+        "Runic Scribe|Dragon Warrior|DW|Runic Scribe|DW|3",
+        "Advanced Runic Power|Dragon Warrior|DW|Runic Scribe|DW|7",
+        "Runic Warrior|Dragon Warrior|DW|Runic Scribe|DW|10",
+        "Runic Replenishment|Dragon Warrior|DW|Runic Scribe|DW|14",
+        "Additional Runes|Dragon Warrior|DW|Runic Scribe|DW|18",
+        "Runic Mastery|Dragon Warrior|DW|Runic Scribe|DW|20"
+      ],
+      "shortName": "Runic Scribe",
+      "className": "Dragon Warrior",
+      "classSource": "DW",
+      "page": ""
+    },
+    {
+      "name": "Shaman",
+      "source": "DW",
+      "subclassFeatures": [
+        "Shaman|Dragon Warrior|DW|Shaman|DW|3",
+        "Terraforming Form|Dragon Warrior|DW|Shaman|DW|7",
+        "Improved Draconic Form|Dragon Warrior|DW|Shaman|DW|10",
+        "Improved Terraforming|Dragon Warrior|DW|Shaman|DW|14",
+        "Draconic Spells|Dragon Warrior|DW|Shaman|DW|18",
+        "Draconic Mastery|Dragon Warrior|DW|Shaman|DW|20"
+      ],
+      "shortName": "Shaman",
+      "className": "Dragon Warrior",
+      "classSource": "DW",
+      "page": ""
+    },
+    {
+      "name": "Skydancer",
+      "source": "DW",
+      "subclassFeatures": [
+        "Skydancer|Dragon Warrior|DW|Skydancer|DW|3",
+        "Skydancer Expertise|Dragon Warrior|DW|Skydancer|DW|7",
+        "Dance of Dragons|Dragon Warrior|DW|Skydancer|DW|7",
+        "Sky Striker|Dragon Warrior|DW|Skydancer|DW|10",
+        "Skydancer Alacrity|Dragon Warrior|DW|Skydancer|DW|14",
+        "Dancing Fury|Dragon Warrior|DW|Skydancer|DW|18",
+        "Master of the Skies|Dragon Warrior|DW|Skydancer|DW|20"
+      ],
+      "shortName": "Skydancer",
+      "className": "Dragon Warrior",
+      "classSource": "DW",
+      "page": ""
+    },
+    {
+      "name": "Mystic",
+      "source": "DW",
+      "subclassFeatures": [
+        "Mystic|Dragon Warrior|DW|Mystic|DW|3",
+        "Additional Draconic Power|Dragon Warrior|DW|Mystic|DW|7",
+        "Draconic Style Improvement|Dragon Warrior|DW|Mystic|DW|7",
+        "Mystical Guidance|Dragon Warrior|DW|Mystic|DW|10",
+        "Draconic Style Advancement|Dragon Warrior|DW|Mystic|DW|14",
+        "Mystical Strikes|Dragon Warrior|DW|Mystic|DW|18",
+        "Draconic Style Mastery|Dragon Warrior|DW|Mystic|DW|20"
+      ],
+      "shortName": "Mystic",
+      "className": "Dragon Warrior",
+      "classSource": "DW",
+      "page": ""
     }
   ]
 }
