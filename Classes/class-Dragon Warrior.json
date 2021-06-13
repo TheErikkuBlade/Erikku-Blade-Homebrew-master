@@ -638,9 +638,9 @@
             ]
           ]
         },
-        "If you chose metallic, you gain proficiency in your choice of either an artisan’s tool or a musical instrument.",
-        "If you chose chromatic, you gain proficiency in one of the following skills: deception, intimidation, performance, or persuasion.",
-        "If you choose gem, you gain proficiency in one other language of your choosing from the common or exotic languages."
+        "If you choose metallic, you gain proficiency in your choice of either an artisan’s tool or a musical instrument.",
+        "If you choose chromatic, you gain proficiency in one of the following skills: deception, intimidation, performance, or persuasion.",
+        "If you choose gem, you can speak, read, and write in one other language of your choosing from the common or exotic languages."
       ],
       "page": 1
     },
@@ -829,7 +829,8 @@
       "name": "Manifest Dragon",
       "entries": [
         "Starting at 3rd level, as an action you can manifest a magical dragon to aid you in battle. Use the {@creature Magen Dragon|DW} stat block. In addition to being a construct, the creature is also treated as a dragon. In combat, the Magen Dragon shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the Magen Dragon can take any action of its choice, not just {@action Dodge}.",
-        "The manifested dragon uses your proficiency bonus rather than its own and its armor class is 13 plus your proficiency bonus."
+        "The manifested dragon uses your proficiency bonus rather than its own and its armor class is 13 plus your proficiency bonus.",
+        "Once the Magen Dragon has been reduced to 0 hit points, it is destroyed and cannot be manifested again until you finish a long rest."
       ],
       "source": "DW",
       "className": "Dragon Warrior",
@@ -1209,8 +1210,8 @@
               "type": "entries",
               "name": "Rune of Power",
               "entries": [
-                "You’ve harnessed the power of the old magicks and can release outward a blast of arcane energy. You learn the Eldritch Blast cantrip and can cast it using Charisma as your spellcasting ability modifier. You also add your spellcasting ability modifier to the damage of this cantrip. Instead of green eldritch energy, the beam takes the form of wispy dragon-like flames more akin to a dragon’s breath weapon.",
-                "As an action, you can invoke a more latent power of the rune. Any time after you cast the Eldritch Blast cantrip while the boon is invoked, each beam deals an additional 1d10 damage. This boon lasts for 1 hour, after which you cannot invoke the power of this rune again until you finish a long rest."
+                "You’ve harnessed the power of the old magicks and can release outward a blast of arcane energy. You learn the Eldritch Blast cantrip and can cast it using Charisma as your spellcasting ability modifier, only instead of force damage, it deals the damage corresponding to the damage you resist from your Draconic Origin. You also add your spellcasting ability modifier to the damage of this cantrip. Instead of green eldritch energy, the beam takes the form of wispy dragon-like flames more akin to a dragon’s breath weapon.",
+                "As an action, you can invoke a more latent power of the rune. Any time after you cast the Eldritch Blast cantrip while the boon is invoked, one of the beams deals an additional 1d10 damage. This boon lasts for 1 hour, after which you cannot invoke the power of this rune again until you finish a long rest."
               ]
             },
             {
