@@ -2068,14 +2068,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "Green Draconic Origins",
-            "entrySummary": "Green Draconic Origins"
-          }
-        },
-        {
-          "otherSummary": {
-            "entry": "Draconian Breath Weapon",
-            "entrySummary": "Draconian Breath Weapon"
+            "entry": "Draconian Breath Weapon, Green Draconic Origin",
+            "entrySummary": "Draconian Breath Weapon, Green Draconic Origin"
           }
         }
       ],
@@ -3111,9 +3105,6 @@
             "class": {
               "name": "Dragon Warrior"
             }
-          },
-          "class": {
-            "name": "Dragon Warrior"
           }
         },
         {
@@ -3158,8 +3149,8 @@
         {
           "type": "list",
           "items": [
-            "{@b Limited Magic Resistance.} When you are forced to make a saving throw against a spell or magical effect, you can use your reaction to gain advantage on that saving throw. You can use this ability a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
-            "(@b Limited Invisibility.} As a bonus action, you can choose to become {@condition invisible}. This invisibility lasts for 1 minute, or until you attack, cast a spell, or take any amount of damage. You can use this ability a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+            "{@b Limited Magic Resistance.} When you are forced to make a saving throw against a spell or magical effect, you can use your reaction to gain advantage on that saving throw. You can use this ability a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+            "{@b Limited Invisibility.} As a bonus action, you can choose to become {@condition invisible}. This invisibility lasts for 1 minute, or until you attack, cast a spell, or take any amount of damage. You can use this ability a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
             "{@b Fey Magic.} You have an innate ability to call upon the magic of the feywild. You can cast the dancing lights cantrip at will. In addition, you learn two 1st level spells from the divination or illusion schools of magic and can cast each of them once without requiring material components or spending a spell slot, regaining the ability to do so when you finish a short or long rest. Charisma is your spellcasting ability for these spells."
           ]
         },
@@ -3186,14 +3177,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "Fey Dragon",
-            "entrySummary": "Fey Dragon"
-          }
-        },
-        {
-          "otherSummary": {
-            "entry": "Draconian Breath Weapon",
-            "entrySummary": "Draconian Breath Weapon"
+            "entry": "Fey Dragon, Draconian Breath Weapon",
+            "entrySummary": "Fey Dragon, Draconian Breath Weapon"
           }
         }
       ],
@@ -3208,14 +3193,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "Bronze Draconic Origin",
-            "entrySummary": "Bronze Draconic Origin"
-          }
-        },
-        {
-          "otherSummary": {
-            "entry": "Draconian Breath Weapon",
-            "entrySummary": "Draconian Breath Weapon"
+            "entry": "Bronze Draconic Origin, Draconian Breath Weapon",
+            "entrySummary": "Bronze Draconic Origin, Draconian Breath Weapon"
           }
         }
       ],
@@ -3230,14 +3209,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "Brass Draconic Origin",
-            "entrySummary": "Brass Draconic Origin"
-          }
-        },
-        {
-          "otherSummary": {
-            "entry": "Draconian Breath Weapon",
-            "entrySummary": "Draconian Breath Weapon"
+            "entry": "Brass Draconic Origin, Draconian Breath Weapon",
+            "entrySummary": "Brass Draconic Origin, Draconian Breath Weapon"
           }
         }
       ],
@@ -3252,14 +3225,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "Silver Draconic Origin",
-            "entrySummary": "Silver Draconic Origin"
-          }
-        },
-        {
-          "otherSummary": {
-            "entry": "Draconian Breath Weapon",
-            "entrySummary": "Draconian Breath Weapon"
+            "entry": "Silver Draconic Origin, Draconian Breath Weapon",
+            "entrySummary": "Silver Draconic Origin, Draconian Breath Weapon"
           }
         }
       ],
@@ -3274,14 +3241,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "Gold Draconic Origin",
-            "entrySummary": "Gold Draconic Origin"
-          }
-        },
-        {
-          "otherSummary": {
-            "entry": "Draconian Breath Weapon",
-            "entrySummary": "Draconian Breath Weapon"
+            "entry": "Gold Draconic Origin, Draconian Breath Weapon",
+            "entrySummary": "Gold Draconic Origin, Draconian Breath Weapon"
           }
         }
       ],
@@ -3296,14 +3257,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "Copper Draconic Origin",
-            "entrySummary": "Copper Draconic Origin"
-          }
-        },
-        {
-          "otherSummary": {
-            "entry": "Draconian Breath Weapon",
-            "entrySummary": "Draconian Breath Weapon"
+            "entry": "Copper Draconic Origin, Draconian Breath Weapon",
+            "entrySummary": "Copper Draconic Origin, Draconian Breath Weapon"
           }
         }
       ],
