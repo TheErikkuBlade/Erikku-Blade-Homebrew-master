@@ -3204,7 +3204,7 @@
       "source": "DrP",
       "name": "Sleepy Breath",
       "entries": [
-        "Your breath weapon becomes a steaming gas that knocks the vitality out of creatures. Your Draconian Breath Weapon becomes a Constitution saving throw instead and creatures who fail fall {condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+        "Your breath weapon becomes a steaming gas that knocks the vitality out of creatures. Your Draconian Breath Weapon becomes a Constitution saving throw instead and creatures who fail fall {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
       ],
       "prerequisite": [
         {
