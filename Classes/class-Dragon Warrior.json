@@ -1902,7 +1902,7 @@
       "source": "DrP",
       "name": "Draconic Sigils",
       "entries": [
-        "You’ve learned how to use special sigils to protect yourself and your belongings. You can carve these sigils into any object big enough to fit them. In order for a sigil to be active, a creature must attune to it as they would a magic item, but this does not count as an attuned magic item nor does it count against your attunement slots. You have three sigils, a creature can only be attuned to one sigil at a time, any attempt to attune to a different sigil ends the attunement on the previous one.",
+        "You’ve learned how to use special sigils to protect yourself and your belongings. As an action you can carve these sigils onto any object big enough to fit them. In order for a sigil to be active, a creature must attune to it as they would a magic item, but this does not count as an attuned magic item nor does it count against your attunement slots. You have three sigils, a creature can only be attuned to one sigil at a time, any attempt to attune to a different sigil ends the attunement on the previous one. If you die, every sigil you've carved becomes inactive unless you are revived and are dead for no longer than 24 hours. If you are revived within 24 hours of your death, the sigils become active again without requiring attunement.",
         {
           "type": "options",
           "entries": [
@@ -1995,7 +1995,7 @@
       "prerequisite": [
         {
           "level": {
-            "level": 8,
+            "level": 12,
             "class": {
               "name": "Dragon Warrior"
             }
@@ -2070,6 +2070,12 @@
           "otherSummary": {
             "entry": "Green Draconic Origins",
             "entrySummary": "Green Draconic Origins"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Draconian Breath Weapon",
+            "entrySummary": "Draconian Breath Weapon"
           }
         }
       ],
@@ -3068,6 +3074,229 @@
           "otherSummary": {
             "entry": "any Metallic Draconic Origin",
             "entrySummary": "any Metallic Draconic Origin"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Aberrant Origins",
+      "entries": [
+        "Your draconic origins draw deeper than from the powerful mythical beasts themselves. Mayhaps your kin are from the distant Far Realm, a horrid place of unspeakable creatures. As a result, your body becomes permanently altered, granting you new abilities as a result. Your creature type becomes your original creature type and aberration.You learn to speak, read, and write Deep Speech. If you already know Deep Speech, you can choose another exotic language instead.",
+        "In addition, as an action you can create a number of eldritch tentacles equal to your proficiency bonus for up to 1 minute, and you can dismiss them at any time (no action required). These tentacles can extend the reach of your melee weapons by 5 feet, provided you have at least one of them. A weapon with the two-handed or heavy properties requires at least two eldritch tentacles to gain this benefit. (Example: a longsword will have a reach of 10 feet whereas a weapon with the reach property, such as a glaive, would have a reach of 15 feet.)",
+        "Whenever you take damage, as a reaction you can sacrifice one of these eldritch tentacles to reduce the damage by an amount equal to your proficiency bonus.",
+        "Once you’ve created your eldritch tentacles, you cannot do so again until you finish a short or long rest."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "any Draconic Origin",
+            "entrySummary": "any Draconic Origin"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Eldritch Horror",
+      "entries": [
+        "Your eldritch powers become more potent as your experience grows. When you use your action to create your eldritch tentacles, you can force every creature within 30 feet of you that can see you to make a Wisdom saving throw (DC: 8 + proficiency bonus + charisma modifier ) or be {@condition frightened} until the end of your next turn. While frightened in this way, the creatures are also {@condition stunned}."
+      ],
+      "prerequisite": [
+        {
+          "level": 6,
+          "class": {
+            "name": "Dragon Warrior"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Aberrant Origins",
+            "entrySummary": "Aberrant Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Elder Abomination",
+      "entries": [
+        "You have two uses of your Aberrant Origins feature instead of one. In addition, as an action you can use your eldritch tentacles to attempt to {@action grapple} as many creatures within 10 feet of you  as you have eldritch tentacles. Creatures successfully {@condition grappled} by you are {@condition restrained}. If you do not have at least one of your eldritch tentacles free, you do not gain the reach improvement for your weapons.",
+        "A creature {@condition grappled} by your eldritch tentacles are restrained, and take psychic damage equal to your proficiency bonus at the start of each of their turns."
+      ],
+      "prerequisite": [
+        {
+          "level": 14,
+          "class": {
+            "name": "Dragon Warrior"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Aberrant Origins",
+            "entrySummary": "Aberrant Origins"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Fey Dragon",
+      "entries": [
+        "Your draconic ancestors stem from the reaches of the Twilit forests of the Feywild, granting you the properties of a Fey-like Dragon. You can speak, read, and write Sylvan. If you already know Sylvan, you can learn one other exotic language instead. In addition, whenever you complete a long rest you can choose to gain one of the following properties:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Limited Magic Resistance.} When you are forced to make a saving throw against a spell or magical effect, you can use your reaction to gain advantage on that saving throw. You can use this ability a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+            "(@b Limited Invisibility.} As a bonus action, you can choose to become {@condition invisible}. This invisibility lasts for 1 minute, or until you attack, cast a spell, or take any amount of damage. You can use this ability a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+            "{@b Fey Magic.} You have an innate ability to call upon the magic of the feywild. You can cast the dancing lights cantrip at will. In addition, you learn two 1st level spells from the divination or illusion schools of magic and can cast each of them once without requiring material components or spending a spell slot, regaining the ability to do so when you finish a short or long rest. Charisma is your spellcasting ability for these spells."
+          ]
+        },
+        "You can only have one of these properties at any given time and if you choose a different property when you complete a long rest, you lose the previous property until you choose it again after you complete another long rest."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "any Draconic Origin",
+            "entrySummary": "any Draconic Origin"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Euphoria Breath",
+      "entries": [
+        "Your breath becomes a puff of confusing and colorful gas, just like many creatures of the feywild. Your Draconian Breath Weapon becomes a Wisdom saving throw and a creature who fails, for 1 minute, can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn:",
+        "1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction.",
+        "5–6. The target doesn't move, and the only thing it can do on its turn is repeat its saving throw, ending the effect on itself on a success."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Fey Dragon",
+            "entrySummary": "Fey Dragon"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Draconian Breath Weapon",
+            "entrySummary": "Draconian Breath Weapon"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Repulsion Breath",
+      "entries": [
+        "Your breath weapon gains a repulsive blast which can knock enemies back. Your Draconian Breath Weapon becomes a Strength saving throw instead and knocks creatures who fail the save back 15 feet."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Bronze Draconic Origin",
+            "entrySummary": "Bronze Draconic Origin"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Draconian Breath Weapon",
+            "entrySummary": "Draconian Breath Weapon"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Sleepy Breath",
+      "entries": [
+        "Your breath weapon becomes a steaming gas that knocks the vitality out of creatures. Your Draconian Breath Weapon becomes a Constitution saving throw instead and creatures who fail fall {condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Brass Draconic Origin",
+            "entrySummary": "Brass Draconic Origin"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Draconian Breath Weapon",
+            "entrySummary": "Draconian Breath Weapon"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Freezing Breath",
+      "entries": [
+        "Your breath becomes a cold gas that freezes creatures solid temporarily. Your Draconian Breath Weapon becomes a Constitution saving throw instead and creatures who fail become {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Silver Draconic Origin",
+            "entrySummary": "Silver Draconic Origin"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Draconian Breath Weapon",
+            "entrySummary": "Draconian Breath Weapon"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Weakening Breath",
+      "entries": [
+        "Your breath can sunder powerful creatures useless with a stupefying gas. Your breath weapon becomes a Strength saving throw and creatures who fail have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Gold Draconic Origin",
+            "entrySummary": "Gold Draconic Origin"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Draconian Breath Weapon",
+            "entrySummary": "Draconian Breath Weapon"
+          }
+        }
+      ],
+      "featureType": "Draconian Powers"
+    },
+    {
+      "source": "DrP",
+      "name": "Slowing Breath",
+      "entries": [
+        "Your breath can release an acidic gas which can slow an enemy’s movements. Your Draconian Breath weapon becomes a Constitution saving throw instead and creatures who fail can't use reactions, its speed is halved, and it can't make more than one attack on its turn. These effects last for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Copper Draconic Origin",
+            "entrySummary": "Copper Draconic Origin"
+          }
+        },
+        {
+          "otherSummary": {
+            "entry": "Draconian Breath Weapon",
+            "entrySummary": "Draconian Breath Weapon"
           }
         }
       ],
