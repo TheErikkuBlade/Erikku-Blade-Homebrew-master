@@ -3106,7 +3106,12 @@
       ],
       "prerequisite": [
         {
-          "level": 6,
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
           "class": {
             "name": "Dragon Warrior"
           }
@@ -3129,9 +3134,11 @@
       ],
       "prerequisite": [
         {
-          "level": 14,
-          "class": {
-            "name": "Dragon Warrior"
+          "level": {
+            "level": 14,
+            "class": {
+              "name": "Dragon Warrior"
+            }
           }
         },
         {
