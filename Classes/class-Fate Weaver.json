@@ -33,6 +33,29 @@
       ],
       "spellcastingAbility": "cha",
       "casterProgression": "full",
+      "cantripProgression": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "preparedSpells": "<$level$> + <$cha_mod$>",
       "classTableGroups": [
         {
           "colLabels": [
@@ -437,7 +460,7 @@
           "(a) a {@item component pouch|phb} or (b) an {@item arcane focus}",
           "(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
           "Two {@item dagger|phb|daggers}",
-          "a {@item Divination Focus|FW}"
+          "a {@item Divination Focus|FateWeaverJan2021}"
         ],
         "defaultData": [
           {
@@ -478,7 +501,7 @@
           {
             "undefined": [
               {
-                "item": "Divination Foucs|FW",
+                "item": "Divination Foucs|FateWeaverJan2021",
                 "count": 1
               }
             ]
@@ -528,335 +551,6 @@
         "Boon of the Weave|Fate Weaver|FateWeaverJan2021|20"
       ],
       "subclassTitle": "Aspect of Fate",
-      "subclasses": [
-        {
-          "name": "Aspect of The Jester",
-          "source": "FateWeaverJan2021",
-          "subclassFeatures": [
-            "Aspect of The Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|1",
-            "Inspiring Performance|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|6",
-            "Skillful Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|10",
-            "Expertise|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|10",
-            "Boon of the Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|14",
-            "Jester of the Weave|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|18"
-          ],
-          "shortName": "The Jester",
-          "page": 7,
-          "subclassSpells": [
-            "Expeditious Retreat",
-            "Tasha's Hideous Laughter",
-            "Enthrall",
-            {
-              "name": "Pyrotechnics",
-              "source": "XGE"
-            },
-            {
-              "name": "Enemies Abound",
-              "source": "XGE"
-            },
-            "Hypnotic Pattern",
-            "Freedom of Movement",
-            "Polymorph",
-            {
-              "name": "Far Step",
-              "source": "XGE"
-            },
-            "Geas"
-          ]
-        },
-        {
-          "name": "Aspect of The Phoenix",
-          "source": "FateWeaverJan2021",
-          "subclassSpells": [
-            "Burning Hands",
-            "Faerie Fire",
-            "Continual Flame",
-            "Scorching Ray",
-            "Fireball",
-            "Fly",
-            "Fire Shield",
-            "Wall of Fire",
-            "Circle of Power",
-            {
-              "name": "Immolation",
-              "source": "XGE"
-            }
-          ],
-          "subclassFeatures": [
-            "Aspect of The Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|1",
-            "Fiery Rebirth|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|6",
-            "Fueling the Fire|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|10",
-            "Boon of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|14",
-            "Form of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|18"
-          ],
-          "shortName": "The Phoenix",
-          "page": 8
-        },
-        {
-          "name": "Aspect of The Moon",
-          "source": "FateWeaverJan2021",
-          "subclassFeatures": [
-            "Aspect of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|1",
-            "Barrier of Moonlight|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|6",
-            "Nourishment of the Night|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|10",
-            "Boon of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|14",
-            "Weaver of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|18"
-          ],
-          "shortName": "The Moon",
-          "page": 9,
-          "subclassSpells": [
-            "Healing Word",
-            "Shield of Faith",
-            {
-              "name": "Healing Spirit",
-              "source": "XGE"
-            },
-            "Moonbeam",
-            "Beacon of Hope",
-            "Mass Healing Word",
-            "Control Water",
-            "Death Ward",
-            "Greater Restoration",
-            "Mass Cure Wounds"
-          ]
-        },
-        {
-          "name": "Aspect of the Skull",
-          "source": "FateWeaverJan2021",
-          "subclassFeatures": [
-            "Aspect of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|1",
-            "Shatter Fate|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|6",
-            "Return of the Skull Keeper|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|10",
-            "Boon of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|14",
-            "Weaver of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|18"
-          ],
-          "shortName": "The Skull",
-          "page": 10,
-          "subclassSpells": [
-            "Hex",
-            "Inflict Wounds",
-            "Blindness/Deafness",
-            {
-              "name": "Shadow Blade",
-              "source": "XGE"
-            },
-            "Animate Dead",
-            "Speak with Dead",
-            "Blight",
-            {
-              "name": "Shadow of Moil",
-              "source": "XGE"
-            },
-            "Hallow",
-            {
-              "name": "Negative Energy Flood",
-              "source": "XGE"
-            }
-          ]
-        },
-        {
-          "name": "Aspect of The Star",
-          "shortName": "The Star",
-          "source": "FateWeaverJan2021",
-          "page": 11,
-          "subclassSpells": [
-            "Create or Destroy Water",
-            "Cure Wounds",
-            "Enhance Ability",
-            "Lesser Restoration",
-            "Aura of Vitality",
-            "Water Walk",
-            "Conjure Minor Elementals",
-            "Conjure Woodland Beings",
-            "Contact Other Plane",
-            "Greater Restoration"
-          ],
-          "subclassFeatures": [
-            "Aspect of The Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|1",
-            "Nourishing Rest|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|6",
-            "Cleansing Touch|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|10",
-            "Boon of the Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|14",
-            "Weaver of the Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|18"
-          ]
-        },
-        {
-          "name": "Aspect of The Sun",
-          "shortName": "The Sun",
-          "source": "FateWeaverJan2021",
-          "page": 12,
-          "subclassSpells": [
-            "Bless",
-            "Heroism",
-            "Aid",
-            "Branding Smite",
-            "Blinding Smite",
-            "Daylight",
-            "Aura of Life",
-            "Aura of Purity",
-            {
-              "name": "Dawn",
-              "source": "XGE"
-            },
-            {
-              "name": "Holy Weapon",
-              "source": "XGE"
-            }
-          ],
-          "subclassFeatures": [
-            "Aspect of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|1",
-            "Empowering Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|6",
-            "Beacon of Heroism|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|10",
-            "Boon of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|14",
-            "Weaver of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|18"
-          ]
-        },
-        {
-          "name": "Aspect of The Void",
-          "shortName": "The Void",
-          "source": "FateWeaverJan2021",
-          "page": 13,
-          "subclassSpells": [
-            "Arms of Hadar",
-            "Dissonant Whispers",
-            "Darkness",
-            "Phantasmal Force",
-            "Blink",
-            "Hunger of Hadar",
-            "Banishment",
-            "Dimension Door",
-            "Dream",
-            {
-              "name": "Temporal Shunt",
-              "source": "EGW"
-            }
-          ],
-          "subclassFeatures": [
-            "Aspect of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|1",
-            "Call to the Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|6",
-            "Empty Fate|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|10",
-            "Boon of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|14",
-            "Weaver of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|18"
-          ]
-        },
-        {
-          "name": "Aspect of The Knight",
-          "shortName": "The Knight",
-          "source": "FateWeaverJan2021",
-          "page": 14,
-          "subclassSpells": [
-            "Sanctuary",
-            "Shield",
-            "Find Steed",
-            "Warding Bond",
-            "Protection from Energy",
-            "Spirit Guardians",
-            {
-              "name": "Find Greater Steed",
-              "source": "XGE"
-            },
-            "Guardian of Faith",
-            "Destructive Wave",
-            "Wall of Force"
-          ],
-          "subclassFeatures": [
-            "Aspect of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1",
-            "Boon of Protection|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
-            "Extra Attack|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
-            "Obligation of The Bold and The Brave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|10",
-            "Boon of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|14",
-            "Knight of the Weave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|18"
-          ]
-        },
-        {
-          "name": "Aspect of The Balance",
-          "shortName": "The Balance",
-          "source": "FateWeaverJan2021",
-          "page": 15,
-          "subclassSpells": [
-            "Detect Evil and Good",
-            "Detect Magic",
-            "Detect Thoughts",
-            "See Invisibility",
-            "Counterspell",
-            "Dispel Magic",
-            "Arcane Eye",
-            {
-              "name": "Elemental Bane",
-              "source": "XGE"
-            },
-            "Dispel Evil and Good",
-            "Scrying"
-          ],
-          "subclassFeatures": [
-            "Aspect of The Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|1",
-            "Detriment of Chaos|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|6",
-            "Balance of Replenishment|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|10",
-            "Boon of Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|14",
-            "Balance of the Weave|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|18"
-          ]
-        },
-        {
-          "name": "Aspect of The Euryale",
-          "shortName": "The Euryale",
-          "source": "FateWeaverJan2021",
-          "page": 16,
-          "subclassSpells": [
-            "Bane",
-            {
-              "name": "Chaos Bolt",
-              "source": "XGE"
-            },
-            "Alter Self",
-            "Spider Climb",
-            "Bestow Curse",
-            "Fear",
-            "Evard's Black Tentacles",
-            "Phantasmal Killer",
-            "Antilife Shell",
-            "Contagion"
-          ],
-          "subclassFeatures": [
-            "Aspect of The Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1",
-            "Gaze of the Cursed One|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
-            "Fear Your Many Fates|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
-            "Eyes of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|10",
-            "Boon of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|14",
-            "Euryale’s Disciple|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|18"
-          ]
-        },
-        {
-          "name": "Aspect of The Vizier",
-          "shortName": "The Vizier",
-          "source": "FateWeaverJan2021",
-          "page": 16,
-          "subclassSpells": [
-            {
-              "name": "Gift of Alacrity",
-              "source": "EGW"
-            },
-            "Identify",
-            "Augury",
-            {
-              "name": "Fortune's Favor",
-              "source": "EGW"
-            },
-            "Clairvoyance",
-            "Tounges",
-            "Arcane Eye",
-            "Divination",
-            "Commune",
-            "Legend Lore"
-          ],
-          "subclassFeatures": [
-            "Aspect of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1",
-            "Shield of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
-            "Vizier's Divination|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
-            "Visions of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|10",
-            "Boon of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|14",
-            "Vizier of the Weave|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|18"
-          ]
-        }
-      ],
       "fluff": [
         {
           "name": "Fate Weaver",
@@ -903,28 +597,6 @@
             }
           ]
         }
-      ],
-      "cantripProgression": [
-        3,
-        3,
-        3,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5
       ],
       "page": 1,
       "classSpells": [
@@ -3566,6 +3238,357 @@
         "A divination focus can take many different forms ranging from a blank deck of cards that can fit writing or pictures, a sphere with a die inside that provides a written response, a tarokka deck, or even a small candle stick that when used its smoke forms words or an image.",
         "Regardless of the form the focus takes, you start a 10 minute ritual and ask a single question. You then make a Spellcasting ability check and add your proficiency bonus using the divination focus. In order to receive an accurate reading, you must make a DC 12 check, or a DC determined by the DM depending on the nature of your question. More specific questions usually incur a higher DC. If your check is successful, you receive a vague response up to 50 words in length. Alternatively, you can receive a visual representation and interpret the meaning of the message yourself. You can use a Divination Focus a number of times per day equal to your proficiency bonus, regaining expended uses daily at dawn."
       ]
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Aspect of The Jester",
+      "source": "FateWeaverJan2021",
+      "subclassFeatures": [
+        "Aspect of The Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|1",
+        "Inspiring Performance|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|6",
+        "Skillful Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|10",
+        "Expertise|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|10",
+        "Boon of the Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|14",
+        "Jester of the Weave|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|18"
+      ],
+      "shortName": "The Jester",
+      "page": 7,
+      "subclassSpells": [
+        "Expeditious Retreat",
+        "Tasha's Hideous Laughter",
+        "Enthrall",
+        {
+          "name": "Pyrotechnics",
+          "source": "XGE"
+        },
+        {
+          "name": "Enemies Abound",
+          "source": "XGE"
+        },
+        "Hypnotic Pattern",
+        "Freedom of Movement",
+        "Polymorph",
+        {
+          "name": "Far Step",
+          "source": "XGE"
+        },
+        "Geas"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Phoenix",
+      "source": "FateWeaverJan2021",
+      "subclassSpells": [
+        "Burning Hands",
+        "Faerie Fire",
+        "Continual Flame",
+        "Scorching Ray",
+        "Fireball",
+        "Fly",
+        "Fire Shield",
+        "Wall of Fire",
+        "Circle of Power",
+        {
+          "name": "Immolation",
+          "source": "XGE"
+        }
+      ],
+      "subclassFeatures": [
+        "Aspect of The Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|1",
+        "Fiery Rebirth|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|6",
+        "Fueling the Fire|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|10",
+        "Boon of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|14",
+        "Form of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|18"
+      ],
+      "shortName": "The Phoenix",
+      "page": 8,
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Moon",
+      "source": "FateWeaverJan2021",
+      "subclassFeatures": [
+        "Aspect of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|1",
+        "Barrier of Moonlight|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|6",
+        "Nourishment of the Night|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|10",
+        "Boon of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|14",
+        "Weaver of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|18"
+      ],
+      "shortName": "The Moon",
+      "page": 9,
+      "subclassSpells": [
+        "Healing Word",
+        "Shield of Faith",
+        {
+          "name": "Healing Spirit",
+          "source": "XGE"
+        },
+        "Moonbeam",
+        "Beacon of Hope",
+        "Mass Healing Word",
+        "Control Water",
+        "Death Ward",
+        "Greater Restoration",
+        "Mass Cure Wounds"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of the Skull",
+      "source": "FateWeaverJan2021",
+      "subclassFeatures": [
+        "Aspect of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|1",
+        "Shatter Fate|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|6",
+        "Return of the Skull Keeper|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|10",
+        "Boon of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|14",
+        "Weaver of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|18"
+      ],
+      "shortName": "The Skull",
+      "page": 10,
+      "subclassSpells": [
+        "Hex",
+        "Inflict Wounds",
+        "Blindness/Deafness",
+        {
+          "name": "Shadow Blade",
+          "source": "XGE"
+        },
+        "Animate Dead",
+        "Speak with Dead",
+        "Blight",
+        {
+          "name": "Shadow of Moil",
+          "source": "XGE"
+        },
+        "Hallow",
+        {
+          "name": "Negative Energy Flood",
+          "source": "XGE"
+        }
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Star",
+      "shortName": "The Star",
+      "source": "FateWeaverJan2021",
+      "page": 11,
+      "subclassSpells": [
+        "Create or Destroy Water",
+        "Cure Wounds",
+        "Enhance Ability",
+        "Lesser Restoration",
+        "Aura of Vitality",
+        "Water Walk",
+        "Conjure Minor Elementals",
+        "Conjure Woodland Beings",
+        "Contact Other Plane",
+        "Greater Restoration"
+      ],
+      "subclassFeatures": [
+        "Aspect of The Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|1",
+        "Nourishing Rest|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|6",
+        "Cleansing Touch|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|10",
+        "Boon of the Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|14",
+        "Weaver of the Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Sun",
+      "shortName": "The Sun",
+      "source": "FateWeaverJan2021",
+      "page": 12,
+      "subclassSpells": [
+        "Bless",
+        "Heroism",
+        "Aid",
+        "Branding Smite",
+        "Blinding Smite",
+        "Daylight",
+        "Aura of Life",
+        "Aura of Purity",
+        {
+          "name": "Dawn",
+          "source": "XGE"
+        },
+        {
+          "name": "Holy Weapon",
+          "source": "XGE"
+        }
+      ],
+      "subclassFeatures": [
+        "Aspect of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|1",
+        "Empowering Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|6",
+        "Beacon of Heroism|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|10",
+        "Boon of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|14",
+        "Weaver of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Void",
+      "shortName": "The Void",
+      "source": "FateWeaverJan2021",
+      "page": 13,
+      "subclassSpells": [
+        "Arms of Hadar",
+        "Dissonant Whispers",
+        "Darkness",
+        "Phantasmal Force",
+        "Blink",
+        "Hunger of Hadar",
+        "Banishment",
+        "Dimension Door",
+        "Dream",
+        {
+          "name": "Temporal Shunt",
+          "source": "EGW"
+        }
+      ],
+      "subclassFeatures": [
+        "Aspect of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|1",
+        "Call to the Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|6",
+        "Empty Fate|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|10",
+        "Boon of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|14",
+        "Weaver of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Knight",
+      "shortName": "The Knight",
+      "source": "FateWeaverJan2021",
+      "page": 14,
+      "subclassSpells": [
+        "Sanctuary",
+        "Shield",
+        "Find Steed",
+        "Warding Bond",
+        "Protection from Energy",
+        "Spirit Guardians",
+        {
+          "name": "Find Greater Steed",
+          "source": "XGE"
+        },
+        "Guardian of Faith",
+        "Destructive Wave",
+        "Wall of Force"
+      ],
+      "subclassFeatures": [
+        "Aspect of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1",
+        "Boon of Protection|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
+        "Extra Attack|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
+        "Obligation of The Bold and The Brave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|10",
+        "Boon of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|14",
+        "Knight of the Weave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Balance",
+      "shortName": "The Balance",
+      "source": "FateWeaverJan2021",
+      "page": 15,
+      "subclassSpells": [
+        "Detect Evil and Good",
+        "Detect Magic",
+        "Detect Thoughts",
+        "See Invisibility",
+        "Counterspell",
+        "Dispel Magic",
+        "Arcane Eye",
+        {
+          "name": "Elemental Bane",
+          "source": "XGE"
+        },
+        "Dispel Evil and Good",
+        "Scrying"
+      ],
+      "subclassFeatures": [
+        "Aspect of The Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|1",
+        "Detriment of Chaos|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|6",
+        "Balance of Replenishment|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|10",
+        "Boon of Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|14",
+        "Balance of the Weave|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Euryale",
+      "shortName": "The Euryale",
+      "source": "FateWeaverJan2021",
+      "page": 16,
+      "subclassSpells": [
+        "Bane",
+        {
+          "name": "Chaos Bolt",
+          "source": "XGE"
+        },
+        "Alter Self",
+        "Spider Climb",
+        "Bestow Curse",
+        "Fear",
+        "Evard's Black Tentacles",
+        "Phantasmal Killer",
+        "Antilife Shell",
+        "Contagion"
+      ],
+      "subclassFeatures": [
+        "Aspect of The Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1",
+        "Gaze of the Cursed One|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
+        "Fear Your Many Fates|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
+        "Eyes of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|10",
+        "Boon of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|14",
+        "Euryale’s Disciple|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
+    },
+    {
+      "name": "Aspect of The Vizier",
+      "shortName": "The Vizier",
+      "source": "FateWeaverJan2021",
+      "page": 16,
+      "subclassSpells": [
+        {
+          "name": "Gift of Alacrity",
+          "source": "EGW"
+        },
+        "Identify",
+        "Augury",
+        {
+          "name": "Fortune's Favor",
+          "source": "EGW"
+        },
+        "Clairvoyance",
+        "Tounges",
+        "Arcane Eye",
+        "Divination",
+        "Commune",
+        "Legend Lore"
+      ],
+      "subclassFeatures": [
+        "Aspect of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1",
+        "Shield of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
+        "Vizier's Divination|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
+        "Visions of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|10",
+        "Boon of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|14",
+        "Vizier of the Weave|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "FateWeaverJan2021"
     }
   ]
 }
