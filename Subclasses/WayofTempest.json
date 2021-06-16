@@ -24,8 +24,8 @@
       "name": "Way of the Tempest",
       "subclassFeatures": [
         "Way of the Tempest|Monk|PHB|Tempest|WayofTempest|3",
-        "Fists of the Storm|Monk|PHB|Tempest|WayofTempest|3",
-        "Stormborn Weapons|Monk|PHB|Tempest|WayofTempest|3",
+        "Channel the Storm|Monk|PHB|Tempest|WayofTempest|3",
+        "Step of the Tempest|Monk|PHB|Tempest|WayofTempest|3",
         "Stormlord’s Protection|Monk|PHB|Tempest|WayofTempest|6",
         "Storm Disciple|Monk|PHB|Tempest|WayofTempest|6",
         "Storm Grandmaster|Monk|PHB|Tempest|WayofTempest|11",
@@ -49,13 +49,13 @@
       "subclassSource": "WayofTempest",
       "level": 3,
       "entries": [
-        "You follow a monastic tradition that teaches you to harness the power of the storm. When you focus your ki, you can align yourself with the storm inside you and bend them to your will, using them as an extension of your body.",
+        "Born with the might of dragons, elementals, giants, or other similar stormborn creatures, you follow a monastic tradition that teaches you to harness the power of a raging storm that brews within you. When you focus your ki, you can align yourself with the storm inside you and bend them to your will, using them as an extension of your body. ",
         "Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as elder tempests and arcane sigils."
       ]
     },
     {
       "type": "entries",
-      "name": "Fists of the Storm",
+      "name": "Channel The Storm",
       "source": "WayofTempest",
       "page": 80,
       "className": "Monk",
@@ -66,12 +66,12 @@
       "header": 1,
       "entries": [
         "{@i 3rd-level Tempest Feature}",
-        "You can call upon the might of a raging tempest that lies deep within your soul. Up to twice per round on your turn, your unarmed strikes can deal an additional amount of lightning or thunder damage equal to your martial arts die."
+        "You can call upon the might of a raging tempest that lies deep within your soul. Up to twice per round on your turn, you can add bonus lightning or thunder damage (you choose when you use this feature) to your monk weapons or unarmed strikes when you hit with them. This bonus equals your martial arts die."
       ]
     },
     {
       "type": "entries",
-      "name": "Stormborn Weapons",
+      "name": "Step of the Tempest",
       "source": "WayofTempest",
       "page": 80,
       "className": "Monk",
@@ -82,10 +82,7 @@
       "header": 1,
       "entries": [
         "{@i 3rd-level Tempest Feature}",
-        "Pick two weapons of your choice. These weapons must fall under the criteria for the Dedicated Weapon feature. You spend a 1-hour ritual concentrating on these weapons to channel your ki through them. Those weapons count as monk weapons until you use this feature again.",
-        "When you deal damage with these weapons, you deal an additional amount of lightning or thunder damage (your choice) equal to your Wisdom Modifier. ",
-        "Any attempt to perform this ritual again instantly removes the benefits from the previous weapons you had made as your Stormborn Weapons.",
-        "At 6th level, these weapons are considered magical for the purposes of overcoming non-magical resistances."
+        "When you use your Step of the Wind feature, you can spend an additional ki point to increase your movement speed by an additional 10 feet."
       ]
     },
     {
@@ -198,6 +195,13 @@
               "name": "Thor's Leap",
               "entries": [
                 "You summon forth a mighty strength from within which allows you to burst through the tethers of the material plane, allowing you to make a thunderous step and appear in another position. You can spend 3 ki points to cast {@spell thunder step}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ride the Lightning",
+              "entries": [
+                "You call upon the power of the storm to increase your speed and leave a trail of lightning behind you. You can spend 3 ki to cast the {@spell flame stride|UA21DO} spell, but it deals lighting damage instead."
               ]
             }
           ]

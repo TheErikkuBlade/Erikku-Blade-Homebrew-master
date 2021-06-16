@@ -499,9 +499,9 @@
             ]
           },
           {
-            "undefined": [
+            "_": [
               {
-                "item": "Divination Foucs|FateWeaverJan2021",
+                "item": "Divination Focus|FateWeaverJan2021",
                 "count": 1
               }
             ]
@@ -3228,7 +3228,7 @@
   "item": [
     {
       "name": "Divination Focus",
-      "source": "FW",
+      "source": "FateWeaverJan2021",
       "rarity": "common",
       "type": "T",
       "value": 50,
