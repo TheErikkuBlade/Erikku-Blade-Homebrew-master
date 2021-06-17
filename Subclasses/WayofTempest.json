@@ -114,7 +114,7 @@
       "header": 2,
       "entries": [
         "{@i 6th-level Tempest Feature}",
-        "You can channel your inner storm into magical spells. You learn the {@spell shocking grasp} and {@spell thunderclap} cantrips which uses Wisdom as your spellcasting ability.",
+        "You can channel your inner storm into magical spells. You learn the {@spell shocking grasp} and {@spell thunderclap|XGE} cantrips which uses Wisdom as your spellcasting ability.",
         "In addition you have learned certain disciplines that allow you to cast spells using ki points. You have three disciplines of your choice as detailed below starting at level 6. You learn two additional disciplines of your choice at 11th and 17th levels. Whenever you learn a new discipline, you can also replace one discipline that you already know with a different discipline.",
         "See {@book chapter 10|PHB} of the Player's Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it. When you cast a spell with a discipline, it is cast at the spell's lowest level unless otherwise specified. You use Wisdom for your Spellcasting Ability.",
         {
@@ -131,7 +131,7 @@
               "type": "entries",
               "name": "Electro-Whip",
               "entries": [
-                "You learn the {@spell lightning lure} cantrip and can cast it at will."
+                "You learn the {@spell lightning lure|TCE} cantrip and can cast it at will."
               ]
             },
             {
@@ -166,7 +166,7 @@
               "type": "entries",
               "name": "Tempestous Barrier",
               "entries": [
-                "You create a howling wind to bat away incoming projectiles. You can spend 2 ki points to cast {@spell warding wind}."
+                "You create a howling wind to bat away incoming projectiles. You can spend 2 ki points to cast {@spell warding wind|XGE}."
               ]
             },
             {
@@ -194,7 +194,7 @@
               "type": "entries",
               "name": "Thor's Leap",
               "entries": [
-                "You summon forth a mighty strength from within which allows you to burst through the tethers of the material plane, allowing you to make a thunderous step and appear in another position. You can spend 3 ki points to cast {@spell thunder step}."
+                "You summon forth a mighty strength from within which allows you to burst through the tethers of the material plane, allowing you to make a thunderous step and appear in another position. You can spend 3 ki points to cast {@spell thunder step|XGE}."
               ]
             },
             {
