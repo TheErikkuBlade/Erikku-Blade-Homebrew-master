@@ -82,7 +82,7 @@
       "header": 1,
       "entries": [
         "{@i 3rd-level Tempest Feature}",
-        "When you use your Step of the Wind feature, you can spend an additional ki point to increase your movement speed by an additional 10 feet."
+        "When you use your Step of the Wind feature, you can spend an additional ki point to increase your movement speed by an additional 10 feet until the end of the turn."
       ]
     },
     {
@@ -201,7 +201,7 @@
               "type": "entries",
               "name": "Ride the Lightning",
               "entries": [
-                "You call upon the power of the storm to increase your speed and leave a trail of lightning behind you. You can spend 3 ki to cast the {@spell flame stride|UA21DO} spell, but it deals lighting damage instead."
+                "You call upon the power of the storm to increase your speed and leave a trail of lightning behind you. You can spend 3 ki to cast the {@spell flame stride|UA2021DraconicOptions} spell, but it deals lighting damage instead."
               ]
             }
           ]
