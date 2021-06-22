@@ -1462,12 +1462,12 @@
       "page": 8
     },
     {
-      "name": "Fiery Rebirth",
+      "name": "Flames of Rebirth",
       "entries": [
         "Starting at 6th level, the fiery energy within you grows restless and vengeful. In the face of defeat, it surges outward to preserve you in a fiery roar.",
-        "If you are reduced to 0 hit points, you can use your reaction to draw on the spark of the phoenix. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to half your fate weaver level + your Charisma modifier.",
-        "If you use this feature while under the effects of your Mantle of the Phoenix, this feature instead deals fire damage equal to your fate weaver level + double your Charisma modifier, and your Mantle of the Phoenix immediately ends.",
-        "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
+        "If you are reduced to 0 hit points, you can use your reaction to draw on the immortal flames of the phoenix. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to four rolls of your fate dice.",
+        "If you use this feature while under the effects of your Mantle of the Phoenix, this feature gains a bonus to its fire damage equal to your fate weaver level.",
+        "You can use this feature once, regaining the ability to do so when you finish a long rest or if you spend a use of your Spell Weaving feature to use it again."
       ],
       "source": "FateWeaverJan2021",
       "className": "Fate Weaver",
@@ -3300,6 +3300,10 @@
             "9": [
               "circle of power",
               "immolation|XGE"
+            ],
+            "14": [
+              "investiture of flame|XGE",
+              "fire storm"
             ]
           }
         }
