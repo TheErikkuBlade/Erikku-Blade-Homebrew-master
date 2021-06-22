@@ -12,7 +12,7 @@
           "Erikku Blade"
         ],
         "url": "https://docs.google.com/document/d/14vUyGeWLmqMC4nIAS02hcria6P3ZJ4B_6f6-KoI1WY4/edit?usp=sharing",
-        "version": "3.0.0",
+        "version": "3.1.0",
         "color": "F363FF"
       }
     ],
@@ -600,8 +600,16 @@
       ],
       "page": 1,
       "classSpells": [
+        "Antipathy/Sympathy",
         "Blade Ward",
         "Dancing Lights",
+        "Drawmij's Instant Summons",
+        "Fabricate",
+        "Life Transference",
+        "Rary's Telepathic Bond",
+        "Rope Trick",
+        "Symbol",
+        "Dream",
         "Druidcraft",
         "Friends",
         "Guidance",
@@ -627,7 +635,6 @@
         "Detect Poison and Disease",
         "Dissonant Whispers",
         "Divine Favor",
-        "False Life",
         "Feather Fall",
         "Find Familiar",
         "Guiding Bolt",
@@ -635,8 +642,6 @@
         "Hunter’s Mark",
         "Identify",
         "Illusory Script",
-        "Jump",
-        "Longstrider",
         "Mage Armor",
         "Protection from Evil and Good",
         "Sanctuary",
@@ -645,14 +650,12 @@
         "Silent Image",
         "Sleep",
         "Speak with Animals",
-        "Tenser's Floating Disk",
         "Aid",
         "Animal Messenger",
         "Augury",
         "Beast Sense",
         "Blindness/Deafness",
         "Calm Emotions",
-        "Darkness",
         "Darkvision",
         "Detect Thoughts",
         "Enhance Ability",
@@ -660,8 +663,6 @@
         "Find Traps",
         "Gentle Repose",
         "Hold Person",
-        "Invisibility",
-        "Knock",
         "Lesser Restoration",
         "Levitate",
         "Locate Animals or Plants",
@@ -685,7 +686,6 @@
         "Counterspell",
         "Create Food and Water",
         "Dispel Magic",
-        "Fear",
         "Feign Death",
         "Fly",
         "Glyph of Warding",
@@ -695,7 +695,6 @@
         "Major Image",
         "Mass Healing Word",
         "Nondetection",
-        "Phantom Steed",
         "Protection from Energy",
         "Remove Curse",
         "Revivify",
@@ -712,11 +711,7 @@
         "Dimension Door",
         "Divination",
         "Freedom of Movement",
-        "Greater Invisibility",
-        "Guardian of Faith",
         "Locate Creature",
-        "Otiluke’s Resilient Sphere",
-        "Stone Shape",
         "Circle of Power",
         "Commune",
         "Commune with Nature",
@@ -740,23 +735,15 @@
         "Teleportation Circle",
         "Wall of Force",
         "Arcane Gate",
-        "Blade Barrier",
         "Find the Path",
         "Forbiddance",
-        "Globe of Invulnerability",
         "Heal",
         "Heroes' Feast",
-        "Investiture of Wind",
-        "Magic Jar",
         "Planar Ally",
         "True Seeing",
         "Word of Recall",
-        "Conjure Celestial",
-        "Divine Word",
         "Etherealness",
-        "Mordenkainen's Magnificent Mansion",
         "Plane Shift",
-        "Prismatic Spray",
         "Project Image",
         "Regenerate",
         "Resurrection",
@@ -776,7 +763,6 @@
         "Imprisonment",
         "Mass Heal",
         "Power Word Heal",
-        "Prismatic Wall",
         "Time Stop",
         "True Resurrection",
         "Wish",
@@ -791,10 +777,6 @@
         {
           "name": "Sapping Sting",
           "source": "EGW"
-        },
-        {
-          "name": "Word of Radiance",
-          "source": "XGE"
         },
         {
           "name": "Absorb Elements",
@@ -825,15 +807,7 @@
           "source": "EGW"
         },
         {
-          "name": "Mind Spike",
-          "source": "XGE"
-        },
-        {
           "name": "Skywrite",
-          "source": "XGE"
-        },
-        {
-          "name": "Warding Wind",
           "source": "XGE"
         },
         {
@@ -841,28 +815,8 @@
           "source": "EGW"
         },
         {
-          "name": "Fast Friends",
-          "source": "AI"
-        },
-        {
-          "name": "Galder's Tower",
-          "source": "LLK"
-        },
-        {
-          "name": "Incite Greed",
-          "source": "AI"
-        },
-        {
-          "name": "Motivational Speech",
-          "source": "AI"
-        },
-        {
           "name": "Pulse Wave",
           "source": "EGW"
-        },
-        {
-          "name": "Tiny Servant",
-          "source": "XGE"
         },
         {
           "name": "Elemental Bane",
@@ -889,10 +843,6 @@
           "source": "EGW"
         },
         {
-          "name": "Investiture of Wind",
-          "source": "XGE"
-        },
-        {
           "name": "Dream of the Blue Veil",
           "source": "TCE"
         },
@@ -909,16 +859,20 @@
           "source": "EGW"
         },
         {
-          "name": "Invulnerability",
-          "source": "XGE"
-        },
-        {
           "name": "Ravenous Void",
           "source": "EGW"
         },
         {
           "name": "Time Ravage",
           "source": "EGW"
+        },
+        {
+          "name": "Spirit Shroud",
+          "source": "TCE"
+        },
+        {
+          "name": "Tasha's Otherworldly Guise",
+          "source": "TCE"
         }
       ]
     }
@@ -1615,7 +1569,7 @@
             ],
             [
               "9th",
-              "{@spell greater restoration}, {@spell mass cure wounds}"
+              "{@spell maelstrom|XGE}, {@spell mass cure wounds}"
             ]
           ]
         },
@@ -1693,7 +1647,8 @@
       "subclassSource": "FateWeaverJan2021",
       "level": 18,
       "entries": [
-        "Starting at 18th level, you have mastered the art of healing, so much so that it is second nature to you. You can cast Healing Word and Cure Wounds at its lowest level without spending a spell slot. Once you do so you cannot do so again until you finish a short or long rest. In addition, once per round when you would cast a Fate Weaver spell of 1st level or higher that would heal a target, instead of rolling you can restore the maximum possible hit points from the spell. Once you do so a number of times equal to your Charisma Modifier you cannot do so again until you finish a long rest."
+        "Starting at 18th level, you have mastered the art of healing, so much so that it is second nature to you. You can cast healing word at its lowest level without spending a spell slot. You can cast healing word in this way a number of times equal to your charisma modifier, regaining all expended uses after you finish a long rest.",
+        "In addition, your healing energy flows like an ocean’s waves. When you restore hit points to a creature other than yourself using a spell slot of 1st level or higher, you regain an amount of hit points equal to twice your proficiency bonus."
       ],
       "page": 9,
       "header": 2
@@ -3275,6 +3230,32 @@
         },
         "Geas"
       ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "expeditious retreat",
+              "tasha's hideous laughter"
+            ],
+            "3": [
+              "enthrall",
+              "pyrotechnics|XGE"
+            ],
+            "5": [
+              "enemies abound|XGE",
+              "hypnotic pattern"
+            ],
+            "7": [
+              "freedom of movement",
+              "polymorph"
+            ],
+            "9": [
+              "farestep|XGE",
+              "geas"
+            ]
+          }
+        }
+      ],
       "className": "Fate Weaver",
       "classSource": "FateWeaverJan2021"
     },
@@ -3283,7 +3264,7 @@
       "source": "FateWeaverJan2021",
       "subclassSpells": [
         "Burning Hands",
-        "Faerie Fire",
+        "hellish rebuke",
         "Continual Flame",
         "Scorching Ray",
         "Fireball",
@@ -3296,9 +3277,36 @@
           "source": "XGE"
         }
       ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "burning hands",
+              "hellish rebuke",
+              "produce flame"
+            ],
+            "3": [
+              "continual flame",
+              "scorching ray"
+            ],
+            "5": [
+              "fireball",
+              "fly"
+            ],
+            "7": [
+              "fire shield",
+              "wall of fire"
+            ],
+            "9": [
+              "circle of power",
+              "immolation|XGE"
+            ]
+          }
+        }
+      ],
       "subclassFeatures": [
         "Aspect of The Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|1",
-        "Fiery Rebirth|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|6",
+        "Flames of Rebirth|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|6",
         "Fueling the Fire|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|10",
         "Boon of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|14",
         "Form of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|18"
@@ -3332,8 +3340,37 @@
         "Mass Healing Word",
         "Control Water",
         "Death Ward",
-        "Greater Restoration",
+        {
+          "name": "maelstrom",
+          "source": "XGE"
+        },
         "Mass Cure Wounds"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "healing word",
+              "shield of faith"
+            ],
+            "3": [
+              "healing spirit|XGE",
+              "moonbeam"
+            ],
+            "5": [
+              "beacon of hope",
+              "mass healing word"
+            ],
+            "7": [
+              "control water",
+              "death ward"
+            ],
+            "9": [
+              "maelstrom|XGE",
+              "mass cure wounds"
+            ]
+          }
+        }
       ],
       "className": "Fate Weaver",
       "classSource": "FateWeaverJan2021"
@@ -3371,6 +3408,32 @@
           "source": "XGE"
         }
       ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "hex",
+              "inflict wounds"
+            ],
+            "3": [
+              "blindness/deafness",
+              "shadow blade|XGE"
+            ],
+            "5": [
+              "animate dead",
+              "speak with dead"
+            ],
+            "7": [
+              "blight",
+              "shadow of moil|XGE"
+            ],
+            "9": [
+              "hallow",
+              "negative energy flood"
+            ]
+          }
+        }
+      ],
       "className": "Fate Weaver",
       "classSource": "FateWeaverJan2021"
     },
@@ -3391,6 +3454,32 @@
         "Contact Other Plane",
         "Greater Restoration"
       ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "create or destroy water",
+              "cure wounds"
+            ],
+            "3": [
+              "enhance ability",
+              "lesser restoration"
+            ],
+            "5": [
+              "aura of vitality",
+              "water walk"
+            ],
+            "7": [
+              "conjure minor elementals",
+              "conjure woodland beings"
+            ],
+            "9": [
+              "contact other plane",
+              "greater restoration"
+            ]
+          }
+        }
+      ],
       "subclassFeatures": [
         "Aspect of The Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|1",
         "Nourishing Rest|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|6",
@@ -3406,6 +3495,32 @@
       "shortName": "The Sun",
       "source": "FateWeaverJan2021",
       "page": 12,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "bless",
+              "heroism"
+            ],
+            "3": [
+              "aid",
+              "branding smite"
+            ],
+            "5": [
+              "blinding smite",
+              "daylight"
+            ],
+            "7": [
+              "aura of life",
+              "aura of purity"
+            ],
+            "9": [
+              "dawn",
+              "holy weapon"
+            ]
+          }
+        }
+      ],
       "subclassSpells": [
         "Bless",
         "Heroism",
@@ -3454,6 +3569,32 @@
           "source": "EGW"
         }
       ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "arms of Hadar",
+              "dissonant whispers"
+            ],
+            "3": [
+              "darkness",
+              "phantasmal force"
+            ],
+            "5": [
+              "blink",
+              "hunger of Hadar"
+            ],
+            "7": [
+              "banishment",
+              "dimension door"
+            ],
+            "9": [
+              "dream",
+              "temporal shunt"
+            ]
+          }
+        }
+      ],
       "subclassFeatures": [
         "Aspect of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|1",
         "Call to the Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|6",
@@ -3492,6 +3633,32 @@
         "Boon of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|14",
         "Knight of the Weave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|18"
       ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "sanctuary",
+              "shield"
+            ],
+            "3": [
+              "find steed",
+              "warding bond"
+            ],
+            "5": [
+              "protection from energy",
+              "spirit guardians"
+            ],
+            "7": [
+              "find greater steed|XGE",
+              "guardian of faith"
+            ],
+            "9": [
+              "destructive wave",
+              "wall of force"
+            ]
+          }
+        }
+      ],
       "className": "Fate Weaver",
       "classSource": "FateWeaverJan2021"
     },
@@ -3514,6 +3681,32 @@
         },
         "Dispel Evil and Good",
         "Scrying"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "detect evil and good",
+              "detect magic"
+            ],
+            "3": [
+              "detect thoughts",
+              "see invisibility"
+            ],
+            "5": [
+              "counterspell",
+              "dispelmagic"
+            ],
+            "7": [
+              "arcane eye",
+              "elemental bane|XGE"
+            ],
+            "9": [
+              "dispel evil and good",
+              "scrying"
+            ]
+          }
+        }
       ],
       "subclassFeatures": [
         "Aspect of The Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|1",
@@ -3544,6 +3737,32 @@
         "Phantasmal Killer",
         "Antilife Shell",
         "Contagion"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "bane",
+              "chaos bolt|XGE"
+            ],
+            "3": [
+              "alter self",
+              "spider climb"
+            ],
+            "5": [
+              "bestow curse",
+              "fear"
+            ],
+            "7": [
+              "evard's black tentacles",
+              "phantasmal killer"
+            ],
+            "9": [
+              "antilife shell",
+              "contagion"
+            ]
+          }
+        }
       ],
       "subclassFeatures": [
         "Aspect of The Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1",
@@ -3578,6 +3797,33 @@
         "Divination",
         "Commune",
         "Legend Lore"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "gift of alacrity|EGW",
+              "identify",
+              "guidance"
+            ],
+            "3": [
+              "augury",
+              "fortune's favor|EGW"
+            ],
+            "5": [
+              "clairvoyance",
+              "tongues"
+            ],
+            "7": [
+              "divination",
+              "locate creature"
+            ],
+            "9": [
+              "commune",
+              "legend lore"
+            ]
+          }
+        }
       ],
       "subclassFeatures": [
         "Aspect of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1",
