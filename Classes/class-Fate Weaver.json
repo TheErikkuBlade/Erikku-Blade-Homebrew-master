@@ -1633,7 +1633,8 @@
       "subclassSource": "FateWeaverJan2021",
       "level": 14,
       "entries": [
-        "Starting at 14th level, when you or an ally within 30 ft of you is targeted from a weapon attack you can spend your reaction to heal that creature for an amount of hit points equal to your Fate Weaver level. Then, the source of the attack takes an amount of radiant damage equal to your Fate Weaver level and must pass a Constitution saving throw against your spell save DC or be blinded. Once a creature has benefited from this boon they cannot benefit from it again until they complete a short or long rest."
+        "Starting at 14th level, when you heal a creature using a spell slot of 1st level or higher, you can spend a fate die as a reaction and roll it. Your healing gains a magical bonus to the roll equal to the number rolled on the fate die.",
+        "In addition, your healing energy flows like an ocean’s waves. When you restore hit points to a creature other than yourself  using a spell slot of 1st level or higher, you regain hit points equal to two rolls of your fate die."
       ],
       "page": 9,
       "header": 2
@@ -1648,7 +1649,8 @@
       "level": 18,
       "entries": [
         "Starting at 18th level, you have mastered the art of healing, so much so that it is second nature to you. You can cast healing word at its lowest level without spending a spell slot. You can cast healing word in this way a number of times equal to your charisma modifier, regaining all expended uses after you finish a long rest.",
-        "In addition, your healing energy flows like an ocean’s waves. When you restore hit points to a creature other than yourself using a spell slot of 1st level or higher, you regain an amount of hit points equal to twice your proficiency bonus."
+        "In addition, you can perform a 10 minute ritual and spend a 1st level or higher spell slot to transform a flask or a bottle of ordinary water into purified drinking water with healing properties. The water heals for as much as an ordinary potion of healing and has the ability to cure a creature of any disease or poison when consumed.",
+        "You can only perform this ritual up to three times per day during a short or long rest while outside and the moon is out. You regain the ability to perform this ritual when you finish a long rest."
       ],
       "page": 9,
       "header": 2
