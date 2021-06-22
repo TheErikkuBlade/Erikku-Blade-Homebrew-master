@@ -605,7 +605,6 @@
         "Dancing Lights",
         "Drawmij's Instant Summons",
         "Fabricate",
-        "Life Transference",
         "Rary's Telepathic Bond",
         "Rope Trick",
         "Symbol",
@@ -639,7 +638,7 @@
         "Find Familiar",
         "Guiding Bolt",
         "Healing Word",
-        "Hunter’s Mark",
+        "Hunter's Mark",
         "Identify",
         "Illusory Script",
         "Mage Armor",
@@ -703,7 +702,7 @@
         "Spirit Guardians",
         "Tongues",
         "Water Breathing",
-        "Water Walking",
+        "Water Walk",
         "Arcane Eye",
         "Banishment",
         "Confusion",
@@ -863,6 +862,10 @@
           "source": "EGW"
         },
         {
+          "name": "Gravity Sinkhole",
+          "source": "EGW"
+        },
+        {
           "name": "Time Ravage",
           "source": "EGW"
         },
@@ -873,6 +876,18 @@
         {
           "name": "Tasha's Otherworldly Guise",
           "source": "TCE"
+        },
+        {
+          "name": "Life Transference",
+          "source": "XGE"
+        },
+        {
+          "name": "Healing Spirit",
+          "source": "XGE"
+        },
+        {
+          "name": "Catnap",
+          "source": "XGE"
         }
       ]
     }
