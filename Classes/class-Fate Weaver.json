@@ -2,7 +2,7 @@
   "_meta": {
     "sources": [
       {
-        "json": "FateWeaverJan2021",
+        "json": "EBFateWeaver",
         "abbreviation": "FW",
         "full": "Fate Weaver",
         "authors": [
@@ -11,7 +11,7 @@
         "convertedBy": [
           "Erikku Blade"
         ],
-        "url": "https://docs.google.com/document/d/14vUyGeWLmqMC4nIAS02hcria6P3ZJ4B_6f6-KoI1WY4/edit?usp=sharing",
+        "url": "https://homebrewery.naturalcrit.com/share/FwuyCkhV",
         "version": "3.1.0",
         "color": "F363FF"
       }
@@ -22,7 +22,7 @@
   "class": [
     {
       "name": "Fate Weaver",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "hd": {
         "number": 1,
         "faces": 6
@@ -460,7 +460,7 @@
           "(a) a {@item component pouch|phb} or (b) an {@item arcane focus}",
           "(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
           "Two {@item dagger|phb|daggers}",
-          "a {@item Divination Focus|FateWeaverJan2021}"
+          "a {@item Divination Focus|EBFateWeaver}"
         ],
         "defaultData": [
           {
@@ -501,7 +501,7 @@
           {
             "_": [
               {
-                "item": "Divination Focus|FateWeaverJan2021",
+                "item": "Divination Focus|EBFateWeaver",
                 "count": 1
               }
             ]
@@ -514,41 +514,41 @@
         }
       },
       "classFeatures": [
-        "Spellcasting|Fate Weaver|FateWeaverJan2021|1",
-        "Fate Weaving|Fate Weaver|FateWeaverJan2021|1",
+        "Spellcasting|Fate Weaver|EBFateWeaver|1",
+        "Fate Weaving|Fate Weaver|EBFateWeaver|1",
         {
-          "classFeature": "Aspect of Fate|Fate Weaver|FateWeaverJan2021|1",
+          "classFeature": "Aspect of Fate|Fate Weaver|EBFateWeaver|1",
           "gainSubclassFeature": true
         },
-        "Boon of Fate|Fate Weaver|FateWeaverJan2021|2",
-        "Divination Dice|Fate Weaver|FateWeaverJan2021|2",
-        "Spell Weaving|Fate Weaver|FateWeaverJan2021|3",
-        "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|4",
-        "Fateful Rest|Fate Weaver|FateWeaverJan2021|5",
+        "Boon of Fate|Fate Weaver|EBFateWeaver|2",
+        "Divination Dice|Fate Weaver|EBFateWeaver|2",
+        "Spell Weaving|Fate Weaver|EBFateWeaver|3",
+        "Ability Score Improvement|Fate Weaver|EBFateWeaver|4",
+        "Fateful Rest|Fate Weaver|EBFateWeaver|5",
         {
-          "classFeature": "Aspect of Fate Feature|Fate Weaver|FateWeaverJan2021|6",
+          "classFeature": "Aspect of Fate Feature|Fate Weaver|EBFateWeaver|6",
           "gainSubclassFeature": true
         },
-        "Fateful Divination|Fate Weaver|FateWeaverJan2021|7",
-        "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|8",
+        "Fateful Divination|Fate Weaver|EBFateWeaver|7",
+        "Ability Score Improvement|Fate Weaver|EBFateWeaver|8",
         {
-          "classFeature": "Aspect of Fate Feature|Fate Weaver|FateWeaverJan2021|10",
+          "classFeature": "Aspect of Fate Feature|Fate Weaver|EBFateWeaver|10",
           "gainSubclassFeature": true
         },
-        "Prediction of Fate|Fate Weaver|FateWeaverJan2021|11",
-        "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|12",
+        "Prediction of Fate|Fate Weaver|EBFateWeaver|11",
+        "Ability Score Improvement|Fate Weaver|EBFateWeaver|12",
         {
-          "classFeature": "Aspect of Fate Feature|Fate Weaver|FateWeaverJan2021|14",
+          "classFeature": "Aspect of Fate Feature|Fate Weaver|EBFateWeaver|14",
           "gainSubclassFeature": true
         },
-        "Magic of the Weave|Fate Weaver|FateWeaverJan2021|15",
-        "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|16",
+        "Magic of the Weave|Fate Weaver|EBFateWeaver|15",
+        "Ability Score Improvement|Fate Weaver|EBFateWeaver|16",
         {
-          "classFeature": "Aspect of Fate Feature|Fate Weaver|FateWeaverJan2021|18",
+          "classFeature": "Aspect of Fate Feature|Fate Weaver|EBFateWeaver|18",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Fate Weaver|FateWeaverJan2021|19",
-        "Boon of the Weave|Fate Weaver|FateWeaverJan2021|20"
+        "Ability Score Improvement|Fate Weaver|EBFateWeaver|19",
+        "Boon of the Weave|Fate Weaver|EBFateWeaver|20"
       ],
       "subclassTitle": "Aspect of Fate",
       "fluff": [
@@ -895,9 +895,9 @@
   "classFeature": [
     {
       "name": "Spellcasting",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Born with an innate ability to manipulate the weave and the magic that follows, you can cast spells and bend fate to your whim. See {@book chapter 10|PHB|10} of the Player's Handbook for the general rules of Spellcasting.",
@@ -958,9 +958,9 @@
     },
     {
       "name": "Aspect of Fate",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Each Fate Weaver chosen by the Goddess of Magic is granted a certain aspect that can change the course of battle. Each of the various Aspects of Fate are loosely inspired by tarot cards and the infamous {@item Deck of Many Things|dmg}."
@@ -969,9 +969,9 @@
     },
     {
       "name": "Fate Weaving",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have two fate dice, and gain an additional fate die as shown on the table for your level. Each fate die is a d4. You can use your reaction to spend one of these fate dice and use one of the following effects:",
@@ -989,9 +989,9 @@
     },
     {
       "name": "Boon of Fate",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 2,
       "entries": [
         "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can spend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice. ",
@@ -1002,9 +1002,9 @@
     },
     {
       "name": "Divination Dice",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 2,
       "entries": [
         "Starting at 2nd level your powers to control and predict fate itself begins to blossom. You gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls. ",
@@ -1014,9 +1014,9 @@
     },
     {
       "name": "Spell Weaving",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 3,
       "entries": [
         "Some were born with magic, some were born to have magic, some were born to master magic, the Fate Weaver was born with all of these traits. Starting at 3rd level, you gain the uncanny ability to manipulate the spell slots that you possess. As a bonus action, by expending a spell slot of 2nd level or higher you can convert that spell slot into a number of lower level spell slots equal to the spell slot’s level. You can distribute the spell slots as you wish.",
@@ -1028,9 +1028,9 @@
     },
     {
       "name": "Ability Score Improvement",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 4,
       "entries": [
         "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1040,9 +1040,9 @@
     },
     {
       "name": "Fateful Rest",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 5,
       "entries": [
         "Starting at 5th level you regain half of your expended fate dice at the end of a short rest. You can only do so once, regaining the ability to do so again after a long rest."
@@ -1051,9 +1051,9 @@
     },
     {
       "name": "Aspect of Fate Feature",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "At 6th level, you gain a feature granted by your Aspect of Fate."
@@ -1061,9 +1061,9 @@
     },
     {
       "name": "Fateful Divination",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 7,
       "entries": [
         "Upon reaching 7th level, you can cast the Divination spell without expending a spell slot a number of times equal to half your Charisma Modifier. (Rounded down) You regain all expended uses of this feature after a long rest."
@@ -1072,9 +1072,9 @@
     },
     {
       "name": "Ability Score Improvement",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 8,
       "entries": [
         "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1084,9 +1084,9 @@
     },
     {
       "name": "Aspect of Fate Feature",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "At 10th level, you gain a feature granted by your Aspect of Fate."
@@ -1095,9 +1095,9 @@
     },
     {
       "name": "Prediction of Fate",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 11,
       "entries": [
         "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a reaction, you can expend one of your divination dice to force a creature you can see within 60 feet of you, or yourself, to reroll an ability check, attack roll, or saving throw. The creature must use the new result, even if they have a feature that allows them to reroll."
@@ -1106,9 +1106,9 @@
     },
     {
       "name": "Ability Score Improvement",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 12,
       "entries": [
         "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1118,9 +1118,9 @@
     },
     {
       "name": "Aspect of Fate Feature",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "At 14th level, you gain a feature granted by your Aspect of Fate."
@@ -1129,9 +1129,9 @@
     },
     {
       "name": "Magic of the Weave",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 15,
       "entries": [
         "You draw power from the infinite wellspring of magic, granting you the knowledge, wisdom, or cunning needed to learn magic you otherwise could not learn.",
@@ -1142,9 +1142,9 @@
     },
     {
       "name": "Ability Score Improvement",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 16,
       "entries": [
         "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1154,9 +1154,9 @@
     },
     {
       "name": "Aspect of Fate Feature",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "At 18th level, you gain a feature granted by your Aspect of Fate."
@@ -1165,9 +1165,9 @@
     },
     {
       "name": "Ability Score Improvement",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 19,
       "entries": [
         "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1177,9 +1177,9 @@
     },
     {
       "name": "Boon of the Weave",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "level": 20,
       "entries": [
         "At 20th level, you have become the right hand of the Goddess of Magic. Your ability to manipulate the weave and call upon it is unrivaled, gaining the power to alter the very fabric of reality.",
@@ -1222,11 +1222,11 @@
   "subclassFeature": [
     {
       "name": "Aspect of The Jester",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Filled with joy, laughter, and energy. Dancing across the battlefield with elegance and glee, skipping along the city streets with a smile. You take risks and usually expect reward, blind to your own shortcomings. But most of all, you entertain those around you with your extrovert nature.",
@@ -1267,11 +1267,11 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Bonus Proficiencies|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|1"
+          "subclassFeature": "Bonus Proficiencies|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Elusive Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|1"
+          "subclassFeature": "Elusive Jester|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|1"
         }
       ],
       "page": 7
@@ -1281,11 +1281,11 @@
       "entries": [
         "At 1st level, you gain proficiency in rapiers, one musical instrument of your choice, and your choice of either Performance or a set of artisan tools of your choosing."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "page": 7
@@ -1295,22 +1295,22 @@
       "entries": [
         "Beginning at 1st level when you choose this subclass, you know just what to say to get yourself out of a mess you more than likely got yourself into. When you make a Charisma (Persuasion) or Charisma (Deception) check, you can treat a d20 roll of 9 or lower as a 10 by spending a fate die. When you do so, you then roll that fate die and add it to the total."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "page": 7
     },
     {
       "name": "Inspiring Performance",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "At 6th level, you’ve become an inspiring performer that manages to put a smile on creatures at just the right time and boost their confidence in their own abilities. If you spend at least 10 minutes making an artistic performance, you can grant a number of creatures equal to your Charisma modifier temporary hit points equal to your level.",
@@ -1322,11 +1322,11 @@
     },
     {
       "name": "Skillful Jester",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "At 10th level, you have always kept your mind open to trying new things and can pick up skills on the fly. When you finish a long rest, choose any one skill of which you are not proficient in. You add half of your proficiency bonus to any ability checks using that skill until you next finish a long rest, after which you can choose the same skill or a different skill to gain this benefit."
@@ -1336,11 +1336,11 @@
     },
     {
       "name": "Expertise",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "Also at 10th level, choose two of your skill or tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 18th level, you choose two more of your skill or tool proficiencies to gain this benefit."
@@ -1350,11 +1350,11 @@
     },
     {
       "name": "Boon of the Jester",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "At 14th level, you take unnecessary risks to get what you want or maybe just to have fun. As a reaction whenever you make an attack roll, ability check, or saving throw you can choose to roll at disadvantage instead by spending a fate die. You cannot benefit from any advantages when you do so. Also, you roll the fate die and add it to the roll. If you succeed, you automatically receive the best outcome of the result treating the d20 roll as a 20. On a failure, you automatically receive the worst possible outcome, treating the d20 roll as a 1 and doubling any damage dealt to you as a result if you were to take any.",
@@ -1365,11 +1365,11 @@
     },
     {
       "name": "Jester of the Weave",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Jester",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "At 18th level, your ability to enthrall others with your performance becomes legendary. Whenever you make a Charisma (Performance) check, or an ability check using an artisan’s tools, you can spend 2 fate dice to automatically treat the d20 roll as a 20. You must choose to do this before the roll.",
@@ -1380,11 +1380,11 @@
     },
     {
       "name": "Aspect of the Phoenix",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Phoenix",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Your power draws from the immortal flame that fuels the legendary phoenix. You or your ancestors perhaps rendered a phoenix a great service, or you were born in its presence. Whatever the cause, a shard of the phoenix's power dwells within you.",
@@ -1428,11 +1428,11 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Ignite|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|1"
+          "subclassFeature": "Ignite|Fate Weaver|EBFateWeaver|The Phoenix|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Mantle of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|1"
+          "subclassFeature": "Mantle of the Phoenix|Fate Weaver|EBFateWeaver|The Phoenix|EBFateWeaver|1"
         }
       ],
       "page": 8
@@ -1444,11 +1444,11 @@
         "Additionally, as an action, you can magically ignite a flammable object you touch with your hand—an object such as a torch, a piece of tinder, or the hem of drapes.",
         "When you do so, the object takes an amount of fire damage equal to your charisma modifier, and takes the same amount at the start of your turns thereafter."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Phoenix",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "page": 8
@@ -1467,11 +1467,11 @@
           ]
         }
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Phoenix",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "page": 8
@@ -1484,11 +1484,11 @@
         "If you use this feature while under the effects of your Mantle of the Phoenix, this feature gains a bonus to its fire damage equal to your fate weaver level.",
         "You can use this feature once, regaining the ability to do so when you finish a long rest or if you spend a use of your Spell Weaving feature to use it again."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Phoenix",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "header": 2,
       "page": 8
@@ -1499,11 +1499,11 @@
         "Starting at 10th level, if your Mantle of the Phoenix would end, as a reaction you can spend a hit die as if you were regaining hit points during a short rest. Instead of healing, you instead take damage equal to what you roll, and the duration of your mantle increases by 1 minute. This damage cannot be reduced by any means.",
         "When you use this feature, your body becomes scorched with burn marks dark as coals. When your Mantle of the Phoenix ends, you gain a level of exhaustion for each time you use this feature that can only be removed when you finish a long rest."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Phoenix",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "header": 2,
       "page": 8
@@ -1513,11 +1513,11 @@
       "entries": [
         "At 14th level, you learn the {@spell fire storm} and {@spell investiture of flame|XGE} spells and they do not count against your total number of prepared spells. When you cast either of these spells, you instantly enter your Mantle of the Phoenix no action required and without spending a fate die."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Phoenix",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "header": 2,
       "page": 8
@@ -1535,22 +1535,22 @@
           ]
         }
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Phoenix",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "header": 2,
       "page": 8
     },
     {
       "name": "Aspect of the Moon",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Moon",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "You are normally calm and serene. You chose to walk down the path not of violence, not of bloodshed, but of healing. You are the calming sound of the ocean tides, you are the moonlight that heals wounds as weakened ones rest. People look up to you as your presence is soft and calming.",
@@ -1590,18 +1590,18 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Healing Light|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|1"
+          "subclassFeature": "Healing Light|Fate Weaver|EBFateWeaver|The Moon|EBFateWeaver|1"
         }
       ],
       "page": 9
     },
     {
       "name": "Healing Light",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Moon",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 1 plus your proficiency bonus."
@@ -1611,11 +1611,11 @@
     },
     {
       "name": "Barrier of Moonlight",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Moon",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "Starting at 6th level, by spending a 10 minute ritual you can cast the spell Tiny Hut as a ritual spell. When you do so, creatures that take a rest inside the dome restore twice as many hit points on a short rest and restore 2 levels of exhaustion rather than 1 after a long rest. In addition, creatures who take a long rest replenish all of their hit dice instead of half. You can only cast Tiny Hut in this way if you are outside and the moon is out."
@@ -1625,11 +1625,11 @@
     },
     {
       "name": "Nourishment of the Night",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Moon",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "Starting at 10th level, while it is night and the moon is out you can perform a 10 minute ritual to ritual cast the spells Goodberry and Create or Destroy Water but can only create water. Once you have done so you cannot do so again until you complete a long rest.",
@@ -1641,11 +1641,11 @@
     },
     {
       "name": "Boon of the Moon",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Moon",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "Starting at 14th level, when you heal a creature using a spell slot of 1st level or higher, you can spend a fate die as a reaction and roll it. Your healing gains a magical bonus to the roll equal to the number rolled on the fate die.",
@@ -1656,11 +1656,11 @@
     },
     {
       "name": "Weaver of the Moon",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Moon",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "Starting at 18th level, you have mastered the art of healing, so much so that it is second nature to you. You can cast healing word at its lowest level without spending a spell slot. You can cast healing word in this way a number of times equal to your charisma modifier, regaining all expended uses after you finish a long rest.",
@@ -1711,28 +1711,28 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Dead by Night, Rise by Dawn|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|1"
+          "subclassFeature": "Dead by Night, Rise by Dawn|Fate Weaver|EBFateWeaver|The Skull|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Withering Scythe|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|1"
+          "subclassFeature": "Withering Scythe|Fate Weaver|EBFateWeaver|The Skull|EBFateWeaver|1"
         }
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Skull",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "page": 10
     },
     {
       "name": "Dead by Night, Rise by Dawn",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Skull",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Starting at 1st level, you can alter the fate of a creature that has recently fallen. You choose one corpse you can see that has been dead for no longer than 24 hours. At the end of a long rest, as long as the corpse has remained within 60 feet of you for the duration of the long rest, it rises from death and becomes your servant. The creature rises as an Avatar of Death, which you control, and it takes an appearance similar to that creature. You count as the summoner of this Avatar of Death and it loses its truesight and its armor class is 14 plus your proficiency bonus instead of its own armor class. It follows your commands to the best of its abilities, even if it would lead to its own demise. The Avatar of Death remains summoned until you dismiss it as an action, it is reduced to 0 hit points, or until a number of days pass equal to your Charisma modifier.",
@@ -1744,11 +1744,11 @@
     },
     {
       "name": "Withering Scythe",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Skull",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Also starting at 1st level, whenever you roll initiative or as a bonus action on your turn, you can spend a fate die to conjure a weapon of necrotic energy for one minute. You are proficient with this weapon and it counts as magical for the purposes of overcoming non-magical resistances. It’s damage die is equal to your fate die and you use your Charisma modifier for its attack and damage rolls instead of Strength or Dexterity. On a successful hit, the target must pass a Constitution saving throw against your Spell Save DC or the creature cannot receive the benefits of healing until the start of your next turn.",
@@ -1760,11 +1760,11 @@
     },
     {
       "name": "Shatter Fate",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Skull",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "Starting at 6th level, when you would use your Fate Weaving feature to change the outcome of an attack targeted on you or an ally and the attack misses, the attacker feels a deep pain in their chest as necrotic energy fills their body. The target must make a Wisdom saving throw against your Spell Save DC. On a failed save, the creature is stunned until the end of your next turn. Once a creature is stunned in this way, they cannot be stunned in that way again until they complete a short or long rest."
@@ -1774,11 +1774,11 @@
     },
     {
       "name": "Return of the Skull Keeper",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Skull",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "Starting at 10th level, you can use your control over death to conjure a powerful servant. As an action, by spending 3 fate dice you summon an Avatar of Death following its stat block accordingly. When the Avatar of Death is summoned, it resembles a creature you have previously killed, so long as they are still dead. The creature it resembles is your choice. The Avatar of Death remains for 1 minute or until it is reduced to 0 hit points, after which it vanishes."
@@ -1788,11 +1788,11 @@
     },
     {
       "name": "Boon of the Skull",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Skull",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "Starting at 14th level you can imbue your weapon with even greater power than before. When you summon your Withering Scythe, you can spend an additional fate die to add another damage die to the weapon. In addition, you have resistance to necrotic damage and do not need to eat, drink, or breathe."
@@ -1802,11 +1802,11 @@
     },
     {
       "name": "Weaver of the Skull",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Skull",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "At 18th level, you no longer suffer the effects of old age and you cannot be aged magically. You can still die of old age, however your lifespan has been expanded. For each year you had left, and each year you had lived, you now gain 10 years of life. In addition, as a bonus action by spending a fate die you can inflict a curse to a creature that you can see within 60 ft of you. Roll the fate die, that creature receives a penalty to their AC equal to what you roll. This curse remains until the creature dies. A remove curse spell of 5th level or higher, or a Greater Restoration spell can remove its effects."
@@ -1855,18 +1855,18 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Starlight Companion|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|1"
+          "subclassFeature": "Starlight Companion|Fate Weaver|EBFateWeaver|The Star|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Shooting Stars|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|1"
+          "subclassFeature": "Shooting Stars|Fate Weaver|EBFateWeaver|The Star|EBFateWeaver|1"
         }
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Star",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "page": 11
     },
@@ -1875,11 +1875,11 @@
       "entries": [
         "Starting at 1st level, you summon an extraplanar ally to aid you on your travels and keep you company. Use the Starlight Companion stat block for the purposes of this ally. You can summon this ally a number of times equal to your Charisma modifier, and they remain summoned until you dispel them as an action, they are reduced to 0 hit points, or if you are incapacitated. It uses your proficiency bonus rather than its own."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Star",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "page": 11
@@ -1889,11 +1889,11 @@
       "entries": [
         "Also at 1st level, when you and a number of creatures equal to your Charisma modifier take a long rest, as part of that rest you can bend the course of fate to make shooting stars appear in the sky equal to the number of creatures benefiting from this feature. When the chosen creatures see these shooting stars they gain a single point of luck, as per the {@feat lucky} feat. This point of luck lasts for 8 hours, and is consumed if it goes unused. A creature can only gain a single point of luck from this feature, and cannot gain any additional points until that point is consumed."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Star",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "page": 11
@@ -1903,11 +1903,11 @@
       "entries": [
         "Starting at 6th level, when you use your Shooting Stars feature you can wish upon the stars to keep you and your party refreshed and nourished for the day. You can ritual cast the spell Create Food and Water as part of that rest, and any food and water that isn’t consumed at the end of the rest vanishes. You do not need to have the spell prepared in order to cast it in this way."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Star",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "header": 2,
       "page": 11
@@ -1917,11 +1917,11 @@
       "entries": [
         "At 10th level, your touch gains a certain healing property. As an action, you can touch a creature and spend a fate die to remove a disease or poison from them. You can use this cleansing touch a number of times equal to your Charisma modifier, regaining all expended uses after a long rest."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Star",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "header": 2,
       "page": 11
@@ -1932,11 +1932,11 @@
         "Starting at 14th level, when you cast a spell that requires a form of diamonds for a material component, costly or otherwise, you can instead spend a fate die for every 100 gp the diamond is worth to use in place of that material component.",
         "In addition, you are immune to disease and poison."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Star",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "header": 2,
       "page": 11
@@ -1948,21 +1948,21 @@
         "In addition, when you summon your Starlight Companion you gain Inspiration, see page 125 of the Player’s Handbook for the Inspiration rules.",
         "Also, when you use your Nourishing Rest feature, you can instead cast the Heroes’ Feast without requiring material components."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Star",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "header": 2,
       "page": 11
     },
     {
       "name": "Aspect of The Sun",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Sun",
       "page": 12,
       "level": 1,
@@ -2005,16 +2005,16 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Shining Energy|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|1"
+          "subclassFeature": "Shining Energy|Fate Weaver|EBFateWeaver|The Sun|EBFateWeaver|1"
         }
       ]
     },
     {
       "name": "Shining Energy",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Sun",
       "page": 12,
       "level": 1,
@@ -2026,10 +2026,10 @@
     },
     {
       "name": "Empowering Sun",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Sun",
       "page": 12,
       "level": 6,
@@ -2040,10 +2040,10 @@
     },
     {
       "name": "Beacon of Heroism",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Sun",
       "page": 12,
       "level": 10,
@@ -2055,10 +2055,10 @@
     },
     {
       "name": "Boon of the Sun",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Sun",
       "page": 12,
       "level": 14,
@@ -2069,10 +2069,10 @@
     },
     {
       "name": "Weaver of the Sun",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Sun",
       "page": 12,
       "level": 18,
@@ -2112,10 +2112,10 @@
     },
     {
       "name": "Aspect of The Void",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Void",
       "page": 13,
       "level": 1,
@@ -2159,20 +2159,20 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Empty Fortune|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|1"
+          "subclassFeature": "Empty Fortune|Fate Weaver|EBFateWeaver|The Void|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Disastrous Fortune|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|1"
+          "subclassFeature": "Disastrous Fortune|Fate Weaver|EBFateWeaver|The Void|EBFateWeaver|1"
         }
       ]
     },
     {
       "name": "Empty Fortune",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Void",
       "page": 13,
       "level": 1,
@@ -2185,10 +2185,10 @@
     },
     {
       "name": "Disastrous Fortune",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Void",
       "page": 13,
       "level": 1,
@@ -2201,10 +2201,10 @@
     },
     {
       "name": "Call to the Void",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Void",
       "page": 13,
       "level": 6,
@@ -2285,10 +2285,10 @@
     },
     {
       "name": "Empty Fate",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Void",
       "page": 13,
       "level": 10,
@@ -2307,10 +2307,10 @@
     },
     {
       "name": "Boon of The Void",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Void",
       "page": 13,
       "level": 14,
@@ -2324,10 +2324,10 @@
     },
     {
       "name": "Weaver of The Void",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
-      "subclassSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
+      "subclassSource": "EBFateWeaver",
       "subclassShortName": "The Void",
       "page": 13,
       "level": 18,
@@ -2340,11 +2340,11 @@
     },
     {
       "name": "Aspect of The Knight",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "As someone who can bend the very fabric of reality to your whim, you hold a great power. With that great power comes an even greater responsibility, a responsibility to protect those around you and alter their fates to more promising ones. You’re a protective soul who likes to shelter your allies from harm behind a shield of protection.",
@@ -2385,11 +2385,11 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Bonus Proficiencies|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1"
+          "subclassFeature": "Bonus Proficiencies|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Mystical Combat|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1"
+          "subclassFeature": "Mystical Combat|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|1"
         }
       ],
       "page": 14
@@ -2400,22 +2400,22 @@
         "{@i 1st-level Knight Feature}",
         "You gain proficiency with light armor, medium armor, and shields. In addition, you gain proficiency in one of the following skills: acrobatics, athletics, perception, or survival."
       ],
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "page": 14
     },
     {
       "name": "Mystical Combat",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "header": 1,
       "entries": [
@@ -2428,11 +2428,11 @@
     },
     {
       "name": "Boon of Protection",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "{@i 6th-level Knight Feature}",
@@ -2444,11 +2444,11 @@
     },
     {
       "name": "Extra Attack",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "{@i 6th-level Knight Feature}",
@@ -2459,11 +2459,11 @@
     },
     {
       "name": "Obligation of The Bold and The Brave",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "{@i 10th-level Knight Feature}",
@@ -2474,11 +2474,11 @@
     },
     {
       "name": "Boon of the Knight",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "{@i 14th-level Knight Feature}",
@@ -2490,11 +2490,11 @@
     },
     {
       "name": "Knight of the Weave",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Knight",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "{@i 18th-level Knight Feature}",
@@ -2507,11 +2507,11 @@
     },
     {
       "name": "Aspect of The Balance",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Balance",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Rather than fight the inevitable, you bring about it. You takeaway the unbalancing factors of fate and bring back the natural order of it. You are a true believer that fate is nothing more than the inescapable reality of what is to come. As such, you balance out all things that would interfere with that. Your visions are the outcome that is meant to happen, and your goal is to ensure it does. Any alteration to that fate is against the natural order, of which you have to correct.",
@@ -2552,18 +2552,18 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Balance the Scales of Fate|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|1"
+          "subclassFeature": "Balance the Scales of Fate|Fate Weaver|EBFateWeaver|The Balance|EBFateWeaver|1"
         }
       ],
       "page": 15
     },
     {
       "name": "Balance the Scales of Fate",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Balance",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "{@i 1st-level Balance Feature}",
@@ -2575,11 +2575,11 @@
     },
     {
       "name": "Detriment of Chaos",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Balance",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "{@i 6th-level Balance Feature}",
@@ -2592,11 +2592,11 @@
     },
     {
       "name": "Balance of Replenishment",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Balance",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "{@i 10th-level Balance Feature}",
@@ -2607,11 +2607,11 @@
     },
     {
       "name": "Boon of Balance",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Balance",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "{@i 14th-level Balance Feature}",
@@ -2623,11 +2623,11 @@
     },
     {
       "name": "Balance of the Weave",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Balance",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "{@i 18th-level Balance Feature}",
@@ -2639,11 +2639,11 @@
     },
     {
       "name": "Aspect of The Euryale",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Fate is a tricky thing, sometimes it is not always in your favor, sometimes fate has other plans for you. Fate weavers of this aspect are often cursed with their magical power as opposed to being chosen by the gods of fate or magic. There are moments where their magic goes out of their control and potentially harms themselves or their allies. However, while there is definitely a risk there is also a lot of reward that can come from this aspect of fate. ",
@@ -2684,26 +2684,26 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Curse of The Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1"
+          "subclassFeature": "Curse of The Euryale|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Fateful Chaos|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1"
+          "subclassFeature": "Fateful Chaos|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Cursed Origins|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1"
+          "subclassFeature": "Cursed Origins|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|1"
         }
       ],
       "page": 16
     },
     {
       "name": "Curse of The Euryale",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "{@i 1st-level Euryale Feature}",
@@ -2776,11 +2776,11 @@
     },
     {
       "name": "Fateful Chaos",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "{@i 1st-level Euryale Feature}",
@@ -2792,11 +2792,11 @@
     },
     {
       "name": "Cursed Origins",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "{@i 1st-level Euryale Feature}",
@@ -2845,11 +2845,11 @@
     },
     {
       "name": "Gaze of the Cursed One",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "{@i 6th-level Euryale Feature}",
@@ -2869,11 +2869,11 @@
     },
     {
       "name": "Fear Your Many Fates",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "{@i 6th-level Euryale Feature}",
@@ -2885,11 +2885,11 @@
     },
     {
       "name": "Eyes of Euryale",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "{@i 10th-level Euryale Feature}",
@@ -2901,11 +2901,11 @@
     },
     {
       "name": "Boon of Euryale",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "{@i 14th-level Euryale Feature}",
@@ -2917,11 +2917,11 @@
     },
     {
       "name": "Euryale’s Disciple",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Euryale",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "{@i 18th-level Euryale Feature}",
@@ -2934,11 +2934,11 @@
     },
     {
       "name": "Aspect of The Vizier",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "Fate weavers by nature have the ability to see into the weave of fate, but few have mastered the art as well as the aspects of the vizier. The future is theirs to see and weave to their whim. Many viziers are often summoned by kings and queens to learn of their fateful demise in hopes to avoid it. Most viziers, however, serve the world as fortune tellers for trade. They offer advice to those misguided, give hope to those who seek love, and give confidence to those who doubt themselves.",
@@ -2979,22 +2979,22 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Eyes of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1"
+          "subclassFeature": "Eyes of The Vizier|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Gaze of the Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1"
+          "subclassFeature": "Gaze of the Vizier|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|1"
         }
       ],
       "page": 17
     },
     {
       "name": "Eyes of The Vizier",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "{@i 1st-level Vizier Feature}",
@@ -3007,11 +3007,11 @@
     },
     {
       "name": "Gaze of the Vizier",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 1,
       "entries": [
         "{@i 1st-level Vizier Feature}",
@@ -3023,11 +3023,11 @@
     },
     {
       "name": "Vizier's Divination",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "{@i 6th-level Vizier Feature}",
@@ -3039,11 +3039,11 @@
     },
     {
       "name": "Shield of the Vizier",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
         "{@i 6th-level Vizier Feature}",
@@ -3054,11 +3054,11 @@
     },
     {
       "name": "Visions of The Vizier",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 10,
       "entries": [
         "{@i 10th-level Vizier Feature}",
@@ -3069,11 +3069,11 @@
     },
     {
       "name": "Boon of The Vizier",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 14,
       "entries": [
         "{@i 14th-level Vizier Feature}",
@@ -3085,11 +3085,11 @@
     },
     {
       "name": "Vizier of the Weave",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021",
+      "classSource": "EBFateWeaver",
       "subclassShortName": "The Vizier",
-      "subclassSource": "FateWeaverJan2021",
+      "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
         "{@i 18th-level Vizier Feature}",
@@ -3106,7 +3106,7 @@
       "name": "Starlight Companion",
       "size": "S",
       "type": "celestial",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "alignment": [
         "L",
         "N"
@@ -3200,7 +3200,7 @@
   "item": [
     {
       "name": "Divination Focus",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "rarity": "common",
       "type": "T",
       "value": 50,
@@ -3215,14 +3215,14 @@
   "subclass": [
     {
       "name": "Aspect of The Jester",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "subclassFeatures": [
-        "Aspect of The Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|1",
-        "Inspiring Performance|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|6",
-        "Skillful Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|10",
-        "Expertise|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|10",
-        "Boon of the Jester|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|14",
-        "Jester of the Weave|Fate Weaver|FateWeaverJan2021|The Jester|FateWeaverJan2021|18"
+        "Aspect of The Jester|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|1",
+        "Inspiring Performance|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|6",
+        "Skillful Jester|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|10",
+        "Expertise|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|10",
+        "Boon of the Jester|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|14",
+        "Jester of the Weave|Fate Weaver|EBFateWeaver|The Jester|EBFateWeaver|18"
       ],
       "shortName": "The Jester",
       "page": 7,
@@ -3274,11 +3274,11 @@
         }
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Phoenix",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "subclassSpells": [
         "Burning Hands",
         "hellish rebuke",
@@ -3326,26 +3326,26 @@
         }
       ],
       "subclassFeatures": [
-        "Aspect of The Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|1",
-        "Flames of Rebirth|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|6",
-        "Fueling the Fire|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|10",
-        "Boon of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|14",
-        "Form of the Phoenix|Fate Weaver|FateWeaverJan2021|The Phoenix|FateWeaverJan2021|18"
+        "Aspect of The Phoenix|Fate Weaver|EBFateWeaver|The Phoenix|EBFateWeaver|1",
+        "Flames of Rebirth|Fate Weaver|EBFateWeaver|The Phoenix|EBFateWeaver|6",
+        "Fueling the Fire|Fate Weaver|EBFateWeaver|The Phoenix|EBFateWeaver|10",
+        "Boon of the Phoenix|Fate Weaver|EBFateWeaver|The Phoenix|EBFateWeaver|14",
+        "Form of the Phoenix|Fate Weaver|EBFateWeaver|The Phoenix|EBFateWeaver|18"
       ],
       "shortName": "The Phoenix",
       "page": 8,
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Moon",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "subclassFeatures": [
-        "Aspect of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|1",
-        "Barrier of Moonlight|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|6",
-        "Nourishment of the Night|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|10",
-        "Boon of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|14",
-        "Weaver of the Moon|Fate Weaver|FateWeaverJan2021|The Moon|FateWeaverJan2021|18"
+        "Aspect of the Moon|Fate Weaver|EBFateWeaver|The Moon|EBFateWeaver|1",
+        "Barrier of Moonlight|Fate Weaver|EBFateWeaver|The Moon|EBFateWeaver|6",
+        "Nourishment of the Night|Fate Weaver|EBFateWeaver|The Moon|EBFateWeaver|10",
+        "Boon of the Moon|Fate Weaver|EBFateWeaver|The Moon|EBFateWeaver|14",
+        "Weaver of the Moon|Fate Weaver|EBFateWeaver|The Moon|EBFateWeaver|18"
       ],
       "shortName": "The Moon",
       "page": 9,
@@ -3394,17 +3394,17 @@
         }
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of the Skull",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "subclassFeatures": [
-        "Aspect of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|1",
-        "Shatter Fate|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|6",
-        "Return of the Skull Keeper|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|10",
-        "Boon of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|14",
-        "Weaver of the Skull|Fate Weaver|FateWeaverJan2021|The Skull|FateWeaverJan2021|18"
+        "Aspect of the Skull|Fate Weaver|EBFateWeaver|The Skull|EBFateWeaver|1",
+        "Shatter Fate|Fate Weaver|EBFateWeaver|The Skull|EBFateWeaver|6",
+        "Return of the Skull Keeper|Fate Weaver|EBFateWeaver|The Skull|EBFateWeaver|10",
+        "Boon of the Skull|Fate Weaver|EBFateWeaver|The Skull|EBFateWeaver|14",
+        "Weaver of the Skull|Fate Weaver|EBFateWeaver|The Skull|EBFateWeaver|18"
       ],
       "shortName": "The Skull",
       "page": 10,
@@ -3456,12 +3456,12 @@
         }
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Star",
       "shortName": "The Star",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "page": 11,
       "subclassSpells": [
         "Create or Destroy Water",
@@ -3502,19 +3502,19 @@
         }
       ],
       "subclassFeatures": [
-        "Aspect of The Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|1",
-        "Nourishing Rest|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|6",
-        "Cleansing Touch|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|10",
-        "Boon of the Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|14",
-        "Weaver of the Star|Fate Weaver|FateWeaverJan2021|The Star|FateWeaverJan2021|18"
+        "Aspect of The Star|Fate Weaver|EBFateWeaver|The Star|EBFateWeaver|1",
+        "Nourishing Rest|Fate Weaver|EBFateWeaver|The Star|EBFateWeaver|6",
+        "Cleansing Touch|Fate Weaver|EBFateWeaver|The Star|EBFateWeaver|10",
+        "Boon of the Star|Fate Weaver|EBFateWeaver|The Star|EBFateWeaver|14",
+        "Weaver of the Star|Fate Weaver|EBFateWeaver|The Star|EBFateWeaver|18"
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Sun",
       "shortName": "The Sun",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "page": 12,
       "additionalSpells": [
         {
@@ -3561,19 +3561,19 @@
         }
       ],
       "subclassFeatures": [
-        "Aspect of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|1",
-        "Empowering Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|6",
-        "Beacon of Heroism|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|10",
-        "Boon of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|14",
-        "Weaver of the Sun|Fate Weaver|FateWeaverJan2021|The Sun|FateWeaverJan2021|18"
+        "Aspect of the Sun|Fate Weaver|EBFateWeaver|The Sun|EBFateWeaver|1",
+        "Empowering Sun|Fate Weaver|EBFateWeaver|The Sun|EBFateWeaver|6",
+        "Beacon of Heroism|Fate Weaver|EBFateWeaver|The Sun|EBFateWeaver|10",
+        "Boon of the Sun|Fate Weaver|EBFateWeaver|The Sun|EBFateWeaver|14",
+        "Weaver of the Sun|Fate Weaver|EBFateWeaver|The Sun|EBFateWeaver|18"
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Void",
       "shortName": "The Void",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "page": 13,
       "subclassSpells": [
         "Arms of Hadar",
@@ -3621,19 +3621,19 @@
         }
       ],
       "subclassFeatures": [
-        "Aspect of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|1",
-        "Call to the Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|6",
-        "Empty Fate|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|10",
-        "Boon of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|14",
-        "Weaver of The Void|Fate Weaver|FateWeaverJan2021|The Void|FateWeaverJan2021|18"
+        "Aspect of The Void|Fate Weaver|EBFateWeaver|The Void|EBFateWeaver|1",
+        "Call to the Void|Fate Weaver|EBFateWeaver|The Void|EBFateWeaver|6",
+        "Empty Fate|Fate Weaver|EBFateWeaver|The Void|EBFateWeaver|10",
+        "Boon of The Void|Fate Weaver|EBFateWeaver|The Void|EBFateWeaver|14",
+        "Weaver of The Void|Fate Weaver|EBFateWeaver|The Void|EBFateWeaver|18"
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Knight",
       "shortName": "The Knight",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "page": 14,
       "subclassSpells": [
         "Sanctuary",
@@ -3651,12 +3651,12 @@
         "Wall of Force"
       ],
       "subclassFeatures": [
-        "Aspect of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|1",
-        "Boon of Protection|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
-        "Extra Attack|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|6",
-        "Obligation of The Bold and The Brave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|10",
-        "Boon of The Knight|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|14",
-        "Knight of the Weave|Fate Weaver|FateWeaverJan2021|The Knight|FateWeaverJan2021|18"
+        "Aspect of The Knight|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|1",
+        "Boon of Protection|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|6",
+        "Extra Attack|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|6",
+        "Obligation of The Bold and The Brave|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|10",
+        "Boon of The Knight|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|14",
+        "Knight of the Weave|Fate Weaver|EBFateWeaver|The Knight|EBFateWeaver|18"
       ],
       "additionalSpells": [
         {
@@ -3685,12 +3685,12 @@
         }
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Balance",
       "shortName": "The Balance",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "page": 15,
       "subclassSpells": [
         "Detect Evil and Good",
@@ -3734,19 +3734,19 @@
         }
       ],
       "subclassFeatures": [
-        "Aspect of The Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|1",
-        "Detriment of Chaos|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|6",
-        "Balance of Replenishment|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|10",
-        "Boon of Balance|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|14",
-        "Balance of the Weave|Fate Weaver|FateWeaverJan2021|The Balance|FateWeaverJan2021|18"
+        "Aspect of The Balance|Fate Weaver|EBFateWeaver|The Balance|EBFateWeaver|1",
+        "Detriment of Chaos|Fate Weaver|EBFateWeaver|The Balance|EBFateWeaver|6",
+        "Balance of Replenishment|Fate Weaver|EBFateWeaver|The Balance|EBFateWeaver|10",
+        "Boon of Balance|Fate Weaver|EBFateWeaver|The Balance|EBFateWeaver|14",
+        "Balance of the Weave|Fate Weaver|EBFateWeaver|The Balance|EBFateWeaver|18"
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Euryale",
       "shortName": "The Euryale",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "page": 16,
       "subclassSpells": [
         "Bane",
@@ -3790,20 +3790,20 @@
         }
       ],
       "subclassFeatures": [
-        "Aspect of The Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|1",
-        "Gaze of the Cursed One|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
-        "Fear Your Many Fates|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|6",
-        "Eyes of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|10",
-        "Boon of Euryale|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|14",
-        "Euryale’s Disciple|Fate Weaver|FateWeaverJan2021|The Euryale|FateWeaverJan2021|18"
+        "Aspect of The Euryale|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|1",
+        "Gaze of the Cursed One|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|6",
+        "Fear Your Many Fates|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|6",
+        "Eyes of Euryale|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|10",
+        "Boon of Euryale|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|14",
+        "Euryale’s Disciple|Fate Weaver|EBFateWeaver|The Euryale|EBFateWeaver|18"
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     },
     {
       "name": "Aspect of The Vizier",
       "shortName": "The Vizier",
-      "source": "FateWeaverJan2021",
+      "source": "EBFateWeaver",
       "page": 16,
       "subclassSpells": [
         {
@@ -3851,15 +3851,15 @@
         }
       ],
       "subclassFeatures": [
-        "Aspect of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|1",
-        "Shield of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
-        "Vizier's Divination|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|6",
-        "Visions of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|10",
-        "Boon of The Vizier|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|14",
-        "Vizier of the Weave|Fate Weaver|FateWeaverJan2021|The Vizier|FateWeaverJan2021|18"
+        "Aspect of The Vizier|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|1",
+        "Shield of The Vizier|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|6",
+        "Vizier's Divination|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|6",
+        "Visions of The Vizier|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|10",
+        "Boon of The Vizier|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|14",
+        "Vizier of the Weave|Fate Weaver|EBFateWeaver|The Vizier|EBFateWeaver|18"
       ],
       "className": "Fate Weaver",
-      "classSource": "FateWeaverJan2021"
+      "classSource": "EBFateWeaver"
     }
   ]
 }
