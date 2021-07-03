@@ -139,6 +139,7 @@
       "header": 2,
       "entries": [
         "{@i 15th-level Hemomancer feature}",
+        "The following options are added to your Hemomancy feature:",
         {
           "type": "options",
           "entries": [
@@ -157,8 +158,7 @@
               ]
             }
           ]
-        },
-        "Once you use this feature on another creature you cannot do so again until you finish a long rest, or you spend a hit die to regain a use of this feature. You can only spend a hit die in this way once and cannot do so again until you finish a long rest."
+        }
       ]
     },
     {
