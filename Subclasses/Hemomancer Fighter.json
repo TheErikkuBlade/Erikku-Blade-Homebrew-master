@@ -23,9 +23,9 @@
         "Bonus Proficiencies|Fighter||Hemomancer|HemomancerFighter|3",
         "Hemomancy|Fighter||Hemomancer|HemomancerFighter|3",
         "Blood Bath|Fighter||Hemomancer|HemomancerFighter|7",
-        "Unwavering Body|Fighter||Hemomancer|HemomancerFighter|10",
+        "Blood Reserves|Fighter||Hemomancer|HemomancerFighter|10",
         "Hemomatic Bulwark|Fighter||Hemomancer|HemomancerFighter|15",
-        "Hemomatic Control|Fighter||Hemomancer|HemomancerFighter|18"
+        "Hemomatic Mastery|Fighter||Hemomancer|HemomancerFighter|18"
       ],
       "source": "HemomancerFighter",
       "shortName": "Hemomancer",
@@ -52,26 +52,25 @@
       "name": "Hemomancy",
       "entries": [
         "{@i 3rd-level Hemomancer feature}",
-        "Studying occult-based magic, you’ve learned the very nature of blood magic and can use it yourself to a limited degree. Your blood magic will be represented by hemomancy dice. These dice are d4s and you have a number of hemomancy dice equal to your proficiency bonus. ",
-        "You use these dice to fuel your blood magic abilities, and you regain all of your hemomancy dice after a long rest, or if you spend hit dice during a short rest you regain an amount equal to the number of hit dice spent. You cannot gain more hemomancy dice than you can have at your current level in this way.",
-        "When you use a Hemomancy die, regardless if it is spent or not, you roll the die and take damage equal to what you roll.",
-        "Your hemomancy dice grows stronger with you as you gain levels in this class, becoming a d6 at 7th level, a d8 at 10th level, a d10 at 15th level, and a d12 at 18th level.",
+        "Studying occult-based magic, you’ve learned the very nature of blood magic and can use it yourself to a limited degree. Your blood magic will be represented by hemomancy dice. These dice are d4s and you have a number of hemomancy dice equal to twice your proficiency bonus. ",
+        "You use these dice to fuel your blood magic abilities, and you regain all of your hemomancy dice after a long rest. You cannot gain more hemomancy dice than you can have at your current level in this way. If a hemomancy feature requires a creature to make a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+        "When you use a Hemomancy die, regardless if it is spent or not, you roll the die and take damage equal to what you roll. Your hemomancy dice grows stronger with you as you gain levels in this class, becoming a d6 at 7th level, a d8 at 10th level, a d10 at 15th level, and a d12 at 18th level.",
         "You can use your hemomancy dice in the following ways:",
         {
           "type": "options",
           "entries": [
             {
               "type": "entries",
-              "name": "Blood Weapon",
+              "name": "Blood-Boosted Accuracy",
               "entries": [
-                "As a bonus action you can use a hemomancy die to create a weapon out of your own blood. This magic weapon is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals necrotic damage equal to your hemomancy die plus the ability modifier you used for the attack roll. Ordinarily, it takes the form of a glassy red dagger, but the appearance is up to you. If you throw it, it disappears and reappears in your hand. The weapon lasts for a number of minutes equal to what you rolled on the hemomancy die. The first time you use this ability after each long rest, you don't expend the hemomancy die. All other times you use the power, you expend the die."
+                "Whenever you would miss with a weapon attack, you can use a hemomancy die and add a bonus to the roll equal to what you rolled, potentially turning the attack into a hit. If it hits, you deal a number of necrotic damage equal to what you rolled to that creature. You spend the hemomancy die only if the attack hits."
               ]
             },
             {
               "type": "entries",
-              "name": "Blood-Boosted Strikes",
+              "name": "Blood Bursting Strike",
               "entries": [
-                "Whenever you would miss with a weapon attack, you can use a hemomancy die and add a bonus to the roll equal to what you rolled, potentially turning the attack into a hit. If it hits, you deal a number of necrotic damage equal to what you rolled to that creature. You spend the hemomancy die only if the attack hits."
+                "Whenever you deal damage with a weapon, you can expend a hemomancy die and roll it, adding a number of necrotic damage equal to the number rolled and then that creature makes a Constitution saving throw. On a failed save, the creature has disadvantage on attack rolls until the end of your next turn."
               ]
             }
           ]
@@ -101,7 +100,7 @@
             "As a bonus action, and part of the bonus action used to enter your blood bath, you can make one weapon attack using a blood weapon."
           ]
         },
-        "During your Blood Bath, each time you hit with a weapon attack you lose 1 hit point. Your blood bath ends early if you are reduced to 0 hit points, incapacitated, or die."
+        "During your Blood Bath, each time you hit with a weapon attack you lose 1 hit point. Your blood bath ends early if you are reduced to 0 hit points, incapacitated, or die. You can use your blood bath once, regaining the ability to use it again when you complete a short or long rest."
       ],
       "source": "HemomancerFighter",
       "page": "",
@@ -113,10 +112,11 @@
       "header": 1
     },
     {
-      "name": "Unwavering Body",
+      "name": "Blood Reserves",
       "entries": [
         "{@i 10th-level Hemomancer feature}",
-        "The necromantic energy flowing through you has bolstered your body. You have resistance to necrotic damage. Moreover, if you start your turn paralyzed or stunned, you can expend a hemomancy die and end every effect on yourself subjecting you to those conditions. When you do so, you cannot do so again until you finish a long rest, or if you expend a hit die to regain a use of this feature. You can only spend a hit die in this way once and cannot do so again until you finish a long rest."
+        "Whenever you use your Second Wind feature while your Blood Bath is active, you can add an additional amount of healing equal to your hemomancy die as you draw upon even greater reserves of power from your blood magic. This expends a Hemomancy Die but does not deal damage to yourself for using it.",
+        "In addition, as a bonus action you can deal damage to yourself equal to your hemomancy die and regain a spent hemomancy die. You can do so once, regaining the ability to do so when you finish a short or long rest."
       ],
       "source": "HemomancerFighter",
       "page": "",
@@ -139,12 +139,30 @@
       "header": 2,
       "entries": [
         "{@i 15th-level Hemomancer feature}",
-        "Your constant dance with death and exposure to potent poisons makes you immune to disease and poison. In addition, as an action you can spend a hemomancy die and touch a willing creature and manipulate the blood inside of them, ending a poison or disease afflicting them. If you spend an additional hemomancy die, you can also end an effect causing that creature to be paralyzed or stunned.",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood Barrier",
+              "entries": [
+                "As a reaction whenever you would be hit by an attack, you can spend a hemomancy die and add the number rolled to your AC until the start of your next turn, potentially turning the attack into a miss."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood-Boosted Ability",
+              "entries": [
+                "Whenever you make an ability check or saving throw that uses Strength, Dexterity, or Constitution, you may use a hemomancy die and add the number rolled to the d20, provided you are not incapacitated. You spend the hemomancy die only if the check or save was successful."
+              ]
+            }
+          ]
+        },
         "Once you use this feature on another creature you cannot do so again until you finish a long rest, or you spend a hit die to regain a use of this feature. You can only spend a hit die in this way once and cannot do so again until you finish a long rest."
       ]
     },
     {
-      "name": "Hemomatic Control",
+      "name": "Hemomatic Mastery",
       "source": "HemomancerFighter",
       "page": "",
       "className": "Fighter",
@@ -155,8 +173,26 @@
       "header": 2,
       "entries": [
         "{@i 18th-level Hemomancer feature}",
-        "You can take control of the blood inside of your enemies, forcing them into advantageous positions. As an action, you attempt to lock up the movements of a creature you can see within 60 feet of you. They must make a constitution saving throw against a DC equal to 8 + your proficiency bonus + your constitution modifier. A creature automatically succeeds if it is an aberration, construct, elemental, ooze, plant, or undead. On a failed save, the creature is paralyzed for 1 minute. The paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a success it is not paralyzed but it’s movement is reduced to 0 and cannot take reactions until the end of your next turn.",
-        "After you use this feature, you cannot do so again until you finish a long rest, or you spend three hemomancy dice to regain a use of this feature."
+        "You regain all of your spent Hemomancy Dice whenever you finish a short or long rest. In addition, the following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood Curse",
+              "entries": [
+                "As an action, you can spend a hemomancy die to magically curse a creature within 60 feet of you that you can see. That creature becomes overwhelmed and cursed by your blood magic for 1 minute. That creature becomes vulnerable to necrotic damage and gains no benefits from having resistance to necrotic damage. A creature makes a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success. A creature is immune to this effect if it is a plant, undead, or construct, or if it is immune to necrotic damage. You can only have one creature affected by your blood curse at a time. A remove curse can also remove these effects."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Bloody End",
+              "entries": [
+                "When you reduce a creature to 0 hit points, as a reaction you can absorb part of its life force into your own body to fuel your vitality. You can spend a hemomancy die and roll it, gaining a number of temporary hit points equal to what you rolled plus your Constitution modifier. You do not take damage when you spend a hemomancy die in this way."
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
