@@ -11,7 +11,7 @@
         "convertedBy": [
           "Erikku Blade"
         ],
-        "version": "3.2",
+        "version": 3.5,
         "url": "https://docs.google.com/document/d/1oHAnv77kX3EZ50_uCeLFhmi07LxvDOgzMiSjJU7mFYc/edit?usp=sharing",
         "targetSchema": "1.0.0"
       }
@@ -66,7 +66,7 @@
       "header": 1,
       "entries": [
         "{@i 3rd-level Tempest Feature}",
-        "You can call upon the might of a raging tempest that lies deep within your soul. Up to twice per round on your turn, you can add bonus lightning or thunder damage (you choose when you use this feature) to your monk weapons or unarmed strikes when you hit with them. This bonus equals your martial arts die."
+        "You can call upon the might of a raging tempest that lies deep within your soul. Once per round on your turn, you can add bonus lightning or thunder damage (you choose when you use this feature) to your monk weapons or unarmed strikes when you hit with them. This bonus equals your martial arts die."
       ]
     },
     {
@@ -173,35 +173,35 @@
               "type": "entries",
               "name": "Ire of the Storm",
               "entries": [
-                "You can draw from the energies around you to conjure a small storm, of which you channel the flow of your ki through in order to strike your foes with lightning bolts. You can spend 3 ki points to cast {@spell call lightning}."
+                "You can draw from the energies around you to conjure a small storm, of which you channel the flow of your ki through in order to strike your foes with lightning bolts. You can spend 4 ki points to cast {@spell call lightning}."
               ]
             },
             {
               "type": "entries",
               "name": "Artemis's Lightning",
               "entries": [
-                "You can channel raw ki into your ranged attacks, electrifying your shots. You can spend 3 ki points to cast {@spell lightning arrow}."
+                "You can channel raw ki into your ranged attacks, electrifying your shots. You can spend 4 ki points to cast {@spell lightning arrow}."
               ]
             },
             {
               "type": "entries",
               "name": "Chariot of the Elder Tempest",
               "entries": [
-                "You call forth a mighty source of power from within you, unleashing a mighty bolt of electricity being carried by an elder tempest. You can spend 3 ki points to cast {@spell lightning bolt}."
+                "You call forth a mighty source of power from within you, unleashing a mighty bolt of electricity being carried by an elder tempest. You can spend 4 ki points to cast {@spell lightning bolt}."
               ]
             },
             {
               "type": "entries",
               "name": "Thor's Leap",
               "entries": [
-                "You summon forth a mighty strength from within which allows you to burst through the tethers of the material plane, allowing you to make a thunderous step and appear in another position. You can spend 3 ki points to cast {@spell thunder step|XGE}."
+                "You summon forth a mighty strength from within which allows you to burst through the tethers of the material plane, allowing you to make a thunderous step and appear in another position. You can spend 4 ki points to cast {@spell thunder step|XGE}."
               ]
             },
             {
               "type": "entries",
               "name": "Ride the Lightning",
               "entries": [
-                "You call upon the power of the storm to increase your speed and leave a trail of lightning behind you. You can spend 3 ki to cast the {@spell flame stride|UA2021DraconicOptions} spell, but it deals lighting damage instead."
+                "You call upon the power of the storm to increase your speed and leave a trail of lightning behind you. You can spend 4 ki to cast the {@spell flame stride|UA2021DraconicOptions} spell, but it deals lighting damage instead."
               ]
             }
           ]
@@ -221,8 +221,8 @@
       "header": 2,
       "entries": [
         "{@i 11th-level Tempest Feature}",
-        "You can spend additional ki points to increase the level of a discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as lightning bolt does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 11th-level monk and use Chariot of the Elder Tempest to cast lightning bolt, you can spend 4 ki points to cast it as a 4th-level spell (the discipline's base cost of 3 ki points plus 1).",
-        "The maximum number of ki points (its base ki point cost plus any additional points) that you can spend on the spell is 6, unless a discipline specifies otherwise. You also gain access to learn the following disciplines:",
+        "You can spend additional ki points to increase the level of a discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as lightning bolt does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 11th-level monk and use Chariot of the Elder Tempest to cast lightning bolt, you can spend 5 ki points to cast it as a 4th-level spell (the discipline's base cost of 4 ki points plus 1).",
+        "The maximum number of ki points (its base ki point cost plus any additional points) that you can spend on the spell is 7, unless a discipline specifies otherwise. You also gain access to learn the following disciplines:",
         {
           "type": "options",
           "entries": [
@@ -237,35 +237,35 @@
               "type": "entries",
               "name": "Overwhelming Surge",
               "entries": [
-                "You can release outward a powerful force of electrifying power by letting loose the storm within you. You can spend 5 ki points to cast the destructive wave spell, but you replace the radiant damage with lightning instead."
+                "You can release outward a powerful force of electrifying power by letting loose the storm within you. You can spend 6 ki points to cast the destructive wave spell, but you replace the radiant damage with lightning instead."
               ]
             },
             {
               "type": "entries",
               "name": "Ballet of Storms",
               "entries": [
-                "You perform a variety of stances that allows you to move at lightning speeds. You can spend 5 ki points to cast the steel wind strike spell, but deals your choice of thunder or lightning damage instead of force."
+                "You perform a variety of stances that allows you to move at lightning speeds. You can spend 6 ki points to cast the steel wind strike spell, but deals your choice of thunder or lightning damage instead of force."
               ]
             },
             {
               "type": "entries",
               "name": "Fury of the Storms",
               "entries": [
-                "You let loose a wild surge of electricity that jumps from one target to the next. You can spend 6 ki points to cast the chain lightning spell."
+                "You let loose a wild surge of electricity that jumps from one target to the next. You can spend 7 ki points to cast the chain lightning spell."
               ]
             },
             {
               "type": "entries",
               "name": "Ritual of the Storm Lord",
               "entries": [
-                "You perform an ancient religious dance that unlocks hidden potential from within, allowing you to become one with the storms. You can spend 6 ki points to cast the Investiture of Wind spell, but the special action you use to create a cube of swirling wind deals your choice of thunder or lightning damage instead of bludgeoning, adopting a new appearance accordingly."
+                "You perform an ancient religious dance that unlocks hidden potential from within, allowing you to become one with the storms. You can spend 7 ki points to cast the Investiture of Wind spell, but the special action you use to create a cube of swirling wind deals your choice of thunder or lightning damage instead of bludgeoning, adopting a new appearance accordingly."
               ]
             },
             {
               "type": "entries",
               "name": "Revival Shock",
               "entries": [
-                "You rub your hands together to generate a large amount of electric energy that you can use in a pinch to resurrect a dead comrade. You can spend 6 ki points to cast the revivify spell, however in order for the spell to succeed you must make a DC 16 Wisdom (Medicine) ability check. On a failed check, the spell fails and you lose the ki points used to cast the spell. You can spend an additional ki points (to a maximum of 4) to reduce the DC by 1 for every ki point spent."
+                "You rub your hands together to generate a large amount of electric energy that you can use in a pinch to resurrect a dead comrade. You can spend 7 ki points to cast the revivify spell, however in order for the spell to succeed you must make a DC 16 Wisdom (Medicine) ability check. On a failed check, the spell fails and you lose the ki points used to cast the spell. You can spend an additional ki points (to a maximum of 4) to reduce the DC by 1 for every ki point spent."
               ]
             }
           ]
