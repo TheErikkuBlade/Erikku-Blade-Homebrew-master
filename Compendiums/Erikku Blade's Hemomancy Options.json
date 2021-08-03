@@ -3203,6 +3203,7 @@
     {
       "name": "Bloodsoaked Armor",
       "type": "GV",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
       "requires": [
         {
           "armor": true
@@ -3223,6 +3224,7 @@
     {
       "name": "Bloodsoaked Weapon",
       "type": "GV",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
       "requires": [
         {
           "weapon": true
