@@ -3209,7 +3209,7 @@
         }
       ],
       "inherits": {
-        "namePrefix": "Bloodsoaked",
+        "namePrefix": "Bloodsoaked ",
         "source": "ErikkuBladesHemomancyPlayerOptions",
         "tier": "major",
         "rarity": "rare",
@@ -3229,7 +3229,7 @@
         }
       ],
       "inherits": {
-        "namePrefix": "Bloodsoaked",
+        "namePrefix": "Bloodsoaked ",
         "source": "ErikkuBladesHemomancyPlayerOptions",
         "tier": "major",
         "rarity": "rare",
