@@ -1,0 +1,3178 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "ErikkuBladesHemomancyPlayerOptions",
+        "abbreviation": "EHMPO",
+        "full": "Erikku Blade's Hemomancy Player Options",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "color": "7A0E0E",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1593332840,
+    "dateLastModified": 1593332840
+  },
+  "monster": [
+    {
+      "name": "Desire Demon",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": null,
+      "size": "M",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon",
+          "shapechanger"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "28d8 + 112",
+        "average": 238
+      },
+      "speed": {
+        "walk": 40,
+        "fly": 80,
+        "canHover": false
+      },
+      "str": 21,
+      "dex": 19,
+      "con": 18,
+      "int": 15,
+      "wis": 16,
+      "cha": 22,
+      "save": {
+        "dex": "+10",
+        "con": "+10",
+        "cha": "+12",
+        "wis": "+9"
+      },
+      "skill": {
+        "deception": "+18",
+        "insight": "+15",
+        "perception": "+15",
+        "persuasion": "+18",
+        "stealth": "+16",
+        "arcana": "+8"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 25,
+      "resist": [
+        "cold",
+        "fire",
+        "lightning",
+        "poison",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Infernal",
+        "telepathy 120 ft."
+      ],
+      "cr": "20",
+      "spellcasting": [
+        {
+          "name": "Blood Magic Spellcasting",
+          "headerEntries": [
+            "The desire demon has innate blood magic, its spellcasting ability is Charisma (spell save {@dc 20}, +12 to hit with spells). The desire demon can cast the following spells without requiring material components:"
+          ],
+          "will": [
+            "{@spell burning hands}",
+            "{@spell charm person}",
+            "{@spell fire bolt}",
+            "{@spell hellish rebuke}",
+            "{@spell hex}",
+            "{@spell inflict wounds}",
+            "{@spell ray of enfeeblement}",
+            "{@spell ray of frost}",
+            "{@spell ray of sickness}",
+            "{@spell shield}",
+            "{@spell shocking grasp}",
+            "{@spell Tasha's hideous laughter}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell charm monster|XGE}",
+              "{@spell cone of cold}",
+              "{@spell crown of madness}",
+              "{@spell dominate person}",
+              "{@spell fear}",
+              "{@spell fireball}",
+              "{@spell hold person}",
+              "{@spell lightning bolt}",
+              "{@spell vampiric touch}",
+              "{@spell vile mark|ErikkuBladesHemomancyPlayerOptions}",
+              "{@spell wall of fire}"
+            ],
+            "1e": [
+              "{@spell chain lightning}",
+              "{@spell dominate monster}",
+              "{@spell fire shield}",
+              "{@spell fire storm}",
+              "{@spell hold monster}",
+              "{@spell Otto's irresistible dance}",
+              "{@spell psychic scream|XGE}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Telepathic Bond",
+          "entries": [
+            "The fiend ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
+          ]
+        },
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If the desire demon fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The desire demon has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claw (Fiend Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+          ]
+        },
+        {
+          "name": "Desirable Charm",
+          "entries": [
+            "One humanoid the fiend can see within 30 feet of it must succeed on a {@dc 20} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fiend's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours.",
+            "The fiend can have only three targets {@condition charmed} at a time. If it charms another past that limit, the effect on the previous target ends."
+          ]
+        },
+        {
+          "name": "Draining Kiss",
+          "entries": [
+            "The fiend kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 20} Constitution saving throw against this magic, taking 50 ({@damage 8d10 + 6}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+          ]
+        },
+        {
+          "name": "Etherealness",
+          "entries": [
+            "The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa."
+          ]
+        },
+        {
+          "name": "Possession {@recharge 5}",
+          "entries": [
+            "One humanoid that the fiend can see within 5 feet of it must succeed on a {@dc 20} Charisma saving throw or be possessed by the fiend; the fiend then disappears, and the target is {@condition incapacitated} and loses control of its body. The fiend now controls the body but doesn't deprive the target of awareness. The fiend can't be targeted by any attack, spell, or other effect,  and it retains its alignment, Intelligence, Wisdom, Charisma, Telepathic Bond, Desirable Charm, Draining Kiss, and its Innate Blood Magic. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+            "The possession lasts until the body drops to 0 hit points, the fiend ends it as a bonus action, or the fiend is forced out by an effect like the dispel evil and good spell. When the possession ends, the fiend reappears in an unoccupied space within 5 feet of the body. The target is immune to this fiend's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Hellish Rebuke",
+          "entries": [
+            "The desire demon can cast {@spell hellish rebuke} when it takes damage by a creature within range of the spell."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Move",
+          "entries": [
+            "The desire demon moves up to its speed without provoking opportunity attacks."
+          ]
+        },
+        {
+          "name": "Blood Magic (Costs 2 Actions)",
+          "entries": [
+            "The desire demon casts one of its at will blood magic spells with a casting time of one action or bonus action."
+          ]
+        },
+        {
+          "name": "Possession (Costs 3 Actions)",
+          "entries": [
+            "The desire demon uses its Possession feature, provided it is available."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "fluff": {
+        "entries": [
+          "Of all the threats from beyond the Veil, few are more insidious and deceptively deadly than the desire demon. Far more intelligent than the bestial hunger and rage demons, more ambitious than the demons of sloth, these spirits are among the most skilled at tempting mages into possession.",
+          "Desire demons use the yearnings of the victims—lust, wealth, power—to their advantage. Their abilities to affect the mind allow them to assume disguises and even alter the environment to their purposes. As a result, many who become their prey never realize it. While desire demons may resort to an outright mind control, they seem to take greater pleasure in more subtle deceit.",
+          "If overpowered, a desire demon will most likely attempt to bargain its way to freedom. These deals usually end with the demon gaining an upper hand, even when the mage believes otherwise."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://cdna.artstation.com/p/assets/images/images/009/320/956/large/yoon-seseon-empress-of-desire.jpg?1518324537"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/wfOGpvn.png",
+      "soundClip": {
+        "type": "external",
+        "url": "https://noads.5e.tools/audio/bestiary/succubus-incubus.mp3?v=1.132.3"
+      },
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance",
+        "Shapechanger"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "I",
+        "TP"
+      ],
+      "damageTags": [
+        "S",
+        "Y"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "incapacitated"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Morgana, The Blood Witch",
+      "isNamedCreature": true,
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "size": "M",
+      "type": "fiend",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 25,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "32d8 + 256",
+        "average": 512
+      },
+      "speed": {
+        "walk": 50,
+        "fly": {
+          "number": 120,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 20,
+      "dex": 20,
+      "con": 27,
+      "int": 22,
+      "wis": 24,
+      "cha": 29,
+      "save": {
+        "cha": "+17",
+        "wis": "+15",
+        "con": "+16",
+        "int": "+14"
+      },
+      "skill": {
+        "intimidation": "+25",
+        "perception": "+15",
+        "stealth": "+13",
+        "arcana": "+22",
+        "history": "+22",
+        "insight": "+15",
+        "investigation": "+14",
+        "medicine": "+15",
+        "nature": "+14",
+        "persuasion": "+17",
+        "deception": "+17",
+        "religion": "+22",
+        "acrobatics": "+13",
+        "performance": "+17"
+      },
+      "senses": [
+        "darkvision 120 ft.",
+        "truesight 120 ft."
+      ],
+      "passive": 25,
+      "resist": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "psychic",
+        "thunder"
+      ],
+      "immune": [
+        {
+          "immune": [
+            "necrotic",
+            "poison"
+          ]
+        },
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from non-magical attacks"
+        }
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "stunned"
+      ],
+      "languages": [
+        "Abyssal",
+        "Celestial",
+        "Common",
+        "Deep Speech",
+        "Draconic",
+        "Infernal",
+        "telepathy 120 ft."
+      ],
+      "cr": "27",
+      "spellcasting": [
+        {
+          "name": "Innate Blood Magic",
+          "headerEntries": [
+            "The witch's innate spellcasting ability is Charisma (spell save {@dc 25}, {@hit 17} to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell alter self}",
+            "{@spell arms of Hadar}",
+            "{@spell bane}",
+            "{@spell detect magic}",
+            "{@spell eldritch blast} (4 beams)",
+            "{@spell false life}",
+            "{@spell glyph of warding}",
+            "{@spell heart sunder|ErikkuBladesHemomancyPlayerOptions}",
+            "{@spell levitate} (self only)",
+            "{@spell plane shift}",
+            "{@spell shapechange}",
+            "{@spell shield}",
+            "{@spell telepathy}",
+            "{@spell teleport}",
+            "{@spell vile mark|ErikkuBladesHemomancyPlayerOptions}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell antimagic field}",
+              "{@spell antipathy/sympathy}",
+              "{@spell blade barrier}",
+              "{@spell divine word}",
+              "{@spell dominate monster}",
+              "{@spell feeblemind}",
+              "{@spell gate}",
+              "{@spell maddening darkness|XGE}",
+              "{@spell power word kill}",
+              "{@spell power word pain|XGE}",
+              "{@spell power word stun}",
+              "{@spell true polymorph}",
+              "{@spell weird}"
+            ],
+            "1e": [
+              "{@spell invulnerability|XGE}",
+              "{@spell wish}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Blood Witch Dance",
+          "entries": [
+            "The witch can use a bonus action to control the movement of one creature cursed by its hex spell that it can see within 30 feet of it. The creature must succeed on a {@dc 25} Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice."
+          ]
+        },
+        {
+          "name": "Devil's Sight",
+          "entries": [
+            "Magical darkness doesn't impede the witch's darkvision."
+          ]
+        },
+        {
+          "name": "Limited Magic Immunity",
+          "entries": [
+            "Morgana can't be affected or detected by spells of 3rd level or lower unless she wishes to be. She has advantage on saving throws against all other spells and magical effects."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (5/Day)",
+          "entries": [
+            "If Morgana fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Blood Frenzy",
+          "entries": [
+            "Morgana has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "Morgana regains 30 hit points at the start of her turn."
+          ]
+        },
+        {
+          "name": "Discorperation",
+          "entries": [
+            "When Morgana drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Abyss, and she is unable to take physical form for a time."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The witch makes four attacks: three with a weapon and one using one of her at will spells with a casting time of one action."
+          ]
+        },
+        {
+          "name": "Eldritch Blast (4 beams)",
+          "entries": [
+            "{@atk rs} {@hit 17} to hit, range 120/120 ft., one target. {@h}10 ({@damage 1d10 + 9}) force damage."
+          ]
+        },
+        {
+          "name": "Blood Witch Riteknife",
+          "entries": [
+            "{@atk mw,rw} {@hit 16} to hit, reach 5 ft. or range 20/40 ft., one target. {@h}10 ({@damage 1d4 + 8}) piercing damage in melee, or 10 ({@damage 1d4 + 8}) piercing damage at range, plus 10 ({@damage 4d4}) necrotic damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Teleport",
+          "entries": [
+            "Morgana teleports up to an unoccupied space within range of her fly speed."
+          ]
+        }
+      ],
+      "legendaryActions": 5,
+      "legendary": [
+        {
+          "name": "Blood Magic",
+          "entries": [
+            "Morgana casts one of her At will Innate Blood Magic spells."
+          ]
+        },
+        {
+          "name": "Teleport",
+          "entries": [
+            "Morgana teleports up to an unoccupied space within range of her fly speed."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Morgana was once a human who had a fascination with the supernatural and the unknown. She tried to study magic, but at the time the art of magic was not as common and as such, only those gifted could actually wield the magic. Morgana was not one of these special few.",
+          "Fortunately for her, there were other ways to obtain magic. Though, these practices were forbidden and had consequences beyond what you could possibly imagine. Morgana knew the risk, but cared not for it, as such, she began the forbidden rituals to summon a Demon from the Abyss.",
+          "A demon of desire, one of the many creations of Graz'zt, answered her demonic calling. It was at that moment Morgana knew just the kind of deal she needed to make to achieve her dream. However, Morgana was far more cunning than anyone could have guessed. The contract they formed was easily far more in favor for Morgana, and the consequences of said contract were near irrelevant to her.",
+          "When Morgana obtained her magical gift, she knew time was short, and sought to master it as quickly as she could. With many sleepless nights passing, she eventually grew more powerful than  even the demon who gave it to her. Once she was that powerful, only the demon lords could frighten her."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://pbs.twimg.com/media/DwCIce0UwAAh69-?format=jpg&name=4096x4096"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/ygbFh7e.png",
+      "traitTags": [
+        "Devil's Sight",
+        "Legendary Resistances",
+        "Regeneration"
+      ],
+      "senseTags": [
+        "SD",
+        "U"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "CE",
+        "DR",
+        "DS",
+        "I",
+        "TP"
+      ],
+      "damageTags": [
+        "N",
+        "O",
+        "P"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Blood Mage",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L",
+        "NX",
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "Blood Armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "13d8 + 39",
+        "average": 97
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 14,
+      "con": 16,
+      "int": 21,
+      "wis": 12,
+      "cha": 15,
+      "save": {
+        "int": "+9",
+        "wis": "+5"
+      },
+      "skill": {
+        "arcana": "+9",
+        "history": "+9",
+        "religion": "+9",
+        "stealth": "+6",
+        "intimidation": "+6",
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Infernal",
+        "and any one other language of its choice"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The mage is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The mage has the following wizard spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell chill touch}",
+                "{@spell mind sliver|TCE}",
+                "{@spell sapping sting|EGW}",
+                "{@spell sword burst|TCE}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell arms of Hadar}",
+                "{@spell bane}",
+                "{@spell detect magic}",
+                "{@spell shield}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell hold person}",
+                "{@spell vile mark|ErikkuBladesHemomancyPlayerOptions}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell animate dead}",
+                "{@spell life transference|XGE}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell banishment}",
+                "{@spell heart sunder|ErikkuBladesHemomancyPlayerOptions}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell cone of cold}",
+                "{@spell hold monster}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell disintegrate}",
+                "{@spell harm}"
+              ],
+              "slots": 1
+            }
+          },
+          "constant": [
+            "{@spell mage armor}"
+          ],
+          "ability": "int",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Fiendish Blessing",
+          "entries": [
+            "The AC of the blood mage includes its Charisma bonus."
+          ]
+        },
+        {
+          "name": "Devil's Sight",
+          "entries": [
+            "Magical darkness doesn't impede the blood mage's darkvision."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Blood Dagger",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, plus 7 ({@damage 2d6}) necrotic damage."
+          ]
+        }
+      ],
+      "variant": [
+        {
+          "type": "variant",
+          "name": "Familiars",
+          "entries": [
+            "Any spellcaster that can cast the {@spell find familiar} spell (such as an archmage or mage) is likely to have a familiar. The familiar can be one of the creatures described in the spell (see the Player's Handbook) or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit}."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Blood Mages often study powerful and unspeakable types of magic, performing rituals on their own bodies to improve their endurance and practicing spells far less ethical for standard mages. They focus a lot on destructive, necromantic, and enchantment based magic."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://noads.5e.tools/img/MM/Mage.png?v=1.133.1",
+      "soundClip": {
+        "type": "external",
+        "url": "https://noads.5e.tools/audio/bestiary/mage.mp3?v=1.133.1"
+      },
+      "traitTags": [
+        "Devil's Sight"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "I",
+        "X"
+      ],
+      "damageTags": [
+        "N",
+        "P"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true
+    },
+    {
+      "name": "Blood Demon",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "size": "L",
+      "type": "fiend",
+      "alignment": [
+        "L",
+        "NX",
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d10 + 40",
+        "average": 95
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 19,
+      "dex": 10,
+      "con": 18,
+      "int": 13,
+      "wis": 14,
+      "cha": 17,
+      "skill": {
+        "athletics": "+7",
+        "intimidation": "+6",
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        "cold",
+        "fire",
+        "lightning"
+      ],
+      "immune": [
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        {
+          "special": "Diseased"
+        }
+      ],
+      "languages": [
+        "Abyssal"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Blood Enhancement",
+          "entries": [
+            "The blood demon's weapon attacks add an additional 2d6 necrotic damage (included in attack). In addition, whenever the blood demon rolls an attack roll, ability check, or saving throw and it would fail, it can use a reaction to add {@dice 2d6} to the roll potentially turning the failure to a success. The blood demon then takes damage equal to what it rolled."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "The blood demon regains 5 hit points at the start of its turn if it has at least 1 hit point."
+          ]
+        },
+        {
+          "name": "Blood Frenzy",
+          "entries": [
+            "The blood demon has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+          ]
+        },
+        {
+          "name": "Aura of Blood Lust",
+          "entries": [
+            "When any other creature starts its turn within 30 feet of the blood demon, that creature must succeed on a {@dc 14} Wisdom saving throw, or it must immediately take the Attack action, making one melee attack against a random creature within reach. If no creatures are within reach, it makes a ranged attack against a random creature within range, throwing its weapon if necessary."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The blood demon has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The blood demon makes two attacks."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Blood Enhancement",
+          "entries": [
+            "Whenever the blood demon rolls an attack roll, ability check, or saving throw and it would fail, it can use a reaction to add {@dice 2d6} to the roll potentially turning the failure to a success. The blood demon then takes damage equal to what it rolled."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Blood Demons are the spawn of powerful fiendish creatures with magical prowess, often the Demon Princes of the Abyss. They have an unrivaled bloodlust and seeks only to kill and destroy. They can be offspring of demons, or a creature can be possessed by demons to become a blood demon themselves.",
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "name": "Demonic Nature",
+                    "type": "entries",
+                    "entries": [
+                      "Blood Demons are incapable of having natural born offspring. Those that wish to propagate must find other ways to do so, almost always involving magic. Blood Demons are practically immortal in terms of age. However, their lifespan is ultimately determined by the nature of the ritual performed to become a blood demon.",
+                      "Blood Demons inherit personality traits common to their fiendish heritage, so a blood demon made from Graz'zt, Demon Prince of Lustful Desires, would be very lustful as one would expect."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Blood Demon Template",
+            "entries": [
+              "A beast, humanoid, giant, or monstrosity can become a blood demon. When a creature becomes a blood demon, it retains all its statistics except as noted below.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Challenge",
+                    "entries": [
+                      "Use the guidelines in the Dungeon Master's Guide to recalculate the rating after you apply the template."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Senses",
+                    "entries": [
+                      "The blood demon gains {@sense darkvision} with a radius of 60 feet."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Creature Type",
+                    "entries": [
+                      "Its creature type is changed from its original to fiend."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Immunities and Resistances",
+                    "entries": [
+                      "The blood demon gains immunity to poison and necrotic damage and resistance to fire, cold, and lightning damage. It also gains immunity to being diseased and poisoned."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                      "The blood demon speaks Abyssal in addition to any other languages it knows."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Natural Armor",
+                    "entries": [
+                      "The blood demon's AC is equal to 13 + its Constitution modifier, unless its AC was already higher."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Magic Resistance",
+                    "entries": [
+                      "The blood demon has advantage on saving throws against spells and other magical effects."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "New Ability: Blood Enhancement",
+                    "entries": [
+                      "The blood demon's weapon attacks add an additional 2d6 necrotic damage. In addition, whenever the blood demon rolls an attack roll, ability check, or saving throw and it would fail, it can use a reaction to add {@dice 2d6} to the roll potentially turning the failure to a success. The blood demon then takes damage equal to what it rolled."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "New Ability: Blood Frenzy",
+                    "entries": [
+                      "The blood demon has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "New Ability: Aura of Blood Lust",
+                    "entries": [
+                      "When any other creature starts its turn within 30 feet of the blood demon, that creature must succeed on a Wisdom saving throw, or it must immediately take the Attack action, making one melee attack against a random creature within reach. If no creatures are within reach, it makes a ranged attack against a random creature within range, throwing its weapon if necessary. The DC equals 8 + proficiency bonus + Charisma modifier."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "New Ability: Regeneration",
+                    "entries": [
+                      "The blood demon regains hit points equal to its CR at the start of its turn if it has at least 1 hit point."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Player Characters as Blood Demons",
+            "entries": [
+              "A player character who becomes a blood demon may do so for many reasons. A desire for power, a means to an end, or maybe they were captured by other blood demons and transformed into one. For whatever reason a player character may consider becoming a blood demon, the following applies for any that become one:",
+              {
+                "type": "list",
+                "items": [
+                  "The character's alignment changes to be any evil alignment if it wasn't already.",
+                  "The character gains all the changes mentioned above in the Blood Demon Template.",
+                  "The GM has the option to take control over the player's character for any duration of time, however circumstances can lead to the player's character regaining their senses. In addition, the player rolls on the Indefinite Madness table and applies the random flaw to the character. This madness goes away only if the character is returned back to normal, which can only be done via a properly worded Wish."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/E1q7flO.png",
+      "traitTags": [
+        "Magic Resistance",
+        "Regeneration"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AB"
+      ],
+      "damageTags": [
+        "N",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Vengeance Spirit",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "summonedBySpell": "Summon Vengeful Spirit|ErikkuBladesHemomancyPlayerOptions",
+      "size": "M",
+      "type": "undead",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "special": "11 + the level of the spell"
+        }
+      ],
+      "hp": {
+        "special": "30 (Slain) or 20 (Cursed or Betrayed only) + 10 for each spell level above 3rd"
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "or 40 ft. (Slain only)"
+        }
+      },
+      "str": 12,
+      "dex": 16,
+      "con": 15,
+      "int": 4,
+      "wis": 10,
+      "cha": 9,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "necrotic",
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "poisoned"
+      ],
+      "languages": [
+        "understands the languages you speak"
+      ],
+      "trait": [
+        {
+          "name": "Rage of Vengeance (Slain Only)",
+          "entries": [
+            "The spirit adds {@damage 1d8} necrotic damage to its Vengeful Strikes and it has resistance to bludgeoning, piercing, and slashing damage."
+          ]
+        },
+        {
+          "name": "Blood Lusting Aura (Betrayed Only)",
+          "entries": [
+            "Any creature, other than you, that starts its turn within 5 feet of the spirit must succeed on a Wisdom saving throw against your spell save DC or attack a random creature within range of its attacks other than you or the spirit. It uses the weapon in its hands or an unarmed strike. It throws the weapon if necessary."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The spirit makes a number of attacks equal to half this spell's level (rounded down)."
+          ]
+        },
+        {
+          "name": "Vengeful Strike",
+          "entries": [
+            "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} necrotic damage, and the creature must succeed on a Constitution saving throw against your spell save DC or have disadvantage on attack rolls until the start of your next turn."
+          ]
+        },
+        {
+          "name": "Gaze of Despair (Betrayed Only)",
+          "entries": [
+            "The spirit chooses a creature it can see within 60 feet. That creature must make a Wisdom saving throw against your spell save DC or take {@damage 1d8 + 3 + summonSpellLevel} psychic damage and is {@condition frightened} until the start of your next turn."
+          ]
+        },
+        {
+          "name": "Soul Strike (Cursed Only)",
+          "entries": [
+            "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one creature. {@h}{@damage 1d6 + 3 + summonSpellLevel} force damage, and the creature must succeed on a Charisma saving throw against your spell save DC or be {@condition incapacitated} until the start of your next turn."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Curse of Vengeance (Cursed Only)",
+          "entries": [
+            "The spirit curses a creature it sees within 60 feet of it. While cursed, when it takes damage it takes an additional amount of necrotic damage equal to {@damage  summonSpellLevel}. A {@spell Remove Curse} can end this effect and the effect ends early if the creature is reduced to 0 hit points or dies. Only one creature can be cursed at a time from this spirit."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "N",
+        "O",
+        "P",
+        "S",
+        "Y"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "frightened",
+        "incapacitated"
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Blood Armor",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can magically create a set of armor made up of your own blood infused with magic. You can cast {@spell Mage Armor} at will. When you do so, roll a hemomancy die and take damage equal to what you roll."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Amorphous Transformation",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can magically morph yourself into a blob of blood which can pass through narrow spaces. As an action by spending a hemomancy die, you can assume your amorphous transformation, which lasts for 1 minute. While in this form, you have the amorphous trait, which allows you to pass through spaces as narrow as 1 inch.",
+        "You still retain the ability to use your other features, abilities, and weapons in this form - however any damage you deal, whether it be from a spell or weapon, will instead deal necrotic damage. You can use this Blood Talent once, regaining the ability to do so again after a long rest, or you can spend a hit die during a short rest to regain the use of this Blood Talent."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Blood Hex",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can place a magical enchantment on a creature using your blood magic. You can cast the {@spell Hex} spell once without requiring material components, regaining the ability to do so again when you finish a long rest. Alternatively, you can spend a hemomancy die to regain the use of this ability."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Blood Tendrils",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can magically conjure tendrils made of your own blood and quickly lash out at your enemies. You can cast {@spell Arms of Hadar} by spending a hemomancy die."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Slick Blood",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can conjure a puddle of blood underneath your enemies’ feet, causing them to slip and tumble. You can cast {@spell Grease} by spending a hemomancy die without requiring material components."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Prophetic Demise",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can attempt to incite your will onto fate and control the destiny of your foes. You can cast {@spell bane} by spending a hemomancy die."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Blood Infusion",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can magically enchant your weapons using your blood magic. You can cast Magic Weapon by spending two hemomancy dice."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Bleeding Ray of Pain",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can summon an arcane power which can sunder your foes. You can cast {@spell Ray of Enfeeblement} by spending two hemancy dice."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Masking Blood",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can manifest a masking layer of blood to hide your true self. You can spend a hemomancy die to cast {@spell Disguise Self}."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ]
+    },
+    {
+      "name": "Animate Blood Servant",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "Using your occultic magic, you can bring back the enemies you’ve slain. You can cast {@spell Animate Dead} without requiring material components by spending 3 hemomancy dice. You can use this talent once, regaining the ability to do so when you finish a long rest."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Rogue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spiteful Curse",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "What sort of blood magic user comes without their own fair share of curses? You can spend 3 hemomancy dice to cast {@spell Bestow Curse}."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Rogue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blood Rage",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can fill the mind of a nearby creature with hate and rage to send them off into a blood lust. You can cast {@spell Enemies Abound|XGE} by spending 3 hemomancy dice."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Rogue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vampiric Mist",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "By borrowing a few tricks from the mighty vampires, you can turn into a magical mist to make a tricky escape. You can cast {@spell Gaseous Form} without requiring material components by spending 3 hemomancy dice."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Rogue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vitality Transfer",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "Sometimes, you just feel like donating your kidneys or something I guess. You can spend 3 hemomancy dice to cast {@spell Life Transference|XGE}. When you do so, the amount of damage you took from your hemomancy dice is added to the healing of the spell."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Rogue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Touch of the Wretched",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "You can imbue yourself with the power of life sucking undead. You can spend 3 hemomancy dice to cast {@spell Vampiric Touch}. You can use this Blood Talent once, regaining the ability to do so when you finish a long rest."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Rogue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Veil of the Occult",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "entries": [
+        "Sometimes you need to stay hidden, at all costs, including by pesky divination magic. You can spend 4 hemomancy dice to cast {@spell Nondetection} without requiring material components. You can use this Blood Talent once, regaining the ability to do so when you finish a long rest."
+      ],
+      "featureType": [
+        "Blood Talent"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Rogue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Life Draining Blast",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "featureType": [
+        "EI"
+      ],
+      "prerequisite": [
+        {
+          "spell": [
+            "eldritch blast#c"
+          ]
+        },
+        {
+          "level": {
+            "level": 7,
+            "class": {
+              "name": "Warlock"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "When you hit at least one creature with {@spell eldritch blast} on your turn, you can gain a number of temporary hit points equal to one of the damage rolls. You can gain this benefit once a round."
+      ]
+    },
+    {
+      "name": "Improved Pact Vial",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "featureType": [
+        "EI"
+      ],
+      "prerequisite": [
+        {
+          "pact": "Vial"
+        }
+      ],
+      "entries": [
+        "The benefit you receive to either your spell attack or spell save DC now applies to both when you use the vial as an arcane focus.",
+        "In addition, you can choose one cantrip from the Warlock spell list and store it within the vial, allowing you to cast that cantrip whenever you use the vial as an arcane focus."
+      ]
+    },
+    {
+      "name": "Scorching Blood",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "featureType": [
+        "EI"
+      ],
+      "prerequisite": [
+        {
+          "pact": "Vial"
+        }
+      ],
+      "entries": [
+        "While you have your pact vial out, you can cast {@spell Hellish Rebuke|PHB} as a 3rd level spell without expending a spell slot. Once you do so, you cannot do so again until you finish a long rest."
+      ]
+    },
+    {
+      "name": "Chilling Blast",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "featureType": [
+        "EI"
+      ],
+      "prerequisite": [
+        {
+          "spell": [
+            "eldritch blast#c"
+          ]
+        },
+        {
+          "level": {
+            "level": 12,
+            "class": {
+              "name": "Warlock"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Once on each of your turns when you hit a creature with {@spell eldritch blast} on your turn, that creature cannot gain the benefits of healing until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Life Giver",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "featureType": [
+        "EI"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 15,
+            "class": {
+              "name": "Warlock"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You can cast {@spell Life Transference|XGE} without expending a spell slot a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+        "In addition, you can cast {@spell Raise Dead|PHB} once without requiring material components or spending a spell slot, regaining the ability to do so again when you finish a long rest. When you cast the spell in this way, you are reduced to one hit point and you gain one level of exhaustion."
+      ]
+    },
+    {
+      "name": "Pact of The Vial",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "isClassFeatureVariant": true,
+      "featureType": [
+        "PB"
+      ],
+      "entries": [
+        "Your patron grants you a small glass vial, droplets of your blood and the essence of your patron are mixed within it. This magical vial has many magical properties and serves like an Arcane Focus. You can use your action to summon the vial into an empty hand. The vial disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the vial (no action required), or if you die.",
+        "When you form this magical vial, choose either your spell attack or spell save DC. You gain a +1 bonus to whichever benefit you chose when you use the vial as an arcane focus. You can change this benefit by performing a 10 minute ritual during a long rest and the new benefit takes effect once you complete the long rest.",
+        "In addition, choose one of the warlock spells that you know that is of a level no higher than half of your proficiency bonus (rounded up). You can store that spell into your Vial and cast it at its lowest level without expending a spell slot or requiring material components. The spell you store in the vial cannot require any costly materials. Every time you cast the spell, you take 1d8 points of damage per level of the spell as you spend your own vitality to cast the spell. When you cast the spell, the vial momentarily fills with your own blood and empties again after the spell is cast, leaving only the droplets of blood from when the blood pact was made.",
+        "You can cast the spell within the vial a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ]
+    }
+  ],
+  "spell": [
+    {
+      "name": "Heart Sunder",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 4,
+      "school": "N",
+      "subschools": [
+        "hemomancy"
+      ],
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a drop of blood from a humanoid"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You fill a creature you choose within range that you can see with necrotic energy. You cause their heart to beat rapidly and then stop momentarily. The creature makes a constitution saving throw taking {@damage 8d6} necrotic damage and is {@condition stunned} until the start of your next turn on a failed save, or half as much and is not {@condition stunned} on a success. Undead and Constructs automatically pass the saving throw of this spell."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 and the duration increases by 1 additional round for each slot level above 4th."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "necrotic"
+      ],
+      "conditionInflict": [
+        "stunned"
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vile Mark",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 2,
+      "school": "E",
+      "subschools": [
+        "hemomancy"
+      ],
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a drop of humanoid blood"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You bestow a vile curse onto a creature you can see within range, making them more susceptible to damage for the duration of the spell. The affected creature is {@condition poisoned} and once every turn, whenever an affected creature takes damage, they take an additional {@damage 2d4} necrotic damage to one of the damage rolls of the source. A creature still suffers the damage even if they are immune to being {@condition poisoned}.",
+        "An affected creature can make a Constitution saving throw at the end of each of their turns, ending the spell on a success. The spell can also be ended early with a {@spell Remove Curse}."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d4 for every two slot levels above 2nd."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "necrotic"
+      ],
+      "conditionInflict": [
+        "poisoned"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guise of The Blood Witch",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 6,
+      "school": "T",
+      "subschools": [
+        "hemomancy"
+      ],
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a vile of humanoid blood engraved with arcane sigils worth at least 500 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Uttering an incantation, you draw on the magic of the blood witch to transform yourself. You gain the following benefits until the spell ends:",
+        {
+          "type": "list",
+          "items": [
+            "You are immune to being {@condition charmed} and have advantage on saving throws against enchantment spells.",
+            "Whenever you take damage from a spell or effect originating from yourself, you can choose to not take damage once on each of your turns.",
+            "You have a magical flying speed of 30 feet and you can hover.",
+            "You gain 30 temporary hit points. If any of these remain when the spell ends, they are lost.",
+            "You can use a bonus action on each of your turns to turn your gaze to a creature you can see within 60 feet. That creature makes a wisdom saving throw or takes {@damage 4d6} necrotic damage and is {@condition frightened} until the spell ends. They take half damage and are not {@condition frightened} on a successful save."
+          ]
+        }
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "miscTags": [
+        "MAC"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Summon Vengeful Spirit",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "humanoid blood inside a precious diamond worth at least 600 gp",
+          "cost": 60000
+        }
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You call forth a vengeful spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Vengeance Spirit stat block. When you cast the spell, choose Slain, Cursed, or Betrayed. The creature resembles a vengeful spirit of the chosen type, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+        "The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+          ]
+        }
+      ],
+      "miscTags": [
+        "SGT",
+        "SMN"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ]
+      }
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Blood Warrior",
+      "subclassFeatures": [
+        "Blood Knight|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|3",
+        "Bonus Proficiencies|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|3",
+        "Hemomancy|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|3",
+        "Blood Forge|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|3",
+        "Blood Bath|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|7",
+        "Blood Reserves|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|10",
+        "Hemomatic Bulwark|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|15",
+        "Hemomatic Mastery|Fighter||Blood Knight|ErikkuBladesHemomancyPlayerOptions|18"
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "shortName": "Blood Knight",
+      "className": "Fighter",
+      "classSource": "PHB"
+    },
+    {
+      "name": "Bleeding Knife",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "shortName": "Bleeding Knife",
+      "subclassFeatures": [
+        "Bleeding Knife|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|3|ErikkuBladesHemomancyPlayerOptions",
+        "Hemomatic Takedown|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|3|ErikkuBladesHemomancyPlayerOptions",
+        "Hemomancy|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|3|ErikkuBladesHemomancyPlayerOptions",
+        "Occultic Studies|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|3|ErikkuBladesHemomancyPlayerOptions",
+        "Blood Talents|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|9|ErikkuBladesHemomancyPlayerOptions",
+        "Hemomatic Expert|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|13|ErikkuBladesHemomancyPlayerOptions",
+        "Additional Blood Talents|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|13|ErikkuBladesHemomancyPlayerOptions",
+        "Blood Assassin|Rogue||Bleeding Knife|ErikkuBladesHemomancyPlayerOptions|17|ErikkuBladesHemomancyPlayerOptions"
+      ]
+    },
+    {
+      "name": "School of Blood Magic",
+      "subclassFeatures": [
+        "School of Blood Magic|Wizard||School of Blood Magic|ErikkuBladesHemomancyPlayerOptions|2",
+        "Bonus Proficiency|Wizard||School of Blood Magic|ErikkuBladesHemomancyPlayerOptions|2",
+        "Hemomancy|Wizard||School of Blood Magic|ErikkuBladesHemomancyPlayerOptions|2",
+        "Dark Devotion|Wizard||School of Blood Magic|ErikkuBladesHemomancyPlayerOptions|6",
+        "Blood Savant|Wizard||School of Blood Magic|ErikkuBladesHemomancyPlayerOptions|6",
+        "Sigils of the Blood Arcane|Wizard||School of Blood Magic|ErikkuBladesHemomancyPlayerOptions|10",
+        "Blood Magic Mastery|Wizard||School of Blood Magic|ErikkuBladesHemomancyPlayerOptions|14"
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "shortName": "School of Blood Magic",
+      "className": "Wizard",
+      "classSource": "PHB"
+    },
+    {
+      "name": "Sanguine Sorcererous Origin",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "shortName": "Sanguine",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "inflict wounds",
+              "hex"
+            ],
+            "3": [
+              "ray of enfeeblement",
+              "vile mark|ErikkuBladesHemomancyPlayerOptions"
+            ],
+            "5": [
+              "life transference|XGE",
+              "vampiric touch"
+            ],
+            "7": [
+              "confusion",
+              "heart sunder|ErikkuBladesHemomancyPlayerOptions"
+            ],
+            "9": [
+              "enervation|XGE",
+              "negative energy flood|XGE"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "inflict wounds",
+        "hex",
+        {
+          "name": "vile mark",
+          "source": "ErikkuBladesHemomancyPlayerOptions"
+        },
+        "ray of enfeeblement",
+        {
+          "name": "life transference",
+          "source": "XGE"
+        },
+        "vampiric touch",
+        {
+          "name": "heart sunder",
+          "source": "ErikkuBladesHemomancyPlayerOptions"
+        }
+      ],
+      "subclassFeatures": [
+        "Sanguine Sorcery|Sorcerer|PHB|Sanguine|ErikkuBladesHemomancyPlayerOptions|1",
+        "Blood Magic|Sorcerer|PHB|Sanguine|ErikkuBladesHemomancyPlayerOptions|1",
+        "Hemomancy|Sorcerer|PHB|Sanguine|ErikkuBladesHemomancyPlayerOptions|1",
+        "Blood Bolstering Magic|Sorcerer|PHB|Sanguine|ErikkuBladesHemomancyPlayerOptions|6",
+        "Sanguine Resistance|Sorcerer|PHB|Sanguine|ErikkuBladesHemomancyPlayerOptions|6",
+        "Sanguine Magic|Sorcerer|PHB|Sanguine|ErikkuBladesHemomancyPlayerOptions|14",
+        "Sanguine Transformation|Sorcerer|PHB|Sanguine|ErikkuBladesHemomancyPlayerOptions|18"
+      ]
+    },
+    {
+      "name": "Otherworldly Patron The Blood Witch",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "shortName": "The Blood Witch",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSpells": [
+        "inflict wounds",
+        "hex",
+        {
+          "name": "vile mark",
+          "source": "ErikkuBladesHemomancyPlayerOptions"
+        },
+        "ray of enfeeblement",
+        {
+          "name": "life transference",
+          "source": "XGE"
+        },
+        "vampiric touch",
+        {
+          "name": "heart sunder",
+          "source": "ErikkuBladesHemomancyPlayerOptions"
+        }
+      ],
+      "subclassFeatures": [
+        "The Blood Witch|Warlock|PHB|The Blood Witch|ErikkuBladesHemomancyPlayerOptions|1",
+        "Expanded Spell List|Warlock|PHB|The Blood Witch|ErikkuBladesHemomancyPlayerOptions|1",
+        "Eyes of The Blood Witch|Warlock|PHB|The Blood Witch|ErikkuBladesHemomancyPlayerOptions|1",
+        "Hemomancy|Warlock|PHB|The Blood Witch|ErikkuBladesHemomancyPlayerOptions|1",
+        "Improved Witch's Sight|Warlock|PHB|The Blood Witch|ErikkuBladesHemomancyPlayerOptions|6",
+        "Sacrificial Spells|Warlock|PHB|The Blood Witch|ErikkuBladesHemomancyPlayerOptions|10",
+        "Emissary of The Blood Witch|Warlock|PHB|The Blood Witch|ErikkuBladesHemomancyPlayerOptions|14"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Blood Knight",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "entries": [
+        "Choosing a darker path, you've stripped your morality and humanity to enhance your martial prowess. Harnessing blood magic and enhancing your fighting style further with these dark arts."
+      ]
+    },
+    {
+      "name": "Bonus Proficiencies",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "entries": [
+        "When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Arcana, Insight, Medicine, or Religion."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Hemomancy",
+      "entries": [
+        "{@i 3rd-level Blood Knight feature}",
+        "Studying occult-based magic, you’ve learned the very nature of blood magic and can use it yourself to a limited degree. Your blood magic will be represented by hemomancy dice. These dice are d4s and you have a number of hemomancy dice equal to twice your proficiency bonus. ",
+        "You use these dice to fuel your blood magic abilities, and you regain all of your hemomancy dice after a long rest. You cannot gain more hemomancy dice than you can have at your current level in this way. If a hemomancy feature requires a creature to make a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+        "When you use a Hemomancy die, regardless if it is spent or not, you roll the die and take damage equal to what you roll. Your hemomancy dice grows stronger with you as you gain levels in this class, becoming a d6 at 7th level, a d8 at 10th level, a d10 at 15th level, and a d12 at 18th level.",
+        "You can use your hemomancy dice in the following ways:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood-Boosted Accuracy",
+              "entries": [
+                "Whenever you would miss with a weapon attack, you can use a hemomancy die and add a bonus to the roll equal to what you rolled, potentially turning the attack into a hit. If it hits, you deal a number of necrotic damage equal to what you rolled to that creature. You spend the hemomancy die only if the attack hits."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Bursting Strike",
+              "entries": [
+                "Whenever you deal damage with a weapon, you can expend a hemomancy die and roll it, adding a number of necrotic damage equal to the number rolled and then that creature makes a Constitution saving throw. On a failed save, the creature has disadvantage on attack rolls until the end of your next turn."
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Blood Forge",
+      "entries": [
+        "{@i 3rd-level Blood Knight feature}",
+        "You have the innate ability to morph your blood into volatile weapons and ammunition. As a bonus action, you can create either a blood weapon or blood ammunition. You can use this feature once per long rest, or you can spend a hemomancy die to use it again. The created weapon or pieces of ammunition lasts for 1 hour, or a number of hours equal to the damage you took from the hemomancy die.",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood Weapon",
+              "entries": [
+                "You conjure a red glass-like magical melee weapon with the finesse and thrown properties. When you throw it, it has a range of 60 feet and no long range. When thrown, it magically reappears in your hand after it hits or misses a target. It deals necrotic damage on hit equal to your hemomancy die."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Ammunition",
+              "entries": [
+                "You conjure 10 pieces of red glass-like ammunition. It can take any form of ammunition, so long as it can be used by a ranged weapon. Using these pieces of ammunition changes the damage type of your ranged weapon to necrotic and you can choose to replace the damage die with your hemomancy die."
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Blood Bath",
+      "entries": [
+        "{@i 7th-level Blood Knight feature}",
+        "You can push your body to its absolute limit to unleash a dark power from within using a combination of the power of your will and your rage. You can spend a hemomancy die to enter a blood bath. As a bonus action, you magically gain the following benefits, which last for 1 minute:",
+        {
+          "type": "list",
+          "items": [
+            "Whenever you deal damage using a weapon, you can deal an additional amount of damage equal to your proficiency bonus. The damage dealt is of the weapon’s damage type.",
+            "You can forgo one of your extra attacks to gain advantage on all of your weapon attacks for the rest of this turn.",
+            "Whenever you take damage, except from your hemomancy dice, once per round you can reduce that damage by half using your reaction.",
+            "As a bonus action, and part of the bonus action used to enter your blood bath, you can make one weapon attack using a blood weapon."
+          ]
+        },
+        "During your Blood Bath, each time you hit with a weapon attack you lose 1 hit point. Your blood bath ends early if you are reduced to 0 hit points, incapacitated, or die. You can use your blood bath once, regaining the ability to use it again when you complete a short or long rest."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 7,
+      "header": 1
+    },
+    {
+      "name": "Blood Reserves",
+      "entries": [
+        "{@i 10th-level Blood Knight feature}",
+        "Whenever you use your Second Wind feature while your Blood Bath is active, you can add an additional amount of healing equal to your hemomancy die as you draw upon even greater reserves of power from your blood magic. This expends a Hemomancy Die but does not deal damage to yourself for using it.",
+        "In addition, as a bonus action you can deal damage to yourself equal to your hemomancy die and regain a spent hemomancy die. You can do so once, regaining the ability to do so when you finish a short or long rest."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 10,
+      "header": 2
+    },
+    {
+      "name": "Hemomatic Bulwark",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "{@i 15th-level Blood Knight feature}",
+        "The following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood Barrier",
+              "entries": [
+                "As a reaction whenever you would be hit by an attack, you can spend a hemomancy die and add the number rolled to your AC until the start of your next turn, potentially turning the attack into a miss."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood-Boosted Ability",
+              "entries": [
+                "Whenever you make an ability check or saving throw that uses Strength, Dexterity, or Constitution, you may use a hemomancy die and add the number rolled to the d20, provided you are not incapacitated. You spend the hemomancy die only if the check or save was successful."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hemomatic Mastery",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Blood Knight",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "{@i 18th-level Blood Knight feature}",
+        "You regain all of your spent Hemomancy Dice whenever you finish a short or long rest. In addition, the following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood Curse",
+              "entries": [
+                "As an action, you can spend a hemomancy die to magically curse a creature within 60 feet of you that you can see. That creature becomes overwhelmed and cursed by your blood magic for 1 minute. That creature becomes vulnerable to necrotic damage and gains no benefits from having resistance to necrotic damage. A creature makes a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success. A creature is immune to this effect if it is a plant, undead, or construct, or if it is immune to necrotic damage. You can only have one creature affected by your blood curse at a time. A remove curse can also remove these effects."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Bloody End",
+              "entries": [
+                "When you reduce a creature to 0 hit points, as a reaction you can absorb part of its life force into your own body to fuel your vitality. You can spend a hemomancy die and roll it, gaining a number of temporary hit points equal to what you rolled plus your Constitution modifier. You do not take damage when you spend a hemomancy die in this way."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanguine Sorcery",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Sanguine",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 1,
+      "entries": [
+        "Blood magic is often used by worshipers of evil gods, demons, or arch devils. Rarely though, some are born to be a blood mage through demonic or devilish origins. Tieflings are strong candidates for becoming blood mages, but anyone of any racial origin has the potential for it. A blood mage is often seen as a sign of some powerful demon or devil seeping into the material plane and killing a blood mage is often associated with keeping said demon or devil in their respective planes. As such, natural born blood mages are hunted and killed."
+      ]
+    },
+    {
+      "name": "Blood Magic",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "Sanguine",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "{@i 1st-level Sanguine feature}",
+        "Your magic comes from the demonic abyss, the infernal nine hells, or even from powerful witches. You learn additional spells when you reach certain levels in this class, as shown on the Blood Magic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+        "Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an {@filter enchantment or necromancy spell from the sorcerer, warlock, or wizard spell list|spells|class=sorcerer;warlock;wizard|school=E,N|level=1;2;3;4;5} or a spell with the hemomancy subschool can be learned regardless of the class or school of magic.",
+        {
+          "type": "table",
+          "caption": "Blood Magic Spells",
+          "colLabels": [
+            "Sorcerer Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Inflict Wounds|PHB}, {@spell Hex|PHB}"
+            ],
+            [
+              "3rd",
+              "{@spell Ray of Enfeeblement|PHB}, {@spell Vile Mark|ErikkuBladesHemomancyPlayerOptions}"
+            ],
+            [
+              "5th",
+              "{@spell Life Transference|XGE}, {@spell Vampiric Touch|PHB}"
+            ],
+            [
+              "7th",
+              "{@spell Confusion|PHB}, {@spell Heart Sunder|ErikkuBladesHemomancyPlayerOptions}"
+            ],
+            [
+              "9th",
+              "{@spell Enervation|XGE}, {@spell Negative Energy Flood|XGE}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hemomancy",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "Sanguine",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "{@i 1st-level Sanguine feature}",
+        "Studying occult-based magic, you’ve learned the very nature of blood magic and can use it yourself to a limited degree. Your blood magic will be represented by hemomancy dice. These dice are d4s and you have a number of hemomancy dice equal to twice your proficiency bonus. ",
+        "You use these dice to fuel your blood magic abilities, and you regain all of your hemomancy dice after a long rest. You cannot gain more hemomancy dice than you can have at your current level in this way. If a hemomancy feature requires a creature to make a saving throw, the DC equals your Spell Save DC.",
+        "When you use a Hemomancy die, regardless if it is spent or not, you roll the die and take damage equal to what you roll. Your hemomancy dice grows stronger with you as you gain levels in this class, becoming a d6 at 5th level, a d8 at 9th level, a d10 at 13th level, and a d12 at 17th level.",
+        "You can use your hemomancy dice in the following ways:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood-Homing Spell",
+              "entries": [
+                "When you make a spell attack you can use a hemomancy die and add the number rolled to the attack roll. If it hits, you deal an additional amount of necrotic damage equal to the number rolled. You spend the hemomancy die only if you hit."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood-Bursting Magic",
+              "entries": [
+                "When you cast a spell of 1st level or higher, you can spend a hemomancy die to release outward a burst of necromantic energy. Each creature of your choice within 10 feet of you takes necrotic damage equal to the number rolled on the hemomancy die plus your proficiency bonus."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Bolstering Magic",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "Sanguine",
+      "level": 6,
+      "header": 1,
+      "entries": [
+        "{@i 6th-level Sanguine feature}",
+        "Your innate blood magic allows you to manipulate your spells more efficiently. When you use a metamagic option that would ordinarily spend sorcery points, you can choose to spend hemomancy dice for every sorcery point that would have been used. You still roll the hemomancy dice and take damage equal to what you roll as normal.",
+        "Also, you can use a bonus action to spend a sorcery point to regain a spent hemomancy die. You can use this bonus action a number times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Sanguine Resistance",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "Sanguine",
+      "level": 6,
+      "header": 1,
+      "entries": [
+        "{@i 6th-level Sanguine feature}",
+        "You have resistance to poison and necrotic damage and you have advantage on saving throws made to resist being poisoned or diseased."
+      ]
+    },
+    {
+      "name": "Sanguine Magic",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "Sanguine",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Sanguine feature}",
+        "During short moments of respite you can regain some of your lost sorcerous power. When you finish a short rest, you can spend a hit die to regain sorcery points equal to the number rolled. You can only spend a hit die in this way once, regaining the ability to do so again when you complete a long rest.",
+        "In addition, you the following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Sanguine Spell",
+              "entries": [
+                "Your blood magic can be used to empower your magic further. When you make an ability check for a spell you cast, you can roll a hemomancy die and add the number rolled to the d20. You spend the hemomancy die only if the check is successful."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Concentrate",
+              "entries": [
+                "When your body fails your magic, you can draw on power to endure further. When you would drop concentration on a spell, you can spend a hemomancy die to maintain that concentration. The damage you take from this ability does not break concentration on said spell."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanguine Transformation",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "Sanguine",
+      "level": 18,
+      "header": 1,
+      "entries": [
+        "{@i 18th-level Sanguine feature}",
+        "Your mastery over blood magic has further changed your body permanently, granting you immunity to necrotic damage and immunity to being diseased.",
+        "In addition, you can undergo a more powerful transformation which furthers your mastery over said magic. You learn the spell {@spell Guise of the Blood Witch|ErikkuBladesHemomancyPlayerOptions} and it counts as a sorcerer spell for you but it doesn't count against the number of sorcerer spells you know. You can cast the spell without requiring material components and you can cast it without expending a spell slot by spending hemomancy dice instead. You can cast the spell in this way once, regaining the ability to do so again when you finish a long rest."
+      ]
+    },
+    {
+      "name": "School of Blood Magic",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": null,
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "School of Blood Magic",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 2,
+      "entries": [
+        "Shrouded by curiosity and insidious methods, you have sacrificed a portion of your mortality to gain greater arcane power. You’ll do anything to get an edge over your opponents, even at the cost of your own strength."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Bonus Proficiency",
+      "entries": [
+        "{@i 2nd-level Blood Magic feature}",
+        "You gain proficiency in either intimidation or religion."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": null,
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "School of Blood Magic",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 2,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Hemomancy",
+      "entries": [
+        "{@i 2nd-level Blood Magic feature}",
+        "Studying occult-based magic, you’ve learned the very nature of blood magic and can use it yourself to a limited degree. Your blood magic will be represented by hemomancy dice. These dice are d4s and you have a number of hemomancy dice equal to twice your proficiency bonus. ",
+        "You use these dice to fuel your blood magic abilities, and you regain all of your hemomancy dice after a long rest. You cannot gain more hemomancy dice than you can have at your current level in this way. If a hemomancy feature requires a creature to make a saving throw, the DC equals your Spell Save DC.",
+        "When you use a Hemomancy die, regardless if it is spent or not, you roll the die and take damage equal to what you roll. Your hemomancy dice grows stronger with you as you gain levels in this class, becoming a d6 at 6th level, a d8 at 9th level, a d10 at 14th level, and a d12 at 17th level.",
+        "You can use your hemomancy dice in the following ways:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blood Drenched Mind",
+              "entries": [
+                "When you make an ability check, attack roll, or saving throw that uses intelligence, you can use a hemomancy die and add the number rolled to the check. You spend the hemomancy die only if the check is successful."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Soaked Spell",
+              "entries": [
+                "When you cast a spell of 1st level or higher that deals damage, you can spend a hemomancy die and add the number rolled to one of the damage rolls of the spell."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Focus",
+              "entries": [
+                "As a bonus action, you can use a hemomancy die to empower an arcane focus or a component pouch for 1 hour. When you do, you can treat that arcane focus for the component cost of spells with costly components, up to a maximum component cost of 50 gp x the number rolled on the hemomancy die. If you use it for a spell that consumes the material component, the empowerment ends early. The first time you use this ability before you finish a long rest you do not spend the hemomancy die, every time after the first until you complete a long rest you spend it."
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "School of Blood Magic",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 2,
+      "header": 2
+    },
+    {
+      "name": "Dark Devotion",
+      "entries": [
+        "{@i 6th-level Blood Magic feature}",
+        "Your devotion to the dark arts of blood magic gives you a will stronger than most. You have advantage on saving throws against being charmed or frightened."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": null,
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "School of Blood Magic",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 6,
+      "header": 2
+    },
+    {
+      "name": "Blood Savant",
+      "entries": [
+        "{@i 6th-level Blood Magic feature}",
+        "As a bonus action you can spend a spell slot of any level to regain a number of spent hemomancy dice equal to the slot’s level. You cannot gain more hemomancy dice than the maximum you can have."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": null,
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "School of Blood Magic",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 6,
+      "header": 2
+    },
+    {
+      "name": "Sigils of the Blood Arcane",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": null,
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "School of Blood Magic",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "{@i 10th-level Blood Magic feature}",
+        "You’ve discovered an arcane sigil that allows you to learn new blood magic spells. Choose two spells from the cleric, warlock, or wizard classes. A spell you choose must be of a level you can cast, as shown on the Wizard table, or a cantrip. Each spell is represented by an arcane sigil, which appears in your spell book. These spells are always prepared and count as wizard spells for you. You choose one additional spell at 14th level, and one more at 17th level.",
+        "Whenever you gain a level in this class, you can replace one of those spells with another one from the same listed spell lists."
+      ]
+    },
+    {
+      "name": "Blood Magic Mastery",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "School of Blood Magic",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Blood Magic feature}",
+        "You can cast the spells chosen from your Sigils of the Blood Arcane feature with expending a spell slot by spending a number a hemomancy dice equal to the spell’s level. When you cast one of these spells in this way, you must cast it at its lowest level and you cannot cast that spell in this way again until you finish a long rest.",
+        "In addition, the following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Bleeding Spell",
+              "entries": [
+                "Whenever you deal damage with a spell, you can use a hemomancy die (no action required) and force that creature to make a constitution saving throw. On a failed save, for a number of rounds equal to the number rolled on the hemomancy die they take damage at the start of each of their turns equal to one roll of your hemomancy die. Rolling the hemomancy die in that way does not deal damage to yourself. The type of damage they take is the damage type of the spell. On a successful save, they do not take damage at the start of their turns. You spend the hemomancy die only if they failed their save."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Invocation",
+              "entries": [
+                "When you begin casting a spell, you can replace one or more of the components required for the spell by spending a hemomancy die for each component replaced. If you replace a material component for the spell, the material must not require to be consumed and must have a maximum cost of 500 gp, otherwise it cannot be replaced with a hemomancy die."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bleeding Knife",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "entries": [
+        "Trained in the most deadly forms of magic, blood magic. Though powerful, it is a double edged sword as you inflict yourself a great sacrifice to perform such deadly arts. Rogues of this roguish archetype are trained in the more graceful abilities of blood magic, allowing them to improve on their already insane ability of rapid takedowns."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Hemomancy",
+      "entries": [
+        "{@i 3rd-level Bleeding Knife feature}",
+        "Studying occult-based magic, you’ve learned the very nature of blood magic and can use it yourself to a limited degree. Your blood magic will be represented by hemomancy dice. These dice are d4s and you have a number of hemomancy dice equal to twice your proficiency bonus.",
+        "You use these dice to fuel your blood magic abilities, and you regain all of your hemomancy dice after a long rest. You cannot gain more hemomancy dice than you can have at your current level in this way. If a hemomancy feature requires a creature to make a saving throw, the DC equals 8 + your proficiency bonus + your Intelligence modifier.",
+        "When you use a Hemomancy die, regardless if it is spent or not, you roll the die and take damage equal to what you roll. Your hemomancy dice grows stronger with you as you gain levels in this class, becoming a d6 at 7th level, a d8 at 10th level, a d10 at 15th level, and a d12 at 18th level. ",
+        "You can use your hemomancy dice in the following ways:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Bleeding Edge",
+              "entries": [
+                "You coat your weapons in your own blood, enhancing its deadly capabilities. When you hit a creature with a finesse or ranged weapon and gain the benefits of your sneak attack feature, you use a hemomancy die and force that creature to make a constitution saving throw. On a failed save, roll your hemomancy die and for that many rounds that creature is poisoned. You spend the hemomancy die only if the creature fails the saving throw."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood-Boosted Adrenaline",
+              "entries": [
+                "When you take the dash action, you can spend and roll a hemomancy die to move an additional number of feet equal to 5 times the number rolled as part of that dash action. Creatures you move within 5 feet of for the first time when you use this feature must make a Dexterity saving throw or take necrotic damage equal to what you rolled on a failed save, or half as much on a success."
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Hemomatic Takedown",
+      "entries": [
+        "{@i 3rd-level Bleeding Knife feature}",
+        "Using the power of your blood magic, you can magically change the damage type of your sneak attack to necrotic, this is known as a Hemomatic Takedown."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Occultic Studies",
+      "entries": [
+        "{@i 3rd-level Bleeding Knife feature}",
+        "You gain proficiency in your choice of Arcana or Religion. You also gain proficiency with a Poisoner’s Kit. Your proficiency bonus is doubled for any ability check made using this tool."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 3,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Blood Talents",
+      "entries": [
+        "{@i 9th-level Bleeding Knife feature}",
+        "Your occultic studies grants you various magical abilities, of which you can use at the cost of your own vitality. These blood talents can have a wide range of abilities, like casting spells for instance. You choose two Blood Talents to learn. If a Blood Talent casts a spell, you use intelligence for its spellcasting ability and you can only cast that spell at its lowest level unless otherwise specified. You learn an additional Blood Talent at 13th, 17th, and 20th levels.",
+        {
+          "type": "options",
+          "count": 2,
+          "entries": [
+            {
+              "name": "Blood Armor",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can magically create a set of armor made up of your own blood infused with magic. You can cast {@spell Mage Armor} at will. When you do so, roll a hemomancy die and take damage equal to what you roll."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Amorphous Transformation",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can magically morph yourself into a blob of blood which can pass through narrow spaces. As an action by spending a hemomancy die, you can assume your amorphous transformation, which lasts for 1 minute. While in this form, you have the amorphous trait, which allows you to pass through spaces as narrow as 1 inch.",
+                "You still retain the ability to use your other features, abilities, and weapons in this form - however any damage you deal, whether it be from a spell or weapon, will instead deal necrotic damage. You can use this Blood Talent once, regaining the ability to do so again after a long rest, or you can spend a hit die during a short rest to regain the use of this Blood Talent."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Blood Hex",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can place a magical enchantment on a creature using your blood magic. You can cast the {@spell Hex} spell once without requiring material components, regaining the ability to do so again when you finish a long rest. Alternatively, you can spend a hemomancy die to regain the use of this ability."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Blood Tendrils",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can magically conjure tendrils made of your own blood and quickly lash out at your enemies. You can cast {@spell Arms of Hadar} by spending a hemomancy die."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Slick Blood",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can conjure a puddle of blood underneath your enemies’ feet, causing them to slip and tumble. You can cast {@spell Grease} by spending a hemomancy die without requiring material components."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Prophetic Demise",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can attempt to incite your will onto fate and control the destiny of your foes. You can cast {@spell bane} by spending a hemomancy die."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Blood Infusion",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can magically enchant your weapons using your blood magic. You can cast Magic Weapon by spending two hemomancy dice."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Bleeding Ray of Pain",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can summon an arcane power which can sunder your foes. You can cast {@spell Ray of Enfeeblement} by spending two hemancy dice."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            },
+            {
+              "name": "Masking Blood",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can manifest a masking layer of blood to hide your true self. You can spend a hemomancy die to cast {@spell Disguise Self}."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 9,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Hemomatic Expert",
+      "entries": [
+        "{@i 13th-level Bleeding Knife feature}",
+        "The following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Vampiric Strikes",
+              "entries": [
+                "When you use your Hemomatic Takedown, you can spend a Hemomancy die, roll it, and gain temporary hit points equal to the number rolled. Using the hemomancy die in this way does not deal damage to yourself."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Occultic Influence",
+              "entries": [
+                "Whenever you make an ability check or saving throw that uses Intelligence, Wisdom, or Charisma, you may use a hemomancy die and add the number rolled to the d20, provided you are not incapacitated. You spend the hemomancy die only if the check or save was successful."
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 13,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Additional Blood Talents",
+      "entries": [
+        "{@i 13th-level Bleeding Knife feature}",
+        "The following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "name": "Animate Blood Servant",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "Using your occultic magic, you can bring back the enemies you’ve slain. You can cast {@spell Animate Dead} without requiring material components by spending 3 hemomancy dice. You can use this talent once, regaining the ability to do so when you finish a long rest."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ],
+              "prerequisite": [
+                {
+                  "level": {
+                    "level": 13,
+                    "class": {
+                      "name": "Rogue"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Spiteful Curse",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "What sort of blood magic user comes without their own fair share of curses? You can spend 3 hemomancy dice to cast {@spell Bestow Curse}."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ],
+              "prerequisite": [
+                {
+                  "level": {
+                    "level": 13,
+                    "class": {
+                      "name": "Rogue"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Blood Rage",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can fill the mind of a nearby creature with hate and rage to send them off into a blood lust. You can cast {@spell Enemies Abound|XGE} by spending 3 hemomancy dice."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ],
+              "prerequisite": [
+                {
+                  "level": {
+                    "level": 13,
+                    "class": {
+                      "name": "Rogue"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Vampiric Mist",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "By borrowing a few tricks from the mighty vampires, you can turn into a magical mist to make a tricky escape. You can cast {@spell Gaseous Form} without requiring material components by spending 3 hemomancy dice."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ],
+              "prerequisite": [
+                {
+                  "level": {
+                    "level": 13,
+                    "class": {
+                      "name": "Rogue"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Vitality Transfer",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "Sometimes, you just feel like donating your kidneys or something I guess. You can spend 3 hemomancy dice to cast {@spell Life Transference|XGE}. When you do so, the amount of damage you took from your hemomancy dice is added to the healing of the spell."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ],
+              "prerequisite": [
+                {
+                  "level": {
+                    "level": 13,
+                    "class": {
+                      "name": "Rogue"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Touch of the Wretched",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "You can imbue yourself with the power of life sucking undead. You can spend 3 hemomancy dice to cast {@spell Vampiric Touch}. You can use this Blood Talent once, regaining the ability to do so when you finish a long rest."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ],
+              "prerequisite": [
+                {
+                  "level": {
+                    "level": 13,
+                    "class": {
+                      "name": "Rogue"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Veil of the Occult",
+              "source": "ErikkuBladesHemomancyPlayerOptions",
+              "page": "",
+              "entries": [
+                "Sometimes you need to stay hidden, at all costs, including by pesky divination magic. You can spend 4 hemomancy dice to cast {@spell Nondetection} without requiring material components. You can use this Blood Talent once, regaining the ability to do so when you finish a long rest."
+              ],
+              "featureType": [
+                "Blood Talent"
+              ],
+              "prerequisite": [
+                {
+                  "level": {
+                    "level": 13,
+                    "class": {
+                      "name": "Rogue"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 13,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Blood Assassin",
+      "entries": [
+        "{@i 17th-level Bleeding Knife feature}",
+        "You’ve mastered the art of hemomancy and have fully incorporated it into your everyday talents. You regain half of your spent hemomancy dice whenever you finish a short rest. ",
+        "Using your mastery over Hemomancy, whenever you deal damage using your Hemomatic Takedown you can impose a deadly strike to a creature whose CR is equal to or lower than your own.",
+        "The affected creature makes a Constitution saving throw against your Hemomancy Save DC. On a failed save, the creature takes necrotic damage equal to your Rogue level and the next Hemomatic Takedown deals and is incapacitated until the end of your next turn. On a success, the creature takes necrotic damage equal to half your rogue level and is not incapacitated.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ],
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bleeding Knife",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 17,
+      "header": 1
+    },
+    {
+      "name": "The Blood Witch",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Blood Witch",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "level": 1,
+      "entries": [
+        "Said to be the first to unlock this ancient form of fiendish magic, The Blood Witch is a very mysterious entity with a sort of mastery over blood magic. Where she acquired it from exactly is still unknown, as are many things about her. Some that have met her have claimed her to be a deity, while others refer to her as a false god with an exaggerated ego. She is revered by cultists as the first and one true master of the blood arts, while many see her as a stepping stone into their own wicked ascension."
+      ]
+    },
+    {
+      "name": "Expanded Spell List",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "The Blood Witch",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level The Blood Witch feature}",
+        "The Blood Witch lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        {
+          "type": "table",
+          "caption": "Expanded Spell List",
+          "colLabels": [
+            "Sorcerer Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Color Spray|PHB}, {@spell Inflict Wounds|PHB}"
+            ],
+            [
+              "3rd",
+              "{@spell Magic Mouth|PHB}, {@spell See Invisibility|PHB}"
+            ],
+            [
+              "5th",
+              "{@spell Bestow Curse|PHB}, {@spell Life Transference|XGE}"
+            ],
+            [
+              "7th",
+              "{@spell Confusion|PHB}, {@spell Polymorph|PHB}"
+            ],
+            [
+              "9th",
+              "{@spell Geas|PHB}, {@spell Modify Memory}"
+            ]
+          ]
+        }
+      ],
+      "header": 1
+    },
+    {
+      "name": "Hemomancy",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "The Blood Witch",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "{@i 1st-level The Blood Witch feature}",
+        "Studying occult-based magic, you’ve learned the very nature of blood magic and can use it yourself to a limited degree. Your blood magic will be represented by hemomancy dice. These dice are d4s and you have a number of hemomancy dice equal to twice your proficiency bonus. ",
+        "You use these dice to fuel your blood magic abilities, and you regain all of your hemomancy dice after a long rest. You cannot gain more hemomancy dice than you can have at your current level in this way. If a hemomancy feature requires a creature to make a saving throw, the DC equals your Spell Save DC.",
+        "When you use a Hemomancy die, regardless if it is spent or not, you roll the die and take damage equal to what you roll. Your hemomancy dice grows stronger with you as you gain levels in this class, becoming a d6 at 5th level, a d8 at 9th level, a d10 at 13th level, and a d12 at 17th level.",
+        "You can use your hemomancy dice in the following ways:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Hex of the Witch",
+              "entries": [
+                "As a bonus action, you can spend a hemomancy die to magically curse a creature you can see within 60 feet of you. When you do, that creature cannot regain hit points for a number of rounds equal to the number rolled. At the start of each of the affected creature’s turns, it takes necrotic damage equal to your hemomancy die. You concentrate on this hex as if you were concentrating on a spell."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Transmutation",
+              "entries": [
+                "When you cast a cantrip that deals damage, you can use a hemomancy die to convert the damage type of the cantrip into necrotic damage until the end of the current turn and one damage roll receives an additional amount of necrotic damage equal to the number rolled on the hemomancy die. The first time you use this ability after each long rest, you don't expend the hemomancy die. All other times you use the ability, you expend the die."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eyes of The Blood Witch",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "The Blood Witch",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "{@i 1st-level The Blood Witch feature}",
+        "The Blood Witch was said to have a special sense that allowed her to find hidden paths and secret doors. As an action, you can inherit this magical sense for 1 minute. While you have this magical sight, you can potentially see through illusions and {@condition invisible} creatures and objects as if they weren’t invisible.",
+        "This magical sight is limited however, as it is only a portion of The Blood Witch’s true sight. In order to see an {@condition invisible} creature or object, you must pass a Wisdom (Perception) check in order to properly see it. If the creature was hidden, then the DC is the Dexterity (Stealth) check it made, or if it wasn’t hidden the DC is 5 + the CR of the creature. If the object is {@condition invisible}, the DC equals the AC of the object or if it does not have an AC, the DM determines the check based on the size or difficulty to see the object in question.  If the invisibility was created via a spell, such as {@spell Invisibility|PHB}, the DC equals the Spell Save DC of the caster.",
+        "To see through an illusion depends on the illusion itself. If the illusion is a spell, such as {@spell Disguise Self|PHB}, the DC equals the Spell Save DC of the caster of the spell. If the illusion is made via other means, the DM determines the DC based on the circumstances of the illusion.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+        "{@i Note: A transmutation spell, such as Polymorph, is not merely an illusion but an actual transformation and you cannot see its true form in the current state of this ability.}"
+      ]
+    },
+    {
+      "name": "Improved Witch's Sight",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "The Blood Witch",
+      "level": 6,
+      "entries": [
+        "{@i 6th-level The Blood Witch feature}",
+        "As an action, you can spend a use of your Eyes of The Blood Witch feature to instead cast {@spell See Invisibility|PHB} without expending a spell slot or requiring material components. When cast in this way, the spell instead lasts for a minute instead of an hour."
+      ],
+      "header": 1
+    },
+    {
+      "name": "Sacrificial Spells",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "The Blood Witch",
+      "level": 10,
+      "entries": [
+        "{@i 10th-level The Blood Witch feature}",
+        "Using your blood magic, you can cast spells using your own vitality rather than through your pact magic. When you cast a warlock spell, instead of spending a spell slot you can instead spend a number of hemomancy dice equal to the level you cast the spell. You can cast the spell at its original level, or to a maximum level equal to your Warlock Spell Slot. The damage you take from your hemomancy dice when spent in this way is doubled."
+      ],
+      "header": 1
+    },
+    {
+      "name": "Emissary of The Blood Witch",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHemomancyPlayerOptions",
+      "subclassShortName": "The Blood Witch",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level The Blood Witch feature}",
+        "The first time you use your Eyes of The Blood Witch feature, you instead cast the {@spell True Seeing|PHB} spell without expending a spell slot or requiring material components, but you can only target yourself. It lasts for its full duration and cannot be dispelled. Once you reach 15th level, you also gain the {@optfeature Witch Sight|PHB} Eldritch Invocation, but it does not count against your total number of Eldritch Invocations.",
+        "In addition, the following options are added to your Hemomancy feature:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Potent Blood Magic",
+              "entries": [
+                "When you cast a spell using a Warlock spell slot, you can spend a hemomancy die to force every creature affected by the spell to take necrotic damage equal to the number rolled plus your charisma modifier."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Blood Magic Reserves",
+              "entries": [
+                "When you have no remaining hemomancy dice, as a bonus action you can spend a warlock spell slot to regain 5 hemomancy dice. You can use the ability twice, regaining all expended uses when you finish a long rest."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "feat": [
+    {
+      "name": "Hemomatic Adept",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "entries": [
+        "You have studied occult based magic, leading you down a darker path. You have two hemomancy dice which are d6s, you regain spent hemomancy dice when you finish a long rest. These special dice fuel your hemomancy abilities. Whenever you use a hemomancy die, regardless if it is spent or not, you take damage equal to the number rolled. If you have hemomancy dice from another feature, these dice are tracked separately and do not scale with them.",
+        "You can use these Hemomancy dice in the following ways and if you have the Hemomancy feature provided from another source, these abilities are added to that feature:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Blood-Boosted Ability.} Whenever you make an ability check with a skill or tool of which you are proficient in, you can use a hemomancy die and add the number rolled to the d20. You spend the hemomancy die only if the check is successful.",
+            "{@b Blood Fueled Rebuttal.} Whenever you take damage from a creature within 30 ft of you, you can spend a hemomancy die to deal necrotic damage to that creature equal to the number rolled plus your constitution modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Marked",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "Studying the arcane arts of blood magic, you’ve learned to use certain magical abilities and are marked with magical sigils, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You learn the {@spell inflict wounds} spell and one 1st-level spell of your choice. The {@filter 1st-level spell|spells|level=1|school=E;N} must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+          ]
+        }
+      ]
+    }
+  ]
+}
