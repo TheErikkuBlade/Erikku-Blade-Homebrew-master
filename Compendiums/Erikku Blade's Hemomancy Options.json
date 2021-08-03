@@ -3174,5 +3174,73 @@
         }
       ]
     }
+  ],
+  "item": [
+    {
+      "name": "Blood Vial",
+      "source": "ErikkuBladesHemomancyPlayerOptions",
+      "page": "",
+      "tier": "major",
+      "rarity": "uncommon",
+      "wondrous": true,
+      "weight": 0,
+      "entries": [
+        "This magic vial is soulbound to a demon and contains droplets of its blood, which refills on its own at the start of a new day. The vial has 3 charges, each charge represents a special die called a hemomancy die. Each hemomancy die is a d4 and unlike ordinary hemomancy dice, you do not take damage when you use them. You can spend charges from this item to make use of any hemomancy features you may have.",
+        "You can spend one or more charges to use these hemomancy dice in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "(1 or up to 3 charges) As a bonus action you can roll a hemomancy die for each charge spent and regain a number of hit points equal to the result.",
+            "(1 or 2 charges) Whenever you deal damage to a creature, you can roll one or two hemomancy dice depending on how many charges you spent and add bonus necrotic damage to that creature equal to the number rolled on the hemomancy dice.",
+            "(1 charge) As a reaction, you can roll the hemomancy die and add the number to any attack roll, ability check, or saving throw."
+          ]
+        },
+        "When the vial loses a charge, some of the blood in the vial vanishes as it is used for the magic inside. When all of its charges are spent, there is only a shrivel of a drop left. The vial regains 1d3 charges daily at dawn, which refills the vial."
+      ]
+    }
+  ],
+  "variant": [
+    {
+      "name": "Bloodsoaked Armor",
+      "type": "GV",
+      "requires": [
+        {
+          "armor": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Bloodsoaked",
+        "source": "ErikkuBladesHemomancyPlayerOptions",
+        "tier": "major",
+        "rarity": "rare",
+        "reqAttune": true,
+        "entries": [
+          "You have resistance to necrotic damage while wearing this armor.",
+          "This set of armor is forged while being soaked in the blood of a demon. When you take damage from an attack made with a weapon, you gain a number of temporary hit points equal to the size of your hemomancy die. If you do not have a hemomancy die, the temporary hit points gained becomes a d4."
+        ]
+      }
+    },
+    {
+      "name": "Bloodsoaked Weapon",
+      "type": "GV",
+      "requires": [
+        {
+          "weapon": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Bloodsoaked",
+        "source": "ErikkuBladesHemomancyPlayerOptions",
+        "tier": "major",
+        "rarity": "rare",
+        "bonusWeapon": "+1",
+        "reqAttune": true,
+        "entries": [
+          "You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+          "This weapon is forged while being soaked in the blood of a demon. When you hit with an attack using this magic weapon, you deal an extra amount of necrotic damage equal to the size of your hemomancy die. If you do not have a hemomancy die, the bonus becomes a d4. ",
+          "On hit, you also gain a number of temporary hit points equal to the necrotic damage you dealt from this weapon."
+        ]
+      }
+    }
   ]
 }
