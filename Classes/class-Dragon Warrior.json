@@ -1562,11 +1562,12 @@
       "page": ""
     },
     {
-      "name": "Mystical Guidance",
+      "name": "Mystical Strikes",
       "entries": [
         "{@i 10th-level Mystic feature}",
-        "Your soul is permanently mixed with your draconic heritage, allowing you to grasp the ancient power of your ancestors in desperate moments. As flavor, you generally do so by seeking guidance from your draconic soul due to your connection to your ancestors. Whenever you fail an ability check you can choose to reroll the d20 but you must use the new result.",
-        "You can use this feature a number of times equal to your proficiency bonus, regaining expended uses when you finish a long rest."
+        "Your soul is permanently mixed with your draconic heritage, allowing you to grasp the ancient power of your ancestors in desperate moments. Once per round when you hit with a weapon attack or an unarmed strike, you can choose to convert all of the damage from that attack to force as you release outward the power of your ancestral dragon.",
+        "When you do so, you add a bonus 1d8 force damage to the damage of that attack. This bonus becomes 1d10 at 20th level.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a short or long rest."
       ],
       "source": "DW",
       "className": "Dragon Warrior",
@@ -1633,12 +1634,10 @@
       "page": ""
     },
     {
-      "name": "Mystical Strikes",
+      "name": "Improved Mystical Strikes",
       "entries": [
-        "{@i 10th-level Mystic feature}",
-        "Once per round when you hit with a weapon attack or an unarmed strike, you can choose to convert all of the damage from that attack to force as you can release outward the power of your ancestral dragon.",
-        "When you do so, you add a bonus 2d8 force damage to the damage of that attack. This bonus becomes 2d10 at 20th level.",
-        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses after you finish a long rest. "
+        "{@i 18th-level Mystic feature}",
+        "Your weapon attacks and unarmed strikes deal an additional 1d8 force damage on hit. This bonus becomes 1d10 at 20th level."
       ],
       "source": "DW",
       "className": "Dragon Warrior",
@@ -3589,9 +3588,9 @@
         "Mystic|Dragon Warrior|DW|Mystic|DW|3",
         "Additional Draconic Power|Dragon Warrior|DW|Mystic|DW|7",
         "Draconic Style Improvement|Dragon Warrior|DW|Mystic|DW|7",
-        "Mystical Guidance|Dragon Warrior|DW|Mystic|DW|10",
+        "Mystical Strikes|Dragon Warrior|DW|Mystic|DW|10",
         "Draconic Style Advancement|Dragon Warrior|DW|Mystic|DW|14",
-        "Mystical Strikes|Dragon Warrior|DW|Mystic|DW|18",
+        "Improved Mystical Strikes|Dragon Warrior|DW|Mystic|DW|18",
         "Draconic Style Mastery|Dragon Warrior|DW|Mystic|DW|20"
       ],
       "shortName": "Mystic",
