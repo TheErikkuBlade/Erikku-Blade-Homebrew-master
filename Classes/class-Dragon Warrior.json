@@ -1307,7 +1307,8 @@
             "Once per round, the damage that you deal when using a Skydancer Art or a Lunging Attack gains a bonus equal to your Charisma modifier.",
             "Your movement speed increases by 10 feet."
           ]
-        }
+        },
+        "Once you have used your Dance of Dragons, you cannot use it again until you have finished a long rest."
       ],
       "source": "DW",
       "className": "Dragon Warrior",
