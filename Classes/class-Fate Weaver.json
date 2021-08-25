@@ -1579,7 +1579,7 @@
             ],
             [
               "7th",
-              "{@spell control water}, {@spell death ward}"
+              "{@spell control water}, {@spell watery sphere|XGE}"
             ],
             [
               "9th",
@@ -1696,15 +1696,15 @@
             ],
             [
               "5th",
-              "{@spell animate dead}, {@spell speak with dead}"
+              "{@spell spirit shroud|TCE}, {@spell speak with dead}"
             ],
             [
               "7th",
-              "{@spell blight}, {@spell shadow of moil|XGE}"
+              "{@spell blight}, {@spell death ward|XGE}"
             ],
             [
               "9th",
-              "{@spell hallow}, {@spell negative energy flood|XGE}"
+              "{@spell hallow}, {@spell raise dead|XGE}"
             ]
           ]
         },
@@ -3360,7 +3360,10 @@
         "Beacon of Hope",
         "Mass Healing Word",
         "Control Water",
-        "Death Ward",
+        {
+          "name": "watery sphere",
+          "source": "XGE"
+        },
         {
           "name": "maelstrom",
           "source": "XGE"
@@ -3384,7 +3387,7 @@
             ],
             "7": [
               "control water",
-              "death ward"
+              "watery sphere|XGE"
             ],
             "9": [
               "maelstrom|XGE",
@@ -3416,18 +3419,15 @@
           "name": "Shadow Blade",
           "source": "XGE"
         },
-        "Animate Dead",
+        {
+          "name": "spirit shroud",
+          "source": "TCE"
+        },
         "Speak with Dead",
         "Blight",
-        {
-          "name": "Shadow of Moil",
-          "source": "XGE"
-        },
+        "Death Ward",
         "Hallow",
-        {
-          "name": "Negative Energy Flood",
-          "source": "XGE"
-        }
+        "Raise Dead"
       ],
       "additionalSpells": [
         {
@@ -3441,16 +3441,16 @@
               "shadow blade|XGE"
             ],
             "5": [
-              "animate dead",
+              "spirit shroud|TCE",
               "speak with dead"
             ],
             "7": [
               "blight",
-              "shadow of moil|XGE"
+              "death ward"
             ],
             "9": [
               "hallow",
-              "negative energy flood"
+              "raise dead"
             ]
           }
         }
