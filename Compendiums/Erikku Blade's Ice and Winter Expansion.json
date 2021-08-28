@@ -626,7 +626,8 @@
       "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Winter Walker",
       "page": 1,
-      "level": 1,
+      "level": 3,
+      "header": 1,
       "entries": [
         "You traverse primarily through colder environments. Tundras, certain layers of hell, perhaps even throughout the coldest parts of the feywild. Adapting to this specific environment, your magic also adapts to it, granting you certain cryomantic abilities."
       ]
@@ -644,8 +645,8 @@
       "classSource": "PHB",
       "subclassShortName": "Winter Walker",
       "subclassSource": "erikkuiceandwinter",
-      "level": 1,
-      "header": 1
+      "level": 3,
+      "header": 2
     },
     {
       "name": "Winter Walker Magic",
@@ -656,7 +657,7 @@
       "subclassShortName": "Winter Walker",
       "page": null,
       "level": 3,
-      "header": 1,
+      "header": 2,
       "entries": [
         "You learn an additional spell when you reach certain levels in this class, as shown in the Winter Walker Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
         {
@@ -673,7 +674,7 @@
           "rows": [
             [
               "3rd",
-              "{@spell glacial grip|erikkuiceandwinter}"
+              "{@spell glacial grip|erikkuiceandwinter}"
             ],
             [
               "5th",
@@ -681,15 +682,15 @@
             ],
             [
               "9th",
-              "{@spell sleet storm|PHB}"
+              "{@spell sleet storm}"
             ],
             [
               "13th",
-              "{@spell ice storm|PHB}"
+              "{@spell ice storm}"
             ],
             [
               "17th",
-              "{@spell cone of cold|PHB}"
+              "{@spell cone of cold}"
             ]
           ]
         }
@@ -709,7 +710,7 @@
       "subclassShortName": "Winter Walker",
       "subclassSource": "erikkuiceandwinter",
       "level": 3,
-      "header": 1
+      "header": 2
     },
     {
       "type": "entries",
@@ -725,7 +726,7 @@
       "subclassShortName": "Winter Walker",
       "subclassSource": "erikkuiceandwinter",
       "level": 7,
-      "header": 1
+      "header": 2
     },
     {
       "type": "entries",
@@ -741,7 +742,7 @@
       "subclassShortName": "Winter Walker",
       "subclassSource": "erikkuiceandwinter",
       "level": 11,
-      "header": 1
+      "header": 2
     },
     {
       "type": "entries",
@@ -757,7 +758,7 @@
       "subclassShortName": "Winter Walker",
       "subclassSource": "erikkuiceandwinter",
       "level": 15,
-      "header": 1
+      "header": 2
     },
     {
       "name": "Circle of The Frozen Wastes",
@@ -768,6 +769,7 @@
       "subclassShortName": "Frozen Wastes",
       "page": 1,
       "level": 2,
+      "header": 1,
       "entries": [
         "Druids of the Circle of The Frozen Wastes find safety in the cold. Few creatures can survive in the icy tundras and those that do often form pacts with these druidic tribes. Elementals, dragons, even the occasional wandering spirits often thrive in the cold.",
         "Winter is an unavoidable part of nature, most flowers and crops perish during these times. However, there are other plants that flourish in the cold and the shade, perishing in the warmth and sunlight."
@@ -782,7 +784,7 @@
       "subclassShortName": "Frozen Wastes",
       "page": null,
       "level": 2,
-      "header": 1,
+      "header": 2,
       "entries": [
         "Your time surviving in the frozen wastes grants you access to certain spells. At 2nd level, you learn the ray of frost cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Frozen Wastes Spells table.",
         "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
@@ -800,7 +802,7 @@
           "rows": [
             [
               "2nd",
-              "{@spell armor of agathys}, {@spell frost fingers|IRotF"
+              "{@spell armor of agathys}, {@spell frost fingers|IRotF"
             ],
             [
               "3rd",
@@ -808,7 +810,7 @@
             ],
             [
               "5th",
-              "{@spell cold snap|erikkuiceandwinter}, {@spell spirit shroud|TCE}"
+              "{@spell cold snap|erikkuiceandwinter}, {@spell spirit shroud|TCE}"
             ],
             [
               "7th",
@@ -816,7 +818,7 @@
             ],
             [
               "9th",
-              "{@spell creeping cold|erikkuiceandwinter}, {@spell cone of cold|PHB}"
+              "{@spell creeping cold|erikkuiceandwinter}, {@spell cone of cold|PHB}"
             ]
           ]
         }
@@ -844,7 +846,7 @@
       "subclassShortName": "Frozen Wastes",
       "subclassSource": "erikkuiceandwinter",
       "level": 2,
-      "header": 1
+      "header": 2
     },
     {
       "type": "entries",
@@ -859,7 +861,7 @@
       "subclassShortName": "Frozen Wastes",
       "subclassSource": "erikkuiceandwinter",
       "level": 2,
-      "header": 1
+      "header": 2
     },
     {
       "type": "entries",
@@ -882,11 +884,11 @@
       "subclassShortName": "Frozen Wastes",
       "subclassSource": "erikkuiceandwinter",
       "level": 6,
-      "header": 1
+      "header": 2
     },
     {
       "type": "entries",
-      "name": "Frozen Fortification",
+      "name": "Frozen Beast Form",
       "entries": [
         "At 10th level, after you use your action to wild shape into a beast form you can immediately use your bonus action to use your Frigid Form simultaneously with your wild shape without expending an additional use of your wild shape. When you enter your Frigid Form in this way, you only gain 2 temporary hit points for each level you have in this class."
       ],
@@ -897,7 +899,7 @@
       "subclassShortName": "Frozen Wastes",
       "subclassSource": "erikkuiceandwinter",
       "level": 10,
-      "header": 1
+      "header": 2
     },
     {
       "type": "entries",
@@ -913,7 +915,7 @@
       "subclassShortName": "Frozen Wastes",
       "subclassSource": "erikkuiceandwinter",
       "level": 14,
-      "header": 1
+      "header": 2
     }
   ],
   "spell": [
