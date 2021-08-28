@@ -2,9 +2,9 @@
   "_meta": {
     "sources": [
       {
-        "json": "wintdom",
-        "abbreviation": "WDC",
-        "full": "Winter Domain Cleric",
+        "json": "erikkuiceandwinter",
+        "abbreviation": "EIAW",
+        "full": "Erikku Blade's Ice and Winter Expansion",
         "authors": [
           "Erikku Blade"
         ],
@@ -12,23 +12,8 @@
           "Erikku Blade"
         ],
         "version": "1.0.0",
-        "url": "https://docs.google.com/document/d/1vUtl5PDCE9V-Y7DnJqwEqcrnN5gFmwM1xQkewjHXuJE/edit?usp=sharing",
+        "url": "",
         "targetSchema": "1.0.1"
-      },
-      {
-        "json": "IcebornSorc",
-        "abbreviation": "IbS",
-        "full": "Iceborn Sorcerous Origin",
-        "authors": [
-          "Erikku Blade"
-        ],
-        "convertedBy": [
-          "Erikku Blade"
-        ],
-        "version": "1.0",
-        "color": "97b1f3",
-        "url": "https://docs.google.com/document/d/1XiHbxUeEWoL3dpbdsyUlSQkOzIgNunVwdcMyBh4WBtk/edit?usp=sharing",
-        "targetSchema": "1.2"
       }
     ],
     "dateAdded": 1621925870,
@@ -38,7 +23,33 @@
     {
       "name": "Winter Domain",
       "shortName": "Winter",
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "Armor of Agathys",
+              "Ice Knife|XGE"
+            ],
+            "3": [
+              "Hold Person",
+              "Snilloc's Snowball Swarm|XGE"
+            ],
+            "5": [
+              "Sleet Storm",
+              "Spirit Shroud|TCE"
+            ],
+            "7": [
+              "Fire Shield",
+              "Ice Storm"
+            ],
+            "9": [
+              "Cone of Cold",
+              "Hold Monster"
+            ]
+          }
+        }
+      ],
       "subclassSpells": [
         {
           "name": "Armor of Agathys",
@@ -82,22 +93,55 @@
         }
       ],
       "subclassFeatures": [
-        "Winter Domain|Cleric||Winter|wintdom|1",
-        "Channel Divinity: Winter’s Woe|Cleric||Winter|wintdom|2",
-        "Winter’s Wayfinder|Cleric||Winter|wintdom|6",
-        "Potent Spellcasting|Cleric||Winter|wintdom|8",
-        "Arctic Aegis|Cleric||Winter|wintdom|17"
+        "Winter Domain|Cleric||Winter|erikkuiceandwinter|1",
+        "Channel Divinity: Winter’s Woe|Cleric||Winter|erikkuiceandwinter|2",
+        "Winter’s Wayfinder|Cleric||Winter|erikkuiceandwinter|6",
+        "Potent Spellcasting|Cleric||Winter|erikkuiceandwinter|8",
+        "Arctic Aegis|Cleric||Winter|erikkuiceandwinter|17"
       ],
       "className": "Cleric",
       "classSource": "PHB"
     },
     {
       "name": "Iceborn",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "page": 1,
       "shortName": "Iceborn",
       "className": "Sorcerer",
       "classSource": "PHB",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "Armor of Agathys",
+              "frost fingers|IDRotF"
+            ],
+            "3": [
+              "Gentle Repose",
+              "Snilloc's Snowball Swarm|XGE"
+            ],
+            "5": [
+              "Cold Snap|erikkuiceandwinter",
+              "Feign Death"
+            ],
+            "7": [
+              "Ice Storm",
+              "Yeti's Chilling Gaze|erikkuiceandwinter"
+            ],
+            "9": [
+              "Cone of Cold",
+              "Creeping Cold|erikkuiceandwinter"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Iceborn|Sorcerer|PHB|Iceborn|erikkuiceandwinter|1",
+        "Iceborn Guide|Sorcerer|PHB|Iceborn|erikkuiceandwinter|6",
+        "Frigid Winds|Sorcerer|PHB|Iceborn|erikkuiceandwinter|6",
+        "Frostbiting Mark|Sorcerer|PHB|Iceborn|erikkuiceandwinter|14",
+        "Frozen Soul|Sorcerer|PHB|Iceborn|erikkuiceandwinter|18"
+      ],
       "subclassSpells": [
         "armor of agathys",
         {
@@ -105,29 +149,122 @@
           "source": "IDRotF"
         },
         "Gentle Repose",
-        "Feign Death",
-        "Hunger of Hadar",
-        "Otiluke's Resilient Sphere",
-        "Antilife Shell"
-      ],
-      "subclassFeatures": [
-        "Iceborn|Sorcerer|PHB|Iceborn|IcebornSorc|1",
-        "Iceborn Guide|Sorcerer|PHB|Iceborn|IcebornSorc|6",
-        "Frigid Winds|Sorcerer|PHB|Iceborn|IcebornSorc|6",
-        "Frostbiting Mark|Sorcerer|PHB|Iceborn|IcebornSorc|14",
-        "Frozen Soul|Sorcerer|PHB|Iceborn|IcebornSorc|18"
+        "Feign Death"
       ]
+    },
+    {
+      "name": "Circle of the Frozen Wastes",
+      "source": "erikkuiceandwinter",
+      "subclassFeatures": [
+        "Circle of the Frozen Wastes|Druid||Frozen Wastes|erikkuiceandwinter|2",
+        "Circle Spells|Druid||Frozen Wastes|erikkuiceandwinter|2",
+        "Frigid Form|Druid||Frozen Wastes|erikkuiceandwinter|2",
+        "Frozen Affinity|Druid||Frozen Wastes|erikkuiceandwinter|2",
+        "Frozen Fortification|Druid||Frozen Wastes|erikkuiceandwinter|6",
+        "Frozen Beast Form|Druid||Frozen Wastes|erikkuiceandwinter|10",
+        "Archdruid of the Frozen Wastes|Druid||Frozen Wastes|erikkuiceandwinter|14"
+      ],
+      "subclassSpells": [
+        "armor of agathys",
+        {
+          "name": "frost fingers",
+          "source": "IDRotF"
+        },
+        {
+          "name": "snilloc's snowball swarm",
+          "source": "XGE"
+        }
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "2": [
+              "Armor of Agathys",
+              "frost fingers|IDRotF"
+            ],
+            "3": [
+              "Winter's Grasp|erikkuiceandwinter",
+              "Snilloc's Snowball Swarm|XGE"
+            ],
+            "5": [
+              "Cold Snap|erikkuiceandwinter",
+              "Spirit Shroud|TCE"
+            ],
+            "7": [
+              "Ice Storm",
+              "Yeti's Chilling Gaze|erikkuiceandwinter"
+            ],
+            "9": [
+              "Cone of Cold",
+              "Creeping Cold|erikkuiceandwinter"
+            ]
+          }
+        }
+      ],
+      "shortName": "Frozen Wastes",
+      "className": "Druid",
+      "classSource": "PHB"
+    },
+    {
+      "name": "Winter Walker Ranger Conclave",
+      "source": "erikkuiceandwinter",
+      "subclassFeatures": [
+        "Winter Walker|Ranger||Winter Walker|erikkuiceandwinter|3",
+        "Winter Walker Magic|Ranger||Winter Walker|erikkuiceandwinter|3",
+        "Freezing Strikes|Ranger||Winter Walker|erikkuiceandwinter|3",
+        "Frost Walker|Ranger||Winter Walker|erikkuiceandwinter|3",
+        "Warden of Winter|Ranger||Winter Walker|erikkuiceandwinter|7",
+        "Frozen Sentinel|Ranger||Winter Walker|erikkuiceandwinter|11",
+        "Preserving Ward|Ranger||Winter Walker|erikkuiceandwinter|15"
+      ],
+      "subclassSpells": [
+        {
+          "name": "glacial grip",
+          "source": "erikkuiceandwinter"
+        },
+        {
+          "name": "winter's grasp",
+          "source": "erikkuiceandwinter"
+        },
+        "sleet storm",
+        "ice storm",
+        "cone of cold"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "glacial grip|erikkuiceandwinter"
+            ],
+            "5": [
+              "Winter's Grasp|erikkuiceandwinter"
+            ],
+            "9": [
+              "sleet storm"
+            ],
+            "13": [
+              "Ice Storm"
+            ],
+            "17": [
+              "Cone of Cold"
+            ]
+          }
+        }
+      ],
+      "shortName": "Winter Walker",
+      "className": "Ranger",
+      "classSource": "PHB"
     }
   ],
   "subclassFeature": [
     {
       "name": "Winter Domain",
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 1,
       "entries": [
         "Winter is a constant fear for many, as its cruelty and harsh conditions are often fatal. Worshipers of gods of the winter domain, such as Auril or Uller, offer prayers in exchange for mercy from the frigid winters. Clerics and priests of this domain often have the power to not only withstand these harsh environments but also offer guidance to those not as gifted through the harsh terrain.",
@@ -169,15 +306,15 @@
         "**You can only choose the chill shield option when you cast this spell.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Bonus Proficiencies|Cleric||Winter|wintdom|1"
+          "subclassFeature": "Bonus Proficiencies|Cleric||Winter|erikkuiceandwinter|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Acolyte of Winter|Cleric||Winter|wintdom|1"
+          "subclassFeature": "Acolyte of Winter|Cleric||Winter|erikkuiceandwinter|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Frost Forge|Cleric||Winter|wintdom|1"
+          "subclassFeature": "Frost Forge|Cleric||Winter|erikkuiceandwinter|1"
         }
       ]
     },
@@ -188,12 +325,12 @@
         "{@i 1st-level Winter feature}",
         "You gain proficiency in two of the following skills: athletics, intimidation, nature, or survival."
       ],
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 1,
       "header": 1
     },
@@ -204,12 +341,12 @@
         "{@i 1st-level Winter feature}",
         "You learn one cantrip of your choice of the following list: {@spell frostbite|XGE}, {@spell shape water|XGE}, or {@spell ray of frost}. The chosen cantrip counts as a cleric spell for you and does not count against your total number of cantrips known."
       ],
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 1,
       "header": 1
     },
@@ -221,23 +358,23 @@
         "You create a magical bond between you and a weapon of your choosing. By performing a 1-hour ritual you can turn a nonmagical weapon into a magical weapon, become proficient with that weapon if you weren’t already, you can use the weapon as an arcane focus, and it instead deals cold damage instead of its original damage type on hit. This magical bond lasts until you use this feature again, or you die. Alternatively, instead of bonding to an existing weapon, you can create a magical one-handed melee weapon with the finesse property that deals 1d6 of cold damage on hit. This weapon takes the form of a shortsword or scimitar made of ice. You bond with this weapon instead and when you use this feature again, or if you die, the weapon melts away.",
         "When you reach 8th level, if the weapon you’re bonding with is a nonmagical weapon, or if it was created by this feature, it gains a magic bonus of +1 to attack and damage rolls. At 17th level, this bonus becomes +2."
       ],
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 1,
       "header": 1
     },
     {
       "name": "Channel Divinity: Winter’s Woe",
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 2,
       "header": 2,
       "entries": [
@@ -247,12 +384,12 @@
     },
     {
       "name": "Winter’s Wayfinder",
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 6,
       "header": 2,
       "entries": [
@@ -263,12 +400,12 @@
     },
     {
       "name": "Potent Spellcasting",
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 8,
       "header": 2,
       "entries": [
@@ -278,12 +415,12 @@
     },
     {
       "name": "Arctic Aegis",
-      "source": "wintdom",
+      "source": "erikkuiceandwinter",
       "page": null,
       "className": "Cleric",
       "classSource": "PHB",
       "subclassShortName": "Winter",
-      "subclassSource": "wintdom",
+      "subclassSource": "erikkuiceandwinter",
       "level": 17,
       "header": 2,
       "entries": [
@@ -294,10 +431,10 @@
     },
     {
       "name": "Iceborn",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "className": "Sorcerer",
       "classSource": "PHB",
-      "subclassSource": "IcebornSorc",
+      "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Iceborn",
       "page": 1,
       "level": 1,
@@ -344,20 +481,20 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Frozen Ancestry|Sorcerer|PHB|Iceborn|IcebornSorc|1"
+          "subclassFeature": "Frozen Ancestry|Sorcerer|PHB|Iceborn|erikkuiceandwinter|1"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Cryomancy Magic|Sorcerer|PHB|Iceborn|IcebornSorc|1"
+          "subclassFeature": "Cryomancy Magic|Sorcerer|PHB|Iceborn|erikkuiceandwinter|1"
         }
       ]
     },
     {
       "name": "Cryomancy Magic",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "className": "Sorcerer",
       "classSource": "PHB",
-      "subclassSource": "IcebornSorc",
+      "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Iceborn",
       "page": 1,
       "level": 1,
@@ -387,15 +524,15 @@
             ],
             [
               "5th",
-              "{@spell Feign Death|PHB}, {@spell Hunger of Hadar|PHB}"
+              "{@spell Cold Snap|erikkuiceandwinter}, {@spell Feign Death|PHB}"
             ],
             [
               "7th",
-              "{@spell Ice Storm|PHB}, {@spell Otiluke's Resilient Sphere|PHB}"
+              "{@spell Ice Storm|PHB}, {@spell Yeti's Chilling Gaze|erikkuiceandwinter}"
             ],
             [
               "9th",
-              "{@spell Antilife Shell|PHB}, {@spell Cone of Cold|PHB}"
+              "{@spell Creeping Cold|erikkuiceandwinter}, {@spell Cone of Cold|PHB}"
             ]
           ]
         }
@@ -403,10 +540,10 @@
     },
     {
       "name": "Frozen Ancestry",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "className": "Sorcerer",
       "classSource": "PHB",
-      "subclassSource": "IcebornSorc",
+      "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Iceborn",
       "page": 1,
       "level": 1,
@@ -419,10 +556,10 @@
     },
     {
       "name": "Iceborn Guide",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "className": "Sorcerer",
       "classSource": "PHB",
-      "subclassSource": "IcebornSorc",
+      "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Iceborn",
       "page": 1,
       "level": 6,
@@ -435,10 +572,10 @@
     },
     {
       "name": "Frigid Winds",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "className": "Sorcerer",
       "classSource": "PHB",
-      "subclassSource": "IcebornSorc",
+      "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Iceborn",
       "page": 1,
       "level": 6,
@@ -450,10 +587,10 @@
     },
     {
       "name": "Frostbiting Mark",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "className": "Sorcerer",
       "classSource": "PHB",
-      "subclassSource": "IcebornSorc",
+      "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Iceborn",
       "page": 2,
       "level": 14,
@@ -466,10 +603,10 @@
     },
     {
       "name": "Frozen Soul",
-      "source": "IcebornSorc",
+      "source": "erikkuiceandwinter",
       "className": "Sorcerer",
       "classSource": "PHB",
-      "subclassSource": "IcebornSorc",
+      "subclassSource": "erikkuiceandwinter",
       "subclassShortName": "Iceborn",
       "page": 2,
       "level": 18,
@@ -480,6 +617,1392 @@
         "Casting {@spell Investiture of Ice|XGE} in this way does not require concentration and lasts up to an hour rather than its normal duration of 10 minutes.",
         "Whenever you cast {@spell Investiture of Ice|XGE} using a spell slot, its range becomes touch instead of self and you can target other creatures with the spell. Casting the spell at higher levels allows you to target one additional creature per spell slot level above 6th."
       ]
+    },
+    {
+      "name": "Winter Walker",
+      "source": "erikkuiceandwinter",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassSource": "erikkuiceandwinter",
+      "subclassShortName": "Winter Walker",
+      "page": 1,
+      "level": 1,
+      "entries": [
+        "You traverse primarily through colder environments. Tundras, certain layers of hell, perhaps even throughout the coldest parts of the feywild. Adapting to this specific environment, your magic also adapts to it, granting you certain cryomantic abilities."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Freezing Strikes",
+      "entries": [
+        "Starting at 3rd level, you can augment your weapon strikes with body numbing magic, drawn from the frozen wastes of the tundras you traverse. When you hit a creature with a weapon, you can deal an extra 1d6 cold damage and their speed is reduced by 10 feet until the start of your next turn, you can only apply this extra damage and speed reduction once per turn.",
+        "The extra damage increases to 1d8 when you reach 11th level in this class."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Winter Walker",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 1,
+      "header": 1
+    },
+    {
+      "name": "Winter Walker Magic",
+      "source": "erikkuiceandwinter",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassSource": "erikkuiceandwinter",
+      "subclassShortName": "Winter Walker",
+      "page": null,
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You learn an additional spell when you reach certain levels in this class, as shown in the Winter Walker Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+        {
+          "type": "table",
+          "caption": "Winter Walker Spells",
+          "colLabels": [
+            "Ranger Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell glacial grip|erikkuiceandwinter}"
+            ],
+            [
+              "5th",
+              "{@spell winter’s grasp|erikkuiceandwinter}"
+            ],
+            [
+              "9th",
+              "{@spell sleet storm|PHB}"
+            ],
+            [
+              "13th",
+              "{@spell ice storm|PHB}"
+            ],
+            [
+              "17th",
+              "{@spell cone of cold|PHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Frost Walker",
+      "entries": [
+        "Also at 3rd level, you are adept at traversing through snowy environments and are an expert at guiding your allies through said environments. You have advantage on saving throws made to resist the effects of extreme cold and you do not suffer the effects of difficult terrain from ice and snow. By spending 10 minutes, you can magically bestow this benefit to any number of creatures within 30 feet of you up to your proficiency bonus plus your Wisdom modifier. This benefit lasts for 8 hours and once you grant it, you cannot do so again until you finish a long rest.",
+        "If you chose the arctic terrain as your favored terrain from the Natural Explorer feature, you can grant this magical benefit as an action rather than spending 10 minutes and you can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. When you use an action to grant these benefits, it instead only lasts for a minute."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Winter Walker",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 3,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Warden of Winter",
+      "entries": [
+        "At 7th level, you are aware of the dangers that lurk in the coldest of environments and your study over these creatures allows you to better prepare for them. You have resistance to cold damage and you have advantage on ability checks and saving throws made against effects that would reduce your movement in any way, including ways that would indirectly affect your speed such as being stunned or paralyzed which would take away your ability to move, even though it does not directly reduce your speed.",
+        "When you use your Frost Walker feature to grant other creatures the benefits of it, one of those creatures may also magically gain the benefits of this feature."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Winter Walker",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 7,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Frozen Sentinel",
+      "entries": [
+        "At 11th level, you can use your magic to ward yourself and your allies with a protective ice barrier. As a bonus action you can grant yourself and a number of allies within 30 feet of you up to your Wisdom modifier (minimum of 1) temporary hit points equal to your ranger level. While they have these temporary hit points, whenever a creature hits them with a melee attack from within 5 feet of them the attacker takes an amount of cold damage equal to your ranger level.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Winter Walker",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 11,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Preserving Ward",
+      "entries": [
+        "At 15th level, you can use your magic to freeze over a dead creature, extending the duration needed to revive them with spells. You can cast gentle repose without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+        "In addition, if you cast gentle repose on a creature whose been dead for no longer than a minute, some of your magic lingers within the corpse and tethers the soul to the creature before it can pass on into the afterlife. The cost for any material needed for a spell to bring the creature back to life, such as revivify, is halved until the spell ends."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Winter Walker",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 15,
+      "header": 1
+    },
+    {
+      "name": "Circle of The Frozen Wastes",
+      "source": "erikkuiceandwinter",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassSource": "erikkuiceandwinter",
+      "subclassShortName": "Frozen Wastes",
+      "page": 1,
+      "level": 2,
+      "entries": [
+        "Druids of the Circle of The Frozen Wastes find safety in the cold. Few creatures can survive in the icy tundras and those that do often form pacts with these druidic tribes. Elementals, dragons, even the occasional wandering spirits often thrive in the cold.",
+        "Winter is an unavoidable part of nature, most flowers and crops perish during these times. However, there are other plants that flourish in the cold and the shade, perishing in the warmth and sunlight."
+      ]
+    },
+    {
+      "name": "Circle Spells",
+      "source": "erikkuiceandwinter",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassSource": "erikkuiceandwinter",
+      "subclassShortName": "Frozen Wastes",
+      "page": null,
+      "level": 2,
+      "header": 1,
+      "entries": [
+        "Your time surviving in the frozen wastes grants you access to certain spells. At 2nd level, you learn the ray of frost cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Frozen Wastes Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+          "type": "table",
+          "caption": "Circle Spells",
+          "colLabels": [
+            "Druid Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "2nd",
+              "{@spell armor of agathys}, {@spell frost fingers|IRotF"
+            ],
+            [
+              "3rd",
+              "{@spell winter’s grasp|erikkuiceandwinter}, {@spell Snilloc's snowball swarm|XGE}"
+            ],
+            [
+              "5th",
+              "{@spell cold snap|erikkuiceandwinter}, {@spell spirit shroud|TCE}"
+            ],
+            [
+              "7th",
+              "{@spell Yeti's chilling gaze|erikkuiceandwinter}, {@spell ice storm|PHB}"
+            ],
+            [
+              "9th",
+              "{@spell creeping cold|erikkuiceandwinter}, {@spell cone of cold|PHB}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Frigid Form",
+      "entries": [
+        "At 2nd level, you gain the ability to channel your icy magic into a shiny elemental form. As an action, you can expend a use of your Wild Shape feature to cover your body with freezing ice, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "When you deal cold damage with a spell, roll an additional damage die and add it to the total.",
+            "Your melee weapon attacks deal an extra 1d6 cold damage to any target they hit.",
+            "The ground beneath your feet freezes over, making the area around you in a 10 foot radius difficult terrain. As a bonus action, you can extend this difficult terrain an additional 10 feet to a maximum of 30 feet."
+          ]
+        },
+        "These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Frozen Wastes",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 2,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Frozen Affinity",
+      "entries": [
+        "Also at 2nd level, you are acclimated to cold temperatures and frozen terrain. You have resistance to cold damage and do not incur penalties from extreme cold. You also do not suffer from difficult terrain imposed by ice or snow."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Frozen Wastes",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 2,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Frozen Fortification",
+      "entries": [
+        "Starting at 6th level, when you transform your body temperature drops to freezing cold temperatures, making you more resilient against ailments. You gain the following benefits while your Frigid Form is active:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on Constitution saving throws.",
+            "You have resistance to poison damage and advantage on saving throws against being poisoned.",
+            "You are immune to disease."
+          ]
+        }
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Frozen Wastes",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 6,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Frozen Fortification",
+      "entries": [
+        "At 10th level, after you use your action to wild shape into a beast form you can immediately use your bonus action to use your Frigid Form simultaneously with your wild shape without expending an additional use of your wild shape. When you enter your Frigid Form in this way, you only gain 2 temporary hit points for each level you have in this class."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Frozen Wastes",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 10,
+      "header": 1
+    },
+    {
+      "type": "entries",
+      "name": "Archdruid of The Frozen Wastes",
+      "entries": [
+        "At 14th level, you’ve obtained mastery over the elements of the frozen wastes. You have immunity to cold damage and you add the wall of ice and otiluke's freezing sphere spells to your druid spell list and can prepare them as you would any other druid spell.",
+        "In addition, while your Frigid Form is active you can use a bonus action to unleash a powerful burst of icy wind. Each creature you choose within 30 feet of you makes a Constitution saving throw or takes 2d8 plus your Wisdom modifier cold damage and their movement speed is reduced by 10 feet on a failed save. On a success they take half as much damage and their speed is not reduced."
+      ],
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Frozen Wastes",
+      "subclassSource": "erikkuiceandwinter",
+      "level": 14,
+      "header": 1
+    }
+  ],
+  "spell": [
+    {
+      "name": "Winter’s Grasp",
+      "source": "erikkuiceandwinter",
+      "level": 2,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a frozen monster claw"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Ice encrusts the ground radiating a powerful cold energy in a 15 foot radius, making it hard for creatures to maintain their balance. This icy ground is treated as difficult terrain. A creature that begins its turn in the affected area takes {@damage 2d6} cold damage and makes a dexterity saving throw. On a failed save, they fall {@condition prone}. At the end of their turns, they make a constitution saving throw. On a successful save, they become immune to the spell's effects.",
+        "The cold freezes nonmagical liquids in the area that aren't being worn or carried."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@damage 1d6} for each slot level above 2nd."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "cold"
+      ],
+      "savingThrow": [
+        "dexterity",
+        "constitution"
+      ],
+      "miscTags": [
+        "SCL"
+      ],
+      "areaTags": [
+        "R"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Creeping Cold",
+      "source": "erikkuiceandwinter",
+      "level": 5,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a pinch of powdered snow"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You choose a creature within range that you can see and mark them with a freezing cold brand. Ice begins to slowly creep from the ground beneath their feet to the tip of their head, covering the body with ice. The creature must make a Constitution saving throw. On a failed save, they take {@damage 6d6} cold damage and is {@condition restrained} as they are frozen to the ground. If the creature is airborne, a pillar of ice is made between the creature and the ground. The ice occupies the spaces in between it and the ground and the creature's elevation remains the same. The spell fails if the creature is more than 30 feet off the ground. On a successful save, the creature takes half damage and isn't affected. A creature is also unaffected by the spell if it has immunity to cold damage or being {@condition petrified} and a creature with resistance to cold damage has advantage on its saves against the spell.",
+        "A creature affected by the spell must make another Constitution saving throw at the end of each of its turns. On a failed save, it takes an additional {@damage 2d6} cold damage or half as much on a success. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to a frozen statue and subjected to the {@condition petrified} condition for the duration. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.",
+        "A creature may use its action to break off a piece of the ice. Doing so counts as one successful save for the purposes of the spell. Every time the creature takes any amount of piercing or fire damage counts as one successful save."
+      ],
+      "damageInflict": [
+        "cold"
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "miscTags": [
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cold Snap",
+      "source": "erikkuiceandwinter",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You snap your fingers and a burst of cold energy cracks at a point you choose within range. Each creature in a 15-foot-radius sphere centered on that point must make a Constitution saving throw. A target takes {@damage 6d6} cold damage and their movement is reduced to 0 until the start of your next turn on a failed save, or half as much damage on a successful one and their speed is not reduced.",
+        "The cold vapors spread around corners. It freezes non-magical objects and liquid in the area that aren't being worn or carried."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@damage 1d6} for each slot level above 3rd."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "cold"
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "areaTags": [
+        "S"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yeti's Chilling Gaze",
+      "source": "erikkuiceandwinter",
+      "level": 4,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or take {@damage 3d6} cold damage and is {@condition paralyzed} for the duration, unless the target is immune to cold damage. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@damage 1d6} for each slot level above 4th."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "cold"
+      ],
+      "conditionInflict": [
+        "paralyzed"
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "miscTags": [
+        "SGT"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Glacial Grip",
+      "source": "erikkuiceandwinter",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You release a magical hand made of freezing cold ice toward a creature you can see. Make a ranged spell attack against that creature. On a hit, the hand grasps onto the target and it takes {@damage 1d8} cold damage, and on each of your turns for the duration, you can use a bonus action to deal {@damage 1d8} cold damage to the target automatically, except the turn you cast the spell. Each time the target takes damage from the spell, its speed is reduced by 10 feet. The creature makes a constitution saving throw at the end of each of its turns, ending the spell on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@damage 1d8} for each slot level above 1st."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "cold"
+      ],
+      "spellAttack": [
+        "R"
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "miscTags": [
+        "SGT",
+        "SCL"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          }
+        ]
+      }
+    }
+  ],
+  "monster": [
+    {
+      "name": "Ice Elemental",
+      "source": "erikkuiceandwinter",
+      "size": "L",
+      "type": "elemental",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "10d10 + 50",
+        "average": 105
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 30,
+        "swim": 20
+      },
+      "str": 20,
+      "dex": 8,
+      "con": 20,
+      "int": 5,
+      "wis": 10,
+      "cha": 5,
+      "senses": [
+        "darkvision 60 ft.",
+        "tremorsense 60 ft."
+      ],
+      "passive": 10,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "immune": [
+        "cold",
+        "poison"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "unconscious"
+      ],
+      "languages": [
+        "Aquan",
+        "Auran"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Ice Glide",
+          "entries": [
+            "The elemental can burrow through nonmagical, unworked frozen ice and stone. While doing so, the elemental doesn't disturb the material it moves through."
+          ]
+        },
+        {
+          "name": "Numbing Cold",
+          "entries": [
+            "When the elemental deals cold damage to a creature, they must make a {@dc 16} Constitution saving throw or have their speed reduced by 10 feet and they have disadvantage on attack rolls and ability checks until the start of the elemental's next turn."
+          ]
+        },
+        {
+          "name": "Ice Walk",
+          "entries": [
+            "The elemental can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The elemental makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 5}) bludgeoning damage, plus 4 ({@damage 1d6}) cold damage."
+          ]
+        },
+        {
+          "name": "Ice Pillars {@recharge 5}",
+          "entries": [
+            "Pillars of ice sprout from the ground in a 30-foot-cone from the elemental. Each creature within range makes a {@dc 16} dexterity saving throw or takes {@damage 2d8 + 5} piercing damage and {@damage 2d8} cold damage on a failed save, or half as much on a success. The pillars of ice then immediately shatters and retracts back into the ground."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "mountain",
+        "underdark",
+        "underwater"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "Ice Elementals are born where the Plane of Water meets and freezes against the Plane of Air.  They have little need to interact with humanoids, but react poorly to those carrying fire or otherwise threatening their frigid privacy.  In your campaign they might also be the result of magical experiments (the forced merging of air and water elementals) or servants of the powers of cold and winter.",
+                  "Icebergs from the Plane of Water can spill out into the Plane of Air.  (This is one source of many planar white dragons’ lairs.)  Provided the currents keep the icebergs cold and close to the Plane of Water, the ice elementals that dwell there are not disturbed.  But should their bergs drift too far or begin to melt, these ice elementals can become desperate to return home—and mortal adventurers’ airships are a too-rare and too-tempting target to ignore."
+                ]
+              }
+            ]
+          },
+          "Elementals are incarnations of the elements that make up the universe: air, earth, fire, and water. Though little more than animated energy on their own planes of existence, they can be called on by spellcasters and powerful beings to take shape and perform tasks.",
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Living Elements",
+                    "entries": [
+                      "On its home plane, an elemental is a bodiless life force. Its dim consciousness manifests as a physical shape only when focused by the power of magic. A wild spirit of elemental force has no desire except to course through the element of its native plane. Like beasts of the Material Plane, these elemental spirits have no society or culture, and little sense of being."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Conjured by Magic",
+                    "entries": [
+                      "Certain spells and magic items can conjure an elemental, summoning it from the Inner Planes to the Material Plane. Elementals instinctively resent being pulled from their native planes and bound into service. A creature that summons an elemental must assert force of will to control it."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bound and Shaped",
+                    "entries": [
+                      "Powerful magic can bind an elemental spirit into a material template that defines a specific use and function. Invisible stalkers are air elementals bound to a specific form, in the same way that water elementals can be shaped into water weirds."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Elemental Nature",
+                    "entries": [
+                      "An elemental doesn't require air, food, drink, or sleep."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://cdnb.artstation.com/p/assets/images/images/018/350/515/4k/paul-canavan-golem-small.jpg?1559055551"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/XJujQE0.png",
+      "senseTags": [
+        "D",
+        "T"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AQ",
+        "AU"
+      ],
+      "damageTags": [
+        "B",
+        "C"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Frostbiting Zombie",
+      "source": "erikkuiceandwinter",
+      "size": "M",
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "Frozen Body"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 42,
+        "formula": "5d8 + 20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 8,
+      "con": 18,
+      "int": 3,
+      "wis": 6,
+      "cha": 5,
+      "save": {
+        "con": "+6",
+        "dex": "+1"
+      },
+      "skill": {
+        "perception": "+2"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        "cold"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "understands the languages it knew in life but can't speak"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Numbing Aura",
+          "entries": [
+            "A creature that starts its turn within 5 feet of the zombie must make a {@dc 14} constitution saving throw. On a failed save, it takes {@damage 1d6} cold damage and has disadvantage on attack rolls and ability checks until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+          ]
+        },
+        {
+          "name": "Frozen Body",
+          "entries": [
+            "The zombie adds its constitution modifier to its AC."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The zombie makes two Frost Bite attacks."
+          ]
+        },
+        {
+          "name": "Frost Bite",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, plus 3 ({@damage 1d6}) cold damage and the creature's movement speed is reduced by 10 feet until the start of the zombie's next turn. The creature can only incur this penalty to a creature once a turn per different creature it hits."
+          ]
+        }
+      ],
+      "variant": [
+        {
+          "name": "Frostbreathing Zombies",
+          "entries": [
+            "Some frostbiting zombies have uniquely adapted lungs, allowing them to exhale a powerful breath of cold energy. A frostbreathing zombie has the following additional action option:",
+            {
+              "type": "entries",
+              "name": "Frost Breath (Recharge 6)",
+              "entries": [
+                "The zombie exhales a powerful breath of cold energy. Each creature within a 15 cone must make a {@dc 14} Constitution saving throw, taking 16 ({@damage 4d6}) cold damage on a failed save, or half as much damage on a successful one. A creature killed by this damage is frozen in ice and {@condition petrified} until it has been revived or the frozen statue takes 30 points of fire damage."
+              ]
+            }
+          ],
+          "type": "variant"
+        }
+      ],
+      "environment": [
+        "arctic",
+        "mountain"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              "Creatures that die within the frozen wastes and tundras sometimes becomes undead. Most often they take the form of ghosts or specters due to the harsh environment, however some bodies gain unique properties and adapt to the climate, making them a uniquely more powerful zombie.",
+              {
+                "name": "Undead Nature",
+                "type": "entries",
+                "entries": [
+                  "A zombie doesn't require air, food, drink, or sleep."
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://5e.tools/img/bestiary/EGW/Husk Zombie.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://5e.tools/img/EGW/Husk Zombie.png?v=1.133.2",
+      "traitTags": [
+        "Undead Fortitude"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS",
+        "LF"
+      ],
+      "damageTags": [
+        "C",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Frost Demon",
+      "source": "erikkuiceandwinter",
+      "size": "L",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "15d10 + 75",
+        "average": 157
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 40
+      },
+      "str": 23,
+      "dex": 14,
+      "con": 21,
+      "int": 11,
+      "wis": 13,
+      "cha": 15,
+      "save": {
+        "dex": "+6",
+        "con": "+9",
+        "cha": "+6",
+        "wis": "+5"
+      },
+      "skill": {
+        "perception": "+5",
+        "athletics": "+10",
+        "deception": "+6",
+        "intimidation": "+6"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        {
+          "resist": [
+            "fire",
+            "lightning"
+          ]
+        },
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "immune": [
+        "cold",
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "Abyssal",
+        "Aquan",
+        "Auran"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "The frost demon's innate spellcasting ability is Charisma (spell save {@dc 14, +6 to hit with spells). The frost demon can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell chill touch}",
+            "{@spell frost fingers|IDRotF}",
+            "{@spell frostbite|XGE}",
+            "{@spell glacial grip|erikkuiceandwinter}",
+            "{@spell ray of frost}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell hold person}",
+              "{@spell Snilloc's snowball swarm|XGE}",
+              "{@spell winter’s grasp|erikkuiceandwinter}"
+            ],
+            "1e": [
+              "{@spell cone of cold}",
+              "{@spell hold monster}",
+              "{@spell yeti's chilling gaze|erikkuiceandwinter}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The frost demon has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The frost demon's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "entries": [
+            "The frost demon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Ice Walk",
+          "entries": [
+            "The frost demon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+          ]
+        },
+        {
+          "name": "Death Burst",
+          "entries": [
+            "When the frost demon dies, it explodes in a burst of cold energy. Each creature within 5 feet of it must then succeed on a {@dc 17} Constitution saving throw, taking 32 ({@damage 8d8}) cold damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The fiend makes two attacks with its Ice Pike."
+          ]
+        },
+        {
+          "name": "Ice Pike",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage, plus 11 ({@damage 2d10}) cold damage."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "underdark"
+      ],
+      "fluff": {
+        "entries": [
+          "Deep in the abyss lies demons with a particular affinity to arctic environments. Their tribes are often freezing cold, far colder than anywhere else in the deep abyss. Sometimes, Frost Demons leave the abyss and make their tribes in arctic environments."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c74777e-e8db-45f6-ad7b-3ea79c984a68/d4pejti-62907855-be59-4a5f-b1a0-91315d2fb255.jpg/v1/fill/w_1600,h_2317,q_75,strp/fimbrul_devil_by_daveallsop_d4pejti-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjMxNyIsInBhdGgiOiJcL2ZcLzljNzQ3NzdlLWU4ZGItNDVmNi1hZDdiLTNlYTc5Yzk4NGE2OFwvZDRwZWp0aS02MjkwNzg1NS1iZTU5LTRhNWYtYjFhMC05MTMxNWQyZmIyNTUuanBnIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qgxkQlDbsjtyjBaIWsk5jbZV32gflOGa_iuepAsaElU"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/9cOEWKi.png",
+      "traitTags": [
+        "Death Burst",
+        "Magic Resistance",
+        "Magic Weapons",
+        "Spider Climb"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AB",
+        "AQ",
+        "AU"
+      ],
+      "damageTags": [
+        "C",
+        "P"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ]
+    },
+    {
+      "name": "Cyromancer",
+      "source": "erikkuiceandwinter",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        11,
+        {
+          "ac": 14,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "formula": "12d8 + 24",
+        "average": 78
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 12,
+      "con": 14,
+      "int": 9,
+      "wis": 12,
+      "cha": 17,
+      "save": {
+        "cha": "+7",
+        "con": "+6"
+      },
+      "skill": {
+        "arcana": "+3",
+        "survival": "+5",
+        "athletics": "+4",
+        "intimidation": "+7"
+      },
+      "passive": 11,
+      "resist": [
+        "cold"
+      ],
+      "languages": [
+        "any four languages"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The evoker is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The evoker has the following spells prepared:"
+          ],
+          "footerEntries": [
+            "*Evocation spell"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell frostbite|XGE}*",
+                "{@spell light}*",
+                "{@spell prestidigitation}",
+                "{@spell ray of frost}*"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell armor of Agathys}",
+                "{@spell glacial grip|erikkuiceandwinter}*",
+                "{@spell mage armor}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell mirror image}",
+                "{@spell misty step}",
+                "{@spell winter’s grasp|erikkuiceandwinter}*"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell cold snap|erikkuiceandwinter}*",
+                "{@spell counterspell}",
+                "{@spell dispel magic}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell ice storm}*",
+                "{@spell yeti's chilling gaze|erikkuiceandwinter}*"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell cone of cold}*",
+                "{@spell creeping cold|erikkuiceandwinter}*"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell Otiluke's freezing sphere}*",
+                "{@spell wall of ice}*"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Sculpt Spells",
+          "entries": [
+            "When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1 + the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Ice Staff",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage, plus 3 ({@damage 1d6}) cold damage."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "entries": [
+                      "Cryomancers are evokers who have mastered the art of cold magic. Their specialties lie in restricting other creatures' movements and freezing their enemies solid. They tend to be calm and collected, but also frightening when they need to be. It's often best not to make one a foe."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://pbs.twimg.com/media/Ed88CSAWAAE-vUj?format=png&name=medium"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/t7w9a9c.png",
+      "soundClip": {
+        "type": "external",
+        "url": "https://5e.tools/audio/bestiary/evoker.mp3?v=1.133.2"
+      },
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "C"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true
     }
   ]
 }
