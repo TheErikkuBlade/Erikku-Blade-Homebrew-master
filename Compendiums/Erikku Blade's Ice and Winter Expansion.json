@@ -2006,5 +2006,180 @@
       ],
       "hasFluff": true
     }
+  ],
+  "item": [
+    {
+      "name": "Winter's Oath",
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "baseItem": "shortsword",
+      "type": "M",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "weight": 1,
+      "weaponCategory": "martial",
+      "property": [
+        "F",
+        "L"
+      ],
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "{@i \"Souls lost in the frozen wastes find their path at winter’s end. They who wield this sword shall guide the lost and protect the weak till winter’s final end.\"}",
+        "This mithral shortsword was combined with the goddess of winter’s magical essence which was scattered in the frozen wastelands upon its creation, granting it special properties. Its power grows with its wielder, however one who cannot control its might shall be frozen in time for eternity.",
+        "You can use a bonus action to release a cold flame from the weapon, which lasts until it is sheathed. While the flame is released, it deals an additional 1d6 cold damage.",
+        {
+          "type": "entries",
+          "name": "Cold Flame",
+          "entries": [
+            "You can use a bonus action to release a cold flame from the weapon, which lasts until it is sheathed. While the flame is released, it deals an additional 1d6 cold damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Cold Embrace",
+          "entries": [
+            "As an action you can choose one creature you can see within 60 feet of you. Unless they have resistance or immunity to cold damage, their body temperature immediately drops to -30 degrees fahrenheit. They make a DC 13 constitution saving throw, taking 8d6 cold damage on a failed save or half as much on a success and suffer from the effects of extreme cold, gaining a level of exhaustion. Their body temperature remains this way for 1 minute, or until you end it early as a bonus action. Once you’ve used this property you cannot use it again until the next dawn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Icy Glow",
+          "entries": [
+            "This magical sword glows when in freezing cold temperatures. In areas of extreme cold, the sword sheds bright light out to a range of 30 feet and dim light for an additional 30 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Freezing Aura",
+          "entries": [
+            "While holding this shortsword, you may shed an aura of extreme cold. As an action you can activate this aura, which affects creatures you choose within 10 feet of you. Each creature makes a Constitution saving throw (DC 13) or takes 1d6 cold damage and gains one level of exhaustion. A creature can only gain one level of exhaustion in this way, it can however stack with any previous levels of exhaustion or any it gains after the one gained from this one, so long as it is from a different source.",
+            "You may dismiss the freezing aura as at any time, no action required. Once dismissed, you cannot activate this aura again until the next dawn. The aura is automatically dismissed whenever you finish a short or long rest after activating it."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The shortsword grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You can speak, read, and write Elvish and Primordial.",
+                "You have resistance to cold damage and do not suffer the effects of difficult terrain created by ice and snow.",
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Awakened",
+          "entries": [
+            "The shortsword grants the following benefits in its awakened state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +2.",
+                "The cold damage dealt when you release the cold flames increases to 2d6.",
+                "The saving throw DC for the weapon's Cold Embrace and Freezing Aura increases to 15.",
+                "While holding the shortsword, you can use an action to cast one of the following spells from it (save DC 15, +7 to hit): {@spell cold snap|erikkuiceandwinter}, {@spell creeping cold|erikkuiceandwinter}, {@spell glacial grip|erikkuiceandwinter}, or {@spell winter’s grasp|erikkuiceandwinter}. Once a spell has been cast using the shortsword, that spell can't be cast from the shortsword again until the next dawn."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Exalted",
+          "entries": [
+            "The shortsword grants the following benefits in its exalted state:",
+            {
+              "type": "list",
+              "items": [
+                "The weapon's bonus to attack and damage rolls increases to +3.",
+                "The saving throw DC for the weapon's Cold Embrace, Freezing Aura, and spells cast from the weapon increases to 17 and the spell attack bonus becomes +9.",
+                "You have immunity to cold damage.",
+                "The cold damage dealt when you release the cold flames increases to 3d6."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Artifact Properties",
+          "entries": [
+            "In its dormant state, the wielder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Destroying the Sword",
+          "entries": [
+            "Destroying Winter's Oath is no easy feat, as is with any artifact. The sword is tied to the essence god or goddess of winter. In order to render the sword useless, the god or goddess tied to the sword must be destroyed completely. The sword then reverts to an ordinary shortsword made of mithral. It retains its magical bonus to hit, but otherwise retains non of its other magical abilities. However, the sword even still cannot be destroyed by normal means, and must be thrown into a volcano from the 1st layer of hell, Avernas, to finally destroy the weapon."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mantle of Snow",
+      "source": "erikkuiceandwinter",
+      "page": null,
+      "tier": "major",
+      "rarity": "Uncommon",
+      "wondrous": true,
+      "weight": 2,
+      "entries": [
+        "This white mantle allows the wearer to move quickly through ice and snow. You ignore the effects of difficult terrain caused by ice and snow. In addition, while traversing through ice or snow your movement speed increases by 10 feet.",
+        "As a bonus action while wearing the mantle, you can use the mantle to teleport to an unoccupied space you can see within 30 feet of you, leaving behind a trail of snow between where you were and where you teleported. The snow melts away after 10 minutes."
+      ]
+    }
+  ],
+  "variant": [
+    {
+      "name": "Frozen Armor",
+      "type": "GV",
+      "source": "erikkuiceandwinter",
+      "requires": [
+        {
+          "armor": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Frozen ",
+        "source": "erikkuiceandwinter",
+        "tier": "major",
+        "rarity": "rare",
+        "reqAttune": true,
+        "entries": [
+          "You have resistance to cold damage while wearing this armor.",
+          "This set of armor is forged while being quenched in freezing cold oils and mixed with the blood of cold-blooded monsters. When you are hit by a melee attack from a creature within 5 feet of you, shards of ice spray onto the attacker, dealing 1d6 cold damage. This damage increases to 1d8 when in arctic environments or in freezing cold temperatures. You can only deal this damage to a creature once a round per creature."
+        ]
+      }
+    },
+    {
+      "name": "Frozen Weapon",
+      "type": "GV",
+      "source": "erikkuiceandwinter",
+      "requires": [
+        {
+          "weapon": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Frozen ",
+        "source": "erikkuiceandwinter",
+        "tier": "major",
+        "rarity": "rare",
+        "bonusWeapon": "+1",
+        "reqAttune": true,
+        "entries": [
+          "You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+          "This weapon is forged while being quenched in freezing cold oils and mixed with the blood of cold-blooded monsters. When you hit with an attack using this magic weapon, you deal an extra 1d6 of cold damage. When in an arctic environment or in freezing cold temperatures, this bonus increases to 1d8.",
+          "On hit, you also reduce the target’s movement speed by 10 feet. You can only incur this penalty to a creature once a round per creature you hit."
+        ]
+      }
+    }
   ]
 }
