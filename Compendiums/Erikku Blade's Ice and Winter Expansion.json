@@ -180,7 +180,8 @@
           "prepared": {
             "2": [
               "Armor of Agathys",
-              "frost fingers|IDRotF"
+              "frost fingers|IDRotF",
+              "ray of frost"
             ],
             "3": [
               "Winter's Grasp|erikkuiceandwinter",
@@ -786,7 +787,7 @@
       "level": 2,
       "header": 2,
       "entries": [
-        "Your time surviving in the frozen wastes grants you access to certain spells. At 2nd level, you learn the ray of frost cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Frozen Wastes Spells table.",
+        "Your time surviving in the frozen wastes grants you access to certain spells. At 2nd level, you learn the ray of frost cantrip. At 2nd, 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Frozen Wastes Spells table.",
         "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
         {
           "type": "table",
