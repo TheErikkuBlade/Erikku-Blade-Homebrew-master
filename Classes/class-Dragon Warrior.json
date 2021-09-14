@@ -11,7 +11,7 @@
         "convertedBy": [
           "Eriku Blade"
         ],
-        "version": 5,
+        "version": "6.1.0",
         "url": "",
         "targetSchema": "1.0.0"
       },
@@ -1170,7 +1170,7 @@
       "subclassShortName": "Shaman",
       "subclassSource": "DW",
       "level": 7,
-      "header": 1,
+      "header": 2,
       "page": ""
     },
     {
