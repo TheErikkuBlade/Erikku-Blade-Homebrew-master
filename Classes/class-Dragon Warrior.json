@@ -1109,7 +1109,7 @@
               "type": "entries",
               "name": "Lightning",
               "entries": [
-                "A heavy lightning storm brews around you. As a bonus action on each of your turns, you can launch a bolt of lightning toward each creature suffering the effects of your difficult terrain. Each creature makes a Dexterity saving throw against your Draconian Save DC. On a failed save, they take 2d6 lightning damage, or half as much on a success. Alternatively, you can use your bonus action to cause lightning bolts to make a blinding flash of light. Each creature suffering the effects of your difficult terrain makes a Constitution saving throw against your Draconian Save DC. On a failed save they are blinded until the end of your next turn."
+                "A heavy lightning storm brews around you. As a bonus action on each of your turns, you can launch a bolt of lightning toward each creature suffering the effects of your difficult terrain. Each creature makes a Dexterity saving throw against your Draconian Save DC. On a failed save, they take 2d6 lightning damage, or half as much on a success. "
               ]
             },
             {
@@ -1124,6 +1124,41 @@
               "name": "Poison",
               "entries": [
                 "Earthy plants, brambles, and vines rise from the ground around you. As a bonus action, you can cause plants to sprout and release a noxious gas against creatures suffering from your difficult terrain. They make a Constitution saving throw against your Draconian Save DC, or take 2d6 poison damage and become poisoned on a failed save, or they take no damage and are not poisoned on a success."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Force",
+              "entries": [
+                "Gravity increases in that area as amethyst grows from the earth, putting forth pressure onto that creature. As a bonus action, you put even more pressure onto creatures you choose within your difficult terrain. Affected creatures must make a Constitution saving throw or take 2d6 force damage and are prone on a failed save, or take no damage on a success and are not prone."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Radiant",
+              "entries": [
+                "The area around you glows with energy from the positive plane coming from crystals piercing through the ground. As a bonus action, affected creatures you choose must make a Constitution saving throw, taking 2d6 radiant damage and are blinded until the start of your next turn on a failed save, or no damage on a success and are not blinded."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Radiant",
+              "entries": [
+                "Glowing emeralds surface, allowing you to confuse creatures nearby. As an action, choose a creature suffering from the effects of your difficult terrain. They must make an Intelligence saving throw, taking 2d6 psychic damage and suffer from the effects of the Confusion spell until the start of your next turn on a failed save, or no damage on a success and do not suffer the confusion effects."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Thunder",
+              "entries": [
+                "Cracked sapphires scatter throughout the ground. As a bonus action, you can force creatures suffering through your difficult terrain by having the cracked sapphires slide against each other creating a powerful ear piercing noise. Each creature makes a Constitution saving throw or takes 2d6 thunder damage and is deafened on a failed save, or half as much on a success and are not deafened."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Thunder",
+              "entries": [
+                "Topaz pillars rise from the ground filled with energy from the negative energy plane. As an action, you can force creatures suffering from your difficult terrain to make a Constitution saving throw, taking 2d6 necrotic damage and cannot gain the benefits of healing on a failed save, or takes half damage and can heal on a success."
               ]
             }
           ]
