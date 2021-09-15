@@ -1142,7 +1142,7 @@
             },
             {
               "type": "entries",
-              "name": "Radiant",
+              "name": "Psychic",
               "entries": [
                 "Glowing emeralds surface, allowing you to confuse creatures nearby. As an action, choose a creature suffering from the effects of your difficult terrain. They must make an Intelligence saving throw, taking 2d6 psychic damage and suffer from the effects of the Confusion spell until the start of your next turn on a failed save, or no damage on a success and do not suffer the confusion effects."
               ]
@@ -2234,7 +2234,7 @@
     },
     {
       "source": "DrP",
-      "name": "Deadly Veroicity",
+      "name": "Deadly Ferocity",
       "entries": [
         "If you move 20 ft towards a creature and make a melee weapon attack against that creature, you add an additional 1d6 damage of the weapon’s type and they make a strength saving throw DC = 8 + your proficiency bonus + your strength or dexterity modifier. On a failed save, they are knocked prone."
       ],
