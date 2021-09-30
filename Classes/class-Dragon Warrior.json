@@ -2471,7 +2471,7 @@
         "When you manifest your dragon, it comes equipped with an exoctic saddle. This saddle has holsters for up to two weapons and a large quiver that can hold up to 40 arrows. While you are mounted on a dragon, you have the following benefits:",
         {
           "type": "list",
-          "list": [
+          "items": [
             "You have advantage on melee attack rolls against any unmounted creature that is smaller than your dragon.",
             "You can force an attack targeted at your dragon to target you instead.",
             "If your dragon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
