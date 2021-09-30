@@ -14,20 +14,6 @@
         "version": "6.1.0",
         "url": "",
         "targetSchema": "1.0.0"
-      },
-      {
-        "json": "DrP",
-        "abbreviation": "DrP",
-        "full": "Book of Draconian Powers",
-        "authors": [
-          "Erikku Blade"
-        ],
-        "convertedBy": [
-          "Erikku Blade"
-        ],
-        "version": 5,
-        "url": "",
-        "targetSchema": "1.0.0"
       }
     ]
   },
@@ -1861,7 +1847,7 @@
   ],
   "optionalfeature": [
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "All Knowing Eyes",
       "entries": [
         "You learn the {@spell identify} spell and can cast it once without requiring components or spending a spell slot. Charisma is your spellcasting ability for this spell. Instead of having a range of touch, you can identify an object so long as you can see it and is within 30 ft. Once you cast this spell, you cannot cast it again until you finish a short or long rest. If you have the spellcasting or pact magic feature, you can cast this spell using one of those spell slots, but you use the original components and range to do so."
@@ -1869,7 +1855,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Dragonsong",
       "entries": [
         "You gain proficiency in two musical instruments of your choice. ",
@@ -1878,7 +1864,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Sight of the Land and Seas",
       "entries": [
         "You gain a tremorsense of 30 feet."
@@ -1886,7 +1872,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Minor Draconian Senses",
       "entries": [
         "You gain 60 ft of darkvision. If you already had darkvision, its range increases by 30 ft."
@@ -1894,7 +1880,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Eyes of the Magi Drakes",
       "entries": [
         "You learn the {@spell detect magic} spell and can cast it once without requiring components, regaining the usage of it after a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
@@ -1902,7 +1888,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Sense Treasure",
       "entries": [
         "You can detect whether or not gold or magical items are within 30ft of you, but not how much or where specifically. This sense does not properly function if the treasure is worth less than 50 gp in value, or if it is protected by divination magic or if it is wrapped in a thin sheet of lead."
@@ -1910,7 +1896,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Graceful Fall",
       "entries": [
         "You can magically summon forth gales of wind powerful enough to stop your fall. You learn the {@spell feather fall} spell and can cast it without spending a spell slot or requiring components once. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
@@ -1918,7 +1904,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconic Heritage",
       "entries": [
         "Regardless of your race, you can take any racial feat that requires a dragonborn, half dragon, or other similar races."
@@ -1926,7 +1912,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Abstract Origins",
       "entries": [
         "Your ancestry was more prominent with dragon-kind than you initially believed, while you do not gain the natural resistances of both worlds, you have multiple dragon-kind in your history. Choose one additional Draconic Origin. You do not gain any additional proficiencies or resistances, but you can now take feats or Draconian Powers with prerequisites requiring that Draconic Origin."
@@ -1934,7 +1920,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconic Sigils",
       "entries": [
         "You’ve learned how to use special sigils to protect yourself and your belongings. As an action you can carve these sigils onto any object big enough to fit them. In order for a sigil to be active, a creature must attune to it as they would a magic item, but this does not count as an attuned magic item nor does it count against your attunement slots. You have three sigils, a creature can only be attuned to one sigil at a time, any attempt to attune to a different sigil ends the attunement on the previous one. If you die, every sigil you've carved becomes inactive unless you are revived and are dead for no longer than 24 hours. If you are revived within 24 hours of your death, the sigils become active again without requiring attunement.",
@@ -1968,7 +1954,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Knowledge of the Dragon Kin",
       "entries": [
         "You have an astute memory and can recall lore quicker than a scholar. You have advantage on Intelligence ability checks used to recall history, lore, or information on magical creatures."
@@ -1976,7 +1962,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Fiendish Legacy",
       "entries": [
         "Your draconic blood comes from a dragon from either the Abyss or the Nine Hells. You have resistance to damage from fiends and you do not suffer the negative effects of being in the Abyss or the Nine Hells. In addition, regardless of your race you can take any of the racial feats that has a prerequisite for tiefling, or any race with origins from the Abyss or Nine Hells."
@@ -1984,7 +1970,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Acidic Shield",
       "entries": [
         "Your resistance to acid damage becomes improved when traversing through non-magical acid. If you are partially or fully submerged in non-magical acid, you can traverse through it as if you were swimming through water. If you are fully submerged, you take 4d10 acid damage for every minute you spend submerged. If you are partially submerged, you take 2d10 acid damage for every minute you spend submerged."
@@ -2006,7 +1992,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Gift of the Sea Dragon",
       "entries": [
         "You can breathe underwater as you do air. In addition, you gain a swimming speed equal to your walking speed. If you already had a swimming speed, it increases by 30 ft."
@@ -2022,7 +2008,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Magma Walk",
       "entries": [
         "Your resistance to fire damage becomes improved when traversing through non-magical lava. If you are partially or fully submerged in non-magical lava, you can traverse through it as if you were swimming through water. If you are fully submerged, you take 4d10 fire damage for every minute you spend submerged. If you are partially submerged, you take 2d10 fire damage for every minute you spend submerged."
@@ -2044,7 +2030,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Tundra Walker",
       "entries": [
         "You’ve become naturally adept to the frozen climates. You ignore difficult terrain accustomed to frozen wastelands or extremely cold environments, along with any detrimental effects that follows.",
@@ -2061,7 +2047,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconic Sparks",
       "entries": [
         "Lighting coils around your body, making every moment feel electrifying. As a bonus action you summon your Draconic Sparks for 1 minute. While active, your movement speed increases by an amount of feet equal to 5 times your proficiency bonus. In addition, if you take the dash action creatures you move within 5 feet of for the first time on your turn take an amount of lighting damage equal to your proficiency bonus.",
@@ -2078,7 +2064,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Kinetic Feedback",
       "entries": [
         "You magically store energy obtained whenever you are struck by your foes, eventually you release it outward in a powerful blast. Each time you take damage, you store a charge of Kinetic Energy. You can have a maximum number of Kinetic Energy points equal to your proficiency bonus. As an action, you can spend all of your Kinetic Energy points to release outward a powerful shockwave. Every creature within 5ft of you makes a Strength saving throw (dc equals 8 + your proficiency bonus + your constitution modifier.) or takes a number of d10 lighting damage equal to the number of Kinetic Energy points spent and is pushed back a number of feet equal to 10 times the amount of Kinetic Energy points spent. On a successful save, they take half damage and are not pushed.",
@@ -2095,7 +2081,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Toxic Breath",
       "entries": [
         "Your Draconian Breath Weapon becomes a Constitution saving throw instead and poisons creatures who fail their save. The poisoned creatures are poisoned for 1 minute and repeat their saving throws at the end of each of their turns, ending the poison on a success."
@@ -2111,7 +2097,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Cloud Nine",
       "entries": [
         "You can magically sit on clouds. Also, as an action you can magically produce a special cloud that you and your allies can ride on for 10 minutes. Up to two medium sized creatures can fit on this cloud. The cloud has a flying speed of 30 ft and can hover, but it cannot ascend any higher than 30 ft off the ground or it loses form. Moving the cloud is a bonus action on your turn.",
@@ -2134,7 +2120,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Metallic Endurance",
       "entries": [
         "Your metallic scales makes you a tougher foe to fight in martial combat. If you are hit by a weapon attack, as a reaction you can reduce the amount of damage you take by 1d10 plus your proficiency bonus.",
@@ -2157,7 +2143,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Chromatic Influence",
       "entries": [
         "Whenever you make a Charisma ability check or saving throw, you can choose to make the roll at advantage.",
@@ -2180,7 +2166,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "You're a Wizard, Dragon",
       "entries": [
         "A magical spell book appears into your hands. As a bonus action, you can send this spellbook into an extradimensional space and vice versa. You learn one cantrip from the Wizard spell list. You also learn two first level spells from the Wizard spell list and can cast each of them without requiring material components once, regaining the ability to do so after a long rest. The spells are written into your spellbook, and you can use your spellbook as an arcane focus. Intelligence is your spellcasting ability for these spells. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so.",
@@ -2197,7 +2183,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconian Breath Weapon",
       "entries": [
         "You gain a magical breath weapon that allows you to exhale elemental energies out to a range of 30 ft. If you chose a chromatic Draconic Origin, it becomes a cone. If you chose a metallic or a gem Draconic Origin, it becomes a line. The breath weapon takes an action to use and its damage corresponds to the damage you resist from the Draconic Origin you chose. Each creature within range of your breath weapon must make a Dexterity saving throw (dc equals 8 + proficiency bonus + constitution modifier) or they take 4d6 points of damage on a failed save, or half as much on a success. At level 9 its damage increases by 2d6 and its range increases by 10 ft. It increases again using the same amounts at 12th, 15th, and 18th levels. You have a number of uses of your Draconian Breath Weapon equal to your proficiency bonus and regain all expended uses after a long rest."
@@ -2215,7 +2201,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconian Familiar",
       "entries": [
         "You can conjure a tiny dragon to keep you company. You can ritual cast the {@spell Find Familiar} spell without requiring material components, but you can only summon a Pseudodragon with this feature. The Pseudodragon has the “Familiar” feature when summoned in this way."
@@ -2233,7 +2219,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Deadly Ferocity",
       "entries": [
         "If you move 20 ft towards a creature and make a melee weapon attack against that creature, you add an additional 1d6 damage of the weapon’s type and they make a strength saving throw DC = 8 + your proficiency bonus + your strength or dexterity modifier. On a failed save, they are knocked prone."
@@ -2251,7 +2237,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconian Shapechanger",
       "entries": [
         "You learn the {@spell disguise self} and {@spell alter self} spells, and can cast each of them without requiring components once per short or long rest without spending a spell slot. "
@@ -2269,7 +2255,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconic Wings",
       "entries": [
         "You grow a pair of wings that allows you to fly. While you are wearing medium or light armor, or wearing no armor, you gain a flying speed equal to your walking speed."
@@ -2287,7 +2273,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Moderate Draconian Senses",
       "entries": [
         "You gain 10 ft of  blindsight and 120 ft of darkvision if you don’t have it already. If you already had darkvision, its range increases by 60 ft."
@@ -2305,7 +2291,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Mystical Insight",
       "entries": [
         "As an action you can make a Wisdom (Insight) check opposed against an opposing creature’s Charisma (Deception) check. On a success, you can determine whether the creature is evil, good, or neutral and their creature type."
@@ -2323,7 +2309,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Greater Draconian Familiar",
       "entries": [
         "You can conjure a tiny dragon to keep you company. You can ritual cast the {@spell Find Familiar} spell without requiring material components, but you can only summon a Pseudodragon or a Faerie Dragon with this feature. The Pseudodragon or Faerie Dragon has the “Familiar” feature when summoned in this way."
@@ -2341,7 +2327,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Dragon's Fury",
       "entries": [
         "You have a special action that you can use to unleash a powerful barrage of attacks. You make four melee weapon attacks, but you do not add your Strength or Dexterity modifier to the damage rolls of the last two attacks. If you use an ability modifier for damage other than Strength or Dexterity, the same restriction applies. When you use this feature, you lose the ability to do so, but you roll a d6 at the start of each of your turns. On a 5-6 you regain the usage of this feature. You also regain the usage of this feature when you roll initiative."
@@ -2359,7 +2345,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Hyper Draconian Senses",
       "entries": [
         "You gain 30 ft of  blindsight and 120 ft of darkvision if you don’t have it already. Magical darkness no longer impedes your darkvision. If you already had darkvision, its range increases by 60 ft. If you already had blindsight, its range increases by 20 ft."
@@ -2377,7 +2363,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Improved Flight",
       "entries": [
         "Your ability to fly has greatly improved since you started, and now you can rival the speed of most dragons. Your flying speed increases by 30 ft."
@@ -2399,7 +2385,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconic Artifact",
       "entries": [
         "A magical artifact with draconic origins appears in your hand. Work with your DM on the specifics of the magical item, but the specific guidelines of the item goes as follows:",
@@ -2427,7 +2413,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Shared Powers",
       "entries": [
         "Your manifested dragon shares the Draconian Powers that you possess that do not have the “Summoner Archetype” prerequisite."
@@ -2443,7 +2429,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Aura of Friendship",
       "entries": [
         "When your manifested dragon is within 10 feet of you, it has a bonus to all saving throws equal to your charisma modifier, to a minimum of 1."
@@ -2465,7 +2451,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Dragon Rider",
       "entries": [
         "When you manifest your dragon, it comes equipped with an exoctic saddle. This saddle has holsters for up to two weapons and a large quiver that can hold up to 40 arrows. While you are mounted on a dragon, you have the following benefits:",
@@ -2495,7 +2481,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Trained Body",
       "entries": [
         "You’ve trained your manifested dragon to endure the trials of combat. Your manifested dragon has resistance to slashing, piercing, and bludgeoning damage from non-magical attacks."
@@ -2517,7 +2503,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Manifest Draconian Magen",
       "entries": [
         "As a 1 hour ritual you can summon a dragon-like humanoid to be at your service. Use the Demos Magen statblock with the following changes:",
@@ -2548,7 +2534,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Persistent Allies",
       "entries": [
         "Whenever your manifested dragon is within 30 feet of you they regain 5 hit points at the start of their turn as long as they have at least 1 hit point. In addition if they fail a saving throw while within 30 ft of you, they can spend their reaction to reroll that saving throw."
@@ -2570,7 +2556,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Legendary Summons",
       "entries": [
         "When you manifest your dragon, it gains 3 legendary resistances that it can use. See “Legendary Resistance” from an Adult Dragon for reference. These legendary resistances do not recharge per dawn, and you can only give a manifested dragon these legendary resistances once per long rest."
@@ -2592,7 +2578,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Invocation of Shadows",
       "entries": [
         "As an action, you can assume a shadowy form by spending 2 invoke energy that grants you the powers of a shadow dragon for 1 minute. While in this shadowy form, you gain the following benefits:",
@@ -2617,7 +2603,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Invocation of Recovery",
       "entries": [
         "As an action you can spend invoke energy up to your proficiency bonus to touch a creature and heal them for 1d8 hit points per invoke energy spent. Alternatively, as an action you can spend 2 invoke energy to cure a poison or disease afflicting a creature you touch."
@@ -2633,7 +2619,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Invocation of Spell Recovery",
       "entries": [
         "During a short rest, you can spend hit dice to restore spent 1st level spell slots. Once you do so, you cannot do so again until you finish a long rest."
@@ -2655,7 +2641,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Invocation of Greater Spell Recovery",
       "entries": [
         "During a short rest, you can spend hit dice to restore spent 2nd level spell slots. Once you do so, you cannot do so again until you finish a long rest."
@@ -2677,7 +2663,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Legendary Invocation",
       "entries": [
         "When you spend invoke energy to use one of your invocations, you gain a legendary resistance. See “Legendary Resistance” from an Adult Dragon for reference. You can only gain up to 3 legendary resistances per long rest, and you can only gain a legendary resistance once per round."
@@ -2699,7 +2685,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Rune of Old Magicks",
       "entries": [
         "Magical runes appear on your body with spells stored inside of them. You learn one cantrip from the sorcerer spell list and any two 1st level spells from the sorcerer spell list. When you cast either of these spells, you cannot cast that spell using this rune again until you finish a long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
@@ -2721,7 +2707,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Rune of Spell Disruption",
       "entries": [
         "A magical rune appears on your hand which contains the power to disrupt spells. You learn the {@spell counterspell} and {@spell dispel magic} spells. When you cast either of these spells, you cannot cast that spell using this rune again until you finish a long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
@@ -2743,7 +2729,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Rune of Greater Magicks",
       "entries": [
         "You learn two additional spells from the sorcerer spell list. These spells follow the same rules as the ones from the Rune of Old Magicks, but can be of 1st to 3rd level spells."
@@ -2765,7 +2751,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Legendary Runes",
       "entries": [
         "Your runic power fills you with old magic that you can use to further protect yourself from modern magic. Whenever you invoke the latent power of your runes, you gain a legendary resistance. See “Legendary Resistance” from an Adult Dragon for reference. You can only gain up to 3 legendary resistances per long rest, and you can only gain a legendary resistance once per round."
@@ -2787,7 +2773,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Powerful Form",
       "entries": [
         "While in your Draconic Shape, you have advantage on Strength ability checks and Strength saving throws. In addition, you add an amount of damage to your natural weapons equal to half your proficiency bonus (rounded down)."
@@ -2809,7 +2795,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Legendary Shape",
       "entries": [
         "When you use your Draconic Shape, you gain 30 temporary hit points. In addition, you gain 3 Legendary Resistances when you change into your Draconic Shape. See “Legendary Resistance” from an Adult Dragon for reference. You only gain these Legendary Resistance once per long rest."
@@ -2831,7 +2817,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Draconic Tail",
       "entries": [
         "Both in your humanoid shape and your Draconic Shape you have a powerful tail. This tail counts as a natural weapon and does 1d8 bludgeoning damage. It uses Strength for its attack and damage rolls. In your Draconic Shape you have advantage on your athletics check if the creature is your size or smaller.",
@@ -2848,7 +2834,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Limited Telepathy",
       "entries": [
         "You have a magical telepathic power that can be summoned at any time. You know the {@spell message} cantrip and can cast it without using components. Charisma is your spellcasting ability for this cantrip."
@@ -2864,7 +2850,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Limited Psionics",
       "entries": [
         "You have a small pool of psionic power which you can call upon at any time. You know the {@spell Mind Sliver|TCE} cantrip. In addition you know the {@spell Dissonant Whispers} spell and can cast it without spending a spell slot or requiring components once. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
@@ -2880,7 +2866,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Improved Psionics",
       "entries": [
         "Your psionic powers have grown as you’ve slowly honed them. You learn the {@spell Tasha's Mind Whip|TCE} and {@spell Intellect Fortress|TCE} spells and can cast them without spending a spell slot or requiring components once. When you cast either spell in this manner, you cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for these spells and if you have the spellcasting or pact magic feature you can cast either of them using those appropriate spell slots, but doing so would require the necessary components."
@@ -2902,7 +2888,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Improved Telepathy",
       "entries": [
         "Your telepathic powers have improved, allowing you to reach your mind out further than you were able to previously. You learn the {@spell Sending} and {@spell Rary's Telepathic Bond} spells and can cast them without spending a spell slot or requiring components once. When you cast either spell in this manner, you cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for these spells and if you have the spellcasting or pact magic feature you can cast either of them using those appropriate spell slots, but doing so would require the necessary components."
@@ -2924,7 +2910,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Gem Growth",
       "entries": [
         "As an action you can produce gems out of your body to form a weapon in moments of desperation. When you do so, you form a weapon with the statistics of a {@item dagger} and its properties. Instead of dealing piercing damage, it deals the damage associated with the damage you resist from your Draconic Origin. After you hit with the weapon a number of times equal to your proficiency bonus, the weapon is destroyed as the gems are imperfect and brittle. You can use this power a number of times equal to your proficiency bonus, regaining the ability to do so after a long rest."
@@ -2946,7 +2932,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Leap to the Skies",
       "entries": [
         "Using the magical power dwelling within you, you can empower your leaps even further! You learn the {@spell Jump} spell and can cast it without spending a spell slot or requiring components once. The spell does not affect the distance you can jump using your lunging attack. You cannot do so again until you finish a short or long rest. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components."
@@ -2962,7 +2948,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Dancing Whirlwind",
       "entries": [
         "When you use your Lunging Attack while your Dance of Dragons is active, you can forgo your advantage along with any additional attacks you make as part of your attack action to instead make a single weapon attack that targets each creature within 5 feet of the space you land as part of your lunging attack. You use that attack roll to determine if it hits each creature. If it hits at least one of those creatures, you roll the damage as if you had hit one creature, half the total, and deal that damage to each creature that was hit."
@@ -2984,7 +2970,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Legendary Skydancer",
       "entries": [
         "When you use a Skydancing Art, you gain a legendary resistance. See “Legendary Resistance” from an Adult Dragon for reference. You can only gain up to 3 legendary resistances per long rest, and you can only gain a legendary resistance once per round."
@@ -3006,7 +2992,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Mystic Arts",
       "entries": [
         "You’ve honed your training with just your physical body, enhancing your ability to fight without a weapon. If you aren't wielding any weapons or a shield when you make the attack roll, your unarmed strikes are treated as natural weapons and have the finesse and light properties. In addition, your unarmed strikes deal 1d6 plus your strength or dexterity modifier bludgeoning, piercing, or slashing damage instead of its normal amount.",
@@ -3043,7 +3029,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Mystical Ancestors",
       "entries": [
         "You learn the {@spell Spirit Shroud|TCE} spell and can cast it once without requiring components, regaining the usage of it after a short or long rest. When you cast the spell using this feature, it deals the damage you resist from your Draconic Origin instead of its original damage options and the dead spirits are instead spirits of the dragons of your ancestry. Charisma is your spellcasting ability for this spell and if you have the spellcasting or pact magic feature you can cast this spell using those appropriate spell slots, but doing so would require the necessary components and you follow the spell’s normal guidelines."
@@ -3065,7 +3051,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Legendary Ancestry",
       "entries": [
         "When you use your Mystical Strikes feature, you gain a number of temporary hit points equal to your proficiency bonus and you gain a legendary resistance. See “Legendary Resistance” from an Adult Dragon for reference. You can only gain up to 3 legendary resistances per long rest, and you can only gain a legendary resistance once per round."
@@ -3087,7 +3073,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Divine Magic",
       "entries": [
         "Metallic Dragons harness the divine powers of Bahamut, having origins from these dragons offers you the same blessing of divine magic. You learn the {@spell guidance} cantrip and can cast it at will. In addition you learn {@spell cure wounds} and one 1st level spell from the cleric or paladin spell lists. You can cast either spell without using material components, even costly ones. When you cast either of these spells, you cannot cast that spell until you finish a short long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
@@ -3109,7 +3095,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Aberrant Origins",
       "entries": [
         "Your draconic origins draw deeper than from the powerful mythical beasts themselves. Mayhaps your kin are from the distant Far Realm, a horrid place of unspeakable creatures. As a result, your body becomes permanently altered, granting you new abilities as a result. Your creature type becomes your original creature type and aberration.You learn to speak, read, and write Deep Speech. If you already know Deep Speech, you can choose another exotic language instead.",
@@ -3128,7 +3114,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Eldritch Horror",
       "entries": [
         "Your eldritch powers become more potent as your experience grows. When you use your action to create your eldritch tentacles, you can force every creature within 30 feet of you that can see you to make a Wisdom saving throw (DC: 8 + proficiency bonus + charisma modifier ) or be {@condition frightened} until the end of your next turn. While frightened in this way, the creatures are also {@condition stunned}."
@@ -3152,7 +3138,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Elder Abomination",
       "entries": [
         "You have two uses of your Aberrant Origins feature instead of one. In addition, as an action you can use your eldritch tentacles to attempt to {@action grapple} as many creatures within 10 feet of you  as you have eldritch tentacles. Creatures successfully {@condition grappled} by you are {@condition restrained}. If you do not have at least one of your eldritch tentacles free, you do not gain the reach improvement for your weapons.",
@@ -3177,7 +3163,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Fey Dragon",
       "entries": [
         "Your draconic ancestors stem from the reaches of the Twilit forests of the Feywild, granting you the properties of a Fey-like Dragon. You can speak, read, and write Sylvan. If you already know Sylvan, you can learn one other exotic language instead. In addition, whenever you complete a long rest you can choose to gain one of the following properties:",
@@ -3202,7 +3188,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Euphoria Breath",
       "entries": [
         "Your breath becomes a puff of confusing and colorful gas, just like many creatures of the feywild. Your Draconian Breath Weapon becomes a Wisdom saving throw and a creature who fails, for 1 minute, can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn:",
@@ -3220,7 +3206,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Repulsion Breath",
       "entries": [
         "Your breath weapon gains a repulsive blast which can knock enemies back. Your Draconian Breath Weapon becomes a Strength saving throw instead and knocks creatures who fail the save back 15 feet."
@@ -3236,7 +3222,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Sleepy Breath",
       "entries": [
         "Your breath weapon becomes a steaming gas that knocks the vitality out of creatures. Your Draconian Breath Weapon becomes a Constitution saving throw instead and creatures who fail fall {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
@@ -3252,7 +3238,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Freezing Breath",
       "entries": [
         "Your breath becomes a cold gas that freezes creatures solid temporarily. Your Draconian Breath Weapon becomes a Constitution saving throw instead and creatures who fail become {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
@@ -3268,7 +3254,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Weakening Breath",
       "entries": [
         "Your breath can sunder powerful creatures useless with a stupefying gas. Your breath weapon becomes a Strength saving throw and creatures who fail have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
@@ -3284,7 +3270,7 @@
       "featureType": "Draconian Powers"
     },
     {
-      "source": "DrP",
+      "source": "DW",
       "name": "Slowing Breath",
       "entries": [
         "Your breath can release an acidic gas which can slow an enemy’s movements. Your Draconian Breath weapon becomes a Constitution saving throw instead and creatures who fail can't use reactions, its speed is halved, and it can't make more than one attack on its turn. These effects last for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
