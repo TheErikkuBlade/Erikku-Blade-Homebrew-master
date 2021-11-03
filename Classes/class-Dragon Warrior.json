@@ -133,15 +133,18 @@
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
-          "(a) a {@item longsword|phb} or (b) any {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+          "(a) any two {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} or (b) any {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
           "(a) an {@item explorer's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
           "(a) an {@item arcane focus|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-          "(a) {@item scale mail|phb} or (b) {@item shield|phb}"
+          "(a) {@item scale mail|phb} and a {@item shield|phb} or (b) {@item leather armor|phb} and a {@item longbow|phb} with a {@item quiver} containing {@item arrows (20)|phb|20 arrows}"
         ],
         "defaultData": [
           {
             "a": [
-              "longsword|phb"
+              {
+                "equipmentType": "weaponSimple",
+                "quantity": 2
+              }
             ],
             "b": [
               {
@@ -167,10 +170,14 @@
           },
           {
             "a": [
-              "scale mail|phb"
+              "scale mail|phb",
+              "shield|phb"
             ],
             "b": [
-              "shield|phb"
+              "leather armor|phb",
+              "longbow|phb",
+              "quiver|phb",
+              "arrows (20)|phb"
             ]
           }
         ],
