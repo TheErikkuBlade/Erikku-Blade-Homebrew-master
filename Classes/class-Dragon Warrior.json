@@ -2449,6 +2449,27 @@
     },
     {
       "source": "DW",
+      "name": "Aberrant Origins",
+      "entries": [
+        "Your draconic origins draw deeper than from the powerful mythical beasts themselves. Mayhaps your kin are from the distant Far Realm, a horrid place of unspeakable creatures. As a result, your body becomes permanently altered, granting you new abilities as a result. Your creature type becomes your original creature type and aberration.You learn to speak, read, and write Deep Speech. If you already know Deep Speech, you can choose another exotic language instead.",
+        "In addition, as an action you can create a number of eldritch tentacles equal to your proficiency bonus for up to 1 minute, and you can dismiss them at any time (no action required). These tentacles can extend the reach of your melee weapons by 5 feet, provided you have at least one of them. A weapon with the two-handed or heavy properties requires at least two eldritch tentacles to gain this benefit. (Example: a longsword will have a reach of 10 feet whereas a weapon with the reach property, such as a glaive, would have a reach of 15 feet.)",
+        "Whenever you take damage, as a reaction you can sacrifice one of these eldritch tentacles to reduce the damage by an amount equal to your proficiency bonus.",
+        ""
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "any draconic origin",
+            "entrySummary": "any draconic origin"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "DW",
       "name": "Eldritch Horror",
       "entries": [
         "Your eldritch powers become more potent as your experience grows. When you use your action to create your eldritch tentacles, you can force every creature within 30 feet of you that can see you to make a Wisdom saving throw (DC: 8 + proficiency bonus + charisma modifier ) or be {@condition frightened} until the end of your next turn. While frightened in this way, the creatures are also {@condition stunned}."
@@ -2813,6 +2834,9 @@
         "As a bonus action, you can choose a creature you can see within 30 feet of you and attempt to alter their perception. They must make an Intelligence saving throw, DC equals 8 + your proficiency bonus + your Charisma modifier, and they take {@damage 2d10} psychic damage and have disadvantage on saving throws until the start of your next turn on a failed save.",
         "You can use this feature twice, regaining all expended uses when you finish a long rest."
       ],
+      "featureType": [
+        "Draconic Power"
+      ],
       "prerequisite": [
         {
           "level": {
@@ -2826,9 +2850,6 @@
             "entrySummary": "Emerald Draconic Origin"
           }
         }
-      ],
-      "featureType": [
-        "Draconic Power"
       ]
     },
     {
@@ -2880,6 +2901,249 @@
           "otherSummary": {
             "entry": "Topaz Draconic Origin",
             "entrySummary": "Topaz Draconic Origin"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "DW",
+      "name": "Gift of the Wyvern",
+      "entries": [
+        "As a bonus action, you can soak your weapons in a special potent poison. For the next minute, the next time you hit with an attack made with a weapon, the creature needs to make a Constitution saving throw (DC = 8 + Proficiency Bonus + Constitution modifier). On a failed save, the creature takes 1d6 poison damage and is poisoned for 1 minute, or half as much on a success and is not poisoned. The damage of this power increases as you gain levels in this class, becoming 1d8 at 6th level, 1d10 at 10th level, and 1d12 at 14th level.",
+        "You can use this draconic power twice, regaining all expended uses when you finish a long rest."
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "DW",
+      "name": "Draconic Alchemy",
+      "entries": [
+        "Your draconic blood allows you to infuse your own blood into magical potions that you and your allies can gain benefits from. You gain proficiency with alchemist supplies. With your current experience, you can only empower certain potions you have in your possession. During a short rest, or with one hour of work and by spending 1 hit die, you can have the following potions gain the following benefits:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Potion of Healing (all varieties)",
+              "entries": [
+                "Each die used for healing becomes a d6."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Potion of Resistance (Only the damage type you resist from your Draconic Origin)",
+              "entries": [
+                "In addition to gaining resistance to the damage type, the drinker reduces all damage they take from that type by an amount equal to your proficiency bonus."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Potion of Growth",
+              "entries": [
+                "The d4 extra damage increases to a d6."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Potion of Giant Strength (all varieties)",
+              "entries": [
+                "The strength score listed becomes 1 point higher. Example, a Potion of Hill Giant strength becomes 22 instead of 21."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Potion of Fire Breath",
+              "entries": [
+                "The damage the breath does becomes the damage you resist from your Draconic Origin. In addition, the DC is increased by your proficiency bonus and does one extra d6 of damage."
+              ]
+            }
+          ]
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "DW",
+      "name": "Intermediate Draconic Alchemy",
+      "entries": [
+        "During a short rest, or with one hour of work, you can spend a hit die and touch a vial, potion, or similarly sized container. You fill the container with your blood which then magically changes into one of the following potions, which are then empowered similarly to your Draconic Alchemy powers:",
+        {
+          "type": "list",
+          "items": [
+            "Potion of Healing",
+            "Potion of Growth",
+            "Potion of Fire Breath"
+          ]
+        },
+        "Potions created using this power lasts for 24 hours, after which the liquid inside of the potion disappears in a puff of smoke.",
+        "In addition, using the same method, you may empower the following potions with the following benefits:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Potion of Heroism",
+              "entries": [
+                "The temporary hit points received increases by an amount equal to your dragon warrior level."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Potion of Mind Reading",
+              "entries": [
+                "The DC of the effect is increased by your proficiency bonus."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Potion of Dimmunation",
+              "entries": [
+                "You no longer have disadvantage on strength ability checks or saving throws, nor do you receive a damage reduction for being smaller."
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Draconic Alchemy",
+            "entrySummary": "Draconic Alchemy"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "DW",
+      "name": "Advanced Draconic Alchemy",
+      "entries": [
+        "During a short rest, or with one hour of work, you can spend a hit die and touch a vial, potion, or similarly sized container. You fill the container with your blood which then magically changes into one of the following potions, which are then empowered similarly to your Draconic Alchemy powers:",
+        {
+          "type": "list",
+          "items": [
+            "Potion of Greater Healing",
+            "Potion of Hill Giant Strength",
+            "Potion of Resistance (you can only choose the resistance you gain from your Draconic Origin)"
+          ]
+        },
+        "Potions created using this power lasts for 24 hours, after which the liquid inside of the potion disappears in a puff of smoke.",
+        "In addition, using the same method, you may empower the following potions with the following benefits:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Potion of Flying",
+              "entries": [
+                "The flying speed given is now double your walking speed instead of equal."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Potion of Vitality",
+              "entries": [
+                "When consumed, the potion gives the affected creature’s hit point maximum is increased by your proficiency bonus."
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Draconic Alchemy, Intermediate Draconic Alchemy",
+            "entrySummary": "Draconic Alchemy, Intermediate Draconic Alchemy"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "DW",
+      "name": "Mastered Draconic Alchemy",
+      "entries": [
+        "During a short rest, or with one hour of work, you can spend a hit die and touch a vial, potion, or similarly sized container. You fill the container with your blood which then magically changes into one of the following potions, which are then empowered similarly to your Draconic Alchemy powers:",
+        {
+          "type": "list",
+          "items": [
+            "Potion of Superior Healing",
+            "Potion of Stone Giant Strength",
+            "Potion of Heroism",
+            "Potion of Dimmunation"
+          ]
+        },
+        "Potions created using this power lasts for 24 hours, after which the liquid inside of the potion disappears in a puff of smoke."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 14,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Draconic Alchemy, Intermediate Draconic Alchemy, Advanced Draconic Alchemy",
+            "entrySummary": "Draconic Alchemy, Intermediate Draconic Alchemy, Advanced Draconic Alchemy"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "DW",
+      "name": "Legendary Draconic Alchemy",
+      "entries": [
+        "During a short rest, or with one hour of work, you can spend a hit die and touch a vial, potion, or similarly sized container. You fill the container with your blood which then magically changes into one of the following potions, which are then empowered similarly to your Draconic Alchemy powers:",
+        {
+          "type": "list",
+          "items": [
+            "Potion of Supreme Healing",
+            "Potion of Flying",
+            "Potion of Fire Giant Strength",
+            "Potion of Vitality",
+            "Potion of Dragon's Majesty (The dragon the drinker becomes is related to your Draconic Origin)"
+          ]
+        },
+        "Potions created using this power lasts for 24 hours, after which the liquid inside of the potion disappears in a puff of smoke."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 20,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Draconic Alchemy, Intermediate Draconic Alchemy, Advanced Draconic Alchemy, Mastered Draconic Alchemy",
+            "entrySummary": "Draconic Alchemy, Intermediate Draconic Alchemy, Advanced Draconic Alchemy, Mastered Draconic Alchemy"
           }
         }
       ],
