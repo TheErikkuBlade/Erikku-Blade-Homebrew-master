@@ -1066,7 +1066,7 @@
       "classSource": "EBFateWeaver",
       "level": 7,
       "entries": [
-        "Upon reaching 7th level, you can cast the Divination spell without expending a spell slot a number of times equal to half your Charisma Modifier. (Rounded down) You regain all expended uses of this feature after a long rest."
+        "Upon reaching 7th level, you can cast the {@spell Divination} spell without expending a spell slot once. You regain the ability to do so again after you finish a long rest."
       ],
       "page": 3
     },
@@ -1100,7 +1100,7 @@
       "classSource": "EBFateWeaver",
       "level": 11,
       "entries": [
-        "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a reaction, you can expend one of your divination dice to force a creature you can see within 60 feet of you, or yourself, to reroll an ability check, attack roll, or saving throw. The creature must use the new result, even if they have a feature that allows them to reroll."
+        "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a reaction, you can expend one of your divination dice to force a creature you can see within 60 feet of you, or yourself, to reroll an ability check, attack roll, or saving throw. The creature must use the new result, even if they have a feature that allows them to reroll. Once you’ve used this feature, you cannot use it again until you finish a long rest."
       ],
       "page": 5
     },
