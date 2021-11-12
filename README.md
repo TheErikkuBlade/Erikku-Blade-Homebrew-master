@@ -1,4 +1,4 @@
-# Erikku
+# Instructions for Integrations
 
 Many of the homebrew provided here are currently only integrated for the use of the 5eTools site.
 However, I intend to add PDF versions of my homebrew content in addition to the 5eTools Integration!
