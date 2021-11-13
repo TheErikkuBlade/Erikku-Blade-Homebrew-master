@@ -2516,7 +2516,7 @@
     {
       "name": "Way of the Four Elements Redux",
       "shortName": "Four Elements RE",
-      "source": "PHB",
+      "source": "ErikkusElementalExpansionCompendium",
       "className": "Monk",
       "classSource": "PHB",
       "spellcastingAbility": "wis",
