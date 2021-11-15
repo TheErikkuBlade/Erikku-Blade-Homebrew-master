@@ -1,0 +1,1204 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "ErikkuBladesHealersKit",
+        "abbreviation": "EHK",
+        "full": "Erikku Blade's Healer's Kit",
+        "url": "",
+        "authors": [
+          "Erikku Blade"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ]
+      }
+    ],
+    "dateAdded": 1636773354,
+    "dateLastModified": 1636773354
+  },
+  "spell": [
+    {
+      "name": "Shielding Vitality",
+      "source": "ErikkuBladesHealersKit",
+      "level": 2,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "which you take when you or a creature within range would take damage"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You can prevent harm from coming to you or your allies. As a reaction when you or a friendly creature who doesn't have all of its hit points would take damage within range, you can reduce the damage that creature would take by {@damage 1d6} + your spellcasting ability modifier."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ward of Vitality",
+      "source": "ErikkuBladesHealersKit",
+      "level": 4,
+      "school": "A",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a trinket or holy symbol made of gold or silver worth 500 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "entries": [
+        "For the duration, up to eight willing creatures gain 20 temporary hit points. If any of these remain when the spell ends, they are lost. While they have these temporary hit points, they have advantage on Constitution and Wisdom saving throws and their hit point maximum cannot be reduced."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the temporary hit points gained is increased by 10 for each slot level above 4th."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          }
+        ]
+      }
+    }
+  ],
+  "subclass": [
+    {
+      "name": "College of Minstrel",
+      "shortName": "Minstrel",
+      "source": "PHB",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "College of Minstrel|Bard||Minstrel|ErikkuBladesHealersKit|3",
+        "Traveler's Song|Bard||Minstrel|ErikkuBladesHealersKit|3",
+        "Minstrel's Melody|Bard||Minstrel|ErikkuBladesHealersKit|3",
+        "Shelter of The Travelers|Bard||Minstrel|ErikkuBladesHealersKit|6",
+        "Minstrel's Duet|Bard||Minstrel|ErikkuBladesHealersKit|14",
+        "Minstrel's Inspiration|Bard||Minstrel|ErikkuBladesHealersKit|14"
+      ]
+    },
+    {
+      "name": "Oath of Charity",
+      "source": "ErikkuBladesHealersKit",
+      "shortName": "Charity",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "healing word",
+              "shield of faith"
+            ],
+            "5": [
+              "healing spirit|XGE",
+              "shielding vitality|ErikkuBladesHealersKit"
+            ],
+            "9": [
+              "create food and water",
+              "life transference|XGE"
+            ],
+            "13": [
+              "aura of life",
+              "ward of vitality|ErikkuBladesHealersKit"
+            ],
+            "17": [
+              "greater restoration",
+              "mass cure wounds"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Oath of Charity|Paladin|PHB|Charity|ErikkuBladesHealersKit|3",
+        "Channel Divinity: Mend the Wounded|Paladin|PHB|Charity|ErikkuBladesHealersKit|3",
+        "Channel Divinity: Protect the Weak|Paladin|PHB|Charity|ErikkuBladesHealersKit|3",
+        "Aura of Regeneration|Paladin|PHB|Charity|ErikkuBladesHealersKit|7",
+        "Shield the Wounded|Paladin|PHB|Charity|ErikkuBladesHealersKit|15",
+        "Giver of Life|Paladin|PHB|Charity|ErikkuBladesHealersKit|20"
+      ]
+    },
+    {
+      "name": "Circle of Remedies",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "2": [
+              "goodberry",
+              "sleep"
+            ],
+            "3": [
+              "aid",
+              "calm emotions"
+            ],
+            "5": [
+              "speak with plants",
+              "mass healing word"
+            ],
+            "7": [
+              "aura of purity",
+              "ward of vitality|ErikkuBladesHealersKit"
+            ],
+            "9": [
+              "commune with nature",
+              "greater restoration"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Circle of Remedies|Druid|PHB|Remedies|ErikkuBladesHealersKit|2",
+        "Circle Spells|Druid|PHB|Remedies|ErikkuBladesHealersKit|2",
+        "Natural Herbalist|Druid|PHB|Remedies|ErikkuBladesHealersKit|2",
+        "Remedies of The Wild|Druid|PHB|Remedies|ErikkuBladesHealersKit|2",
+        "Additional Remedies|Druid|PHB|Remedies|ErikkuBladesHealersKit|6",
+        "Nature's Guardian|Druid|PHB|Remedies|ErikkuBladesHealersKit|6",
+        "Additional Remedies|Druid|PHB|Remedies|ErikkuBladesHealersKit|10",
+        "Champion of Nature|Druid|PHB|Remedies|ErikkuBladesHealersKit|14"
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "shortName": "Remedies",
+      "className": "Druid",
+      "classSource": "PHB"
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Circle of Remedies",
+      "source": "ErikkuBladesHealersKit",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "subclassShortName": "Remedies",
+      "page": null,
+      "level": 2,
+      "entries": [
+        "Nature provides natural forms of remedies for poisons, disease, illness, and wounds. Druids a part of this circle are particularly skilled in taking these natural remedies and magically enhancing them, dedicating their lives to preserving the lives of their circle and the lives of the creatures of their terrain."
+      ]
+    },
+    {
+      "name": "Circle Spells",
+      "source": "ErikkuBladesHealersKit",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "subclassShortName": "Remedies",
+      "page": null,
+      "level": 2,
+      "header": 2,
+      "entries": [
+        "Many druids form a connection to nature, but few to this level. Your connection to the natural world grants you access to some spells when you reach certain levels in this class, as shown on the Circle of Wildfire Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+          "type": "table",
+          "caption": "Circle of Remedies Spells",
+          "colLabels": [
+            "Druid Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "2nd",
+              "{@spell goodberry}, {@spell sleep}"
+            ],
+            [
+              "3rd",
+              "{@spell aid}, {@spell calm emotions}"
+            ],
+            [
+              "5th",
+              "{@spell speak with plants}, {@spell mass healing word}"
+            ],
+            [
+              "7th",
+              "{@spell aura of purity}, {@spell ward of vitality|ErikkuBladesHealersKit}"
+            ],
+            [
+              "9th",
+              "{@spell commune with nature}, {@spell greater restoration}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Natural Herbalist",
+      "entries": [
+        "Starting at 2nd level, your proficiency bonus is doubled when you make an ability check using a herbalism kit. In addition, you gain proficiency in Nature and Survival and your proficiency bonus is doubled when making an ability check using those skills.",
+        "In addition, you are an expert at brewing potions of healing. The cost and time required for you to craft potions of healing is halved."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Remedies",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 2,
+      "header": 2
+    },
+    {
+      "name": "Remedies of The Wild",
+      "entries": [
+        "Also at 2nd level, by performing a 10 minute ritual you can magically create special herbs that can be used as medical remedies. You create a number of these remedies equal to your proficiency bonus, choosing from the following remedies for each one:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Remedy of Wound Closure",
+              "entries": [
+                "A creature may use a bonus action to quickly chew on this remedy, igniting regenerative properties. They magically regain 1d6 plus your Wisdom modifier hit points and any scars, magical or non-magical, are removed. This healing has no effect on undead or constructs and has no effects on unconscious creatures."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Remedy of Curing",
+              "entries": [
+                "A creature may use a bonus action to consume this remedy, removing any poisons or diseases afflicting them."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Remedy of Revitalization",
+              "entries": [
+                "A creature may use an action to break this remedy and release a magical vapor which rejuvenates an {@condition unconscious} creature. An {@condition unconscious} creature that is not at 0 hit points becomes awake and conscious again, unless they are cursed to be {@condition unconscious}. A creature at 0 hit points and is {@condition unconscious} regains 1 hit point and regains consciousness, instantly coming to their feet with a burst of energy."
+              ]
+            }
+          ]
+        },
+        "A creature may also use an action to apply these remedies to another creature.",
+        "Once you create these magical remedies, they last for 24 hours until they lose their potency and you cannot create them again until you finish a short or long rest. The first time you use this feature after each long rest, you can create these magical remedies without expending a spell slot. All other times you expend a spell slot of 1st-level or higher."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Remedies",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 2,
+      "header": 2
+    },
+    {
+      "name": "Additional Remedies",
+      "entries": [
+        "At 6th level, the list of remedies you can create expands as your knowledge of remedies increases:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Remedy of Restoration",
+              "entries": [
+                "A creature can use an action to apply this remedy to themselves or another creature, allowing them to remove one condition listed in the {@spell lesser restoration} spell."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Remedy of Heightened Senses",
+              "entries": [
+                "A creature can use a bonus action to apply this remedy on their eyes and ears. The creature has advantage on Wisdom (Perception) checks and gains the benefits of the {@spell see invisibility} spell for 1 hour. After the hour has passed, the creature becomes blinded and deafened for 1 minute as pain swells up in their eyes and ears suffering the drawback of the remedy."
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Remedies",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 6,
+      "header": 2
+    },
+    {
+      "name": "Nature's Guardian",
+      "entries": [
+        "Also at 6th level, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to have yourself, or a creature you can see within 30 feet of you regain 1d6 hit points per level of the spell slot expended. Regardless of how many dice you roll, you add your Wisdom modifier to the total amount of hit points restored.",
+        "In addition, as a bonus action while in your Wild Shape form or your normal form, you can gain a restorative aura that heals your allies that extends out to a 10-foot radius which lasts for 1 minute. Each creature (other than yourself) that starts its turn in the aura, or enters it for the first time on its turn, regains a number of hit points equal to your proficiency bonus.",
+        "A creature can recover hit points from this aura a number of times equal to your proficiency bonus, regaining the ability to heal from it again when they finish a long rest.",
+        "Once you create this aura, you cannot do so again until you finish a long rest unless you expend a 3rd-level or higher spell slot to regain a use of the aura."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Remedies",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 6,
+      "header": 2
+    },
+    {
+      "name": "Additional Remedies",
+      "entries": [
+        "At 10th level, the list of remedies you can create expands as your knowledge of remedies increases:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Remedy of Adrenaline",
+              "entries": [
+                "A creature can use a bonus action to inhale this remedy, granting them a boost in motor functions. They gain the benefits of the haste spell for a number of rounds equal to your proficiency bonus. They suffer from the lethargy the haste spell gives after the benefits ends."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Remedy of Stone Melting",
+              "entries": [
+                "A creature can use an action to apply this remedy onto a {@condition petrified} creature. At the end of the {@condition petrified} creature’s next turn, they are no longer {@condition petrified}."
+              ]
+            }
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Remedies",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 10,
+      "header": 2
+    },
+    {
+      "name": "Champion of Nature",
+      "entries": [
+        "At 14th level, you’ve achieved the peak of your magical abilities. There is no longer a limit to how many times a creature can heal from your aura created by your Nature’s Guardian feature and the aura becomes a 20-foot radius. In addition, you also regain hit points at the start of your turns while your aura is active.",
+        "Also, when you restore hit points to a creature using a spell of 1st-level or higher, or when they would restore hit points from one of your remedies, they regain an additional amount of hit points equal to your proficiency bonus."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Remedies",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 14,
+      "header": 2
+    },
+    {
+      "name": "College of Minstrel",
+      "source": "ErikkuBladesHealersKit",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "subclassShortName": "Minstrel",
+      "page": null,
+      "level": 3,
+      "entries": [
+        "The College of Minstrel cannot be found on any map, nor is it defined to one location. No one place is defined as home to these bards, rather, they consider those they travel with their true home. The world is their home, and the people in it are mere extensions of their family. These bards protect their family as they would themselves and focus on healing. These bards also have a particular liking to poetry and songs, as it spreads joy to those who listen."
+      ]
+    },
+    {
+      "name": "Traveler's Song",
+      "entries": [
+        "At 3rd level, while travelling or spending downtime you can play a song that keeps your allies focused and determined on their tasks.",
+        "Provided your allies can see or hear you during the task, they have advantage on any ability checks associated with the task. When you use this feature, you are assumed to be spending your own ability to partake in downtime activities or other tasks during travel, however you may still partake in certain tasks, such as performing at a tavern if the allies you are aiding are in said tavern, with approval by your DM.",
+        "In addition, one of those creatures may add a bonus to one of their rolls equal to one roll of your bardic inspiration die.",
+        {
+          "type": "inset",
+          "entries": [
+            "As an example, a Ranger who goes hunting for resources during downtime can have advantage on their Wisdom (Survival) ability check in addition to any other ability checks associated with hunting. Or, if you are traveling at a slow pace to stealth during your travel for safety, you and your allies can have advantage on Dexterity (Stealth) checks, provided they can see you. A wizard who is trying to sell a magic item in a tavern may still allow you to perform entertainment for the tavern and grant the benefits to the wizard."
+          ]
+        }
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Minstrel",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "name": "Minstrel's Melody",
+      "entries": [
+        "Also at 3rd level, when a 1st level or higher spell you cast would restore a creature’s hit points, they can regain an additional amount of hit points equal to one roll of your bardic inspiration die. A creature that receives this bonus gains a bonus to their next attack roll, ability check, or saving throw they make until the start of your next turn equal to the number rolled on the inspiration die."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Minstrel",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "name": "Shelter of The Travelers",
+      "entries": [
+        "Starting at 6th level, you learn the {@spell Leomund's tiny hut} spell, which counts as a bard spell for you but doesn’t count against your total number of known spells, and you can cast it once without expending a spell slot or requiring material components. When you cast the spell using this feature, the dome created covers a 20-foot radius instead, allowing more than 9 medium or smaller creatures to fit inside the radius, and you can enter and exit the hut as you please without ending the spell.",
+        "The hut itself, and creatures inside of the hut, are {@condition invisible} for the duration of the spell. As an action, you can allow the hut and the creatures inside of the hut to be seen, or you can use another action to hide the hut and the creatures inside.",
+        "You regain the ability to cast the spell in this way again when you finish a long rest, or if you expend a spell slot of 3rd level or higher to regain the ability to use this feature again."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Minstrel",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 6,
+      "header": 2
+    },
+    {
+      "name": "Minstrel's Duet",
+      "entries": [
+        "At 14th level, when you restore hit points to another creature using a spell of 1st-level or higher, you regain hit points equal to two rolls of your bardic inspiration die."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Minstrel",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 14,
+      "header": 2
+    },
+    {
+      "name": "Minstrel's Inspiration",
+      "entries": [
+        "Also at 14th level, a creature with one of your bardic inspiration regains a number of hit points at the start of each of their turns equal to one roll of your bardic inspiration die. They also regain hit points when they use their bardic inspiration equal to the number rolled on the inspiration die."
+      ],
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Minstrel",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 14,
+      "header": 2
+    },
+    {
+      "name": "Oath of Charity",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 3,
+      "entries": [
+        "The oath of charity binds a paladin to the greatest ideals of sacrifice, good will, giving to those in need, and protecting those who need aid. These are warriors who focus their efforts on healing just as much as they do fighting. They hold themselves to never give in to selfish desires, to offer a healing hand to the injured, and to give to those who will not just take.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Tenets of Charity|Paladin||Charity|ErikkuBladesHealersKit|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Oath Spells|Paladin||Charity|ErikkuBladesHealersKit|3"
+        }
+      ]
+    },
+    {
+      "name": "Tenets of Charity",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i Though the exact words and strictures of the Oath of Charity vary, paladins of this oath share these tenets.}",
+        {
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Charity",
+              "entries": [
+                "Give to the poor, especially when you have plenty to make do with."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Sacrifice",
+              "entries": [
+                "Always be willing to pay the ultimate price for the benefit of others."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Tempered",
+              "entries": [
+                "Stay true to your emotions, but never let them consume you. "
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Heal and Protect",
+              "entries": [
+                "Heal the weakened innocents, and ensure they are not harmed again."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oath Spells",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You gain oath spells at the paladin levels listed.",
+        {
+          "type": "table",
+          "caption": "Oath of Charity Spells",
+          "colLabels": [
+            "Paladin Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell healing word}, {@spell shield of faith}"
+            ],
+            [
+              "5th",
+              "{@spell healing spirit|XGE}, {@spell shielding vitality|ErikkuBladesHealersKit}"
+            ],
+            [
+              "9th",
+              "{@spell create food and water}, {@spell life transference|XGE}"
+            ],
+            [
+              "13th",
+              "{@spell aura of life}, {@spell ward of vitality|ErikkuBladesHealersKit}"
+            ],
+            [
+              "17th",
+              "{@spell greater restoration}, {@spell mass cure wounds}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Channel Divinity: Mend the Wounded",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can hasten your efforts to heal a wounded creature using your channel divinity. For the next minute, you can use your Lay on Hands feature as a bonus action rather than an action. Also for the duration, when you restore hit points to a creature using a spell of 1st level or higher, you can add a bonus to the roll equal to your proficiency bonus."
+      ]
+    },
+    {
+      "name": "Channel Divinity: Protect the Weak",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can use your channel divinity to protect an ally from the jaws of defeat. When a creature you can see within 60 feet of you would be reduced to 0 hit points, you can use your reaction to have them be reduced to 1 hit point instead."
+      ]
+    },
+    {
+      "name": "Aura of Regeneration",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "Starting at 7th level, you can keep others alive when they are struggling through the midst of battle. When a creature (other than yourself) with less than half of their maximum hit points starts their turn within 10 feet of you, they regain a number of hit points equal to your Charisma modifier.",
+        "At 18th level, the range of this aura increases to 30 feet."
+      ]
+    },
+    {
+      "name": "Shield the Wounded",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "At 15th level, you can use a bonus action to choose a creature you can see within 60 feet of you that doesn’t have all of their hit points. Until the start of your next turn, creatures have disadvantage on attack rolls against the chosen creature.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Giver of Life",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Charity",
+      "subclassSource": "ErikkuBladesHealersKit",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "At 20th level you can channel your divine power to invoke powerful healing abilities. As a bonus action, you gain the following benefits for 1 minute:",
+        {
+          "type": "list",
+          "items": [
+            "When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die.",
+            "When you cast a spell that restores hit points using a 1st-level spell slot or higher, the spell is treated as if it were one level higher than the expended slot.",
+            "If a creature within 30 feet of you fails a saving throw, you can spend your reaction and a 1st-level or higher spell slot to have them re-roll. They must use the new result."
+          ]
+        },
+        "Once you use this feature, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Herbalist",
+      "isNpc": true,
+      "isNamedCreature": true,
+      "source": "ErikkuBladesHealersKit",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "druid"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item leather armor|phb}",
+            "{@item shield|phb|wooden shield}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "9d8 + 9",
+        "average": 49
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 12,
+      "int": 15,
+      "wis": 17,
+      "cha": 10,
+      "save": {
+        "wis": "+6",
+        "int": "+5"
+      },
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Sylvan"
+      ],
+      "cr": "5",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The herbalist casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}), +6 to hit with spells:"
+          ],
+          "will": [
+            "{@spell druidcraft}",
+            "{@spell mending}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell greater restoration}",
+              "{@spell ward of vitality|ErikkuBladesHealersKit}"
+            ],
+            "3e": [
+              "{@spell aid}",
+              "{@spell augury}",
+              "{@spell enhance ability}",
+              "{@spell entangle}",
+              "{@spell goodberry}",
+              "{@spell lesser restoration}"
+            ]
+          },
+          "ability": "wis",
+          "type": "spellcasting"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The herbalist makes one Thorny Whip attack and one  Quarterstaff attack. They can replace one of these attacks with a use of Spellcasting."
+          ]
+        },
+        {
+          "name": "Quarterstaff",
+          "entries": [
+            "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 ‒1}) bludgeoning damage, or 3 ({@damage 1d8 ‒1}) bludgeoning damage if used with both hands."
+          ]
+        },
+        {
+          "name": "Nature's Staff (only when active)",
+          "entries": [
+            "{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d8 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Thorny Whip",
+          "entries": [
+            "{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 60 ft., one target. {@h}18 ({@damage 3d6}) piercing damage. Rather than doing damage, on hit if the creature is large or smaller it can instead be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Mending Touch {@recharge 5}",
+          "entries": [
+            "The herbalist touches a creature with magical energy. The creature magically restores {@dice 3d8 + 3} hit points."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "S"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "conditionInflictSpell": [
+        "paralyzed",
+        "prone"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "environment": [
+        "forest",
+        "grassland",
+        "swamp",
+        "urban"
+      ],
+      "skill": {
+        "medicine": "+6",
+        "nature": "+5"
+      },
+      "bonus": [
+        {
+          "name": "Nature's Staff",
+          "entries": [
+            "The herbalist can use a bonus action to empower their quarterstaff with magic for 1 minute. For the duration, they use their Nature's Staff instead of their Quarterstaff for attacks."
+          ]
+        },
+        {
+          "name": "Healing Remedy {@recharge 4}",
+          "entries": [
+            "The herbalist crushes a magical remedy and blows a healing vapor to a creature they can see within 30 feet of them. The chosen creature magically restores {@dice 3d4 + 3} hit points."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "trait": [
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "The Herbalist has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "fluff": {
+        "entries": [
+          "Herbalists are magic users who focus creating potions and basic remedies to accommodate for ailments, illnesses, and mending basic wounds. Occasionally, they use their skills for profit, whereas others do so as a form of charity."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/ZsFVnm3.png"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/ZsFVnm3.png",
+      "conditionInflict": [
+        "prone"
+      ]
+    }
+  ],
+  "feat": [
+    {
+      "name": "Healer's Initiate",
+      "source": "ErikkuBladesHealersKit",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You’ve become an expert at healing with magic, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You learn the {@spell cure wounds} or {@spell healing word} spell and one 1st-level spell of your choice. The {@filter 1st-level spell|spells|level=1|school=A} must be from the conjuration or evocation school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Celestials",
+      "source": "ErikkuBladesHealersKit",
+      "entries": [
+        "You've manifested some of the power of celestial creatures, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Healing Touch",
+              "entries": [
+                "As an action, you touch another creature, they magically regain 1d10 plus your proficiency bonus hit points and are freed from any one poison or disease (your choice). You can use this healing touch once, regaining the ability to do so again when you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Protective Aura",
+              "entries": [
+                "When you or a creature within 5 feet of you is forced to make a saving throw against a spell or magical effect, as a reaction you can choose to have the chosen target to gain advantage on that saving throw. You can make this choice before or after the roll, but before any effects are declared. You can grant this benefit once, regaining the ability to do so again when you finish a long rest."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brewer's Delight",
+      "source": "ErikkuBladesHealersKit",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You’re an expert at brewing nice and refreshing drinks for your allies, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency with {@item brewer's supplies} if you don't already have it.",
+            "With one hour of work or when you finish a short or long rest, you can brew a number of beverages equal to your proficiency bonus, provided you have ingredients worth at least 5 gp per beverage made and brewer’s supplies on hand. The healing properties of these beverages last 24 hours after being made. A creature can use a bonus action to drink one of those beverages to regain 1d4 plus your proficiency bonus hit points."
+          ]
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Celestia Brand Tattoo",
+      "source": "ErikkuBladesHealersKit",
+      "rarity": "rare",
+      "reqAttune": true,
+      "wondrous": true,
+      "weight": 0,
+      "entries": [
+        "Produced by a special needle, this magic tattoo is brightly colored, usually coming in bright gold.",
+        {
+          "type": "entries",
+          "name": "Tattoo Attunement",
+          "entries": [
+            "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+            "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Touch of Life",
+          "entries": [
+            "As an action, you touch yourself or another creature, they magically regain 3d10 hit points and are given a magical ward that protects them from death. If the warded creature would fall to 0 hit points or die, they are instead reduced to 1 hit point. Once you’ve used this property, it cannot be used again until the next dawn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Lightbringer",
+          "entries": [
+            "As a bonus action, you can cause your tattoo to glow brightly, shedding bright light out to a range of 30 feet and dim light for an additional 30 feet. As a bonus action on subsequent turns, you can reduce both the bright and dim light down to a minimum range of 5 feet, or stop the tattoo from glowing, or extend the range back to a maximum range of 30 feet for both the dim and bright light. While fiends and undead are within the radius of the tattoo’s bright light, they have disadvantage on attack rolls."
+          ]
+        }
+      ],
+      "page": null
+    },
+    {
+      "name": "Flask of Replenishable Life",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "rarity": "legendary",
+      "wondrous": true,
+      "entries": [
+        "A creature that drinks from this flask when filled with its glistening, golden liquid has their hit point maximum and current hit points increased by 30. These hit points can be divided among two or three creatures evenly. This benefit is lost when they finish a long rest.",
+        "Once a creature, or creatures, drinks from the flask, it refills on the next dawn. However, creatures that drink from the flask cannot do so again until seven days have passed since they drank from it.",
+        "Alternatively, the flask can be used as an action to bring a creature back to life, as per the Resurrection spell, without requiring material components. Once this property is used from the flask, it cannot be used again until the next dawn. Doing so empties the flask until the next dawn. You cannot use this property if the flask is empty."
+      ]
+    },
+    {
+      "name": "Silver Flask of Restoration",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "rarity": "uncommon",
+      "wondrous": true,
+      "entries": [
+        "This ever-gleaming silver flask has special properties on the inside. Any water you pour into the flask becomes clean drinking water. This has no effect on harmful liquids, such as poisons or lava. The water in this flask is refreshing and has replenishing properties. When you drink from this magical flask, you regain 2d6 hit points.",
+        "Once a creature regains hit points from the flask, that creature cannot regain hit points from it again until the next dawn."
+      ]
+    },
+    {
+      "name": "Phoenix Feather of Rebirth",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "rarity": "very rare",
+      "wondrous": true,
+      "entries": [
+        "You can attach this fiery feather onto your clothes, armor, weapons, or shield. The next time you are reduced to 0 hit points or die, you are instead reduced to 1 hit point and fire erupts from you in a 30 foot-radius. Every creature in that radius makes a Dexterity saving throw, taking 8d6 fire damage on a failed save or half as much on a success. Afterwards, the feather burns up and is turned to ash."
+      ]
+    },
+    {
+      "name": "Circlet of The Lifebringer",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "rarity": "artifact",
+      "reqAttune": true,
+      "recharge": "dawn",
+      "charges": 20,
+      "entries": [
+        "This gold and silver laced circlet has a single crystal embedded in the front of it. This circlet was crafted with the conjoined effort of the finest elven, dwarven, and human crafters known at the time of its creation with the additional aid of Eldath, Goddess of Peace. The circlet was originally intended for Eldath’s chosen champion to uphold the peace throughout the land.",
+        {
+          "type": "entries",
+          "name": "Attunement",
+          "entries": [
+            "The artifact allows you to attune to it immediately, without having to take a short rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Life Bringer",
+          "entries": [
+            "When you use a spell or magical effect to heal a creature, the crystal glows with brilliance. The healed creature regains an additional amount of hit points equal to your level."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Healing Touch",
+          "entries": [
+            "As an action or bonus action, you may touch a creature and have them magically regain 2d8 hit points. You can use this property a number of times equal to your proficiency bonus, regaining all expended uses at the next dawn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Peaceful Magic",
+          "entries": [
+            "The circlet has 20 charges. You can expend 1 or more charges to cast the following spells from the circlet without requiring material components, using your spellcasting ability modifier. If you do not have spellcasting, you choose between Intelligence, Wisdom, or Charisma to use as your spellcasting ability for these spells: {@spell cure wounds} (1 charge per spell level, up to 5th), {@spell healing word} (1 charge per spell level, up to 5th), {@spell calm emotions} (2 charges), {@spell lesser restoration} (2 charges), {@spell mass healing word} (3 charges), {@spell mass cure wounds} (5 charges), {@spell greater restoration} (5 charges), {@spell heal} (6 charges). The circlet regains 1d6 + 4 charges daily at dawn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Angelic Form",
+          "entries": [
+            "While attuned to this item, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. If you have evil in your heart, you must make a DC 20 Charisma saving throw. On a failed save, your alignment becomes neutral good and you attain the previously mentioned Angelic Form. If you succeed, you retain your alignment and instead you take the form of a fallen angel, your brightness becomes shroud in darkness and shadows. You gain the following traits:",
+            {
+              "type": "list",
+              "items": [
+                {
+                  "type": "entries",
+                  "name": "Angelic Language",
+                  "entries": [
+                    "You can speak, read, and write Celestial."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Celestial Resistance",
+                  "entries": [
+                    "You have resistance to necrotic and radiant damage."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Feathered Wings",
+                  "entries": [
+                    "You sprout a beautiful pair of feathered wings that grant you a flying speed of 60 feet and the ability to hover. If you already have a different kind of wings, these new wings replace the old ones, which fall off."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Truesight",
+                  "entries": [
+                    "Your eyes become luminous pools of silver. You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 60 feet."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Destroying the Circlet",
+          "entries": [
+            "In order to destroy the circlet, you must bathe it in the negative energy plane for 1 year and use a properly worded wish to destroy the circlet. When destroyed, Eldath will immediately know it has been destroyed and will have a permanent scar on her forehead. The scar can be removed if a new circlet is made."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shield of The Brightwood",
+      "source": "ErikkuBladesHealersKit",
+      "page": null,
+      "type": "S",
+      "rarity": "legendary",
+      "reqAttune": "by a bard, cleric, druid, or paladin",
+      "reqAttuneTags": [
+        {
+          "class": "bard"
+        },
+        {
+          "class": "cleric"
+        },
+        {
+          "class": "druid"
+        },
+        {
+          "class": "paladin"
+        }
+      ],
+      "recharge": "dawn",
+      "charges": 10,
+      "weight": 6,
+      "ac": 2,
+      "entries": [
+        "This shield was handcrafted by a Deva that grew too close to the Aasimar it was guiding and chose to remain on the material plane, protecting its envoy. While it cannot use its abilities directly, it chose to put some of its power into this shield.",
+        "This wooden shield has a sun painted in the center of it that shimmers with a mystical glow, shedding dim light out to a range of 5 feet. You can use a bonus action to stop the shield from glowing, or have it glow again.When you heal a creature while wielding this magical shield, you and the creature healed gains temporary hit points equal to your spellcasting modifier.",
+        "While holding this shield, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have a +1 bonus to AC and saving throws and any critical hit against them becomes a normal hit. If you have 17 or more levels in the cleric or paladin class, the radius of the aura increases to 30 feet.",
+        "If another creature within this would take damage while you are holding this shield, you can use your reaction to take the damage instead, protecting the creature from any additional effects that would follow and is instead transferred to you.",
+        "The shield has 10 charges. While holding this shield, you can spend one or more of its charges to cast the following spells from it, using your spell save DC and spellcasting ability modifier: {@spell healing word} (1 charge per spell level, up to 4th), {@spell sanctuary} (1 charge), {@spell shield of faith} (1 charge), {@spell shielding vitality|ErikkuBladesHealersKit} (1 charge per spell level, up to 4th), {@spell mass healing word} (3 charges), {@spell death ward} (4 charges), {@spell ward of vitality|ErikkuBladesHealersKit} (4 charges).",
+        "Every time you spend charges from this shield, you regain 1d6 hit points for every charge spent. Any healing that would exceed your maximum hit points is instead treated as temporary hit points instead of being excluded from the roll.",
+        "The shield regains 1d6 + 4 charges daily at dawn."
+      ]
+    }
+  ]
+}
