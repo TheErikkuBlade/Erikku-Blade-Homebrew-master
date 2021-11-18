@@ -1823,24 +1823,24 @@
       ]
     },
     {
-      "name": "Cyromancer",
+      "name": "Cryomancer",
       "source": "erikkuiceandwinter",
       "size": "M",
       "type": {
         "type": "humanoid",
         "tags": [
-          "any race"
+          "sorcerer"
         ]
       },
       "alignment": [
         "A"
       ],
       "ac": [
-        11,
         {
-          "ac": 14,
-          "condition": "with {@spell mage armor}",
-          "braces": true
+          "ac": 15,
+          "from": [
+            "Robes of Icy Defense"
+          ]
         }
       ],
       "hp": {
@@ -1871,90 +1871,64 @@
         "cold"
       ],
       "languages": [
-        "any four languages"
+        "Common",
+        "Aquan",
+        "Auran",
+        "and any one language"
       ],
       "cr": "9",
       "spellcasting": [
         {
           "name": "Spellcasting",
           "headerEntries": [
-            "The evoker is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The evoker has the following spells prepared:"
+            "The cryomancer can cast the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
           ],
-          "footerEntries": [
-            "*Evocation spell"
+          "will": [
+            "{@spell frostbite|XGE}",
+            "{@spell light}",
+            "{@spell prestidigitation}",
+            "{@spell shape water|XGE}"
           ],
-          "spells": {
-            "0": {
-              "spells": [
-                "{@spell frostbite|XGE}*",
-                "{@spell light}*",
-                "{@spell prestidigitation}",
-                "{@spell ray of frost}*"
-              ]
-            },
-            "1": {
-              "spells": [
-                "{@spell armor of Agathys}",
-                "{@spell glacial grip|erikkuiceandwinter}*",
-                "{@spell mage armor}"
-              ],
-              "slots": 4
-            },
-            "2": {
-              "spells": [
-                "{@spell mirror image}",
-                "{@spell misty step}",
-                "{@spell winter’s grasp|erikkuiceandwinter}*"
-              ],
-              "slots": 3
-            },
-            "3": {
-              "spells": [
-                "{@spell cold snap|erikkuiceandwinter}*",
-                "{@spell counterspell}",
-                "{@spell dispel magic}"
-              ],
-              "slots": 3
-            },
-            "4": {
-              "spells": [
-                "{@spell ice storm}*",
-                "{@spell yeti's chilling gaze|erikkuiceandwinter}*"
-              ],
-              "slots": 3
-            },
-            "5": {
-              "spells": [
-                "{@spell cone of cold}*",
-                "{@spell creeping cold|erikkuiceandwinter}*"
-              ],
-              "slots": 2
-            },
-            "6": {
-              "spells": [
-                "{@spell Otiluke's freezing sphere}*",
-                "{@spell wall of ice}*"
-              ],
-              "slots": 1
-            }
+          "daily": {
+            "3e": [
+              "{@spell armor of Agathys}",
+              "{@spell cold snap|erikkuiceandwinter}",
+              "{@spell rime's binding ice|FTD}",
+              "{@spell winter’s grasp|erikkuiceandwinter}"
+            ],
+            "1e": [
+              "{@spell creeping cold|erikkuiceandwinter}",
+              "{@spell Otiluke's freezing sphere}",
+              "{@spell yeti's chilling gaze|erikkuiceandwinter}"
+            ]
           },
-          "ability": "cha",
+          "ability": "int",
           "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Sculpt Spells",
-          "entries": [
-            "When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1 + the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it."
-          ]
         }
       ],
       "action": [
         {
+          "name": "Multiattack",
+          "entries": [
+            "The cryomancer makes two attacks using Freezing Bolt, it's Ice Staff, or any combination of the two. They can replace one of the attacks with a use of Spellcasting."
+          ]
+        },
+        {
           "name": "Ice Staff",
           "entries": [
-            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage, plus 3 ({@damage 1d6}) cold damage."
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, plus 7 ({@damage 1d6 + 4}) cold damage."
+          ]
+        },
+        {
+          "name": "Freezing Bolt",
+          "entries": [
+            "{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 60 ft., one target. {@h}17 ({@damage 2d8 + 4}) cold damage and the target's speed is reduced by 10 feet."
+          ]
+        },
+        {
+          "name": "Breath of Winter {@recharge 4}",
+          "entries": [
+            "The cryomancer releases out a 60-foot cone of cold energy. Each creature in the are must make a {@dc 15} Constitution saving throw, taking 44 {@damage 10d8 + 4} cold damage on a failed save or half as much on a success. Creatures who fail the save by 5 or more have their movement speed reduced to 0."
           ]
         }
       ],
@@ -1985,17 +1959,16 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://pbs.twimg.com/media/Ed88CSAWAAE-vUj?format=png&name=medium"
+              "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f90f2d7-c34b-4d6b-a5d2-a1e0fed23ccd/dbwoggr-04a5f294-d2e6-415d-9c36-f87155281dea.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi82ZjkwZjJkNy1jMzRiLTRkNmItYTVkMi1hMWUwZmVkMjNjY2QvZGJ3b2dnci0wNGE1ZjI5NC1kMmU2LTQxNWQtOWMzNi1mODcxNTUyODFkZWEuanBnIn1dXX0.vx9LzUYyZyb4wOiferhIUgY4XMH57ybbSNAvMmqc62Y"
             }
           }
         ]
       },
-      "tokenUrl": "https://i.imgur.com/t7w9a9c.png",
-      "soundClip": {
-        "type": "external",
-        "url": "https://5e.tools/audio/bestiary/evoker.mp3?v=1.133.2"
-      },
+      "tokenUrl": "https://i.imgur.com/hCO9lrm.png",
       "languageTags": [
+        "C",
+        "AQ",
+        "AU",
         "X"
       ],
       "damageTags": [
@@ -2003,9 +1976,39 @@
         "C"
       ],
       "miscTags": [
-        "MW"
+        "MW",
+        "AOE"
       ],
-      "hasFluff": true
+      "hasFluff": true,
+      "isNamedCreature": true,
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "bonus": [
+        {
+          "name": "Winding Staff",
+          "entries": [
+            "As a bonus action, if the cryomancer made at least one attack with its Ice Staff with its multiattack, it can immediately make one additional attack with its Ice Staff."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Arcane Defense (3/Day)",
+          "entries": [
+            "When they are hit by an attack, the cryomancer protects themselves with an {@condition invisible} barrier of magical force. Until the end of their next turn, they gains a +5 bonus to AC, including against the triggering attack."
+          ]
+        }
+      ],
+      "trait": [
+        {
+          "name": "Empowered Cold Elementalist",
+          "entries": [
+            "The cryomancer deals an additional 4 points of cold damage whenever they deal cold damage. (Included in actions)"
+          ]
+        }
+      ]
     }
   ],
   "item": [
