@@ -12,7 +12,7 @@
           "Erikku Blade"
         ],
         "url": "https://homebrewery.naturalcrit.com/share/FwuyCkhV",
-        "version": "3.2.0",
+        "version": 4,
         "color": "F363FF"
       }
     ],
@@ -521,10 +521,9 @@
           "gainSubclassFeature": true
         },
         "Boon of Fate|Fate Weaver|EBFateWeaver|2",
-        "Divination Dice|Fate Weaver|EBFateWeaver|2",
+        "Divination Dice|Fate Weaver|EBFateWeaver|5",
         "Spell Weaving|Fate Weaver|EBFateWeaver|3",
         "Ability Score Improvement|Fate Weaver|EBFateWeaver|4",
-        "Fateful Rest|Fate Weaver|EBFateWeaver|5",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|EBFateWeaver|6",
           "gainSubclassFeature": true
@@ -765,130 +764,37 @@
         "Time Stop",
         "True Resurrection",
         "Wish",
-        {
-          "name": "Create Bonfire",
-          "source": "XGE"
-        },
-        {
-          "name": "Magic Stone",
-          "source": "XGE"
-        },
-        {
-          "name": "Sapping Sting",
-          "source": "EGW"
-        },
-        {
-          "name": "Absorb Elements",
-          "source": "XGE"
-        },
-        {
-          "name": "Beast Bond",
-          "source": "XGE"
-        },
-        {
-          "name": "Ceremony",
-          "source": "XGE"
-        },
-        {
-          "name": "Gift of Alacrity",
-          "source": "EGW"
-        },
-        {
-          "name": "Magnify Gravity",
-          "source": "EGW"
-        },
-        {
-          "name": "Fortune's Favor",
-          "source": "EGW"
-        },
-        {
-          "name": "Immovable Object",
-          "source": "EGW"
-        },
-        {
-          "name": "Skywrite",
-          "source": "XGE"
-        },
-        {
-          "name": "Wristpocket",
-          "source": "EGW"
-        },
-        {
-          "name": "Pulse Wave",
-          "source": "EGW"
-        },
-        {
-          "name": "Elemental Bane",
-          "source": "XGE"
-        },
-        {
-          "name": "Find Greater Steed",
-          "source": "XGE"
-        },
-        {
-          "name": "Skill Empowerment",
-          "source": "XGE"
-        },
-        {
-          "name": "Temporal Shunt",
-          "source": "EGW"
-        },
-        {
-          "name": "Wall of Light",
-          "source": "XGE"
-        },
-        {
-          "name": "Gravity Fissure",
-          "source": "EGW"
-        },
-        {
-          "name": "Dream of the Blue Veil",
-          "source": "TCE"
-        },
-        {
-          "name": "Tether Essence",
-          "source": "EGW"
-        },
-        {
-          "name": "Dark Star",
-          "source": "EGW"
-        },
-        {
-          "name": "Reality Break",
-          "source": "EGW"
-        },
-        {
-          "name": "Ravenous Void",
-          "source": "EGW"
-        },
-        {
-          "name": "Gravity Sinkhole",
-          "source": "EGW"
-        },
-        {
-          "name": "Time Ravage",
-          "source": "EGW"
-        },
-        {
-          "name": "Spirit Shroud",
-          "source": "TCE"
-        },
-        {
-          "name": "Tasha's Otherworldly Guise",
-          "source": "TCE"
-        },
-        {
-          "name": "Life Transference",
-          "source": "XGE"
-        },
-        {
-          "name": "Healing Spirit",
-          "source": "XGE"
-        },
-        {
-          "name": "Catnap",
-          "source": "XGE"
-        }
+        "Create Bonfire|XGE",
+        "Magic Stone|XGE",
+        "Sapping Sting|EGW",
+        "Absorb Elements|XGE",
+        "Beast Bond|XGE",
+        "Ceremony|XGE",
+        "Gift of Alacrity|EGW",
+        "Magnify Gravity|EGW",
+        "Fortune's Favor|EGW",
+        "Immovable Object|EGW",
+        "Skywrite|XGE",
+        "Wristpocket|EGW",
+        "Pulse Wave|EGW",
+        "Elemental Bane|XGE",
+        "Find Greater Steed|XGE",
+        "Skill Empowerment|XGE",
+        "Temporal Shunt|EGW",
+        "Wall of Light|XGE",
+        "Gravity Fissure|EGW",
+        "Dream of the Blue Veil|TCE",
+        "Tether Essence|EGW",
+        "Dark Star|EGW",
+        "Reality Break|EGW",
+        "Ravenous Void|EGW",
+        "Gravity Sinkhole|EGW",
+        "Time Ravage|EGW",
+        "Spirit Shroud|TCE",
+        "Tasha's Otherworldly Guise|TCE",
+        "Life Transference|XGE",
+        "Healing Spirit|XGE",
+        "Catnap|XGE"
       ]
     }
   ],
@@ -1005,10 +911,11 @@
       "source": "EBFateWeaver",
       "className": "Fate Weaver",
       "classSource": "EBFateWeaver",
-      "level": 2,
+      "level": 5,
       "entries": [
-        "Starting at 2nd level your powers to control and predict fate itself begins to blossom. You gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls. ",
-        "When you reach 10th level the amount of dice you roll increases to three, and at 20th level it increases to four."
+        "Starting at 5th level, you gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d6s and record the numbers rolled. You can then make these foretelling dice weal or woe dice. You can use these dice to modify the end result of an ability check, attack roll, or saving throw of a creature you can see, applying a negative modifier with woe dice or a positive modifier with weal dice. No action is required to use these dice, but you must choose to use them before the roll is made ",
+        "Each foretelling roll can be used only once, and the maximum number of dice that can be weal or woe is equal to half your proficiency bonus (rounded down). When you finish a long rest, you lose any unused foretelling rolls.",
+        "When you reach 11th level the amount of dice you roll increases to three and at 17th level it increases to four."
       ],
       "page": 2
     },
@@ -1035,17 +942,6 @@
       "entries": [
         "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-      ],
-      "page": 3
-    },
-    {
-      "name": "Fateful Rest",
-      "source": "EBFateWeaver",
-      "className": "Fate Weaver",
-      "classSource": "EBFateWeaver",
-      "level": 5,
-      "entries": [
-        "Starting at 5th level you regain half of your expended fate dice at the end of a short rest. You can only do so once, regaining the ability to do so again after a long rest."
       ],
       "page": 3
     },
@@ -1100,7 +996,7 @@
       "classSource": "EBFateWeaver",
       "level": 11,
       "entries": [
-        "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a reaction, you can expend one of your divination dice to force a creature you can see within 60 feet of you, or yourself, to reroll an ability check, attack roll, or saving throw. The creature must use the new result, even if they have a feature that allows them to reroll. Once you’ve used this feature, you cannot use it again until you finish a long rest."
+        "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a reaction, you can expend one of your divination dice to force a creature you can see within 60 feet of you, or yourself, to reroll an ability check, attack roll, or saving throw. The creature must use the new result, even if they have a feature that allows them to reroll. When they roll, they do so with either advantage if it was a weal die, or disadvantage if it was woe. Once you’ve used this feature, you cannot use it again until you finish a long rest."
       ],
       "page": 5
     },
@@ -2437,7 +2333,7 @@
       "entries": [
         "{@i 6th-level Knight Feature}",
         "You can use your magic to protect nearby allies with a magical barrier to absorb incoming damage. Whenever you use your Boon of Fate feature, the affected creatures gain temporary hit points equal to 5 times the spell slot level used.",
-        "In addition, you can expend one of your Divination Dice to grant one creature you can see within 30 ft of you temporary hit points equal to the number on the divination die. Once you do so, you cannot do so again until you finish a short or long rest."
+        "In addition, you can expend one of your Divination Dice to grant one creature you can see within 30 ft of you 5 temporary hit points. Once you do so, you cannot do so again until you finish a short or long rest"
       ],
       "page": 14,
       "header": 2
@@ -2500,7 +2396,7 @@
         "{@i 18th-level Knight Feature}",
         "Reaching the pinnacle of your powers, you can now harness that magical might into protective energies far beyond what you could make previously. Whenever you cast a spell you create a magical ward that has a number of hit points equal to 5 times the level of the spell slot used. Whenever you or a creature within 30 ft of you takes damage, you can choose to subtract the damage from the ward’s hit points instead. Using this feature on a creature other than yourself costs a reaction. If the damage reduces the ward to 0 hit points, you take any remaining damage, even if it is intended for another creature and the ward is destroyed.",
         "You can only have one of these magical wards at any given time, however if you would cast a spell and the ward that would have been created would have more hit points, you can choose to destroy your previous ward and create the new one.",
-        "Alternatively, you can expend one use of your divination dice and create a magical ward without having to cast a spell. Doing so takes an action and the number of hit points it has is equal to the number on the divination die. Once you create a magical ward using a divination die, you cannot do so again until you finish a short or long rest."
+        "Alternatively, you can expend one use of your divination dice and create a magical ward without having to cast a spell. Doing so takes an action and the number of hit points it has is 10. Once you create a magical ward using a divination die, you cannot do so again until you finish a short or long rest."
       ],
       "page": 14,
       "header": 2
@@ -3031,8 +2927,8 @@
       "level": 6,
       "entries": [
         "{@i 6th-level Vizier Feature}",
-        "After a roll is made for an ability check, attack roll, or saving throw from a creature within 30 feet of you, you can use your reaction to replace the roll with one of your divination dice after the roll is made. After you do so, you lose the divination die.",
-        "You can use this feature once, regaining the ability to do so after a short or long rest."
+        "After a roll is made for an ability check, attack roll, or saving throw from a creature within 30 feet of you, you can use your reaction to use one of your divination dice and apply it to the roll. After you do so, you lose the divination die.",
+        "You can use this feature once, regaining the ability to do so again after a short or long rest."
       ],
       "page": 17,
       "header": 2
