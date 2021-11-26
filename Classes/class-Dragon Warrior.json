@@ -2072,7 +2072,7 @@
       "source": "DW",
       "name": "Legendary Shape",
       "entries": [
-        "When you use your Draconic Shape, you gain 30 temporary hit points. In addition, you gain 3 Legendary Resistances when you change into your Draconic Shape. See Legendary Resistance from an Adult Dragon for reference. You only gain these Legendary Resistance once per long rest."
+        "When you use your Draconic Shape, you gain an additional 10  temporary hit points. In addition, you gain 3 Legendary Resistances when you change into your Draconic Shape. See “Legendary Resistance” from an Adult Dragon for reference. You only gain these Legendary Resistance once per long rest."
       ],
       "prerequisite": [
         {
@@ -2096,7 +2096,7 @@
       "source": "DW",
       "name": "Draconic Tail",
       "entries": [
-        "Both in your humanoid shape and your Draconic Shape you have a powerful tail. This tail counts as a natural weapon and does 1d8 bludgeoning damage. It uses Strength for its attack and damage rolls. In your Draconic Shape you have advantage on your athletics check if the creature is your size or smaller.",
+        "Both in your humanoid shape and your Draconic Shape you have a powerful tail. This tail counts as a natural weapon and does 1d8 bludgeoning damage. It uses Your Strength or Dexterity modifier for its attack and damage rolls.",
         "If you’ve taken the attack action, as a bonus action you can immediately make one tail attack, provided you have not already used your tail as part of your attack action. Instead of dealing damage, using this bonus action you can take the shove action using your tail. See page 195 of the Player’s Handbook for information on the Shove Action."
       ],
       "prerequisite": [
@@ -4051,10 +4051,12 @@
           "type": "list",
           "items": [
             "You retain your ability scores in addition to your skill and saving throw proficiencies.",
+            "Your armor class increases by 2.",
+            "You gain temporary hit points equal to twice your dragon warrior level.",
             "You can choose whether your items being worn or carried morph into your new form, or drop to the ground at your feet.",
             "You retain the use of your class features provided your new form has the physical capability to do so. You do not retain the usage of your racial abilities, however any damage resistances you had do carry over, racial or otherwise.",
             "You cannot speak or cast spells while in this form, you can however understand and read the languages you knew in your original form.",
-            "While in this form, you have natural weapons in the form of bites and claws. Each of these weapons deals 1d10 plus your strength modifier of your choice of slashing or piercing damage."
+            "While in this form, you have natural weapons in the form of bites and claws. Each of these weapons deals 1d10 of your choice of slashing or piercing damage and you use strength or dexterity modifier  for attack and damage rolls"
           ]
         },
         "As part of the same action you used to take this form, you can make a single melee attack using one of your natural weapons provided by this new form.",
@@ -4164,7 +4166,8 @@
       "name": "Improved Draconic Form",
       "entries": [
         "{@i 10th-level Shaman feature}",
-        "When you assume your Draconic Shape, you become a large creature. If you do not have the space to do so, you remain medium instead. Your natural weapons provided by your draconic form now deal 2d10 damage instead of 1d10 and count as magical for the purposes of overcoming non-magical resistance and immunities."
+        "When you assume your Draconic Shape, you become a large creature. If you do not have the space to do so, you remain medium instead. Your natural weapons provided by your draconic form now deal 2d10 damage instead of 1d10 and count as magical for the purposes of overcoming non-magical resistance and immunities.",
+        "Also, your armor class increases by 4 instead of 2."
       ],
       "source": "DW",
       "className": "Dragon Warrior",
