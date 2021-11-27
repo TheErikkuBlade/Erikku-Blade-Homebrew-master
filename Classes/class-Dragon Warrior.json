@@ -1976,12 +1976,13 @@
       "source": "DW",
       "name": "Shared Runes",
       "entries": [
-        "You can share your powerful magical gifts with some of your allies. When you finish a long rest, choose a number of creatures equal to 2 plus your proficiency bonus. You can give each of them one of your runes that you chose at level 3. Each ally can only have one of these runes at any time, and if they are given another one of these runes, the other is lost."
+        "You can share your powerful magical gifts with some of your allies. When you finish a long rest, choose a number of creatures equal to 2 plus your proficiency bonus. You can give each of them one of your runes that you chose at level 3. Each ally can only have one of these runes at any time, and if they are given another one of these runes, the other is lost.",
+        "If you use this feature again, any runes previously created by this feature vanish and their power is lost."
       ],
       "prerequisite": [
         {
           "level": {
-            "level": 5,
+            "level": 7,
             "class": {
               "name": "Dragon Warrior"
             }
@@ -1991,6 +1992,9 @@
             "entrySummary": "Runic Scribe"
           }
         }
+      ],
+      "featureType": [
+        "Draconic Power"
       ]
     },
     {
