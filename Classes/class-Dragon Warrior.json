@@ -3934,7 +3934,7 @@
               "name": "Rune of Enlargement",
               "entries": [
                 "As a bonus action, you can become one size larger for one minute. While enlarged in this way, you add a bonus 1d4 damage to your melee attacks. You can enlarge yourself in this way a number of times equal to your proficiency bonus, regaining all expened uses when you finish a long rest. If you try to become larger in a space you cannot fit in, you remain your current size.",
-                "As a bonus action, you can become one size larger one minute. While enlarged in this way, you add a bonus 1d4 damage to your melee attacks. You can enlarge yourself in this way a number of times equal to your proficiency bonus, regaining all expened uses when you finish a long rest. If you try to become larger in a space you cannot fit in, you remain your current size."
+                "As an action after you’ve used this rune,  you can invoke the latent power of this rune, becoming one size larger and adding an additional 1d4 damage to your melee attacks."
               ]
             }
           ]
