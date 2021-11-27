@@ -1974,6 +1974,27 @@
     },
     {
       "source": "DW",
+      "name": "Shared Runes",
+      "entries": [
+        "You can share your powerful magical gifts with some of your allies. When you finish a long rest, choose a number of creatures equal to 2 plus your proficiency bonus. You can give each of them one of your runes that you chose at level 3. Each ally can only have one of these runes at any time, and if they are given another one of these runes, the other is lost."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Runic Scribe",
+            "entrySummary": "Runic Scribe"
+          }
+        }
+      ]
+    },
+    {
+      "source": "DW",
       "name": "Rune of Spell Disruption",
       "entries": [
         "A magical rune appears on your hand which contains the power to disrupt spells. You learn the {@spell counterspell} and {@spell dispel magic} spells. When you cast either of these spells, you cannot cast that spell using this rune again until you finish a long rest. Charisma is your spellcasting ability for this spell. If you have the spellcasting or pact magic feature, you can cast these spells using one of those spell slots, but you use the original components to do so."
@@ -3867,6 +3888,7 @@
       "name": "Runic Tattoos",
       "entries": [
         "Starting at 3rd level, magic runes appear on your person. These runes represent an ancient dialect of old draconic. If it is relevant for your campaign, you learn of the oldest form of draconic, predating the one currently being used. These runes hold significant power represented by long forgotten old magicks.",
+        "Choose two of the following runes:",
         {
           "type": "options",
           "entries": [
@@ -3893,6 +3915,22 @@
                 "Instead of being scribed on your person, you can scribe this rune onto a weapon of your choosing. That weapon becomes enhanced by the rune’s ancient magic, allowing it to take a more draconic-like appearance riddled with scales.",
                 "The weapon becomes magical for the purposes of overcoming non-magical resistances if it wasn’t magical already. In addition to the weapon’s normal damage, it also gains a bonus 1d4 damage corresponding to the damage type you resist from your Draconic Origins. You can only apply this bonus once per round. This bonus damage increases to a 1d6 at 5th level, a 1d8 at 11th, and a 1d10 at 17th. You can only have one weapon inscribed with this rune’s magic at a time.",
                 "As an action, you can invoke a more latent power of the rune, granting you a boon of untapped strength. While the boon is invoked, every round you have advantage on your first weapon attack made with a weapon etched with this rune. This boon lasts for 1 hour, after which you cannot invoke the power of this rune again until you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Rune of Arcane Initiation",
+              "entries": [
+                "You’ve learned how to create a magical tattoo that holds a spell inside of it. Choose a 1st level spell from the sorcerer spell list. You can cast that spell as many times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. Casting the spell requires no material components nor do you need to expend a spell slot. When you finish a long rest, you can choose a different 1st level spell from the sorcerer spell list to apply to the tattoo. The spell you cast using this rune uses Charisma as your spellcasting ability.",
+                "As an action, you can invoke the latent power of the rune granting you a powerful magical aura. Any spell you cast for the next minute is treated as if it were one level higher. When you invoke the latent power of this rune, you cannot do so again until you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Rune of Enlargement",
+              "entries": [
+                "As a bonus action, you can become one size larger one minute. While enlarged in this way, you add a bonus 1d4 damage to your melee attacks. You can enlarge yourself in this way a number of times equal to your proficiency bonus, regaining all expened uses when you finish a long rest. If you try to become larger in a space you cannot fit in, you remain your current size.",
+                "As a bonus action, you can become one size larger one minute. While enlarged in this way, you add a bonus 1d4 damage to your melee attacks. You can enlarge yourself in this way a number of times equal to your proficiency bonus, regaining all expened uses when you finish a long rest. If you try to become larger in a space you cannot fit in, you remain your current size."
               ]
             }
           ]
@@ -3937,6 +3975,14 @@
                 "A rune appears over your forehead, representing a third eye, as a bonus action you can take a defensive stance on your turn so long as you have not moved more than half of your movement speed. While in this defensive stance, you reduce any incoming damage by half as you pivot away from the full force of it. This has no effect on spells or magical effects that fully envelops your space, nor does it reduce psychic damage.",
                 "As an action, you can invoke a more latent power of the rune, granting you a boon of true foresight. While the rune is invoked, you have advantage on Wisdom (Insight) checks and as a reaction if you were to be hit by a weapon attack that is not a critical hit, you can avoid the attack entirely. This boon lasts for 1 minute, after which you cannot invoke the power of this rune again until you finish a long rest."
               ]
+            },
+            {
+              "type": "entries",
+              "name": "Rune of Spell Mastery",
+              "entries": [
+                "You’ve learned how to create a magical tattoo that holds a spell inside of it. Choose a 1st level spell from the sorcerer spell list. You can cast that spell as many times as you want, requiring no material components or expending a spell slot. When you finish a long rest, you can choose a different 1st level spell from the sorcerer spell list to apply to the tattoo. The spell you cast using this rune uses Charisma as your spellcasting ability",
+                "Once when you cast the spell from this rune, you can invoke the latent power of this rune and treat the spell as if it were cast as a 2nd level spell. Once you invoke the power of this rune, you cannot do so again until after you finish a long rest."
+              ]
             }
           ]
         }
@@ -3947,7 +3993,7 @@
       "subclassShortName": "Runic Scribe",
       "subclassSource": "DW",
       "level": 7,
-      "header": 1,
+      "header": 2,
       "page": ""
     },
     {
