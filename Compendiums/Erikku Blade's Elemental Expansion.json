@@ -4260,6 +4260,7 @@
     {
       "name": "Sword of Elemental Absorption",
       "type": "GV",
+      "source": "ErikkusElementalExpansionCompendium",
       "requires": [
         {
           "sword": true
@@ -4267,10 +4268,6 @@
       ],
       "inherits": {
         "nameSuffix": " of Elemental Absorption",
-        "source": "ErikkusElementalExpansionCompendium",
-        "page": null,
-        "rarity": "uncommon",
-        "bonusWeapon": "+1",
         "entries": [
           "You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon. In addition, the sword can store up to 3 charges. Any time you take acid, cold, fire, lightning, poison, or thunder damage the sword gains a charge. The sword loses any unused charges on the next dawn.",
           "For every charge the sword has, it deals an additional d6 of damage. You determine the type of damage based on the number rolled on one of the d6s, you choose each time you deal damage with the sword. The table below determines the damage type.",
@@ -4311,7 +4308,11 @@
               ]
             ]
           }
-        ]
+        ],
+        "bonusWeapon": "+1",
+        "rarity": "uncommon",
+        "page": null,
+        "source": "ErikkusElementalExpansionCompendium"
       }
     }
   ]
