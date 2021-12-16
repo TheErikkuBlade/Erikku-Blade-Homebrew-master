@@ -33,7 +33,7 @@
             ],
             "3": [
               "Hold Person",
-              "Snilloc's Snowball Swarm|XGE"
+              "Rime's Binding Ice|FTD"
             ],
             "5": [
               "Sleet Storm",
@@ -51,46 +51,13 @@
         }
       ],
       "subclassSpells": [
-        {
-          "name": "Armor of Agathys",
-          "source": "PHB"
-        },
-        {
-          "name": "Ice Knife",
-          "source": "XGE"
-        },
-        {
-          "name": "Hold Person",
-          "source": "PHB"
-        },
-        {
-          "name": "Snilloc’s Snowball Swarm",
-          "source": "XGE"
-        },
-        {
-          "name": "Sleet Storm",
-          "source": "PHB"
-        },
-        {
-          "name": "Spirit Shroud",
-          "source": "TCE"
-        },
-        {
-          "name": "Fire Shield",
-          "source": "PHB"
-        },
-        {
-          "name": "Ice Storm",
-          "source": "PHB"
-        },
-        {
-          "name": "Cone of Cold",
-          "source": "PHB"
-        },
-        {
-          "name": "Hold Monster",
-          "source": "PHB"
-        }
+        "armor of agathys",
+        "ice knife|XGE",
+        "rime's binding ice|FTD",
+        "sleet storm",
+        "fire shield",
+        "ice storm",
+        "cone of cold"
       ],
       "subclassFeatures": [
         "Winter Domain|Cleric||Winter|erikkuiceandwinter|1",
@@ -118,7 +85,7 @@
             ],
             "3": [
               "Gentle Repose",
-              "Snilloc's Snowball Swarm|XGE"
+              "Rime's binding ice|FTD"
             ],
             "5": [
               "Cold Snap|erikkuiceandwinter",
@@ -144,10 +111,7 @@
       ],
       "subclassSpells": [
         "armor of agathys",
-        {
-          "name": "frost fingers",
-          "source": "IDRotF"
-        },
+        "frost fingers|IDRotF",
         "Gentle Repose",
         "Feign Death"
       ]
@@ -165,27 +129,17 @@
         "Archdruid of the Frozen Wastes|Druid||Frozen Wastes|erikkuiceandwinter|14"
       ],
       "subclassSpells": [
-        "armor of agathys",
-        {
-          "name": "frost fingers",
-          "source": "IDRotF"
-        },
-        {
-          "name": "snilloc's snowball swarm",
-          "source": "XGE"
-        }
+        "Rime's binding ice|FTD"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "2": [
-              "Armor of Agathys",
-              "frost fingers|IDRotF",
               "ray of frost"
             ],
             "3": [
               "Winter's Grasp|erikkuiceandwinter",
-              "Snilloc's Snowball Swarm|XGE"
+              "Rime's binding ice|FTD"
             ],
             "5": [
               "Cold Snap|erikkuiceandwinter",
@@ -287,15 +241,15 @@
             ],
             [
               "3rd",
-              "{@spell Hold Person}, {@spell Snilloc's Snowball Swarm|XGE}"
+              "{@spell Hold Person}, {@spell Rime's Binding Ice|FTD}"
             ],
             [
               "5th",
-              "{@spell Sleet Storm}, *{@spell Spirit Shroud|TCE}"
+              "{@spell Sleet Storm}, {@spell Spirit Shroud|TCE}"
             ],
             [
               "7th",
-              "**{@spell Fire Shield}, {@spell Ice Storm}"
+              "*{@spell Fire Shield}, {@spell Ice Storm}"
             ],
             [
               "9th",
@@ -303,8 +257,7 @@
             ]
           ]
         },
-        "*You can only choose cold damage when you cast this spell.",
-        "**You can only choose the chill shield option when you cast this spell.",
+        "*You can only choose the chill shield option when you cast this spell.",
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Bonus Proficiencies|Cleric||Winter|erikkuiceandwinter|1"
@@ -324,7 +277,7 @@
       "name": "Bonus Proficiencies",
       "entries": [
         "{@i 1st-level Winter feature}",
-        "You gain proficiency in two of the following skills: athletics, intimidation, nature, or survival."
+        "You gain proficiency in one of the following skills: athletics, intimidation, nature, or survival."
       ],
       "source": "erikkuiceandwinter",
       "page": null,
@@ -356,8 +309,8 @@
       "name": "Frost Forge",
       "entries": [
         "{@i 1st-level Winter feature}",
-        "You create a magical bond between you and a weapon of your choosing. By performing a 1-hour ritual you can turn a nonmagical weapon into a magical weapon, become proficient with that weapon if you weren’t already, you can use the weapon as an arcane focus, and it instead deals cold damage instead of its original damage type on hit. This magical bond lasts until you use this feature again, or you die. Alternatively, instead of bonding to an existing weapon, you can create a magical one-handed melee weapon with the finesse property that deals 1d6 of cold damage on hit. This weapon takes the form of a shortsword or scimitar made of ice. You bond with this weapon instead and when you use this feature again, or if you die, the weapon melts away.",
-        "When you reach 8th level, if the weapon you’re bonding with is a nonmagical weapon, or if it was created by this feature, it gains a magic bonus of +1 to attack and damage rolls. At 17th level, this bonus becomes +2."
+        "You can perform a 10-minute ritual to create a simple melee weapon that only you can use. You determine the physical appearance of the weapon and its shape, but not in a way that alters its statistics. You are proficient with the weapon and you add your spellcasting ability modifier to its attack and damage rolls instead of Strength or Dexterity. It has the light property and is considered magical for the purposes of overcoming non-magical resistances. On hit it deals 1d6 cold damage and reduces a creature’s speed by 10 feet until the start of your next turn, unless they have resistance or immunity to cold damage.",
+        "As a bonus action, you can summon your weapon to a free hand or dismiss the weapon causing it to disappear until you summon it again. Should your weapon be destroyed, you must perform another 10-minute ritual to create a new one. Your weapon is destroyed if you use your action to destroy it or if you die. The cold damage increases to 1d8 at 5th level and 1d10 at 16th level."
       ],
       "source": "erikkuiceandwinter",
       "page": null,
@@ -380,7 +333,7 @@
       "header": 2,
       "entries": [
         "{@i 2nd-level Winter feature}",
-        "You summon a small portion of your god’s power to freeze creatures in their tracks. Choose one creature within 60 feet of you. That creature, and each creature within 5 feet of it must pass a Constitution saving throw against your spell save DC. On a failed save, they take cold damage equal to your proficiency bonus plus twice your cleric level and their movement speed is reduced to 0 until the end of your next turn. On a success, they take half damage and their speed is not reduced."
+        "You summon a small portion of your diety's power to freeze creatures in their tracks. As an action, choose a point within 60 feet of you. Cold energy envelops the area in a 10-foot-radius of ice and snow. Each creature in the area makes a Constitution saving throw. A creature takes cold damage equal to 2d8 + your cleric level and their movement speed is reduced to 0 until the start of your next turn on a failed saving throw, and half as much damage and does not have their speed reduced on a successful one. A creature that has total cover from you is not affected. The area affected then becomes icy and is treated as difficult terrain for the next 10 minutes. Afterwhich, the ice and snow melts away."
       ]
     },
     {
@@ -521,7 +474,7 @@
             ],
             [
               "3rd",
-              "{@spell Gentle Repose|PHB}, {@spell Snilloc's Snowball Swarm|XGE}"
+              "{@spell Gentle Repose|PHB}, {@spell Rime's Binding Ice|FTD}"
             ],
             [
               "5th",
@@ -598,7 +551,7 @@
       "header": 2,
       "entries": [
         "{@i 14th-level Iceborn feature}",
-        "When a creature fails a saving throw against one of your 1st level or higher spells that deals cold damage, you can mark that creature with a chilling brand. While marked with this brand, ice and frost slowly creeps into their body, granting them vulnerability to all damage until the end of your next turn. This renders any resistance or immunities they had useless until the effect fades. Once they next take damage after being marked, the frozen brand melts away, ending the effect. A creature is immune to the effects of this mark if they have resistance or immunity to cold damage.",
+        "When a creature fails a saving throw against one of your 1st level or higher spells that deals cold damage, you can mark that creature with a chilling brand by spending 3 sorcery points. While marked with this brand, ice and frost slowly creeps into their body, granting them vulnerability to all damage until the end of your next turn. This renders any resistance or immunities they had useless until the effect fades. Once they next take damage after being marked, the frozen brand melts away, ending the effect. A creature is immune to the effects of this mark if they have resistance or immunity to cold damage.",
         "You can only mark one creature at a time using this feature, and you can only mark creatures with this special brand a number of times equal to your proficiency bonus, regaining all spent uses after a long rest."
       ]
     },
@@ -614,7 +567,7 @@
       "header": 2,
       "entries": [
         "{@i 18th-level Iceborn feature}",
-        "Your mastery over cryomancy permanently changes your very being as you become one with your ancestry. You have immunity to cold damage and learn the Investiture of Ice spell. If you already knew the {@spell Investiture of Ice|XGE} spell, you can choose another spell from the sorcerer spell list to learn instead. This spell does not count against your total number of sorcerer spells and you can cast it once at its lowest level without expending a spell slot.",
+        "Your mastery over cryomancy permanently changes your very being as you become one with your ancestry. You have immunity to cold damage and learn the {@spell Investiture of Ice|XGE} spell. If you already knew the {@spell Investiture of Ice|XGE} spell, you can choose another spell from the sorcerer spell list to learn instead. This spell does not count against your total number of sorcerer spells and you can cast it once at its lowest level without expending a spell slot.",
         "Casting {@spell Investiture of Ice|XGE} in this way does not require concentration and lasts up to an hour rather than its normal duration of 10 minutes.",
         "Whenever you cast {@spell Investiture of Ice|XGE} using a spell slot, its range becomes touch instead of self and you can target other creatures with the spell. Casting the spell at higher levels allows you to target one additional creature per spell slot level above 6th."
       ]
@@ -787,7 +740,7 @@
       "level": 2,
       "header": 2,
       "entries": [
-        "Your time surviving in the frozen wastes grants you access to certain spells. At 2nd level, you learn the ray of frost cantrip. At 2nd, 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Frozen Wastes Spells table.",
+        "Your time surviving in the frozen wastes grants you access to certain spells. At 2nd level, you learn the {@spell ray of frost} cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Frozen Wastes Spells table.",
         "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
         {
           "type": "table",
@@ -802,12 +755,8 @@
           ],
           "rows": [
             [
-              "2nd",
-              "{@spell armor of agathys}, {@spell frost fingers|IRotF}"
-            ],
-            [
               "3rd",
-              "{@spell winter’s grasp|erikkuiceandwinter}, {@spell Snilloc's snowball swarm|XGE}"
+              "{@spell winter’s grasp|erikkuiceandwinter}, {@spell Rime's binding ice|FTD}"
             ],
             [
               "5th",
@@ -1150,15 +1099,7 @@
         }
       ],
       "entries": [
-        "Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or take {@damage 3d6} cold damage and is {@condition paralyzed} for the duration, unless the target is immune to cold damage. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target."
-      ],
-      "entriesHigherLevel": [
-        {
-          "name": "At Higher Levels",
-          "entries": [
-            "When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@damage 1d6} for each slot level above 4th."
-          ]
-        }
+        "Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or take {@damage 3d6} cold damage and is {@condition paralyzed} for the duration, unless the target is resistant or immune to cold damage. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target. If a creature passes their save against this spell, they are immune to its effects for 1 hour."
       ],
       "damageInflict": [
         "cold"

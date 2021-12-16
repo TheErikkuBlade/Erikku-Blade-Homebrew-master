@@ -3154,9 +3154,8 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "Starting at 6th level, you gain resistance to poison damage and have advantage on saving throws against being poisoned.",
-        "In addition, you gain resistance to bludgeoning, piercing, and slashing damage while your Primordial Form is active.",
-        "Also, you always have resistance to a certain damage type based on the element you chose regardless if your primordial form is active or not:",
+        "Starting at 6th level, you gain resistance to bludgeoning, piercing, and slashing damage while your Primordial Form is active.",
+        "In addition, you always have resistance to a certain damage type based on the element you chose regardless if your primordial form is active or not:",
         {
           "type": "options",
           "entries": [
@@ -3217,7 +3216,7 @@
       "level": 14,
       "header": 2,
       "entries": [
-        "Starting at 14th level, you can enter your Primordial Form as an action by spending 5 sorcery points. Your Primordial Form now lasts for an hour rather than a minute. While in your Primordial Form you gain certain benefits depending on the element you chose:",
+        "Starting at 14th level, you can enter your Primordial Form as an action by spending 5 sorcery points. Your Primordial Form now lasts for an hour rather than a minute when you use it in this way. While in your Primordial Form you gain certain benefits depending on the element you chose:",
         {
           "type": "options",
           "entries": [
