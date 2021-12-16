@@ -670,7 +670,6 @@
         "Misty Step",
         "Nystul's Magic Aura",
         "Pass without Trace",
-        "Phantasmal Force",
         "Prayer of Healing",
         "See Invisibility",
         "Silence",
@@ -765,9 +764,6 @@
         "True Resurrection",
         "Wish",
         "Create Bonfire|XGE",
-        "Magic Stone|XGE",
-        "Sapping Sting|EGW",
-        "Absorb Elements|XGE",
         "Beast Bond|XGE",
         "Ceremony|XGE",
         "Gift of Alacrity|EGW",
@@ -795,7 +791,9 @@
         "Life Transference|XGE",
         "Healing Spirit|XGE",
         "Catnap|XGE",
-        "Fizban's Platinum Shield|FTD"
+        "Fizban's Platinum Shield|FTD",
+        "Silvery Barbs|SCC",
+        "Borrowed Knowledge|SCC"
       ]
     }
   ],
@@ -901,8 +899,8 @@
       "classSource": "EBFateWeaver",
       "level": 2,
       "entries": [
-        "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can spend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice. ",
-        "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time. Also, whenever you cast the Fortune’s Favor spell, you can ignore the material cost of the spell. Once you do so, you cannot do so again until you complete a long rest.",
+        "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can spend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice. ",
+        "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time.",
         "You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a long rest."
       ],
       "page": 2
@@ -1031,9 +1029,7 @@
       "classSource": "EBFateWeaver",
       "level": 15,
       "entries": [
-        "You draw power from the infinite wellspring of magic, granting you the knowledge, wisdom, or cunning needed to learn magic you otherwise could not learn.",
-        "Beginning at 15th level, you learn two additional spells that you can choose from any spell list. These spells do not have to be Fate Weaver spells and can come from any spellcasting list. These spells are always prepared and do not count against your total number of prepared spells.",
-        "At 20th level, you can prepare an additional two spells from any spellcasting list, these spells are always prepared and do not count toward your total number of spells prepared."
+        "You draw power from the infinite wellspring of magic, granting you the knowledge, wisdom, or cunning needed to learn magic you otherwise could not learn. Beginning at 15th level, choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Fate Weaver table, or a cantrip. These spells are always prepared and do not count against your total number of prepared spells. You can choose another two spells when you reach 20th level, which are also always prepared and do not count towards your total number of prepared spells."
       ],
       "page": 6
     },
@@ -1146,7 +1142,7 @@
             ],
             [
               "3rd",
-              "{@spell enthrall}, {@spell pyrotechnics|XGE}"
+              "{@spell kinetic jaunt|SCC}, {@spell pyrotechnics|XGE}"
             ],
             [
               "5th",
@@ -1514,7 +1510,7 @@
       "subclassSource": "EBFateWeaver",
       "level": 6,
       "entries": [
-        "Starting at 6th level, by spending a 10 minute ritual you can cast the spell Tiny Hut as a ritual spell. When you do so, creatures that take a rest inside the dome restore twice as many hit points on a short rest and restore 2 levels of exhaustion rather than 1 after a long rest. In addition, creatures who take a long rest replenish all of their hit dice instead of half. You can only cast Tiny Hut in this way if you are outside and the moon is out."
+        "Starting at 6th level, by performing a 10 minute ritual you can cast the spell Tiny Hut as a ritual spell. When you do so, creatures that take a rest inside the dome restore twice as many hit points on a short rest and restore 2 levels of exhaustion rather than 1 after a long rest. In addition, creatures who take a long rest replenish all of their hit dice instead of half. You can only cast Tiny Hut in this way if you are outside and the moon is out."
       ],
       "page": 9,
       "header": 2
@@ -1589,7 +1585,7 @@
             ],
             [
               "3rd",
-              "{@spell blindness/deafness}, {@spell shadow blade|XGE}"
+              "{@spell blindness/deafness}, {@spell wither and bloom|SCC}"
             ],
             [
               "5th",
@@ -1706,7 +1702,9 @@
       "subclassSource": "EBFateWeaver",
       "level": 18,
       "entries": [
-        "At 18th level, you no longer suffer the effects of old age and you cannot be aged magically. You can still die of old age, however your lifespan has been expanded. For each year you had left, and each year you had lived, you now gain 10 years of life. In addition, as a bonus action by spending a fate die you can inflict a curse to a creature that you can see within 60 ft of you. Roll the fate die, that creature receives a penalty to their AC equal to what you roll. This curse remains until the creature dies. A remove curse spell of 5th level or higher, or a Greater Restoration spell can remove its effects. Only one creature can suffer the effects of the curse at any given time and you can invoke this curse a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+        "At 18th level, you no longer suffer the effects of old age and you cannot be aged magically. You can still die of old age, however your lifespan has been expanded. For each year you had left, and each year you had lived, you now gain 10 years of life. ",
+        "In addition, you have control over both life and death. As a bonus action, by spending a fate die you can either give a curse or a boon to a creature that you can see within 60 ft of you. For one minute, the chosen creature either cannot regain hit points if you inflicted a curse or the amount of hit points they regain from spells is doubled if you chose boon. Both of these effects can be removed via a remove curse spell.",
+        "Once you’ve used this feature, you cannot use it again until you finish a long rest, or you can expend a spell slot of 3rd level or higher to regain the ability to use this feature."
       ],
       "page": 10,
       "header": 2
@@ -2038,7 +2036,7 @@
             ],
             [
               "3rd",
-              "{@spell darkness}, {@spell phantasmal force}"
+              "{@spell phantasmal force}, {@spell Vortex Warp|SCC}"
             ],
             [
               "5th",
@@ -2107,10 +2105,10 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "Starting at 6th level, when you fall to 0 hit points, you can spend a spell slot of any level to reach out to a being from the void. They assume your body and it continues to fight on in your stead. ",
-        "Your body remains at 0 hit points but continues to stand. You can move and take actions as normal, however you still make death saving throws at the start of your turn. Your body remains active until you either pass or fail 3 death saves, after which your body either dies after 3 failed death saves, or falls unconscious after 3 successful death saves. If you take damage while in this state, you automatically gain one failed death save.",
+        "Starting at 6th level, when you fall to 0 hit points, you can spend a spell slot of any level to reach out to a being from the void. They assume your body and it continues to fight on in your stead.",
+        "Your body remains at 0 hit points but continues to stand. You can move and take actions as normal, however every time you take damage, you make a Wisdom saving throw with a DC equal to half the damage you took (rounded down) or 10, whichever is higher. On a failed save, you become incapacitated. Also, every time you take damage, you subtract that damage starting from 0 going into negative hit points. The same rules for overkill apply, except now your hit points don’t reset back to 0. This state ends after 1 minute, you die, or a creature casts the {@spell Dispel Evil and Good} spell on you.",
         "Toying with death comes at a cost, when this state ends you gain 1 level of exhaustion. Each consecutive use after the first temporarily damages your soul. The next time you use this feature after the first, you spend a hit die and reduce your hit point maximum by an amount equal to what you rolled. This reduction cannot be restored until after you’ve completed a long rest, after which you regain any hit points lost as a result of this feature. If this feature would reduce your hit point maximum to 0, you die and cannot be restored to life by any means short of a wish spell.",
-        "At the end of each of your turns, you make a Wisdom saving throw against your spell save DC, on a failed save the creature of the void becomes one step closer to taking over your being. If you fail this saving throw 3 times, you gain a personality trait that would correspond to that being. Work with the DM on the specifics of this trait, or roll on the following table: ",
+        "At the end of each of your turns, you make a Charisma saving throw against your spell save DC, on a failed save the creature of the void becomes one step closer to taking over your being. If you fail this saving throw 3 times, you gain a personality trait that would correspond to that being. Work with the DM on the specifics of this trait, or roll on the following table:",
         {
           "type": "table",
           "caption": "Creatures of The Void Personality Traits",
@@ -2395,9 +2393,9 @@
       "level": 18,
       "entries": [
         "{@i 18th-level Knight Feature}",
-        "Reaching the pinnacle of your powers, you can now harness that magical might into protective energies far beyond what you could make previously. Whenever you cast a spell you create a magical ward that has a number of hit points equal to 5 times the level of the spell slot used. Whenever you or a creature within 30 ft of you takes damage, you can choose to subtract the damage from the ward’s hit points instead. Using this feature on a creature other than yourself costs a reaction. If the damage reduces the ward to 0 hit points, you take any remaining damage, even if it is intended for another creature and the ward is destroyed.",
-        "You can only have one of these magical wards at any given time, however if you would cast a spell and the ward that would have been created would have more hit points, you can choose to destroy your previous ward and create the new one.",
-        "Alternatively, you can expend one use of your divination dice and create a magical ward without having to cast a spell. Doing so takes an action and the number of hit points it has is 10. Once you create a magical ward using a divination die, you cannot do so again until you finish a short or long rest."
+        "Reaching the pinnacle of your powers, you can now harness that magical might into a protective aura. Whenever you or a friendly creature within 30 feet of you takes damage, they can spend their reaction to gain resistance to that damage and any other damage accompanying it for 1 minute. For instance, a creature who takes damage from a weapon attack empowered by a spell, such as holy weapon, the creature would gain resistance to both the weapon’s damage and the radiant damage from holy weapon.",
+        "Every time a creature gains the benefits of this feature again, they lose any previous resistances they had gained from it in favor of the new ones, unless they had those resistances from another source, such as their race or a spell.",
+        "Once the benefits of this aura have been given a number of times equal to your proficiency bonus, you must wait until you complete a long rest to regain all expended uses of this feature, or you can spend a spell slot of 3rd level or higher to regain one use of this ability."
       ],
       "page": 14,
       "header": 2
@@ -3152,7 +3150,7 @@
               "tasha's hideous laughter"
             ],
             "3": [
-              "enthrall",
+              "kinetic jaunt|SCC",
               "pyrotechnics|XGE"
             ],
             "5": [
@@ -3335,7 +3333,7 @@
             ],
             "3": [
               "blindness/deafness",
-              "shadow blade|XGE"
+              "wither and bloom|SCC"
             ],
             "5": [
               "spirit shroud|TCE",
@@ -3495,7 +3493,7 @@
               "dissonant whispers"
             ],
             "3": [
-              "darkness",
+              "vortex warp|SCC",
               "phantasmal force"
             ],
             "5": [
