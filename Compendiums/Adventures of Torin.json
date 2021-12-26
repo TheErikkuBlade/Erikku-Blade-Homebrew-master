@@ -11155,6 +11155,166 @@
   ],
   "subclassFeature": [
     {
+      "name": "The Greatwyrm",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Greatwyrm",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "There are dragons that have ascended to near god-hood known as greatwyrms. It is no secret that dragons can bestow their powers as gifts onto other creatures, there are even dragons that are gods in the D&D multiverse that bestow their powers onto clerics as divine power.",
+        "Greatwyrms are similar in nature to these divine dragons, but on a lesser scale typically. As such, they are just as capable as bestowing power to devout followers. Some greatwyrms have cult-like followings, others give their powers to great heroes and some are even children to these great beings."
+      ]
+    },
+    {
+      "name": "Expanded Spell List",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Greatwyrm",
+      "level": 1,
+      "entries": [
+        "Starting at 1st level, the greatwyrm lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        {
+          "type": "table",
+          "caption": "Expanded Spell List",
+          "colLabels": [
+            "Spell Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell absorb elements|XGE}, {@spell chromatic orb|PHB}"
+            ],
+            [
+              "2nd",
+              "{@spell darkvision|PHB}, {@spell dragon's breath|XGE}"
+            ],
+            [
+              "3rd",
+              "{@spell elemental weapon|PHB}, {@spell protection from energy|PHB}"
+            ],
+            [
+              "4th",
+              "{@spell arcane eye|PHB}, {@spell polymorph|PHB}"
+            ],
+            [
+              "5th",
+              "{@spell circle of power|PHB}, {@spell summon draconic spirit|FTD}"
+            ]
+          ]
+        }
+      ],
+      "header": 1
+    },
+    {
+      "name": "Eye of Dragonsight",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Greatwyrm",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "Starting at 1st level, you have the ability to perceive echoes of yourself and your dragon patron, allowing yourself to gain the knowledge and some abilities of these echoes. When you finish a short or long rest, choose one skill or tool you lack proficiency in. You gain proficiency in that skill or tool, which lasts until you finish your next short or long rest.",
+        "As an action, you can focus your dragonsight and allow yourself to see spirits. You can see into the ethereal plane out to a range of 60 feet, as if you were under the effects of the {@spell see invisibility} spell. You can retain this sight for 1 minute or until you lose your concentration (as if you were concentrating on a spell).",
+        "You can focus your dragonsight a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Draconic Gift",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Greatwyrm",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "Also at 1st level, you have a gift from your patron that physically changes you. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Tongue of Dragons",
+              "entries": [
+                "You learn to speak, read, and write Draconic or one other language of your choice."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Draconic Spells",
+              "entries": [
+                "When you damage a target with a spell, you can change the damage type to acid, cold, fire, lightning, or poison."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Dragon's Wrath",
+              "entries": [
+                "Once during each of your turns when you hit with an attack roll, you can deal extra damage equal to your proficiency bonus. The type of damage is determined by the attack."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Voice of The Greatwyrm",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Greatwyrm",
+      "level": 6,
+      "entries": [
+        "Starting at 6th level, you can channel the voice of your patron to boom through yours. As an action, you can give yourself advantage on all Charisma ability checks for the next 10 minutes. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses of it once you complete a short or long rest. ",
+        "Alternatively, when you have no remaining uses of this ability you can expend a warlock spell slot to use it again.",
+        "In addition, you have advantage on saving throws made to resist being {@condition charmed} or {@condition frightened}."
+      ],
+      "header": 1
+    },
+    {
+      "name": "Flight of The Greatwyrm",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Greatwyrm",
+      "level": 10,
+      "entries": [
+        "Starting at 10th level, as a bonus action, you can form spectral wings and give yourself a flying speed of 60 feet that lasts for 10 minutes, during which you can hover. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+      ],
+      "header": 1
+    },
+    {
+      "name": "Ward of The Greatwyrm",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Greatwyrm",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "At 14th level, you can use a bonus action and a warlock spell slot to cast the {@spell Primordial Ward|XGE} spell. When you cast this spell in this way, you do not need to concentrate on it and its casting time is the bonus action used for it.",
+        "Alternatively, you can cast the spell in the same way but as an action instead, doing so gives you the ability to choose a creature within 30 feet of you that you can see and give them the benefits of the spell instead of yourself."
+      ]
+    },
+    {
       "name": "Magitechnician",
       "source": "TheAdventuresofTorinCampaignSetting",
       "className": "Artificer",
@@ -14785,7 +14945,7 @@
           "type": "table",
           "caption": "Expanded Spell List",
           "colLabels": [
-            "Sorcerer Level",
+            "Spell Level",
             "Spell"
           ],
           "colStyles": [
@@ -14798,19 +14958,19 @@
               "{@spell Color Spray|PHB}, {@spell Inflict Wounds|PHB}"
             ],
             [
-              "3rd",
+              "2nd",
               "{@spell Magic Mouth|PHB}, {@spell See Invisibility|PHB}"
             ],
             [
-              "5th",
+              "3rd",
               "{@spell Bestow Curse|PHB}, {@spell Life Transference|XGE}"
             ],
             [
-              "7th",
+              "4th",
               "{@spell Confusion|PHB}, {@spell Polymorph|PHB}"
             ],
             [
-              "9th",
+              "5th",
               "{@spell Geas|PHB}, {@spell Modify Memory}"
             ]
           ]
@@ -18355,6 +18515,33 @@
   ],
   "subclass": [
     {
+      "name": "The Greatwyrm",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "shortName": "Greatwyrm",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSpells": [
+        "absorb elements|XGE",
+        "chromatic orb",
+        "darkvision",
+        "dragon's breath|XGE",
+        "elemental weapon",
+        "protection from energy",
+        "arcane aeye",
+        "polyporph",
+        "circle of power",
+        "summon draconic spirit|FTD"
+      ],
+      "subclassFeatures": [
+        "Eye of Dragonsight|Warlock|PHB|Greatwyrm|TheAdventuresofTorinCampaignSetting|1",
+        "Expanded Spell List|Warlock|PHB|Greatwyrm|TheAdventuresofTorinCampaignSetting|1",
+        "Draconic Gift|Warlock|PHB|Greatwyrm|TheAdventuresofTorinCampaignSetting|1",
+        "Voice of The Greatwyrm|Warlock|PHB|Greatwyrm|TheAdventuresofTorinCampaignSetting|6",
+        "Flight of The Greatwyrm|Warlock|PHB|Greatwyrm|TheAdventuresofTorinCampaignSetting|10",
+        "Ward of The Greatwyrm|Warlock|PHB|Greatwyrm|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
       "name": "Magitechnician",
       "shortName": "Magitechnician",
       "source": "TheAdventuresofTorinCampaignSetting",
@@ -19229,20 +19416,11 @@
       "subclassSpells": [
         "inflict wounds",
         "hex",
-        {
-          "name": "vile mark",
-          "source": "TheAdventuresofTorinCampaignSetting"
-        },
+        "vile mark|TheAdventuresofTorinCampaignSetting",
         "ray of enfeeblement",
-        {
-          "name": "life transference",
-          "source": "XGE"
-        },
+        "life transference|XGE",
         "vampiric touch",
-        {
-          "name": "heart sunder",
-          "source": "TheAdventuresofTorinCampaignSetting"
-        }
+        "heart sunder|TheAdventuresofTorinCampaignSetting"
       ],
       "subclassFeatures": [
         "The Blood Witch|Warlock|PHB|The Blood Witch|TheAdventuresofTorinCampaignSetting|1",
