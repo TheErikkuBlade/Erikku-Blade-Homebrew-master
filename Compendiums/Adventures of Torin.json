@@ -192,7 +192,6 @@
       "name": "Goblet of Refreshment",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
-      "type": "WD",
       "rarity": "common",
       "weight": 1,
       "entries": [
@@ -204,7 +203,6 @@
       "name": "Pendant of Perfection",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
-      "type": "WD",
       "rarity": "common",
       "weight": 1,
       "entries": [
@@ -226,7 +224,6 @@
       "name": "Bracelets of Far Speak",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
-      "type": "WD",
       "rarity": "common",
       "weight": 1,
       "entries": [
@@ -1449,7 +1446,7 @@
         },
         {
           "type": "entries",
-          "name": "Protetion of The Seas",
+          "name": "Protection of The Seas",
           "entries": [
             "You have resistance to cold damage and damage dealt by creatures with a swimming speed, regardless of origin. While submerged underwater, the seas protect you from any incoming damage, granting you resistance to all damage except force or psychic."
           ]
@@ -2633,6 +2630,7 @@
     },
     {
       "name": "Cryomancer",
+      "isNamedCreature": true,
       "source": "TheAdventuresofTorinCampaignSetting",
       "size": "M",
       "type": {
@@ -2715,6 +2713,14 @@
           "type": "spellcasting"
         }
       ],
+      "trait": [
+        {
+          "name": "Empowered Cold Elementalist",
+          "entries": [
+            "The cryomancer deals an additional 4 points of cold damage whenever they deal cold damage. (Included in actions)"
+          ]
+        }
+      ],
       "action": [
         {
           "name": "Multiattack",
@@ -2738,6 +2744,22 @@
           "name": "Breath of Winter {@recharge 4}",
           "entries": [
             "The cryomancer releases out a 60-foot cone of cold energy. Each creature in the are must make a {@dc 15} Constitution saving throw, taking 44 {@damage 10d8 + 4} cold damage on a failed save or half as much on a success. Creatures who fail the save by 5 or more have their movement speed reduced to 0."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Winding Staff",
+          "entries": [
+            "As a bonus action, if the cryomancer made at least one attack with its Ice Staff with its multiattack, it can immediately make one additional attack with its Ice Staff."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Arcane Defense (3/Day)",
+          "entries": [
+            "When they are hit by an attack, the cryomancer protects themselves with an {@condition invisible} barrier of magical force. Until the end of their next turn, they gains a +5 bonus to AC, including against the triggering attack."
           ]
         }
       ],
@@ -2774,10 +2796,14 @@
         ]
       },
       "tokenUrl": "https://i.imgur.com/hCO9lrm.png",
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
       "languageTags": [
-        "C",
         "AQ",
         "AU",
+        "C",
         "X"
       ],
       "damageTags": [
@@ -2785,39 +2811,10 @@
         "C"
       ],
       "miscTags": [
-        "MW",
-        "AOE"
+        "AOE",
+        "MW"
       ],
-      "hasFluff": true,
-      "isNamedCreature": true,
-      "actionTags": [
-        "Breath Weapon",
-        "Multiattack"
-      ],
-      "bonus": [
-        {
-          "name": "Winding Staff",
-          "entries": [
-            "As a bonus action, if the cryomancer made at least one attack with its Ice Staff with its multiattack, it can immediately make one additional attack with its Ice Staff."
-          ]
-        }
-      ],
-      "reaction": [
-        {
-          "name": "Arcane Defense (3/Day)",
-          "entries": [
-            "When they are hit by an attack, the cryomancer protects themselves with an {@condition invisible} barrier of magical force. Until the end of their next turn, they gains a +5 bonus to AC, including against the triggering attack."
-          ]
-        }
-      ],
-      "trait": [
-        {
-          "name": "Empowered Cold Elementalist",
-          "entries": [
-            "The cryomancer deals an additional 4 points of cold damage whenever they deal cold damage. (Included in actions)"
-          ]
-        }
-      ]
+      "hasFluff": true
     },
     {
       "name": "Draconic Ally Template",
@@ -2907,9 +2904,9 @@
     },
     {
       "name": "Magitech Construct",
+      "source": "TheAdventuresofTorinCampaignSetting",
       "size": "S",
       "type": "construct",
-      "source": "TheAdventuresofTorinCampaignSetting",
       "alignment": null,
       "ac": [
         {
@@ -2929,9 +2926,6 @@
       "wis": 10,
       "cha": 6,
       "passive": 10,
-      "vulnerable": [
-        "thunder"
-      ],
       "resist": [
         {
           "resist": [
@@ -2945,6 +2939,9 @@
       "immune": [
         "poison",
         "psychic"
+      ],
+      "vulnerable": [
+        "thunder"
       ],
       "conditionImmune": [
         "charmed",
@@ -2982,12 +2979,6 @@
           ]
         }
       ],
-      "damageTags": [
-        "O"
-      ],
-      "miscTags": [
-        "MW"
-      ],
       "bonus": [
         {
           "name": "Shove",
@@ -3001,6 +2992,12 @@
             "The constructed uses magic to self repair itself. It regains {@dice 1d4 + PB} hit points."
           ]
         }
+      ],
+      "damageTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MW"
       ]
     },
     {
@@ -3756,6 +3753,20 @@
           "type": "spellcasting"
         }
       ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The fate weaver has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Blessing of Fate",
+          "entries": [
+            "The AC of the fate weaver includes its Charisma bonus."
+          ]
+        }
+      ],
       "action": [
         {
           "name": "Guiding Strike",
@@ -3773,6 +3784,20 @@
           "name": "Mending Weaving {@recharge 5}",
           "entries": [
             "The fate weaver touches a creature. They regain {@dice 4d8 + 4} hit points."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Healing Weave {@recharge 4}",
+          "entries": [
+            "The fate weaver can choose a creature within 60 feet of them, the chosen creature regains {@dice 4d4 + 4} hit points."
+          ]
+        },
+        {
+          "name": "Spell Weaving (4/Day)",
+          "entries": [
+            "The fate weaver can regain the use of one of their spells by spending the use of a different spell."
           ]
         }
       ],
@@ -3807,43 +3832,15 @@
         ]
       },
       "tokenUrl": "https://i.imgur.com/nh8x4cn.png",
+      "traitTags": [
+        "Magic Resistance"
+      ],
       "languageTags": [
         "C",
         "X"
       ],
       "damageTags": [
         "R"
-      ],
-      "trait": [
-        {
-          "name": "Magic Resistance",
-          "entries": [
-            "The fate weaver has advantage on saving throws against spells and other magical effects."
-          ]
-        },
-        {
-          "name": "Blessing of Fate",
-          "entries": [
-            "The AC of the fate weaver includes its Charisma bonus."
-          ]
-        }
-      ],
-      "traitTags": [
-        "Magic Resistance"
-      ],
-      "bonus": [
-        {
-          "name": "Healing Weave {@recharge 4}",
-          "entries": [
-            "The fate weaver can choose a creature within 60 feet of them, the chosen creature regains {@dice 4d4 + 4} hit points."
-          ]
-        },
-        {
-          "name": "Spell Weaving (4/Day)",
-          "entries": [
-            "The fate weaver can regain the use of one of their spells by spending the use of a different spell."
-          ]
-        }
       ]
     },
     {
@@ -4518,6 +4515,42 @@
           ]
         }
       ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The blood mage makes two attacks with its Blood Lash. It can replace any one of these attacks with a use of its spellcasting."
+          ]
+        },
+        {
+          "name": "Blood Lash",
+          "entries": [
+            "{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120., one target. {@h}15 ({@damage 2d10 + 4}) necrotic damage. If the target is a creature, it can't regain hit points until the start of the blood mage's next turn."
+          ]
+        },
+        {
+          "name": "Blood Boil {@recharge 4}",
+          "entries": [
+            "The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 33 ({@damage 6d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Sacrificial Attacks {@recharge 4}",
+          "entries": [
+            "The blood mage can spend 10 hit points to gain advantage on all of its attacks until the end of the current turn."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Blood Bolster",
+          "entries": [
+            "The blood mage can bolster its abilities using its own vitality as a sacrifice. By spending 10 hit points when it fails an ability check, attack roll, or saving throw, it can reroll the {@dice d20}, choosing the higher result."
+          ]
+        }
+      ],
       "fluff": {
         "entries": [
           {
@@ -4542,11 +4575,15 @@
           }
         ]
       },
+      "tokenUrl": "https://i.imgur.com/ptzAGQE.png",
       "traitTags": [
         "Devil's Sight"
       ],
       "senseTags": [
         "D"
+      ],
+      "actionTags": [
+        "Multiattack"
       ],
       "languageTags": [
         "AB",
@@ -4557,53 +4594,13 @@
       "damageTags": [
         "N"
       ],
-      "hasFluff": true,
-      "tokenUrl": "https://i.imgur.com/ptzAGQE.png",
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "The blood mage makes two attacks with its Blood Lash. It can replace any one of these attacks with a use of its spellcasting."
-          ]
-        },
-        {
-          "name": "Blood Lash",
-          "entries": [
-            "{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120., one target. {@h}15 ({@damage 2d10 + 4}) necrotic damage. If the target is a creature, it can't regain hit points until the start of the blood mage's next turn."
-          ]
-        },
-        {
-          "name": "Blood Boil {@recharge 4}",
-          "entries": [
-            "The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 33 ({@damage 6d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
-          ]
-        }
-      ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "bonus": [
-        {
-          "name": "Sacrificial Attacks {@recharge 4}",
-          "entries": [
-            "The blood mage can spend 10 hit points to gain advantage on all of its attacks until the end of the current turn."
-          ]
-        }
+      "miscTags": [
+        "AOE"
       ],
       "conditionInflict": [
         "incapacitated"
       ],
-      "miscTags": [
-        "AOE"
-      ],
-      "reaction": [
-        {
-          "name": "Blood Bolster",
-          "entries": [
-            "The blood mage can bolster its abilities using its own vitality as a sacrifice. By spending 10 hit points when it fails an ability check, attack roll, or saving throw, it can reroll the {@dice d20}, choosing the higher result."
-          ]
-        }
-      ]
+      "hasFluff": true
     },
     {
       "name": "Blood Demon",
@@ -5588,6 +5585,9 @@
     },
     {
       "name": "Memori Blade",
+      "shortName": "Memori",
+      "isNamedCreature": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
       "size": "M",
       "type": {
         "type": "fey",
@@ -5597,7 +5597,6 @@
           "fighter"
         ]
       },
-      "source": "TheAdventuresofTorinCampaignSetting",
       "alignment": [
         "L",
         "G"
@@ -5623,42 +5622,6 @@
       "int": 18,
       "wis": 16,
       "cha": 24,
-      "passive": 25,
-      "cr": "20",
-      "shortName": "Memori",
-      "senses": [
-        "darkvision 120 ft."
-      ],
-      "senseTags": [
-        "SD"
-      ],
-      "languages": [
-        "Common",
-        "Draconic",
-        "Elvish",
-        "Primordial",
-        "Sylvan; and she understands all languages."
-      ],
-      "languageTags": [
-        "C",
-        "DR",
-        "E",
-        "P",
-        "S",
-        "XX"
-      ],
-      "fluff": {
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "external",
-              "url": "https://i.imgur.com/kPfK9wT.png"
-            }
-          }
-        ]
-      },
-      "tokenUrl": "https://i.imgur.com/OT0dvg9.png",
       "save": {
         "dex": "+12",
         "cha": "+13",
@@ -5679,57 +5642,61 @@
         "investigation": "+10",
         "stealth": "+12"
       },
-      "isNamedCreature": true,
-      "bonus": [
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 25,
+      "resist": [
+        "fire",
+        "lightning"
+      ],
+      "languages": [
+        "Common",
+        "Draconic",
+        "Elvish",
+        "Primordial",
+        "Sylvan; and she understands all languages."
+      ],
+      "cr": "20",
+      "spellcasting": [
         {
-          "name": "Bardic Inspiration (7/Rest)",
-          "entries": [
-            "Memori can choose one creature she can see within 60 feet of her. For the next minute, that creature can add a bonus {@dice 1d10} to their next attack roll, ability check, or saving throw. The bardic inspiration is only lost if the check was successful."
-          ]
-        },
-        {
-          "name": "Second Wind (1/Rest)",
-          "entries": [
-            "Memori regains 15 hit points."
-          ]
-        },
-        {
-          "name": "Unsettling Words",
-          "entries": [
-            "Memori can expend one use of her Bardic Inspirations and choose a creature within 60 feet of her that she can see. She rolls the die and subtracts that number from the creature's next saving throw until the start of her next turn."
-          ]
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Memori can cast the following spells without requiring material components using Charisma as her spellcasting ability (spell save DC: 21, +13 to hit with spells):"
+          ],
+          "will": [
+            "{@spell mending}",
+            "{@spell message}",
+            "{@spell prestidigitation}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "4e": [
+              "{@spell dimension door}",
+              "{@spell hunter's mark}",
+              "{@spell misty step}",
+              "{@spell sending}"
+            ],
+            "3e": [
+              "{@spell lightning arrow}",
+              "{@spell Rary's telepathic bond}",
+              "{@spell silvery barbs|SCC}",
+              "{@spell teleportation circle}"
+            ],
+            "2e": [
+              "{@spell ballad of storms|TheAdventuresofTorinCampaignSetting}",
+              "{@spell dispel magic}",
+              "{@spell mass cure wounds}"
+            ],
+            "1e": [
+              "{@spell draconic transformation|FTD}",
+              "{@spell summon celestial|TCE}",
+              "{@spell teleport}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
         }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Memori makes three attacks using her Memori's Memento, her +2 Rapier, or any combination of the two. She can replace any one of her attacks with a use of her spellcasting."
-          ]
-        },
-        {
-          "name": "Memori's Memento",
-          "entries": [
-            "{@atk rw} {@hit 17} to hit, range 150/600 ft., one target. {@h}15 ({@damage 1d8 + 11}) piercing damage, plus 9 ({@damage 2d8}) psychic damage."
-          ]
-        },
-        {
-          "name": "+2 Rapier",
-          "entries": [
-            "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage."
-          ]
-        }
-      ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "damageTags": [
-        "P",
-        "Y"
-      ],
-      "miscTags": [
-        "RW",
-        "MW"
       ],
       "trait": [
         {
@@ -5775,60 +5742,90 @@
           ]
         }
       ],
-      "spellcasting": [
+      "action": [
         {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Memori can cast the following spells without requiring material components using Charisma as her spellcasting ability (spell save DC: 21, +13 to hit with spells):"
-          ],
-          "will": [
-            "{@spell mending}",
-            "{@spell message}",
-            "{@spell prestidigitation}",
-            "{@spell vicious mockery}"
-          ],
-          "daily": {
-            "4e": [
-              "{@spell dimension door}",
-              "{@spell hunter's mark}",
-              "{@spell misty step}",
-              "{@spell sending}"
-            ],
-            "3e": [
-              "{@spell lightning arrow}",
-              "{@spell Rary's telepathic bond}",
-              "{@spell silvery barbs|SCC}",
-              "{@spell teleportation circle}"
-            ],
-            "2e": [
-              "{@spell ballad of storms|TheAdventuresofTorinCampaignSetting}",
-              "{@spell dispel magic}",
-              "{@spell mass cure wounds}"
-            ],
-            "1e": [
-              "{@spell draconic transformation|FTD}",
-              "{@spell summon celestial|TCE}",
-              "{@spell teleport}"
-            ]
-          },
-          "ability": "cha",
-          "type": "spellcasting"
+          "name": "Multiattack",
+          "entries": [
+            "Memori makes three attacks using her Memori's Memento, her +2 Rapier, or any combination of the two. She can replace any one of her attacks with a use of her spellcasting."
+          ]
+        },
+        {
+          "name": "Memori's Memento",
+          "entries": [
+            "{@atk rw} {@hit 17} to hit, range 150/600 ft., one target. {@h}15 ({@damage 1d8 + 11}) piercing damage, plus 9 ({@damage 2d8}) psychic damage."
+          ]
+        },
+        {
+          "name": "+2 Rapier",
+          "entries": [
+            "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage."
+          ]
         }
       ],
+      "bonus": [
+        {
+          "name": "Bardic Inspiration (7/Rest)",
+          "entries": [
+            "Memori can choose one creature she can see within 60 feet of her. For the next minute, that creature can add a bonus {@dice 1d10} to their next attack roll, ability check, or saving throw. The bardic inspiration is only lost if the check was successful."
+          ]
+        },
+        {
+          "name": "Second Wind (1/Rest)",
+          "entries": [
+            "Memori regains 15 hit points."
+          ]
+        },
+        {
+          "name": "Unsettling Words",
+          "entries": [
+            "Memori can expend one use of her Bardic Inspirations and choose a creature within 60 feet of her that she can see. She rolls the die and subtracts that number from the creature's next saving throw until the start of her next turn."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/kPfK9wT.png"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/OT0dvg9.png",
       "traitTags": [
         "Fey Ancestry",
         "Legendary Resistances"
       ],
-      "resist": [
-        "fire",
-        "lightning"
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "E",
+        "P",
+        "S",
+        "XX"
+      ],
+      "damageTags": [
+        "P",
+        "Y"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
       ]
     },
     {
       "name": "Starlight Companion",
+      "source": "TheAdventuresofTorinCampaignSetting",
       "size": "S",
       "type": "celestial",
-      "source": "TheAdventuresofTorinCampaignSetting",
       "alignment": [
         "L",
         "N"
@@ -5855,27 +5852,20 @@
       "int": 10,
       "wis": 12,
       "cha": 15,
-      "passive": 11,
-      "senses": [
-        "darkvision 60 ft."
-      ],
-      "senseTags": [
-        "D"
-      ],
-      "languages": [
-        "understands Celestial",
-        "and the languages of its creator",
-        "but can't speak"
-      ],
-      "languageTags": [
-        "CE",
-        "CS"
-      ],
       "save": {
         "wis": "+1",
         "cha": "+2",
         "int": "+0"
       },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "languages": [
+        "understands Celestial",
+        "and the languages of its creator",
+        "but can't speak"
+      ],
       "trait": [
         {
           "name": "Companion's Bond",
@@ -5910,6 +5900,13 @@
             "Anything beyond what is mentioned above is beyond what the starlight companion can grant. If a creature wished for an effect that lasts longer than one round, the effect is lost if the starlight companion is destroyed."
           ]
         }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "CE",
+        "CS"
       ],
       "damageTags": [
         "R"
@@ -6752,6 +6749,10 @@
         "wis": "+6",
         "int": "+5"
       },
+      "skill": {
+        "medicine": "+6",
+        "nature": "+5"
+      },
       "passive": 13,
       "languages": [
         "Common",
@@ -6786,6 +6787,14 @@
           "type": "spellcasting"
         }
       ],
+      "trait": [
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "The Herbalist has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
+          ]
+        }
+      ],
       "action": [
         {
           "name": "Multiattack",
@@ -6818,33 +6827,6 @@
           ]
         }
       ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "languageTags": [
-        "C",
-        "S"
-      ],
-      "damageTags": [
-        "B",
-        "P"
-      ],
-      "conditionInflictSpell": [
-        "paralyzed",
-        "prone"
-      ],
-      "hasFluff": true,
-      "hasFluffImages": true,
-      "environment": [
-        "forest",
-        "grassland",
-        "swamp",
-        "urban"
-      ],
-      "skill": {
-        "medicine": "+6",
-        "nature": "+5"
-      },
       "bonus": [
         {
           "name": "Nature's Staff",
@@ -6859,19 +6841,11 @@
           ]
         }
       ],
-      "miscTags": [
-        "MW"
-      ],
-      "trait": [
-        {
-          "name": "Keen Senses",
-          "entries": [
-            "The Herbalist has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
-          ]
-        }
-      ],
-      "traitTags": [
-        "Keen Senses"
+      "environment": [
+        "forest",
+        "grassland",
+        "swamp",
+        "urban"
       ],
       "fluff": {
         "entries": [
@@ -6888,9 +6862,32 @@
         ]
       },
       "tokenUrl": "https://i.imgur.com/ZsFVnm3.png",
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "S"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
       "conditionInflict": [
         "prone"
-      ]
+      ],
+      "conditionInflictSpell": [
+        "paralyzed",
+        "prone"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
     },
     {
       "name": "Extraplanar Ally (Base)",
@@ -7762,6 +7759,258 @@
         "P"
       ],
       "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Fuyu Sosara",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "tiefling",
+          "sorcerer"
+        ]
+      },
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item frozen studded leather armor|theadventuresoftorincampaignsetting}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "20d8 + 120",
+        "average": 210
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(40 ft. when on ice or snow)"
+        }
+      },
+      "str": 10,
+      "dex": 20,
+      "con": 22,
+      "int": 18,
+      "wis": 14,
+      "cha": 24,
+      "save": {
+        "con": "+12",
+        "cha": "+13",
+        "dex": "+11",
+        "wis": "+8"
+      },
+      "skill": {
+        "perception": "+8",
+        "arcana": "+16",
+        "history": "+10",
+        "insight": "+8",
+        "medicine": "+14",
+        "persuasion": "+13",
+        "performance": "+13",
+        "acrobatics": "+11"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 18,
+      "resist": [
+        "fire"
+      ],
+      "immune": [
+        "cold"
+      ],
+      "languages": [
+        "Common",
+        "Draconic",
+        "Elvish",
+        "Giant",
+        "Infernal",
+        "Primordial"
+      ],
+      "cr": "17",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Fuyu can cast the following spells using Charisma as his spellcasting ability (spell save {@dc 21}, +13 to hit):"
+          ],
+          "will": [
+            "{@spell blade of frost|TheAdventuresofTorinCampaignSetting}",
+            "{@spell mage hand}",
+            "{@spell mending}",
+            "{@spell message}",
+            "{@spell minor illusion}",
+            "{@spell prestidigitation}",
+            "{@spell shape water|XGE}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell hex}",
+              "{@spell ice knife|XGE}",
+              "{@spell protection from evil and good}",
+              "{@spell rime's binding ice|FTD}",
+              "{@spell teleportation circle}"
+            ],
+            "2e": [
+              "{@spell borrowed knowledge|SCC}",
+              "{@spell death ward}",
+              "{@spell magic circle}",
+              "{@spell steel wind strike|XGE}",
+              "{@spell teleport}"
+            ],
+            "1e": [
+              "{@spell circle of power}",
+              "{@spell fizban's platinum shield|FTD}",
+              "{@spell mass cure wounds}",
+              "{@spell Otiluke's freezing sphere}",
+              "{@spell Tenser's transformation|XGE}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Ice Walk",
+          "entries": [
+            "Fuyu can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost him extra movement."
+          ]
+        },
+        {
+          "name": "Blade Runes",
+          "entries": [
+            "Fuyu uses the following runes in combat, he can have three activated at the same time: Ise Rune, Haug Rune, Dragon's Might, Uvar. Each rune lasts for 1 minute, or 1 hour if it's effecting Fuyu.",
+            "{@i {@b Ise.}} The target's AC is increased by 7 and they can change the damage type of their weapons to cold.",
+            "{@i {@b Haug.}} The target has resistance to non-magical bludgeoning, piercing, and slashing damage.",
+            "{@i {@b Dragon's Might.}} The target has advantage on strength ability checks, saving throws, and strength based attack rolls. In addition, their speed increases by 10 feet.",
+            "{@i {@b Uvar.}} The target can use their reaction to roll a {@dice d6} when the would be hit by an attack, reducing the attack roll by an amount equal to the number rolled and they can change the damage type of their weapons to lightning."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Fuyu has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Fuyu wears a set of {@item frozen studded leather armor|theadventuresoftorincampaignsetting}, a {@item mantle of snow|theadventuresoftorincampaignsetting}, and is attuned to an exalted {@item winter's oath|theadventuresoftorincampaignsetting}, and has three spell scrolls of teleport, a {@item +1 shortsword|DMG}, a {@item bag of holding|DMG}, and always has at least one {@item white chromatic rose|WBtW}."
+          ]
+        },
+        {
+          "name": "Freezing Aura",
+          "entries": [
+            "Every creature that Fuyu chooses when they start their turn within 10 feet of him makes a Constitution saving throw ({@dc 17}). On a failed save, they take {@damage 1d6} cold damage and gains one stack of {@condition exhaustion}, provided they don't already have one from this aura.",
+            "When a creature hits Fuyu with a melee attack while within 10 feet of him, they take {@damage 1d6} cold damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Fuyu makes three attacks using his Freezing Ray, Winter's Oath, Frozen Rune Blade, or any combination of the three. He can replace one of his attacks with a use of his spellcasting."
+          ]
+        },
+        {
+          "name": "Winter's Oath",
+          "entries": [
+            "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d6 + 8}) piercing damage, plus 10 ({@damage 3d6}) cold damage."
+          ]
+        },
+        {
+          "name": "Freezing Ray",
+          "entries": [
+            "{@atk ms,rs} {@hit 13} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 4d6 + 7}) on hit and their speed is reduced by 10 feet until the start of Fuyu's next turn."
+          ]
+        },
+        {
+          "name": "Frozen Rune Blade",
+          "entries": [
+            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, plus 3 ({@damage 1d6}) cold damage and if the target is a creature, their movement is reduced by 10 feet until the start of Fuyu's next turn. He can only incur this penalty once per round per creature."
+          ]
+        },
+        {
+          "name": "Cold Embrace {@recharge 4}",
+          "entries": [
+            "Fuyu invokes an icy cold power from his Winter's Oath. He can choose one creature he can see within 60 feet of him. Unless they have resistance or immunity to cold damage, their body temperature immediately drops to -30 degrees fahrenheit. They make a {@dc 17} constitution saving throw, taking 31 ({@damage 10d6}) cold damage on a failed save or half as much on a success and suffer from the effects of extreme cold, gaining a level of {@condition exhaustion}. Their body temperature remains this way for 1 minute, or until Fuyu ends it early as a bonus action."
+          ]
+        },
+        {
+          "name": "Breath of Winter {@recharge 5}",
+          "entries": [
+            "Fuyu releases out a 60-foot cone of cold energy. Each creature in the are must make a {@dc 21} Constitution saving throw, taking 49 ({@damage 12d8}) cold damage on a failed save or half as much on a success. Creatures who fail the save by 5 or more have their movement speed reduced to 0 until the start of his next turn."
+          ]
+        },
+        {
+          "name": "Rune of Recovery {@recharge}",
+          "entries": [
+            "Fuyu can touch a creature and magically heal them. The target regains 28 ({@dice 4d10 + 7}) hit points and is cured of any disease, poison, blindness, or deafness."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Activate Rune",
+          "entries": [
+            "As a bonus action Fuyu can activate one of his Blade Runes, giving its power to himself or a creature he can see within 60 feet of him."
+          ]
+        },
+        {
+          "name": "Swift Strike",
+          "entries": [
+            "Fuyu makes an attack using his Frozen Rune Blade."
+          ]
+        },
+        {
+          "name": "Giant's Might (6/Day)",
+          "entries": [
+            "As a bonus action, Fuyu becomes a huge sized creature, provided he has the room to enlarge himself. Regardless if he grows or not, Fuyu adds a bonus {@dice 1d6} one of his melee attacks and has advantage on all Strength checks and saving throws."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Ice Shield (3/Day)",
+          "entries": [
+            "Fuyu creates a magical arcane barrier made of ice. He adds a +5 bonus to his AC until the start of his next turn, including against the triggering attack."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "E",
+        "GI",
+        "I",
+        "P"
+      ],
+      "damageTags": [
+        "C",
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
         "MW"
       ]
     }
@@ -10342,6 +10591,62 @@
           }
         ]
       }
+    },
+    {
+      "name": "Blade of Frost",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 0,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "sphere",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "s": true,
+        "m": "a melee weapon worth at least 1 sp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then ice begins to creep from the point of impact. The target's speed is reduced by 10 feet until the start of your next turn.",
+        "This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} cold damage to the target on a hit. The extra damage increases by {@dice 1d8} at 11th level ({@dice 2d8}) and again at 17th level ({@dice 3d8})."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          }
+        ]
+      }
     }
   ],
   "deity": [
@@ -12470,7 +12775,7 @@
       "level": 1,
       "header": 2,
       "entries": [
-        "At 1st level, you’ve discovered an ancient magical secret that allows you to form a melee weapon with runes. By performing a 10-minute ritual you can create this magical weapon. It counts as a martial melee weapon with the finesse and light properties. You are proficient with this weapon and you can use it as a spellcasting focus. It deals 1d6 damage of your choosing from bludgeoning, piercing, and slashing damage. The damage increases to 1d8 at 6th level and 1d10 at 14th level.",
+        "At 1st level, you’ve discovered an ancient magical secret that allows you to form a melee weapon with runes. By performing a 10-minute ritual you can create this magical weapon. It counts as a martial melee weapon with the finesse and light properties. You are proficient with this weapon and you can use it as a spellcasting focus. It deals 1d6 damage of your choosing from bludgeoning, piercing, and slashing damage. You can only have one runic weapon created by this feature at a time. The damage increases to 1d8 at 6th level and 1d10 at 14th level.",
         "Alternatively, by performing a similar 10-minute ritual, you can transform a weapon you are proficient with into a runic weapon, using its statistics instead but you can also use it as an spellcasting focus. This transformation lasts until you finish a long rest or until you die. You can perform this ritual once, regaining the ability to do so again when you finish a long rest."
       ]
     },
@@ -17341,11 +17646,11 @@
             ],
             [
               "7th",
-              "{@spell blight}, {@spell death ward|XGE}"
+              "{@spell blight}, {@spell death ward}"
             ],
             [
               "9th",
-              "{@spell hallow}, {@spell raise dead|XGE}"
+              "{@spell hallow}, {@spell raise dead}"
             ]
           ]
         },
@@ -21405,7 +21710,7 @@
         }
       ],
       "entries": [
-        "You can magically infuse a tiny object with unique mechanics, allowing it to have new properties making it into a sort of omni-tool gadget. Choose up to two of the following features:",
+        "You can magically infuse a tiny object with unique mechanics, allowing it to have new properties making it into a sort of omni-tool gadget. When a feature refers to \"you\", it refers to the original owner of the item being infused. If a feature requires a saving throw, it uses your Artificer spell save DC. If it calls for adding an Intelligence modifier, it always uses your Intelligence modifier. Choose up to two of the following features:",
         {
           "type": "list",
           "items": [
@@ -21441,7 +21746,7 @@
               "type": "entries",
               "name": "Sticky",
               "entries": [
-                "You can stick this gadget onto a creature, placing it on their clothing, armor, or a weapon. Against an unwilling creature, you make a Strength or Dexterity improvised attack."
+                "You can stick this gadget onto a creature, placing it on their clothing, armor, or a weapon. Against an unwilling creature, you make a Strength or Dexterity improvised attack. A creature can use their action to attempt to remove the object stuck to them or stuck to another creature or object by succeeding on a Strength (Athletics) ability check against your Artificer spell save DC. You can release a creature or object from the sticky adhesive as a bonus action."
               ]
             },
             {
@@ -21462,12 +21767,45 @@
               "type": "entries",
               "name": "Hidden Restraint",
               "entries": [
-                "You can treat the object as a set of {@item manacles|PHB}. You can lock and unlock the manacles freely without needing a key using an action or bonus action."
+                "You can treat the object as a set of {@item manacles|PHB}. You can lock and unlock the manacles freely without needing a key using an action or bonus action. While locked on a creature, they are {@condition restrained}."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Smoke Bomb",
+              "entries": [
+                "You can use an action to have the object open a tiny latch which emits a large amount of smoke, covering a 20-foot radius sphere of heavily obscured area. A heavy breeze can blow the smoke away, otherwise it disperses after 1 minute. The object loses this feature after it has been used and regains it after you complete a long rest."
               ]
             }
           ]
         },
-        "You choose 3 features instead of 2 and any range specifications are doubled when you reach 10th level in this class."
+        "You choose 3 features instead of 2 and any range specifications are doubled when you reach 10th level in this class.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Spell Disruptor",
+              "entries": [
+                "As a bonus action, you can activate or deactivate the spell disruptor, emitting a zone of magical energy that disrupts other magical energies or canceling it. Every creature within 5 feet of the object cannot concentrate on spells. If it were already concentrating on a spell, it loses concentration. "
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Tracker",
+              "entries": [
+                "You can activate or deactivate this feature as a bonus action. While activated, you always know the location of the tracker, so long as it is on the same plane of existence. Any magic that blocks divination magic also blocks the tracker if the tracker is on the creature or object cloaked by that magic."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Speed Force",
+              "entries": [
+                "The magic emitting from this object can increase your speed. Your speed is increased by 10 feet. You can use a bonus action to negate the benefits of this feature."
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -21508,7 +21846,7 @@
         }
       ],
       "entries": [
-        "You can create a vehicle using a small, medium, large, or huge object. The vehicle's speed (you choose from land or water) is 50 feet and has hit points equal to 10 plus an additional 10 hit points for every size category larger than small. A small and medium vehicle can support only one creature, while a large vehicle can support two creatures, and a huge vehicle can support four creatures. The vehicle hovers, allowing it to remain up to 1 foot above the ground. Thus, it ignores difficult terrain.",
+        "You can create a vehicle using a small, medium, large, or huge object. The vehicle's speed (you choose from land or water) is 50 feet and has hit points equal to 10 plus an additional 10 hit points for every size category larger than small. It’s AC equals 14 plus an additional 2 for every size category above small. A small and medium vehicle can support only one creature, while a large vehicle can support two creatures, and a huge vehicle can support four creatures. The vehicle hovers, allowing it to remain up to 1 foot above the ground. Thus, it ignores difficult terrain.",
         "Alternatively, you can enhance an already existing vehicle, doubling its speed, hit points, carry capacity, and allowing it to hover up to 1 foot off the ground, ignoring difficult terrain.",
         "You add your proficiency bonus to ability checks made to navigate and drive the vehicle if you didn’t already add it.",
         "Creatures on the vehicle are treated as if they were mounted. Mounting and dismounting the vehicle only expends 5 feet of movement.",
@@ -24490,6 +24828,52 @@
         "In addition to this power, you have advantage on Charisma ability checks made to influence dragons. This could be interpreted as inducing fear, trying to persuade a dragon to spare you or your companions, or even seek aid from a dragon."
       ],
       "page": null
+    }
+  ],
+  "variantrule": [
+    {
+      "name": "Bonus Action Options",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "ruleType": "O",
+      "entries": [
+        "There are many actions to take in combat, such as dodge, help, shove, etc. However the amount of bonus actions are a little more limited. The options provided are going to be a list of options to make into bonus actions for use in combat.",
+        {
+          "name": "Drink a Potion",
+          "type": "entries",
+          "entries": [
+            "Simply put, you can drink any type of potion as a bonus action, unless it specifically states otherwise. You can also use an action to drink a potion as normal."
+          ]
+        },
+        {
+          "name": "Draw or Stow a Weapon",
+          "type": "entries",
+          "entries": [
+            "In addition to your free object interaction, you can use a bonus action to draw or stow an additional weapon. You can use an action to draw or stow a weapon as normal."
+          ]
+        },
+        {
+          "name": "Light Dash",
+          "type": "entries",
+          "entries": [
+            "While using your movement, you can use your bonus action to move an additional 10 feet as part of that movement. You can perform this bonus action only if you have not used the dash action, and you cannot take the dash action after performing this bonus action."
+          ]
+        },
+        {
+          "name": "Non-Lethal Attack",
+          "type": "entries",
+          "entries": [
+            "You can make a weapon attack using a melee weapon or unarmed strike and land a non-lethal blow. Roll the attack and damage rolls as normal, but you only reduce its hit points if the damage would reduce the target’s hit points to 0. The attack is always considered non-lethal."
+          ]
+        },
+        {
+          "name": "Brace",
+          "type": "entries",
+          "entries": [
+            "You can use a hit die to brace yourself against a powerful attack as a bonus action. The next time you take damage that would equal or exceed the maximum roll of the chosen hit die (not including your Constitution modifier) from a single source, you can roll the hit die and reduce that damage by an amount equal to the roll. You spend the hit die only if you rolled it before the start of your next turn."
+          ]
+        }
+      ]
     }
   ]
 }
