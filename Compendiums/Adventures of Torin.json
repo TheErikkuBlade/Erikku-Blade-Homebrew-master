@@ -11174,9 +11174,9 @@
           "gainSubclassFeature": true
         },
         "Boon of Fate|Fate Weaver|TheAdventuresofTorinCampaignSetting|2",
-        "Divination Dice|Fate Weaver|TheAdventuresofTorinCampaignSetting|5",
         "Spell Weaving|Fate Weaver|TheAdventuresofTorinCampaignSetting|3",
         "Ability Score Improvement|Fate Weaver|TheAdventuresofTorinCampaignSetting|4",
+        "Divination Dice|Fate Weaver|TheAdventuresofTorinCampaignSetting|5",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|TheAdventuresofTorinCampaignSetting|6",
           "gainSubclassFeature": true
@@ -24828,6 +24828,81 @@
         "In addition to this power, you have advantage on Charisma ability checks made to influence dragons. This could be interpreted as inducing fear, trying to persuade a dragon to spare you or your companions, or even seek aid from a dragon."
       ],
       "page": null
+    },
+    {
+      "name": "Escape Artist",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "dex"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You have practiced the art of nimbly escaping out of bindings and avoiding incoming attacks when attempting to run away from a group of enemies.",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on ability checks made to avoid or escape being grappled or restrained. In addition when you make an ability check to escape bindings or restraints, such as manacles or rope, you add a +5 bonus to the check.",
+            "When you take the dash action, opportunity attacks made against you have disadvantage on you."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hoard Slayer",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "dex"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "Through progressive training and keen perception, you are especially well-versed in keeping up in battle, even when surrounded.",
+        {
+          "type": "list",
+          "items": [
+            "The penalty to your AC you incur when being flanked is halved. (If you do not receive a penalty to AC when flanked, you instead gain a +2 bonus to AC when you are flanked.)",
+            "When being flanked, you have advantage on melee attack rolls against creatures who are within 5 feet of you."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flanking Expert",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "When in battle, sometimes coordinating with your allies is the most important thing to consider. As such, you’ve learned how to best work with your allies in the heat of battle.",
+        {
+          "type": "list",
+          "items": [
+            "When you are flanking an enemy, that enemy receives an additional -1 penalty to its AC.",
+            "When you are flanking an enemy you can use the Help action as a bonus action, but only to give an ally advantage on an attack roll against the flanked enemy."
+          ]
+        }
+      ]
     }
   ],
   "variantrule": [
