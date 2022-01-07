@@ -21779,7 +21779,7 @@
             }
           ]
         },
-        "You choose 3 features instead of 2 and any range specifications are doubled when you reach 10th level in this class.",
+        "You choose 3 features instead of 2 and any range specifications are doubled when you reach 10th level in this class. Also at 10th level, the following options are added to choose from:",
         {
           "type": "list",
           "items": [
