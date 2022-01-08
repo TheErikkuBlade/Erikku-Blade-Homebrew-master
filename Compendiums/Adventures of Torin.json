@@ -24950,5 +24950,382 @@
         }
       ]
     }
+  ],
+  "race": [
+    {
+      "name": "Futhrakian",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "lineage": "VRGR",
+      "size": [
+        "M"
+      ],
+      "age": {
+        "mature": 20,
+        "max": 250
+      },
+      "speed": 30,
+      "darkvision": 60,
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Magical Transmuter",
+          "entries": [
+            "You can alter the way you cast spells unlike any other. When you cast a spell, you can choose to change its or your own properties in one of the following ways: ",
+            {
+              "type": "list",
+              "items": [
+                "If it deals damage, you can change the damage type to force, radiant, or necrotic.",
+                "If it requires a saving throw, you can change the ability used for the save to a different one, such as changing Fireball from being a Dexterity saving throw to being a Constitution saving throw.",
+                "If it deals damage, you can gain resistance to that damage type for 1 minute."
+              ]
+            },
+            "You can use these benefits a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rune Magic",
+          "entries": [
+            "You learn one cantrip from the school of magic chosen by your birthmark. At 3rd level, you can learn one 1st level spell from the artificer or wizard spell lists. Starting at 5th level, you can learn one 2nd level spell from the artificer or wizard spell lists. You can cast either of these spells without expending a spell slot or requiring material components. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level and the appropriate material components needed, if any.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Limited Magic Resistance",
+          "entries": [
+            "You can use a reaction when you would take damage from a spell or be forced to make a saving throw by a spell. You can gain resistance to the spell’s damage or gain advantage on the saving throw of the spell. ",
+            "You can use this feature once, regaining the ability to use it again when you finish a long rest."
+          ]
+        }
+      ],
+      "additionalSpells": [
+        {
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": {
+              "_": [
+                {
+                  "choose": "level=0"
+                }
+              ]
+            }
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": {
+                  "_": [
+                    {
+                      "choose": "level=1|class=Artificer,Wizard"
+                    }
+                  ]
+                }
+              }
+            },
+            "5": {
+              "daily": {
+                "1": {
+                  "_": [
+                    {
+                      "choose": "level=2|class=Artificer,Wizard"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aasimar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "otherSources": [
+        {
+          "source": "EGW",
+          "page": 166
+        },
+        {
+          "source": "VGM",
+          "page": 104
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 56,
+        "heightMod": "2d10",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "age": {
+        "mature": 20,
+        "max": 160
+      },
+      "darkvision": 60,
+      "languageProficiencies": [
+        {
+          "common": true,
+          "celestial": true
+        }
+      ],
+      "resist": [
+        {
+          "choose": [
+            "necrotic",
+            "radiant"
+          ]
+        }
+      ],
+      "soundClip": {
+        "type": "internal",
+        "path": "races/aasimar.mp3"
+      },
+      "additionalSpells": [
+        {
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": {
+              "_": [
+                {
+                  "choose": "level=0|class=cleric"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Age",
+          "type": "entries",
+          "entries": [
+            "Aasimar mature at the same rate as humans, but they can live up to 160 years."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Aasimar have the same range of height and weight as humans."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Celestial Resistance",
+          "entries": [
+            "Choose radiant or necrotic, you have resistance to the chosen damage type."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Healing Hands",
+          "entries": [
+            "As an action, you can touch a creature and cause it to regain 1d6 + your proficiency bonus hit points. Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Light Bearer",
+          "entries": [
+            "You know one cantrip of your choice from the cleric spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for it."
+          ],
+          "type": "entries"
+        }
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    }
+  ],
+  "subrace": [
+    {
+      "name": "Fallen",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "raceName": "Aasimar",
+      "raceSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "additionalSpells": [
+        {
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "bane"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "darkness"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Necrotic Shroud",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier) or become {@condition frightened} of you until the end of your next turn.",
+            "Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra {@dice 1d4} necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage becomes {@dice 1d6} at 5th level.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fallen Magic",
+          "entries": [
+            "Despite falling from grace, you still possess powerful magic, though it is tainted with your sins. Starting at 3rd level, you can cast the {@spell bane} spell with this trait. Starting at 5th level, you can also cast the {@spell darkness} spell with this trait. Once you cast {@spell bane} or {@spell darkness} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        }
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Protector",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "raceName": "Aasimar",
+      "raceSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "additionalSpells": [
+        {
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "sanctuary"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "aid"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Radiant Soul",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
+            "Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal an extra {@dice 1d4} radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage becomes {@dice 1d6} at 5th level.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Protector Magic",
+          "entries": [
+            "Starting at 3rd level, you can cast the {@spell sanctuary} spell with this trait. Starting at 5th level, you can also cast the {@spell aid} spell with this trait. Once you cast {@spell sanctuary} or {@spell aid} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        }
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Scourge",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "raceName": "Aasimar",
+      "raceSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "additionalSpells": [
+        {
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "divine favor"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "branding smite"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Radiant Consumption",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
+            "Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take {@dice 1d4} radiant damage. In addition, once on each of your turns, you can deal an extra {@dice 1d4} radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage becomes {@dice 1d6} at 5th level.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Scourge Magic",
+          "entries": [
+            "Starting at 3rd level, you can cast the {@spell divine favor} spell with this trait. Starting at 5th level, you can also cast the {@spell branding smite} spell with this trait. Once you cast {@spell divine favor} or {@spell branding smite} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        }
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    }
   ]
 }
