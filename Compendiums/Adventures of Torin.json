@@ -25083,10 +25083,12 @@
       ],
       "resist": [
         {
-          "choose": [
-            "necrotic",
-            "radiant"
-          ]
+          "choose": {
+            "from": [
+              "necrotic",
+              "radiant"
+            ]
+          }
         }
       ],
       "soundClip": {
