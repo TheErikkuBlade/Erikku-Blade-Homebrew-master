@@ -14117,7 +14117,7 @@
               "type": "entries",
               "name": "Dragon Style",
               "entries": [
-                "The most common and likely style to learn, a form of fighting directly taught by a dragon. Dragons make multiple powerful attacks and focus on maximizing their movements. After you've taken the attack action, immediately as a bonus action you can make one melee attack using a weapon or an unarmed strike. When you roll damage using this bonus action attack, you do not add your ability modifier to the damage roll unless you have the {@optfeature Two-Weapon Fighting} fighting style or a similar ability. Alternatively, you can use a bonus action to move up to half your speed toward a hostile creature."
+                "True dragons are most notable for their ability to breathe raw, magical energies. You learn to breathe a small portion of this energy and imbue your attacks with it. As a bonus action you can imbue your strikes with draconic energy. The next time you hit with a weapon or unarmed strike, you can add an additional 1d4 damage associated with your draconic origin. The extra damage increases as you gain levels in this class, becoming a d6 at 7th level, a d8 at 11th level, and a d10 at 15th level."
               ]
             },
             {
@@ -14187,7 +14187,7 @@
               "type": "entries",
               "name": "Dragon",
               "entries": [
-                "When you use your bonus action to make an additional attack, you can make two attacks instead. Regardless if you have the {@optfeature Two-Weapon Fighting} fighting style or similar ability, you do not add your ability modifier to the damage rolls of these attacks if done in this way."
+                "When you use your bonus action to imbue your attacks with draconic energy, the benefit is given to the next two attacks that hit with weapons or unarmed strikes, instead of just the next one."
               ]
             },
             {
@@ -14259,7 +14259,7 @@
               "type": "entries",
               "name": "Dragon",
               "entries": [
-                "Your movement speed increases by 10 feet and you gain a climb and swim speed equal to your walking speed."
+                "Your movement speed increases by 10 feet and you gain a climb or swim speed (you choose when you gain this feature) equal to your walking speed."
               ]
             },
             {
@@ -14329,7 +14329,7 @@
               "type": "entries",
               "name": "Dragon",
               "entries": [
-                "Regardless if you have the two-weapon fighting fighting style, or similar ability, or not - you always add your ability modifier to your bonus action attacks made from your Mystic features."
+                "When you use your bonus action to imbue your attacks with draconic energy, you can apply the benefits for 1 minute, having no other restriction on how many times you can apply the additional damage for that duration."
               ]
             },
             {
