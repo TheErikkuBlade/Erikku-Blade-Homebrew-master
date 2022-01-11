@@ -24999,50 +24999,6 @@
             "You can use this feature once, regaining the ability to use it again when you finish a long rest."
           ]
         }
-      ],
-      "additionalSpells": [
-        {
-          "ability": {
-            "choose": [
-              "int",
-              "wis",
-              "cha"
-            ]
-          },
-          "known": {
-            "1": {
-              "_": [
-                {
-                  "choose": "level=0"
-                }
-              ]
-            }
-          },
-          "innate": {
-            "3": {
-              "daily": {
-                "1": {
-                  "_": [
-                    {
-                      "choose": "level=1|class=Artificer,Wizard"
-                    }
-                  ]
-                }
-              }
-            },
-            "5": {
-              "daily": {
-                "1": {
-                  "_": [
-                    {
-                      "choose": "level=2|class=Artificer,Wizard"
-                    }
-                  ]
-                }
-              }
-            }
-          }
-        }
       ]
     },
     {
