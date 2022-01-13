@@ -8013,6 +8013,961 @@
         "AOE",
         "MW"
       ]
+    },
+    {
+      "name": "Hraesvelgr, The Wise of The Sky",
+      "shortName": "greatwyrm",
+      "group": [
+        "Chromatic Dragon"
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "G",
+      "type": {
+        "type": "dragon",
+        "tags": [
+          "chromatic"
+        ]
+      },
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 22,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 533,
+        "formula": "26d20 + 260"
+      },
+      "speed": {
+        "walk": 90,
+        "burrow": 90,
+        "fly": 150,
+        "swim": 90,
+        "canHover": false
+      },
+      "str": 30,
+      "dex": 14,
+      "con": 30,
+      "int": 21,
+      "wis": 30,
+      "cha": 26,
+      "save": {
+        "dex": "+10",
+        "con": "+18",
+        "wis": "+18",
+        "cha": "+16",
+        "int": "+13"
+      },
+      "skill": {
+        "perception": "+26",
+        "stealth": "+10",
+        "arcana": "+13",
+        "acrobatics": "+10"
+      },
+      "senses": [
+        "truesight 120 ft."
+      ],
+      "passive": 36,
+      "immune": [
+        "lightning"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Elvish",
+        "Primordial",
+        "Sylvan"
+      ],
+      "cr": "27",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Hraesvelgr can cast the following spells using Wisdom as his spellcasting ability (spell save DC: 26, +18 to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell augury}",
+            "{@spell control water}",
+            "{@spell control weather}",
+            "{@spell control winds|XGE}",
+            "{@spell divine word}",
+            "{@spell lesser restoration}",
+            "{@spell plane shift}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell chain lightning}",
+              "{@spell contact other plane}",
+              "{@spell disintegrate}",
+              "{@spell divination}",
+              "{@spell find the path}",
+              "{@spell greater restoration}",
+              "{@spell mass cure wounds}",
+              "{@spell mass healing word}",
+              "{@spell power word stun}",
+              "{@spell teleport}"
+            ],
+            "1e": [
+              "{@spell invulnerability|XGE}",
+              "{@spell mass heal}",
+              "{@spell power word heal}",
+              "{@spell wish}"
+            ]
+          },
+          "ability": "wis",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Chromatic Awakening (Recharges after a Short or Long Rest)",
+          "entries": [
+            "If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the \"Mythic Actions\" section for 1 hour. Award a party an additional 105,000 XP (210,000 XP total) for defeating the greatwyrm after its Chromatic Awakening activates."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (4/Day)",
+          "entries": [
+            "If the greatwyrm fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Unusual Nature",
+          "entries": [
+            "The greatwyrm doesn't require food or drink."
+          ]
+        },
+        {
+          "name": "Rejuvenation",
+          "entries": [
+            "If his dragon egg is not hatched, Hraesvelgr gains a new body in {@dice 1d10} days if he dies, regaining all its hit points and becoming active again. The new body appears within 5 feet of the egg. The egg then hatches, spawning a new wyrmling for Hraesvelgr to raise and nurture for {@dice 1d10} years. He can then create a new egg somewhere in his hoard."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "entries": [
+            "The greatwyrm doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The greatwyrm makes one Bite attack and two Claw attacks."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 13 ({@damage 2d12}) force damage."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and is {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+          ]
+        },
+        {
+          "name": "Tail",
+          "entries": [
+            "{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Breath Weapon {@recharge 5}",
+          "entries": [
+            "The greatwyrm exhales a blast of energy in a 300-foot cone. Each creature in that area must make a {@dc 26} Dexterity saving throw. On a failed save, the creature takes 78 ({@damage 12d12}) lightning damage. On a successful save, the creature takes half as much damage."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Attack",
+          "entries": [
+            "The greatwyrm makes one Claw or Tail attack."
+          ]
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions)",
+          "entries": [
+            "The greatwyrm beats its wings. Each creature within 30 feet of it must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The greatwyrm can then fly up to half its flying speed."
+          ]
+        },
+        {
+          "name": "Arcane Spear (Costs 3 Actions)",
+          "entries": [
+            "The greatwyrm creates four spears of magical force. Each spear hits a creature of the greatwyrm's choice it can see within 120 feet of it, dealing 12 ({@damage 1d8 + 8}) force damage to its target, then disappears."
+          ]
+        }
+      ],
+      "mythicHeader": [
+        "If the greatwyrm's Chromatic Awakening trait has activated in the last hour, it can use the options below as legendary actions."
+      ],
+      "mythic": [
+        {
+          "name": "Bite",
+          "entries": [
+            "The greatwyrm makes one Bite attack."
+          ]
+        },
+        {
+          "name": "Chromatic Flare (Costs 2 Actions)",
+          "entries": [
+            "The greatwyrm flares with elemental energy. Each creature in a 60-foot-radius sphere centered on the greatwyrm must succeed on a {@dc 26} Dexterity saving throw or take 22 ({@damage 5d8}) lightning damage."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              "The most ancient chromatic dragons, who have survived over twelve hundred years of mortal life and acquired vast hoards worth millions of gold pieces, can achieve a form of apotheosis, reaching a level of power approaching that of Tiamat's mighty aspect. The competitive avarice of dragonkind and the interference of adventurers prevent most dragons from attaining this level of power. But a chromatic dragon who can outwit all rivals and overcome all potential thieves can rise to become one of the mightiest of dragons.",
+              "Often a chromatic greatwyrm's ascension involves fusing the power of a single dragon's echoes across different worlds of the Material Plane. The black greatwyrm Chronepsis, for example, is said to have stalked multiple worlds and devoured many of his echoes before withdrawing to a planar lair in the Outlands. The red greatwyrm Ashardalon worked with a balor to ritually drain the power of his echoes, then infused their power into himself by implanting the balor where his heart had been.",
+              "In both size and power, chromatic greatwyrms exceed even ancient dragons. The energy of their breath weapons courses over their bodies and glows under their scales, and elemental forces rage around them when they exert their wrath. They no longer need to eat or drink, as their vast hoards magically sustain them. And their power can raze a city to the ground, destroying buildings and defenders alike."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/uXcGBFK.jpg"
+            }
+          }
+        ]
+      },
+      "dragonCastingColor": "blue",
+      "tokenUrl": "https://i.imgur.com/FPrgxRj.png",
+      "traitTags": [
+        "Flyby",
+        "Legendary Resistances",
+        "Rejuvenation"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "DR",
+        "E",
+        "P",
+        "S"
+      ],
+      "damageTags": [
+        "B",
+        "L",
+        "O",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "prone",
+        "restrained"
+      ],
+      "hasFluff": true
+    },
+    {
+      "name": "Aspect of The Traveling Merchant",
+      "shortName": "Merchant",
+      "isNpc": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": {
+        "type": "celestial",
+        "tags": [
+          "unknwon"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 45,
+          "from": [
+            "Unnatural Defense"
+          ]
+        }
+      ],
+      "hp": {
+        "special": "6900"
+      },
+      "speed": {
+        "walk": 300,
+        "fly": {
+          "number": 600,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 30,
+      "dex": 30,
+      "con": 50,
+      "int": 50,
+      "wis": 46,
+      "cha": 60,
+      "save": {
+        "cha": "+41",
+        "wis": "+34",
+        "int": "+36",
+        "dex": "+26",
+        "con": "+36",
+        "str": "+26"
+      },
+      "skill": {
+        "perception": "+50",
+        "persuasion": "+57",
+        "deception": "+57",
+        "intimidation": "+41",
+        "investigation": "+36",
+        "medicine": "+34",
+        "nature": "+36",
+        "religion": "+36",
+        "sleight of hand": "+26",
+        "stealth": "+26",
+        "survival": "+34",
+        "athletics": "+26",
+        "arcana": "+52",
+        "animal handling": "+34",
+        "acrobatics": "+26",
+        "history": "+52",
+        "insight": "+34",
+        "performance": "+41"
+      },
+      "senses": [
+        "truesight 240 ft."
+      ],
+      "passive": 60,
+      "immune": [
+        "force",
+        "poison"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "stunned",
+        "unconscious"
+      ],
+      "languages": [
+        "all",
+        "telepathy (unlimited)"
+      ],
+      "cr": {
+        "cr": "60"
+      },
+      "spellcasting": [
+        {
+          "name": "Spell Mastery",
+          "headerEntries": [
+            "The merchant can cast any spell they wish, using only an action or a bonus action (whichever is desired). Once they've cast that spell 10 times, they must wait 1 minute before they can cast that spell again (spell save {@dc 49}, +41 to hit with spells)."
+          ],
+          "type": "spellcasting"
+        },
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "The merchant can cast the following spells at will using Charisma as their spellcasting ability (spell save {@dc 49}, +41 to hit with spells):"
+          ],
+          "will": [
+            "{@spell contact other plane}",
+            "{@spell counterspell}",
+            "{@spell gate}",
+            "{@spell plane shift}",
+            "{@spell reality break|EGW}",
+            "{@spell simulacrum}",
+            "{@spell teleport}",
+            "{@spell time stop}",
+            "{@spell wish} (cannot lose the ability to cast, nor do they suffer the stress of the spell)"
+          ],
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Unnatural Defense",
+          "entries": [
+            "The merchant adds their Charisma modifier to his AC. In addition, it has resistance to any damage that they aren't immune to. They are also ignore the effects of critical hits and treat them as normal hits."
+          ]
+        },
+        {
+          "name": "Avoidance",
+          "entries": [
+            "If the merchant is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Tactical Discipline",
+          "entries": [
+            "The merchant has advantage on all ability checks and saving throws made during combat."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The merchant has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The merchant's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Sense Magic",
+          "entries": [
+            "The merchant senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical"
+          ]
+        },
+        {
+          "name": "Divine Awareness",
+          "entries": [
+            "The merchant knows if it hears a lie."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "entries": [
+            "The merchant doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+          ]
+        },
+        {
+          "name": "Displacement",
+          "entries": [
+            "The merchant projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. No form of magic or special sense can see past this illusion, unless the merchant wishes it."
+          ]
+        },
+        {
+          "name": "Unnaturally Reactive",
+          "entries": [
+            "The merchant can take two reactions on every turn in combat."
+          ]
+        },
+        {
+          "name": "Unusual Nature",
+          "entries": [
+            "The merchant doesn't require air, food, drink, or sleep."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (10/Day)",
+          "entries": [
+            "If the merchant fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The merchant is immune to any spell or effect that would alter its form, unless they choose to be affected."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "The merchant regains 50 hit points at the start of its turn if it has at least 1 hit point."
+          ]
+        },
+        {
+          "name": "Shape Mastery",
+          "entries": [
+            "The merchant can assume the form of any creature or object at will (no action required) and can assume these forms as many times as he wants during combat. This does not alter their statistics in any way. They can also freely adjust their size category from tiny to gargantuan."
+          ]
+        },
+        {
+          "name": "Rejuvenation",
+          "entries": [
+            "If it dies, the merchant returns to life in {@dice 1d6} minutes and regains all its hit points. Nothing short of the merchant's one unknown weakness can prevent this trait from functioning."
+          ]
+        },
+        {
+          "name": "Magic Item Mastery",
+          "entries": [
+            "The merchant does not need to attune to gain the benefits from items that require attunement and is unaffected by any curses items may incur upon him. He also ignores any restrictions that would prevent him from attuning to items."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The merchant makes six attacks using his Reality Breaker, they use their Paradoxy, and they use one use of their spell mastery. They can replace any one of their attacks or their Paradoxy with another use of spell mastery."
+          ]
+        },
+        {
+          "name": "Paradoxy",
+          "entries": [
+            "Momentary warps in reality appear at three different points the merchant can see within 120 feet of them. Each creature in a 20-foot-radius sphere centered on each point must make a {@dc 49} Strength saving throw. On a failed save, a creature takes 80 ({@damage 10d10 + 25}) force damage and is pulled up to 15 feet in a straight line toward the center of the sphere. On a successful save, the creature takes half as much damage and isn't pulled. A creature caught in the area of multiple warps is affected by only one, which the merchant chooses."
+          ]
+        },
+        {
+          "name": "Reality Breaker",
+          "entries": [
+            "{@atk mw} {@hit 31} to hit, reach 5 ft., one target. {@h}70 ({@damage 10d10 + 15}) force damage."
+          ]
+        },
+        {
+          "name": "Shatter Memory",
+          "entries": [
+            "The merchant can choose a creature it can see. That creature must make a {@dc 49} Intelligence saving throw. On a failed save, they take {@damage 20d10} psychic damage and their level or CR is reduced by 1. If this would reduce their level or CR to 0 or below, they die. Regardless on a success or failure, the merchant knows that memory in its entirety."
+          ]
+        },
+        {
+          "name": "Alter Reality",
+          "entries": [
+            "The merchant can change any aspect of any feature, trait, or statistic about any creature or object it can see. For example, they can change a creature's resistance to a vulnerability. They can also change the course of history itself, making it so an event never happened or happened differently."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Ethereal Jaunt",
+          "entries": [
+            "As a bonus action, the merchant can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+          ]
+        },
+        {
+          "name": "Teleport",
+          "entries": [
+            "As a bonus action, the merchant can magically teleport up to 600 feet in any direction."
+          ]
+        },
+        {
+          "name": "Divine Mimicry {@recharge 4}",
+          "entries": [
+            "The merchant can gain any feature they wish from any creature, divine or otherwise."
+          ]
+        },
+        {
+          "name": "Perfect Mimic",
+          "entries": [
+            "The merchant creates a perfect copy of himself using his innate control over all of his echoes throughout time and space. The copy shares his statistics and the merchant can act as if he were the copy. The copy can choose to take its own actions in combat, moving right after the merchant."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Luck of The Gods",
+          "entries": [
+            "The merchant can use a reaction to reroll any ability check, attack roll, or saving throw it can see, even if it's not their own."
+          ]
+        },
+        {
+          "name": "Perfect Barrier (5/Day)",
+          "entries": [
+            "The merchant creates an {@condition invisible} magical barrier, protecting himself against anything. If they were to take damage, they can choose to take no damage instead."
+          ]
+        },
+        {
+          "name": "Timestop {@recharge 4}",
+          "entries": [
+            "The merchant casts {@spell time stop}."
+          ]
+        },
+        {
+          "name": "Cancel Spell",
+          "entries": [
+            "The merchant can stop any creature it can see from casting a spell, instantly wasting the spell slot."
+          ]
+        }
+      ],
+      "legendaryActions": 5,
+      "legendary": [
+        {
+          "name": "Draw Magic Item",
+          "entries": [
+            "The merchant pulls one magic item of their choosing from their bag of infinite realities."
+          ]
+        },
+        {
+          "name": "Dispel",
+          "entries": [
+            "The merchant dispels any magical effect it can see, spell or otherwise."
+          ]
+        },
+        {
+          "name": "Blip",
+          "entries": [
+            "The merchant teleports and then they can choose whether or not they can be seen or unseen."
+          ]
+        },
+        {
+          "name": "Hurl Through Time (Costs 2 Actions)",
+          "entries": [
+            "The merchant can hurl a creature through all of time, making them go mentally insane. A creature must make a {@dc 49} Intelligence saving throw. On a failed save, they take {@damage 20d6} psychic damage and are {@condition stunned} for 1 minute, or they take half as much damage on a success and are {@condition stunned} only until the end of the merchant's next turn. Regardless if they failed or succeeded, they age {@dice 1d10} years (the merchant chooses whether they get younger or older)."
+          ]
+        },
+        {
+          "name": "Change Reality (Costs 3 Actions)",
+          "entries": [
+            "The merchant uses their alter reality ability."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Oh? You wish to know more about me? Well tough luck. I don't really know much about me either. All I can say is this, even the gods fear me and you should too. So stop asking questions and show me where the next story is. I'm dying to find something to write down in this damn book... not actually dying, but..., you know what I mean!"
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/h8ulszO.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/7devX1a.png",
+      "traitTags": [
+        "Flyby",
+        "Immutable Form",
+        "Legendary Resistances",
+        "Magic Resistance",
+        "Magic Weapons",
+        "Regeneration",
+        "Rejuvenation"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "TP",
+        "XX"
+      ],
+      "damageTags": [
+        "O"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ]
+    },
+    {
+      "name": "Ragnarok, The Legendary Hero",
+      "shortName": "Ragnarok",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": {
+        "type": "fey",
+        "tags": [
+          "elf",
+          "sorcerer"
+        ]
+      },
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 22,
+          "from": [
+            "{@item robe of the archmagi}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "35d8 + 175",
+        "average": 332
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 24,
+      "con": 20,
+      "int": 24,
+      "wis": 18,
+      "cha": 26,
+      "save": {
+        "dex": "+15",
+        "cha": "+16",
+        "con": "+13",
+        "wis": "+12"
+      },
+      "skill": {
+        "arcana": "+23",
+        "history": "+15",
+        "perception": "+20",
+        "insight": "+12",
+        "investigation": "+15",
+        "persuasion": "+16",
+        "nature": "+15",
+        "religion": "+15"
+      },
+      "passive": 30,
+      "resist": [
+        {
+          "special": "damage from spells"
+        }
+      ],
+      "immune": [
+        "lightning",
+        "thunder"
+      ],
+      "cr": "25",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Ragnarok can cast the following spells using Charisma as his spellcasting ability (spell save {@dc 26}, +18 to hit with spells):"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell mage hand}",
+            "{@spell prestidigitation}",
+            "{@spell Rary's telepathic bond}",
+            "{@spell sending}",
+            "{@spell telekinesis}",
+            "{@spell teleportation circle}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell borrowed knowledge|SCC}",
+              "{@spell chain lightning}",
+              "{@spell control water}",
+              "{@spell control winds|XGE}",
+              "{@spell haste}",
+              "{@spell skill empowerment|XGE}",
+              "{@spell summon draconic spirit|UA2021DraconicOptions}",
+              "{@spell summon elemental|TCE}",
+              "{@spell teleport}",
+              "{@spell Tenser's transformation|XGE}"
+            ],
+            "1e": [
+              "{@spell blade of disaster|TCE}",
+              "{@spell circle of power}",
+              "{@spell control weather}",
+              "{@spell imprisonment}",
+              "{@spell shapechange}",
+              "{@spell true polymorph}",
+              "{@spell wish}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "Ragnarok has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+          ]
+        },
+        {
+          "name": "Lightning Absorption",
+          "entries": [
+            "Whenever Ragnarok is subjected to lightning damage, he takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Ragnarok makes three attacks using the Blade of The Neverending Storm and he casts a spell using his spellcasting."
+          ]
+        },
+        {
+          "name": "Blade of The Neverending Storm",
+          "entries": [
+            "{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) bludgeoning damage, plus 16 ({@damage 3d10}) lightning damage."
+          ]
+        },
+        {
+          "name": "Lightning of Disaster {@recharge 4}",
+          "entries": [
+            "Ragnarok calls forth the inert power of Fimbulwinter, calling forth lightning stronger than Thor's. He chooses up to five creatures within 120 feet of him. Each of them are struck by powerful bolts of lightning. They must make a Dexterity saving throw {@dc 28}. On a failed save, they take ({@damage 15d10}) lightning damage on a failed save, or half as much on a success."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Damage Absorption",
+        "Fey Ancestry"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "L"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Divine Avatar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "H",
+      "type": "celestial",
+      "alignment": null,
+      "ac": [
+        {
+          "ac": 25,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "special": "700"
+      },
+      "speed": {
+        "walk": 60,
+        "fly": {
+          "number": 150,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 30,
+      "dex": 20,
+      "con": 30,
+      "int": 20,
+      "wis": 28,
+      "cha": 30,
+      "save": {
+        "wis": "+17",
+        "int": "+13",
+        "dex": "+13",
+        "con": "+18",
+        "cha": "+18",
+        "str": "+18"
+      },
+      "senses": [
+        "truesight 120 ft."
+      ],
+      "passive": 19,
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "languages": [
+        "Knows the languages of the caster of the spell"
+      ],
+      "cr": "25",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The divine avatar can cast the following spells without requiring material components, using Charisma as its spellcasting ability (spell save {@dc 26}, +18 to hit with spells):"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell divine word}",
+              "{@spell invulnerability|XGE}",
+              "{@spell wish}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Divine Awareness",
+          "entries": [
+            "The divine avatar knows if it hears a lie."
+          ]
+        },
+        {
+          "name": "Avoidance",
+          "entries": [
+            "If the divine avatar is subjected to an effect that allows it to make a saving throw to only take half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The divine avatar has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Divine Weapons",
+          "entries": [
+            "The divine avatar's weapon attacks are magical. When the divine avatar hits with any weapon, the weapon deals an extra {@dice 6d8} force damage. (Included in attacks)"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (5/Day)",
+          "entries": [
+            "If the divine avatar fails a saving throw, it can choose to succeed instead."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Divine Strike",
+          "entries": [
+            "{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}26 ({@damage 3d10 + 10}) bludgeoning damage, plus 27 ({@damage 6d8}) force damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "damageTags": [
+        "B",
+        "O"
+      ],
+      "miscTags": [
+        "MW"
+      ]
     }
   ],
   "spell": [
@@ -10644,6 +11599,60 @@
           {
             "name": "Artificer",
             "source": "TCE"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Divine Avatar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 12,
+      "school": "T",
+      "subschools": [
+        "epic spell"
+      ],
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "A crystal or gem containing the soul of a dead god worth at least 100,000 gp"
+        }
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10,
+            "upTo": true
+          }
+        }
+      ],
+      "entries": [
+        "You assume the form of a god of your choosing. You become an avatar of said god, using an appropriate statblock. If one is not otherwise provided, you use the Divine Avatar statblock and if you do, choose from one of the listed domains: Arcana, Death, Forge, Grave, Knowledge, Life, Light, Nature, Order, Peace, Tempest, Trickery, Twilight, or War. You gain certain statistics depending on the domain you chose.",
+        "You maintain this form for the duration, until your hit points is reduced to 0 in that form, or until you dismiss the spell as an action. Becoming even the avatar of a god, even for a moment, is a taxing endeavor. You gain three levels of {@condition exhaustion}, which cannot be recovered until you complete a long rest for each individual {@condition exhaustion} level. In addition, you lose the ability to cast spells until you finish a long rest."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
           }
         ]
       }
@@ -25002,20 +26011,11 @@
       ]
     },
     {
-      "name": "Aasimar",
+      "name": "Protector Aasimar",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
-      "otherSources": [
-        {
-          "source": "EGW",
-          "page": 166
-        },
-        {
-          "source": "VGM",
-          "page": 104
-        }
-      ],
       "size": [
+        "S",
         "M"
       ],
       "speed": 30,
@@ -25031,21 +26031,8 @@
         "max": 160
       },
       "darkvision": 60,
-      "languageProficiencies": [
-        {
-          "common": true,
-          "celestial": true
-        }
-      ],
       "resist": [
-        {
-          "choose": {
-            "from": [
-              "necrotic",
-              "radiant"
-            ]
-          }
-        }
+        "radiant"
       ],
       "soundClip": {
         "type": "internal",
@@ -25053,143 +26040,6 @@
       },
       "additionalSpells": [
         {
-          "ability": {
-            "choose": [
-              "int",
-              "wis",
-              "cha"
-            ]
-          },
-          "known": {
-            "1": {
-              "_": [
-                {
-                  "choose": "level=0|class=Cleric"
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "entries": [
-        {
-          "name": "Age",
-          "type": "entries",
-          "entries": [
-            "Aasimar mature at the same rate as humans, but they can live up to 160 years."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Size",
-          "entries": [
-            "Aasimar have the same range of height and weight as humans."
-          ]
-        },
-        {
-          "name": "Darkvision",
-          "entries": [
-            "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-          ],
-          "type": "entries"
-        },
-        {
-          "name": "Celestial Resistance",
-          "entries": [
-            "Choose radiant or necrotic, you have resistance to the chosen damage type."
-          ],
-          "type": "entries"
-        },
-        {
-          "name": "Healing Hands",
-          "entries": [
-            "As an action, you can touch a creature and cause it to regain 1d6 + your proficiency bonus hit points. Once you use this trait, you can't use it again until you finish a long rest."
-          ],
-          "type": "entries"
-        },
-        {
-          "name": "Angelic Magic",
-          "entries": [
-            "You know one cantrip of your choice from the cleric spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for it."
-          ],
-          "type": "entries"
-        }
-      ],
-      "hasFluff": true,
-      "hasFluffImages": true
-    }
-  ],
-  "subrace": [
-    {
-      "name": "Fallen",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "raceName": "Aasimar",
-      "raceSource": "TheAdventuresofTorinCampaignSetting",
-      "page": null,
-      "additionalSpells": [
-        {
-          "ability": {
-            "choose": [
-              "int",
-              "wis",
-              "cha"
-            ]
-          },
-          "innate": {
-            "3": {
-              "daily": {
-                "1": [
-                  "bane"
-                ]
-              }
-            },
-            "5": {
-              "daily": {
-                "1": [
-                  "darkness"
-                ]
-              }
-            }
-          }
-        }
-      ],
-      "entries": [
-        {
-          "name": "Necrotic Shroud",
-          "entries": [
-            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier) or become {@condition frightened} of you until the end of your next turn.",
-            "Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra {@dice 1d4} necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage becomes {@dice 1d6} at 5th level.",
-            "Once you use this trait, you can't use it again until you finish a long rest."
-          ],
-          "type": "entries"
-        },
-        {
-          "name": "Fallen Magic",
-          "entries": [
-            "Despite falling from grace, you still possess powerful magic, though it is tainted with your sins. Starting at 3rd level, you can cast the {@spell bane} spell with this trait. Starting at 5th level, you can also cast the {@spell darkness} spell with this trait. Once you cast {@spell bane} or {@spell darkness} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
-            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
-          ],
-          "type": "entries"
-        }
-      ],
-      "hasFluff": true,
-      "hasFluffImages": true
-    },
-    {
-      "name": "Protector",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "raceName": "Aasimar",
-      "raceSource": "TheAdventuresofTorinCampaignSetting",
-      "page": null,
-      "additionalSpells": [
-        {
-          "ability": {
-            "choose": [
-              "int",
-              "wis",
-              "cha"
-            ]
-          },
           "innate": {
             "3": {
               "daily": {
@@ -25205,39 +26055,7 @@
                 ]
               }
             }
-          }
-        }
-      ],
-      "entries": [
-        {
-          "name": "Radiant Soul",
-          "entries": [
-            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
-            "Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal an extra {@dice 1d4} radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage becomes {@dice 1d6} at 5th level.",
-            "Once you use this trait, you can't use it again until you finish a long rest."
-          ],
-          "type": "entries"
-        },
-        {
-          "name": "Protector Magic",
-          "entries": [
-            "Starting at 3rd level, you can cast the {@spell sanctuary} spell with this trait. Starting at 5th level, you can also cast the {@spell aid} spell with this trait. Once you cast {@spell sanctuary} or {@spell aid} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
-            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
-          ],
-          "type": "entries"
-        }
-      ],
-      "hasFluff": true,
-      "hasFluffImages": true
-    },
-    {
-      "name": "Scourge",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "raceName": "Aasimar",
-      "raceSource": "TheAdventuresofTorinCampaignSetting",
-      "page": null,
-      "additionalSpells": [
-        {
+          },
           "ability": {
             "choose": [
               "int",
@@ -25245,6 +26063,196 @@
               "cha"
             ]
           },
+          "known": {
+            "1": [
+              "resistance#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Celestial Resistance",
+          "entries": [
+            "You have resistance to radiant damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Healing Hands",
+          "entries": [
+            "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus hit points. Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Guardian's Magic",
+          "entries": [
+            "You know the {@spell resistance} cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. Starting at 3rd level, you can cast the {@spell sanctuary} spell with this trait. Starting at 5th level, you can also cast the {@spell aid} spell with this trait. Once you cast {@spell sanctuary} or {@spell aid} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Guardian's Revelation",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet and when you heal a creature with a spell or with your healing hands feature, you can add your proficiency bonus to the total number healed.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Protector aasimar are charged by the powers of good to guard the weak, to strike at evil wherever it arises, and to stand vigilant against the darkness. From a young age, a protector aasimar receives advice and directives that urge to stand against evil. Aasimar age and mature at the same rate as humans, but they typically live for about 160 years.",
+          "In Torin, protector aasimar usually have guiding devas from Pelor or Bahamut and may grant their aasimar sun shaped halos or patches of platinum scales."
+        ]
+      }
+    },
+    {
+      "name": "Fallen Aasimar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 56,
+        "heightMod": "2d10",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "age": {
+        "mature": 20,
+        "max": 160
+      },
+      "darkvision": 120,
+      "resist": [
+        "necrotic"
+      ],
+      "soundClip": {
+        "type": "internal",
+        "path": "races/aasimar.mp3"
+      },
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "bane"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "darkness"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "toll the dead#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Cursed with the shadowy embrace of your dark origins, your vision is more adapted to darkness. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Necrotic Resistance",
+          "entries": [
+            "You have resistance to necrotic damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Shadow Touch",
+          "entries": [
+            "As an action, you can touch a creature and inflict a temporary curse that grants them part of your dark power. The next time they deal damage to a creature with an attack or spell, they can add a number of d4s of extra necrotic damage to one of the rolls equal to your proficiency bonus. Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fallen Magic",
+          "entries": [
+            "You know the {@spell toll the dead} cantrip. Starting at 3rd level, you can cast the {@spell bane} spell with this trait. Starting at 5th level, you can also cast the {@spell darkness} spell with this trait. Once you cast {@spell bane} or {@spell darkness} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Dark Revelation",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the shadow magic within yourself, causing your eyes to turn into pools of darkness. The instant you transform, creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw or become frightened of you until the end of your next turn. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you can deal extra necrotic damage equal to your proficiency bonus to one target when you deal damage to it with an attack or a spell.",
+            "The DC for this trait is 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race). ",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "An aasimar who was touched by dark powers as a youth or who turns to evil in early adulthood can become one of the fallen-a group of aasimar whose inner light has been replaced by shadow. Aasimar age and mature at the same rate as humans, but they typically live for about 160 years.",
+          "In Torin, typically fallen aasimar are ones tainted by cultists at a young age or ones that are born or influenced by the shadowfell. Devas of The Raven Queen or evil gods can also make fallen aasimar. As such, most of these aasimar take a pale deathly visage and shadowy black eyes."
+        ]
+      }
+    },
+    {
+      "name": "Scourge Aasimar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 56,
+        "heightMod": "2d10",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "age": {
+        "mature": 20,
+        "max": 160
+      },
+      "darkvision": 120,
+      "resist": [
+        "fire"
+      ],
+      "soundClip": {
+        "type": "internal",
+        "path": "races/aasimar.mp3"
+      },
+      "additionalSpells": [
+        {
           "innate": {
             "3": {
               "daily": {
@@ -25256,34 +26264,389 @@
             "5": {
               "daily": {
                 "1": [
-                  "branding smite"
+                  "flame blade"
                 ]
               }
             }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "produce flame#c"
+            ]
           }
         }
       ],
       "entries": [
         {
-          "name": "Radiant Consumption",
+          "name": "Darkvision",
           "entries": [
-            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
-            "Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take {@dice 1d4} radiant damage. In addition, once on each of your turns, you can deal an extra {@dice 1d4} radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage becomes {@dice 1d6} at 5th level.",
-            "Once you use this trait, you can't use it again until you finish a long rest."
+            "Blessed with overflowing radiant energy, your vision cuts through darkness with ease. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fire Resistance",
+          "entries": [
+            "You have resistance to fire damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fiery Retaliation",
+          "entries": [
+            "As a reaction when you take damage by a creature within 30 feet of you, you can invoke a burning divine power to retaliate against a foe who dares to challenge you. Roll a number of d4s equal to your proficiency bonus. That creature takes an amount of fire or radiant damage (you choose when you use this trait) equal to the roll. Once you use this trait, you can't use it again until you finish a long rest."
           ],
           "type": "entries"
         },
         {
           "name": "Scourge Magic",
           "entries": [
-            "Starting at 3rd level, you can cast the {@spell divine favor} spell with this trait. Starting at 5th level, you can also cast the {@spell branding smite} spell with this trait. Once you cast {@spell divine favor} or {@spell branding smite} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "You know the {@spell produce flame} cantrip. Starting at 3rd level, you can cast the {@spell divine favor} spell with this trait. Starting at 5th level, you can also cast the {@spell flame blade} spell with this trait and you can choose to make it deal radiant damage on hit instead of fire. Once you cast {@spell divine favor} or {@spell flame blade} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
             "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Burning Revelation",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing a searing fire to radiate from you, pour out of your eyes and mouth, and threaten to char you. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you takes your choice of fire or radiant damage equal to your proficiency bonus. The damage you take from this trait ignores any resistance or immunity to fire damage. In addition, you can deal your choice of extra radiant or fire damage equal to your proficiency bonus to one target when you deal damage to it with an attack or a spell.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
           ],
           "type": "entries"
         }
       ],
-      "hasFluff": true,
-      "hasFluffImages": true
+      "fluff": {
+        "entries": [
+          "Scourge aasimar are imbued with a divine energy that blazes intensely within them. It feeds a powerful desire to destroy evil-a desire that is, at its best, unflinching and, at its worst, all-consuming. Many scourge aasimar wear masks to block out the world and focus on containing this power, unmasking themselves only in battle. Aasimar age and mature at the same rate as humans, but they typically live for about 160 years.",
+          "In Torin, scourge aasimar are guided by devas from Nylea and Pelor. Their halos may have a fiery visage, burning eyes, and they may have small phoenix-like feathered wings."
+        ]
+      }
+    },
+    {
+      "name": "Naturia Aasimar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 56,
+        "heightMod": "2d10",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "age": {
+        "mature": 20,
+        "max": 160
+      },
+      "darkvision": 120,
+      "resist": [
+        "poison"
+      ],
+      "soundClip": {
+        "type": "internal",
+        "path": "races/aasimar.mp3"
+      },
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "entangle"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "pass without trace"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "thorn whip#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Used to having to wander throughout the dark night or dimly lit canopy of trees, you are adept at seeing in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Poison Resilience",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hands of Nature",
+          "entries": [
+            "As an action, you can touch a creature and end one disease or poison afflicting them. Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Nature Magic",
+          "entries": [
+            "You know the {@spell thorn whip} cantrip. Starting at 3rd level, you can cast the {@spell entangle} spell with this trait. Starting at 5th level, you can also cast the {@spell pass without trace} spell with this trait. Once you cast {@spell entangle} or {@spell pass without trace} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Nature's Revelation",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the divine energy within yourself, causing brambles to coil around you, green energy radiating from your eyes and mouth. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, your walking speed is increased by 10 feet and you ignore difficult terrain. In addition, you can deal extra poison damage equal to your proficiency bonus to one target when you deal damage to it with an attack or a spell.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Naturia aasimar often come from children who are abandoned to or lost within the wilds. Their deva angel is sent to them to teach them how to survive in the wilderness and guide others who are lost within them. Many naturia aasimar prefer a more wild appearance, often painting themselves with dirt or mud, which glows as they transform. Some naturia aasimar may have also been aasimar children exposed to fey magic. Aasimar age and mature at the same rate as humans, but they typically live for about 160 years.",
+          "In Torin, naturia aasimar are given their devas from Eldath or Melora. Their halos may be replaced by a flower crown and their skin might have a more bark-like texture."
+        ]
+      }
+    },
+    {
+      "name": "Passion Aasimar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 56,
+        "heightMod": "2d10",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "age": {
+        "mature": 20,
+        "max": 160
+      },
+      "darkvision": 120,
+      "resist": [
+        "psychic"
+      ],
+      "soundClip": {
+        "type": "internal",
+        "path": "races/aasimar.mp3"
+      },
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "charm person"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "calm emotions"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "prestidigitation#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Blessed with angelic blood, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Mental Discipline",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the charmed condition on yourself. You also have resistance to psychic damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Touch of Passion",
+          "entries": [
+            "As an action, you can touch a creature and force them to make a Charisma saving throw. On a failed save, they are {@condition charmed} by you or one ally of your choice within 30 feet of you that they can see for 1 hour, or until you or your allies deal any amount of damage to them. During that time, they are non-hostile and cannot attack or cast harmful spells until they are no longer {@condition charmed}. Once you use this trait, you can't use it again until you finish a long rest.",
+            "The DC for this trait is 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race). "
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Passionate Spellcasting",
+          "entries": [
+            "You know the {@spell prestidigitation} cantrip. Starting at 3rd level, you can cast the {@spell charm person} spell with this trait. Starting at 5th level, you can also cast the {@spell calm emotions} spell with this trait. Once you cast {@spell charm person} or {@spell calm emotions} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Passionate Revelation",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the angelic magic within yourself, causing your eyes to glow cupid pink and white feathered wings grow from your back. The instant you transform, creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw or become {@condition charmed} by you for 1 minute or until they take damage by you or any of your allies. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Passion aasimar are expressive with arts, crafts, and especially with their emotions. The devas they are given are often angels of love. Many passion aasimar become priests so that they can see the joining of other races, as it pleases them to see others find love. Passion aasimar have to be careful though, as their angelic power can charm people. Aasimar age and mature at the same rate as humans, but they typically live for about 160 years.",
+          "In Torin, passion aasimar are given their devas by Avandra and Sune. Their halos and eyes may glow a cupid pink, sometimes their pupils can even be heart shaped."
+        ]
+      }
+    },
+    {
+      "name": "Blood-Boiled Aasimar",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 56,
+        "heightMod": "2d10",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "age": {
+        "mature": 20,
+        "max": 160
+      },
+      "darkvision": 120,
+      "resist": [
+        "necrotic"
+      ],
+      "soundClip": {
+        "type": "internal",
+        "path": "races/aasimar.mp3"
+      },
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "inflict wounds"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "ray of enfeeblement"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "chill touch#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Tainted with demonic magic, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Necrotic Resistance",
+          "entries": [
+            "You have resistance to necrotic damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Life-Draining Touch",
+          "entries": [
+            "When you hit a creature with a melee attack, you can drain their life force and cripple their vitality. Roll a number of d4s equal to your proficiency bonus. They take extra necrotic damage equal to the roll and they cannot regain hit points until the end of your next turn. You gain temporary hit points equal to half the necrotic damage dealt by this trait. Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Innate Blood Magic",
+          "entries": [
+            "You know the {@spell chill touch} cantrip. Starting at 3rd level, you can cast the {@spell charm person} spell with this trait. Starting at 5th level, you can also cast the {@spell calm emotions} spell with this trait. Once you cast {@spell inflict wounds} or {@spell ray enfeeblement} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Bloody Revelation",
+          "entries": [
+            "Starting at 3rd level, you can use your bonus action to unleash the inert blood magic within yourself, causing your eyes to glow crimson and blood to drip from your body. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you take damage equal to your proficiency bonus at the start of each of your turns. This damage cannot be reduced in any way. In addition, you can deal extra necrotic damage equal to twice your proficiency bonus to one target when you deal damage to it with an attack or a spell.",
+            "Once you use this trait, you can't use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Aasimar children exposed to blood magic at an early age can fall from grace, becoming corrupted by the tainted dark arts. Their fall however is in a different vein than the typical fallen aasimar. The magic tainting them is fueled with temptation, rage, and addicting power. Once exposed to it, it’s hard for the aasimar to not accept this newfound power. Aasimar age and mature at the same rate as humans, but they typically live for about 160 years.",
+          "In Torin, Morgana sends tainted devas to aasimar and slays their original devas to replace them. Their angels glow a red hue with a black light, their eyes become black with a red iris."
+        ]
+      }
     }
   ]
 }
