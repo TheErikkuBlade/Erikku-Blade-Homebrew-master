@@ -310,7 +310,7 @@
                 "The weapon's bonus to attack and damage rolls increases to +2.",
                 "The cold damage dealt when you release the cold flames increases to 2d6.",
                 "The saving throw DC for the weapon's Cold Embrace and Freezing Aura increases to 15.",
-                "While holding the shortsword, you can use an action to cast one of the following spells from it (save DC 15, +7 to hit): {@spell cold snap|TheAdventuresofTorinCampaignSetting}, {@spell creeping cold|TheAdventuresofTorinCampaignSetting}, {@spell glacial grip|TheAdventuresofTorinCampaignSetting}, or {@spell winter’s grasp|TheAdventuresofTorinCampaignSetting}. Once a spell has been cast using the shortsword, that spell can't be cast from the shortsword again until the next dawn."
+                "While holding the shortsword, you can use an action to cast one of the following spells from it (save DC 15, +7 to hit): {@spell cold snap|TheAdventuresofTorinCampaignSetting}, {@spell creeping cold|TheAdventuresofTorinCampaignSetting}, {@spell glacial grip|TheAdventuresofTorinCampaignSetting}, or {@spell winter's grasp|TheAdventuresofTorinCampaignSetting}. Once a spell has been cast using the shortsword, that spell can't be cast from the shortsword again until the next dawn."
               ]
             }
           ]
@@ -2522,7 +2522,7 @@
             "3e": [
               "{@spell hold person}",
               "{@spell Snilloc's snowball swarm|XGE}",
-              "{@spell winter’s grasp|TheAdventuresofTorinCampaignSetting}"
+              "{@spell winter's grasp|TheAdventuresofTorinCampaignSetting}"
             ],
             "1e": [
               "{@spell cone of cold}",
@@ -2701,7 +2701,7 @@
               "{@spell armor of Agathys}",
               "{@spell cold snap|TheAdventuresofTorinCampaignSetting}",
               "{@spell rime's binding ice|FTD}",
-              "{@spell winter’s grasp|TheAdventuresofTorinCampaignSetting}"
+              "{@spell winter's grasp|TheAdventuresofTorinCampaignSetting}"
             ],
             "1e": [
               "{@spell creeping cold|TheAdventuresofTorinCampaignSetting}",
@@ -8968,11 +8968,1033 @@
       "miscTags": [
         "MW"
       ]
+    },
+    {
+      "name": "Queen of The Red, Kyvora",
+      "shortName": "Kyvora",
+      "isNpc": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": "dragon",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "20d12 + 100",
+        "average": 230
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true,
+        "swim": 30,
+        "climb": 30
+      },
+      "str": 22,
+      "dex": 14,
+      "con": 20,
+      "int": 14,
+      "wis": 16,
+      "cha": 19,
+      "save": {
+        "con": "+10",
+        "cha": "+9",
+        "wis": "+8",
+        "dex": "+7"
+      },
+      "skill": {
+        "religion": "+7",
+        "medicine": "+8",
+        "perception": "+13",
+        "arcana": "+7",
+        "insight": "+8",
+        "stealth": "+12",
+        "survival": "+8",
+        "intimidation": "+14"
+      },
+      "senses": [
+        "blindsight 30 ft.",
+        "darkvision 120 ft."
+      ],
+      "passive": 23,
+      "resist": [],
+      "immune": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Infernal"
+      ],
+      "cr": "15",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The blessed casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 17}):"
+          ],
+          "will": [
+            "{@spell continual flame}",
+            "{@spell control flames|XGE}",
+            "{@spell darkvision}",
+            "{@spell thaumaturgy}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell enhance ability}",
+              "{@spell fly}",
+              "{@spell immolation|XGE}",
+              "{@spell mass cure wounds}",
+              "{@spell mass healing word}",
+              "{@spell revivify}",
+              "{@spell tongues}"
+            ],
+            "1e": [
+              "{@spell fire storm}",
+              "{@spell resurrection}",
+              "{@spell summon draconic spirit|FTD} (7th Level, summons a red dragon)"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Kyvora has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If Kyvora fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Mounted Warrior",
+          "entries": [
+            "Kyvora can force an attack targeted at her mount to target herself instead, and vice versa. She also has advantage on attack rolls while she is mounted."
+          ]
+        },
+        {
+          "name": "Command The Red",
+          "entries": [
+            "Kyvora has a unique control over red dragons, granted to her by Tiamat out of recognition of her strength. Any red dragon obeys her every command, as if they were under the effects of {@spell dominate monster} spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The blessed makes three Draconic Longsword or Fiery Bolt attacks."
+          ]
+        },
+        {
+          "name": "Draconic Longsword",
+          "entries": [
+            "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) slashing damage, plus 18 ({@damage 4d8}) fire damage."
+          ]
+        },
+        {
+          "name": "Fiery Bolt",
+          "entries": [
+            "{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}22 ({@damage 5d8}) fire damage, and the blessed regains 11 ({@dice 2d10}) hit points."
+          ]
+        },
+        {
+          "name": "Fiery Breath {@recharge 5}",
+          "entries": [
+            "Kyvora exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 56 ({@damage 16d6}) fire damage on a failed save, or half as much damage on a successful one. She the regains 16 ({@dice 3d10}) hit points"
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Commanding Strike",
+          "entries": [
+            "Kyvora commands a dragon within 30 feet of her that can see or hear her to attack a creature she chooses within their melee reach."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/1LueCOP.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/jMQu7k6.png",
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "B",
+        "SD"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "DR",
+        "I"
+      ],
+      "damageTags": [
+        "F",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Queen of The Blue, Lyvora",
+      "shortName": "Lyvora",
+      "isNpc": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": "dragon",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "18d10 + 90",
+        "average": 189
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true,
+        "swim": 30,
+        "climb": 30
+      },
+      "str": 20,
+      "dex": 14,
+      "con": 20,
+      "int": 14,
+      "wis": 16,
+      "cha": 19,
+      "save": {
+        "con": "+10",
+        "cha": "+9",
+        "wis": "+8",
+        "dex": "+7"
+      },
+      "skill": {
+        "religion": "+7",
+        "medicine": "+8",
+        "perception": "+13",
+        "arcana": "+7",
+        "insight": "+8",
+        "stealth": "+12",
+        "survival": "+8",
+        "intimidation": "+14"
+      },
+      "senses": [
+        "blindsight 30 ft.",
+        "darkvision 120 ft."
+      ],
+      "passive": 23,
+      "resist": [],
+      "immune": [
+        "lightning"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Infernal"
+      ],
+      "cr": "13",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The blessed casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 17}):"
+          ],
+          "will": [
+            "{@spell darkvision}",
+            "{@spell thaumaturgy}",
+            "{@spell thunderwave}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell enhance ability}",
+              "{@spell fly}",
+              "{@spell mass cure wounds}",
+              "{@spell mass healing word}",
+              "{@spell revivify}",
+              "{@spell storm sphere|XGE}",
+              "{@spell tongues}"
+            ],
+            "1e": [
+              "{@spell chain lightning}",
+              "{@spell resurrection}",
+              "{@spell summon draconic spirit|FTD} (6th Level, summons a blue dragon)"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Livora has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If Livora fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Mounted Warrior",
+          "entries": [
+            "Livora can force an attack targeted at her mount to target herself instead, and vice versa. She also has advantage on attack rolls while she is mounted."
+          ]
+        },
+        {
+          "name": "Command The Blue",
+          "entries": [
+            "Livora has a unique control over blue dragons, granted to her by Tiamat out of recognition of her strength. Any blue dragon obeys her every command, as if they were under the effects of {@spell dominate monster} spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The blessed makes two Draconic Longsword or Bolt of Storms attacks."
+          ]
+        },
+        {
+          "name": "Draconic Longsword",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 5}) slashing damage, plus 18 ({@damage 4d8}) lightning damage."
+          ]
+        },
+        {
+          "name": "Bolt of Storms",
+          "entries": [
+            "{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}22 ({@damage 5d8}) lightning damage, and the blessed regains 11 ({@dice 2d10}) hit points."
+          ]
+        },
+        {
+          "name": "Lightning Breath {@recharge 5}",
+          "entries": [
+            "Livora exhales fire in a 60-foot line that is 5 feet wide. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 55 ({@damage 10d10}) lightning damage on a failed save, or half as much damage on a successful one. She the regains 16 ({@dice 3d10}) hit points"
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Commanding Strike",
+          "entries": [
+            "Lyvora commands a dragon within 30 feet of her that can see or hear her to attack a creature she chooses within their melee reach."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/gDJeZIg.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/MbL1zuo.png",
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "B",
+        "SD"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "DR",
+        "I"
+      ],
+      "damageTags": [
+        "L",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Queen of The Green, Hyvora",
+      "shortName": "Hyvora",
+      "isNpc": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": "dragon",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 64",
+        "average": 136
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true,
+        "swim": 30,
+        "climb": 30
+      },
+      "str": 20,
+      "dex": 12,
+      "con": 19,
+      "int": 14,
+      "wis": 16,
+      "cha": 18,
+      "save": {
+        "con": "+8",
+        "cha": "+8",
+        "wis": "+7",
+        "dex": "+5"
+      },
+      "skill": {
+        "religion": "+6",
+        "medicine": "+7",
+        "perception": "+11",
+        "arcana": "+6",
+        "insight": "+7",
+        "stealth": "+9",
+        "survival": "+7",
+        "intimidation": "+12"
+      },
+      "senses": [
+        "blindsight 30 ft.",
+        "darkvision 120 ft."
+      ],
+      "passive": 21,
+      "resist": [],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Infernal"
+      ],
+      "cr": "11",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The blessed casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 16}):"
+          ],
+          "will": [
+            "{@spell darkvision}",
+            "{@spell ray of enfeeblement}",
+            "{@spell thaumaturgy}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell enhance ability}",
+              "{@spell fly}",
+              "{@spell mass healing word}",
+              "{@spell revivify}",
+              "{@spell tongues}"
+            ],
+            "1e": [
+              "{@spell cloudkill}",
+              "{@spell mass cure wounds}",
+              "{@spell revivify}",
+              "{@spell summon draconic spirit|FTD} (5th Level, summons a green dragon)"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Hyvora has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If Hyvora fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Mounted Warrior",
+          "entries": [
+            "Hyvora can force an attack targeted at her mount to target herself instead, and vice versa. She also has advantage on attack rolls while she is mounted."
+          ]
+        },
+        {
+          "name": "Command The Green",
+          "entries": [
+            "Hyvora has a unique control over green dragons, granted to her by Tiamat out of recognition of her strength. Any green dragon obeys her every command, as if they were under the effects of {@spell dominate monster} spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The blessed makes two Draconic Longsword or Poisonous Spit attacks."
+          ]
+        },
+        {
+          "name": "Draconic Longsword",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) slashing damage, plus 18 ({@damage 3d8}) poison damage."
+          ]
+        },
+        {
+          "name": "Poisonous Spit",
+          "entries": [
+            "{@atk rs} {@hit 8} to hit, range 120 ft., one target. {@h}18 ({@damage 4d8}) poison damage, and the blessed regains 11 ({@dice 2d10}) hit points."
+          ]
+        },
+        {
+          "name": "Poisonous Breath {@recharge 5}",
+          "entries": [
+            "Hyvora exhales a poisonous gas in a 30-foot cone. Each creature in that area must make a {@dc 16} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one. She the regains 16 ({@dice 3d10}) hit points"
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Commanding Strike",
+          "entries": [
+            "Hyvora commands a dragon within 30 feet of her that can see or hear her to attack a creature she chooses within their melee reach."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/2BMVNcH.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/5LJbLcw.png",
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "B",
+        "SD"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "DR",
+        "I"
+      ],
+      "damageTags": [
+        "I",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Queen of The Black, Nyvora",
+      "shortName": "Nyvora",
+      "isNpc": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": "dragon",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "15d8 + 60",
+        "average": 127
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true,
+        "swim": 30,
+        "climb": 30
+      },
+      "str": 18,
+      "dex": 10,
+      "con": 18,
+      "int": 14,
+      "wis": 16,
+      "cha": 16,
+      "save": {
+        "con": "+8",
+        "cha": "+8",
+        "wis": "+7",
+        "dex": "+4"
+      },
+      "skill": {
+        "religion": "+6",
+        "medicine": "+7",
+        "perception": "+11",
+        "arcana": "+6",
+        "insight": "+7",
+        "stealth": "+8",
+        "survival": "+7",
+        "intimidation": "+11"
+      },
+      "senses": [
+        "blindsight 30 ft.",
+        "darkvision 120 ft."
+      ],
+      "passive": 21,
+      "resist": [],
+      "immune": [
+        "acid"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Infernal"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The blessed casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}):"
+          ],
+          "will": [
+            "{@spell darkvision}",
+            "{@spell grease}",
+            "{@spell thaumaturgy}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell enhance ability}",
+              "{@spell fly}",
+              "{@spell mass healing word}",
+              "{@spell revivify}",
+              "{@spell Tasha's caustic brew|TCE}",
+              "{@spell tongues}"
+            ],
+            "1e": [
+              "{@spell blight}",
+              "{@spell summon draconic spirit|FTD} (5th Level, summons a black dragon)"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Nyvora has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If Nyvora fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Mounted Warrior",
+          "entries": [
+            "Nyvora can force an attack targeted at her mount to target herself instead, and vice versa. She also has advantage on attack rolls while she is mounted."
+          ]
+        },
+        {
+          "name": "Command The Black",
+          "entries": [
+            "Nyvora has a unique control over black dragons, granted to her by Tiamat out of recognition of her strength. Any black dragon obeys her every command, as if they were under the effects of {@spell dominate monster} spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The blessed makes two Draconic Longsword or Poisonous Spit attacks."
+          ]
+        },
+        {
+          "name": "Draconic Longsword",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage, plus 13 ({@damage 2d8 + 4}) acid damage."
+          ]
+        },
+        {
+          "name": "Poisonous Spit",
+          "entries": [
+            "{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}18 ({@damage 4d8}) acid damage, and the blessed regains 11 ({@dice 2d10}) hit points."
+          ]
+        },
+        {
+          "name": "Acid Breath {@recharge 5}",
+          "entries": [
+            "Nyvora exhales a exhales acid in gas in a 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 49 ({@damage 11d8}) acid damage on a failed save, or half as much damage on a successful one. She the regains 16 ({@dice 3d10}) hit points"
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Commanding Strike",
+          "entries": [
+            "Nyvora commands a dragon within 30 feet of her that can see or hear her to attack a creature she chooses within their melee reach."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/7mAiLHn.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/m0KXOEj.png",
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "B",
+        "SD"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "DR",
+        "I"
+      ],
+      "damageTags": [
+        "A",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Queen of The White, Myvora",
+      "shortName": "Myvora",
+      "isNpc": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": "dragon",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 56",
+        "average": 119
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true,
+        "swim": 30,
+        "climb": 30
+      },
+      "str": 18,
+      "dex": 10,
+      "con": 18,
+      "int": 14,
+      "wis": 16,
+      "cha": 16,
+      "save": {
+        "con": "+7",
+        "cha": "+7",
+        "wis": "+6",
+        "dex": "+3"
+      },
+      "skill": {
+        "religion": "+5",
+        "medicine": "+6",
+        "perception": "+9",
+        "arcana": "+5",
+        "insight": "+6",
+        "stealth": "+6",
+        "survival": "+6",
+        "intimidation": "+9"
+      },
+      "senses": [
+        "blindsight 30 ft.",
+        "darkvision 120 ft."
+      ],
+      "passive": 19,
+      "resist": [],
+      "immune": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Infernal"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The blessed casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
+          ],
+          "will": [
+            "{@spell darkvision}",
+            "{@spell thaumaturgy}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell enhance ability}",
+              "{@spell fly}",
+              "{@spell mass healing word}",
+              "{@spell revivify}",
+              "{@spell rime's binding ice|FTD}",
+              "{@spell summon draconic spirit|FTD} (5th Level, summons a white dragon)",
+              "{@spell tongues}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Myvora has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (1/Day)",
+          "entries": [
+            "If Myvora fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Mounted Warrior",
+          "entries": [
+            "Myvora can force an attack targeted at her mount to target herself instead, and vice versa. She also has advantage on attack rolls while she is mounted."
+          ]
+        },
+        {
+          "name": "Command The White",
+          "entries": [
+            "Myvora has a unique control over white dragons, granted to her by Tiamat out of recognition of her strength. Any white dragon obeys her every command, as if they were under the effects of {@spell dominate monster} spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The blessed makes two Draconic Longsword or Cold Ray attacks."
+          ]
+        },
+        {
+          "name": "Draconic Longsword",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage, plus 13 ({@damage 2d8 + 4}) cold damage."
+          ]
+        },
+        {
+          "name": "Cold Ray",
+          "entries": [
+            "{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}13 ({@damage 3d8}) cold damage, and the blessed regains 11 ({@dice 2d10}) hit points."
+          ]
+        },
+        {
+          "name": "Cold Breath {@recharge 5}",
+          "entries": [
+            "Myvora exhales an icy blast in a 30-foot cone. Each creature in that area must make a {@dc 15} Constitution saving throw, taking 40 ({@damage 10d8}) cold damage on a failed save, or half as much damage on a successful one. She the regains 16 ({@dice 3d10}) hit points"
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Commanding Strike",
+          "entries": [
+            "Myvora commands a dragon within 30 feet of her that can see or hear her to attack a creature she chooses within their melee reach."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/jbiMHFw.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/5RoCvo5.png",
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "B",
+        "SD"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "CE",
+        "DR",
+        "I"
+      ],
+      "damageTags": [
+        "C",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true
     }
   ],
   "spell": [
     {
-      "name": "Winter’s Grasp",
+      "name": "Winter's Grasp",
       "source": "TheAdventuresofTorinCampaignSetting",
       "level": 2,
       "school": "V",
@@ -16497,7 +17519,7 @@
       "entries": [
         "{@i 14th-level Sanguine feature}",
         "During short moments of respite you can regain some of your lost sorcerous power. When you finish a short rest, you can spend a hit die to regain sorcery points equal to the number rolled. You can only spend a hit die in this way once, regaining the ability to do so again when you complete a long rest.",
-        "In addition, you the following options are added to your Hemomancy feature:",
+        "In addition, the following options are added to your Hemomancy feature:",
         {
           "type": "options",
           "entries": [
@@ -16531,7 +17553,7 @@
       "entries": [
         "{@i 18th-level Sanguine feature}",
         "Your mastery over blood magic has further changed your body permanently, granting you immunity to necrotic damage and immunity to being diseased.",
-        "In addition, you can undergo a more powerful transformation which furthers your mastery over said magic. You learn the spell {@spell Guise of the Blood Witch|TheAdventuresofTorinCampaignSetting} and it counts as a sorcerer spell for you but it doesn't count against the number of sorcerer spells you know. You can cast the spell without requiring material components and you can cast it without expending a spell slot by spending hemomancy dice instead. You can cast the spell in this way once, regaining the ability to do so again when you finish a long rest."
+        "In addition, you can undergo a more powerful transformation which furthers your mastery over said magic. You learn the spell {@spell Guise of the Blood Witch|TheAdventuresofTorinCampaignSetting} and it counts as a sorcerer spell for you but it doesn't count against the number of sorcerer spells you know. You can cast the spell without requiring material components and you can cast it without expending a spell slot by spending 6 hemomancy dice instead. You can cast the spell in this way once, regaining the ability to do so again when you finish a long rest."
       ]
     },
     {
@@ -20477,7 +21499,7 @@
             ],
             [
               "5th",
-              "{@spell winter’s grasp|TheAdventuresofTorinCampaignSetting}"
+              "{@spell winter's grasp|TheAdventuresofTorinCampaignSetting}"
             ],
             [
               "9th",
@@ -23415,7 +24437,7 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "name": "Dragonsong",
       "entries": [
-        "You gain proficiency in two musical instruments of your choice.",
+        "You gain proficiency in two musical instruments of your choice and proficiency in the  Performance skill, or one other skill if you already had proficiency in Performance.",
         "As a bonus action you can evoke the power of your Dragonsong for 1 minute so long as you are not wearing medium or heavy armor. While active, your Dragonsong gives a +1 bonus to your AC and Dexterity Saving throws. You cannot use your Dragonsong again until you finish a long rest."
       ],
       "featureType": [
@@ -23543,7 +24565,7 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "name": "Fiendish Legacy",
       "entries": [
-        "Your draconic blood comes from a dragon from either the Abyss or the Nine Hells. You have resistance to damage from fiends and you do not suffer the negative effects of being in the Abyss or the Nine Hells. In addition, regardless of your race you can take any of the racial feats that has a prerequisite for tiefling, or any race with origins from the Abyss or Nine Hells."
+        "Your draconic blood comes from a dragon from either the Abyss or the Nine Hells. You have resistance to damage from fiends and you do not suffer the negative effects of being in the Abyss or the Nine Hells. In addition, regardless of your race you can take any of the racial feats that have a prerequisite for tiefling, or any race with origins from the Abyss or Nine Hells."
       ],
       "featureType": [
         "Draconic Power"
@@ -24107,13 +25129,18 @@
     },
     {
       "source": "TheAdventuresofTorinCampaignSetting",
-      "name": "Shared Powers",
+      "name": "Shared Magic",
       "entries": [
-        "Your manifested dragon shares the Draconic Powers that you have that do not have the summoner archetype.",
-        "If a power requires a saving throw or involves a spell, it uses your DC for the power and your spell attack and spell save DC for the spell. It does not require verbal or somatic components to cast spells using Draconic Powers."
+        "You’ve trained with your ally to work in tandem using magic. Choose one cantrip and one 1st level spell that you know, your draconic ally can cast that cantrip at will and it can cast the 1st level spell once, regaining the ability to cast it again when you finish a long rest."
       ],
       "prerequisite": [
         {
+          "level": {
+            "level": 7,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
           "otherSummary": {
             "entry": "Summoner Archetype",
             "entrySummary": "Summoner Archetype"
@@ -24152,20 +25179,85 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "name": "Dragon Rider",
       "entries": [
-        "When you manifest your dragon, it comes equipped with an exoctic saddle. This saddle has holsters for up to two weapons and a large quiver that can hold up to 40 arrows. You can ride your manifested dragon regardless of size restraints, so long as you are not larger than your manifested dragon. While you are mounted on a dragon, you have the following benefits:",
-        {
-          "type": "list",
-          "items": [
-            "You have advantage on melee attack rolls against any unmounted creature that is smaller than your dragon.",
-            "You can force an attack targeted at your dragon to target you instead.",
-            "If your dragon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
-          ]
-        }
+        "When you manifest your dragon, it comes equipped with an exoctic saddle. This saddle has holsters for up to two weapons and a large quiver that can hold up to 40 arrows. You can ride your manifested dragon regardless of size restraints, so long as you are not larger than your manifested dragon. ",
+        "While you are mounted on a dragon, you can force an attack targeted at you to target the dragon instead. A dragon you are mounted on has advantage on melee attack rolls against any unmounted creature that is smaller than it."
       ],
       "prerequisite": [
         {
           "level": {
             "level": 7,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Evasive Dragon",
+      "entries": [
+        "If your manifested dragon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it can use its reaction and instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. A creature can only benefit from this feature if its speed is not 0 and if it is not incapacitated."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 7,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Improved Dragon's Sight",
+      "entries": [
+        "Your manifested dragon’s vision improves, resembling that of its dragon kind. Its darkvision is increased to a range of 120 feet and it has blindsight out to a range of 30 feet. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Dragon Warrior"
+            }
+          },
+          "otherSummary": {
+            "entry": "Summoner Archetype",
+            "entrySummary": "Summoner Archetype"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Breath of The Drakes",
+      "entries": [
+        "Your manifested dragon can use its magic to exhale a magical burst of energy. When it takes the attack action, it can replace one of its attacks with this burst of energy that targets one creature or object within 60 feet of it. If the target is a creature, it makes a Dexterity saving throw. The DC equals 8 + PB + 3. On a failed save, the target takes 2d10 damage of a type it chooses from the resistances or immunities it gains from its Shared Traits, or it takes half as much damage on a success."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
             "class": {
               "name": "Dragon Warrior"
             }
@@ -25098,6 +26190,96 @@
     },
     {
       "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Song of The Moon Dragon",
+      "entries": [
+        "When you use your Dragonsong draconic power, you can then choose one creature that you can see within 30 feet of you. They must make an Intelligence saving throw ( DC = 8 + Proficiency Bonus + Charisma modifier) or be compelled to dance until the start of your next turn. While dancing, they are incapacitated and only they hear a merry waltz in their head."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Fey Dragon, Dragonsong",
+            "entrySummary": "Fey Dragon, Dragonsong"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Song of Horrors",
+      "entries": [
+        "When you use your Dragonsong draconic power, you can then choose one creature that you can see within 30 feet of you. They must make a Wisdom saving throw (DC = 8 + Proficiency Bonus + Charisma modifier) or become frightened of you while your dragonsong is active. They can repeat their saving throw at the end of each of their turns, ending the effect on a success."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Aberrant Origins, Dragonsong",
+            "entrySummary": "Aberrant Origins, Dragonsong"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Chromatic Dance",
+      "entries": [
+        "When you use your Dragonsong draconic power, you can choose to perform an elemental dance which grants you power. Once per turn, while performing this chromatic  dance, when you hit with a melee attack using an unarmed strike or a weapon, you can add an extra 1d4 bonus to the damage roll. This extra damage is the type associated with your Draconic Origin. You concentrate on this effect as if you were concentrating on a spell."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Any Chromatic Draconic Origin, Dragonsong",
+            "entrySummary": "Any Chromatic Draconic Origin, Dragonsong"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Metallic Dance",
+      "entries": [
+        "When you use your Dragonsong draconic power, you can choose to perform a glorious dance which grants you power. You begin to shimmer and glow, granting you a stunning appearance. You have advantage on Charisma ability checks and Charisma saving throws while your Dragonsong is active. You concentrate on this effect as if you were concentrating on a spell."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Any Metallic Draconic Origin, Dragonsong",
+            "entrySummary": "Any Metallic Draconic Origin, Dragonsong"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Brilliant Dance of Gems",
+      "entries": [
+        "When you use your Dragonsong draconic power, you can choose to perform a glistening dance which grants you power. Psionic energy veils you, protecting you against further harm. You gain temporary hit points equal to twice your proficiency bonus. If you still have any of these temporary hit points when your Dragonsong ends, they are lost."
+      ],
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "Any Gem Draconic Origin, Dragonsong",
+            "entrySummary": "Any Gem Draconic Origin, Dragonsong"
+          }
+        }
+      ],
+      "featureType": [
+        "Draconic Power"
+      ]
+    },
+    {
+      "source": "TheAdventuresofTorinCampaignSetting",
       "name": "Dream Breath",
       "entries": [
         "Instead of exhaling a powerful breath weapon, you can expend a use of your Draconic Breath Weapon to instead cast the {@spell Banishment} spell, targeting a creature within range of your breath weapon. You use your breath weapon’s DC for the DC of the spell. When the creature is banished in this way, they are sent to a harmless dream plane instead of the astral plane."
@@ -25755,7 +26937,7 @@
         {
           "type": "list",
           "items": [
-            "You learn the {@spell cure wounds} or {@spell healing word} spell and one 1st-level spell of your choice. The {@filter 1st-level spell|spells|level=1|school=A} must be from the conjuration or evocation school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+            "You learn the {@spell cure wounds} or {@spell healing word} spell and one 1st-level spell of your choice. The {@filter 1st-level spell|spells|level=1|school=A} must be from the abjuration school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
           ]
         }
       ]
