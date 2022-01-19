@@ -25153,30 +25153,6 @@
     },
     {
       "source": "TheAdventuresofTorinCampaignSetting",
-      "name": "Aura of Friendship",
-      "entries": [
-        "When your manifested dragon is within 10 feet of you, it has a bonus to all saving throws equal to your charisma modifier, to a minimum of 1."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 7,
-            "class": {
-              "name": "Dragon Warrior"
-            }
-          },
-          "otherSummary": {
-            "entry": "Summoner Archetype",
-            "entrySummary": "Summoner Archetype"
-          }
-        }
-      ],
-      "featureType": [
-        "Draconic Power"
-      ]
-    },
-    {
-      "source": "TheAdventuresofTorinCampaignSetting",
       "name": "Dragon Rider",
       "entries": [
         "When you manifest your dragon, it comes equipped with an exoctic saddle. This saddle has holsters for up to two weapons and a large quiver that can hold up to 40 arrows. You can ride your manifested dragon regardless of size restraints, so long as you are not larger than your manifested dragon. ",
