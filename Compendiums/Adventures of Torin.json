@@ -143,6 +143,48 @@
       }
     },
     {
+      "name": "Rune Forged Weapon",
+      "type": "GV",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "requires": [
+        {
+          "weapon": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Rune Forged ",
+        "source": "TheAdventuresofTorinCampaignSetting",
+        "tier": "major",
+        "rarity": "uncommon",
+        "entries": [
+          "When a creature deals damage with this weapon, it deals an additional {@damage 1d6} force damage on hit.",
+          "As an action, the wielder of this weapon can release outward a magical repelling blast in a 15-foot cone. Each creature in that area must make a DC 15 Strength saving throw. Creatures who fail take 3d6 force damage and are pushed back 10 feet, or half damage and are not pushed back on a success. The rune then goes dull.",
+          "Once this property has been used, it cannot be used again until the next dawn."
+        ]
+      }
+    },
+    {
+      "name": "Rune Forged Armor",
+      "type": "GV",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "requires": [
+        {
+          "armor": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Rune Forged ",
+        "source": "TheAdventuresofTorinCampaignSetting",
+        "tier": "major",
+        "rarity": "uncommon",
+        "entries": [
+          "A magical rune was scribed on this armor, it faintly glows with power.",
+          "A creature wearing this armor can use their reaction when they would be hit by an attack. They gain a +2 bonus to their AC against the triggering attack, potentially turning the hit into a miss. If the attack misses, a powerful force pushes the attacker 10 feet away from you and knocks them prone.",
+          "Once an attack misses you as a result of using this property, it cannot be used again until the next dawn."
+        ]
+      }
+    },
+    {
       "name": "Frozen Armor",
       "type": "GV",
       "source": "TheAdventuresofTorinCampaignSetting",
@@ -1300,6 +1342,7 @@
       "reqAttune": true,
       "wondrous": true,
       "weight": 0,
+      "tattoo": true,
       "entries": [
         "Produced by a special needle, this magic tattoo is brightly colored, usually coming in hues of red, blue, green, or yellow.",
         {
@@ -1382,6 +1425,95 @@
         "While wearing this bracelet, you can expend one or more of its charges (to a maximum of 3) as a reaction when a creature hits you with an attack while within 30 feet of you. That creature is then immediately ignited with powerful flames. They take 1d10 points of fire damage per charge spent.",
         "You can expend one or more of its charges to cast the following spells through it, without spending a spell slot or requiring material components (spell save DC 17, +9 to hit): {@spell burning touch|TheAdventuresofTorinCampaignSetting} (1 charge), {@spell scorching ray} (2 charges), {@spell Melf's minute meteors|XGE} (3 charges), {@spell fire shield} (4 charges), or {@spell immolation|XGE} (5 charges).",
         "The bracelet regain {@dice 1d6 + 4} expended charges daily at dawn."
+      ]
+    },
+    {
+      "name": "Bracers of Ice and Fire",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "rarity": "rare",
+      "reqAttune": true,
+      "wondrous": true,
+      "recharge": "dawn",
+      "charges": 5,
+      "attachedSpells": [
+        "searing smite",
+        "ice knife|XGE",
+        "scorching ray",
+        "Rime's binding ice|FTD",
+        "Ashardalon's stride|FTD",
+        "slow"
+      ],
+      "entries": [
+        "Inscribed on these bracers are two runes, Ise and Ild. These bracers allow you to command the power of the elements, fire and ice.",
+        "The bracers have 5 charges and they regain 1d4 + 1 charges daily at dawn.",
+        "You can expend 1 or more charges from these bracers to cause one of the runes to glow with power, allowing you to cast one of the following spells (+7 to hit with spells, spell save DC 15): {@spell searing smite} (1 charge), {@spell ice knife|XGE} (1 charge), {@spell scorching ray} (2 charges), {@spell Rime's binding ice|FTD} (2 charges), {@spell Ashardalon's stride|FTD} (3 charges), {@spell slow} (3 charges).",
+        "Alternatively, as a bonus action you can expend 1 charge to empower your weapons or unarmed strikes. Choose cold or fire. The next time you hit with a weapon or unarmed strike, the target takes an additional 1d10 damage of the chosen type."
+      ]
+    },
+    {
+      "name": "Stone of Ancient Magic",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "rarity": "rare",
+      "reqAttune": true,
+      "wondrous": true,
+      "bonusSpellAttack": "+1",
+      "bonusSpellSaveDc": "+1",
+      "attachedSpells": [
+        "ode of seasons|TheAdventuresofTorinCampaignSetting",
+        "reveal/conceal|TheAdventuresofTorinCampaignSetting",
+        "giant's strength|TheAdventuresofTorinCampaignSetting",
+        "contact ancient spirits|TheAdventuresofTorinCampaignSetting",
+        "charity|TheAdventuresofTorinCampaignSetting"
+      ],
+      "entries": [
+        "Sometimes faintly visible marks appear on the stone, glowing with power. While you carry this stone, you can occasionally feel a faint breeze blow past you, even in the deepest caves.",
+        "You can use this stone as an arcane focus. While carrying this stone, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells.",
+        "In addition, you learn the following spells, which you can cast using your own spell slots: {@spell ode of seasons|TheAdventuresofTorinCampaignSetting}, {@spell reveal/conceal|TheAdventuresofTorinCampaignSetting}, {@spell giant's strength|TheAdventuresofTorinCampaignSetting}, {@spell contact ancient spirits|TheAdventuresofTorinCampaignSetting}, and {@spell charity|TheAdventuresofTorinCampaignSetting}."
+      ]
+    },
+    {
+      "name": "Runic Tome",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "rarity": "rare",
+      "reqAttune": "by a wizard",
+      "reqAttuneTags": [
+        {
+          "class": "wizard"
+        }
+      ],
+      "wondrous": true,
+      "weight": 3,
+      "recharge": "dawn",
+      "charges": 3,
+      "focus": [
+        "Wizard"
+      ],
+      "entries": [
+        "This book appears dusty and decrepit, almost as if it’d fall apart at a simple touch. It gives off a musty odor. It, however, is sturdier than any normal book as it is protected by magic. This tome has survived for what could be thousands of years. When found, the book contains the following spells, which are wizard spells for you while you are attuned to it: {@spell primordial mark|TheAdventuresofTorinCampaignSetting}, {@spell shield}, {@spell reveal/conceal|TheAdventuresofTorinCampaignSetting}, {@spell giant's strength|TheAdventuresofTorinCampaignSetting}, {@spell glyph of warding}, and {@spell counterspell}, {@spell magic circle}, {@spell nondetection}, {@spell protection from energy}, {@spell symbol}. It functions as a spellbook for you, with spells encoded on the rings.",
+        "While you are holding the archive, you can use it as a spellcasting focus for your wizard spells.",
+        "The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:",
+        {
+          "type": "list",
+          "items": [
+            "If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the abjuration school.",
+            "When you cast a spell that forces a creature to make a saving throw, you can expend 1 charge to empower it with runic magic, giving any creature affected by the spell disadvantage on the initial save made to resist it."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "primordial mark|TheAdventuresofTorinCampaignSetting",
+        "shield",
+        "reveal/conceal|TheAdventuresofTorinCampaignSetting",
+        "giant's strength|TheAdventuresofTorinCampaignSetting",
+        "glyph of warding",
+        "counterspell",
+        "magic circle",
+        "nondetection",
+        "protection from energy",
+        "symbol"
       ]
     },
     {
@@ -1709,6 +1841,7 @@
       "reqAttune": true,
       "wondrous": true,
       "weight": 0,
+      "tattoo": true,
       "entries": [
         "Produced by a special needle, this magic tattoo is brightly colored, usually coming in bright gold.",
         {
@@ -1892,6 +2025,22 @@
       ]
     },
     {
+      "name": "Rune Forged Shield",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "type": "S",
+      "rarity": "uncommon",
+      "weight": 6,
+      "ac": 2,
+      "entries": [
+        "A magical rune was scribed on this shield, it glows with power. ",
+        "When a creature holding this shield takes cold, fire, force, lightning, or thunder damage, they can use a reaction to gain resistance to that damage until the start of their next turn, including against the triggering attack or effect.",
+        "Alternatively, you can use that reaction to take no damage against the triggering attack or effect and instead regain hit points equal to the damage you would have taken and the rune goes dull. ",
+        "Once a creature has regained hit points using this shield, neither of its properties can be used again until the next dawn."
+      ],
+      "recharge": "dawn"
+    },
+    {
       "name": "Pan Flute of Summoning",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
@@ -2001,6 +2150,208 @@
         "You can also use this to create cosmetics that can store spells. By spending materials worth 50 gp per level of the spell, you can produce enough makeup of your choice that is imbued with the spell, allowing you to cast it once without expending a spell slot. The chosen spell must be one that you know, have prepared, or have a spell scroll of and cannot require costly components to cast. Storing the spell in the makeup does not consume the spell scroll. The save DC and spell attack bonuses are equal to the spellcaster’s or the scroll the spell came from.",
         "If asked nicely, the box can also produce non-magical cosmetics, requiring no pre-existing materials or cost. It takes 10 minutes to create up to 50 gp worth of cosmetics. They disappear 24 hours after creation, or you can dispel the cosmetics as a bonus action at any time beforehand."
       ]
+    },
+    {
+      "name": "Glamorous Presence Tattoo",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "rarity": "very rare",
+      "reqAttune": true,
+      "wondrous": true,
+      "weight": 0,
+      "tattoo": true,
+      "entries": [
+        "Produced by a special needle, this magic tattoo is brightly colored, usually coming in rose gold or azure blue. A series of runes line your body. They shimmer and sparkle, giving you a glamorous appearance.",
+        {
+          "type": "entries",
+          "name": "Tattoo Attunement",
+          "entries": [
+            "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+            "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "True Beauty",
+          "entries": [
+            "You gain a +5 bonus on Charisma (Persuasion), Charisma (Deception), and Charisma (Performance) checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Charming Voice",
+          "entries": [
+            "When you speak to a creature, as a bonus action you can choose to do so in a glamorous way. When you do, that creature must make a DC 15 Wisdom saving throw or be {@condition charmed} by you for 1 hour. While {@condition charmed}, they are friendly to you and your allies until the charm ends. The charm immediately ends if you or any of your allies deals any damage to them. Once you use this property, you can’t do so again until the next dawn."
+          ]
+        }
+      ],
+      "page": null
+    },
+    {
+      "name": "The Traveler's Tattoo",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "rarity": "very rare",
+      "reqAttune": true,
+      "wondrous": true,
+      "weight": 0,
+      "tattoo": true,
+      "entries": [
+        "Produced by a special needle, this magic tattoo glows with conjuration magic, coming in shades of blue.",
+        {
+          "type": "entries",
+          "name": "Tattoo Attunement",
+          "entries": [
+            "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+            "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Step of The Traveler",
+          "entries": [
+            "This tattoo has 5 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you can expend a charge to cast one of the following spells as a bonus action: {@spell teleport}, {@spell plane shift}, {@spell word of recall}, or {@spell far step|XGE}."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "teleport",
+        "plane shift",
+        "word of recall",
+        "far step|XGE"
+      ],
+      "page": null
+    },
+    {
+      "name": "Draconic Claw Tattoo",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "rarity": "legendary",
+      "reqAttune": true,
+      "wondrous": true,
+      "weight": 0,
+      "tattoo": true,
+      "entries": [
+        "Produced by a special needle, this magic tattoo has faint wispy flames emitting off of it, taking a color resembling a particular dragon.",
+        {
+          "type": "entries",
+          "name": "Tattoo Attunement",
+          "entries": [
+            "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+            "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Roaring Transformation",
+          "entries": [
+            "You can cast the {@spell draconic transformation|FTD} spell, taking on the visage of a particular kind of dragon. The save DC for the breath weapon is 17. Once you transform in this way, you cannot do so again until the next dawn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Draconic Aspect",
+          "entries": [
+            "This tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "When you hit a creature with a weapon attack, choose acid, cold, fire, lightning, poison, radiant, necrotic, thunder, psychic, or force. You can expend a charge to deal 4d8 damage of the chosen type to the target.",
+                "When you take acid, cold, fire, lightning, poison, radiant, necrotic, thunder, psychic, or force damage, you can expend a charge to take no damage instead."
+              ]
+            }
+          ]
+        }
+      ],
+      "page": null
+    },
+    {
+      "name": "Giant's Fist Tattoo",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "rarity": "legendary",
+      "reqAttune": true,
+      "wondrous": true,
+      "weight": 0,
+      "tattoo": true,
+      "entries": [
+        "Produced by a special needle, this magic tattoo comes in gray, light blue, flaming orange, and white.",
+        {
+          "type": "entries",
+          "name": "Tattoo Attunement",
+          "entries": [
+            "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+            "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Giant Form",
+          "entries": [
+            "This tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You can expend a charge as a bonus action to enlarge yourself and maximize your strength. If you are smaller than huge, you become huge and if your Strength is lower than 25, it becomes 25. This benefit lasts for 1 minute.",
+                "When you hit with a weapon attack, you can expend a charge to deal an extra 3d8 force damage."
+              ]
+            }
+          ]
+        }
+      ],
+      "page": null
+    },
+    {
+      "name": "Storm Giant's Eye",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "rarity": "legendary",
+      "reqAttune": true,
+      "wondrous": true,
+      "entries": [
+        "This eye has a magical rune inside its pupil and sparks with electricity. When you attune to this eye, it replaces one of your existing eyes or it can be used to replace a lost eye.",
+        "The eye has 10 charges, and it regains 1d6 + 4 charges daily at dawn. As an action, you can expend a charge to cast one of the following spells: {@spell true seeing}, {@spell find the path}, {@spell legend lore}, {@spell borrowed knowledge|SCC}, {@spell detect magic}, {@spell commune with nature}.",
+        "You can cast the {@spell divination} spell without expending any charges.",
+        {
+          "name": "Lightning Strike",
+          "type": "entries",
+          "entries": [
+            "Using this eye, you can see into the fabric of magic for just a moment and call upon a powerful lightning strike. You can hurl a magical lightning bolt at a point you can see within 100 feet of you. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 12d8 lightning damage on a failed save, or half as much on a success.",
+            "You can use this property 3 times, regaining all expended uses daily at dawn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mystra's Mark of Magic",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "wondrous": true,
+      "weight": 0,
+      "tattoo": true,
+      "entries": [
+        "Produced by a special mithral needle that only Mystra herself possesses, this magic tattoo is the ultimate boon the goddess of magic could give onto a creature.",
+        {
+          "type": "entries",
+          "name": "Tattoo Attunement",
+          "entries": [
+            "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you are attuned to other magic tattoos, you can combine their attunement with your attunement to this tattoo, making them each count as one item for the purposes of attunement.",
+            "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magic Sight",
+          "entries": [
+            "While this tattoo is on your skin, you can cast {@spell detect magic} and {@spell reveal/conceal|TheAdventuresofTorinCampaignSetting} at will. The range for the effects of both of these spells is doubled."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magic Gift",
+          "entries": [
+            "This tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you can expend a charge to cast one of the following spells as an action with a spell save DC of 20 with a +12 spell attack bonus: {@spell wish} (you can only duplicate a spell with this wish, the spell is treated as if it were using a 9th level spell slot), {@spell shapechange}, {@spell foresight}, {@spell gate}, {@spell power word heal}, or {@spell astral projection}."
+          ]
+        }
+      ],
+      "page": null
     }
   ],
   "itemGroup": [
@@ -9990,6 +10341,180 @@
       ],
       "hasFluff": true,
       "hasFluffImages": true
+    },
+    {
+      "name": "Ancient Rune Mage",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "sorcerer"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "Barrier Tattoo"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "13d8 + 26",
+        "average": 84
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 19,
+      "save": {
+        "wis": "+4",
+        "cha": "+8",
+        "con": "+6"
+      },
+      "skill": {
+        "arcana": "+8",
+        "religion": "+4",
+        "nature": "+4",
+        "history": "+8"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Dwarvish",
+        "Giant"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The ancient rune mage can cast the following spells using Charisma as their spellcasting ability (spell save DC: 16, +8 to hit with spells):"
+          ],
+          "will": [
+            "{@spell blade of frost|TheAdventuresofTorinCampaignSetting}",
+            "{@spell blade ward}",
+            "{@spell booming blade|TCE}",
+            "{@spell warding mark|TheAdventuresofTorinCampaignSetting}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell borrowed knowledge|SCC}",
+              "{@spell contact ancient spirits|TheAdventuresofTorinCampaignSetting}",
+              "{@spell death ward}",
+              "{@spell giant's strength|TheAdventuresofTorinCampaignSetting}",
+              "{@spell hunter's mark}",
+              "{@spell primordial mark|TheAdventuresofTorinCampaignSetting}",
+              "{@spell primordial mark|TheAdventuresofTorinCampaignSetting}",
+              "{@spell primordial ward|XGE}",
+              "{@spell reveal/conceal|TheAdventuresofTorinCampaignSetting}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Sense Magic",
+          "entries": [
+            "The ancient rune mage senses magic within 60 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The ancient rune mage makes two attacks with its Rune Blade or Mark of Power attacks. It can replace any one of these attacks with a use of its spellcasting."
+          ]
+        },
+        {
+          "name": "Rune Blade",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 13 ({@damage 4d8}) force damage."
+          ]
+        },
+        {
+          "name": "Mark of Power",
+          "entries": [
+            "{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 60 ft., one target. {@h}22 ({@damage 4d8 + 4}) force damage."
+          ]
+        },
+        {
+          "name": "Explosive Mark {@recharge 4}",
+          "entries": [
+            "The ancient rune mage chooses one creature it can see within 120 feet of it. It and each creature within 20 feet of it must make a Dexterity saving throw {@dc 16} or take {@damage 10d10} force damage on a failed save, or half as much on a success."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Healing Mark {@recharge 5}",
+          "entries": [
+            "The ancient rune mage can touch one creature.  The target magically regains {@dice 4d8 + 4} hit points and is freed from any disease or poison."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Arcane Defense (3/Day)",
+          "entries": [
+            "When it is hit by an attack, the ancient rune mage protects themselves with an {@condition invisible} barrier of magical force. Until the end of its next turn, it gains a +5 bonus to AC, including against the triggering attack."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Before the weave there was raw magic, which was hard for any individual to control on their own. As such, wards and runes were created to limit the power of raw magic and allow its use in a controlled manner. Rune mages often tattooed their bodies with special marks that would allow them to control their magic.",
+          "Some focused their magic in weapons, allowing them to use their destructive magic more practically.",
+          "With the weave's creation, the need for such wards have been unnecessary. However, some old magic has been adapted for more modern use, by combining the weave with this ancient magic. The result, a powerful source of magic that is quite unpredictable."
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.pinimg.com/564x/87/7f/d4/877fd4df39e8f1b46e17b54400558183.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/QnD32o7.png",
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "D",
+        "DR",
+        "GI"
+      ],
+      "damageTags": [
+        "O",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "hasFluff": true
     }
   ],
   "spell": [
@@ -12678,6 +13203,475 @@
           }
         ]
       }
+    },
+    {
+      "name": "Reveal/Conceal",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 2,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a pair of glass lenses with drops of spring water"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10,
+            "upTo": true
+          },
+          "concentration": true
+        },
+        {
+          "type": "permanent",
+          "ends": [
+            "dispel"
+          ]
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "For the duration, you can reveal or conceal the presence of magic on objects within range. Choose reveal or conceal and apply the appropriate effect:",
+        {
+          "type": "entries",
+          "name": "Reveal",
+          "entries": [
+            "You can emanate an aura that reveals whether or not there is magic on every object within range. A magical mark appears on the object if it is magical. The mark that appears resembles the school of magic the object is affected by, otherwise a generic mark is created if there is no specified school of magic. The mark remains so long as it is within range of the aura.",
+            "If the object is under the conceal effects of this spell, it is suppressed while it is within range of the aura. If the object is being protected by divination magic, like being under the effects of the {@spell nondetection} spell, make an ability check using your spellcasting ability. The DC equals 10 + the level spell that was used to protect it. If a spell was not used to protect it, the DM determines an appropriate DC. On a successful check, the effect is suppressed while the object is within range of the aura.",
+            "You can also reveal a message being hidden by magic, such as from the {@spell illusory script} or the conceal effects of this spell. The message is revealed in a language you understand."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Conceal",
+          "entries": [
+            "Choose any number of objects within range, if the chosen objects are magical, they become hidden from divination magic. The objects can't be targeted by any divination magic, perceived through magical scrying sensors, and the magic on them cannot be revealed by the effects of divination magic, such as the {@spell detect magic} spell, except by the reveal effects of this spell.",
+            "You can also choose to hide text from a non-magical object. Whether this text is written, carved, or magically scribed onto the object, the text becomes {@condition invisible} or is re-written in symbols that have no real meaning.",
+            "Any of these effects remains on the objects until dispelled."
+          ]
+        },
+        "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+      ],
+      "areaTags": [
+        "MT",
+        "S"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "TheAdventuresofTorinCampaignSetting"
+          },
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Primordial Mark",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Magical runes appear on your body and weapons you are holding. Choose from acid, cold, fire, lightning, or thunder. Until the spell ends, your weapon attacks deal an extra {@dice 1d4}  damage of the chosen type on a hit."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ode of Seasons",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a musical instrument worth at least 50 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You perform a magical song that empowers a target within range (you can choose yourself). Choose from Autumn, Winter, Spring, or Summer. The target gains the following benefits depending on what you chose:",
+        {
+          "name": "Autumn",
+          "type": "entries",
+          "entries": [
+            "The target has advantage on Charisma ability checks."
+          ]
+        },
+        {
+          "name": "Winter",
+          "type": "entries",
+          "entries": [
+            "The target has resistance to cold damage."
+          ]
+        },
+        {
+          "name": "Spring",
+          "type": "entries",
+          "entries": [
+            "The target has advantage on saving throws made to resist being {@condition charmed} or {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Summer",
+          "type": "entries",
+          "entries": [
+            "The target has resistance to fire damage."
+          ]
+        }
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd or 3rd level, you can maintain your concentration on the spell for up to 1 hour. When you use a spell slot of 4th level or higher, you can maintain your concentration on the spell for up to 8 hours."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giant's Strength",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 2,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a piece of mithral or adamantine worth at least 500 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Magical runes appear on your body, empowering you with the might of giants. If your Strength score is lower than 19, it becomes 19 for the duration. If your strength score is being reduced by any effect, the reduction is still applied."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, your Strength score increases by 2 for every two slot levels above 2nd."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Contact Ancient Spirits",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 10
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a tiny statue made of gold or silver worth at least 100 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          }
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "You reach out to the great beyond to call upon the wisdom of ancient souls of long dead scholars. Three tiny sized spirits which take the forms of balls of light float around you within range of the spell. You can ask each of the spirits a single question, which they must answer truthfully. After a spirit has answered your question, it disappears. You must ask your questions before the spell ends.",
+        "Each spirit has a +10 to any Intelligence ability check, though depending on the question, a check may or may not be required (DM's choice). If a check is required, the DM determines the DC based on the rarity of the answer, the rarest resulting in a DC 30, whereas an uncommon answer results in a DC 15. The spirit takes the form of a creature who may know the answer to your question when it is asked. The creature does not have to be humanoid. A failed check results in the spirit being unable to answer the question, and disappears out of embarrassment or prideful arrogance.",
+        "The spell fails if you have cast it within the last 24 hours."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "TheAdventuresofTorinCampaignSetting"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Charity",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You touch a creature and imbue them with a small pool of your magical power, which can restore them in two different ways. If the target is a spellcaster, you can have it regain one of its expended spell slots of 2nd level or lower. If the target is not a spellcaster, or if it chooses not to regain a spell slot, it instead regains a number of hit points equal to {@dice 4d6} + your spellcasting ability modifier."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the maximum expended slot level that can be regained increases by 1 and the healing increases by {@dice 1d6} for each slot level above 3rd."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "TheAdventuresofTorinCampaignSetting"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warding Mark",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "level": 0,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1,
+            "upTo": true
+          }
+        }
+      ],
+      "entries": [
+        "You create a small rune which emits a barrier which can potentially protect you from a single attack. Until the start of your next turn, you have +1 bonus to your AC against the next attack targeted at you."
+      ],
+      "miscTags": [
+        "MAC"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          }
+        ]
+      }
     }
   ],
   "deity": [
@@ -14960,6 +15954,7 @@
       "subclassShortName": "Tempest",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
+      "header": 1,
       "entries": [
         "Born with the might of dragons, elementals, giants, or other similar stormborn creatures, you follow a monastic tradition that teaches you to harness the power of a raging storm that brews within you. When you focus your ki, you can align yourself with the storm inside you and bend them to your will, using them as an extension of your body. ",
         "Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as elder tempests and arcane sigils."
@@ -14975,7 +15970,7 @@
       "subclassShortName": "Tempest",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
-      "header": 1,
+      "header": 2,
       "entries": [
         "{@i 3rd-level Tempest Feature}",
         "You can call upon the might of a raging tempest that lies deep within your soul. Once per round on your turn, you can add bonus lightning or thunder damage (you choose when you use this feature) to your monk weapons or unarmed strikes when you hit with them. This bonus equals your martial arts die."
@@ -14991,7 +15986,7 @@
       "subclassShortName": "Tempest",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
-      "header": 1,
+      "header": 2,
       "entries": [
         "{@i 3rd-level Tempest Feature}",
         "When you use your Step of the Wind feature, you can spend an additional ki point to increase your movement speed by an additional 10 feet until the end of the turn."
@@ -15121,6 +16116,122 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "Way of the Rune Keeper",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Rune Keeper",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Some monks serve as lifelong guardians for ancient and sacred treasures, these monks tattoo themselves with runes and empower themselves with ancient magic from a long forgotten time."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Ki of The Keeper",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Rune Keeper",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Starting at 3rd level, using ancient runes tattooed on your body, you can empower your ki. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "When you use your Patient Defense feature, you gain resistance to bludgeoning, piercing, and slashing damage until the start of your next turn.",
+            "When you use your Step of The Wind feature, you can immediately escape from being grappled or restrained, no ability check or save required. In addition, you have advantage on ability checks and saving throws made to resist being grappled or restrained until the start of your next turn.",
+            "When you use your Flurry of Blows feature, you can force a creature’s attention to focus on you, marking them with ancient magic. Each time you hit a creature with your Flurry of Blows, they must make a Wisdom saving throw against your Ki Save DC. On a failed save, they have disadvantage on any attack roll that doesn't target you until the start of your next turn. During that time, each time they deal damage to a creature other than you, they take force damage equal to one roll of your martial arts die."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Guardian Runes",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Rune Keeper",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "Also at 3rd level, your vitality is protected by powerful runes tattooed on your body. Your hit point maximum increases by 3 and increases by 1 again whenever you gain a level in this class. ",
+        "In addition, you have advantage on saving throws made to resist being poisoned or diseased."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Protective Runes",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Rune Keeper",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "At 6th level, you can use your runic magic to protect your allies from harm. As a reaction when you see a creature within 60 feet of you take damage, you can expend 2 ki points to half the damage they would have taken (round down). You take the other half of the damage.",
+        "You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Disciple of The Runes",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Rune Keeper",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Also at 6th level, you can spend 2 ki points to cast {@spell arcane lock}, {@spell protection from evil and good}, or {@spell protection from poison}, without providing material components. You can cast them normally, or you can spend an additional ki point to cast them as a bonus action."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Guardian's Touch",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Rune Keeper",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "Starting at 11th level, as an action you can touch a creature and protect them against the jaws of death, which lasts for 1 hour. During this time, the next time they would be reduced to 0 hit points or die, they are instead reduced to 1 hit point. Afterwhich, the next time they would take damage they can choose to take no damage instead.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. While you have no uses available, you can spend 3 ki points to use this feature again."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Ward of The Keeper",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Rune Keeper",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "At 17th level, you can use an action to touch a creature other than yourself and bestow them with a protective ward for 1 minute. While they have this ward, they gain a bonus to their AC equal to your Wisdom modifier.",
+        "Once you’ve given this ward, you cannot do so again until you finish a long rest. While you have no uses available, you can spend 5 ki points to use this feature again."
       ]
     },
     {
@@ -21582,6 +22693,199 @@
       "header": 2
     },
     {
+      "name": "The Lore Hunter",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Lore Hunter",
+      "page": 1,
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Some rangers specialize in the pursuit of knowledge, an archeologist traversing his way through an ancient tomb, hunting for strange and rare artifacts. Rangers of this conclave often dig up old relics of the past and try to decipher them to learn the secrets they hold."
+      ]
+    },
+    {
+      "name": "Lore Hunter Magic",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Lore Hunter",
+      "page": null,
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "You learn an additional spell when you reach certain levels in this class, as shown in the Lore Hunter Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+        {
+          "type": "table",
+          "caption": "Lore Hunter Spells",
+          "colLabels": [
+            "Ranger Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell identify}"
+            ],
+            [
+              "5th",
+              "{@spell borrowed knowledge|SCC}"
+            ],
+            [
+              "9th",
+              "{@spell glyph of warding}"
+            ],
+            [
+              "13th",
+              "{@spell death ward}"
+            ],
+            [
+              "17th",
+              "{@spell legend lore}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Relic Knowledge",
+      "entries": [
+        "Starting at 3rd level, you've been researching old, forgotten magic for years and have learned how to manifest it by tattooing runes onto your body. You gain proficiency in the History and Arcana skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.",
+        "In addition, you have advantage on Intelligence (Investigation) and Wisdom (Perception) checks made to find or detect traps, or to see through illusions."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Lore Hunter",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Blast From the Past",
+      "entries": [
+        "Also at 3rd level, you can empower your attacks with magic from the runes on your body. When you hit a creature with a weapon, you can deal an extra {@dice 1d6} force damage to the target, which can take this extra damage only once per turn.",
+        "The extra damage increases to 1d8 when you reach 11th level in this class."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Lore Hunter",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Ritual Master",
+      "entries": [
+        "Starting at 7th level, you can cast a ranger spell as a ritual if that spell has the ritual tag and you have the spell prepared. In addition, when you ritual cast a spell, it takes you an extra 5 minutes instead of 10 to cast.",
+        "In addition, after you finish a long rest you can choose one of your prepared ranger spells, the chosen spell can be of a level no higher than half of your proficiency bonus (rounded down). The chosen spell is given the ritual tag until you next finish a long rest."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Lore Hunter",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 7,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Detect Dungeon",
+      "entries": [
+        "Also at 7th level, you can focus your mind to magically sense dungeons or ruins that contain valuable treasures, such as a dragon’s hoard or the temple of an ancient ruler. As an action, you detect the distance and direction to the closest dungeon or ruin within 10 miles of you. In order for a location to qualify for this feature, there must be enough treasure worth at least 1,000 gp or more.",
+        "Alternatively, you can name a creature or object associated and/or familiar with the dungeon or ruin and roll an Intelligence (Arcana) ability check. The DC equals the CR of the creature or 15 if it is an object. If the object is a magic item, the DC increases by 5 if it is a Rare or Very Rare item and by 10 if it is a Legendary item or an Artifact. If the target is protected by divination magic, you gain no information about it.",
+        "On a successful check, you learn the location of the target, as well as the distance and direction of it. You retain this knowledge for the next 24 hours, after which it is magically lost.",
+        "Once you’ve used this feature using either of the methods above, you cannot use it again until you finish a long rest."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Lore Hunter",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 7,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Ancient Wisdom",
+      "entries": [
+        "Starting at 11th level, when you make an Intelligence ability check using a skill or tool, you can add your Wisdom modifier to the roll.",
+        "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. While you have no uses available, you can spend a spell slot of any level to use this feature again."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Lore Hunter",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 11,
+      "header": 2
+    },
+    {
+      "type": "entries",
+      "name": "Relics of The Past",
+      "entries": [
+        "Starting at 15th level, you're able to manifest a powerful item using old and forgotten magic. By performing a 1-hour ritual and expending a 3rd level or higher spell slot, you can manifest one of the following items, which lasts until you use this feature again or until you die:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "name": "Relic Talisman",
+              "type": "entries",
+              "entries": [
+                "You create a magical talisman which wards the wearer with a protective aura. A creature wearing this talisman gains a +2 bonus to AC and saving throws."
+              ]
+            },
+            {
+              "name": "Relic Armament",
+              "type": "entries",
+              "entries": [
+                "You can create a non-magical martial or simple weapon, which becomes magical after it is created. The wielder has a +1 bonus to attack and damage rolls made with this magic weapon and once per turn when they hit with it, it deals an additional 1d6 force damage."
+              ]
+            },
+            {
+              "name": "Relic Ring",
+              "type": "entries",
+              "entries": [
+                "You create a ring capable of storing magic within it. As an action, you can choose one of your prepared ranger spells and store it within the ring. The spell must be no higher than 3rd level. A creature can cast the spell from the ring once, without expending a spell slot or requiring material components. The spell uses your spell save DC and spell attack modifier. You can use an action to choose a different spell to store into the ring, taking out the previous one. Once a creature casts a spell from this ring, a creature cannot do so again until you finish a long rest."
+              ]
+            },
+            {
+              "name": "Relic Aegis",
+              "type": "entries",
+              "entries": [
+                "You create a set of light or medium non-magical armor, which becomes magical after it is created. The armor gives the wearer a +1 bonus to their AC and the wearer’s movement speed is increased by 10 feet."
+              ]
+            }
+          ]
+        },
+        "Once you’ve manifested an item with this feature, you cannot do so again until you finish a long rest."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Lore Hunter",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 15,
+      "header": 2
+    },
+    {
       "name": "Circle of The Frozen Wastes",
       "source": "TheAdventuresofTorinCampaignSetting",
       "className": "Druid",
@@ -22109,6 +23413,22 @@
       ],
       "source": "TheAdventuresofTorinCampaignSetting",
       "shortName": "Tempest",
+      "className": "Monk",
+      "classSource": "PHB"
+    },
+    {
+      "name": "Way of the Rune Keeper",
+      "subclassFeatures": [
+        "Way of The Rune Keeper|Monk|PHB|Rune Keeper|TheAdventuresofTorinCampaignSetting|3",
+        "Ki of The Keeper|Monk|PHB|Rune Keeper|TheAdventuresofTorinCampaignSetting|3",
+        "Guardian Runes|Monk|PHB|Rune Keeper|TheAdventuresofTorinCampaignSetting|3",
+        "Protective Runes|Monk|PHB|Rune Keeper|TheAdventuresofTorinCampaignSetting|6",
+        "Disciple of The Runes|Monk|PHB|Rune Keeper|TheAdventuresofTorinCampaignSetting|6",
+        "Guardian's Touch|Monk|PHB|Rune Keeper|TheAdventuresofTorinCampaignSetting|11",
+        "Ward of The Keeper|Monk|PHB|Rune Keeper|TheAdventuresofTorinCampaignSetting|17"
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "shortName": "Rune Keeper",
       "className": "Monk",
       "classSource": "PHB"
     },
@@ -23286,6 +24606,54 @@
         }
       ],
       "shortName": "Winter Walker",
+      "className": "Ranger",
+      "classSource": "PHB"
+    },
+    {
+      "name": "The Lore Hunter Conclave",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "subclassFeatures": [
+        "The Lore Hunter|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|3",
+        "Lore Hunter Magic|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|3",
+        "Relic Knowledge|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|3",
+        "Blast From the Past|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|3",
+        "Ritual Master|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|7",
+        "Detect Dungeon|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|7",
+        "Ancient Wisdom|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|11",
+        "Relics of The Past|Ranger||Lore Hunter|TheAdventuresofTorinCampaignSetting|15"
+      ],
+      "subclassSpells": [
+        "identify",
+        {
+          "name": "borrowed knowledge",
+          "source": "SCC"
+        },
+        "glyph of warding",
+        "death ward",
+        "legend lore"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "identify"
+            ],
+            "5": [
+              "borrowed knowledge|SCC"
+            ],
+            "9": [
+              "glyph of warding"
+            ],
+            "13": [
+              "death ward"
+            ],
+            "17": [
+              "legend lore"
+            ]
+          }
+        }
+      ],
+      "shortName": "Lore Hunter",
       "className": "Ranger",
       "classSource": "PHB"
     },
@@ -26815,8 +28183,9 @@
       "name": "Elemental Initiate",
       "source": "TheAdventuresofTorinCampaignSetting",
       "entries": [
-        "You’ve been exposed to and have trained with the power of the elements and can use your ki to channel said elements. See “Casting Elemental Spells” from the Way of Four Elements Monk subclass for more information.",
-        "You have two ki points, of which you can only use to fuel your elemental disciplines. You regain these ki points when you finish a long rest as opposed to a short rest. Choose two elemental disciplines from the Way of Four Elements Monk subclass. When you level up you can exchange one of the disciplines chosen by this feat for another one. If a discipline has a level requirement, you must be a Way of Four Elements Monk of that level in order to choose it."
+        "You’ve been exposed to and have trained with the power of the elements and can use your ki to channel said elements. See {@i Casting Elemental Spells} from the Way of Four Elements Monk subclass for more information.",
+        "You have two ki points, of which you can only use to fuel your elemental disciplines. You regain these ki points when you finish a long rest. You learn two {@filter Elemental Disciplines|optionalfeatures|Feature Type=ED} from the Way of Four Elements Monk subclass.",
+        "When you level up you can exchange one of the disciplines chosen by this feat for another one. If a discipline has a level requirement, you must be a Way of Four Elements Monk of that level in order to choose it."
       ]
     },
     {
@@ -26831,6 +28200,23 @@
     {
       "name": "Primordial Touched",
       "source": "TheAdventuresofTorinCampaignSetting",
+      "additionalSpells": [
+        {
+          "ability": "inherit",
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "absorb elements|XGE",
+                  {
+                    "choose": "level=1|school=C;V"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
       "ability": [
         {
           "choose": {
@@ -26854,6 +28240,48 @@
       ]
     },
     {
+      "name": "Rune Marked",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "additionalSpells": [
+        {
+          "ability": "inherit",
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "warding bond",
+                  {
+                    "choose": "level=1|school=A;V"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You’ve been blessed with ancient magic that’s long been forgotten, it’s power transforms you. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You learn the {@spell warding bond} spell and one 1st-level spell of your choice. The {@filter 1st-level spell|spells|level=1|school=A;V} must be from the abjuration or evocation school of magic. You can cast each of these spells without expending a spell slot, and you can cast {@spell warding bond} without requiring material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hemomatic Adept",
       "source": "TheAdventuresofTorinCampaignSetting",
       "entries": [
@@ -26871,6 +28299,23 @@
     {
       "name": "Blood Marked",
       "source": "TheAdventuresofTorinCampaignSetting",
+      "additionalSpells": [
+        {
+          "ability": "inherit",
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "inflict wounds",
+                  {
+                    "choose": "level=1|school=E;N"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
       "ability": [
         {
           "choose": {
@@ -26896,6 +28341,40 @@
     {
       "name": "Healer's Initiate",
       "source": "TheAdventuresofTorinCampaignSetting",
+      "additionalSpells": [
+        {
+          "name": "Cure Wounds",
+          "ability": "inherit",
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "cure wounds",
+                  {
+                    "choose": "level=1|school=A"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Healing Word",
+          "ability": "inherit",
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "healing word",
+                  {
+                    "choose": "level=1|school=A"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
       "ability": [
         {
           "choose": {
@@ -26945,8 +28424,39 @@
       ]
     },
     {
+      "name": "Gift of the Giants",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've manifested some of the power of giants, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Might of The Ancients",
+              "entries": [
+                "If you would fail an ability check or saving throw using Strength, you can use a reaction to turn that failure into a success. You can use this reaction once, regaining the ability to do so again when you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ancient Knowledge",
+              "entries": [
+                "You can perform a 1-hour ritual to seek guidance from ancient spirits using the runes on your body to call them. You can ask one question to an ancient spirit. The DM randomly determines whether the spirit knows the answer to your question, the more obscure the question the more likely they won’t know the answer. If they know the answer, they must give a truthful response, which can be in the form of a cryptic answer or a clever rhyme. Once you perform this ritual, you cannot perform it again until you finish a long rest."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Brewer's Delight",
       "source": "TheAdventuresofTorinCampaignSetting",
+      "toolProficiencies": [
+        {
+          "brewer's supplies": true
+        }
+      ],
       "ability": [
         {
           "choose": {
@@ -26964,8 +28474,8 @@
         {
           "type": "list",
           "items": [
-            "You gain proficiency with {@item brewer's supplies} if you don't already have it.",
-            "With one hour of work or when you finish a short or long rest, you can brew a number of beverages equal to your proficiency bonus, provided you have ingredients worth at least 5 gp per beverage made and brewer’s supplies on hand. The healing properties of these beverages last 24 hours after being made. A creature can use a bonus action to drink one of those beverages to regain 1d4 plus your proficiency bonus hit points."
+            "You gain proficiency with {@item brewer's supplies|phb} if you don't already have it.",
+            "With one hour of work or when you finish a short or long rest, you can brew a number of beverages equal to your proficiency bonus, provided you have ingredients worth at least 5 gp per beverage made and brewer's supplies on hand. The healing properties of these beverages last 24 hours after being made. A creature can use a bonus action to drink one of those beverages to regain {@dice 1d4} plus your proficiency bonus hit points."
           ]
         }
       ]
@@ -27805,6 +29315,186 @@
           "In Torin, Morgana sends tainted devas to aasimar and slays their original devas to replace them. Their angels glow a red hue with a black light, their eyes become black with a red iris."
         ]
       }
+    }
+  ],
+  "charoption": [
+    {
+      "name": "Magical Gifts: Runic Tattoos",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "optionType": [
+        "Magical Gift"
+      ],
+      "entries": [
+        "Sometimes a player can receive new benefits and features beyond a subclass, feat, or even a magic item. These are represented by innate gifts that can be granted to player characters either at character creation by discretion of the DM, or they can be given as rewards throughout the adventure.",
+        "If you’re receiving one of these magical gifts as part of character creation, it is often advised to only give one magical gift, and to add a drawback to balance it out.",
+        "If you choose this gift on character creation, confer with your DM on an appropriate drawback or have them roll on the table below. Nothing short of the {@spell wish} spell can remove these drawbacks.",
+        {
+          "type": "table",
+          "caption": "Drawbacks on Character Creation",
+          "colLabels": [
+            "d6",
+            "Drawback"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1",
+              "You lose 1 hit point at level 1, and you lose 1 additional hit point each time you gain a level."
+            ],
+            [
+              "2",
+              "You lose proficiency in two skills, or one skill and one tool in which you add your proficiency bonus to."
+            ],
+            [
+              "3",
+              "Your walking speed is permanently reduced by 10 feet."
+            ],
+            [
+              "4",
+              "You have a permanent -2 penalty to your AC."
+            ],
+            [
+              "5",
+              "You gain vulnerability to one damage type of the DM’s choosing. This would replace any resistance or immunities you would have otherwise received by your race, feat, or class feature."
+            ],
+            [
+              "6",
+              "You sacrifice your initial abilities for a new one, decrease one of your ability scores by 2 or two ability scores by 1."
+            ]
+          ]
+        },
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Runes of Recovery",
+              "entries": [
+                "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to twice your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+                "As an action, you can expend a number of charges up to your proficiency bonus and touch a creature within your reach. Roll a number of d4s equal to the number of charges spent, that creature regains hit points equal to the roll. This healing has no effect on undead or constructs.",
+                "The dice from this gift grows as you gain levels, becoming a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Runes of Restoration",
+              "entries": [
+                "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+                "You can expend a charge and touch a creature who is poisoned or diseased and remove the poison or disease from that creature, ending the condition for that creature.",
+                "At 5th level, you can also end the blinded or deafened conditions, at 11th level you can end the petrified or paralyzed conditions, and at 17th level you can remove one stack of exhaustion or end one curse, including their attunement to a cursed item."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Runes of Elemental Power",
+              "entries": [
+                "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to twice your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+                "Choose one from cold, fire, lightning, poison, or thunder (you choose when you gain this gift). You can expend a charge when you deal damage with a weapon, unarmed strike, or a spell. Roll a d4 and add an amount of damage of the chosen type to the attack or spell.",
+                "The dice from this gift grows as you gain levels, becoming a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level"
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Runes of Elemental Defense",
+              "entries": [
+                "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+                "Choose one from cold, fire, lightning, poison, or thunder (you choose when you gain this gift). As long as you have at least one charge, you have resistance to the chosen type. As an action, you can expend a charge to touch a creature and give them resistance to the chosen type for 1 minute.",
+                "At 5th level, the duration becomes 1 hour, at 11th level it becomes 8 hours, and at 17th level it becomes 24 hours."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Runes of Protection",
+              "entries": [
+                "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+                "You receive a bonus to your AC equal to the number of charges your runes have, to a maximum bonus equal to half your proficiency bonus (rounded up). You can expend a charge from your runes as a bonus action to touch a creature and have them gain a +1 bonus to their AC for 1 minute. A creature cannot benefit from more than one of these runes at a time.",
+                "At 5th level, the bonus to AC a creature gains by expending a rune becomes +2, at 11th level the bonus becomes +3, and at 17th level the bonus becomes +4."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Runes of Alacrity",
+              "entries": [
+                "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+                "As long as you have at least one charge, your movement speed is increased by 10 ft. As an action, you can expend a charge to touch a creature and increase their movement speed by 10 ft.",
+                "At 5th level, the increase to both yours and the target’s movement speed becomes 15 ft, at 11th level the increase becomes 20 ft, and at 17th level the increase becomes 25 feet."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reward": [
+    {
+      "name": "Runes of Recovery",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "type": "Runic Tattoo",
+      "entries": [
+        "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to twice your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+        "As an action, you can expend a number of charges up to your proficiency bonus and touch a creature within your reach. Roll a number of d4s equal to the number of charges spent, that creature regains hit points equal to the roll. This healing has no effect on undead or constructs.",
+        "The dice from this gift grows as you gain levels, becoming a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level."
+      ]
+    },
+    {
+      "name": "Runes of Restoration",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "type": "Runic Tattoo",
+      "entries": [
+        "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+        "You can expend a charge and touch a creature who is poisoned or diseased and remove the poison or disease from that creature, ending the condition for that creature.",
+        "At 5th level, you can also end the blinded or deafened conditions, at 11th level you can end the petrified or paralyzed conditions, and at 17th level you can remove one stack of exhaustion or end one curse, including their attunement to a cursed item."
+      ]
+    },
+    {
+      "name": "Runes of Elemental Power",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "type": "Runic Tattoo",
+      "entries": [
+        "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to twice your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+        "Choose one from cold, fire, lightning, poison, or thunder (you choose when you gain this gift). You can expend a charge when you deal damage with a weapon, unarmed strike, or a spell. Roll a d4 and add an amount of damage of the chosen type to the attack or spell.",
+        "The dice from this gift grows as you gain levels, becoming a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level"
+      ]
+    },
+    {
+      "name": "Runes of Elemental Defense",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "type": "Runic Tattoo",
+      "entries": [
+        "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+        "Choose one from cold, fire, lightning, poison, or thunder (you choose when you gain this gift). As long as you have at least one charge, you have resistance to the chosen type. As an action, you can expend a charge to touch a creature and give them resistance to the chosen type for 1 minute.",
+        "At 5th level, the duration becomes 1 hour, at 11th level it becomes 8 hours, and at 17th level it becomes 24 hours."
+      ]
+    },
+    {
+      "name": "Runes of Protection",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "type": "Runic Tattoo",
+      "entries": [
+        "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+        "You receive a bonus to your AC equal to the number of charges your runes have, to a maximum bonus equal to half your proficiency bonus (rounded up). You can expend a charge from your runes as a bonus action to touch a creature and have them gain a +1 bonus to their AC for 1 minute. A creature cannot benefit from more than one of these runes at a time.",
+        "At 5th level, the bonus to AC a creature gains by expending a rune becomes +2, at 11th level the bonus becomes +3, and at 17th level the bonus becomes +4."
+      ]
+    },
+    {
+      "name": "Runes of Alacrity",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "type": "Runic Tattoo",
+      "entries": [
+        "These magical runes are tattooed on your body and become permanent. While you have these tattoos, you have a number of charges for its magic equal to your proficiency bonus. You regain all of its charges when you finish a long rest. During a short rest, you can spend one of your hit dice to regain one expended charge rather than restoring hit points.",
+        "As long as you have at least one charge, your movement speed is increased by 10 ft. As an action, you can expend a charge to touch a creature and increase their movement speed by 10 ft.",
+        "At 5th level, the increase to both yours and the target’s movement speed becomes 15 ft, at 11th level the increase becomes 20 ft, and at 17th level the increase becomes 25 feet."
+      ]
     }
   ]
 }
