@@ -2746,12 +2746,12 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://5e.tools/img/bestiary/EGW/Husk Zombie.jpg"
+              "url": "https://static.wixstatic.com/media/c04a56_6c6bcc9539aa4db4b42e0015af65b84e~mv2.jpg"
             }
           }
         ]
       },
-      "tokenUrl": "https://5e.tools/img/EGW/Husk Zombie.png?v=1.133.2",
+      "tokenUrl": "https://i.imgur.com/X3RKGd1.png",
       "traitTags": [
         "Undead Fortitude"
       ],
@@ -4856,7 +4856,7 @@
         {
           "name": "Life Drinker",
           "entries": [
-            "When the blood mage uses its mulitattack and hits a creature using its Life Drain, it gains 5 temporary hit points for each one that hit."
+            "When the blood mage uses its mulitattack and hits a creature using its Blood Lash, it gains 5 temporary hit points for each one that hit."
           ]
         },
         {
@@ -5331,845 +5331,6 @@
       "conditionInflict": [
         "frightened",
         "incapacitated"
-      ]
-    },
-    {
-      "name": "Erikku Blade",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "size": "M",
-      "type": {
-        "type": "fey",
-        "tags": [
-          "wood elf",
-          "monk",
-          "druid"
-        ]
-      },
-      "alignment": [
-        "L",
-        "G"
-      ],
-      "ac": [
-        {
-          "ac": 27,
-          "from": [
-            "unarmored defense"
-          ]
-        }
-      ],
-      "hp": {
-        "formula": "29d8 + 116",
-        "average": 246
-      },
-      "speed": {
-        "walk": 120,
-        "fly": {
-          "number": 150,
-          "condition": "(hover)"
-        },
-        "canHover": true
-      },
-      "str": 12,
-      "dex": 24,
-      "con": 18,
-      "int": 15,
-      "wis": 22,
-      "cha": 16,
-      "save": {
-        "str": "+8",
-        "dex": "+14",
-        "con": "+11",
-        "int": "+9",
-        "wis": "+13",
-        "cha": "+10"
-      },
-      "skill": {
-        "acrobatics": "+14",
-        "perception": "+20",
-        "stealth": "+14",
-        "athletics": "+8",
-        "insight": "+13",
-        "nature": "+9",
-        "arcana": "+9",
-        "medicine": "+13"
-      },
-      "senses": [
-        "darkvision 120 ft."
-      ],
-      "passive": 30,
-      "resist": [
-        {
-          "resist": [
-            "bludgeoning",
-            "piercing",
-            "slashing"
-          ],
-          "note": "from non-magical attacks"
-        }
-      ],
-      "immune": [
-        "lightning",
-        "poison",
-        "thunder"
-      ],
-      "conditionImmune": [
-        "charmed",
-        "frightened",
-        "paralyzed",
-        "petrified",
-        "poisoned"
-      ],
-      "languages": [
-        "Common",
-        "Draconic",
-        "Elvish",
-        "Primordial",
-        "Sylvan"
-      ],
-      "cr": "24",
-      "spellcasting": [
-        {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Erikku can cast the following spells using Wisdom as his spellcasting ability, without requiring material components (save {@dc 21}, +13 to hit):"
-          ],
-          "will": [
-            "{@spell druidcraft}",
-            "{@spell guidance}",
-            "{@spell speak with animals}",
-            "{@spell speak with plants}",
-            "{@spell thunderclap|XGE}"
-          ],
-          "daily": {
-            "4e": [
-              "{@spell call lightning}",
-              "{@spell create or destroy water}",
-              "{@spell goodberry}",
-              "{@spell mass healing word}",
-              "{@spell thunder step|XGE}"
-            ],
-            "3e": [
-              "{@spell cyclone|TheAdventuresofTorinCampaignSetting}",
-              "{@spell mass cure wounds}",
-              "{@spell summon fey|TCE}"
-            ],
-            "2e": [
-              "{@spell dream}",
-              "{@spell druid grove|XGE}",
-              "{@spell reincarnate}"
-            ],
-            "1e": [
-              "{@spell astral projection}",
-              "{@spell foresight}",
-              "{@spell resurrection}"
-            ]
-          },
-          "ability": "wis",
-          "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Freedom of Movement",
-          "entries": [
-            "Erikku Blade ignores difficult terrain, and magical effects can't reduce its speed or cause him to be {@condition restrained}. he can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
-          ]
-        },
-        {
-          "name": "Fey Ancestry",
-          "entries": [
-            "Magic can't put Erikku Blade to sleep."
-          ]
-        },
-        {
-          "name": "Legendary Resistance (3/Day)",
-          "entries": [
-            "If Erikku fails a saving throw, he can choose to succeed instead."
-          ]
-        },
-        {
-          "name": "Special Equipment",
-          "entries": [
-            "Erikku has and is attuned to (if applicable) to the following items: {@item The Blade of The Neverending Storm, Ragnarok|TheAdventuresofTorinCampaignSetting}, {@item Wraps of The Stormbringer|TheAdventuresofTorinCampaignSetting}, {@item Bracers of Defense|DMG}"
-          ]
-        },
-        {
-          "name": "Perfect Body",
-          "entries": [
-            "Erikku is immune to disease and cannot be aged magically."
-          ]
-        },
-        {
-          "name": "Stunning Strike {@recharge 4}",
-          "entries": [
-            "When he hits with an attack, Erikku can make that attack a stunning strike. The target makes a Constitution saving throw {@dc 21} or is {@condition stunned} until the end of Erikku's next turn."
-          ]
-        },
-        {
-          "name": "A Hero's Last Stand (Legendary Trait, Recharges after a Short or Long Rest)",
-          "entries": [
-            "When Erikku would be reduced to 0 hit points, his current hit point total instead resets to 200, all of his actions and bonus actions recharges, and he regains any expended uses of Legendary Resistance and Spellcasting. Additionally, he gains access to his Legendary Actions options below for the next hour. After he uses this trait, for the next hour he emits a violent aura of lightning. His AC increases by 3 and each of his attacks deals an additional {@damage 2d10} lightning damage. Finally, for this hour he ignores immunity to lightning damage once on each of his turns."
-          ]
-        },
-        {
-          "name": "Storm Adept",
-          "entries": [
-            "Erikku ignores a creature's resistance to lightning and thunder damage."
-          ]
-        },
-        {
-          "name": "Magic Resistance",
-          "entries": [
-            "Erikku has advantage on saving throws against spells and other magical effects."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Erikku makes four attacks, two with Ragnarok and two Unarmed Strikes or Tempest Strikes. He can replace any one of these attacks with a use of his Spellcasting."
-          ]
-        },
-        {
-          "name": "Wrath of the Lightning Fist (Only when Legendary Trait is active, {@recharge}",
-          "entries": [
-            "Erikku makes eight attacks, four with Ragnarok, and four using either his Unarmed Strikes or his Tempest Strikes."
-          ]
-        },
-        {
-          "name": "Ragnarok",
-          "entries": [
-            "{@atk mw} {@hit 17} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 10}) bludgeoning damage, plus 9 ({@damage 2d8}) lightning damage."
-          ]
-        },
-        {
-          "name": "Tempest Strike",
-          "entries": [
-            "{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d10 + 8}) lightning damage"
-          ]
-        },
-        {
-          "name": "Unarmed Strike",
-          "entries": [
-            "{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 8}) bludgeoning damage."
-          ]
-        },
-        {
-          "name": "Bolt of Lightning {@recharge 5}",
-          "entries": [
-            "Erikku creates a bolt of lightning and releases it outward in a 100-foot-long 5-foot-wide line originating from him. Each creature in its area must make a Dexterity saving throw {@dc 21} or take {@damage 10d6} lightning damage on a failed save, or half as much on a success."
-          ]
-        },
-        {
-          "name": "Nature's Remedy {@recharge}",
-          "entries": [
-            "Erikku draws upon nature's power to cure a creature's wounds. He either heals himself or a creature within 5 feet of him {@dice 6d8 + 6} hit points. This healing also cures any poisons or diseases."
-          ]
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Patient Defense {@recharge 4}",
-          "entries": [
-            "Erikku can take the dodge action as a bonus action."
-          ]
-        },
-        {
-          "name": "Step of The Tempest {@recharge 5}",
-          "entries": [
-            "Erikku can take the dash action as a bonus action, and his movement speed increases by 10 feet until the end of the current turn."
-          ]
-        },
-        {
-          "name": "Flurry of Blows",
-          "entries": [
-            "Erikku can make two attacks using his Unarmed Strikes as a bonus action. He can replace any one of those attacks with a Tempest Strike."
-          ]
-        },
-        {
-          "name": "Nature's Mending {@recharge 4}",
-          "entries": [
-            "Erikku chooses a creature he can see within 60 feet of him. That target regains {@dice 6d4 + 6} hit points."
-          ]
-        }
-      ],
-      "reaction": [
-        {
-          "name": "Reactive Strike",
-          "entries": [
-            "Erikku can use his reaction to make an attack using an Unarmed Strike or a Tempest Strike when he is targeted for an attack by a creature within reach."
-          ]
-        },
-        {
-          "name": "Reactive Dodge",
-          "entries": [
-            "Erikku can avoid incoming attacks, adding a +6 bonus to his AC for the triggering attack."
-          ]
-        }
-      ],
-      "legendaryHeader": [
-        "If Erikku's Legendary Trait has activated, for the next hour he can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. He regains spent legendary actions at the start of his turn."
-      ],
-      "legendary": [
-        {
-          "name": "Flurry of The Tempest",
-          "entries": [
-            "Erikku makes two attacks using his Tempest Strikes."
-          ]
-        },
-        {
-          "name": "Step of The Wind",
-          "entries": [
-            "Erikku moves up to his fly speed. This movement does not provoke opportunity attacks."
-          ]
-        },
-        {
-          "name": "Summon Lightning (Costs 2 Actions)",
-          "entries": [
-            "Erikku can instantly recharge his Bolt of Lightning or an expended use of his {@spell Call Lightning} spell."
-          ]
-        },
-        {
-          "name": "Fury of The Lightning Fist (Costs 3 Actions)",
-          "entries": [
-            "Erikku makes six attacks using his Tempest Strikes."
-          ]
-        }
-      ],
-      "fluff": {
-        "entries": [
-          "{@i \"Life is precious, no matter where it comes from. Those who have it should always have a chance to make the most of it. Those who choose to use that life to take  from others doesn't deserve that right.\"}",
-          "Erikku Blade is a well-renowned hero among the world of Torrin, legends are told of his achievements from defeating the powerful Acererak, who was once known as The Forgotten One, founding the once fallen but now prospering town of New Edam, protecting the world from the threats of the creatures from the great beyond, and much more. ",
-          "He even aided in defeating the old lesser God of War, Selvetarm, who was revered as the Champion deity of Lolth. This allowed the ascension of the new God of War, Kord. Erikku was originally meant to be the one to ascend, however he passed on the opportunity to Kord as he saw him more fitting for the role than he.",
-          "Erikku is a kind, gentle soul who seeks to protect those who cannot protect themselves. However, his gentleness is tempered with the will to do what is necessary in order to protect those around him. He will not hold back against someone who uses awesome power to destroy others. He is always willing to give a second chance, however. Usually allowing most of his foes an opportunity of redemption. Most do not take this opportunity, but those that have became powerful allies to Erikku and are now some of many protectors of Torrin.",
-          "Erikku had a rough childhood, going most of it orphaned. His sister, Memori, is all he had left of his family for the longest time. And even then they were separated for a good amount of their lives. However, Erikku's deeds would go to have the queen of the elves, Lia Elvenwood, to be in his debt. Using her last wish, she returned Erikku's parents to him, who now live with him in his retirement in the Town of New Edam.",
-          "Erikku bares the unique ability to control and manipulate lightning. He is said to inherit this ability passed on from his family lineage called \"The Lightning Fist\". He honed this ability using his training as a monk in a monastery and furthered delved into magic by attuning to his mother's roots as a druid. He is an excellent combination between being a trained warrior, to being a compassionate healer. A perfect combination of his parents."
-        ],
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "external",
-              "url": "https://i.imgur.com/rfRJBRI.png"
-            }
-          }
-        ]
-      },
-      "tokenUrl": "https://i.imgur.com/RPxjv1t.png",
-      "traitTags": [
-        "Fey Ancestry",
-        "Legendary Resistances",
-        "Magic Resistance"
-      ],
-      "senseTags": [
-        "SD"
-      ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "languageTags": [
-        "C",
-        "DR",
-        "E",
-        "P",
-        "S"
-      ],
-      "damageTags": [
-        "B",
-        "L"
-      ],
-      "miscTags": [
-        "MW"
-      ]
-    },
-    {
-      "name": "Divine Blade",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "size": "M",
-      "type": {
-        "type": "fey",
-        "tags": [
-          "wood elf",
-          "fate weaver",
-          "monk"
-        ]
-      },
-      "alignment": [
-        "N",
-        "G"
-      ],
-      "ac": [
-        {
-          "ac": 20,
-          "from": [
-            "unarmored defense"
-          ]
-        }
-      ],
-      "hp": {
-        "formula": "26d8 + 52",
-        "average": 169
-      },
-      "speed": {
-        "walk": 60,
-        "fly": {
-          "number": 90,
-          "condition": "(120 ft. when Awaken The Phoenix is used)"
-        },
-        "canHover": false
-      },
-      "str": 12,
-      "dex": 22,
-      "con": 15,
-      "int": 16,
-      "wis": 18,
-      "cha": 24,
-      "save": {
-        "con": "+9",
-        "cha": "+14",
-        "dex": "+13",
-        "wis": "+11"
-      },
-      "skill": {
-        "athletics": "+8",
-        "acrobatics": "+13",
-        "history": "+10",
-        "insight": "+11",
-        "intimidation": "+14",
-        "arcana": "+17",
-        "investigation": "+10",
-        "medicine": "+11",
-        "perception": "+11",
-        "religion": "+10"
-      },
-      "senses": [
-        "darkvision 120 ft."
-      ],
-      "passive": 21,
-      "resist": [
-        "cold"
-      ],
-      "immune": [
-        "fire"
-      ],
-      "languages": [
-        "Celestial",
-        "Common",
-        "Draconic",
-        "Elvish",
-        "Primordial",
-        "Sylvan"
-      ],
-      "cr": "21",
-      "spellcasting": [
-        {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Divine has an innate connection to the weave, allowing her to cast the following spells through it using Charisma as her spellcasting ability and without requiring material components (spell save {@dc 22}, +15 to hit with spells):"
-          ],
-          "will": [
-            "{@spell burning touch|TheAdventuresofTorinCampaignSetting}",
-            "{@spell control flames|XGE}",
-            "{@spell guidance}",
-            "{@spell prestidigitation}",
-            "{@spell thaumaturgy}"
-          ],
-          "daily": {
-            "5e": [
-              "{@spell augury}",
-              "{@spell bless}",
-              "{@spell borrowed knowledge|SCC}",
-              "{@spell fire shield}",
-              "{@spell sending}"
-            ],
-            "4e": [
-              "{@spell ashardalon's stride|FTD}",
-              "{@spell fizban's platinum shield|FTD}",
-              "{@spell immolation|XGE}",
-              "{@spell sunbeam}",
-              "{@spell teleport}"
-            ],
-            "3e": [
-              "{@spell divine's fiery chains|TheAdventuresofTorinCampaignSetting}",
-              "{@spell fire storm}",
-              "{@spell mass cure wounds}",
-              "{@spell mass healing word}",
-              "{@spell sunburst}"
-            ],
-            "2e": [
-              "{@spell circle of power}",
-              "{@spell divine's flames of life or death|TheAdventuresofTorinCampaignSetting}",
-              "{@spell fire storm}",
-              "{@spell holy aura}",
-              "{@spell Tasha's otherworldly guise|TCE}"
-            ],
-            "1e": [
-              "{@spell flames of avernus|TheAdventuresofTorinCampaignSetting}",
-              "{@spell mass heal}"
-            ]
-          },
-          "ability": "cha",
-          "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Sense Magic",
-          "entries": [
-            "Divine senses magic within 120 feet of her at will. This trait otherwise works like the {@spell detect magic} spell but isn't itself magical."
-          ]
-        },
-        {
-          "name": "Fey Ancestry",
-          "entries": [
-            "Divine has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
-          ]
-        },
-        {
-          "name": "Magic Resistance",
-          "entries": [
-            "Divine has advantage on saving throws against spells and other magical effects."
-          ]
-        },
-        {
-          "name": "Legendary Resistance (2/Day)",
-          "entries": [
-            "If Divine fails a saving throw, she can choose to succeed instead."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Divine makes three attacks using her Fiery Strikes. She can also replace any one of her attacks with a use of her spellcasting."
-          ]
-        },
-        {
-          "name": "Fiery Strike",
-          "entries": [
-            "{@atk ms,rs} {@hit 15} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 4d6 + 7}) fire damage damage."
-          ]
-        },
-        {
-          "name": "Fiery Explosion {@recharge 4}",
-          "entries": [
-            "Divine creates a magical explosion of fire centered on a point he can see within 120 feet of her. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 22} Dexterity saving throw, taking 47 ({@damage 14d6}) fire damage on a failed save, or half as much damage on a successful one."
-          ]
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Awaken The Phoenix (3/Day)",
-          "entries": [
-            "Divine harnesses her innate power and unleashes it in a violent fiery aura. For the next minute, she gains the following benefits:",
-            "{@b Fiery Aura.} Every other creature that starts its turn within 5 feet of Divine takes {@damage 2d6} fire damage.",
-            "{@b Potent Flames.} Whenever Divine deals fire damage, she adds an amount equal to her Charisma modifier.",
-            "{@b Fiery Form.} Divine can occupy a creature's space and end her turn there. Moving through creatures does not count as difficult terrain for her, and when she is hit by a melee attack she deals {@damage 2d6} fire damage to attacker."
-          ]
-        },
-        {
-          "name": "Patient Defense {@recharge 4}",
-          "entries": [
-            "Divine can take the dodge action as a bonus action."
-          ]
-        },
-        {
-          "name": "Quickened Spell {@recharge}",
-          "entries": [
-            "Divine can expend a use of one of her spells with a casting time of one action using a bonus action instead."
-          ]
-        },
-        {
-          "name": "Healing Flames {@recharge 5}",
-          "entries": [
-            "Divine chooses one creature she can see within 30 feet of her. That creature regains {@dice 7d4 + 7} hit points."
-          ]
-        }
-      ],
-      "reaction": [
-        {
-          "name": "Flames of Rebirth (3/Day)",
-          "entries": [
-            "If Divine would be reduced to 0 hit points, she can use her reaction to instead have her hit points reset to 50 and flames explode outward in a 30-foot-radius. Every creature she chooses in that area must make a {@dc 22} Dexterity saving throw, taking {@damage 6d6} fire damage on a failed save, or half as much on a success. If she used her Awaken The Phoenix ability is active, it immediately ends and the damage dealt is instead {@dice 12d6}."
-          ]
-        }
-      ],
-      "fluff": {
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "external",
-              "url": "https://i.imgur.com/CD7Bk0T.png"
-            }
-          }
-        ]
-      },
-      "tokenUrl": "https://i.imgur.com/xEtSQ3I.png",
-      "traitTags": [
-        "Fey Ancestry",
-        "Legendary Resistances",
-        "Magic Resistance"
-      ],
-      "senseTags": [
-        "SD"
-      ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "languageTags": [
-        "C",
-        "CE",
-        "DR",
-        "E",
-        "P",
-        "S"
-      ],
-      "damageTags": [
-        "F"
-      ],
-      "miscTags": [
-        "AOE"
-      ]
-    },
-    {
-      "name": "Memori Blade",
-      "shortName": "Memori",
-      "isNamedCreature": true,
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "size": "M",
-      "type": {
-        "type": "fey",
-        "tags": [
-          "wood elf",
-          "bard",
-          "fighter"
-        ]
-      },
-      "alignment": [
-        "L",
-        "G"
-      ],
-      "ac": [
-        {
-          "ac": 20,
-          "from": [
-            "{@item adventurer's studded leather armor of glamour|theadventuresoftorincampaignsetting}"
-          ]
-        }
-      ],
-      "hp": {
-        "formula": "25d8 + 50",
-        "average": 162
-      },
-      "speed": {
-        "walk": 65
-      },
-      "str": 12,
-      "dex": 22,
-      "con": 14,
-      "int": 18,
-      "wis": 16,
-      "cha": 24,
-      "save": {
-        "dex": "+12",
-        "cha": "+13",
-        "wis": "+9",
-        "con": "+8"
-      },
-      "skill": {
-        "acrobatics": "+18",
-        "performance": "+19",
-        "persuasion": "+19",
-        "perception": "+15",
-        "history": "+16",
-        "insight": "+9",
-        "arcana": "+10",
-        "athletics": "+7",
-        "nature": "+10",
-        "medicine": "+9",
-        "investigation": "+10",
-        "stealth": "+12"
-      },
-      "senses": [
-        "darkvision 120 ft."
-      ],
-      "passive": 25,
-      "resist": [
-        "fire",
-        "lightning"
-      ],
-      "languages": [
-        "Common",
-        "Draconic",
-        "Elvish",
-        "Primordial",
-        "Sylvan; and she understands all languages."
-      ],
-      "cr": "20",
-      "spellcasting": [
-        {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Memori can cast the following spells without requiring material components using Charisma as her spellcasting ability (spell save DC: 21, +13 to hit with spells):"
-          ],
-          "will": [
-            "{@spell mending}",
-            "{@spell message}",
-            "{@spell prestidigitation}",
-            "{@spell vicious mockery}"
-          ],
-          "daily": {
-            "4e": [
-              "{@spell dimension door}",
-              "{@spell hunter's mark}",
-              "{@spell misty step}",
-              "{@spell sending}"
-            ],
-            "3e": [
-              "{@spell lightning arrow}",
-              "{@spell Rary's telepathic bond}",
-              "{@spell silvery barbs|SCC}",
-              "{@spell teleportation circle}"
-            ],
-            "2e": [
-              "{@spell ballad of storms|TheAdventuresofTorinCampaignSetting}",
-              "{@spell dispel magic}",
-              "{@spell mass cure wounds}"
-            ],
-            "1e": [
-              "{@spell draconic transformation|FTD}",
-              "{@spell summon celestial|TCE}",
-              "{@spell teleport}"
-            ]
-          },
-          "ability": "cha",
-          "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Action Surge (1/Rest)",
-          "entries": [
-            "Memori can take one additional action this turn."
-          ]
-        },
-        {
-          "name": "Fey Ancestry",
-          "entries": [
-            "Memori has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
-          ]
-        },
-        {
-          "name": "Silver Tongue",
-          "entries": [
-            "When Memori rolls for a Persuasion or Deception check, she can treat the roll on the {@dice d20} as a 10."
-          ]
-        },
-        {
-          "name": "Jack of All Trades",
-          "entries": [
-            "Memori adds half her proficiency bonus to ability checks she does not already add her proficiency bonus to."
-          ]
-        },
-        {
-          "name": "Legendary Resistance (2/Day)",
-          "entries": [
-            "If Memori fails a saving throw, she can choose to succeed instead."
-          ]
-        },
-        {
-          "name": "Battle Master (6/Rest)",
-          "entries": [
-            "Memori is an expert in combat, thus she can use the following battle maneuvers from the Battle Master Fighter: {@optfeature Commanding Presence|TCE}, {@optfeature Rally}, {@optfeature Menacing Attack}, {@optfeature Tactical Assessment|TCE}, {@optfeature Bait and Switch|TCE}."
-          ]
-        },
-        {
-          "name": "Special Equipment",
-          "entries": [
-            "Memori has and is attuned to (if applicable) to the following items: {@item Adventurer's Studded Leather Armor of Glamour|theadventuresoftorincampaignsetting}, {@item Fannigan's Fancy Folding Kitchen|TheAdventuresofTorinCampaignSetting}, {@item Bracers of Archery|DMG}, {@item Memori's Memento|TheAdventuresofTorinCampaignSetting}, {@item +2 Rapier|DMG}, {@item Cape of the Mountebank|DMG}, {@item Instrument of the Bards, Cli Lyre|DMG}, {@item Quiver of Ehlonna|DMG}, {@item Bottle of Boundless Coffee|SCC}, {@item Emerald Pen|FTD}."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Memori makes three attacks using her Memori's Memento, her +2 Rapier, or any combination of the two. She can replace any one of her attacks with a use of her spellcasting."
-          ]
-        },
-        {
-          "name": "Memori's Memento",
-          "entries": [
-            "{@atk rw} {@hit 17} to hit, range 150/600 ft., one target. {@h}15 ({@damage 1d8 + 11}) piercing damage, plus 9 ({@damage 2d8}) psychic damage."
-          ]
-        },
-        {
-          "name": "+2 Rapier",
-          "entries": [
-            "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage."
-          ]
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Bardic Inspiration (7/Rest)",
-          "entries": [
-            "Memori can choose one creature she can see within 60 feet of her. For the next minute, that creature can add a bonus {@dice 1d10} to their next attack roll, ability check, or saving throw. The bardic inspiration is only lost if the check was successful."
-          ]
-        },
-        {
-          "name": "Second Wind (1/Rest)",
-          "entries": [
-            "Memori regains 15 hit points."
-          ]
-        },
-        {
-          "name": "Unsettling Words",
-          "entries": [
-            "Memori can expend one use of her Bardic Inspirations and choose a creature within 60 feet of her that she can see. She rolls the die and subtracts that number from the creature's next saving throw until the start of her next turn."
-          ]
-        }
-      ],
-      "fluff": {
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "external",
-              "url": "https://i.imgur.com/kPfK9wT.png"
-            }
-          }
-        ]
-      },
-      "tokenUrl": "https://i.imgur.com/OT0dvg9.png",
-      "traitTags": [
-        "Fey Ancestry",
-        "Legendary Resistances"
-      ],
-      "senseTags": [
-        "SD"
-      ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "languageTags": [
-        "C",
-        "DR",
-        "E",
-        "P",
-        "S",
-        "XX"
-      ],
-      "damageTags": [
-        "P",
-        "Y"
-      ],
-      "miscTags": [
-        "MW",
-        "RW"
       ]
     },
     {
@@ -8009,363 +7170,6 @@
       ]
     },
     {
-      "name": "Extraplanar Ally (Monstrosity)",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "size": "L",
-      "type": "monstrosity",
-      "alignment": null,
-      "ac": [
-        {
-          "special": "12 + PB"
-        }
-      ],
-      "hp": {
-        "special": "PB + 5 times your sorcerer level"
-      },
-      "speed": {
-        "walk": 40
-      },
-      "str": 19,
-      "dex": 15,
-      "con": 17,
-      "int": 9,
-      "wis": 13,
-      "cha": 11,
-      "senses": [
-        "darkvision 60 ft."
-      ],
-      "passive": 11,
-      "conditionImmune": [],
-      "languages": [
-        "understands the languages you speak"
-      ],
-      "trait": [
-        {
-          "name": "Constructed Body",
-          "entries": [
-            "Due to its magically constructed nature, the body of the Extraplanar Ally is not the same as the summoned creature. As a result, it cannot gain the benefits of healing and it may not retain the ordinary attributes, resistances, or special senses a creature of the chosen variety might have. When the Extraplanar Ally is reduced to 0 hit points, the body bursts into harmless flames and is destroyed.",
-            "The constructed body can take any appearance, so long as it is similar enough to the chosen creature type. Typically, you'd want to make a body that best befits the chosen creature and to accommodate for its typical attacks and abilities.",
-            "The Extraplanar Ally uses your proficiency bonus in place of its own."
-          ]
-        },
-        {
-          "name": "Specialized Expertise",
-          "entries": [
-            "Choose two skill proficiencies for the Extraplanar Ally to have. The Extraplanar Ally adds double your proficiency bonus to any ability checks using the chosen skills."
-          ]
-        },
-        {
-          "name": "Specialized Attributes",
-          "entries": [
-            "For its attack and damage rolls, it uses either Strength or Dexterity. The ability scores chosen for the Extraplanar Ally are interchangeable, but are defaultly set to the recommended areas. You choose two saving throws, the Extraplanar Ally adds your proficiency bonus to those chosen saves."
-          ]
-        },
-        {
-          "name": "Spellbound",
-          "entries": [
-            "Whenever you cast a spell, you can cast that spell originating from your Extraplanar Ally's position instead. If the spell has a range of self, it affects your Extraplanar Ally instead of yourself if you cast it from your Extraplanar Ally's position."
-          ]
-        },
-        {
-          "name": "Variable Trait",
-          "entries": [
-            "Choose one of the following benefits for the Extraplanar Ally to have (at level 10 you pick two benefits), if a variable trait allows the ally to cast a spell, it uses your spell attack modifier and spell save DC:",
-            "{@b Winged} - it gains a flying speed of 40 ft.",
-            "{@b Aquatic} - it gains a swimming speed of 40 ft. and can breathe in both air and water.",
-            "{@b Spiked} - creatures that make melee weapon attacks against it while within 5ft of it takes piercing damage equal to PB.",
-            "{@b Siege Monster} - it always scores a critical hit on objects.",
-            "{@b Tough Body} - it has an additional number of maximum hit points equal to two times your PB.",
-            "{@b Durable Body} - it gains a bonus to its AC equal to its constitution modifier.",
-            "{@b Tail Attack} - it gains a tail attack, which it can use as a bonus action to make an additional attack when it takes the attack action."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Natural Weapon",
-          "entries": [
-            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
-          ]
-        },
-        {
-          "name": "Tail (See Variable Trait)",
-          "entries": [
-            "{@atk mw} {@hit PB + 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
-          ]
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Tail (See Variable Trait)",
-          "entries": [
-            "After the extraplanar ally takes the attack action, it can immediately use its bonus action to make a tail attack."
-          ]
-        }
-      ],
-      "senseTags": [
-        "D"
-      ],
-      "damageTags": [
-        "B",
-        "P"
-      ],
-      "miscTags": [
-        "MW"
-      ]
-    },
-    {
-      "name": "Fuyu Sosara",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "size": "M",
-      "type": {
-        "type": "humanoid",
-        "tags": [
-          "tiefling",
-          "sorcerer"
-        ]
-      },
-      "alignment": [
-        "N",
-        "G"
-      ],
-      "ac": [
-        {
-          "ac": 17,
-          "from": [
-            "{@item frozen studded leather armor|theadventuresoftorincampaignsetting}"
-          ]
-        }
-      ],
-      "hp": {
-        "formula": "20d8 + 120",
-        "average": 210
-      },
-      "speed": {
-        "walk": {
-          "number": 30,
-          "condition": "(40 ft. when on ice or snow)"
-        }
-      },
-      "str": 10,
-      "dex": 20,
-      "con": 22,
-      "int": 18,
-      "wis": 14,
-      "cha": 24,
-      "save": {
-        "con": "+12",
-        "cha": "+13",
-        "dex": "+11",
-        "wis": "+8"
-      },
-      "skill": {
-        "perception": "+8",
-        "arcana": "+16",
-        "history": "+10",
-        "insight": "+8",
-        "medicine": "+14",
-        "persuasion": "+13",
-        "performance": "+13",
-        "acrobatics": "+11"
-      },
-      "senses": [
-        "darkvision 60 ft."
-      ],
-      "passive": 18,
-      "resist": [
-        "fire"
-      ],
-      "immune": [
-        "cold"
-      ],
-      "languages": [
-        "Common",
-        "Draconic",
-        "Elvish",
-        "Giant",
-        "Infernal",
-        "Primordial"
-      ],
-      "cr": "17",
-      "spellcasting": [
-        {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Fuyu can cast the following spells using Charisma as his spellcasting ability (spell save {@dc 21}, +13 to hit):"
-          ],
-          "will": [
-            "{@spell blade of frost|TheAdventuresofTorinCampaignSetting}",
-            "{@spell mage hand}",
-            "{@spell mending}",
-            "{@spell message}",
-            "{@spell minor illusion}",
-            "{@spell prestidigitation}",
-            "{@spell shape water|XGE}"
-          ],
-          "daily": {
-            "3e": [
-              "{@spell hex}",
-              "{@spell ice knife|XGE}",
-              "{@spell protection from evil and good}",
-              "{@spell rime's binding ice|FTD}",
-              "{@spell teleportation circle}"
-            ],
-            "2e": [
-              "{@spell borrowed knowledge|SCC}",
-              "{@spell death ward}",
-              "{@spell magic circle}",
-              "{@spell steel wind strike|XGE}",
-              "{@spell teleport}"
-            ],
-            "1e": [
-              "{@spell circle of power}",
-              "{@spell fizban's platinum shield|FTD}",
-              "{@spell mass cure wounds}",
-              "{@spell Otiluke's freezing sphere}",
-              "{@spell Tenser's transformation|XGE}"
-            ]
-          },
-          "ability": "cha",
-          "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Ice Walk",
-          "entries": [
-            "Fuyu can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost him extra movement."
-          ]
-        },
-        {
-          "name": "Blade Runes",
-          "entries": [
-            "Fuyu uses the following runes in combat, he can have three activated at the same time: Ise Rune, Haug Rune, Dragon's Might, Uvar. Each rune lasts for 1 minute, or 1 hour if it's effecting Fuyu.",
-            "{@i {@b Ise.}} The target's AC is increased by 7 and they can change the damage type of their weapons to cold.",
-            "{@i {@b Haug.}} The target has resistance to non-magical bludgeoning, piercing, and slashing damage.",
-            "{@i {@b Dragon's Might.}} The target has advantage on strength ability checks, saving throws, and strength based attack rolls. In addition, their speed increases by 10 feet.",
-            "{@i {@b Uvar.}} The target can use their reaction to roll a {@dice d6} when the would be hit by an attack, reducing the attack roll by an amount equal to the number rolled and they can change the damage type of their weapons to lightning."
-          ]
-        },
-        {
-          "name": "Magic Resistance",
-          "entries": [
-            "Fuyu has advantage on saving throws against spells and other magical effects."
-          ]
-        },
-        {
-          "name": "Special Equipment",
-          "entries": [
-            "Fuyu wears a set of {@item frozen studded leather armor|theadventuresoftorincampaignsetting}, a {@item mantle of snow|theadventuresoftorincampaignsetting}, and is attuned to an exalted {@item winter's oath|theadventuresoftorincampaignsetting}, and has three spell scrolls of teleport, a {@item +1 shortsword|DMG}, a {@item bag of holding|DMG}, and always has at least one {@item white chromatic rose|WBtW}."
-          ]
-        },
-        {
-          "name": "Freezing Aura",
-          "entries": [
-            "Every creature that Fuyu chooses when they start their turn within 10 feet of him makes a Constitution saving throw ({@dc 17}). On a failed save, they take {@damage 1d6} cold damage and gains one stack of {@condition exhaustion}, provided they don't already have one from this aura.",
-            "When a creature hits Fuyu with a melee attack while within 10 feet of him, they take {@damage 1d6} cold damage."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Fuyu makes three attacks using his Freezing Ray, Winter's Oath, Frozen Rune Blade, or any combination of the three. He can replace one of his attacks with a use of his spellcasting."
-          ]
-        },
-        {
-          "name": "Winter's Oath",
-          "entries": [
-            "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d6 + 8}) piercing damage, plus 10 ({@damage 3d6}) cold damage."
-          ]
-        },
-        {
-          "name": "Freezing Ray",
-          "entries": [
-            "{@atk ms,rs} {@hit 13} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 4d6 + 7}) on hit and their speed is reduced by 10 feet until the start of Fuyu's next turn."
-          ]
-        },
-        {
-          "name": "Frozen Rune Blade",
-          "entries": [
-            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, plus 3 ({@damage 1d6}) cold damage and if the target is a creature, their movement is reduced by 10 feet until the start of Fuyu's next turn. He can only incur this penalty once per round per creature."
-          ]
-        },
-        {
-          "name": "Cold Embrace {@recharge 4}",
-          "entries": [
-            "Fuyu invokes an icy cold power from his Winter's Oath. He can choose one creature he can see within 60 feet of him. Unless they have resistance or immunity to cold damage, their body temperature immediately drops to -30 degrees fahrenheit. They make a {@dc 17} constitution saving throw, taking 31 ({@damage 10d6}) cold damage on a failed save or half as much on a success and suffer from the effects of extreme cold, gaining a level of {@condition exhaustion}. Their body temperature remains this way for 1 minute, or until Fuyu ends it early as a bonus action."
-          ]
-        },
-        {
-          "name": "Breath of Winter {@recharge 5}",
-          "entries": [
-            "Fuyu releases out a 60-foot cone of cold energy. Each creature in the are must make a {@dc 21} Constitution saving throw, taking 49 ({@damage 12d8}) cold damage on a failed save or half as much on a success. Creatures who fail the save by 5 or more have their movement speed reduced to 0 until the start of his next turn."
-          ]
-        },
-        {
-          "name": "Rune of Recovery {@recharge}",
-          "entries": [
-            "Fuyu can touch a creature and magically heal them. The target regains 28 ({@dice 4d10 + 7}) hit points and is cured of any disease, poison, blindness, or deafness."
-          ]
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Activate Rune",
-          "entries": [
-            "As a bonus action Fuyu can activate one of his Blade Runes, giving its power to himself or a creature he can see within 60 feet of him."
-          ]
-        },
-        {
-          "name": "Swift Strike",
-          "entries": [
-            "Fuyu makes an attack using his Frozen Rune Blade."
-          ]
-        },
-        {
-          "name": "Giant's Might (6/Day)",
-          "entries": [
-            "As a bonus action, Fuyu becomes a huge sized creature, provided he has the room to enlarge himself. Regardless if he grows or not, Fuyu adds a bonus {@dice 1d6} one of his melee attacks and has advantage on all Strength checks and saving throws."
-          ]
-        }
-      ],
-      "reaction": [
-        {
-          "name": "Ice Shield (3/Day)",
-          "entries": [
-            "Fuyu creates a magical arcane barrier made of ice. He adds a +5 bonus to his AC until the start of his next turn, including against the triggering attack."
-          ]
-        }
-      ],
-      "traitTags": [
-        "Magic Resistance"
-      ],
-      "senseTags": [
-        "D"
-      ],
-      "actionTags": [
-        "Breath Weapon",
-        "Multiattack"
-      ],
-      "languageTags": [
-        "C",
-        "DR",
-        "E",
-        "GI",
-        "I",
-        "P"
-      ],
-      "damageTags": [
-        "C",
-        "P"
-      ],
-      "miscTags": [
-        "AOE",
-        "MW"
-      ]
-    },
-    {
       "name": "Hraesvelgr, The Wise of The Sky",
       "shortName": "greatwyrm",
       "group": [
@@ -8602,13 +7406,13 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://i.imgur.com/uXcGBFK.jpg"
+              "url": "https://i.imgur.com/upbETmN.jpg"
             }
           }
         ]
       },
       "dragonCastingColor": "blue",
-      "tokenUrl": "https://i.imgur.com/FPrgxRj.png",
+      "tokenUrl": "https://i.imgur.com/Ni5ixHr.png",
       "traitTags": [
         "Flyby",
         "Legendary Resistances",
@@ -10515,6 +9319,362 @@
         "MW"
       ],
       "hasFluff": true
+    },
+    {
+      "name": "Leon Alexandr, King of Ishland",
+      "shortName": "Leon",
+      "isNpc": true,
+      "isNamedCreature": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human",
+          "rogue"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "{@item +2 studded leather armor}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "14d8 + 42",
+        "average": 105
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 10,
+      "dex": 20,
+      "con": 16,
+      "int": 18,
+      "wis": 12,
+      "cha": 14,
+      "save": {
+        "int": "+8",
+        "dex": "+9",
+        "wis": "+5"
+      },
+      "skill": {
+        "acrobatics": "+13",
+        "history": "+8",
+        "insight": "+5",
+        "investigation": "+12",
+        "intimidation": "+6",
+        "perception": "+9",
+        "sleight of hand": "+9",
+        "stealth": "+13",
+        "athletics": "+4"
+      },
+      "passive": 19,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Dwarvish",
+        "Elvish"
+      ],
+      "cr": "10",
+      "trait": [
+        {
+          "name": "Assassinate",
+          "entries": [
+            "During his first turn, Leon has advantage on attack rolls against any creature that hasn't taken a turn. Any hit Leon scores against a surprised creature is a critical hit."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries": [
+            "If Leon is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Leon instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+          ]
+        },
+        {
+          "name": "Brave",
+          "entries": [
+            "Leon has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Ambusher",
+          "entries": [
+            "Leon has advantage on attack rolls against any creature he has surprised."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "Once per turn, Leon can deal an extra 20 ({@dice 6d6}) damage to a creature he hits with a weapon attack if that creature is within 5 feet of an ally of Leon that isn't {@condition incapacitated}, or if he has advantage to hit against them."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Leon makes two attacks using his Leon's Eagle firearm, which is a revolver."
+          ]
+        },
+        {
+          "name": "Leon's Eagle",
+          "entries": [
+            "{@atk rw} {@hit 11} to hit, range 40/120 ft., one target. {@h}16 ({@damage 2d8 + 7}) piercing damage, plus 18 ({@damage 4d8}) force damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "This is MY GUN!",
+          "entries": [
+            "If Leon is holding a firearm, he can gain advantage on attack rolls until the end of the turn."
+          ]
+        },
+        {
+          "name": "Where is MY GUN?!",
+          "entries": [
+            "If Leon is not holding a firearm, he can gain advantage on Wisdom (Perception) checks."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Uncanny Dodge",
+          "entries": [
+            "Leon nimbly avoids an incoming attack. When he is hit by an attack, he can halve the damage he takes from that attack."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/LQYKCN0.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/DpKuDT9.png",
+      "traitTags": [
+        "Ambusher",
+        "Sneak Attack"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "D",
+        "DR",
+        "E"
+      ],
+      "damageTags": [
+        "O",
+        "P"
+      ],
+      "miscTags": [
+        "RW"
+      ]
+    },
+    {
+      "name": "Lia Elvenwood, Queen of The Elves",
+      "isNpc": true,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "size": "M",
+      "type": {
+        "type": "fey",
+        "tags": [
+          "archfey",
+          "druid"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "formula": "1d8 + 2",
+        "average": 6
+      },
+      "speed": {
+        "walk": 35
+      },
+      "str": 10,
+      "dex": 18,
+      "con": 14,
+      "int": 16,
+      "wis": 22,
+      "cha": 16,
+      "save": {
+        "int": "+8",
+        "wis": "+11",
+        "cha": "+8"
+      },
+      "skill": {
+        "animal handling": "+11",
+        "arcana": "+8",
+        "history": "+13",
+        "insight": "+11",
+        "nature": "+13",
+        "medicine": "+11",
+        "perception": "+11"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 21,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Druidic",
+        "Dwarvish",
+        "Elvish",
+        "Sylvan"
+      ],
+      "cr": "13",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Lia can cast the following spells using Wisdom as her spellcasting ability, without requiring material components (spell save {@dc 19}, +11 to hit with spells):"
+          ],
+          "will": [
+            "{@spell druidcraft}",
+            "{@spell guidance}",
+            "{@spell mending}",
+            "{@spell shape water|XGE}",
+            "{@spell transport via plants}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell aura of vitality}",
+              "{@spell commune with nature}",
+              "{@spell contact ancient spirits|TheAdventuresofTorinCampaignSetting}",
+              "{@spell druid grove|XGE}",
+              "{@spell gaia's transformation|TheAdventuresofTorinCampaignSetting} (Guardian)",
+              "{@spell greater restoration}",
+              "{@spell heal}",
+              "{@spell lesser restoration}",
+              "{@spell mass cure wounds}",
+              "{@spell mass heal}",
+              "{@spell mass healing word}",
+              "{@spell power word heal}",
+              "{@spell regenerate}",
+              "{@spell reincarnate}",
+              "{@spell revivify}",
+              "{@spell summon fey|TCE} (7th level)",
+              "{@spell ward of vitality|TheAdventuresofTorinCampaignSetting}",
+              "{@spell wither and bloom|SCC} (5th level)"
+            ]
+          },
+          "ability": "wis",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Speak with Beasts and Plants",
+          "entries": [
+            "Lia can communicate with beasts and plants as if they shared a language."
+          ]
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "Lia has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+          ]
+        },
+        {
+          "name": "Fey Rebirth",
+          "entries": [
+            "If Lia dies in her castle, she revives with all her hit points {@dice 1d4} days later in a safe location in her castle."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If Lia fails a saving throw, she can choose to succeed instead."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Lia makes two attacks using her nature's lash and she casts a spell using her spellcasting."
+          ]
+        },
+        {
+          "name": "Nature's Lash",
+          "entries": [
+            "{@atk ms} {@hit 11} to hit, reach 30 ft., one target. {@h}16 ({@damage 3d6 + 6}) piercing damage and the target is {@condition restrained} (escape {@dc 19})."
+          ]
+        },
+        {
+          "name": "Nature's Hand {@recharge 5}",
+          "entries": [
+            "Lia touches a creature and they magically regain {@dice 5d8 + 6} hit points."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Nature's Word {@recharge 4}",
+          "entries": [
+            "Lia chooses up to three creatures within 60 feet of her. Each creature magically regains {@dice 4d4 + 6} hit points."
+          ]
+        }
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://i.imgur.com/SyU342V.jpg"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://i.imgur.com/GznKxRV.png",
+      "traitTags": [
+        "Fey Ancestry",
+        "Legendary Resistances"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "D",
+        "DR",
+        "DU",
+        "E",
+        "S"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "RCH"
+      ],
+      "conditionInflict": [
+        "restrained"
+      ]
     }
   ],
   "spell": [
@@ -29313,6 +28473,937 @@
         "entries": [
           "Aasimar children exposed to blood magic at an early age can fall from grace, becoming corrupted by the tainted dark arts. Their fall however is in a different vein than the typical fallen aasimar. The magic tainting them is fueled with temptation, rage, and addicting power. Once exposed to it, it’s hard for the aasimar to not accept this newfound power. Aasimar age and mature at the same rate as humans, but they typically live for about 160 years.",
           "In Torin, Morgana sends tainted devas to aasimar and slays their original devas to replace them. Their angels glow a red hue with a black light, their eyes become black with a red iris."
+        ]
+      }
+    },
+    {
+      "name": "Avernus Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "radiant"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "searing smite"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "branding smite"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "thaumaturgy#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Radiant Resistance",
+          "entries": [
+            "Due to your ties to a fallen archangel, you have resistance to radiant damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Avernus",
+          "entries": [
+            "You know the {@spell thaumaturgy} cantrip. Starting at 3rd level, you can cast the {@spell searing smite} spell with this trait. Starting at 5th level, you can also cast the {@spell branding smite} spell with this trait. Once you cast {@spell searing smite} or {@spell branding smite} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hellfire Warfare",
+          "entries": [
+            "You are proficient with one weapon or tool, and with one set of light or medium armor of your choice."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Avernus is a hellscape with constant war and battle, with the ruler of it being a former archangel who fell during battle. As such, these tieflings are always inherently ready for battle.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dis Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "fire"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "dissonant whispers#2"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "detect thoughts"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "thaumaturgy#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hellish Resistance",
+          "entries": [
+            "Due to your experience with red hot irons, you have resistance to fire damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Dis",
+          "entries": [
+            "You know the {@spell thaumaturgy} cantrip. Starting at 3rd level, you can cast the {@spell dissonant whispers} as a 2nd-level spell with this trait. Starting at 5th level, you can also cast the {@spell detect thoughts} spell with this trait. Once you cast {@spell dissonant whispers} or {@spell detect thoughts} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Dis, the second layer of hell, is widely known for its lies, deceit, and secrets. Tieflings from here are able to keep and gain these secrets.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Minauros Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "acid"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "tasha's caustic brew|tce#2"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "melf's acid arrow"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "acid splash#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hellish Resistance",
+          "entries": [
+            "Due to your experience with acidic rain and hellish swamps, you have resistance to acid damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Dis",
+          "entries": [
+            "You know the {@spell acid splash} cantrip. Starting at 3rd level, you can cast the {@spell tasha's caustic brew|tce} as a 2nd-level spell with this trait. Starting at 5th level, you can also cast the {@spell melf's acid arrow} spell with this trait. Once you cast {@spell tasha's caustic brew|tce} or {@spell melf's acid arrow} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Minaruros, the third layer of hell, is an endless swamp rich with acid rain and decay. Wealth is highly desired in the city of Minauros despite its difficulty to keep.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phlegethos Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "fire"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "command"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "message#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hellish Resistance",
+          "entries": [
+            "Due to your experience with volcanoes and fire, you have resistance to fire damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Phlegethos",
+          "entries": [
+            "You know the {@spell message} cantrip. Starting at 3rd level, you can cast the {@spell command} spell with this trait. Once you cast {@spell command} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast that spell using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Infernal Contract",
+          "entries": [
+            "Starting at 5th level, with your experience with the law of Phlegethos, you can establish a contract between you and another creature within 5 feet of you as an action. Choose one of the following benefits, both you and the target gain the benefit while you are within 30 feet of each other for the next hour:",
+            {
+              "type": "list",
+              "items": [
+                {
+                  "name": "Devil's Blessing",
+                  "type": "entries",
+                  "entries": [
+                    "You gain a +1 bonus to AC."
+                  ]
+                },
+                {
+                  "name": "Devil's Hand",
+                  "type": "entries",
+                  "entries": [
+                    "When you make an ability check, you can roll a {@dice d4} and add it to the check."
+                  ]
+                },
+                {
+                  "name": "Devil's Eye",
+                  "type": "entries",
+                  "entries": [
+                    "You can see normally in darkness, both magical and nonmagical, to a distance of 30 feet."
+                  ]
+                }
+              ]
+            },
+            "A creature can only benefit from one of these magical benefits at a time, and you can give these magical gifts a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. Should a creature receive a different magical benefit while they already have one, the previous one vanishes. A remove curse spell can end the effect early."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Phlegethos the fourth layer of hell, center of law in the nine layers of hell, with two rulers overlooking the plane. One of few places where justice prevails, and tieflings of this layer are well adept with law.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stygia Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "cold"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "armor of Agathys#2"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "darkness"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "ray of frost#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hellish Resistance",
+          "entries": [
+            "Due to your experience with frozen terrain and icy oceans, you have resistance to cold damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Stygia",
+          "entries": [
+            "You know the {@spell ray of frost} cantrip. Starting at 3rd level, you can cast the {@spell armor of Agathys} as a 2nd-level spell with this trait. Starting at 5th level, you can also cast the {@spell darkness} spell with this trait. Once you cast {@spell armor of Agathys} or {@spell darkness} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Stygia Swimmer",
+          "entries": [
+            "Due to the vast amount of oceans and rivers in Stygia, you have learned how to traverse watery terrains. You have a swimming speed equal to your walking speed."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Stygia, the fifth layer of hell, is riddled with icy terrain and rivers. Beneath the ice, is a boundless ocean. Tieflings from here adapted to the colder climate and the large amount of water bodies made them well adapted to swimming.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Malbolge Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "psychic"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "disguise self"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "invisibility"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "minor illussion#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Mental Resistance",
+          "entries": [
+            "You have a focused mind from constant torture. You have resistance to psychic damage and advantage on saving throws made to avoid or end the {@condition frightened} condition."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Malbolge",
+          "entries": [
+            "You know the {@spell minor illusion} cantrip. Starting at 3rd level, you can cast the {@spell disguise self} spell with this trait. Starting at 5th level, you can also cast the {@spell invisibility} spell with this trait. Once you cast {@spell disguise self} or {@spell invisibility} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Malbolge, the sixth layer of hell, is a prison for damned souls and devils alike. Tieflings from here are either wardens to the prison, or prisoners themselves. Most are prisoners.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maladomini Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "poison"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "ray of sickness"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "thaumaturgy#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Poison Resilience",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Maladomini",
+          "entries": [
+            "You know the {@spell thaumaturgy} cantrip. Starting at 3rd level, you can cast the {@spell ray of sickness} spell with this trait. Once you cast {@spell ray of sickness} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast that spell using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Poisoned Personality",
+          "entries": [
+            "Due to your constant exposure to poisons, your blood can be used to create minor poisons. Starting at 5th level, you can spend a hit die as a bonus action to coat a weapon you touch and imbue it with your hellish magic. For the next minute, each time you hit with that weapon, it deals additional poison damage equal to an amount of d4s equal to your proficiency bonus.",
+            "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Maladomini, the seventh layer of hell, is an endless decaying hellscape flooded with ruined cities and ruined civilizations, plagued with criminal devils running about. Tieflings from here have to be shifty in order to survive.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cania Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "cold"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "burning hands"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "flame blade"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "produce flame#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hellish Resistance",
+          "entries": [
+            "Due to your experience with frozen wastelands and constant blizzards, you have resistance to cold damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Cania",
+          "entries": [
+            "You know the {@spell produce flame} cantrip. Starting at 3rd level, you can cast the {@spell burning hands} spell with this trait. Starting at 5th level, you can also cast the {@spell flame blade} spell with this trait. Once you cast {@spell burning hands} or {@spell flame blade} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast that spell using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Cold Flames",
+          "entries": [
+            "When you cast a spell that deals fire damage, you can change that damage type to cold. You can use this feature freely with your Legacy of Cania spells, otherwise you can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Cania, the eighth layer of hell and like Stygia above it, is a bitterly cold realm of glaciers and howling ice storms. Lots of experiments are made here, from making new magic items to spells and weaponry for the infernal.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nessus Tiefling",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 57,
+        "heightMod": "2d8",
+        "baseWeight": 110,
+        "weightMod": "2d4"
+      },
+      "darkvision": 60,
+      "resist": [
+        "fire"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "hellish rebuke#2"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "darkness"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "thaumaturgy#c"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it, and you age at the same rate as it.",
+            "If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hellish Resistance",
+          "entries": [
+            "Your infernal heritage grants you resistance to fire damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Legacy of Nessus",
+          "entries": [
+            "You know the {@spell thaumaturgy} cantrip. Starting at 3rd level, you can cast the {@spell hellish rebuke} as a 2nd-level spell with this trait. Starting at 5th level, you can also cast the {@spell darkness} spell with this trait. Once you cast {@spell hellish rebuke} or {@spell darkness} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Nessus, the ninth layer of hell, devoid of most anything. The Lord of the Nine lies in this realm, where he oversees the other eight layers of hell. Most tieflings from this layer are what you’d expect from a typical tiefling.",
+          {
+            "type": "entries",
+            "name": "Hellborne Heritage",
+            "entries": [
+              "Tieflings in Torin are born through curses, usually passed on from deals made with devils, which can carry on to the family lineage. However, some tieflings naturally spawn in the nine layers of hell, where they can somehow find their own path to the material plane.",
+              "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
+            ]
+          }
         ]
       }
     }
