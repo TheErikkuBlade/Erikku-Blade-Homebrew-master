@@ -27740,6 +27740,76 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Fiendish Touched",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "additionalSpells": [
+        {
+          "ability": "inherit",
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "suggestion",
+                  {
+                    "choose": "level=1|school=E;I"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You've been blessed with demonic or infernal powers as you’ve been permanently changed by fiendish magic. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You learn the {@spell suggestion} spell and one 1st-level spell of your choice. The {@filter 1st-level spell|spells|level=1|school=E;I} must be from the enchantment or illusion school of magic. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infernal Resilience",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "tiefling"
+            }
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "con": 1
+        }
+      ],
+      "entries": [
+        "Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "Choose two from cold, fire, and poison. You have resistance to the chosen damage types.",
+            "Damage that you take from the chosen resistances, and the one provided by your race, is reduced by 3."
+          ]
+        }
+      ]
     }
   ],
   "variantrule": [
