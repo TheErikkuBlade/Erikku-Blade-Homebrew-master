@@ -229,6 +229,96 @@
       }
     }
   ],
+  "baseitem": [
+    {
+      "name": "Odachi",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "type": "M",
+      "rarity": "none",
+      "weight": 7,
+      "value": 3000,
+      "weaponCategory": "martial",
+      "property": [
+        "R",
+        "H",
+        "2H",
+        "V"
+      ],
+      "dmg1": "2d6",
+      "dmgType": "S",
+      "sword": true,
+      "weapon": true
+    },
+    {
+      "name": "Nodachi",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "type": "M",
+      "rarity": "none",
+      "weight": 6,
+      "value": 2500,
+      "weaponCategory": "martial",
+      "property": [
+        "H",
+        "2H",
+        "V",
+        "R"
+      ],
+      "dmg1": "1d10",
+      "dmgType": "S",
+      "sword": true,
+      "weapon": true
+    },
+    {
+      "name": "Katana",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "type": "M",
+      "rarity": "none",
+      "weight": 3,
+      "value": 2000,
+      "weaponCategory": "martial",
+      "property": [
+        "V"
+      ],
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "dmg2": "1d10",
+      "sword": true,
+      "weapon": true
+    },
+    {
+      "name": "Long Tachi",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "type": "M",
+      "rarity": "none",
+      "weight": 2,
+      "value": 1500,
+      "weaponCategory": "simple",
+      "property": [
+        "F"
+      ],
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "sword": true,
+      "weapon": true
+    },
+    {
+      "name": "Tachi",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "type": "M",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1000,
+      "weaponCategory": "simple",
+      "property": [
+        "F",
+        "L"
+      ],
+      "dmg1": "1d6",
+      "dmgType": "S",
+      "sword": true,
+      "weapon": true
+    }
+  ],
   "item": [
     {
       "name": "Goblet of Refreshment",
@@ -7842,161 +7932,6 @@
       ],
       "miscTags": [
         "AOE",
-        "MW"
-      ]
-    },
-    {
-      "name": "Ragnarok, The Legendary Hero",
-      "shortName": "Ragnarok",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "size": "M",
-      "type": {
-        "type": "fey",
-        "tags": [
-          "elf",
-          "sorcerer"
-        ]
-      },
-      "alignment": [
-        "N",
-        "G"
-      ],
-      "ac": [
-        {
-          "ac": 22,
-          "from": [
-            "{@item robe of the archmagi}"
-          ]
-        }
-      ],
-      "hp": {
-        "formula": "35d8 + 175",
-        "average": 332
-      },
-      "speed": {
-        "walk": 30
-      },
-      "str": 14,
-      "dex": 24,
-      "con": 20,
-      "int": 24,
-      "wis": 18,
-      "cha": 26,
-      "save": {
-        "dex": "+15",
-        "cha": "+16",
-        "con": "+13",
-        "wis": "+12"
-      },
-      "skill": {
-        "arcana": "+23",
-        "history": "+15",
-        "perception": "+20",
-        "insight": "+12",
-        "investigation": "+15",
-        "persuasion": "+16",
-        "nature": "+15",
-        "religion": "+15"
-      },
-      "passive": 30,
-      "resist": [
-        {
-          "special": "damage from spells"
-        }
-      ],
-      "immune": [
-        "lightning",
-        "thunder"
-      ],
-      "cr": "25",
-      "spellcasting": [
-        {
-          "name": "Spellcasting",
-          "headerEntries": [
-            "Ragnarok can cast the following spells using Charisma as his spellcasting ability (spell save {@dc 26}, +18 to hit with spells):"
-          ],
-          "will": [
-            "{@spell detect magic}",
-            "{@spell mage hand}",
-            "{@spell prestidigitation}",
-            "{@spell Rary's telepathic bond}",
-            "{@spell sending}",
-            "{@spell telekinesis}",
-            "{@spell teleportation circle}"
-          ],
-          "daily": {
-            "3e": [
-              "{@spell borrowed knowledge|SCC}",
-              "{@spell chain lightning}",
-              "{@spell control water}",
-              "{@spell control winds|XGE}",
-              "{@spell haste}",
-              "{@spell skill empowerment|XGE}",
-              "{@spell summon draconic spirit|UA2021DraconicOptions}",
-              "{@spell summon elemental|TCE}",
-              "{@spell teleport}",
-              "{@spell Tenser's transformation|XGE}"
-            ],
-            "1e": [
-              "{@spell blade of disaster|TCE}",
-              "{@spell circle of power}",
-              "{@spell control weather}",
-              "{@spell imprisonment}",
-              "{@spell shapechange}",
-              "{@spell true polymorph}",
-              "{@spell wish}"
-            ]
-          },
-          "ability": "cha",
-          "type": "spellcasting"
-        }
-      ],
-      "trait": [
-        {
-          "name": "Fey Ancestry",
-          "entries": [
-            "Ragnarok has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
-          ]
-        },
-        {
-          "name": "Lightning Absorption",
-          "entries": [
-            "Whenever Ragnarok is subjected to lightning damage, he takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Ragnarok makes three attacks using the Blade of The Neverending Storm and he casts a spell using his spellcasting."
-          ]
-        },
-        {
-          "name": "Blade of The Neverending Storm",
-          "entries": [
-            "{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) bludgeoning damage, plus 16 ({@damage 3d10}) lightning damage."
-          ]
-        },
-        {
-          "name": "Lightning of Disaster {@recharge 4}",
-          "entries": [
-            "Ragnarok calls forth the inert power of Fimbulwinter, calling forth lightning stronger than Thor's. He chooses up to five creatures within 120 feet of him. Each of them are struck by powerful bolts of lightning. They must make a Dexterity saving throw {@dc 28}. On a failed save, they take ({@damage 15d10}) lightning damage on a failed save, or half as much on a success."
-          ]
-        }
-      ],
-      "traitTags": [
-        "Damage Absorption",
-        "Fey Ancestry"
-      ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "damageTags": [
-        "B",
-        "L"
-      ],
-      "miscTags": [
         "MW"
       ]
     },
@@ -27861,18 +27796,55 @@
   "race": [
     {
       "name": "Futhrakian",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "page": null,
-      "lineage": "VRGR",
-      "size": [
-        "M"
-      ],
       "age": {
         "mature": 20,
         "max": 250
       },
+      "size": [
+        "M"
+      ],
+      "lineage": "VRGR",
+      "page": null,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "additionalSpells": [
+        {
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              {
+                "choose": "level=0"
+              }
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  {
+                    "choose": "level=1|class=Wizard;Artificer"
+                  }
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  {
+                    "choose": "level=2|class=Wizard;Artificer"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
       "speed": 30,
-      "darkvision": 60,
       "entries": [
         {
           "type": "entries",
@@ -28141,7 +28113,7 @@
         "mature": 20,
         "max": 160
       },
-      "darkvision": 120,
+      "darkvision": 60,
       "resist": [
         "fire"
       ],
@@ -28247,7 +28219,7 @@
         "mature": 20,
         "max": 160
       },
-      "darkvision": 120,
+      "darkvision": 60,
       "resist": [
         "poison"
       ],
@@ -28353,7 +28325,7 @@
         "mature": 20,
         "max": 160
       },
-      "darkvision": 120,
+      "darkvision": 60,
       "resist": [
         "psychic"
       ],
@@ -28460,7 +28432,7 @@
         "mature": 20,
         "max": 160
       },
-      "darkvision": 120,
+      "darkvision": 60,
       "resist": [
         "necrotic"
       ],
@@ -29474,6 +29446,612 @@
               "Shortly after someone becomes a tiefling, or perhaps even through the stages of transformation, they experience dreams of a life in one of the nine layers of hell. To them, these dreams feel more real than their own currently existing lives."
             ]
           }
+        ]
+      }
+    },
+    {
+      "name": "Elf",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "additionalSpells": [
+        {
+          "name": "Sun or Moon",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              {
+                "choose": "level=0|class=Wizard"
+              }
+            ]
+          },
+          "innate": {
+            "1": {
+              "daily": {
+                "1": [
+                  {
+                    "choose": "level=1|class=Wizard"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Wood",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              {
+                "choose": "level=0|class=Druid"
+              }
+            ]
+          }
+        }
+      ],
+      "heightAndWeight": {
+        "baseHeight": 54,
+        "heightMod": "2d10",
+        "baseWeight": 90,
+        "weightMod": "1d4"
+      },
+      "age": {
+        "mature": 100,
+        "max": 750
+      },
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "perception": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "You have proficiency in the Perception skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Trance",
+          "entries": [
+            "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+            "Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Elvish Legacy",
+          "entries": [
+            "Connections to times of old, there were elves who lived in the wilds and those who lived in lavish cities. Choose one of the following legacy options for your Elf.",
+            {
+              "type": "list",
+              "items": [
+                {
+                  "name": "Moon or Sun",
+                  "entries": [
+                    "You know one additional language, plus one {@filter cantrip|spells|level=0|class=Wizard} and one {@filter 1st-level spell|spells|level=1|class=Wizard} of your choice from the wizard spell list. You can cast the chosen 1st-level spell once with this trait, regaining the ability to cast it again when you finish a long rest. You can also cast that spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting for that cantrip and spell (choose when you select this race)."
+                  ],
+                  "type": "entries"
+                },
+                {
+                  "name": "Wood",
+                  "entries": [
+                    "Your base walking speed increases to 35 feet and you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, you know one cantrip from the druid spell list. Intelligence, Wisdom, or Charisma is your spellcasting for that cantrip (choose when you select this race)."
+                  ],
+                  "type": "entries"
+                }
+              ]
+            }
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "In the world of Torin, elves play a massive role in the day to day society, and populates the majority of the world. Elves in Torin appreciate the ethics of hard work, and in their standard society in the Arda Kingdom, seeds for produce are often found extremely cheap while livestock is placed at extremely high prices, higher than normal civilizations. Although, food in taverns and places of fine dining are priced reasonably.",
+          "In Torin, every elf is magical in some aspect, with most having the ability to cast a cantrip or a spell.",
+          "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+        ]
+      }
+    },
+    {
+      "name": "Dark Elf",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "additionalSpells": [
+        {
+          "name": "Lolth",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "poison spray#c"
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "web"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Eilistraee",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "dancing lights#c"
+            ]
+          },
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "moonbeam"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "heightAndWeight": {
+        "baseHeight": 54,
+        "heightMod": "2d10",
+        "baseWeight": 90,
+        "weightMod": "1d4"
+      },
+      "age": {
+        "mature": 100,
+        "max": 750
+      },
+      "darkvision": 120,
+      "skillProficiencies": [
+        {
+          "perception": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Creature Type",
+          "entries": [
+            "You are a Humanoid. You are also considered a drow or elf for any prerequisite or effect that requires you to be a drow or elf."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "You have proficiency in the Perception skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Trance",
+          "entries": [
+            "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+            "Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Dark Elf Legacy",
+          "entries": [
+            "Connections to times of old, dark elves have two deities of which affect their origins. Choose one of the following legacy options for your Dark Elf.",
+            {
+              "type": "list",
+              "items": [
+                {
+                  "name": "Lolth",
+                  "entries": [
+                    "You know the {@spell poison spray} cantrip and can cast the {@spell web} spell once with this trait when you reach 3rd level, regaining the ability to cast it again when you finish a long rest. You can also cast that spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting for that cantrip and spell (choose when you select this race)."
+                  ],
+                  "type": "entries"
+                },
+                {
+                  "name": "Eilistrae",
+                  "entries": [
+                    "You know the {@spell dancing lights} cantrip and can cast the {@spell moonbeam} spell once with this trait when you reach 3rd level, regaining the ability to cast it again when you finish a long rest. You can also cast that spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting for that cantrip and spell (choose when you select this race)."
+                  ],
+                  "type": "entries"
+                }
+              ]
+            }
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "In the world of Torin, elves play a massive role in the day to day society, and populates the majority of the world. Elves in Torin appreciate the ethics of hard work, and in their standard society in the Arda Kingdom, seeds for produce are often found extremely cheap while livestock is placed at extremely high prices, higher than normal civilizations. Although, food in taverns and places of fine dining are priced reasonably.",
+          "In Torin, the Underdark is filled with monstrous creatures and criminals. Dark elves were seduced into worship by Lolth, which led to their betrayal of their brethren in Eastern Ishland. When they tried to overthrow the Queen, they fled to the Underdark. Some were given a new path by Eilistraee and have left behind their darker times in the underdark.",
+          "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+        ]
+      }
+    },
+    {
+      "name": "Avariel Elf",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "M"
+      ],
+      "speed": {
+        "walk": 30,
+        "fly": true
+      },
+      "lineage": "VRGR",
+      "resist": [
+        "lightning"
+      ],
+      "heightAndWeight": {
+        "baseHeight": 54,
+        "heightMod": "2d10",
+        "baseWeight": 90,
+        "weightMod": "1d4"
+      },
+      "age": {
+        "mature": 100,
+        "max": 750
+      },
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "perception": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Creature Type",
+          "entries": [
+            "You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "You have proficiency in the Perception skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Trance",
+          "entries": [
+            "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+            "Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Lightning Resistance",
+          "entries": [
+            "You have resistance to lightning damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Flight",
+          "entries": [
+            "You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor. Flight is very difficult to maintain as a medium creature, as a result you slowly descend to the ground at a rate of 60 feet per round when you end your turn while flying. You do not take any fall damage as a result of this descent. When you reach 5th level, you can end your turn while flying without having to descend."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Friend of The Sky",
+          "entries": [
+            "Aerial animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a flying speed. It can understand your words, though you have no special ability to understand it in return."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "In the world of Torin, elves play a massive role in the day to day society, and populates the majority of the world. Elves in Torin appreciate the ethics of hard work, and in their standard society in the Arda Kingdom, seeds for produce are often found extremely cheap while livestock is placed at extremely high prices, higher than normal civilizations. Although, food in taverns and places of fine dining are priced reasonably.",
+          "In Torin, there were elves that danced between the lines between the elemental and material planes. In particular, the elemental planes of air and earth were looked into exclusively by the elves. ",
+          "The avariel sprouted wings and took to the skies of the elemental plane of air. After a while, they returned to the grounds of the material plane only to raise the earth into the sky. ",
+          "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+        ]
+      }
+    },
+    {
+      "name": "Alluvium Elf",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 54,
+        "heightMod": "2d10",
+        "baseWeight": 90,
+        "weightMod": "1d4"
+      },
+      "age": {
+        "mature": 100,
+        "max": 750
+      },
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "perception": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Creature Type",
+          "entries": [
+            "You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "You have proficiency in the Perception skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Trance",
+          "entries": [
+            "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+            "Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Earth Walk",
+          "entries": [
+            "You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Hardened Endurance",
+          "entries": [
+            "When you take damage, you can use your reaction to roll a number of d4s equal to your proficiency bonus and reduce the damage by that total. You can use this trait once, regaining the ability to use it again when you finish a short or long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Earth Sense",
+          "entries": [
+            "Starting at 3rd level, by focusing your touch to the ground, you can faintly feel the vibrations in the earth beneath you. As an action you can gain a tremorsense out to a range of 60 feet for 1 minute, meaning you can detect and pinpoint the origin of vibrations provided that you and the source of the vibrations are in contact with the same ground or substance. ",
+            "You can use this special sense a number of times equal to your proficiency bonus, after which you cannot use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "In the world of Torin, elves play a massive role in the day to day society, and populates the majority of the world. Elves in Torin appreciate the ethics of hard work, and in their standard society in the Arda Kingdom, seeds for produce are often found extremely cheap while livestock is placed at extremely high prices, higher than normal civilizations. Although, food in taverns and places of fine dining are priced reasonably.",
+          "In Torin, there were elves that danced between the lines between the elemental and material planes. In particular, the elemental planes of air and earth were looked into exclusively by the elves. ",
+          "The alluvium elves settled for many years in the plane beyond their original home, undergoing the most drastic changes between the various elemental elves. These elvish settlements didn’t leave the elemental plane of earth for at least a thousand years and have only recently made a return.",
+          "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+        ]
+      }
+    },
+    {
+      "name": "Wildfire Elf",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "resist": [
+        "fire"
+      ],
+      "lineage": "VRGR",
+      "heightAndWeight": {
+        "baseHeight": 54,
+        "heightMod": "2d10",
+        "baseWeight": 90,
+        "weightMod": "1d4"
+      },
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": [
+                  "burning touch|TheAdventuresofTorinCampaignSetting"
+                ]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": [
+                  "continual flame"
+                ]
+              }
+            }
+          },
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "1": [
+              "produce flame#c"
+            ]
+          }
+        }
+      ],
+      "age": {
+        "mature": 100,
+        "max": 750
+      },
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "perception": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Creature Type",
+          "entries": [
+            "You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "You have proficiency in the Perception skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Trance",
+          "entries": [
+            "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+            "Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fire Resistance",
+          "entries": [
+            "You have resistance to fire damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fire Affinity",
+          "entries": [
+            "As a bonus action, you can ignite flammable objects you touch such as a torch or small piece of wood so long as it can fit in your hand and is not being worn or carried by a creature other than you."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Child of Flames",
+          "entries": [
+            "Due to your connection to the elemental plane of fire, you inherit some of its magic. You know the {@spell produce flame} cantrip. Starting at 3rd level, you can cast the {@spell burning touch|TheAdventuresofTorinCampaignSetting} spell with this trait. Starting at 5th level, you can also cast the {@spell continual flame} spell with this trait, without a material component. Once you cast burning touch or continual flame with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+            "You can use this special sense a number of times equal to your proficiency bonus, after which you cannot use it again until you finish a long rest."
+          ],
+          "type": "entries"
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "In the world of Torin, elves play a massive role in the day to day society, and populates the majority of the world. Elves in Torin appreciate the ethics of hard work, and in their standard society in the Arda Kingdom, seeds for produce are often found extremely cheap while livestock is placed at extremely high prices, higher than normal civilizations. Although, food in taverns and places of fine dining are priced reasonably.",
+          "In Torin, there were elves that danced between the lines between the elemental and material planes. In particular, the elemental planes of air and earth were looked into exclusively by the elves. ",
+          "While most elves in Torin preferred the earth and air elemental planes, some elves traversed through the molten hot plumes of the elemental plane of fire. As a result, their skins have become dark like coal and their bodies are hot like flames.",
+          "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
         ]
       }
     }
