@@ -28333,6 +28333,76 @@
       ]
     },
     {
+      "name": "Light Armor Master",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "ability": [
+        {
+          "dex": 1
+        }
+      ],
+      "entries": [
+        "You are an expert with light armor and are used to wearing it as slightly heavier clothing. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "Increase your Dexterity by 1, to a maximum of 20.",
+            "While you are wearing light armor, you have an additional +1 bonus to your AC."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heroic Sacrifice",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "When an ally is in danger, you are quick to step in and protect them. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "If a creature that is within the distance remaining in your movement as of the end of your last turn would be hit by an attack, you can use your reaction to move up to them and switch places with that creature, becoming the new target of the attack and every attack thereafter, provided you do not fall unconscious. If any of the attacks would hit, you treat each of them as a critical hit.",
+            "If a creature that is within the distance remaining in your movement as of the end of your last turn would be subjected to a saving throw from a spell or effect that deals damage and leaves an area of effect (such as a fireball or a dragon’s breath weapon), you can use your reaction to move up to them and have them automatically succeed, even if they already failed. Succeeding in this way allows them to take no damage instead of half, if the effect would make them take half on a success. When you do this, you are then subjected to the effect if you weren’t already and make the save at disadvantage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Field Medic",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You can expertly treat the wounds of a dying creature in the midst of battle. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on Wisdom (Medicine) checks made to stabilize a dying creature.",
+            "When you stabilize a dying creature using a Wisdom (Medicine) check, that creature also regains 1 hit point."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hoard Slayer",
       "source": "TheAdventuresofTorinCampaignSetting",
       "ability": [
@@ -28353,6 +28423,21 @@
           "items": [
             "The penalty to your AC you incur when being flanked is halved. (If you do not receive a penalty to AC when flanked, you instead gain a +2 bonus to AC when you are flanked.)",
             "When being flanked, you have advantage on melee attack rolls against creatures who are within 5 feet of you."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two-Weapon Master",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You master fighting with two weapons, gaining the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
+            "You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
+            "When using two-weapon fighting with your attack action, the damage you inflict with your weapons increases by +1 at level 5, +2 at level 11, and +3 at level 17."
           ]
         }
       ]
