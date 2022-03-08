@@ -4717,18 +4717,14 @@
             "The witch's innate spellcasting ability is Charisma (spell save {@dc 25}, {@hit 17} to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:"
           ],
           "will": [
-            "{@spell alter self}",
             "{@spell arms of Hadar}",
             "{@spell bane}",
-            "{@spell detect magic}",
-            "{@spell eldritch blast} (4 beams)",
             "{@spell false life}",
             "{@spell glyph of warding}",
             "{@spell heart sunder|TheAdventuresofTorinCampaignSetting}",
-            "{@spell levitate} (self only)",
             "{@spell plane shift}",
+            "{@spell reveal/conceal|TheAdventuresofTorinCampaignSetting}",
             "{@spell shapechange}",
-            "{@spell shield}",
             "{@spell telepathy}",
             "{@spell teleport}",
             "{@spell vile mark|TheAdventuresofTorinCampaignSetting}"
@@ -4742,15 +4738,18 @@
               "{@spell dominate monster}",
               "{@spell feeblemind}",
               "{@spell gate}",
+              "{@spell greater invisibility}",
               "{@spell maddening darkness|XGE}",
               "{@spell power word kill}",
               "{@spell power word pain|XGE}",
               "{@spell power word stun}",
+              "{@spell resurrection}",
               "{@spell true polymorph}",
               "{@spell weird}"
             ],
             "1e": [
               "{@spell invulnerability|XGE}",
+              "{@spell true resurrection}",
               "{@spell wish}"
             ]
           },
@@ -4763,12 +4762,6 @@
           "name": "Blood Witch Dance",
           "entries": [
             "The witch can use a bonus action to control the movement of one creature cursed by its hex spell that it can see within 30 feet of it. The creature must succeed on a {@dc 25} Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice."
-          ]
-        },
-        {
-          "name": "Devil's Sight",
-          "entries": [
-            "Magical darkness doesn't impede the witch's darkvision."
           ]
         },
         {
@@ -4800,25 +4793,31 @@
           "entries": [
             "When Morgana drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Abyss, and she is unable to take physical form for a time."
           ]
+        },
+        {
+          "name": "Divine Necromancy",
+          "entries": [
+            "Morgana ignores resistance to necrotic damage, and creatures who are immune to necrotic damage take half damage instead. Should a creature regain hit points instead of taking damage from necrotic, Morgana ignores that trait."
+          ]
         }
       ],
       "action": [
         {
           "name": "Multiattack",
           "entries": [
-            "The witch makes four attacks: three with a weapon and one using one of her at will spells with a casting time of one action."
+            "Morgana makes four attacks using her Life Draining Blast"
           ]
         },
         {
-          "name": "Eldritch Blast (4 beams)",
+          "name": "Life Draining Blast",
           "entries": [
-            "{@atk rs} {@hit 17} to hit, range 120/120 ft., one target. {@h}10 ({@damage 1d10 + 9}) force damage."
+            "{@atk ms,rs} {@hit 17} to hit, range 120ft., one target. {@h}25 ({@damage 3d10 + 9}) necrotic damage and she regains {@dice 2d10} hit points."
           ]
         },
         {
-          "name": "Blood Witch Riteknife",
+          "name": "Words of Decay {@recharge 4}",
           "entries": [
-            "{@atk mw,rw} {@hit 16} to hit, reach 5 ft. or range 20/40 ft., one target. {@h}10 ({@damage 1d4 + 8}) piercing damage in melee, or 10 ({@damage 1d4 + 8}) piercing damage at range, plus 10 ({@damage 4d4}) necrotic damage."
+            "Morgana utters words of immense power, forcing up to five creatures she can see within 120 feet of her to make a {@dc 25} Constitution saving throw. On a failed save, they take 82 {@damage 15d10} necrotic damage and are {@condition incapacitated} until the start of Morgana's next turn, or half as much damage and is not {@condition incapacitated} on a success."
           ]
         }
       ],
@@ -4827,6 +4826,12 @@
           "name": "Teleport",
           "entries": [
             "Morgana teleports up to an unoccupied space within range of her fly speed."
+          ]
+        },
+        {
+          "name": "Quick Cast {@recharge}",
+          "entries": [
+            "Morganna casts one of her innate blood magic spells as a bonus action."
           ]
         }
       ],
@@ -4843,6 +4848,12 @@
           "entries": [
             "Morgana teleports up to an unoccupied space within range of her fly speed."
           ]
+        },
+        {
+          "name": "Drain Life (Costs 2 Actions)",
+          "entries": [
+            "Morgana chooses a creature within 120 feet of her. She makes two Life Draining Blast attacks against it."
+          ]
         }
       ],
       "fluff": {
@@ -4857,14 +4868,13 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://pbs.twimg.com/media/DwCIce0UwAAh69-?format=jpg&name=4096x4096"
+              "url": "https://i.imgur.com/73dUv6E.jpg"
             }
           }
         ]
       },
-      "tokenUrl": "https://i.imgur.com/ygbFh7e.png",
+      "tokenUrl": "https://i.imgur.com/wrjRfrx.png",
       "traitTags": [
-        "Devil's Sight",
         "Legendary Resistances",
         "Regeneration"
       ],
@@ -4885,16 +4895,10 @@
         "TP"
       ],
       "damageTags": [
-        "N",
-        "O",
-        "P"
+        "N"
       ],
       "spellcastingTags": [
         "I"
-      ],
-      "miscTags": [
-        "MW",
-        "RW"
       ],
       "hasFluff": true,
       "hasFluffImages": true
@@ -12820,6 +12824,139 @@
           }
         ]
       }
+    },
+    {
+      "name": "Counterspell",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "otherSources": [
+        {
+          "source": "PHB",
+          "page": 228
+        }
+      ],
+      "level": 3,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "which you take when you see a creature within 60 feet of you casting a spell and you are not casting a spell."
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You attempt to interrupt a creature in the process of casting a spell. Make an ability check using your spellcasting ability and add your proficiency bonus to the roll. The DC equals the caster’s spell save DC. On a success, its spell fails and has no effect.",
+        "On a failure, their spell succeeds but its effects are dampened as your spell acts as a buffer for its effects. The spell’s damage, healing, range, and duration is halved. If there was nothing to halve, this spell simply has no effect. If your check fails by 5 or more, this spell also has no effect.",
+        "An astute caster can recognize when their spell is about to fail and attempt to reinforce it with their own magic. A creature with proficiency in arcana can use their reaction to add to the DC equal to the level they are casting their own spell at."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, you can add a +1 bonus to  your spellcasting ability check used for the spell for each slot level above 3rd."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Fate Weaver",
+            "source": "TheAdventuresofTorinCampaignSetting"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Redemption (UA)",
+              "source": "UAATrioOfSubclasses"
+            }
+          },
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Redemption",
+              "source": "XGE"
+            }
+          },
+          {
+            "class": {
+              "name": "Sorcerer",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Clockwork Soul (UA)",
+              "source": "UA2020SubclassesPt2"
+            }
+          },
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Watchers (UA)",
+              "source": "UA2020SubclassesPt1"
+            }
+          },
+          {
+            "class": {
+              "name": "Paladin",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Watchers",
+              "source": "TCE"
+            }
+          }
+        ]
+      },
+      "races": [
+        {
+          "name": "Human (Mark of Sentinel)",
+          "source": "ERLW",
+          "baseName": "Human",
+          "baseSource": "PHB"
+        }
+      ],
+      "backgrounds": [
+        {
+          "name": "Azorius Functionary",
+          "source": "GGR"
+        }
+      ]
     }
   ],
   "deity": [
@@ -17179,7 +17316,7 @@
     {
       "name": "Minstrel's Melody",
       "entries": [
-        "Also at 3rd level, when a 1st level or higher spell you cast would restore a creature’s hit points, you can spend a Bardic Inspiration die to have them regain an additional amount of hit points. The bonus equals the number you roll on the Bardic Inspiration A creature that receives this bonus gains a bonus to their next attack roll, ability check, or saving throw they make until the start of your next turn equal to the number rolled on the inspiration die."
+        "Also at 3rd level, when a 1st level or higher spell you cast would restore a creature’s hit points, you can spend a Bardic Inspiration die to have them regain an additional amount of hit points. The bonus equals the number you roll on the Bardic Inspiration. A creature that receives this bonus gains a bonus to their next attack roll, ability check, or saving throw they make until the start of your next turn equal to the number rolled on the inspiration die."
       ],
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
@@ -17210,7 +17347,7 @@
       "name": "Minstrel's Duet",
       "entries": [
         "At 14th level, when you restore hit points to another creature using a spell of 1st-level or higher, you regain hit points equal to two rolls of your bardic inspiration die.",
-        "Whenever you use Minstrel's Melody, you can roll a d6 and use it instead of expending a Bardic Inspiration die."
+        "Whenever you use Minstrel's Melody, you can roll a {@dice d6} and use it instead of expending a Bardic Inspiration die."
       ],
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
@@ -17231,6 +17368,94 @@
       "className": "Bard",
       "classSource": "PHB",
       "subclassShortName": "Minstrel",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2
+    },
+    {
+      "name": "College of The Songblade",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Songblade",
+      "page": null,
+      "level": 3,
+      "entries": [
+        "In more ancient times, a group of elves created an order of bards which banded together when evil threatened the Arda Kingdom. These bards would empower their weapons with the power of their voice and songs, similar to another order of elf wizards. Unlike that order, this one was open with other races learning the secrets behind this power, opening up this bard college to all who wished to learn.",
+        "In modern days, this college is taught more for fun and sport. However, some of the eldest of elves are among those who founded the college, and they still know of its true purpose to thwart evil."
+      ]
+    },
+    {
+      "name": "Bond of The Songblade",
+      "entries": [
+        "Starting at 3rd level when you choose this college, choose one type of weapon to become your Songblade from the following: dagger, longsword, rapier, or shortsword. ",
+        "When you are wielding a Songblade, you can use Charisma for its attack and damage rolls instead of Strength or Dexterity. In addition, it counts as a spellcasting focus for you and you can cast spells using somatic components even if both hands are occupied, so long as your Songblade is being held in one of them.",
+        "While holding your Songblade, you gain a bonus to your AC equal to your Charisma modifier provided you are not wearing medium or heavy armor.",
+        "You can change which type of weapon your Songblade is when you finish a long rest."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Songblade",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "name": "Song of Love and War",
+      "entries": [
+        "Also at 3rd level, when you cast a bard spell that requires a verbal component, you can spend a bardic inspiration die and roll it, adding the result to one of the damage or healing rolls.",
+        "Alternatively, when you hit a creature with a melee weapon attack using a Songblade, you can expend one spell slot to deal psychic damage to the target, in addition to the weapon's damage. The extra damage is one roll of your bardic inspiration die for a 1st-level spell slot, plus another bardic inspiration die for each spell level higher than 1st, to a maximum of 3 inspiration dice."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Songblade",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2
+    },
+    {
+      "name": "Extra Attack",
+      "entries": [
+        "Also at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Songblade",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2
+    },
+    {
+      "name": "Song of Heroism",
+      "entries": [
+        "Starting at 6th level, when you use your Countercharm feature, you can give each affected creature, including yourself, temporary hit points equal to your Bard level. At the start of each of their turns while your Countercharm is active, they gain temporary hit points equal to your proficiency bonus provided they did not have more temporary hit points remaining."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Songblade",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2
+    },
+    {
+      "name": "Continuous Song",
+      "entries": [
+        "Starting at 14th level, whenever you use your Song of Love and War feature, you can roll a d6 and use it instead of expending a Bardic Inspiration die."
+      ],
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Songblade",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 14,
       "header": 2
@@ -17359,7 +17584,7 @@
       "subclassShortName": "Charity",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
-      "header": 1,
+      "header": 2,
       "entries": [
         "You can hasten your efforts to heal a wounded creature using your channel divinity. For the next minute, you can use your Lay on Hands feature as a bonus action rather than an action. Also for the duration, when you restore hit points to a creature using a spell of 1st level or higher, you can add a bonus to the roll equal to your proficiency bonus."
       ]
@@ -17373,7 +17598,7 @@
       "subclassShortName": "Charity",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
-      "header": 1,
+      "header": 2,
       "entries": [
         "You can use your channel divinity to protect an ally from the jaws of defeat. When a creature you can see within 60 feet of you would be reduced to 0 hit points, you can use your reaction to have them be reduced to 1 hit point instead."
       ]
@@ -17426,6 +17651,201 @@
             "When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die.",
             "When you cast a spell that restores hit points using a 1st-level spell slot or higher, the spell is treated as if it were one level higher than the expended slot.",
             "If a creature within 30 feet of you fails a saving throw, you can spend your reaction and a 1st-level or higher spell slot to have them re-roll. They must use the new result."
+          ]
+        },
+        "Once you use this feature, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
+      ]
+    },
+    {
+      "name": "Oath of The Truth Seeker",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "This oath is taken by paladins who do not know who or what they want to be. Their paths everchanging, but their choices are always theirs to make. By binding themselves to this oath, a paladin swears that through their travels they will find themselves and forge their own destinies, as well as the destinies of others.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Tenets of The Truth Seeker|Paladin||Truth Seeker|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Oath Spells|Paladin||Truth Seeker|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Tenets of The Truth Seeker",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i Though the exact words and strictures of the Oath of The Truth Seeker vary, paladins of this oath share these tenets.}",
+        {
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Truth",
+              "entries": [
+                "Stay true to yourself, let yourself be free of the fear of judgment and always seek the truth."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Destiny",
+              "entries": [
+                "Everyone has their own path, but it’s up to you to forge your destiny."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Guide The Lost",
+              "entries": [
+                "As you aim to follow your own path, always lend a helping hand to those who are lost themselves."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Confidence",
+              "entries": [
+                "Douse the flames of doubt, believe in yourself and those around you."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oath Spells",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You gain oath spells at the paladin levels listed.",
+        {
+          "type": "table",
+          "caption": "Oath of The Truth Seeker Spells",
+          "colLabels": [
+            "Paladin Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell comprehend languages}, {@spell guiding bolt}"
+            ],
+            [
+              "5th",
+              "{@spell augury}, {@spell reveal/conceal|TheAdventuresofTorinCampaignSetting}"
+            ],
+            [
+              "9th",
+              "{@spell clairvoyance}, {@spell tongues}"
+            ],
+            [
+              "13th",
+              "{@spell divination}, {@spell Mordenkainen's faithful hound}"
+            ],
+            [
+              "17th",
+              "{@spell legend lore}, {@spell teleportation circle}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Channel Divinity: Traveler's Step",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "By using your channel divinity you can empower your ability to move and allow yourself to step between planes momentarily. For the next minute, as a bonus action on your turn you can teleport to an unoccupied space within 30 feet of you. You do not have to see the space in order to teleport there."
+      ]
+    },
+    {
+      "name": "Channel Divinity: Reveal the Truth",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 2,
+      "entries": [
+        "You can use your channel divinity to peer into a creature's truths. If you have been speaking to a creature for at least a minute, you can use your channel divinity to force that creature to make a Charisma saving throw. On a failed save, you learn their alignment and whether or not they are speaking truthfully. You also learn that creature's type and whether or not their current form is their true form."
+      ]
+    },
+    {
+      "name": "Aura of Truth",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "Starting at 7th level, you emanate an aura of revealing truths. You and your allies gain a bonus to Wisdom (Insight) and Intelligence (Investigation) checks equal to your Charisma modifier  (with a minimum bonus of +1), provided you are not incapacitated.",
+        "At 18th level, the range of this aura increases to 30 feet."
+      ]
+    },
+    {
+      "name": "Guiding Sword",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "At 15th level, being unable to see a creature does not impose disadvantage on your attack rolls, nor does it give them advantage on attack rolls against you. In battle, you can always determine which direction a hostile creature is in if they have made an attack against you or one of your allies in your Aura of Truth within the past minute."
+      ]
+    },
+    {
+      "name": "Champion of Truth",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Truth Seeker",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 20,
+      "header": 2,
+      "entries": [
+        "At 20th level you can channel your divine power to invoke powerful abilities. As a bonus action, you gain the following benefits for 1 minute:",
+        {
+          "type": "list",
+          "items": [
+            "Your movement speed is doubled and you can make one additional weapon attack when you take the attack action.",
+            "You can always determine whether a creature is lying. When you use this feature, you can retain this benefit for up to 1 hour past the duration.",
+            "Each time a hostile creature hits you with an attack or casts a spell on you, they must make a Wisdom saving throw against your spell save DC. On a failed save, they take 2d10 psychic damage."
           ]
         },
         "Once you use this feature, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
@@ -18576,6 +18996,154 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "The Matron of Ravens",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Matron of Ravens",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "A mortal who ascended to divinity, the mother of ravens and the queen of life and death. Your patron is the Matron of Ravens, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Matron of Ravens watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Matron of Ravens receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.",
+        "The Matron of Raven's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes."
+      ]
+    },
+    {
+      "name": "Expanded Spell List",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "The Matron of Ravens",
+      "level": 1,
+      "entries": [
+        "The Matron of Ravens lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        {
+          "type": "table",
+          "caption": "Expanded Spell List",
+          "colLabels": [
+            "Spell Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell inflict wounds}, {@spell glacial grip|TheAdventuresofTorinCampaignSetting}"
+            ],
+            [
+              "2nd",
+              "{@spell augury}, {@spell wither and bloom|SCC}"
+            ],
+            [
+              "3rd",
+              "{@spell revivify}, {@spell speak with dead}"
+            ],
+            [
+              "4th",
+              "{@spell ice storm}, {@spell locate creature}"
+            ],
+            [
+              "5th",
+              "{@spell raise dead}, {@spell cone of cold}"
+            ]
+          ]
+        }
+      ],
+      "header": 1
+    },
+    {
+      "name": "Eyes of The Raven",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "The Matron of Ravens",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "At 1st level, you gain the ability to sense the presence of the undead, whose existence is an insult to the natural cycle of life. You always know the location of any undead within 30 feet of you that isn't behind total cover and that isn't protected from divination magic. This sense doesn't tell you anything about a creature's capabilities or identity.",
+        "As an action you can extend the range of this special sense to 60 feet until the start of your next turn. You can do so a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+        "In addition, you gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet."
+      ]
+    },
+    {
+      "name": "Visage of Ravens",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "The Matron of Ravens",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "Also at 1st level, you can manifest an aspect of your patron's dreadful power. As a bonus action, you transform for 1 minute. You gain the following benefits while transformed:",
+        {
+          "type": "list",
+          "items": [
+            "You have resistance to cold and necrotic damage.",
+            "When you deal damage with an attack or spell, you can add an amount of necrotic damage equal to your proficiency bonus to one of the damage rolls. This necrotic damage becomes twice as potent against undead, and ignores any resistance or immunities to necrotic. You can deal this extra damage once per turn.",
+            "You gain temporary hit points equal to {@dice 1d10} + your warlock level."
+          ]
+        },
+        "You can transform a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "The appearance of your Visage of Ravens reflects some aspect of your patron. For example, your form could be a shroud of shadows forming the mask and robes of your patron, or shadowy ravens might fly around you and merge with your attacks and spells."
+      ]
+    },
+    {
+      "name": "Improved Raven Form",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "The Matron of Ravens",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Starting at 6th level, when you transform into your Visage of Ravens, you gain the following benefits until the form expires.",
+        {
+          "type": "list",
+          "items": [
+            "You gain a flying speed equal to twice your walking speed and can hover.",
+            "You are immune to being {@condition charmed} or {@condition frightened}.",
+            "Undead that start their turn within 30 feet of you takes {@dice 1d10} force damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raven-Touched",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "The Matron of Ravens",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Starting at 10th level, you've been granted a gift by your patron, allowing you to pursue her will further. You no longer need to eat, drink, or breathe.",
+        "In addition, when you transform into your Visage of Ravens, you have immunity to cold and necrotic damage rather than resistance."
+      ]
+    },
+    {
+      "name": "Sunder Undeath",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "The Matron of Ravens",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Starting at 14th level, you can call on the powers of your patron to sunder and repel undead. As an action, you can emit an aura that extends out to a radius of 15 feet centered on yourself. Undead cannot willingly enter the aura nor reach through it. Undead that start their turn in the aura gains vulnerability to all damage and their movement speed is reduced to 0 until they are no longer within the aura. You can use an action to extend this aura out to a range of 30 feet until the end of your next turn.",
+        "The aura lasts for 1 minute, or until you dismiss it as a bonus action. You concentrate on this effect as you would a spell. You can call on this aura once, regaining the ability to do so again when you finish a long rest, or when you have no remaining uses you can expend a warlock spell slot to use it again."
       ]
     },
     {
@@ -23417,6 +23985,34 @@
       ]
     },
     {
+      "name": "Otherworldly Patron The Matron of Ravens",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "shortName": "The Matron of Ravens",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSpells": [
+        "inflict wounds",
+        "glacial grip|TheAdventuresofTorinCampaignSetting",
+        "augury",
+        "wither and bloom|SCC",
+        "revivify",
+        "speak with dead",
+        "ice storm",
+        "locate creature",
+        "raise dead",
+        "cone of cold"
+      ],
+      "subclassFeatures": [
+        "The Matron of Ravens|Warlock|PHB|The Matron of Ravens|TheAdventuresofTorinCampaignSetting|1",
+        "Expanded Spell List|Warlock|PHB|The Matron of Ravens|TheAdventuresofTorinCampaignSetting|1",
+        "Eyes of The Raven|Warlock|PHB|The Matron of Ravens|TheAdventuresofTorinCampaignSetting|1",
+        "Visage of Ravens|Warlock|PHB|The Matron of Ravens|TheAdventuresofTorinCampaignSetting|1",
+        "Improved Raven Form|Warlock|PHB|The Matron of Ravens|TheAdventuresofTorinCampaignSetting|6",
+        "Raven-Touched|Warlock|PHB|The Matron of Ravens|TheAdventuresofTorinCampaignSetting|10",
+        "Sunder Undeath|Warlock|PHB|The Matron of Ravens|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
       "name": "College of Minstrel",
       "shortName": "Minstrel",
       "source": "TheAdventuresofTorinCampaignSetting",
@@ -23470,6 +24066,47 @@
         "Aura of Regeneration|Paladin|PHB|Charity|TheAdventuresofTorinCampaignSetting|7",
         "Shield the Wounded|Paladin|PHB|Charity|TheAdventuresofTorinCampaignSetting|15",
         "Giver of Life|Paladin|PHB|Charity|TheAdventuresofTorinCampaignSetting|20"
+      ]
+    },
+    {
+      "name": "Oath of The Truth Seeker",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "shortName": "Truth Seeker",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "comprehend languages",
+              "guiding bolt"
+            ],
+            "5": [
+              "augury",
+              "reveal/conceal|TheAdventuresofTorinCampaignSetting"
+            ],
+            "9": [
+              "clairvoyance",
+              "tongues"
+            ],
+            "13": [
+              "divination",
+              "Mordenkainen's faithful hound"
+            ],
+            "17": [
+              "legend lore",
+              "teleportation circle"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Oath of The Truth Seeker|Paladin|PHB|Truth Seeker|TheAdventuresofTorinCampaignSetting|3",
+        "Channel Divinity: Traveler's Step|Paladin|PHB|Truth Seeker|TheAdventuresofTorinCampaignSetting|3",
+        "Channel Divinity: Reveal the Truth|Paladin|PHB|Truth Seeker|TheAdventuresofTorinCampaignSetting|3",
+        "Aura of Truth|Paladin|PHB|Truth Seeker|TheAdventuresofTorinCampaignSetting|7",
+        "Guiding Sword|Paladin|PHB|Truth Seeker|TheAdventuresofTorinCampaignSetting|15",
+        "Champion of Truth|Paladin|PHB|Truth Seeker|TheAdventuresofTorinCampaignSetting|20"
       ]
     },
     {
@@ -23844,6 +24481,21 @@
         "Improved Synergist|Sorcerer|PHB|Extraplanar Summoner|TheAdventuresofTorinCampaignSetting|6",
         "Combative Ally|Sorcerer|PHB|Extraplanar Summoner|TheAdventuresofTorinCampaignSetting|14",
         "Extraplanar Master|Sorcerer|PHB|Extraplanar Summoner|TheAdventuresofTorinCampaignSetting|18"
+      ]
+    },
+    {
+      "name": "College of The Songblade",
+      "shortName": "Songblade",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "College of The Songblade|Bard|PHB|Songblade|TheAdventuresofTorinCampaignSetting|3",
+        "Bond of The Songblade|Bard|PHB|Songblade|TheAdventuresofTorinCampaignSetting|3",
+        "Song of Love and War|Bard|PHB|Songblade|TheAdventuresofTorinCampaignSetting|3",
+        "Song of Heroism|Bard|PHB|Songblade|TheAdventuresofTorinCampaignSetting|6",
+        "Extra Attack|Bard|PHB|Songblade|TheAdventuresofTorinCampaignSetting|6",
+        "Continuous Song|Bard|PHB|Songblade|TheAdventuresofTorinCampaignSetting|14"
       ]
     },
     {
