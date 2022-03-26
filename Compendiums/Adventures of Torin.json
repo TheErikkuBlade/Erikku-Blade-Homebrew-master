@@ -14310,20 +14310,20 @@
               "type": "entries",
               "name": "Fate Wish",
               "entries": [
-                "You can duplicate any 9th level or lower spell, You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect. The casting time of the spell becomes an action if it wasn’t already. For the purposes of determining the spell’s level, it is treated as a 10th level epic spell. Epic spells cannot be dispelled by non-epic spells and cannot be counterspelled by non-epic spells. They are also immune to antimagic zones not created by epic spells."
+                "As an action, you can duplicate any 7th level or lower spell, You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect. For the purposes of determining the spell’s level, it is treated as an 8th level spell."
               ]
             },
             {
               "type": "entries",
               "name": "Restoration of the Weave",
               "entries": [
-                "As an action, you can restore 10 levels worth of spell slots and you roll the fate dice spent by this feature and regain hit points equal to the result."
+                "Roll all of the expended fate dice and add your Charisma modifier to the roll, you and each creature within 30 feet of you regain hit points equal to the total."
               ]
             }
           ]
         },
-        "Using any of these effects other than duplicating a spell takes a huge toll on your body and mind as altering the fabric of reality has its downsides. When next you complete a short or long rest, you receive the stress a Wish spell would provide if you were to do anything other than duplicate a spell.",
-        "If you were to duplicate a spell, you instead suffer a level of exhaustion that can only be restored after a long rest.",
+        "Altering reality takes a huge toll on your body and mind as altering the fabric of reality has its downsides. If you used the ‘Alter Reality’ function of this ability, when next you complete a short or long rest, you receive the stress a Wish spell would provide if you were to do anything other than duplicate a spell.",
+        "Otherwise, you instead suffer a level of exhaustion that can only be restored after a long rest.",
         "Once you have used one of these effects, you cannot use another effect until you have completed a long rest or, if you suffered the stress of this ability, until your stress has recovered."
       ],
       "page": 7
