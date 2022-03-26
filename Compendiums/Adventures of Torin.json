@@ -572,7 +572,7 @@
       "entries": [
         "A fate weaver has the powers of divination and most use a special tool that allows them to see into the near future, recent past, or present time. Every fate weaver is proficient with a divination focus, but other spellcasters can use a Divination Focus if they are proficient with one.",
         "A divination focus can take many different forms ranging from a blank deck of cards that can fit writing or pictures, a sphere with a die inside that provides a written response, a tarokka deck, or even a small candle stick that when used its smoke forms words or an image.",
-        "Regardless of the form the focus takes, you start a 10 minute ritual and ask a single question. You then make a Spellcasting ability check and add your proficiency bonus using the divination focus. In order to receive an accurate reading, you must make a DC 12 check, or a DC determined by the DM depending on the nature of your question. More specific questions usually incur a higher DC. If your check is successful, you receive a vague response up to 50 words in length. Alternatively, you can receive a visual representation and interpret the meaning of the message yourself. You can use a Divination Focus a number of times per day equal to your proficiency bonus, regaining expended uses daily at dawn."
+        "Regardless of the form the focus takes, you start a 10 minute ritual and ask a single question. You then make a Spellcasting ability check and add your proficiency bonus using the divination focus. The DC of this special check equals 10 + the difficulty of the reading. The difficulties vary from easy, difficult, challenging, and to nigh impossible, with impossible automatically failing. Each difficulty beyond easy adds a cumulative +5 bonus to the DC."
       ]
     },
     {
@@ -2034,6 +2034,24 @@
         "This ever-gleaming silver flask has special properties on the inside. Any water you pour into the flask becomes clean drinking water. This has no effect on harmful liquids, such as poisons or lava. The water in this flask is refreshing and has replenishing properties. When you drink from this magical flask, you regain 2d6 hit points.",
         "Once a creature regains hit points from the flask, that creature cannot regain hit points from it again until the next dawn."
       ]
+    },
+    {
+      "name": "Belt of Handy Utility",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "rarity": "uncommon",
+      "wondrous": true,
+      "weight": 1,
+      "entries": [
+        "This magic belt has six pouches attached to it which are capable of storing many commonly used utility items, such as scrolls and potions. Each pouch is capable of storing up to 10 scrolls or potions. Attempting to put in a different item or exceeding its capacity, even if it can fit, ends with it getting violently spit out, potentially breaking fragile items.",
+        "You can draw a potion or scroll from one of these pouches as a free item interaction, or stow them away also as a free item interaction."
+      ],
+      "containerCapacity": {
+        "weight": [
+          null
+        ],
+        "weightless": true
+      }
     },
     {
       "name": "Phoenix Feather of Rebirth",
@@ -13485,25 +13503,26 @@
         },
         "Boon of Fate|Fate Weaver|TheAdventuresofTorinCampaignSetting|2",
         "Spell Weaving|Fate Weaver|TheAdventuresofTorinCampaignSetting|3",
+        "Revelation|Fate Weaver|TheAdventuresofTorinCampaignSetting|3",
         "Ability Score Improvement|Fate Weaver|TheAdventuresofTorinCampaignSetting|4",
         "Divination Dice|Fate Weaver|TheAdventuresofTorinCampaignSetting|5",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|TheAdventuresofTorinCampaignSetting|6",
           "gainSubclassFeature": true
         },
-        "Fateful Divination|Fate Weaver|TheAdventuresofTorinCampaignSetting|7",
+        "Revelation (3rd level)|Fate Weaver|TheAdventuresofTorinCampaignSetting|7",
         "Ability Score Improvement|Fate Weaver|TheAdventuresofTorinCampaignSetting|8",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|TheAdventuresofTorinCampaignSetting|10",
           "gainSubclassFeature": true
         },
-        "Prediction of Fate|Fate Weaver|TheAdventuresofTorinCampaignSetting|11",
+        "Revelation (4th level)|Fate Weaver|TheAdventuresofTorinCampaignSetting|11",
         "Ability Score Improvement|Fate Weaver|TheAdventuresofTorinCampaignSetting|12",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|TheAdventuresofTorinCampaignSetting|14",
           "gainSubclassFeature": true
         },
-        "Magic of the Weave|Fate Weaver|TheAdventuresofTorinCampaignSetting|15",
+        "Revelation (5th level)|Fate Weaver|TheAdventuresofTorinCampaignSetting|15",
         "Ability Score Improvement|Fate Weaver|TheAdventuresofTorinCampaignSetting|16",
         {
           "classFeature": "Aspect of Fate Feature|Fate Weaver|TheAdventuresofTorinCampaignSetting|18",
@@ -14118,6 +14137,19 @@
       "page": 2
     },
     {
+      "name": "Revelation",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "As a manipulator of fate and magic, you have dreams of the past, present, and futures which reveal to you various magical secrets. When you reach 3rd level, choose from one of the schools of magic, then choose a 1st and a 2nd level spell from the chosen school of magic. The spell does not have to be from the fate weaver spellcasting list. When you gain a level in this class, you can replace one of the spells chosen from this revelation that is of the same level and from the same school of magic. You can replace your chosen school of magic for these revelations when you gain an ability score improvement in this class, replacing all of your spells accordingly.",
+        "The chosen spells count as fate weaver spells for you and you can cast them once each without expending a spell slot, regaining the ability to cast that spell again in the same way when you finish a long rest. You cannot cast these spells using your spell slots. You do not require material components when you cast the spell, unless it is specified in the spell’s description.",
+        "You receive more revelations when you reach certain levels in this class, gaining one at 7th level, another at 11th level, and a final one at 15th level."
+      ],
+      "page": 2
+    },
+    {
       "name": "Ability Score Improvement",
       "source": "TheAdventuresofTorinCampaignSetting",
       "className": "Fate Weaver",
@@ -14140,13 +14172,13 @@
       ]
     },
     {
-      "name": "Fateful Divination",
+      "name": "Revelation (3rd level)",
       "source": "TheAdventuresofTorinCampaignSetting",
       "className": "Fate Weaver",
       "classSource": "TheAdventuresofTorinCampaignSetting",
       "level": 7,
       "entries": [
-        "Upon reaching 7th level, you can cast the {@spell Divination} spell without expending a spell slot once. You regain the ability to do so again after you finish a long rest."
+        "Upon reaching 7th level, you can choose a 3rd level spell from the school of magic you chose at 3rd level. It counts as a fate weaver spell for you and you can cast the spell once, regaining the ability to do so again when you finish a long rest. You cannot cast this spell using your spell slots."
       ],
       "page": 3
     },
@@ -14174,13 +14206,13 @@
       "page": ""
     },
     {
-      "name": "Prediction of Fate",
+      "name": "Revelation (4th level)",
       "source": "TheAdventuresofTorinCampaignSetting",
       "className": "Fate Weaver",
       "classSource": "TheAdventuresofTorinCampaignSetting",
       "level": 11,
       "entries": [
-        "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a reaction, you can expend one of your divination dice to force a creature you can see within 60 feet of you, or yourself, to reroll an ability check, attack roll, or saving throw. The creature must use the new result, even if they have a feature that allows them to reroll. When they roll, they do so with either advantage if it was a weal die, or disadvantage if it was woe. Once you’ve used this feature, you cannot use it again until you finish a long rest."
+        "Upon reaching 11th level, you can choose a 4th level spell from the school of magic you chose at 3rd level. It counts as a fate weaver spell for you and you can cast the spell once, regaining the ability to do so again when you finish a long rest. You cannot cast this spell using your spell slots."
       ],
       "page": 5
     },
@@ -14208,13 +14240,13 @@
       "page": 4
     },
     {
-      "name": "Magic of the Weave",
+      "name": "Revelation (5th level)",
       "source": "TheAdventuresofTorinCampaignSetting",
       "className": "Fate Weaver",
       "classSource": "TheAdventuresofTorinCampaignSetting",
       "level": 15,
       "entries": [
-        "You draw power from the infinite wellspring of magic, granting you the knowledge, wisdom, or cunning needed to learn magic you otherwise could not learn. Beginning at 15th level, choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Fate Weaver table, or a cantrip. These spells are always prepared and do not count against your total number of prepared spells. You can choose another two spells when you reach 20th level, which are also always prepared and do not count towards your total number of prepared spells."
+        "Upon reaching 15th level, you can choose a 5th level spell from the school of magic you chose at 3rd level. It counts as a fate weaver spell for you and you can cast the spell once, regaining the ability to do so again when you finish a long rest. You cannot cast this spell using your spell slots."
       ],
       "page": 6
     },
@@ -18234,6 +18266,159 @@
         "{@i 18th-level Sanguine feature}",
         "Your mastery over blood magic has further changed your body permanently, granting you immunity to necrotic damage and immunity to being diseased.",
         "In addition, you can undergo a more powerful transformation which furthers your mastery over said magic. You learn the spell {@spell Guise of the Blood Witch|TheAdventuresofTorinCampaignSetting} and it counts as a sorcerer spell for you but it doesn't count against the number of sorcerer spells you know. You can cast the spell without requiring material components and you can cast it without expending a spell slot by spending 6 hemomancy dice instead. You can cast the spell in this way once, regaining the ability to do so again when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Nature Child",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": "",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Nature Child",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "You have a unique bond with nature that allows you to innately call on its magic. Whether you were a magical phenomenon or perhaps you were born into a family of druids, your connection to the weave, the material world, and the primordial elements are all interconnected."
+      ]
+    },
+    {
+      "name": "Nature Magic",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Nature Child",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Your link to nature allows you to learn spells from the druid class. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the druid spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+        "In addition, choose a terrain for the source of your origins: forest, tundra, desert, coast, or mountain. You learn additional spells based on that terrain and your level in this class, as shown below. They are sorcerer spells for you, but they don't count against your number of sorcerer spells known. If you later replace any of these  spells, you must replace it with a spell from the druid spell list.",
+        {
+          "type": "table",
+          "caption": "Nature Magic Spells",
+          "colLabels": [
+            "Sorcerer Level",
+            "Coast",
+            "Desert",
+            "Forest",
+            "Mountain",
+            "Tundra"
+          ],
+          "colStyles": [
+            "col-1 text-center",
+            "col-2-2",
+            "col-2-2",
+            "col-2-2",
+            "col-2-2",
+            "col-2-2"
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Create or Destroy Water}",
+              "{@spell Burning Hands}",
+              "{@spell Entangle}",
+              "{@spell Jump}",
+              "{@spell Fog Cloud}"
+            ],
+            [
+              "3rd",
+              "{@spell Gust of Wind}",
+              "{@spell Heat Metal}",
+              "{@spell Locate Animals or Plants}",
+              "{@spell Spider Climb}",
+              "{@spell Hold Person}"
+            ],
+            [
+              "5th",
+              "{@spell Wind Wall}",
+              "{@spell Daylight}",
+              "{@spell Plant Growth}",
+              "{@spell Meld into Stone}",
+              "{@spell Sleet Storm}"
+            ],
+            [
+              "7th",
+              "{@spell Control Water}",
+              "{@spell Hallucinatory Terrain}",
+              "{@spell Grasping Vine}",
+              "{@spell Stone Shape}",
+              "{@spell Ice Storm}"
+            ],
+            [
+              "9th",
+              "{@spell Conjure Elemental}",
+              "{@spell Antilife Shell}",
+              "{@spell Tree Stride}",
+              "{@spell Wall of Stone}",
+              "{@spell Cone of Cold}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nature's Grace",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Nature Child",
+      "level": 1,
+      "header": 2,
+      "entries": [
+        "Starting at 1st level, when you cast one of the spells granted to you by your Nature Magic feature, you gain {@dice 2d4} + your proficiency bonus temporary hit points."
+      ]
+    },
+    {
+      "name": "Sorcerous Remedies",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Nature Child",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "At 6th level, you can call on your innate connection to nature to heal your allies. As a bonus action, you can spend any number of sorcery points up to your proficiency bonus and have one creature you can see within 60 feet of you (you can choose yourself) regain {@dice 1d6} hit points per sorcery point spent. You add your Charisma modifier to the total. This healing has no effect on undead or constructs."
+      ]
+    },
+    {
+      "name": "Natural Form",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Nature Child",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "At 14th level, you can summon your magic to allow yourself to transform into your true nature. As a bonus action, you gain the following benefits for 1 minute, or until you end the form as a bonus action.",
+        {
+          "type": "list",
+          "items": [
+            "Your AC equals 13 + your Dexterity modifier.",
+            "You have natural weapons which are unarmed strikes which count as simple weapons. They deal {@dice 2d8} slashing, piercing, or bludgeoning damage on hit (you choose when you attack). You can add your Charisma modifier to the attack and damage rolls instead of Strength.",
+            "You gain temporary hit points equal to twice your sorcerer level.",
+            "You gain one of the improvements: a flying speed of 30 feet, a climbing speed of 60 feet, a swimming speed of 60 feet and the ability to breathe underwater as you do air, or a burrow speed of 30 feet and tremorsense out to a range of 60 feet.",
+            "You ignore difficult terrain."
+          ]
+        },
+        "Once you've transformed, you cannot do so again until you finish a long rest or if you have no remaining uses, you can spend 5 sorcery points to transform again.",
+        "You choose what your form looks like, but typically it resembles a bestial or plant-like appearance associated with your terrain origin."
+      ]
+    },
+    {
+      "name": "Natural Evolution",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Nature Child",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "Starting at 18th level, your body has permanently changed. When you finish a long rest, choose one of the benefits listed in your Natural Form feature, you gain that improvement until you next finish a long rest. After which you can either choose another improvement or the same one to gain again."
       ]
     },
     {
@@ -23957,6 +24142,129 @@
         "Sanguine Resistance|Sorcerer|PHB|Sanguine|TheAdventuresofTorinCampaignSetting|6",
         "Sanguine Magic|Sorcerer|PHB|Sanguine|TheAdventuresofTorinCampaignSetting|14",
         "Sanguine Transformation|Sorcerer|PHB|Sanguine|TheAdventuresofTorinCampaignSetting|18"
+      ]
+    },
+    {
+      "name": "Nature Child Sorcererous Origin",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "shortName": "Nature Child",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassSpells": [
+        {
+          "className": "Druid",
+          "classSource": "PHB"
+        }
+      ],
+      "additionalSpells": [
+        {
+          "name": "Coast",
+          "known": {
+            "1": [
+              "Create or Destroy Water"
+            ],
+            "3": [
+              "Gust of Wind"
+            ],
+            "5": [
+              "Wind Wall"
+            ],
+            "7": [
+              "Control Water"
+            ],
+            "9": [
+              "Conjure Elemental"
+            ]
+          }
+        },
+        {
+          "name": "Desert",
+          "known": {
+            "1": [
+              "Burning Hands"
+            ],
+            "3": [
+              "Heat Metal"
+            ],
+            "5": [
+              "Daylight"
+            ],
+            "7": [
+              "Hallucinatory Terrain"
+            ],
+            "9": [
+              "Antilife Shell"
+            ]
+          }
+        },
+        {
+          "name": "Forest",
+          "known": {
+            "1": [
+              "Entangle"
+            ],
+            "3": [
+              "Locate Animals or Plants"
+            ],
+            "5": [
+              "Plant Growth"
+            ],
+            "7": [
+              "Grasping Vine"
+            ],
+            "9": [
+              "Tree Stride"
+            ]
+          }
+        },
+        {
+          "name": "Mountain",
+          "known": {
+            "1": [
+              "Jump"
+            ],
+            "3": [
+              "Spider Climb"
+            ],
+            "5": [
+              "Meld into Stone"
+            ],
+            "7": [
+              "Stone Shape"
+            ],
+            "9": [
+              "Wall of Stone"
+            ]
+          }
+        },
+        {
+          "name": "Tundra",
+          "known": {
+            "1": [
+              "Fog Cloud"
+            ],
+            "3": [
+              "Hold Person"
+            ],
+            "5": [
+              "Sleet Storm"
+            ],
+            "7": [
+              "Ice Storm"
+            ],
+            "9": [
+              "Cone of Cold"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Nature Child|Sorcerer|PHB|Nature Child|TheAdventuresofTorinCampaignSetting|1",
+        "Nature Magic|Sorcerer|PHB|Nature Child|TheAdventuresofTorinCampaignSetting|1",
+        "Nature's Grace|Sorcerer|PHB|Nature Child|TheAdventuresofTorinCampaignSetting|1",
+        "Sorcerous Remedies|Sorcerer|PHB|Nature Child|TheAdventuresofTorinCampaignSetting|6",
+        "Natural Form|Sorcerer|PHB|Nature Child|TheAdventuresofTorinCampaignSetting|14",
+        "Natural Evolution|Sorcerer|PHB|Nature Child|TheAdventuresofTorinCampaignSetting|18"
       ]
     },
     {
