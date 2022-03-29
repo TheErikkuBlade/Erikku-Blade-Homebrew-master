@@ -13785,6 +13785,36 @@
         "number": 1,
         "faces": 10
       },
+      "optionalfeatureProgression": [
+        {
+          "name": "Draconic Powers",
+          "featureType": [
+            "Draconic Power"
+          ],
+          "progression": [
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9
+          ]
+        }
+      ],
       "proficiency": [
         "con",
         "cha"
@@ -14293,11 +14323,10 @@
       "level": 20,
       "entries": [
         "At 20th level, you have become the right hand of the Goddess of Magic. Your ability to manipulate the weave and call upon it is unrivaled, gaining the power to alter the very fabric of reality.",
-        "When you roll initiative while you have no fate dice, you regain an amount equal to your Charisma modifier.",
-        "In addition, you’ve gained the ability to warp time and reality around you. By spending 10 fate dice, choose one of the following effects:",
+        "You've gained the ability to warp time and reality around you. By spending 8 fate dice, choose one of the following effects:",
         {
-          "type": "options",
-          "entries": [
+          "type": "list",
+          "items": [
             {
               "type": "entries",
               "name": "Alter Reality",
@@ -14308,7 +14337,7 @@
             },
             {
               "type": "entries",
-              "name": "Fate Wish",
+              "name": "Fateful Wish",
               "entries": [
                 "As an action, you can duplicate any 7th level or lower spell, You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect. For the purposes of determining the spell’s level, it is treated as an 8th level spell."
               ]
@@ -14322,7 +14351,7 @@
             }
           ]
         },
-        "Altering reality takes a huge toll on your body and mind as altering the fabric of reality has its downsides. If you used the ‘Alter Reality’ function of this ability, when next you complete a short or long rest, you receive the stress a Wish spell would provide if you were to do anything other than duplicate a spell.",
+        "Altering reality takes a huge toll on your body and mind as altering the fabric of reality has its downsides. If you used the ‘Alter Reality’ function of this ability, when next you complete a short or long rest, you receive the stress a {@spell Wish} spell would provide if you were to do anything other than duplicate a spell.",
         "Otherwise, you instead suffer a level of exhaustion that can only be restored after a long rest.",
         "Once you have used one of these effects, you cannot use another effect until you have completed a long rest or, if you suffered the stress of this ability, until your stress has recovered."
       ],
@@ -14397,6 +14426,13 @@
         "If you choose chromatic, you gain proficiency in one of the following skills: deception, intimidation, performance, or persuasion.",
         "If you choose gem, you can speak, read, and write in one other language of your choosing from the common or exotic languages."
       ],
+      "entryData": {
+        "languageProficiencies": [
+          {
+            "draconic": true
+          }
+        ]
+      },
       "page": 1
     },
     {
@@ -20411,7 +20447,7 @@
             ],
             [
               "9th",
-              "{@spell circle of power}, {@spell immolation|XGE}"
+              "{@spell flame strike}, {@spell immolation|XGE}"
             ]
           ]
         },
@@ -21522,7 +21558,7 @@
           "rows": [
             [
               "1st",
-              "{@spell detect evil and good}, {@spell detect magic}"
+              "{@spell command}, {@spell protection from evil and good}"
             ],
             [
               "3rd",
@@ -21538,7 +21574,7 @@
             ],
             [
               "9th",
-              "{@spell dispel evil and good}, {@spell scrying}"
+              "{@spell dispel evil and good}, {@spell circle of power}"
             ]
           ]
         },
@@ -21608,7 +21644,7 @@
       "entries": [
         "{@i 14th-level Balance Feature}",
         "Whenever you roll without advantage or disadvantage with an attack, saving throw, or ability check you make with a weapon, spell, skill, or tool you add your proficiency bonus to, you can expend a spell slot to gain a bonus to the roll equal to 1 + the level of the spell slot spent. You can only do so a number of times equal to your proficiency bonus, regaining all expended uses after a long rest.",
-        "Alternatively, you can expend a use of your Fateful Divination to add a +4 bonus to the roll. You can only do so once, and regain the ability to do so after a long rest."
+        "Alternatively, you can expend a use of one of your revelation spells to add a +4 bonus to the roll. You can only do so once, and regain the ability to do so after a long rest."
       ],
       "page": 15,
       "header": 2
@@ -21627,6 +21663,248 @@
         "In addition, whenever you change a roll from advantage or disadvantage to a normal roll, you can roll a fate die and regain a number of hit points equal to the number rolled. Rolling a fate die in this way does not expend a use of it."
       ],
       "page": 15,
+      "header": 2
+    },
+    {
+      "name": "Aspect of Mystery",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mystery",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "Fate weavers are always looking on to the past, future, and present for answers to various unknowns. However, sometimes fate is just as mysterious as the origins of the powers that they possess. These mysteries fuel your strength, and finding answers to them makes you even stronger.",
+        "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+        {
+          "type": "table",
+          "caption": "Aspect Spells",
+          "colLabels": [
+            "Fate Weaver Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell detect evil and good}"
+            ],
+            [
+              "3rd",
+              "{@spell zone of truth}"
+            ],
+            [
+              "5th",
+              "{@spell contact ancient spirits|TheAdventuresofTorinCampaignSetting}"
+            ],
+            [
+              "7th",
+              "{@spell divination}"
+            ],
+            [
+              "9th",
+              "{@spell scrying}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Mystery|Fate Weaver|TheAdventuresofTorinCampaignSetting|Mystery|TheAdventuresofTorinCampaignSetting|1"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Mysterious Curse|Fate Weaver|TheAdventuresofTorinCampaignSetting|Mystery|TheAdventuresofTorinCampaignSetting|1"
+        }
+      ],
+      "page": null
+    },
+    {
+      "name": "Mystery",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mystery",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "At 1st level, you’ve learned of a powerful mystery which is the source of your fate weaving. You choose one mystery option, you gain abilities based on the chosen mystery."
+      ],
+      "header": 1,
+      "page": null
+    },
+    {
+      "name": "Mysterious Curse",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mystery",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "Also at 1st level, choose one from a list of mysterious curses which is tied to your powerful mystery. You gain detriments based on the chosen curse, but later on you may awaken even more power. Neither a {@spell remove curse} or a {@spell wish} can permanently remove this curse. A {@spell remove curse} spell has no effect, but a {@spell wish} can suppress the curse for up to an hour."
+      ],
+      "header": 2,
+      "page": null
+    },
+    {
+      "name": "Veil of Mystery",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mystery",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "entries": [
+        "At 6th level, your mysterious powers begin to manifest as you slowly begin to discover more answers to your chosen mystery. As a bonus action, you can release this magical power for 1 minute, granting you temporary hit points equal to 3 times your fate weaver level and you gain one of the following benefits depending on your chosen mystery.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Ancestor",
+              "entries": [
+                "Your physical form changes to resemble features of your ancient ancestor. You have advantage on ability checks using skills in which you add your proficiency bonus to. This transformation lasts for an hour rather than a minute."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Nature",
+              "entries": [
+                "You are considered under the effects of the speak with animals spell. In addition, your physical form becomes more plant or bestial like. While in this form, you can make a special attack in the form of plant-like vines or bestial attacks. Make a melee spell attack with a range of 10 ft. On hit, the attack deals force damage equal to one roll of your fate die plus your Charisma modifier."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Celestial",
+              "entries": [
+                "You assume the form of an angelic version of yourself, giving you spectral wings that give you a flying speed equal to your walking speed. In addition, once a turn when you deal damage with a spell you can deal an additional amount of radiant damage equal to one roll of your fate die."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ancient Lore",
+              "entries": [
+                "Ancient markings appear on your body in the form of runes and your eyes begin to glow with brimming power. You gain a bonus to the damage and healing rolls of your spells equal to your Charisma modifier."
+              ]
+            }
+          ]
+        },
+        "You can manifest this power a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+      ],
+      "page": null,
+      "header": 2
+    },
+    {
+      "name": "Awakening Revelations",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mystery",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "entries": [
+        "At 10th level, you've learned how to harness your revelations to improve your mysterious powers. While your Veil of Mystery is active, you gain one of the following additional benefits based on your chosen mystery option.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Ancestor",
+              "entries": [
+                "Choose one of your skills in which you add your proficiency bonus to, you can double your proficiency bonus for ability checks using the chosen skill. If you roll a 9 or lower on the d20 for an ability check using a skill, you can expend one of your Revelations to treat the number on the d20 as a 10."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Nature",
+              "entries": [
+                "Your movement speed is increased by 10 feet and you ignore difficult terrain. You can expend one of your Revelations as a bonus action to take the dash or disengage actions."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Celestial",
+              "entries": [
+                "You can expend a Revelation as an action to touch a creature and have them regain hit points. Roll a number of fate dice equal to the spell level of the revelation and add your Charisma modifier to the result."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ancient Lore",
+              "entries": [
+                "When you cast a spell of 1st-level or higher using a spell slot, you can expend a Revelation and treat the spell being cast as 1 level higher than the spell slot used."
+              ]
+            }
+          ]
+        }
+      ],
+      "page": null,
+      "header": 2
+    },
+    {
+      "name": "Cursed Awakening",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mystery",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "entries": [
+        "At 14th level, your curse has awakened granting you a boon depending on which curse you chose at 1st level. "
+      ],
+      "page": null,
+      "header": 2
+    },
+    {
+      "name": "True Awakening",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mystery",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 18,
+      "entries": [
+        "At 18th level, you’ve learned the truth behind your chosen Mystery, granting you immense power.",
+        "As a bonus action, you can expend one of your revelations to regain a number of expended fate dice equal to the level of the revelation.",
+        "In addition, you gain one of the following additional benefits based on your chosen mystery option.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Ancestor",
+              "entries": [
+                "When you use your fate weaving on an ability check using a skill you add your proficiency bonus to, instead of spending a fate die you can roll a {@dice d6} instead."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Nature",
+              "entries": [
+                "You are always considered to be under the effects of the {@spell speak with animals} and {@spell speak with plants} spells. A {@spell dispel magic} spell suppresses these effects for 1 hour."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Celestial",
+              "entries": [
+                "You always know if you hear a lie."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ancient Lore",
+              "entries": [
+                "When you use your fate weaving, you can expend a 3rd level or higher spell slot to treat the fate die's roll as a 10. You can choose to do this before or after the roll."
+              ]
+            }
+          ]
+        }
+      ],
+      "page": null,
       "header": 2
     },
     {
@@ -23409,7 +23687,7 @@
         "Fly",
         "Fire Shield",
         "Wall of Fire",
-        "Circle of Power",
+        "flame strike",
         {
           "name": "Immolation",
           "source": "XGE"
@@ -23814,8 +24092,8 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": 15,
       "subclassSpells": [
-        "Detect Evil and Good",
-        "Detect Magic",
+        "command",
+        "protection from evil and good",
         "Detect Thoughts",
         "See Invisibility",
         "Counterspell",
@@ -23826,14 +24104,14 @@
           "source": "XGE"
         },
         "Dispel Evil and Good",
-        "Scrying"
+        "circle of power"
       ],
       "additionalSpells": [
         {
           "prepared": {
             "1": [
-              "detect evil and good",
-              "detect magic"
+              "command",
+              "protection from evil and good"
             ],
             "3": [
               "detect thoughts",
@@ -23849,7 +24127,7 @@
             ],
             "9": [
               "dispel evil and good",
-              "scrying"
+              "circle of power"
             ]
           }
         }
@@ -23860,6 +24138,78 @@
         "Balance of Replenishment|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|10",
         "Boon of Balance|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|14",
         "Balance of the Weave|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting"
+    },
+    {
+      "name": "Aspect of Mystery",
+      "shortName": "Mystery",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "subclassSpells": [
+        "Detect Evil and Good",
+        "Zone of Truth",
+        "Contact Ancient Spirits|TheAdventuresofTorinCampaignSetting",
+        "Divination",
+        "Scrying"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "Detect Evil and Good"
+            ],
+            "3": [
+              "Zone of Truth"
+            ],
+            "5": [
+              "Contact Ancient Spirits|TheAdventuresofTorinCampaignSetting"
+            ],
+            "7": [
+              "Divination"
+            ],
+            "9": [
+              "Scrying"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Aspect of Mystery|Fate Weaver|TheAdventuresofTorinCampaignSetting|Mystery|TheAdventuresofTorinCampaignSetting|1",
+        "Veil of Mystery|Fate Weaver|TheAdventuresofTorinCampaignSetting|Mystery|TheAdventuresofTorinCampaignSetting|6",
+        "Awakening Revelations|Fate Weaver|TheAdventuresofTorinCampaignSetting|Mystery|TheAdventuresofTorinCampaignSetting|10",
+        "Cursed Awakening|Fate Weaver|TheAdventuresofTorinCampaignSetting|Mystery|TheAdventuresofTorinCampaignSetting|14",
+        "True Awakening|Fate Weaver|TheAdventuresofTorinCampaignSetting|Mystery|TheAdventuresofTorinCampaignSetting|18"
+      ],
+      "optionalfeatureProgression": [
+        {
+          "name": "Mystery",
+          "featureType": [
+            "Mystery Option"
+          ],
+          "progression": [
+            1
+          ]
+        },
+        {
+          "name": "Mysterious Curse",
+          "featureType": [
+            "Mysterious Curse"
+          ],
+          "progression": [
+            1
+          ]
+        },
+        {
+          "name": "Curse Boon",
+          "featureType": [
+            "Curse Boon"
+          ],
+          "progression": {
+            "14": 1
+          }
+        }
       ],
       "className": "Fate Weaver",
       "classSource": "TheAdventuresofTorinCampaignSetting"
@@ -28284,6 +28634,350 @@
       ],
       "featureType": [
         "Draconic Power"
+      ]
+    },
+    {
+      "name": "Ancestor",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Mystery Option"
+      ],
+      "entryData": {
+        "languageProficiencies": [
+          {
+            "any": 1
+          }
+        ],
+        "additionalSpells": [
+          {
+            "prepared": {
+              "1": [
+                "comprehend languages"
+              ],
+              "3": [
+                "borrowed knowledge|SCC"
+              ],
+              "5": [
+                "tongues"
+              ],
+              "7": [
+                "locate creature"
+              ],
+              "9": [
+                "skill empowerment|XGE"
+              ]
+            }
+          }
+        ]
+      },
+      "entries": [
+        "Your magic is granted to you by a mysterious ancestor. Perhaps this was a powerful mage, a creature with unique control over fate, or an angel of a god of fate. You don’t know the exact nature of this ancestor, but you know enough to seek answers. Choosing this mystery grants you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You learn how to speak, read, and write one language of your choice. This language can be a secret language, at the discretion between you and the DM.",
+            "You gain proficiency with one weapon, skill, or tool of your choice.",
+            "When a creature benefits from your fate weaving feature, they can record the number rolled on the fate die and use that bonus on their next ability check that uses a skill or tool.",
+            {
+              "type": "entries",
+              "name": "Mystery Spells",
+              "entries": [
+                "You always have the {@spell comprehend languages} spell prepared, and it doesn't count against your total number of spells you have prepared. You prepare more spells in this way when you reach higher levels in this class, preparing {@spell borrowed knowledge|SCC} at 3rd level, {@spell tongues} at 5th level, {@spell locate creature} at 7th level, and {@spell skill empowerment|XGE} at 9th."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nature",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entryData": {
+        "additionalSpells": [
+          {
+            "prepared": {
+              "1": [
+                "animal friendship"
+              ],
+              "3": [
+                "barkskin"
+              ],
+              "5": [
+                "plant growth"
+              ],
+              "7": [
+                "guardian of nature|XGE"
+              ],
+              "9": [
+                "awaken"
+              ]
+            }
+          }
+        ],
+        "skillProficiencies": [
+          {
+            "survival": true
+          }
+        ],
+        "toolProficiencies": [
+          {
+            "herbalism kit": true
+          }
+        ]
+      },
+      "featureType": [
+        "Mystery Option"
+      ],
+      "entries": [
+        "Your magic is granted to you by nature itself, through a god or an innate connection to it, or perhaps an Archfey has blessed you with magic. You don’t know why you have this unique connection to nature, but you have an understanding that there is a greater reason why you have this innate power. Choosing this mystery grants you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency with Survival and with Herbalism Kits. In addition, animals have a basic understanding of what you say when you speak to them, and you can understand their emotions and basic thoughts, though you cannot fully speak with them without the aid of a spell or other similar magic.",
+            "When a creature benefits from your fate weaving feature and is missing any hit points, they can regain a number of hit points equal to the number rolled on the fate die.",
+            {
+              "type": "entries",
+              "name": "Mystery Spells",
+              "entries": [
+                "You always have the {@spell animal friendship} spell prepared, and it doesn't count against your total number of spells you have prepared. You prepare more spells in this way when you reach higher levels in this class, preparing {@spell barkskin} at 3rd level, {@spell plant growth} at 5th level, {@spell guardian of nature|XGE} at 7th level, and {@spell awaken} at 9th."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celestial",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "Your magic is divine and granted to you by a divine creature. Examples are Ki-rins, angels, a deity, etc. You’ve always had a unique attraction to celestial beings, their lore and power of the various domains of the multiverse intrigues you greatly. You are unsure of the specifics which draws your attention to celestials, but you know enough to continue your search for these angelic beings.",
+        {
+          "type": "list",
+          "items": [
+            "You can speak, read, and write Celestial and you gain proficiency with Religion.",
+            "When a creature benefits from your fate weaving, they can choose a creature within 60 feet of them to deal radiant damage to that creature equal to the number rolled on the fate die.",
+            {
+              "type": "entries",
+              "name": "Mystery Spells",
+              "entries": [
+                "You always have the {@spell guiding bolt} spell prepared, and it doesn't count against your total number of spells you have prepared. You prepare more spells in this way when you reach higher levels in this class, preparing {@spell moonbeam} at 3rd level, {@spell crusader's mantle} at 5th level, {@spell guardian of faith} at 7th level, and {@spell holy weapon|XGE} at 9th."
+              ]
+            }
+          ]
+        }
+      ],
+      "featureType": [
+        "Mystery Option"
+      ],
+      "entryData": {
+        "additionalSpells": [
+          {
+            "prepared": {
+              "1": [
+                "guiding bolt"
+              ],
+              "3": [
+                "moonbeam"
+              ],
+              "5": [
+                "crusader's mantle"
+              ],
+              "7": [
+                "guardian of faith"
+              ],
+              "9": [
+                "holy weapon|XGE"
+              ]
+            }
+          }
+        ],
+        "languageProficiencies": [
+          {
+            "celestial": true
+          }
+        ],
+        "skillProficiencies": [
+          {
+            "religion": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ancient Lore",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entryData": {
+        "additionalSpells": [
+          {
+            "prepared": {
+              "1": [
+                "ode of seasons|TheAdventuresofTorinCampaignSetting"
+              ],
+              "3": [
+                "reveal/conceal|TheAdventuresofTorinCampaignSetting"
+              ],
+              "5": [
+                "charity|TheAdventuresofTorinCampaignSetting"
+              ],
+              "7": [
+                "ward of vitality|TheAdventuresofTorinCampaignSetting"
+              ],
+              "9": [
+                "circle of power"
+              ]
+            }
+          }
+        ],
+        "languageProficiencies": [
+          {
+            "choose": {
+              "from": [
+                "celestial",
+                "draconic",
+                "giant",
+                "primoridal",
+                "sylvan"
+              ],
+              "count": 1
+            }
+          }
+        ],
+        "skillProficiencies": [
+          {
+            "religion": true
+          }
+        ]
+      },
+      "featureType": [
+        "Mystery Option"
+      ],
+      "entries": [
+        "Your magic stems from old, maybe even forgotten magic. This magic can stem from powerful creatures, a forgotten society, or even a powerful artifact. This mystery is one you've been researching all your life and have made very little progress on, as this lore is mostly forgotten to the masses.",
+        {
+          "type": "list",
+          "items": [
+            "You can speak, read, and write one of the following languages: Celestial, Draconic, Giant, Primordial, Sylvan, or another language that you and the DM agree upon. In addition, you gain proficiency with Arcana.",
+            "When a creature benefits from your fate weaving, your magic grows stronger. The damage or healing of the next spell you cast gains a bonus to one of the rolls equal to the number rolled on the fate die.",
+            {
+              "type": "entries",
+              "name": "Mystery Spells",
+              "entries": [
+                "You always have the {@spell ode of seasons|TheAdventuresofTorinCampaignSetting} spell prepared, and it doesn't count against your total number of spells you have prepared. You prepare more spells in this way when you reach higher levels in this class, preparing {@spell reveal/conceal|TheAdventuresofTorinCampaignSetting} at 3rd level, {@spell charity|TheAdventuresofTorinCampaignSetting} at 5th level, {@spell ward of vitality|TheAdventuresofTorinCampaignSetting} at 7th level, and {@spell circle of power} at 9th."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blind Seer",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Mysterious Curse"
+      ],
+      "entries": [
+        "You are blind, and can only see to a limited range using your ability of foresight. For the purposes of this, you have blindsight out to a range of 30 feet, but are blind past that point. When you cast a spell or use a fate weaver feature that has a further range than your blindsight, you can make a Wisdom (Perception) check to channel your inner foresight and predict where the target or point of the spell will be, even if the spell requires sight.",
+        "The DC is equal to 10 plus the spell's level, or against the intended target’s Dexterity (Stealth) check, whichever is higher. If the spell requires sight, increase the DC by 5. If you fail, the DM can determine a random target that qualifies for the spell that is outside of the range of your blindsight and within the range of your spell.",
+        {
+          "type": "inset",
+          "entries": [
+            "As a reminder, blindsight qualifies for anything in the D&D rules that requires you to see something, provided that thing is within your blindsight's radius."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boon of the Blinded",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Curse Boon"
+      ],
+      "entries": [
+        "When you gain your Cursed Awakening feature, the range of your blindsight extends out to a range of 60 feet. In addition, you can use an action to treat your blindsight as truesight for 1 hour, though you are still blind past the new range of your blindsight. You can enhance your blindsight in this way once, regaining the ability to do so again when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Haunted",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Mysterious Curse"
+      ],
+      "entries": [
+        "A malevolent spirit haunts your mind constantly, making you paranoid at every turn. The nature of this spirit attempts to halt your progress on trying to discover more about your chosen mystery. This spirit is connected to your soul, and can be seen by creatures under the effects of {@spell detect evil and good spell} or similar magic. You have disadvantage on saving throws against the {@condition frightened} condition and cannot benefit from gaining advantage on saving throws against being {@condition frightened} nor can you be immune to being {@condition frightened}.",
+        "The spirit remains as long as the curse remains, but vanishes temporarily if the curse is suppressed. A {@spell dispel evil and good spell} can also cause the spirit to vanish for one hour, negating the curse temporarily until it returns."
+      ]
+    },
+    {
+      "name": "Boon of the Haunted",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Curse Boon"
+      ],
+      "entries": [
+        "When you gain your Cursed Awakening feature, you no longer have disadvantage on saving throws made to resist being {@condition frightened}, but you still cannot gain advantage nor be immune to being {@condition frightened}. In addition, you have advantage on Charisma (Intimidation) checks and when a creature fails a saving throw against one of your fate weaver spells, they become frightened for 1 minute, or until the spell ends, whichever ends last."
+      ]
+    },
+    {
+      "name": "Blackened",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Mysterious Curse"
+      ],
+      "entries": [
+        "Parts of your body are shriveled and blackened, as if you had been plunged into a blazing fire, and your thin, papery skin is sensitive to the touch. When you take fire damage you take an extra amount of damage equal to your proficiency bonus and you cannot gain resistance or immunity to fire damage. If it was granted by your race, you lose that resistance or immunity. You learn the {@spell firebolt} cantrip and it doesn't count against your total number of fate weaver cantrips."
+      ],
+      "entryData": {
+        "additionalSpells": [
+          {
+            "prepared": {
+              "1": [
+                "fire bolt"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Boon of the Blackened",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Curse Boon"
+      ],
+      "entries": [
+        "When you gain your Cursed Awakening feature, you always have the {@spell burning hands} and {@spell burning touch|TheAdventuresofTorinCampaignSetting} spells prepared and can cast them at their lowest levels without expending a spell slot each once without expending a spell slot."
+      ],
+      "entryData": {
+        "additionalSpells": [
+          {
+            "prepared": {
+              "14": [
+                "burning hands",
+                "burning touch|TheAdventuresofTorinCampaignSetting"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Forgotten",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Mysterious Curse"
+      ],
+      "entries": [
+        "People find it difficult to remember who you are, their memories of you often clouded and inconsistent. Outside of creatures that travel with you, you are easily forgotten by other creatures that have only briefly seen you. These creatures have a -10 penalty on Intelligence checks made to remember who you are, including your own family and friends, provided they are not currently traveling with you. They have to make a check each time they interact with you, or every 24 hours you have not interacted with them until they fail, at which point they forget who you are."
+      ]
+    },
+    {
+      "name": "Boon of the Forgotten",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Curse Boon"
+      ],
+      "entries": [
+        "When you gain your Cursed Awakening feature, you can use a bonus action to make a creature that you can see forget who you are completely and even forget you were standing right there in front of them, turning {@condition invisible} for that creature for the next minute. Each time you cast a spell or attack them with a weapon, they can make a Wisdom saving throw against your spell save DC, ending your invisibility on a success. You can use this feature once, regaining the ability to use it again when you finish a long rest."
       ]
     }
   ],
