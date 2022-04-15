@@ -16,7 +16,10 @@
       }
     ],
     "dateAdded": 1638480074,
-    "dateLastModified": 1638480074
+    "dateLastModified": 1638480074,
+    "internalCopies": [
+      "item"
+    ]
   },
   "variant": [
     {
@@ -731,104 +734,6 @@
       ]
     },
     {
-      "name": "The Blade of The Neverending Storm, Ragnarok",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "page": null,
-      "baseItem": "katana",
-      "type": "M",
-      "rarity": "artifact",
-      "reqAttune": true,
-      "sentient": true,
-      "weight": 1,
-      "weaponCategory": "martial",
-      "property": [
-        "T",
-        "F",
-        "L",
-        "V"
-      ],
-      "range": "40/80",
-      "dmg1": "1d8",
-      "dmg2": "1d10",
-      "dmgType": "S",
-      "bonusWeapon": "+1",
-      "weapon": true,
-      "entries": [
-        "Legends tell of a blade as old as the world itself, some say as old as time. Before creation comes ruin, and ruin is what created this weapon. Forged by a mortal with the power of the Gods of Old in the eye of a never-ending storm, let no evil touch this blade; lest you bring ruin and the end of all things. This weapon has been an heirloom in the Blade Family for countless generations, its name given by its original owner, Ragnarok. The Blade family is a long line of heroes that focuses on compassion and love to all walks of life. Striking down the unredeemable ones, hoping they are reborn better. Lending a hand to those in need, to those who seek redemption, and to those that cannot protect themselves.",
-        "A powerful hum can be heard from the weapon. A creature that meditates in front of the blade will hear the ambience of a thunderstorm, and may even see visions of a powerful hero that now lies dormant within the blade. The blade itself radiates electricity with the might of a dragon.",
-        {
-          "type": "entries",
-          "name": "Spirit of Ragnarok",
-          "entries": [
-            "A voice can be heard from the blade from time to time. While attuned with the weapon you can communicate with the spirit inside the blade, Ragnarok. Ragnarok is a genius with magic, and knows just about anything about it. No matter how hard, rare, or impossible the magic may be to know, he knows about it to some degree. Though, unless absolutely necessary he will not share all of his knowledge. The most cursed of magic he’ll keep to himself unless encountered with it, or if a weakness needs to be known. Ragnarok is kind and benevolent. If he finds that his wielder becomes tainted or cursed, he will ensure that they either become pure again, or grants them a swift painless death so they no longer suffer from the sins they would regret later in life.",
-            "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Primordial."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Deadly",
-          "entries": [
-            "This weapon cannot be used non-lethally and will always count as a killing strike."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Dormant",
-          "entries": [
-            "The katana grants the following benefits in its dormant state:",
-            {
-              "type": "list",
-              "items": [
-                "You can speak, read, and write Auran and Draconic.",
-                "You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d8 lightning damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand. You can also call the weapon using a bonus action.",
-                "{@b Lightning Absorption.} As a reaction, whenever you are targeted by a spell, magical effect, or attack (not originating from you) that would deal lightning damage, you can instead reduce that damage to 0, and regain hit points equal to the original amount. This property can’t be used again until the next dawn.",
-                "You can spend an action to cast the fly spell but only targeting yourself. This property cannot be used again until the next dawn."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Awakened",
-          "entries": [
-            "When the katana reaches an awakened state, it gains the following properties:",
-            {
-              "type": "list",
-              "items": [
-                "The weapon's bonus to attack and damage rolls increases to +2, and the extra lightning damage dealt by the weapon increases to 2d8.",
-                "The lightning absorption property can be used twice before the next dawn.",
-                "This weapon counts as a {@item Staff of Thunder and Lightning|DMG}, gaining its properties.",
-                "While holding the katana, you can use an action to cast one of the following spells from it (save DC 17, +9 to hit): {@spell lightning bolt} (6th level), {@spell chain lightning}, {@spell storm sphere|XGE}, or {@spell call lightning} (6th level). You can use your own spellcasting ability if you have one when casting these spells. Once a spell has been cast using the katana, that spell can't be cast from the katana again until the next dawn."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Exalted",
-          "entries": [
-            "When the katana reaches an exalted state, it gains the following properties:",
-            {
-              "type": "list",
-              "items": [
-                "The weapon's bonus to attack and damage rolls increases to +3.",
-                "The lightning absorption property can be used three times before the next dawn.",
-                "The saving throw DC for the weapon's special properties and spells cast from the weapon increases to 19 and the spell attack becomes + 11.",
-                "While holding the katana, you can use an action to cast {@spell control weather} from it. You can use your own spellcasting ability if you have one when casting these spells."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "inset",
-          "name": "Artifact Properties",
-          "entries": [
-            "While attuned to Ragnarok in its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains a {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
-          ]
-        }
-      ]
-    },
-    {
       "name": "The Bow of Judgement, Yumiko",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
@@ -1114,6 +1019,152 @@
             "In its dormant state, the wierlder gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} properties and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the item reaches its exalted state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} and {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
           ]
         }
+      ]
+    },
+    {
+      "name": "The Blade of The Neverending Storm (Dormant)",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "baseItem": "Katana|TheAdventuresofTorinCampaignSetting",
+      "type": "M",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "sentient": true,
+      "weight": 1,
+      "weaponCategory": "martial",
+      "property": [
+        "T",
+        "F",
+        "L",
+        "V",
+        "Dead"
+      ],
+      "range": "20/60",
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "dmg2": "1d10",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "Legends tell of a blade as old as the world itself, some say as old as time. Before creation comes ruin, and ruin is what created this weapon. Forged by a mortal with the power of the Gods of Old in the eye of a never-ending storm, let no evil touch this blade; lest you bring ruin and the end of all things. This weapon has been an heirloom in the Blade Family for countless generations, its name given by its original owner, Ragnarok. The Blade family is a long line of heroes that focuses on compassion and love to all walks of life. Striking down the unredeemable ones, hoping they are reborn better. Lending a hand to those in need, to those who seek redemption, and to those that cannot protect themselves.",
+        "A powerful hum can be heard from the weapon. A creature that meditates in front of the blade will hear the ambience of a thunderstorm, and may even see visions of a powerful hero that now lies dormant within the blade. The blade itself radiates electricity with the might of a dragon.",
+        {
+          "type": "entries",
+          "name": "Spirit of Ragnarok",
+          "entries": [
+            "A voice can be heard from the blade from time to time. While attuned with the weapon you can communicate with the spirit inside the blade, Ragnarok. Ragnarok is a genius with magic, and knows just about anything about it. No matter how hard, rare, or impossible the magic may be to know, he knows about it to some degree. Though, unless absolutely necessary he will not share all of his knowledge. The most cursed of magic he’ll keep to himself unless encountered with it, or if a weakness needs to be known. Ragnarok is kind and benevolent. If he finds that his wielder becomes tainted or cursed, he will ensure that they either become pure again, or grants them a swift painless death so they no longer suffer from the sins they would regret later in life.",
+            "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Primordial."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dormant",
+          "entries": [
+            "The katana grants the following benefits in its dormant state:",
+            {
+              "type": "list",
+              "items": [
+                "You can speak, read, and write Auran and Draconic.",
+                "You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d8 lightning damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand. You can also call the weapon using a bonus action.",
+                "{@b Lightning Absorption.} As a reaction, whenever you are targeted by a spell, magical effect, or attack (not originating from you) that would deal lightning damage, you can instead reduce that damage to 0, and regain hit points equal to the original amount. This property can’t be used again until the next dawn.",
+                "You can spend an action to cast the {@spell fly} spell but only targeting yourself. This property cannot be used again until the next dawn."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Heroic Weapon Artifact Properties",
+          "entries": [
+            "While attuned to this artifact in its dormant state, the attuned creature gains one {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property and one {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. When the artifact attains an awakened state, it gains an additional {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial} property. When the artifact reaches its exalted state, it gains a {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} property. See \"Artifact Properties\" in chapter 7 of the Dungeon Master's Guide for more information."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "{@spell fly}"
+      ]
+    },
+    {
+      "name": "The Blade of The Neverending Storm (Awakened)",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "bonusWeapon": "+2",
+      "_copy": {
+        "name": "The Blade of The Neverending Storm (Dormant)",
+        "source": "TheAdventuresofTorinCampaignSetting",
+        "_mod": {
+          "entries": [
+            {
+              "mode": "appendArr",
+              "items": {
+                "entries": [
+                  {
+                    "name": "Awakened",
+                    "type": "entries",
+                    "entries": [
+                      "When the katana reaches an awakened state, you gain the following benefits:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "The weapon's bonus to attack and damage rolls increases to +2, and the extra lightning damage dealt by the weapon increases to {@damage 2d8}.",
+                          "This weapon counts as a Staff of Thunder and Lightning, gaining its properties, but keeping its original statistics.",
+                          "While holding the katana, you can use an action to cast one of the following spells from it (save DC 17, +9 to hit): {@spell lightning bolt} (6th level), {@spell chain lightning}, {@spell storm sphere|XGE}, or {@spell call lightning} (6th level). You can use your own spellcasting ability if you have one when casting these spells. Once a spell has been cast using the katana, that spell can't be cast from the katana again until the next dawn."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "_preserve": {
+          "page": true,
+          "fluff": true
+        }
+      },
+      "attachedSpells": [
+        "{@spell lightning bolt}",
+        "{@spell chain lightning}",
+        "{@spell storm sphere|XGE}",
+        "{@spell call lightning}"
+      ]
+    },
+    {
+      "name": "The Blade of The Neverending Storm (Exalted)",
+      "page": null,
+      "_copy": {
+        "name": "The Blade of The Neverending Storm (Awakened)",
+        "source": "TheAdventuresofTorinCampaignSetting",
+        "_mod": {
+          "entries": {
+            "mode": "appendArr",
+            "items": {
+              "type": "entries",
+              "name": "Exalted",
+              "entries": [
+                "When the katana reaches an exalted state, it gains the following properties:",
+                {
+                  "type": "list",
+                  "items": [
+                    "The weapon's bonus to attack and damage rolls increases to +3.",
+                    "The lightning absorption property can be used three times before the next dawn.",
+                    "The saving throw DC for the weapon's special properties and spells cast from the weapon increases to 19 and the spell attack becomes + 11.",
+                    "While holding the katana, you can use an action to cast {@spell control weather} from it. You can use your own spellcasting ability if you have one when casting these spells."
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "_preserve": {
+          "page": true
+        }
+      },
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "bonusWeapon": "+3",
+      "attachedSpells": [
+        "{@spell control weather}"
       ]
     },
     {
@@ -1454,27 +1505,6 @@
       "wondrous": true,
       "entries": [
         "You gain a +1 bonus to AC and saving throws while you wear these robes. You have resistance to poison damage.",
-        "In addition, while not wearing armor you are always under the effects of the {@spell mage armor} spell."
-      ]
-    },
-    {
-      "name": "Robe of Thunderous Defense",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "page": null,
-      "tier": "major",
-      "resist": [
-        "thunder"
-      ],
-      "rarity": "very rare",
-      "reqAttune": "by a spellcaster",
-      "reqAttuneTags": [
-        {
-          "spellcasting": true
-        }
-      ],
-      "wondrous": true,
-      "entries": [
-        "You gain a +1 bonus to AC and saving throws while you wear these robes. You have resistance to thunder damage",
         "In addition, while not wearing armor you are always under the effects of the {@spell mage armor} spell."
       ]
     },
@@ -2202,6 +2232,27 @@
       "recharge": "dawn"
     },
     {
+      "name": "Robe of Thunderous Defense",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "tier": "major",
+      "resist": [
+        "thunder"
+      ],
+      "rarity": "very rare",
+      "reqAttune": "by a spellcaster",
+      "reqAttuneTags": [
+        {
+          "spellcasting": true
+        }
+      ],
+      "wondrous": true,
+      "entries": [
+        "You gain a +1 bonus to AC and saving throws while you wear these robes. You have resistance to thunder damage",
+        "In addition, while not wearing armor you are always under the effects of the {@spell mage armor} spell."
+      ]
+    },
+    {
       "name": "Pan Flute of Summoning",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
@@ -2577,6 +2628,65 @@
         "Robe of Shocking Defense|TheAdventuresofTorinCampaignSetting",
         "Robe of Toxic Defense|TheAdventuresofTorinCampaignSetting",
         "Robe of Thunderous Defense|TheAdventuresofTorinCampaignSetting"
+      ]
+    },
+    {
+      "name": "The Blade of The Neverending Storm",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "baseItem": "Katana|TheAdventuresofTorinCampaignSetting",
+      "type": "M",
+      "rarity": "artifact",
+      "reqAttune": true,
+      "sentient": true,
+      "weight": 2,
+      "weaponCategory": "martial",
+      "range": "20/60",
+      "property": [
+        "T",
+        "F",
+        "L",
+        "V",
+        "Dead"
+      ],
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "dmg2": "1d10",
+      "weapon": true,
+      "entries": [
+        "Legends tell of a blade as old as the world itself, some say as old as time. Before creation comes ruin, and ruin is what created this weapon. Forged by a mortal with the power of the Gods of Old in the eye of a never-ending storm, let no evil touch this blade; lest you bring ruin and the end of all things. This weapon has been an heirloom in the Blade Family for countless generations, its name given by its original owner, Ragnarok. The Blade family is a long line of heroes that focuses on compassion and love to all walks of life. Striking down the unredeemable ones, hoping they are reborn better. Lending a hand to those in need, to those who seek redemption, and to those that cannot protect themselves.",
+        "A powerful hum can be heard from the weapon. A creature that meditates in front of the blade will hear the ambience of a thunderstorm, and may even see visions of a powerful hero that now lies dormant within the blade. The blade itself radiates electricity with the might of a dragon.",
+        {
+          "type": "entries",
+          "name": "Spirit of Ragnarok",
+          "entries": [
+            "A voice can be heard from the blade from time to time. While attuned with the weapon you can communicate with the spirit inside the blade, Ragnarok. Ragnarok is a genius with magic, and knows just about anything about it. No matter how hard, rare, or impossible the magic may be to know, he knows about it to some degree. Though, unless absolutely necessary he will not share all of his knowledge. The most cursed of magic he’ll keep to himself unless encountered with it, or if a weakness needs to be known. Ragnarok is kind and benevolent. If he finds that his wielder becomes tainted or cursed, he will ensure that they either become pure again, or grants them a swift painless death so they no longer suffer from the sins they would regret later in life.",
+            "The weapon communicates telepathically with its wielder and can speak, read, and understand Common, Draconic, and Primordial."
+          ]
+        }
+      ],
+      "items": [
+        "The Blade of The Neverending Storm (Dormant)|TheAdventuresofTorinCampaignSetting",
+        "The Blade of The Neverending Storm (Awakened)|TheAdventuresofTorinCampaignSetting",
+        "The Blade of The Neverending Storm (Exalted)|TheAdventuresofTorinCampaignSetting"
+      ]
+    }
+  ],
+  "itemProperty": [
+    {
+      "abbreviation": "Dead",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "name": "Deadly",
+      "page": null,
+      "entriesTemplate": [
+        {
+          "type": "entries",
+          "name": "Deadly",
+          "page": null,
+          "entries": [
+            "This weapon cannot be used non-lethally when making a melee attack with it."
+          ]
+        }
       ]
     }
   ],
@@ -14029,6 +14139,698 @@
           "type": "section"
         }
       ]
+    },
+    {
+      "name": "Rogue",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "dex",
+        "int"
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "light"
+        ],
+        "weapons": [
+          "simple",
+          "{@item hand crossbow|phb|hand crossbows}",
+          "{@item longsword|phb|longswords}",
+          "{@item rapier|phb|rapiers}",
+          "{@item shortsword|phb|shortswords}"
+        ],
+        "tools": [
+          "{@item thieves' tools|PHB}"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "athletics",
+                "deception",
+                "insight",
+                "intimidation",
+                "investigation",
+                "perception",
+                "performance",
+                "persuasion",
+                "sleight of hand",
+                "stealth"
+              ],
+              "count": 4
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
+          "(a) a {@item shortbow|phb} and {@item quiver|phb} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
+          "(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
+          "{@item Leather armor|phb}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+        ],
+        "goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+        "defaultData": [
+          {
+            "a": [
+              "rapier|phb"
+            ],
+            "b": [
+              "shortsword|phb"
+            ]
+          },
+          {
+            "a": [
+              "shortbow|phb",
+              "arrows (20)|phb"
+            ],
+            "b": [
+              "shortsword|phb"
+            ]
+          },
+          {
+            "a": [
+              "burglar's pack|phb"
+            ],
+            "b": [
+              "dungeoneer's pack|phb"
+            ],
+            "c": [
+              "explorer's pack|phb"
+            ]
+          },
+          {
+            "_": [
+              "Leather armor|phb",
+              {
+                "item": "dagger|phb",
+                "quantity": 2
+              },
+              "thieves' tools|phb"
+            ]
+          }
+        ]
+      },
+      "multiclassing": {
+        "requirements": {
+          "dex": 13
+        },
+        "proficienciesGained": {
+          "armor": [
+            "light"
+          ],
+          "skills": [
+            {
+              "choose": {
+                "from": [
+                  "acrobatics",
+                  "athletics",
+                  "deception",
+                  "insight",
+                  "intimidation",
+                  "investigation",
+                  "perception",
+                  "performance",
+                  "persuasion",
+                  "sleight of hand",
+                  "stealth"
+                ],
+                "count": 1
+              }
+            }
+          ],
+          "tools": [
+            "{@item thieves' tools|PHB}"
+          ]
+        }
+      },
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Sneak Attack"
+          ],
+          "rows": [
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 1,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 1,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 1,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 2,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 2,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 2,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 3,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 3,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 3,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 4,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 4,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 4,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Expertise|Rogue|TheAdventuresofTorinCampaignSetting|1",
+        "Sneak Attack|Rogue|TheAdventuresofTorinCampaignSetting|1",
+        "Thieves' Cant|Rogue|TheAdventuresofTorinCampaignSetting|1",
+        "Cunning Action|Rogue|TheAdventuresofTorinCampaignSetting|2",
+        {
+          "classFeature": "Roguish Archetype|Rogue|TheAdventuresofTorinCampaignSetting|3",
+          "gainSubclassFeature": true
+        },
+        "Steady Aim|Rogue|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
+        "Ability Score Improvement|Rogue|TheAdventuresofTorinCampaignSetting|4",
+        "Uncanny Dodge|Rogue|TheAdventuresofTorinCampaignSetting|5",
+        "Improved Critical|Rogue|TheAdventuresofTorinCampaignSetting|5",
+        {
+          "classFeature": "Roguish Archetype feature|Rogue|TheAdventuresofTorinCampaignSetting|6",
+          "gainSubclassFeature": true
+        },
+        "Evasion|Rogue|TheAdventuresofTorinCampaignSetting|7",
+        "Ability Score Improvement|Rogue|TheAdventuresofTorinCampaignSetting|8",
+        "Expertise|Rogue|TheAdventuresofTorinCampaignSetting|9",
+        "Improved Critical (18-20)|Rogue|TheAdventuresofTorinCampaignSetting|9",
+        {
+          "classFeature": "Roguish Archetype feature|Rogue|TheAdventuresofTorinCampaignSetting|10",
+          "gainSubclassFeature": true
+        },
+        "Reliable Talent|Rogue|TheAdventuresofTorinCampaignSetting|11",
+        "Ability Score Improvement|Rogue|TheAdventuresofTorinCampaignSetting|12",
+        "Improved Critical (17-20)|Rogue|TheAdventuresofTorinCampaignSetting|13",
+        {
+          "classFeature": "Roguish Archetype feature|Rogue|TheAdventuresofTorinCampaignSetting|14",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Rogue|TheAdventuresofTorinCampaignSetting|16",
+        "Improved Critical (16-20)|Rogue|TheAdventuresofTorinCampaignSetting|17",
+        "Ability Score Improvement|Rogue|TheAdventuresofTorinCampaignSetting|19",
+        "Stroke of Luck|Rogue|TheAdventuresofTorinCampaignSetting|20",
+        "Improved Critical (15-20)|Rogue|TheAdventuresofTorinCampaignSetting|20"
+      ],
+      "subclassTitle": "Roguish Archetype",
+      "fluff": [
+        {
+          "name": "Rogue",
+          "type": "section",
+          "entries": [
+            "Signaling for her companions to wait, a halfling creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools and picks the lock in the blink of an eye. Then she disappears into the shadows as her fighter friend moves forward to kick the door open.",
+            "A human lurks in the shadows of an alley while his accomplice prepares for her part in the ambush. When their target—a notorious slaver—passes the alleyway, the accomplice cries out, the slaver comes to investigate, and the assassin's blade cuts his throat before he can make a sound.",
+            "Suppressing a giggle, a gnome waggles her fingers and magically lifts the key ring from the guard's belt. In a moment, the keys are in her hand, the cell door is open, and she and her companions are free to make their escape.",
+            "Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.",
+            {
+              "type": "entries",
+              "name": "Skill and Precision",
+              "entries": [
+                "Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them a broad expertise that few other characters can match. Many rogues focus on stealth and deception, while others refine the skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.",
+                "When it comes to combat, rogues prioritize cunning over brute strength. A rogue would rather make one precise strike, placing it exactly where the attack will hurt the target most, than wear an opponent down with a barrage of attacks. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "A Shady Living",
+              "entries": [
+                "Every town and city has its share of rogues. Most of them live up to the worst stereotypes of the class, making a living as burglars, assassins, cutpurses, and con artists. Often, these scoundrels are organized into thieves' guilds or crime families. Plenty of rogues operate independently, but even they sometimes recruit apprentices to help them in their scams and heists. A few rogues make an honest living as locksmiths, investigators, or exterminators, which can be a dangerous job in a world where dire rats—and wererats—haunt the sewers.",
+                "As adventurers, rogues fall on both sides of the law. Some are hardened criminals who decide to seek their fortune in treasure hoards, while others take up a life of adventure to escape from the law. Some have learned and perfected their skills with the explicit purpose of infiltrating ancient ruins and hidden crypts in search of treasure."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Creating a Rogue",
+              "entries": [
+                "As you create your rogue character, consider the character's relationship to the law. Do you have a criminal past—or present? Are you on the run from the law or from an angry thieves' guild master? Or did you leave your guild in search of bigger risks and bigger rewards? Is it greed that drives you in your adventures, or some other desire or ideal?",
+                "What was the trigger that led you away from your previous life? Did a great con or heist gone terribly wrong cause you to reevaluate your career? Maybe you were lucky and a successful robbery gave you the coin you needed to escape the squalor of your life. Did wanderlust finally call you away from your home? Perhaps you suddenly found yourself cut off from your family or your mentor, and you had to find a new means of support. Or maybe you made a new friend—another member of your adventuring party—who showed you new possibilities for earning a living and employing your particular talents.",
+                {
+                  "type": "entries",
+                  "name": "Quick Build",
+                  "entries": [
+                    "You can make a rogue quickly by following these suggestions. First, Dexterity should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation or plan to take up the Arcane Trickster archetype. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the {@background charlatan} background."
+                  ]
+                }
+              ]
+            }
+          ],
+          "page": null,
+          "source": "TheAdventuresofTorinCampaignSetting"
+        },
+        {
+          "type": "section",
+          "entries": [
+            {
+              "type": "quote",
+              "entries": [
+                "People forget that the entire point of venturing down into a dusty tomb is to bring back the prizes hidden away there. Fighting is for fools. Dead men can't spend their fortunes."
+              ],
+              "by": "Barnabas Bladecutter"
+            },
+            "When brute force won't get the job done, or when magic isn't available or appropriate, the rogue rises to the fore. With skills tied to stealth, subterfuge, and trickery, rogues can get into and out of trouble in ways that few other characters can emulate.",
+            "Some rogues who turn to adventuring are former criminals who have decided that dodging monsters is preferable to remaining one step ahead of the law. Others are professional killers in search of a profitable application of their talents between contracts. Some simply love the thrill of overcoming any challenge that stands in their way.",
+            "On adventures, a rogue is likely to mix an outwardly cautious approach—few rogues enjoy combat—with a ravenous hunger for loot. Most of the time, in a rogue's mind, taking up arms against a creature is not about killing the creature but about becoming the new owner of its treasure.",
+            "The following sections explore certain facets of what it means to be a rogue, which you can use to add depth to your character.",
+            {
+              "type": "entries",
+              "name": "Guilty Pleasures",
+              "entries": [
+                "Most of what rogues do revolves around obtaining treasure and preventing others from doing the same. Little gets in the way of attaining those goals, except that many rogues are enticed away from that path by a compulsion that clouds their thinking—an irresistible need that must be satisfied, even if doing so is risky.",
+                "A rogue's guilty pleasure could be the acquisition of a physical item, something to be experienced, or a way of conducting oneself at certain times. One rogue might not be able to pass up any loot made of silver, for instance, even if said loot is hanging around the neck of a castle guard. Another one can't go through a day in the city without lifting a purse or two, just to keep in practice.",
+                "What's the one form of temptation that your rogue character can't resist when the opportunity presents itself, even if giving into it might mean trouble for you and your companions?",
+                {
+                  "type": "table",
+                  "caption": "Guilty Pleasures",
+                  "colLabels": [
+                    "{@dice d6}",
+                    "Pleasure"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center",
+                    "col-11"
+                  ],
+                  "rows": [
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 1
+                        }
+                      },
+                      "Large gems"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 2
+                        }
+                      },
+                      "A smile from a pretty face"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 3
+                        }
+                      },
+                      "A new ring for your finger"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 4
+                        }
+                      },
+                      "The chance to deflate someone's ego"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 5
+                        }
+                      },
+                      "The finest food and drink"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 6
+                        }
+                      },
+                      "Adding to your collection of exotic coins"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Adversaries",
+              "entries": [
+                "Naturally, those who enforce the law are bound to come up against those who break it, and it's the rare rogue who isn't featured on at least one wanted poster. Beyond that, it's in the nature of their profession that rogues often come into contact with criminal elements, whether out of choice or necessity. Some of those people can be adversaries too, and they're likely to be harder to deal with than the average member of the city watch.",
+                "If your character's backstory doesn't already include a personage of this sort, you could work with your DM to come up with a reason why an adversary has appeared in your life. Perhaps you've been the subject of scrutiny for a while from someone who wants to use you for nefarious purposes and has just now become known to you. Such an incident could be the basis for an upcoming adventure.",
+                "Does your rogue character have an adversary who also happens to be a criminal? If so, how is this relationship affecting your life?",
+                {
+                  "type": "table",
+                  "caption": "Adversaries",
+                  "colLabels": [
+                    "{@dice d6}",
+                    "Adversary"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center",
+                    "col-11"
+                  ],
+                  "rows": [
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 1
+                        }
+                      },
+                      "The pirate captain on whose ship you once served; what you call moving on, the captain calls mutiny"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 2
+                        }
+                      },
+                      "A master spy to whom you unwittingly fed bad information, which led to the assassination of the wrong target"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 3
+                        }
+                      },
+                      "The master of the local thieves' guild, who wants you to join the organization or leave town"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 4
+                        }
+                      },
+                      "An art collector who uses illegal means to acquire masterpieces"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 5
+                        }
+                      },
+                      "A fence who uses you as a messenger to set up illicit meetings"
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 6
+                        }
+                      },
+                      "The proprietor of an illegal pit fighting arena where you once took bets"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Benefactor",
+              "entries": [
+                "Few rogues make it far in life before needing someone's help, which means thereafter owing that benefactor a significant debt.",
+                "If your character's backstory doesn't already include a personage of this sort, you could work with your DM to determine why a benefactor has appeared in your life. Perhaps you benefited from something your benefactor did for you without realizing who was responsible, and that person has now just become known to you. Who helped you in the past, whether or not you knew it at the time, and what do you owe that person as recompense?",
+                {
+                  "type": "table",
+                  "caption": "Benefactors",
+                  "colLabels": [
+                    "{@dice d6}",
+                    "Benefactor"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center",
+                    "col-11"
+                  ],
+                  "rows": [
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 1
+                        }
+                      },
+                      "A smuggler kept you from getting caught but lost a valuable shipment in doing so. Now you owe that person an equally valuable favor."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 2
+                        }
+                      },
+                      "The Beggar King has hidden you from your pursuers many times, in return for future considerations."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 3
+                        }
+                      },
+                      "A magistrate once kept you out of jail in return for information on a powerful crime lord."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 4
+                        }
+                      },
+                      "Your parents used their savings to bail you out of trouble in your younger days and are now destitute."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 5
+                        }
+                      },
+                      "A dragon didn't eat you when it had a chance, and in return you promised to set aside choice pieces of treasure for it."
+                    ],
+                    [
+                      {
+                        "type": "cell",
+                        "roll": {
+                          "exact": 6
+                        }
+                      },
+                      "A druid once helped you out of a tight spot; now any random animal you see could be that benefactor, perhaps come to claim a return favor."
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "page": 44,
+          "source": "XGE"
+        }
+      ]
     }
   ],
   "classFeature": [
@@ -14167,19 +14969,6 @@
       "page": 2
     },
     {
-      "name": "Revelation",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "className": "Fate Weaver",
-      "classSource": "TheAdventuresofTorinCampaignSetting",
-      "level": 3,
-      "entries": [
-        "As a manipulator of fate and magic, you have dreams of the past, present, and futures which reveal to you various magical secrets. When you reach 3rd level, choose from one of the schools of magic, then choose a 1st and a 2nd level spell from the chosen school of magic. The spell does not have to be from the fate weaver spellcasting list. When you gain a level in this class, you can replace one of the spells chosen from this revelation that is of the same level and from the same school of magic. You can replace your chosen school of magic for these revelations when you gain an ability score improvement in this class, replacing all of your spells accordingly.",
-        "The chosen spells count as fate weaver spells for you and you can cast them once each without expending a spell slot, regaining the ability to cast that spell again in the same way when you finish a long rest. You cannot cast these spells using your spell slots. You do not require material components when you cast the spell, unless it is specified in the spell’s description.",
-        "You receive more revelations when you reach certain levels in this class, gaining one at 7th level, another at 11th level, and a final one at 15th level."
-      ],
-      "page": 2
-    },
-    {
       "name": "Ability Score Improvement",
       "source": "TheAdventuresofTorinCampaignSetting",
       "className": "Fate Weaver",
@@ -14234,6 +15023,19 @@
         "At 10th level, you gain a feature granted by your Aspect of Fate."
       ],
       "page": ""
+    },
+    {
+      "name": "Revelation",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "As a manipulator of fate and magic, you have dreams of the past, present, and futures which reveal to you various magical secrets. When you reach 3rd level, choose from one of the schools of magic, then choose a 1st and a 2nd level spell from the chosen school of magic. The spell does not have to be from the fate weaver spellcasting list. When you gain a level in this class, you can replace one of the spells chosen from this revelation that is of the same level and from the same school of magic. You can replace your chosen school of magic for these revelations when you gain an ability score improvement in this class, replacing all of your spells accordingly.",
+        "The chosen spells count as fate weaver spells for you and you can cast them once each without expending a spell slot, regaining the ability to cast that spell again in the same way when you finish a long rest. You cannot cast these spells using your spell slots. You do not require material components when you cast the spell, unless it is specified in the spell’s description.",
+        "You receive more revelations when you reach certain levels in this class, gaining one at 7th level, another at 11th level, and a final one at 15th level."
+      ],
+      "page": 2
     },
     {
       "name": "Revelation (4th level)",
@@ -14581,6 +15383,365 @@
         "At 20th level, you gain a feature granted by your Draconic Archetype."
       ],
       "page": ""
+    },
+    {
+      "name": "Martial Arts",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "level": 1,
+      "isClassFeatureVariant": true,
+      "entries": [
+        "{@i 1st-level monk {@variantrule optional class features|tce|optional feature}}, which replaces the Martial Arts feature",
+        "Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
+        "You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
+        {
+          "type": "list",
+          "items": [
+            "You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons. In addition, your unarmed strikes also count as simple weapons.",
+            "You can roll a d6 in place of the normal damage of your unarmed strike or monk weapon. This is known as your martial arts die. This die changes as you gain monk levels, becoming a d8 at 5th level, a d10 at 11th level, and a d12 at 17th level.",
+            "When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+          ]
+        },
+        "Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama)."
+      ]
+    },
+    {
+      "name": "Martial Style",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "level": 1,
+      "isClassFeatureVariant": true,
+      "entries": [
+        "{@i 1st-level monk {@variantrule optional class features|tce|optional feature}}",
+        "At 1st level, you can choose a particular style of martial arts which plays into how you fight and defend yourself against foes. Some styles focus more on defensive fighting while others focus on overpowering your foes.",
+        "Whenever you reach a level that grants the Ability Score Improvement feature, you can replace a style with another one that you don't have.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Crane Style|TheAdventuresofTorinCampaignSetting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Dragon Style|TheAdventuresofTorinCampaignSetting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Monkey Style|TheAdventuresofTorinCampaignSetting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Snake Style|TheAdventuresofTorinCampaignSetting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Tiger Style|TheAdventuresofTorinCampaignSetting"
+            },
+            {
+              "type": "refOptionalfeature",
+              "optionalfeature": "Wolf Style|TheAdventuresofTorinCampaignSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enlightenment",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Monk",
+      "classSource": "PHB",
+      "level": 20,
+      "isClassFeatureVariant": true,
+      "entries": [
+        "{@i 20th-level monk {@variantrule optional class features|tce|optional feature}}, which replaces the Perfect Self feature and alters the Diamond Soul feature",
+        "Beginning at 20th level, you’ve ascended to peak enlightenment, granting you mastery over ki. As an action, you can regain a number of ki equal to one roll of your martial arts die plus your  Wisdom modifier. You can use this action once, regaining the ability to do so again after you finish a long rest.",
+        "In addition, your mastery of ki grants you proficiency in all saving throws.",
+        "{@i Diamond Soul's text is altered to the following: Beginning at 14th level, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.}"
+      ]
+    },
+    {
+      "name": "Expertise",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item thieves' tools|phb}}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+        "At 9th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}}) to gain this benefit."
+      ]
+    },
+    {
+      "name": "Sneak Attack",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
+        "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
+        "The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.",
+        "If you were hidden from the target, or if the target was surprised, the extra damage from your sneak attack increases by 1d6."
+      ]
+    },
+    {
+      "name": "Thieves' Cant",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
+        "In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
+      ]
+    },
+    {
+      "name": "Cunning Action",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 2,
+      "entries": [
+        "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+      ]
+    },
+    {
+      "name": "Roguish Archetype",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 6th, 10th, and 14th level."
+      ]
+    },
+    {
+      "name": "Steady Aim",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "{@i 3rd-level rogue {@variantrule optional class features|TheAdventuresofTorinCampaignSetting|optional feature}}",
+        "As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 4,
+      "entries": [
+        "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+        "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Uncanny Dodge",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 5,
+      "entries": [
+        "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+      ]
+    },
+    {
+      "name": "Improved Critical",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 5,
+      "entries": [
+        "Beginning at 5th level, your training with weapons requiring particularly steady and precise attacks makes you adept at pinpointing weak points that you can further exploit. If you meet the requirements for your sneak attack feature, the first attack you make on your turn with a finesse or ranged weapon scores a critical hit on a roll of 19 or 20.",
+        "At higher levels, this critical threshold increases, allowing you to score a critical hit on a roll of 18-20 at 9th level, 17-20 at 13th level, 16-20 at 14th level, and 15-20 at 20th level."
+      ]
+    },
+    {
+      "name": "Roguish Archetype feature",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "entries": [
+        "At 10th level, you gain a feature granted by your Roguish Archetype."
+      ],
+      "className": "Rogue"
+    },
+    {
+      "name": "Evasion",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 7,
+      "entries": [
+        "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail, provided you are not {@condition incapacitated}."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 8,
+      "entries": [
+        "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+        "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Expertise",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 9,
+      "entries": [
+        "At 9th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}}) to gain the benefit of Expertise."
+      ]
+    },
+    {
+      "name": "Improved Critical (18-20)",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 9,
+      "entries": [
+        "Your critical threshold range increases to 18-20."
+      ]
+    },
+    {
+      "name": "Roguish Archetype feature",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "entries": [
+        "At 10th level, you gain a feature granted by your Roguish Archetype."
+      ]
+    },
+    {
+      "name": "Reliable Talent",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 11,
+      "entries": [
+        "By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+      ],
+      "page": null
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 12,
+      "entries": [
+        "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+        "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Improved Critical (17-20)",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 13,
+      "entries": [
+        "Your critical threshold range increases to 17-20."
+      ]
+    },
+    {
+      "name": "Roguish Archetype feature",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "entries": [
+        "at 14th level, you gain a feature granted by your Roguish Archetype."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 16,
+      "entries": [
+        "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+        "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Improved Critical (16-20)",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 17,
+      "entries": [
+        "Your critical threshold range increases to 16-20."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 19,
+      "entries": [
+        "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+        "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+      ]
+    },
+    {
+      "name": "Stroke of Luck",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 20,
+      "entries": [
+        "At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
+        "Once you use this feature, you can't use it again until you finish a short or long rest."
+      ]
+    },
+    {
+      "name": "Improved Critical (15-20)",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 20,
+      "entries": [
+        "Your critical threshold range increases to 15-20."
+      ]
     }
   ],
   "subclassFeature": [
@@ -18613,11 +19774,72 @@
       ]
     },
     {
+      "name": "The Blood Witch",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": "",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Blood Witch",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 1,
+      "entries": [
+        "Said to be the first to unlock this ancient form of fiendish magic, The Blood Witch is a very mysterious entity with a sort of mastery over blood magic. Where she acquired it from exactly is still unknown, as are many things about her. Some that have met her have claimed her to be a deity, while others refer to her as a false god with an exaggerated ego. She is revered by cultists as the first and one true master of the blood arts, while many see her as a stepping stone into their own wicked ascension."
+      ]
+    },
+    {
+      "name": "Expanded Spell List",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "The Blood Witch",
+      "level": 1,
+      "entries": [
+        "{@i 1st-level The Blood Witch feature}",
+        "The Blood Witch lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        {
+          "type": "table",
+          "caption": "Expanded Spell List",
+          "colLabels": [
+            "Spell Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9 text- "
+          ],
+          "rows": [
+            [
+              "1st",
+              "{@spell Color Spray|PHB}, {@spell Inflict Wounds|PHB}"
+            ],
+            [
+              "2nd",
+              "{@spell Magic Mouth|PHB}, {@spell See Invisibility|PHB}"
+            ],
+            [
+              "3rd",
+              "{@spell Bestow Curse|PHB}, {@spell Life Transference|XGE}"
+            ],
+            [
+              "4th",
+              "{@spell Confusion|PHB}, {@spell Polymorph|PHB}"
+            ],
+            [
+              "5th",
+              "{@spell Geas|PHB}, {@spell Modify Memory}"
+            ]
+          ]
+        }
+      ],
+      "header": 1
+    },
+    {
       "name": "Bleeding Knife",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
@@ -18657,7 +19879,7 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
@@ -18673,7 +19895,7 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
@@ -18689,7 +19911,7 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 3,
@@ -18699,8 +19921,8 @@
       "type": "entries",
       "name": "Blood Talents",
       "entries": [
-        "{@i 9th-level Bleeding Knife feature}",
-        "Your occultic studies grants you various magical abilities, of which you can use at the cost of your own vitality. These blood talents can have a wide range of abilities, like casting spells for instance. You choose two Blood Talents to learn. If a Blood Talent casts a spell, you use intelligence for its spellcasting ability and you can only cast that spell at its lowest level unless otherwise specified. You learn an additional Blood Talent at 13th, 17th, and 20th levels.",
+        "{@i 6th-level Bleeding Knife feature}",
+        "Your occultic studies grants you various magical abilities, of which you can use at the cost of your own vitality. These blood talents can have a wide range of abilities, like casting spells for instance. You choose two Blood Talents to learn. If a Blood Talent casts a spell, you use intelligence for its spellcasting ability and you can only cast that spell at its lowest level unless otherwise specified. You learn an additional Blood Talent at 10th, 14th, and 18th levels.",
         {
           "type": "options",
           "count": 2,
@@ -18811,17 +20033,17 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
-      "level": 9,
+      "level": 6,
       "header": 2
     },
     {
       "type": "entries",
       "name": "Hemomatic Expert",
       "entries": [
-        "{@i 13th-level Bleeding Knife feature}",
+        "{@i 10th-level Bleeding Knife feature}",
         "The following options are added to your Hemomancy feature:",
         {
           "type": "options",
@@ -18846,17 +20068,17 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
-      "level": 13,
+      "level": 10,
       "header": 2
     },
     {
       "type": "entries",
       "name": "Additional Blood Talents",
       "entries": [
-        "{@i 13th-level Bleeding Knife feature}",
+        "{@i 10th-level Bleeding Knife feature}",
         "The following options are added to your Hemomancy feature:",
         {
           "type": "options",
@@ -18870,16 +20092,6 @@
               ],
               "featureType": [
                 "Blood Talent"
-              ],
-              "prerequisite": [
-                {
-                  "level": {
-                    "level": 13,
-                    "class": {
-                      "name": "Rogue"
-                    }
-                  }
-                }
               ]
             },
             {
@@ -18891,16 +20103,6 @@
               ],
               "featureType": [
                 "Blood Talent"
-              ],
-              "prerequisite": [
-                {
-                  "level": {
-                    "level": 13,
-                    "class": {
-                      "name": "Rogue"
-                    }
-                  }
-                }
               ]
             },
             {
@@ -18912,16 +20114,6 @@
               ],
               "featureType": [
                 "Blood Talent"
-              ],
-              "prerequisite": [
-                {
-                  "level": {
-                    "level": 13,
-                    "class": {
-                      "name": "Rogue"
-                    }
-                  }
-                }
               ]
             },
             {
@@ -18933,16 +20125,6 @@
               ],
               "featureType": [
                 "Blood Talent"
-              ],
-              "prerequisite": [
-                {
-                  "level": {
-                    "level": 13,
-                    "class": {
-                      "name": "Rogue"
-                    }
-                  }
-                }
               ]
             },
             {
@@ -18954,16 +20136,6 @@
               ],
               "featureType": [
                 "Blood Talent"
-              ],
-              "prerequisite": [
-                {
-                  "level": {
-                    "level": 13,
-                    "class": {
-                      "name": "Rogue"
-                    }
-                  }
-                }
               ]
             },
             {
@@ -18975,16 +20147,6 @@
               ],
               "featureType": [
                 "Blood Talent"
-              ],
-              "prerequisite": [
-                {
-                  "level": {
-                    "level": 13,
-                    "class": {
-                      "name": "Rogue"
-                    }
-                  }
-                }
               ]
             },
             {
@@ -18996,16 +20158,6 @@
               ],
               "featureType": [
                 "Blood Talent"
-              ],
-              "prerequisite": [
-                {
-                  "level": {
-                    "level": 13,
-                    "class": {
-                      "name": "Rogue"
-                    }
-                  }
-                }
               ]
             }
           ]
@@ -19014,17 +20166,17 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
-      "level": 13,
+      "level": 10,
       "header": 2
     },
     {
       "type": "entries",
       "name": "Blood Assassin",
       "entries": [
-        "{@i 17th-level Bleeding Knife feature}",
+        "{@i 14th-level Bleeding Knife feature}",
         "You’ve mastered the art of hemomancy and have fully incorporated it into your everyday talents. You regain half of your spent hemomancy dice whenever you finish a short rest. ",
         "Using your mastery over Hemomancy, whenever you deal damage using your Hemomatic Takedown you can impose a deadly strike to a creature whose CR is equal to or lower than your own.",
         "The affected creature makes a Constitution saving throw against your Hemomancy Save DC. On a failed save, the creature takes necrotic damage equal to your Rogue level and the next Hemomatic Takedown deals and is incapacitated until the end of your next turn. On a success, the creature takes necrotic damage equal to half your rogue level and is not incapacitated.",
@@ -19033,72 +20185,11 @@
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": "",
       "className": "Rogue",
-      "classSource": "PHB",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
       "subclassShortName": "Bleeding Knife",
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
-      "level": 17,
-      "header": 1
-    },
-    {
-      "name": "The Blood Witch",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "page": "",
-      "className": "Warlock",
-      "classSource": "PHB",
-      "subclassShortName": "The Blood Witch",
-      "subclassSource": "TheAdventuresofTorinCampaignSetting",
-      "level": 1,
-      "entries": [
-        "Said to be the first to unlock this ancient form of fiendish magic, The Blood Witch is a very mysterious entity with a sort of mastery over blood magic. Where she acquired it from exactly is still unknown, as are many things about her. Some that have met her have claimed her to be a deity, while others refer to her as a false god with an exaggerated ego. She is revered by cultists as the first and one true master of the blood arts, while many see her as a stepping stone into their own wicked ascension."
-      ]
-    },
-    {
-      "name": "Expanded Spell List",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "className": "Warlock",
-      "classSource": "PHB",
-      "subclassSource": "TheAdventuresofTorinCampaignSetting",
-      "subclassShortName": "The Blood Witch",
-      "level": 1,
-      "entries": [
-        "{@i 1st-level The Blood Witch feature}",
-        "The Blood Witch lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-        {
-          "type": "table",
-          "caption": "Expanded Spell List",
-          "colLabels": [
-            "Spell Level",
-            "Spell"
-          ],
-          "colStyles": [
-            "col-3 text-center",
-            "col-9 text- "
-          ],
-          "rows": [
-            [
-              "1st",
-              "{@spell Color Spray|PHB}, {@spell Inflict Wounds|PHB}"
-            ],
-            [
-              "2nd",
-              "{@spell Magic Mouth|PHB}, {@spell See Invisibility|PHB}"
-            ],
-            [
-              "3rd",
-              "{@spell Bestow Curse|PHB}, {@spell Life Transference|XGE}"
-            ],
-            [
-              "4th",
-              "{@spell Confusion|PHB}, {@spell Polymorph|PHB}"
-            ],
-            [
-              "5th",
-              "{@spell Geas|PHB}, {@spell Modify Memory}"
-            ]
-          ]
-        }
-      ],
-      "header": 1
+      "level": 14,
+      "header": 2
     },
     {
       "name": "Hemomancy",
@@ -23451,6 +24542,1064 @@
       "subclassSource": "TheAdventuresofTorinCampaignSetting",
       "level": 14,
       "header": 2
+    },
+    {
+      "name": "Soul Blades",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Soulknife feature}",
+        "Your Psychic Blades are now an expression of your psi-suffused soul, giving you these powers that use your Psionic Energy dice:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Homing Strikes|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|6"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Psychic Teleportation|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcane Trickster",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Arcane Trickster",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Spellcasting|Rogue|TheAdventuresofTorinCampaignSetting|Arcane Trickster|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Mage Hand Legerdemain|Rogue|TheAdventuresofTorinCampaignSetting|Arcane Trickster|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Mage Hand Legerdemain",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Arcane Trickster",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, when you cast {@spell mage hand}, you can make the spectral hand {@condition invisible}, and you can perform the following additional tasks with it:",
+        {
+          "type": "list",
+          "items": [
+            "You can stow one object the hand is holding in a container worn or carried by another creature.",
+            "You can retrieve an object in a container worn or carried by another creature.",
+            "You can use {@item thieves' tools|phb} to pick locks and disarm traps at range."
+          ]
+        },
+        "You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ({@skill Sleight of Hand}) check contested by the creature's Wisdom ({@skill Perception}) check.",
+        "In addition, you can use the bonus action granted by your Cunning Action to control the hand."
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Arcane Trickster",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|TheAdventuresofTorinCampaignSetting|10} for the general rules of spellcasting and {@book chapter 11|TheAdventuresofTorinCampaignSetting|11} for the {@filter wizard spell list|spells|class=wizard}.",
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Cantrips",
+              "entries": [
+                "You learn three cantrips: {@spell mage hand} and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Spell Slots",
+              "entries": [
+                "The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your {@filter wizard spells|spells|class=wizard} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                "For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Spells Known of 1st-Level and Higher",
+              "entries": [
+                "You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.",
+                "The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+                "The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
+                "Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Spellcasting Ability",
+              "entries": [
+                "Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+                {
+                  "type": "abilityDc",
+                  "name": "Spell",
+                  "attributes": [
+                    "int"
+                  ]
+                },
+                {
+                  "type": "abilityAttackMod",
+                  "name": "Spell",
+                  "attributes": [
+                    "int"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Magical Ambush",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Arcane Trickster",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Starting at 6th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn."
+      ]
+    },
+    {
+      "name": "Versatile Trickster",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Arcane Trickster",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "At 10th level, you gain the ability to distract targets with your {@spell mage hand}. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn."
+      ]
+    },
+    {
+      "name": "Spell Thief",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Arcane Trickster",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "At 14th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.",
+        "Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
+        "Once you use this feature, you can't use it again until you finish a long rest."
+      ]
+    },
+    {
+      "name": "Assassin",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Assassin",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "You focus your training on the grim art of death. Those who adhere to this archetype are diverse—hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
+        "Your archetype grants you features at 3rd level and then again at 6th, 10th, and 14th level.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Assassinate|Rogue|TheAdventuresofTorinCampaignSetting|Assassin|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bonus Proficiencies|Rogue|TheAdventuresofTorinCampaignSetting|Assassin|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Assassinate",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Assassin",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit."
+      ]
+    },
+    {
+      "name": "Bonus Proficiencies",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Assassin",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you choose this archetype at 3rd level, you gain proficiency with the {@item disguise kit|phb} and the {@item poisoner's kit|phb}."
+      ]
+    },
+    {
+      "name": "Infiltration Expertise",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Assassin",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Starting at 6th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.",
+        "Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to."
+      ]
+    },
+    {
+      "name": "Impostor",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Assassin",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "At 10th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.",
+        "Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma ({@skill Deception}) check you make to avoid detection."
+      ]
+    },
+    {
+      "name": "Death Strike",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Assassin",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Starting at 14th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature."
+      ]
+    },
+    {
+      "name": "Thief",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Thief",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Fast Hands|Rogue|TheAdventuresofTorinCampaignSetting|Thief|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Second-Story Work|Rogue|TheAdventuresofTorinCampaignSetting|Thief|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Fast Hands",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Thief",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity ({@skill Sleight of Hand}) check, use your {@item thieves' tools|phb}} to disarm a trap or open a lock, or take the {@action Use an Object} action."
+      ]
+    },
+    {
+      "name": "Second-Story Work",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Thief",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.",
+        "In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier."
+      ]
+    },
+    {
+      "name": "Supreme Sneak",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Thief",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Starting at 6th level, you have advantage on a Dexterity ({@skill Stealth}) check if you move no more than half your speed on the same turn."
+      ]
+    },
+    {
+      "name": "Use Magic Device",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Thief",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "By 10th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items."
+      ]
+    },
+    {
+      "name": "Thief's Reflexes",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Thief",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "When you reach 14th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised."
+      ]
+    },
+    {
+      "name": "Phantom",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Phantom",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "Many rogues walk a fine line between life and death, risking their own lives and taking the lives of others. While adventuring on that line, some rogues discover a mystical connection to death itself. These rogues take knowledge from the dead and become immersed in negative energy, eventually becoming like ghosts. Thieves' guilds value them as highly effective information gatherers and spies.",
+        "Many shadar-kai of the Shadowfell are masters of these macabre techniques, and some are willing to teach this path. In places like Thay in the Forgotten Realms and Karrnath in Eberron, where many necromancers practice their craft, a Phantom can become a wizard's confidant and right hand. In temples of gods of death, the Phantom might work as an agent to track down those who try to cheat death and to recover knowledge that might otherwise be lost to the grave.",
+        "How did you discover this grim power? Did you sleep in a graveyard and awaken to your new abilities? Or did you cultivate them in a temple or thieves' guild dedicated to a deity of death?",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Whispers of the Dead|Rogue|TheAdventuresofTorinCampaignSetting|Phantom|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Wails from the Grave|Rogue|TheAdventuresofTorinCampaignSetting|Phantom|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Wails from the Grave",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Phantom",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i 3rd-level Phantom feature}",
+        "As you nudge someone closer to the grave, you can channel the power of death to harm someone else as well. Immediately after you deal your Sneak Attack damage to a creature on your turn, you can target a second creature that you can see within 30 feet of the first creature. Roll half the number of Sneak Attack dice for your level (round up), and the second creature takes necrotic damage equal to the roll's total, as wails of the dead sound around them for a moment.",
+        "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Whispers of the Dead",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Phantom",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i 3rd-level Phantom feature}",
+        "Echoes of those who have died cling to you. Whenever you finish a short or long rest, you can choose one skill or tool proficiency that you lack and gain it, as a ghostly presence shares its knowledge with you. You lose this proficiency when you use this feature to choose a different proficiency that you lack."
+      ]
+    },
+    {
+      "name": "Tokens of the Departed",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Phantom",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "{@i 6th-level Phantom feature}",
+        "When a life ends in your presence, you're able to snatch a token from the departing soul, a sliver of its life essence that takes physical form: as a reaction when a creature you can see dies within 30 feet of you, you can open your free hand and cause a Tiny trinket to appear there, a soul trinket. The DM determines the trinket's form or has you roll on the {@item Trinket|TheAdventuresofTorinCampaignSetting|Trinkets} table in the {@i Player's Handbook} to generate it. You can have a maximum number of soul trinkets equal to your proficiency bonus, and you can't create one while at your maximum.",
+        "You can use soul trinkets in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "While a soul trinket is on your person, you have advantage on death saving throws and Constitution saving throws, for your vitality is enhanced by the life essence within the object.",
+            "When you deal Sneak Attack damage on your turn, you can destroy one of your soul trinkets that's on your person and then immediately use Wails from the Grave, without expending a use of that feature.",
+            "As an action, you can destroy one of your soul trinkets, no matter where it's located. When you do so, you can ask the spirit associated with the trinket one question. The spirit appears to you and answers in a language it knew in life. It's under no obligation to be truthful, and it answers as concisely as possible, eager to be free. The spirit knows only what it knew in life, as determined by the DM."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ghost Walk",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Phantom",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "{@i 10th-level Phantom feature}",
+        "You can phase partially into the realm of the dead, becoming like a ghost. As a bonus action, you assume a spectral form. While in this form, you have a flying speed of 10 feet, you can hover, and attack rolls have disadvantage against you. You can also move through creatures and objects as if they were difficult terrain, but you take {@damage 1d10} force damage if you end your turn inside a creature or an object.",
+        "You stay in this form for 10 minutes or until you end it as a bonus action. To use this feature again, you must finish a long rest or destroy one of your soul trinkets as part of the bonus action you use to activate Ghost Walk."
+      ]
+    },
+    {
+      "name": "Death's Friend",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Phantom",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Phantom feature}",
+        "Your association with death has become so close that you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "When you use your Wails from the Grave, you can deal the necrotic damage to both the first and the second creature.",
+            "At the end of a long rest, a soul trinket appears in your hand if you don't have any soul trinkets, as the spirits of the dead are drawn to you."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soulknife",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "Most assassins strike with physical weapons, and many burglars and spies use {@item thieves' tools|phb} to infiltrate secure locations. In contrast, a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves' guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business. Most governments would also be happy to employ a Soulknife as a spy.",
+        "Amid the trees of ancient forests on the Material Plane and in the Feywild, some wood elves walk the path of the Soulknife, serving as silent, lethal guardians of their woods. In the endless war among the gith, a githzerai is encouraged to become a Soulknife when stealth is required against the githyanki foe.",
+        "As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their full potential as you experienced the stress of adventure. Or you might have sought out a reclusive order of psychic adepts and spent years learning how to manifest your power.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Psionic Power|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Psychic Blades|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Power",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i 3rd-level Soulknife feature}",
+        "You harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a {@dice d6}. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.",
+        "Some of your powers expend the Psionic Energy die they use, as specified in a power's description, and you can't use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Psionic Energy die, but you can't do so again until you finish a short or long rest.",
+        "When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12}).",
+        "The powers below use your Psionic Energy dice.",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Psi-Bolstered Knack|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|3"
+            },
+            {
+              "type": "refSubclassFeature",
+              "subclassFeature": "Psychic Whispers|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psychic Blades",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i 3rd-level Soulknife feature}",
+        "You can manifest your psionic power as shimmering blades of psychic energy. Whenever you take the {@action Attack} action, you can manifest a psychic blade from your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals psychic damage equal to {@dice 1d6} plus the ability modifier you used for the attack roll. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage.",
+        "After you attack with the blade, you can make a melee or ranged weapon attack with a second psychic blade as a bonus action on the same turn, provided your other hand is free to create it. The damage die of this bonus attack is {@dice 1d4}, instead of {@dice 1d6}."
+      ]
+    },
+    {
+      "name": "Inquisitive",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Inquisitive",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your keen deductions make you well equipped to expose and end hidden evils.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Ear for Deceit|Rogue|TheAdventuresofTorinCampaignSetting|Inquisitive|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Eye for Detail|Rogue|TheAdventuresofTorinCampaignSetting|Inquisitive|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Insightful Fighting|Rogue|TheAdventuresofTorinCampaignSetting|Inquisitive|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Ear for Deceit",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Inquisitive",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you choose this archetype at 3rd level, you develop a talent for picking out lies. Whenever you make a Wisdom ({@skill Insight}) check to determine whether a creature is lying, treat a roll of 7 or lower on the {@dice d20} as an 8."
+      ]
+    },
+    {
+      "name": "Eye for Detail",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Inquisitive",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, you can use a bonus action to make a Wisdom ({@skill Perception}) check to spot a hidden creature or object or to make an Intelligence ({@skill Investigation}) check to uncover or decipher clues."
+      ]
+    },
+    {
+      "name": "Insightful Fighting",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Inquisitive",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Wisdom ({@skill Insight}) check against a creature you can see that isn't {@condition incapacitated}, contested by the target's Charisma ({@skill Deception}) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.",
+        "This benefit lasts for 1 minute or until you successfully use this feature against a different target."
+      ]
+    },
+    {
+      "name": "Steady Eye",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Inquisitive",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Starting at 6th level, you have advantage on any Wisdom ({@skill Perception}) or Intelligence ({@skill Investigation}) check if you move no more than half your speed on the same turn."
+      ]
+    },
+    {
+      "name": "Unerring Eye",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Inquisitive",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Beginning at 10th level, your senses are almost impossible to foil. As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren't {@condition blinded} or {@condition deafened}. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.",
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+      ]
+    },
+    {
+      "name": "Eye for Weakness",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Inquisitive",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "at 14th level, you learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Insightful Fighting feature applies to a creature, your Sneak Attack damage against that creature increases by {@dice 3d6}."
+      ]
+    },
+    {
+      "name": "Mastermind",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mastermind",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Master of Intrigue|Rogue|TheAdventuresofTorinCampaignSetting|Mastermind|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Master of Tactics|Rogue|TheAdventuresofTorinCampaignSetting|Mastermind|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Master of Intrigue",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mastermind",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you choose this archetype at 3rd level, you gain proficiency with the {@item disguise Kit|phb}, the {@item forgery kit|phb}, and one {@item gaming set|phb} of your choice. You also learn two languages of your choice.",
+        "Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, provided that you know the language."
+      ]
+    },
+    {
+      "name": "Master of Tactics",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mastermind",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, you can use the {@action Help} action as a bonus action. Additionally, when you use the {@action Help} action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you."
+      ]
+    },
+    {
+      "name": "Insightful Manipulator",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mastermind",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Starting at 6th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
+        {
+          "type": "list",
+          "items": [
+            "Intelligence score",
+            "Wisdom score",
+            "Charisma score",
+            "Class levels (if any)"
+          ]
+        },
+        "At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any."
+      ]
+    },
+    {
+      "name": "Misdirection",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mastermind",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Beginning at 10th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
+      ]
+    },
+    {
+      "name": "Soul of Deceit",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Mastermind",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Starting at 14th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by succeeding on a Charisma ({@skill Deception}) check contested by the mind reader's Wisdom ({@skill Insight}) check.",
+        "Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful if you so choose, and you can't be compelled to tell the truth by magic."
+      ]
+    },
+    {
+      "name": "Scout",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Scout",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter—these are just a few of the roles that Scouts assume as they range the world.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Skirmisher|Rogue|TheAdventuresofTorinCampaignSetting|Scout|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Survivalist|Rogue|TheAdventuresofTorinCampaignSetting|Scout|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Skirmisher",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Scout",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks."
+      ]
+    },
+    {
+      "name": "Survivalist",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Scout",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} and {@skill Survival} skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
+      ]
+    },
+    {
+      "name": "Superior Mobility",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Scout",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "At 6th level, your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well."
+      ]
+    },
+    {
+      "name": "Ambush Master",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Scout",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Starting at 10th level, you excel at leading ambushes and acting first in a fight.",
+        "You have advantage on initiative rolls. In addition, the first creature you hit during the first round of a combat becomes easier for you and others to strike; attack rolls against that target have advantage until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Sudden Strike",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Scout",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Starting at 14th level, you can strike with deadly speed. If you take the {@action Attack} action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn."
+      ]
+    },
+    {
+      "name": "Swashbuckler",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Swashbuckler",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.",
+        "A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Fancy Footwork|Rogue|TheAdventuresofTorinCampaignSetting|Swashbuckler|TheAdventuresofTorinCampaignSetting|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Rakish Audacity|Rogue|TheAdventuresofTorinCampaignSetting|Swashbuckler|TheAdventuresofTorinCampaignSetting|3"
+        }
+      ]
+    },
+    {
+      "name": "Fancy Footwork",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Swashbuckler",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn."
+      ]
+    },
+    {
+      "name": "Rakish Audacity",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Swashbuckler",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, your confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.",
+        "You also gain an additional way to use your Sneak {@action Attack}; you don't need advantage on your attack roll to use Sneak {@action Attack} against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll. All the other rules for Sneak {@action Attack} still apply to you."
+      ]
+    },
+    {
+      "name": "Panache",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Swashbuckler",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "At 6th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma ({@skill Persuasion}) check contested by a creature's Wisdom ({@skill Insight}) check. The creature must be able to hear you, and the two of you must share a language.",
+        "If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.",
+        "If you succeed on the check and the creature isn't hostile to you, it is {@condition charmed} by you for 1 minute. While {@condition charmed}, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it."
+      ]
+    },
+    {
+      "name": "Elegant Maneuver",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Swashbuckler",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Starting at 10th level, you can use a bonus action on your turn to gain advantage on the next Dexterity ({@skill Acrobatics}) or Strength ({@skill Athletics}) check you make during the same turn."
+      ]
+    },
+    {
+      "name": "Master Duelist",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Swashbuckler",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Beginning at 14th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest."
+      ]
+    },
+    {
+      "name": "Psi-Bolstered Knack",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "consumes": {
+        "name": "Psionic Energy Dice"
+      },
+      "entries": [
+        "When your nonpsionic training fails you, your psionic power can help: if you fail an ability check using a skill or tool with which you have proficiency, you can roll one Psionic Energy die and add the number rolled to the check, potentially turning failure into success. You expend the die only if the roll succeeds."
+      ]
+    },
+    {
+      "name": "Psychic Whispers",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 3,
+      "entries": [
+        "You can establish telepathic communication between yourself and others-perfect for quiet infiltration. As an action, choose one or more creatures you can see, up to a number of creatures equal to your proficiency bonus, and then roll one Psionic Energy die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other.",
+        "The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die."
+      ]
+    },
+    {
+      "name": "Homing Strikes",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "entries": [
+        "If you make an attack roll with your Psychic Blades and miss the target, you can roll one Psionic Energy die and add the number rolled to the attack roll. If this causes the attack to hit, you expend the Psionic Energy die."
+      ]
+    },
+    {
+      "name": "Psychic Teleportation",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 6,
+      "entries": [
+        "As a bonus action, you manifest one of your Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space you can see, up to a number of feet away equal to 10 times the number rolled. You then teleport to that space, and the blade vanishes."
+      ]
+    },
+    {
+      "name": "Psychic Veil",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "{@i 10th-level Soulknife feature}",
+        "You can weave a veil of psychic static to mask yourself. As an action, you can magically become {@condition invisible}, along with anything you are wearing or carrying, for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw.",
+        "Once you use this feature, you can't do so again until you finish a long rest, unless you expend a Psionic Energy die to use this feature again."
+      ]
+    },
+    {
+      "name": "Rend Mind",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "subclassShortName": "Soulknife",
+      "subclassSource": "TheAdventuresofTorinCampaignSetting",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "{@i 14th-level Soulknife feature}",
+        "You can sweep your Psychic Blades directly through a creature's mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). If the save fails, the target is {@condition stunned} for 1 minute. The {@condition stunned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "Once you use this feature, you can't do so again until you finish a long rest, unless you expend three Psionic Energy dice to use it again."
+      ]
     }
   ],
   "subclass": [
@@ -23970,6 +26119,62 @@
       "classSource": "TheAdventuresofTorinCampaignSetting"
     },
     {
+      "name": "Aspect of The Balance",
+      "shortName": "The Balance",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": 15,
+      "subclassSpells": [
+        "command",
+        "protection from evil and good",
+        "Detect Thoughts",
+        "See Invisibility",
+        "Counterspell",
+        "Dispel Magic",
+        "Arcane Eye",
+        {
+          "name": "Elemental Bane",
+          "source": "XGE"
+        },
+        "Dispel Evil and Good",
+        "circle of power"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "1": [
+              "command",
+              "protection from evil and good"
+            ],
+            "3": [
+              "detect thoughts",
+              "see invisibility"
+            ],
+            "5": [
+              "counterspell",
+              "dispelmagic"
+            ],
+            "7": [
+              "arcane eye",
+              "elemental bane|XGE"
+            ],
+            "9": [
+              "dispel evil and good",
+              "circle of power"
+            ]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Aspect of The Balance|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|1",
+        "Detriment of Chaos|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|6",
+        "Balance of Replenishment|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|10",
+        "Boon of Balance|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|14",
+        "Balance of the Weave|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|18"
+      ],
+      "className": "Fate Weaver",
+      "classSource": "TheAdventuresofTorinCampaignSetting"
+    },
+    {
       "name": "Aspect of The Void",
       "shortName": "The Void",
       "source": "TheAdventuresofTorinCampaignSetting",
@@ -24082,62 +26287,6 @@
             ]
           }
         }
-      ],
-      "className": "Fate Weaver",
-      "classSource": "TheAdventuresofTorinCampaignSetting"
-    },
-    {
-      "name": "Aspect of The Balance",
-      "shortName": "The Balance",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "page": 15,
-      "subclassSpells": [
-        "command",
-        "protection from evil and good",
-        "Detect Thoughts",
-        "See Invisibility",
-        "Counterspell",
-        "Dispel Magic",
-        "Arcane Eye",
-        {
-          "name": "Elemental Bane",
-          "source": "XGE"
-        },
-        "Dispel Evil and Good",
-        "circle of power"
-      ],
-      "additionalSpells": [
-        {
-          "prepared": {
-            "1": [
-              "command",
-              "protection from evil and good"
-            ],
-            "3": [
-              "detect thoughts",
-              "see invisibility"
-            ],
-            "5": [
-              "counterspell",
-              "dispelmagic"
-            ],
-            "7": [
-              "arcane eye",
-              "elemental bane|XGE"
-            ],
-            "9": [
-              "dispel evil and good",
-              "circle of power"
-            ]
-          }
-        }
-      ],
-      "subclassFeatures": [
-        "Aspect of The Balance|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|1",
-        "Detriment of Chaos|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|6",
-        "Balance of Replenishment|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|10",
-        "Boon of Balance|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|14",
-        "Balance of the Weave|Fate Weaver|TheAdventuresofTorinCampaignSetting|The Balance|TheAdventuresofTorinCampaignSetting|18"
       ],
       "className": "Fate Weaver",
       "classSource": "TheAdventuresofTorinCampaignSetting"
@@ -24385,6 +26534,23 @@
       "classSource": "PHB"
     },
     {
+      "name": "Bleeding Knife",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "shortName": "Bleeding Knife",
+      "subclassFeatures": [
+        "Bleeding Knife|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
+        "Hemomatic Takedown|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
+        "Hemomancy|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
+        "Occultic Studies|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
+        "Blood Talents|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|6|TheAdventuresofTorinCampaignSetting",
+        "Hemomatic Expert|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|10|TheAdventuresofTorinCampaignSetting",
+        "Additional Blood Talents|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|10|TheAdventuresofTorinCampaignSetting",
+        "Blood Assassin|Rogue|TheAdventuresofTorinCampaignSetting|Bleeding Knife|TheAdventuresofTorinCampaignSetting|14|TheAdventuresofTorinCampaignSetting"
+      ]
+    },
+    {
       "name": "Blood Warrior",
       "subclassFeatures": [
         "Blood Knight|Fighter||Blood Knight|TheAdventuresofTorinCampaignSetting|3",
@@ -24400,23 +26566,6 @@
       "shortName": "Blood Knight",
       "className": "Fighter",
       "classSource": "PHB"
-    },
-    {
-      "name": "Bleeding Knife",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "className": "Rogue",
-      "classSource": "PHB",
-      "shortName": "Bleeding Knife",
-      "subclassFeatures": [
-        "Bleeding Knife|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
-        "Hemomatic Takedown|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
-        "Hemomancy|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
-        "Occultic Studies|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|3|TheAdventuresofTorinCampaignSetting",
-        "Blood Talents|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|9|TheAdventuresofTorinCampaignSetting",
-        "Hemomatic Expert|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|13|TheAdventuresofTorinCampaignSetting",
-        "Additional Blood Talents|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|13|TheAdventuresofTorinCampaignSetting",
-        "Blood Assassin|Rogue||Bleeding Knife|TheAdventuresofTorinCampaignSetting|17|TheAdventuresofTorinCampaignSetting"
-      ]
     },
     {
       "name": "School of Blood Magic",
@@ -25488,6 +27637,432 @@
       "className": "Dragon Warrior",
       "classSource": "TheAdventuresofTorinCampaignSetting",
       "page": ""
+    },
+    {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "spellcastingAbility": "int",
+      "casterProgression": "1/3",
+      "cantripProgression": [
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "spellsKnownProgression": [
+        0,
+        0,
+        3,
+        4,
+        4,
+        4,
+        5,
+        6,
+        6,
+        7,
+        8,
+        8,
+        9,
+        10,
+        10,
+        11,
+        11,
+        11,
+        12,
+        13
+      ],
+      "additionalSpells": [
+        {
+          "known": {
+            "3": [
+              "mage hand#c"
+            ]
+          }
+        }
+      ],
+      "subclassTableGroups": [
+        {
+          "subclasses": [
+            {
+              "name": "Arcane Trickster",
+              "source": "TheAdventuresofTorinCampaignSetting"
+            }
+          ],
+          "colLabels": [
+            "{@filter Cantrips Known|spells|level=0|subclass=Rogue: Arcane Trickster}",
+            "{@filter Spells Known|spells|subclass=Rogue: Arcane Trickster}"
+          ],
+          "rows": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              12
+            ],
+            [
+              4,
+              13
+            ]
+          ]
+        },
+        {
+          "title": "Spell Slots per Spell Level",
+          "subclasses": [
+            {
+              "name": "Arcane Trickster",
+              "source": "TheAdventuresofTorinCampaignSetting"
+            }
+          ],
+          "colLabels": [
+            "{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}",
+            "{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}",
+            "{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}",
+            "{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"
+          ],
+          "rowsSpellProgression": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ]
+          ]
+        }
+      ],
+      "subclassFeatures": [
+        "Arcane Trickster|Rogue|TheAdventuresofTorinCampaignSetting|Arcane Trickster|TheAdventuresofTorinCampaignSetting|3",
+        "Magical Ambush|Rogue|TheAdventuresofTorinCampaignSetting|Arcane Trickster|TheAdventuresofTorinCampaignSetting|6",
+        "Versatile Trickster|Rogue|TheAdventuresofTorinCampaignSetting|Arcane Trickster|TheAdventuresofTorinCampaignSetting|10",
+        "Spell Thief|Rogue|TheAdventuresofTorinCampaignSetting|Arcane Trickster|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Assassin",
+      "shortName": "Assassin",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "subclassFeatures": [
+        "Assassin|Rogue|TheAdventuresofTorinCampaignSetting|Assassin|TheAdventuresofTorinCampaignSetting|3",
+        "Infiltration Expertise|Rogue|TheAdventuresofTorinCampaignSetting|Assassin|TheAdventuresofTorinCampaignSetting|6",
+        "Impostor|Rogue|TheAdventuresofTorinCampaignSetting|Assassin|TheAdventuresofTorinCampaignSetting|10",
+        "Death Strike|Rogue|TheAdventuresofTorinCampaignSetting|Assassin|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Thief",
+      "shortName": "Thief",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "subclassFeatures": [
+        "Thief|Rogue|TheAdventuresofTorinCampaignSetting|Thief|TheAdventuresofTorinCampaignSetting|3",
+        "Supreme Sneak|Rogue|TheAdventuresofTorinCampaignSetting|Thief|TheAdventuresofTorinCampaignSetting|6",
+        "Use Magic Device|Rogue|TheAdventuresofTorinCampaignSetting|Thief|TheAdventuresofTorinCampaignSetting|10",
+        "Thief's Reflexes|Rogue|TheAdventuresofTorinCampaignSetting|Thief|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Inquisitive",
+      "shortName": "Inquisitive",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "subclassFeatures": [
+        "Inquisitive|Rogue|TheAdventuresofTorinCampaignSetting|Inquisitive|TheAdventuresofTorinCampaignSetting|3",
+        "Steady Eye|Rogue|TheAdventuresofTorinCampaignSetting|Inquisitive|TheAdventuresofTorinCampaignSetting|6",
+        "Unerring Eye|Rogue|TheAdventuresofTorinCampaignSetting|Inquisitive|TheAdventuresofTorinCampaignSetting|10",
+        "Eye for Weakness|Rogue|TheAdventuresofTorinCampaignSetting|Inquisitive|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Mastermind",
+      "shortName": "Mastermind",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "otherSources": [
+        {
+          "source": "SCAG",
+          "page": 135
+        }
+      ],
+      "subclassFeatures": [
+        "Mastermind|Rogue|TheAdventuresofTorinCampaignSetting|Mastermind|TheAdventuresofTorinCampaignSetting|3",
+        "Insightful Manipulator|Rogue|TheAdventuresofTorinCampaignSetting|Mastermind|TheAdventuresofTorinCampaignSetting|6",
+        "Misdirection|Rogue|TheAdventuresofTorinCampaignSetting|Mastermind|TheAdventuresofTorinCampaignSetting|10",
+        "Soul of Deceit|Rogue|TheAdventuresofTorinCampaignSetting|Mastermind|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Scout",
+      "shortName": "Scout",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "subclassFeatures": [
+        "Scout|Rogue|TheAdventuresofTorinCampaignSetting|Scout|TheAdventuresofTorinCampaignSetting|3",
+        "Superior Mobility|Rogue|TheAdventuresofTorinCampaignSetting|Scout|TheAdventuresofTorinCampaignSetting|6",
+        "Ambush Master|Rogue|TheAdventuresofTorinCampaignSetting|Scout|TheAdventuresofTorinCampaignSetting|10",
+        "Sudden Strike|Rogue|TheAdventuresofTorinCampaignSetting|Scout|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Swashbuckler",
+      "shortName": "Swashbuckler",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "otherSources": [
+        {
+          "source": "SCAG",
+          "page": 135
+        }
+      ],
+      "subclassFeatures": [
+        "Swashbuckler|Rogue|TheAdventuresofTorinCampaignSetting|Swashbuckler|TheAdventuresofTorinCampaignSetting|3",
+        "Panache|Rogue|TheAdventuresofTorinCampaignSetting|Swashbuckler|TheAdventuresofTorinCampaignSetting|6",
+        "Elegant Maneuver|Rogue|TheAdventuresofTorinCampaignSetting|Swashbuckler|TheAdventuresofTorinCampaignSetting|10",
+        "Master Duelist|Rogue|TheAdventuresofTorinCampaignSetting|Swashbuckler|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Phantom",
+      "shortName": "Phantom",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "subclassFeatures": [
+        "Phantom|Rogue|TheAdventuresofTorinCampaignSetting|Phantom|TheAdventuresofTorinCampaignSetting|3",
+        "Tokens of the Departed|Rogue|TheAdventuresofTorinCampaignSetting|Phantom|TheAdventuresofTorinCampaignSetting|6",
+        "Ghost Walk|Rogue|TheAdventuresofTorinCampaignSetting|Phantom|TheAdventuresofTorinCampaignSetting|10",
+        "Death's Friend|Rogue|TheAdventuresofTorinCampaignSetting|Phantom|TheAdventuresofTorinCampaignSetting|14"
+      ]
+    },
+    {
+      "name": "Soulknife",
+      "shortName": "Soulknife",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "className": "Rogue",
+      "classSource": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "subclassFeatures": [
+        "Soulknife|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|3",
+        "Soul Blades|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|6",
+        "Psychic Veil|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|10",
+        "Rend Mind|Rogue|TheAdventuresofTorinCampaignSetting|Soulknife|TheAdventuresofTorinCampaignSetting|14"
+      ]
     }
   ],
   "optionalfeature": [
@@ -25984,9 +28559,10 @@
       "prerequisite": [
         {
           "level": {
-            "level": 13,
+            "level": 10,
             "class": {
-              "name": "Rogue"
+              "name": "Rogue",
+              "source": "TheAdventuresofTorinCampaignSetting"
             }
           }
         }
@@ -26005,9 +28581,10 @@
       "prerequisite": [
         {
           "level": {
-            "level": 13,
+            "level": 10,
             "class": {
-              "name": "Rogue"
+              "name": "Rogue",
+              "source": "TheAdventuresofTorinCampaignSetting"
             }
           }
         }
@@ -26026,9 +28603,10 @@
       "prerequisite": [
         {
           "level": {
-            "level": 13,
+            "level": 10,
             "class": {
-              "name": "Rogue"
+              "name": "Rogue",
+              "source": "TheAdventuresofTorinCampaignSetting"
             }
           }
         }
@@ -26047,9 +28625,10 @@
       "prerequisite": [
         {
           "level": {
-            "level": 13,
+            "level": 10,
             "class": {
-              "name": "Rogue"
+              "name": "Rogue",
+              "source": "TheAdventuresofTorinCampaignSetting"
             }
           }
         }
@@ -26068,9 +28647,10 @@
       "prerequisite": [
         {
           "level": {
-            "level": 13,
+            "level": 10,
             "class": {
-              "name": "Rogue"
+              "name": "Rogue",
+              "source": "TheAdventuresofTorinCampaignSetting"
             }
           }
         }
@@ -26089,9 +28669,10 @@
       "prerequisite": [
         {
           "level": {
-            "level": 13,
+            "level": 10,
             "class": {
-              "name": "Rogue"
+              "name": "Rogue",
+              "source": "TheAdventuresofTorinCampaignSetting"
             }
           }
         }
@@ -26110,9 +28691,10 @@
       "prerequisite": [
         {
           "level": {
-            "level": 13,
+            "level": 10,
             "class": {
-              "name": "Rogue"
+              "name": "Rogue",
+              "source": "TheAdventuresofTorinCampaignSetting"
             }
           }
         }
@@ -28979,6 +31561,73 @@
       "entries": [
         "When you gain your Cursed Awakening feature, you can use a bonus action to make a creature that you can see forget who you are completely and even forget you were standing right there in front of them, turning {@condition invisible} for that creature for the next minute. Each time you cast a spell or attack them with a weapon, they can make a Wisdom saving throw against your spell save DC, ending your invisibility on a success. You can use this feature once, regaining the ability to use it again when you finish a long rest."
       ]
+    },
+    {
+      "name": "Crane Style",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Martial Style"
+      ],
+      "entries": [
+        "Your martial techniques blend poise with graceful defense. The crane style focuses on defensive stances and agile counterattacks. Monks of this style focus on using graceful, one-legged stances and folding arm techniques that mimic a crane's enormous wings.",
+        "When you take the dodge action, you gain a +2 bonus to your AC. In addition, as a reaction when a creature misses you with a melee attack while within 5ft of you, you can immediately use your reaction to make a melee attack against that creature using an unarmed strike or monk weapon."
+      ]
+    },
+    {
+      "name": "Dragon Style",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Martial Style"
+      ],
+      "entries": [
+        "The dragon style incorporates a wide variety of kicks, sweeps and rapid strikes which rely on a mix between raw strength and great agility. Monks of this style are known to shape their hands to mimic dragon claws.",
+        "When you are not wielding any weapons or only wielding monk weapons, you gain a +1 bonus to damage rolls. In addition, when you hit a creature with a monk weapon or unarmed strike, you can choose to push that creature 5 feet away from you."
+      ]
+    },
+    {
+      "name": "Monkey Style",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Martial Style"
+      ],
+      "entries": [
+        "Your unarmed fighting style is nimble and unpredictable, full of ground rolls and short leaps.",
+        "When you make a long or high jump, you can jump an additional number of feet equal to your Wisdom modifier. You can use your Dexterity score in place of your Strength score when determining how high or how far you can jump. When making a Strength (Athletics) check to climb, you can add your Wisdom modifier to the roll (to a minimum bonus of +1).",
+        "In addition, if you hit a creature with an unarmed strike, you can use a bonus action to take the disengage action."
+      ]
+    },
+    {
+      "name": "Snake Style",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Martial Style"
+      ],
+      "entries": [
+        "Snake style emphasizes quick, shifting movements. Monks of this style normally hold their hands flat with the fingers together to mimic the head of a snake. Able to strike when least expected, snake stylists are known for opportunism and blinding speed.",
+        "You have advantage on opportunity attacks made with unarmed strikes and monk weapons. In addition, when a creature enters your melee range for the first time, you can use a reaction to make a melee attack against them using an unarmed strike or monk weapon."
+      ]
+    },
+    {
+      "name": "Tiger Style",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Martial Style"
+      ],
+      "entries": [
+        "This style seeks to emulate the power and fury of the great tiger. Monks of this style use their hands like claws, perfecting overpowering double hand strikes and driving attack chains.",
+        "When you are not wielding any weapons, you gain a +2 bonus to damage rolls. In addition, as a bonus action you can move up to half your movement toward an enemy."
+      ]
+    },
+    {
+      "name": "Wolf Style",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "featureType": [
+        "Martial Style"
+      ],
+      "entries": [
+        "This style seeks to emulate the tenacity and savagery of the vicious wolf. It focuses on tripping or penalizing an opponent's movement.",
+        "When you hit a creature with a monk weapon or unarmed strike, you can attempt to shove or grapple that creature. When you do, you gain a bonus to the roll equal to your Wisdom modifier (to a minimum bonus of +1)."
+      ]
     }
   ],
   "feat": [
@@ -28986,9 +31635,24 @@
       "name": "Elemental Initiate",
       "source": "TheAdventuresofTorinCampaignSetting",
       "entries": [
-        "You’ve been exposed to and have trained with the power of the elements and can use your ki to channel said elements. See {@i Casting Elemental Spells} from the Way of Four Elements Monk subclass for more information.",
+        "You've been exposed to and have trained with the power of the elements and can use your ki to channel said elements. See {@i Casting Elemental Spells} from the Way of Four Elements Monk subclass for more information.",
         "You have two ki points, of which you can only use to fuel your elemental disciplines. You regain these ki points when you finish a long rest. You learn two {@filter Elemental Disciplines|optionalfeatures|Feature Type=ED} from the Way of Four Elements Monk subclass.",
         "When you level up you can exchange one of the disciplines chosen by this feat for another one. If a discipline has a level requirement, you must be a Way of Four Elements Monk of that level in order to choose it."
+      ]
+    },
+    {
+      "name": "Style Master",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've been trained in a particular martial art, enhancing your ability to defend yourself in melee combat. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "Your unarmed strike uses a d4 for damage. You can use Dexterity in place of Strength for the attack and damage rolls made with unarmed strikes or simple weapons.",
+            "Choose one Martial Style option of your choice from the monk class. If you already have a style, the one you choose must be different.",
+            "Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's martial style with another one from the monk class that you don't have."
+          ]
+        }
       ]
     },
     {
@@ -29293,23 +31957,6 @@
       ]
     },
     {
-      "name": "Draconic Herald",
-      "source": "TheAdventuresofTorinCampaignSetting",
-      "prerequisite": [
-        {
-          "level": 4,
-          "feat": [
-            "Draconic Adept|TheAdventuresofTorinCampaignSetting"
-          ]
-        }
-      ],
-      "entries": [
-        "Continuing your study of dragons, you’ve learned about all kinds of powerful wyrms and why they are so feared. Choose one additional {@filter Draconic Power|optionalfeatures|Feature Type=Draconic Power} option from the dragon warrior class.",
-        "In addition to this power, you have advantage on Charisma ability checks made to influence dragons. This could be interpreted as inducing fear, trying to persuade a dragon to spare you or your companions, or even seek aid from a dragon."
-      ],
-      "page": null
-    },
-    {
       "name": "Escape Artist",
       "source": "TheAdventuresofTorinCampaignSetting",
       "ability": [
@@ -29335,6 +31982,23 @@
       ]
     },
     {
+      "name": "Draconic Herald",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "prerequisite": [
+        {
+          "level": 4,
+          "feat": [
+            "Draconic Adept|TheAdventuresofTorinCampaignSetting"
+          ]
+        }
+      ],
+      "entries": [
+        "Continuing your study of dragons, you’ve learned about all kinds of powerful wyrms and why they are so feared. Choose one additional {@filter Draconic Power|optionalfeatures|Feature Type=Draconic Power} option from the dragon warrior class.",
+        "In addition to this power, you have advantage on Charisma ability checks made to influence dragons. This could be interpreted as inducing fear, trying to persuade a dragon to spare you or your companions, or even seek aid from a dragon."
+      ],
+      "page": null
+    },
+    {
       "name": "Light Armor Master",
       "source": "TheAdventuresofTorinCampaignSetting",
       "ability": [
@@ -29348,6 +32012,33 @@
           "type": "list",
           "items": [
             "While you are wearing light armor, you have an additional +1 bonus to your AC."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agile Maneuvers",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "ability": [
+        {
+          "dex": 1
+        }
+      ],
+      "prerequisite": [
+        {
+          "ability": [
+            {
+              "dex": 13
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You’ve honed your speed and skill to focus more on technique than brute strength when knocking down or grabbing on to foes. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "When you attempt to grapple or shove a creature, you can use Strength or Dexterity for the Athletics check."
           ]
         }
       ]
