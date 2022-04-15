@@ -2639,7 +2639,7 @@
       "rarity": "artifact",
       "reqAttune": true,
       "sentient": true,
-      "weight": 2,
+      "weight": 1,
       "weaponCategory": "martial",
       "range": "20/60",
       "property": [
