@@ -524,7 +524,7 @@
       "weight": 8,
       "value": 25000,
       "range": "40/160",
-      "dmg1": "1d10",
+      "dmg1": "2d6",
       "dmgType": "P",
       "weaponCategory": "Martial Firearm",
       "reload": 5,
