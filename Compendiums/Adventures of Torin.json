@@ -35049,6 +35049,7 @@
           "type": "entries",
           "name": "Parental Legacy",
           "entries": [
+            "Choose two skills to gain proficiency in. In addition, you can choose a legacy for your half-born from a large variety. ",
             "Choose two races that are not already considered to be a mix of two races, for example you cannot choose Half Elf or Half orc. Shifter, Firbolg, and Changelings are also examples as ones you cannot pick, however Goliath is a valid option. You gain the following benefits:",
             {
               "type": "list",
