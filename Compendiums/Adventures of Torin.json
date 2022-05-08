@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
@@ -524,7 +525,7 @@
       "weight": 8,
       "value": 25000,
       "range": "40/160",
-      "dmg1": "2d6",
+      "dmg1": "1d10",
       "dmgType": "P",
       "weaponCategory": "Martial Firearm",
       "reload": 5,
@@ -5190,7 +5191,6 @@
       ]
     }
   ],
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
   "weaponCategory": [
     {
       "abbreviation": "SF",
@@ -34952,8 +34952,151 @@
       ]
     },
     {
+      "name": "Half-Born",
+      "darkvision": 60,
+      "age": {
+        "mature": 20,
+        "max": 250
+      },
+      "size": [
+        "M",
+        "S"
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "any": 2
+        }
+      ],
+      "toolProficiencies": [
+        {
+          "any": 1
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "The intermingling of races is an occurrence quite common among the people of Torin, as unity between nations has been very historically present. Oftentimes, this means that kings and queens are of different races, thus leading to the people of that nation to do the same.",
+          "Without that incentive, love can be found in all shapes and sizes, so understandably this can result in a half-born child."
+        ]
+      },
+      "languageProficiencies": [
+        {
+          "common": true,
+          "anyStandard": 2
+        }
+      ],
+      "_versions": [
+        {
+          "name": "Half-Born; Darkvision",
+          "source": "TheAdventuresofTorinCampaignSetting",
+          "_mod": {
+            "entries": {
+              "mode": "replaceArr",
+              "replace": "Variable Trait",
+              "items": {
+                "name": "Variable Trait; Darkvision",
+                "type": "entries",
+                "entries": [
+                  "You gain {@sense darkvision} with a range of 60 feet."
+                ]
+              }
+            }
+          },
+          "toolProficiencies": null
+        },
+        {
+          "name": "Half-Born; Versatile",
+          "source": "TheAdventuresofTorinCampaignSetting",
+          "_mod": {
+            "entries": {
+              "mode": "replaceArr",
+              "replace": "Variable Trait",
+              "items": {
+                "name": "Variable Trait; Versatile",
+                "type": "entries",
+                "entries": [
+                  "You can gain proficiency in one weapon or tool."
+                ]
+              }
+            }
+          },
+          "darkvision": null
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "You age and mature at the same rate as a human, but your lifespan is half of that of your longest living parent or ancestor. For example, if your parents or ancestors are humans and elves, you would approximately live to be as old as 325."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Parental Legacy",
+          "entries": [
+            "Choose two races that are not already considered to be a mix of two races, for example you cannot choose Half Elf or Half orc. Shifter, Firbolg, and Changelings are also examples as ones you cannot pick, however Goliath is a valid option. You gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You can choose one feature from each race and you are considered as those races for any prerequisite or effect that requires you to be that race.",
+                "If either of the chosen races has any of the Fey Ancestry, Amphibious, Chromatic Ancestry, Metallic Ancestry, or Gem Ancestry traits, you automatically gain that trait, which doesn't count toward the benefit above.",
+                "If either of the chosen races has a special speed, a faster walking speed or a swimming speed for instance, you choose one of them to gain."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Variable Trait",
+          "entries": [
+            "You gain one of the following options of your choice: ",
+            {
+              "type": "list",
+              "items": [
+                {
+                  "type": "entries",
+                  "name": "Darkvision",
+                  "entries": [
+                    "You gain darkvision out to a range of 60 feet."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Versatile",
+                  "entries": [
+                    "You can gain proficiency in one weapon or tool."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "speed": 30,
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null
+    },
+    {
       "name": "Protector Aasimar",
       "source": "TheAdventuresofTorinCampaignSetting",
+      "creatureTypeTags": [
+        "aasimar"
+      ],
       "page": null,
       "size": [
         "S",
@@ -35061,6 +35204,9 @@
       "name": "Fallen Aasimar",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "aasimar"
+      ],
       "size": [
         "S",
         "M"
@@ -35168,6 +35314,9 @@
       "name": "Scourge Aasimar",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "aasimar"
+      ],
       "size": [
         "S",
         "M"
@@ -35274,6 +35423,9 @@
       "name": "Naturia Aasimar",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "aasimar"
+      ],
       "size": [
         "S",
         "M"
@@ -35385,6 +35537,9 @@
         "M"
       ],
       "speed": 30,
+      "creatureTypeTags": [
+        "aasimar"
+      ],
       "lineage": "VRGR",
       "heightAndWeight": {
         "baseHeight": 56,
@@ -35487,6 +35642,9 @@
       "name": "Blood-Boiled Aasimar",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "aasimar"
+      ],
       "size": [
         "S",
         "M"
@@ -35593,6 +35751,9 @@
       "name": "Avernus Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -35698,6 +35859,9 @@
       "name": "Dis Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -35796,6 +35960,9 @@
       "name": "Minauros Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -35894,6 +36061,9 @@
       "name": "Phlegethos Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -36019,6 +36189,9 @@
       "name": "Stygia Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -36124,6 +36297,9 @@
       "name": "Malbolge Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -36222,6 +36398,9 @@
       "name": "Maladomini Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -36321,6 +36500,9 @@
       "name": "Cania Tiefling",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "size": [
         "S",
         "M"
@@ -36430,6 +36612,9 @@
         "S",
         "M"
       ],
+      "creatureTypeTags": [
+        "tiefling"
+      ],
       "speed": 30,
       "lineage": "VRGR",
       "heightAndWeight": {
@@ -36524,6 +36709,9 @@
       "name": "Elf",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "elf"
+      ],
       "size": [
         "M"
       ],
@@ -36663,6 +36851,9 @@
       "page": null,
       "size": [
         "M"
+      ],
+      "creatureTypeTags": [
+        "elf"
       ],
       "speed": 30,
       "lineage": "VRGR",
@@ -36808,6 +36999,9 @@
       "name": "Avariel Elf",
       "source": "TheAdventuresofTorinCampaignSetting",
       "page": null,
+      "creatureTypeTags": [
+        "elf"
+      ],
       "size": [
         "M"
       ],
@@ -36911,6 +37105,9 @@
         "M"
       ],
       "speed": 30,
+      "creatureTypeTags": [
+        "elf"
+      ],
       "lineage": "VRGR",
       "heightAndWeight": {
         "baseHeight": 54,
@@ -37000,6 +37197,9 @@
     {
       "name": "Wildfire Elf",
       "source": "TheAdventuresofTorinCampaignSetting",
+      "creatureTypeTags": [
+        "elf"
+      ],
       "page": null,
       "size": [
         "M"
