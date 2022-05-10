@@ -34816,6 +34816,663 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Favored Worshiper",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "additionalSpells": [
+        {
+          "name": "Fiendish",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "_": [
+              {
+                "choose": "level=0|class=Cleric",
+                "count": 1
+              }
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "augury",
+                  {
+                    "choose": "level=1|class=sorcerer;warlock"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Heavenly",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "_": [
+              {
+                "choose": "level=0|class=Cleric",
+                "count": 1
+              }
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "augury",
+                  {
+                    "choose": "level=1|class=cleric;paladin"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Nature",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "_": [
+              {
+                "choose": "level=0|class=Cleric",
+                "count": 1
+              }
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "augury",
+                  {
+                    "choose": "level=1|class=druid;ranger"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        "A divine being has chosen you to carry a small portion of their power. You learn one cantrip of your choice from the cleric spell list and one 1st-level spell based on the domain of your deity, as specified in the Domain Spells table below. You also learn the {@spell Augury} spell.",
+        "You can cast the chosen 1st-level spell and the {@spell augury} spell without a spell slot, and you must finish a long rest before you can cast either of these spells in this way again. You can also cast these spells using spell slots you have of the appropriate level.",
+        "Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+        {
+          "type": "table",
+          "caption": "Domain Spells",
+          "colLabels": [
+            "Domain",
+            "1st-level Spell"
+          ],
+          "colStyles": [
+            "col-2",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "Heavenly",
+              "Choose one {@filter 1st-level cleric or paladin spell|spells|level=1|class=cleric;paladin}."
+            ],
+            [
+              "Nature",
+              "Choose one {@filter 1st-level druid or ranger spell|spells|level=1|class=druid;ranger}."
+            ],
+            [
+              "Fiendish",
+              "Choose one {@filter 1st-level sorcerer or warlock spell|spells|level=1|class=sorcerer;warlock}."
+            ]
+          ]
+        },
+        "In addition, you can use a {@item holy symbol|phb} as a spellcasting focus for any spell you cast that uses the spellcasting ability you choose when you select this feat."
+      ]
+    },
+    {
+      "name": "Divine Consort",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "prerequisite": [
+        {
+          "level": 4,
+          "feat": [
+            "Favored Worshiper|TheAdventuresofTorinCampaignSetting"
+          ]
+        }
+      ],
+      "additionalSpells": [
+        {
+          "name": "Fiendish",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  {
+                    "choose": "level=2|class=sorcerer;warlock"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Heavenly",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  {
+                    "choose": "level=2|class=cleric;paladin"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Nature",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  {
+                    "choose": "level=2|class=druid;ranger"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Your divine entity is pleased with your efforts, and grants you a larger portion of their power, giving you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Divine Magic",
+              "entries": [
+                "You learn one 2nd level spell from the same spell lists given by your Domain chosen from your Favored Worshiper feat. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the Favored Worshiper feat."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Channel Divine Power",
+              "entries": [
+                "You gain the ability to harness divine power given by your divine entity. As a bonus action, roll a number of d10s equal to your proficiency bonus. You can grant a creature within 30 feet of you (you can choose yourself) temporary hit points equal to the total plus your proficiency bonus. Once you’ve done so, you cannot do so again until you finish a short or long rest. If you have the Channel Divinity feature from either the cleric or paladin classes, this becomes a channel divinity option and you gain one additional use of your channel divinity, which replenishes after you complete a short or long rest."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcane Initiate",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "additionalSpells": [
+        {
+          "name": "The Weave and Raw Magic",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "_": [
+              {
+                "choose": "level=0|class=Wizard",
+                "count": 1
+              }
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "detect magic",
+                  {
+                    "choose": "level=1|class=sorcerer;wizard"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Divine Magic",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "_": [
+              {
+                "choose": "level=0|class=Cleric",
+                "count": 1
+              }
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "detect magic",
+                  {
+                    "choose": "level=1|class=cleric;druid"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Otherworldly Magic",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "known": {
+            "_": [
+              {
+                "choose": "level=0|class=Wizard",
+                "count": 1
+              }
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  "detect magic",
+                  {
+                    "choose": "level=1|class=bard;warlock"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You’ve spent a great deal of time learning about the various arcane arts, perhaps even teaching it. You learn one cantrip of your choice from the wizard spell list and one 1st-level spell based on the area of study, as specified in the Area of Study Spells table below. You also learn the {@spell Detect Magic} spell.",
+        "You can cast the chosen 1st-level spell and the {@spell detect magic} spell without a spell slot, and you must finish a long rest before you can cast either of these spells in this way again. You can also cast these spells using spell slots you have of the appropriate level.",
+        "Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+        {
+          "type": "table",
+          "caption": "Domain Spells",
+          "colLabels": [
+            "Area of Study",
+            "1st-level Spell"
+          ],
+          "colStyles": [
+            "col-2",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "Heavenly",
+              "Choose one {@filter 1st-level sorcerer or wizard spell|spells|level=1|class=sorcerer;wizard}."
+            ],
+            [
+              "Divine Magic",
+              "Choose one {@filter 1st-level cleric or druid spell|spells|level=1|class=cleric;druid}."
+            ],
+            [
+              "Otherworldly Magic",
+              "Choose one {@filter 1st-level bard or warlock spell|spells|level=1|class=bard;warlock}."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcane Adept",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "prerequisite": [
+        {
+          "level": 4,
+          "feat": [
+            "Arcane Initiate|TheAdventuresofTorinCampaignSetting"
+          ]
+        }
+      ],
+      "additionalSpells": [
+        {
+          "name": "The Weave and Raw Magic",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  {
+                    "choose": "level=2|class=sorcerer;wizard"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Divine Magic",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  {
+                    "choose": "level=2|class=cleric;druid"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "Otherworldly Magic",
+          "ability": {
+            "choose": [
+              "int",
+              "wis",
+              "cha"
+            ]
+          },
+          "innate": {
+            "_": {
+              "daily": {
+                "1e": [
+                  {
+                    "choose": "level=2|class=bard;warlock"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        "Your research has developed further, expanding your ability to cast magic, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            {
+              "type": "entries",
+              "name": "Studious Magic",
+              "entries": [
+                "You learn one 2nd level spell from the same spell lists given by your Area of Study chosen from your Arcane Initiate feat. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the Arcane Initiate feat."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Magical Surge",
+              "entries": [
+                "As a reaction when you cast a spell, you can channel magic through your body to strengthen the potency of it momentarily. Until the start of your next turn, the spell you cast is treated as if you cast it using a spell slot one level higher. You can use this benefit twice, regaining all expended uses when you finish a long rest. Each time you use this benefit, you gain one level of exhaustion."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Masquerader",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "toolProficiencies": [
+        {
+          "disguise kit": true
+        }
+      ],
+      "entries": [
+        "You are a master of disguise and deceit, constantly acquiring different titles and aliases. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency with a {@item Disguise Kit|phb} if you don't already have it.",
+            "With one hour of work or when you finish a long rest, you can create a number of uncanny disguises equal to your proficiency bonus. Occupation of the disguise determines the cost of materials for making them. The occupation table below lists the prices for each disguise. Each disguise is expertly made with extra time dedicated to them. While wearing one of these disguises, a creature is given a bonus to their Charisma (Deception) checks to look like a member of that occupation equal to your proficiency bonus."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Occupation Table",
+          "colLabels": [
+            "Occupation",
+            "Cost Per Disguise"
+          ],
+          "colStyles": [
+            "col-2",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "Commonfolk",
+              "1 gp"
+            ],
+            [
+              "Fairfolk",
+              "5 gp"
+            ],
+            [
+              "Noblefolk",
+              "10 gp"
+            ],
+            [
+              "Royalty",
+              "25 gp"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adept Trickster",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "toolProficiencies": [
+        {
+          "thieves' tools": true
+        }
+      ],
+      "entries": [
+        "You are a master of disguise and deceit, constantly acquiring different titles and aliases. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency with {@item thieves' tools|phb} if you don't already have it.",
+            "With one hour of work or when you finish a long rest, you can create a number of uncanny disguises equal to your proficiency bonus. Occupation of the disguise determines the cost of materials for making them. The occupation table below lists the prices for each disguise. Each disguise is expertly made with extra time dedicated to them. While wearing one of these disguises, a creature is given a bonus to their Charisma (Deception) checks to look like a member of that occupation equal to your proficiency bonus."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master Performer",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You know how to please a crowd of people and keep the attention on you. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on Charisma (Performance) checks made when trying to entertain a crowd or draw attention towards you.",
+            "When you use the help action to distract a creature and give an ally advantage on an attack roll, you can do so from up to 60 feet away from the target being distracted, provided they can hear or see you."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heroic Stalwart",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You are defined as a hero to certain communities, a mantle of inspiration to yourself and your allies with a defining moment granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on saving throws made to avoid being {@condition frightened}.",
+            "When you, or an ally that can see you, fails an ability check or saving throw, you can use your reaction to reroll the d20, taking the higher result. You can provide this benefit twice, regaining all expended uses when you finish a long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adept Artisan",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've spent an exceptional amount of time learning and mastering certain crafts, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency in one tool of your choice.",
+            "Choose one tool in which you have proficiency. You gain expertise with that tool, which means your proficiency bonus is doubled for any ability check you make with it. The tool you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Secluded Researcher",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You lived in isolation for a time where you focused entirely on researching a particular field of study, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "By spending at least 10 minutes you can enter a state of keen focus, giving you advantage on Intelligence (Investigation) and Wisdom (Perception) checks for the next hour. During this time, you cannot concentrate on spells. If you take damage while in this state, you must make a concentration check as if you were concentrating on a spell. If you fail, your state of focus immediately ends.",
+            "You have advantage on ability checks made when participating in the Research Downtime Activity, provided you do so in total isolation."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Favored Consort",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've spent time around nobility or served as nobility yourself, gaining a certain level of confidence and valor, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "If you roll a 5 or lower on the d20 for a Charisma (Persuasion) check, you can spend your reaction to reroll the d20. You must use the new result when you use this feature.",
+            "You have advantage on Intelligence (History) checks made to recall information on nobility and royalty within your country."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wild Instincts",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've spent time around nobility or served as nobility yourself, gaining a certain level of confidence and valor, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "If you roll a 5 or lower on the d20 for an Initiative check, you can reroll the d20. You must use the new result when you use this feature.",
+            "You have advantage on ability checks made to track, hunt, scavenge, and to make camouflage with the natural terrain (such as bushes, dirt, mud, etc)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sea Legged",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've gained experience sailing on a ship and lugging around cargo, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on ability checks and saving throws made to avoid being knocked prone, pushed, or dragged.",
+            "You count as one size larger when determining your carrying weight and the weight you can push, drag, or lift. If you already have a feature providing this benefit, you do not benefit from it again."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "War Trained",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've been trained in the art of war either serving as a soldier or being mentored by one, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You choose two martial or simple weapons. You gain proficiency with them if you didn’t already have it, also you gain a +2 bonus to attack rolls made with those weapons.",
+            {
+              "type": "entries",
+              "name": "War Cry",
+              "entries": [
+                "As a bonus action, you release outward a powerful war cry to inspire you and your allies. Roll 1d10 and add your proficiency bonus, you and each creature within 30 feet of you that can hear you gain temporary hit points equal to the result and they have advantage on their next attack roll. You can use this benefit twice, regaining all expended uses when you finish a long rest."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Streetwise",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "entries": [
+        "You've experienced a wretched lifestyle on the streets, having to fend for yourself oftentimes, granting you the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on Wisdom (Insight) checks made to determine if someone is lying.",
+            "You have a particular artistry for making scams and conning people out of money for your own benefit. While in a populated area, you can spend an hour of work attempting to scam people. Make a Charisma (Deception) check with a flat DC of 15 (the DM may introduce higher or lower DCs depending on certain circumstances). On a success, you can earn a number of gp equal to 10 times your proficiency bonus. On a fail, you make half as much, unless you fail by 5 or more, which earns you nothing."
+          ]
+        }
+      ]
     }
   ],
   "variantrule": [
@@ -37506,6 +38163,587 @@
         "As long as you have at least one charge, your movement speed is increased by 10 ft. As an action, you can expend a charge to touch a creature and increase their movement speed by 10 ft.",
         "At 5th level, the increase to both yours and the target’s movement speed becomes 15 ft, at 11th level the increase becomes 20 ft, and at 17th level the increase becomes 25 feet."
       ]
+    }
+  ],
+  "background": [
+    {
+      "name": "Acolyte",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "feats": [
+        {
+          "choose": {
+            "from": [
+              "gift of the celestials|TheAdventuresofTorinCampaignSetting",
+              "healer|phb",
+              "ritual caster|phb"
+            ]
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "insight": true,
+          "religion": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "anyStandard": 2
+        }
+      ],
+      "startingEquipment": [
+        {
+          "_": [
+            {
+              "item": "holy symbol|phb",
+              "displayName": "holy symbol (a gift to you when you entered the priesthood)"
+            },
+            {
+              "special": "sticks of incense",
+              "quantity": 5
+            },
+            {
+              "special": "vestments"
+            },
+            "common clothes|phb",
+            {
+              "item": "pouch|phb",
+              "containsValue": 1500
+            }
+          ]
+        },
+        {
+          "a": [
+            {
+              "item": "book|phb",
+              "displayName": "prayer book"
+            }
+          ],
+          "b": [
+            {
+              "special": "prayer wheel"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "type": "item",
+              "name": "Skill Proficiencies:",
+              "entry": "{@skill Insight}, {@skill Religion}"
+            },
+            {
+              "type": "item",
+              "name": "Languages:",
+              "entry": "Two of your choice"
+            },
+            {
+              "type": "item",
+              "name": "Equipment:",
+              "entry": "A {@item holy symbol|phb} (a gift to you when you entered the priesthood), a prayer {@item book|phb} or prayer wheel, 5 sticks of incense, vestments, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+            }
+          ]
+        },
+        {
+          "name": "Feature: Shelter of the Faithful",
+          "type": "entries",
+          "entries": [
+            "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
+            "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+          ],
+          "data": {
+            "isFeature": true
+          }
+        },
+        {
+          "name": "Suggested Characteristics",
+          "type": "entries",
+          "entries": [
+            "Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+            {
+              "type": "table",
+              "colLabels": [
+                "d8",
+                "Personality Trait"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."
+                ],
+                [
+                  "2",
+                  "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace."
+                ],
+                [
+                  "3",
+                  "I see omens in every event and action. The gods try to speak to us, we just need to listen."
+                ],
+                [
+                  "4",
+                  "Nothing can shake my optimistic attitude."
+                ],
+                [
+                  "5",
+                  "I quote (or misquote) sacred texts and proverbs in almost every situation."
+                ],
+                [
+                  "6",
+                  "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods."
+                ],
+                [
+                  "7",
+                  "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+                ],
+                [
+                  "8",
+                  "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Ideal"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+                ],
+                [
+                  "2",
+                  "Charity. I always try to help those in need, no matter what the personal cost. (Good)"
+                ],
+                [
+                  "3",
+                  "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+                ],
+                [
+                  "4",
+                  "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+                ],
+                [
+                  "5",
+                  "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
+                ],
+                [
+                  "6",
+                  "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Bond"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "I would die to recover an ancient relic of my faith that was lost long ago."
+                ],
+                [
+                  "2",
+                  "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic."
+                ],
+                [
+                  "3",
+                  "I owe my life to the priest who took me in when my parents died."
+                ],
+                [
+                  "4",
+                  "Everything I do is for the common people."
+                ],
+                [
+                  "5",
+                  "I will do anything to protect the temple where I served."
+                ],
+                [
+                  "6",
+                  "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Flaw"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "I judge others harshly, and myself even more severely."
+                ],
+                [
+                  "2",
+                  "I put too much trust in those who wield power within my temple's hierarchy."
+                ],
+                [
+                  "3",
+                  "My piety sometimes leads me to blindly trust those that profess faith in my god."
+                ],
+                [
+                  "4",
+                  "I am inflexible in my thinking."
+                ],
+                [
+                  "5",
+                  "I am suspicious of strangers and expect the worst of them."
+                ],
+                [
+                  "6",
+                  "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "City Guard",
+      "source": "TheAdventuresofTorinCampaignSetting",
+      "page": null,
+      "skillProficiencies": [
+        {
+          "athletics": true,
+          "insight": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "anyStandard": 2
+        }
+      ],
+      "startingEquipment": [
+        {
+          "_": [
+            {
+              "special": "A uniform in the style of your community and indicative of your role"
+            },
+            {
+              "item": "horn|phb",
+              "displayName": "horn with which to summon help"
+            },
+            {
+              "item": "manacles|phb",
+              "displayName": "set of manacles"
+            },
+            {
+              "item": "pouch|phb",
+              "containsValue": 1000
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "type": "item",
+              "name": "Skill Proficiencies:",
+              "entry": "{@skill Athletics}, {@skill Perception}"
+            },
+            {
+              "type": "item",
+              "name": "Languages:",
+              "entry": "Any one of your choice"
+            },
+            {
+              "type": "item",
+              "name": "Equipment:",
+              "entry": "A uniform in the style of your community and indicative of your role, a {@item horn|phb} with which to summon help, a set of {@item manacles|phb}, and a {@item pouch|phb} containing 10 gp"
+            }
+          ]
+        },
+        {
+          "name": "Feature: Guard Role",
+          "type": "entries",
+          "entries": [
+            "Every member of the city guard has a role given to them based on their training and experience.",
+            {
+              "type": "entries",
+              "name": "Trainees",
+              "entries": [
+                "A trainee, as the name implies, is a guard in training. Trainees have the lowest ranking in authority due to naivety, lack of experience, and lack of relations with the guard force. This isn’t to say they aren’t respected, but they are more likely to be disrespected by other guards and the community."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Captains",
+              "entries": [
+                "A captain is a well respected and seasoned member of the guards, likely been around the longest and is typically in charge of hiring volunteers and stationing existing guards by assigning their roles and positions. Despite what one would expect, captains do not get paid any differently from even a trainee despite the increased workload, leaving little incentive to seek becoming a captain in the first place."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Investigators",
+              "entries": [
+                "Sometimes crimes go initially unnoticed and need some investigation to solve the mysteries within these crimes. Unlike a private investigator, you work primarily for the guard and do not get paid any differently from the other guard roles."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Healers",
+              "entries": [
+                "Whenever there are major injuries inflicted upon other guards or citizens caught in the crossfire of crimes and monster attacks, healers within the guard are quick to come to their aid. This role is more rare to see, but not unheard of."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Defenders",
+              "entries": [
+                "More aligned with what everyone expects and associates with guards, these are the surveyors of the local community, strategically stationed to patrol around busier sections of the community to keep a watchful eye for crime and dangerous activity. They help defend the city against monster attacks and use force if they must to stop criminals."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Arcane Associates",
+              "entries": [
+                "An extremely rare role within guards, typically more common among larger cities or capitals, but this is typically someone who is well versed with magic. Whether they use magic themselves or simply know a lot about it, arcane associates help determine whether certain magic was used in a crime and how it was used. Most arcane associates are wizards or artificers, but are not limited to those classifications."
+              ]
+            },
+            "Roll a d6 or choose from the options in the table below to determine your role:",
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Role"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Trainee"
+                ],
+                [
+                  "2",
+                  "Investigator"
+                ],
+                [
+                  "3",
+                  "Healer"
+                ],
+                [
+                  "4",
+                  "Defender"
+                ],
+                [
+                  "5",
+                  "Arcane Associate"
+                ],
+                [
+                  "6",
+                  "Captain"
+                ]
+              ]
+            }
+          ],
+          "data": {
+            "isFeature": true
+          }
+        },
+        {
+          "name": "Suggested Characteristics",
+          "type": "entries",
+          "entries": [
+            {
+              "type": "table",
+              "colLabels": [
+                "d8",
+                "Personality Trait"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "I'm always polite and respectful."
+                ],
+                [
+                  "2",
+                  "I don't get paid enough to deal with you, so don’t give me any trouble."
+                ],
+                [
+                  "3",
+                  "If someone is in trouble, I'm always ready to lend help."
+                ],
+                [
+                  "4",
+                  "I ask a lot of questions."
+                ],
+                [
+                  "5",
+                  "There's nothing I like more than a good mystery."
+                ],
+                [
+                  "6",
+                  "I am horribly, horribly awkward in social situations."
+                ],
+                [
+                  "7",
+                  "I have a crude sense of humor."
+                ],
+                [
+                  "8",
+                  "I face problems head-on. A simple, direct solution is the best path to success."
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Ideal"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Greater Good. Our lot is to lay down our lives in defense of others. (Good)"
+                ],
+                [
+                  "2",
+                  "Responsibility. I do what I must and obey just authority. (Lawful)"
+                ],
+                [
+                  "3",
+                  "Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)"
+                ],
+                [
+                  "4",
+                  "Power. We can do what we want when we are the law, and we can get away with it too. (Evil)"
+                ],
+                [
+                  "5",
+                  "Live and Let Live. Ideals aren't worth killing over. (Neutral)"
+                ],
+                [
+                  "6",
+                  "Nation. My city, nation, or people are all that matter. (Any)"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Bond"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "I would still lay down my life for the people I served with."
+                ],
+                [
+                  "2",
+                  "My community took care of me when I had no one. To this day, I swear to protect them."
+                ],
+                [
+                  "3",
+                  "My honor is my life."
+                ],
+                [
+                  "4",
+                  "A guard saved my life once, they inspired me to be the person I am now."
+                ],
+                [
+                  "5",
+                  "Those who fight beside me are those worth dying for."
+                ],
+                [
+                  "6",
+                  "I fight for those who cannot fight for themselves."
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "colLabels": [
+                "d6",
+                "Flaw"
+              ],
+              "colStyles": [
+                "col-1 text-center",
+                "col-11"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "I obey the law, even if the law causes misery."
+                ],
+                [
+                  "2",
+                  "I'd rather eat my armor than admit when I'm wrong."
+                ],
+                [
+                  "3",
+                  "It’s always happy hour somewhere right? You got a drink on ya..?"
+                ],
+                [
+                  "4",
+                  "Despite being an enforcer of it, sometimes I can’t help myself but break a law or two."
+                ],
+                [
+                  "5",
+                  "Yeah, yeah, sure you did nothing wrong. Guilty until proven innocent."
+                ],
+                [
+                  "6",
+                  "There is nothing greater than the law, and I am the law."
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "hasFluff": true,
+      "fluff": {
+        "entries": [
+          "You have served the community where you grew up, standing as its first line of defense against crime and other dangerous activity. Most guards have standardized combat and observational training, which includes primarily weapon training and how to keep a sharp eye for trouble.",
+          "Though the name implies it, this background is not limited to large cities. Any community that is large enough, such as a small town or even a village, can have guards or law enforcement of some kind. Regardless of origin, guards are not paid extremely well. Most are volunteers trying to do good for their community. Though, all guards are given external benefits from good pay, such as reduced cost for healing at their local churches, a decreased tax on property owned locally, and other benefits.",
+          "Some guards take up certain roles and are not all limited to patrolling and keeping watch, implying that while all guards receive the standard training, it may not be as equally distributed or necessarily required in certain areas. When you choose this background, work with your DM to determine which role you may have had during your time as a guard."
+        ]
+      }
     }
   ]
 }
