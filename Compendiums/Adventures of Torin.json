@@ -35149,7 +35149,7 @@
         "Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
         {
           "type": "table",
-          "caption": "Domain Spells",
+          "caption": "Areas of Study Spells",
           "colLabels": [
             "Area of Study",
             "1st-level Spell"
@@ -35160,7 +35160,7 @@
           ],
           "rows": [
             [
-              "Heavenly",
+              "The Weave and Raw Magic",
               "Choose one {@filter 1st-level sorcerer or wizard spell|spells|level=1|class=sorcerer;wizard}."
             ],
             [
