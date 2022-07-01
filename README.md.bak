@@ -22,7 +22,6 @@ Instructions for Integrating my Homebrew to 5eTools, BetteR20, and Plutonium:
 8. Hit OK.
 9. Enjoy your Homebrew!
 10. Repeat Steps 1-9 for each homebrew you want to integrate, my suggestion is that if the option is available in one of the Compendiums, integrate the Compendium file.
-11. If you installed the primary file (Adventures of Torin.json), it is highly recommended to also import the content black list, instructions below.
 
 BetteR20:
 
@@ -44,12 +43,3 @@ IMPORTANT
 The folder "Classes in Torin" contains files that are NOT compatible with each other and will cause problems if used at the same time. In the future, I will find a better way to incorperate them with other "required" files. For now, however, use each file individually.
 
 The "Adventures of Torin" file contains all the most up to date homebrew. The "Subclasses Legacy" contains the older variants before the Class Overhaul, however I'm uncertain how much it actually works.
-
-Content Blacklist Importation:
-
-1. Download the Content Blacklist file.
-2. Go to the 5eTools Site.
-3. Go to the Utilities Tab on the top of the site and click the dropdown.
-4. Go to "Content Blacklist".
-5. Click on the "Import List" button and select the Content Blacklist file you downloaded.
-6. Now you're done!
