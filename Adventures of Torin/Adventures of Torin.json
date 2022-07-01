@@ -34158,7 +34158,7 @@
         "At 1st level, you learn how to invest a spark of magic into mundane objects. When you craft a mundane object, you do so spending only half of its required material cost and half the time needed to craft it.",
         "In addition, you can combine some of your magic within mundane objects, allowing you to turn them into minor magical items. With one hour of work, or when you finish a short or long rest, you can transform a number of nonmagical objects that aren't armor, weapons, or a shield, equal to your Intelligence modifier (minimum of 1) into a Tinkered Object, granting them a Tinker Mod you know. You can do so once per long rest. If you spend gold to turn an object into a permanent Tinkered Object (the cost of which is detailed in the Tinker Mod), you can do so with no limit. An object can only hold 1 Tinker Mod at a time, and it loses the Tinker Mod if you attempt to add a different Tinker Mod to it, or if you die. A dispel magic spell can also dismiss the effects of the Tinker Mod, requiring 10 minutes, or spending a 1st-level or higher spell slot to reapply the lost magic.",
         "A Tinker Mod is a small magical modification that can add to the versatility and power of an object. These are often the beginnings to your magical inventions to come. A Tinkered Object can also be used as an arcane focus for your artificer spells, provided it can fit in one hand and can be carried. Some Tinker Mods require specific requirements to apply and learn them. If you lose one of these requirements over your adventure for one of your known Tinker Mods, you lose the ability to grant the mod to an object, but not the knowledge of the Tinker Mod itself.",
-        "class, as shown in the Artificer Table. You can replace a Tinker Mod you know for another one that you qualify for each time you gain a level in this class. If any objects were granted a Tinker Mod that you have replaced for another one, they lose the mod. If a Tinker Mod requires a saving throw, it uses your Artificer Spell Save DC.",
+        "You have one known Tinker Mod and you learn more Tinker Mods as you gain levels in this class, as shown in the Artificer Table. You can replace a Tinker Mod you know for another one that you qualify for each time you gain a level in this class. If any objects were granted a Tinker Mod that you have replaced for another one, they lose the mod. If a Tinker Mod requires a saving throw, it uses your Artificer Spell Save DC.",
         {
           "type": "inset",
           "name": "Artificer Tinker Mods",
@@ -36332,7 +36332,6 @@
         "You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.",
         {
           "type": "options",
-          "count": 2,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -36681,7 +36680,6 @@
         "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
         {
           "type": "options",
-          "count": 1,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -37187,7 +37185,6 @@
         "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
         {
           "type": "options",
-          "count": 1,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -38095,7 +38092,6 @@
         "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
         {
           "type": "options",
-          "count": 1,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -51518,7 +51514,6 @@
         "Also at 1st level, magical runes appear on your runic weapons. Choose two of the listed runes below, you learn how to scribe these runes on your runic weapons, which you can do after you complete a long rest or when you perform the ritual to create and or transform them. You can only have one rune active at a time.",
         {
           "type": "options",
-          "count": 2,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -57228,7 +57223,6 @@
         "The elemental disciplines are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline.",
         {
           "type": "options",
-          "count": 3,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -59153,7 +59147,6 @@
         "The maneuvers are presented in alphabetical order.",
         {
           "type": "options",
-          "count": 3,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -59872,7 +59865,6 @@
         "The following runes are available to you when you learn a rune. If a rune has a level requirement, you must be at least that level in this class to learn the rune. If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Constitution modifier.",
         {
           "type": "options",
-          "count": 2,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -60088,7 +60080,6 @@
         },
         {
           "type": "options",
-          "count": 2,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -65740,7 +65731,6 @@
         "At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
         {
           "type": "options",
-          "count": 1,
           "entries": [
             {
               "type": "refOptionalfeature",
