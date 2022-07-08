@@ -23626,25 +23626,6 @@
             "Martial Style"
           ],
           "progression": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
             1
           ]
         }
@@ -35884,7 +35865,6 @@
         "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.",
         {
           "type": "options",
-          "count": 1,
           "entries": [
             {
               "type": "refOptionalfeature",
@@ -37614,7 +37594,6 @@
         "Whenever you reach a level that grants the Ability Score Improvement feature, you can replace a style with another one that you don't have.",
         {
           "type": "options",
-          "count": 1,
           "entries": [
             {
               "type": "refOptionalfeature",
